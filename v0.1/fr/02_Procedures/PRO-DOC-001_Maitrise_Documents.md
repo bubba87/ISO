@@ -1,0 +1,191 @@
+# Procedure de Maitrise des Documents et Enregistrements
+
+| | |
+|---|---|
+| **Reference** | PRO-DOC-001 |
+| **Version** | 1.0 |
+| **Date de creation** | 10/02/2026 |
+| **Date de revision** | 10/02/2026 |
+| **Redige par** | Roxane Wicky |
+| **Approuve par** | Roxane Wicky |
+
+---
+
+## 1. Objet
+
+Definir les regles de creation, approbation, diffusion, mise a jour et archivage de tous les documents et enregistrements du Systeme de Management de la Qualite (SMQ) de Plus Sarl.
+
+## 2. Domaine d'application
+
+Cette procedure s'applique a l'ensemble des documents du SMQ :
+- Politique qualite, objectifs, cartographie
+- Procedures, instructions de travail
+- Formulaires et enregistrements
+- Documents d'origine externe (normes, specifications clients, exigences reglementaires douanieres, etc.)
+- Documents operationnels (factures douanieres, factures clients, bons de livraison, accuses de reception de commandes)
+
+> **Note :** Le chapitre 8.3 (Conception et developpement) est exclu du domaine d'application du SMQ de Plus Sarl. L'entreprise ne realise aucune activite de conception ; elle assure la coordination industrielle entre clients europeens et fabricants chinois.
+
+## 3. Responsabilites
+
+| Responsabilite | Qui |
+|---|---|
+| Creation et mise a jour des documents | Roxane Wicky (gerante) |
+| Approbation des documents | Roxane Wicky (gerante) |
+| Diffusion et archivage | Roxane Wicky (gerante) |
+| Conservation des donnees techniques de fabrication | Partenaires chinois (Yuyao Mould Factory et second partenaire specialise) |
+
+> **Note :** Plus Sarl etant une entreprise unipersonnelle, l'ensemble des responsabilites documentaires incombe a la gerante, Roxane Wicky.
+
+## 4. Types de documents
+
+| Type | Codification | Exemple |
+|---|---|---|
+| Politique | POL-XXX-NNN | POL-QUA-001 |
+| Domaine d'application | DOM-XXX-NNN | DOM-QUA-001 |
+| Contexte | CTX-XXX-NNN | CTX-QUA-001 |
+| Cartographie | CRT-XXX-NNN | CRT-QUA-001 |
+| Objectifs | OBJ-XXX-NNN | OBJ-QUA-001 |
+| Fiche processus | FIC-PRO-NNN | FIC-PRO-001 |
+| Procedure | PRO-XXX-NNN | PRO-DOC-001 |
+| Formulaire | FOR-XXX-NNN | FOR-EVF-001 |
+| Checklist | CHK-XXX-NNN | CHK-AUD-001 |
+| Document externe | EXT-XXX-NNN | EXT-NRM-001 |
+
+**Legende :** XXX = domaine (QUA=qualite, DOC=documents, AUD=audit, NCF=non-conformite, ACR=actions correctives, ACH=achats, EVF=evaluation fournisseur, SAT=satisfaction, RDR=revue direction, CMP=competences, RCL=reclamations, CTR=controle)
+
+## 5. Procedure de gestion documentaire
+
+### 5.1 Creation d'un document
+
+1. Identifier le besoin de creer un nouveau document
+2. Rediger le document en utilisant le modele correspondant (modeles stockes dans le dossier SMQ)
+3. Attribuer une reference selon la codification definie en section 4
+4. Indiquer la version (1.0 pour la creation)
+5. Dater et approuver (signature de Roxane Wicky)
+
+### 5.2 Approbation
+
+- Tout document du SMQ est approuve par la gerante, Roxane Wicky, avant diffusion
+- L'approbation est materialisee par la signature et la date sur le document
+
+### 5.3 Diffusion et stockage
+
+Les documents approuves sont stockes sur les supports suivants :
+
+| Support de stockage | Contenu | Responsable |
+|---|---|---|
+| **FileMaker** (logiciel principal) | Bibliotheque de produits, suivi des commandes, prix, suivi du transport | Roxane Wicky |
+| **Fichiers informatiques locaux** (ordinateur) | Documents SMQ, procedures, formulaires, enregistrements qualite, correspondances | Roxane Wicky |
+| **Archives e-mail** | Echanges avec clients, transporteurs, douanes | Roxane Wicky |
+| **WeChat** | Echanges operationnels avec les partenaires chinois | Roxane Wicky |
+| **Fichiers chez le partenaire chinois** | Donnees techniques de fabrication, plans, moules, specifications de production | Yuyao Mould Factory / second partenaire |
+
+**Structure de stockage sur l'ordinateur :**
+
+```
+SMQ/
+|-- 01_Politique_et_objectifs/
+|-- 02_Contexte_et_processus/
+|-- 03_Procedures/
+|-- 04_Formulaires_vierges/
+|-- 05_Enregistrements/
+|   |-- [Annee]/
+|       |-- Non_conformites/
+|       |-- Evaluations_fournisseurs/
+|       |-- Satisfaction_client/
+|       |-- Audits/
+|       |-- Revue_direction/
+|       |-- Commandes/
+|-- 06_Documents_externes/
+|   |-- Normes/
+|   |-- Specifications_clients/
+|   |-- Documents_fournisseur/
+```
+
+### 5.4 Mise a jour (revision)
+
+1. Identifier le besoin de modification
+2. Modifier le document
+3. Incrementer le numero de version (1.0 -> 1.1 pour modification mineure, 1.0 -> 2.0 pour modification majeure)
+4. Mettre a jour la date de revision
+5. Noter la modification dans l'historique des revisions
+6. Approuver et remplacer l'ancienne version
+
+### 5.5 Documents perimes
+
+- Les versions perimees sont deplacees dans un dossier "Archive" avec la mention "PERIME"
+- Duree de conservation des archives : 3 ans minimum
+
+### 5.6 Documents d'origine externe
+
+| Document externe | Source | Lieu de stockage | Responsable de la mise a jour |
+|---|---|---|---|
+| Norme ISO 9001:2015 | SNV / ISO | Dossier SMQ > 06_Documents_externes > Normes | Roxane Wicky |
+| Specifications techniques clients | Clients europeens | Dossier SMQ > 06_Documents_externes > Specifications_clients + FileMaker | Roxane Wicky |
+| Donnees techniques de fabrication (plans, moules) | Yuyao Mould Factory / second partenaire | Fichiers chez le partenaire chinois + copie locale | Roxane Wicky / Partenaire chinois |
+| Documents douaniers et reglementaires | Autorites douanieres / transitaires | Archives e-mail + dossier local | Roxane Wicky |
+| Rapports d'inspection fournisseur | Partenaires chinois | Dossier SMQ > 06_Documents_externes > Documents_fournisseur | Roxane Wicky |
+
+## 6. Gestion des enregistrements
+
+### 6.1 Documents operationnels generes par l'activite
+
+| Type de document operationnel | Support de creation | Lieu de stockage |
+|---|---|---|
+| Factures douanieres | Logiciel / e-mail | Archives e-mail + dossier local |
+| Factures clients | FileMaker / logiciel comptable | FileMaker + dossier local |
+| Bons de livraison | FileMaker / e-mail | FileMaker + archives e-mail |
+| Accuses de reception de commandes | E-mail | Archives e-mail |
+| Suivi de transport | FileMaker | FileMaker |
+| Echanges avec partenaires chinois | WeChat / e-mail | WeChat + archives e-mail |
+
+### 6.2 Duree de conservation
+
+| Type d'enregistrement | Duree minimale de conservation |
+|---|---|
+| Politique qualite (versions successives) | Duree de la certification + 1 an |
+| Revue de direction | 3 ans |
+| Audits internes | 3 ans |
+| Non-conformites et actions correctives | 3 ans |
+| Evaluations fournisseurs | 3 ans |
+| Reclamations clients | 3 ans |
+| Satisfaction client | 3 ans |
+| Commandes clients | 5 ans (obligation legale suisse) |
+| Factures | 10 ans (obligation legale suisse) |
+| Donnees techniques produits (moules) | Duree de vie du moule + 3 ans |
+
+### 6.3 Sauvegarde
+
+Les donnees FileMaker sont protegees par :
+- **Sauvegarde numerique** (backup digital) des bases de donnees FileMaker
+- **Gestion des acces** a FileMaker (acces restreint a la gerante)
+
+> **[A CONFIRMER - methode de sauvegarde exacte]** : La methode precise de sauvegarde (frequence, support de destination, sauvegarde locale et/ou cloud, automatisation) doit etre confirmee et documentee. Il est recommande de mettre en place au minimum :
+> - Une sauvegarde automatique quotidienne (locale ou cloud)
+> - Une sauvegarde hebdomadaire sur support externe
+> - Une verification mensuelle de l'integrite des sauvegardes
+
+## 7. Liste maitresse des documents
+
+| Reference | Titre | Version | Date | Statut |
+|---|---|---|---|---|
+| POL-QUA-001 | Politique Qualite | 1.0 | 10/02/2026 | En vigueur |
+| DOM-QUA-001 | Domaine d'application | 1.0 | 10/02/2026 | En vigueur |
+| CTX-QUA-001 | Contexte de l'organisation | 1.0 | 10/02/2026 | En vigueur |
+| CRT-QUA-001 | Cartographie des processus | 1.0 | 10/02/2026 | En vigueur |
+| OBJ-QUA-001 | Objectifs qualite | 1.0 | 10/02/2026 | En vigueur |
+| FIC-PRO-001 | Fiche processus (type) | 1.0 | 10/02/2026 | En vigueur |
+| PRO-DOC-001 | Maitrise des documents | 1.0 | 10/02/2026 | En vigueur |
+| PRO-AUD-001 | Audit interne | 1.0 | 10/02/2026 | En vigueur |
+| PRO-NCF-001 | Non-conformites | 1.0 | 10/02/2026 | En vigueur |
+| PRO-ACR-001 | Actions correctives | 1.0 | 10/02/2026 | En vigueur |
+| PRO-ACH-001 | Achats et sous-traitance | 1.0 | 10/02/2026 | En vigueur |
+
+---
+
+## Historique des revisions
+
+| Version | Date | Description de la modification | Auteur |
+|---|---|---|---|
+| 1.0 | 10/02/2026 | Creation initiale | Roxane Wicky |
