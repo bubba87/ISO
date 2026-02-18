@@ -162,6 +162,44 @@ Cette approche s'inscrit dans une logique de partenariat a long terme.
 
 > Cette organisation garantit la maitrise des exigences clients, la tracabilite des decisions et la securisation de l'acceptation des commandes.
 
+### 1.4 Forme juridique et responsabilites de la gerante
+
+> **Source :** UPDATE 3 — Manuel de qualite (18/02/2026) 🟢
+
+Plus Sarl est constituee sous la forme juridique d'une societe a responsabilite limitee (Sarl).
+
+Compte tenu de la taille de la structure, l'ensemble des activites operationnelles, de pilotage et de support est assure par la gerante, qui assume notamment les responsabilites suivantes :
+
+- Gestion de la relation client et analyse des besoins
+- Coordination technique avec les partenaires industriels
+- Suivi de la production, de la conformite des pieces et de la satisfaction client
+- Gestion des fournisseurs, du sourcing et des outillages
+- Maitrise de la documentation et des enregistrements du systeme de management de la qualite
+- Definition de la politique qualite, des objectifs et des actions d'amelioration
+- Realisation du suivi des performances et mise en oeuvre de l'amelioration continue
+
+Cette organisation centralisee garantit la coherence des decisions, la reactivite operationnelle ainsi que la maitrise globale des exigences du systeme de management de la qualite conformement a la norme ISO 9001:2015.
+
+### 1.5 Support du systeme de management de la qualite
+
+> **Source :** UPDATE 3 — Manuel de qualite (18/02/2026) 🟢
+
+Le systeme de management de la qualite de Plus Sarl definit l'organisation, les responsabilites, les processus et les methodes de travail permettant :
+
+- d'assurer la satisfaction des clients
+- de garantir la conformite des produits et services
+- de maitriser les risques lies aux activites
+- de mettre en oeuvre une amelioration continue conforme a la norme ISO 9001
+
+Ce systeme repose notamment sur :
+
+- la gestion des exigences clients et des commandes
+- la coordination de la production externalisee
+- le suivi logistique
+- le suivi documentaire
+- la gestion des non-conformites et des actions correctives
+- l'analyse des performances lors des audits internes et revues de direction
+
 ### Outils et logiciels
 
 | Outil | Usage |
@@ -401,7 +439,7 @@ Ce document doit etre revu au minimum **1 fois par an** lors de la revue de dire
 | 1.0 | 10/02/2026 | Creation initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Correction canton : Cudrefin est dans le canton de Fribourg (et non Vaud) | Roxane Wicky |
 | 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration des chapitres 2.1 (Activites et organisation de la production externalisee), 2.2 (Relation client et comprehension des besoins) et 2.2.1 (Analyse et validation des demandes clients) du manuel qualite. Ajout des 5 processus formalises (01-04 + S1), de la revue de commande et de la reference a M1-DIR-001. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration des chapitres 2.1 (Activites et organisation de la production externalisee), 2.2 (Relation client et comprehension des besoins), 2.2.1 (Analyse et validation des demandes clients) et 3/3.1 (Forme juridique, responsabilites de la gerante, support du SMQ) du manuel qualite. Ajout des 5 processus formalises (01-04 + S1), de la revue de commande et de la reference a M1-DIR-001. | Roxane Wicky |
 
 ---
 

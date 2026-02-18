@@ -15,13 +15,14 @@
 
 ## Nouveautés v0.4 — Mises à jour du manuel qualité
 
-> **Source :** 3 PDFs UPDATE (UPDATE_ISO9001_2.1, UPDATE_ISO9001_2.2, UPDATE_ISO9001_RW_2.2.1) du 18/02/2026
+> **Source :** 4 PDFs UPDATE (UPDATE_ISO9001_2.1, UPDATE_ISO9001_2.2, UPDATE_ISO9001_RW_2.2.1, ISO9001_UPDATE_RW_3) du 18/02/2026
 
 | # | Chapitre | Titre | Impact | Documents mis à jour |
 |---|---|---|---|---|
 | U1 | 2.1 | Activités et organisation de la production externalisée | Formalisation des 5 processus (01-04 + S1) avec fiches FileMaker | CTX-QUA-001, CRT-QUA-001, PRO-ACH-001, FIC-PRO-001, PRO-NCF-001, PRO-ACR-001, FOR-CTR-001, PRO-DOC-001 |
 | U2 | 2.2 | Relation client et compréhension des besoins | Stratégie client, communication, adaptation | CTX-QUA-001 (section 1.2) |
 | U3 | 2.2.1 | Analyse et validation des demandes clients | Revue de commande formalisée, référence M1 Leadership | CTX-QUA-001 (section 1.3), CRT-QUA-001 (flux principal) |
+| U4 | 3 / 3.1 | Organisation, rôles, responsabilités et autorités | Forme juridique, responsabilités gérante, support SMQ, rôles détaillés par processus (M1, O1-O4) | CTX-QUA-001 (sections 1.4, 1.5), M1-DIR-001 (section 5) |
 
 ### Nouveaux documents créés en v0.4
 
@@ -215,6 +216,7 @@ Maintenant que l'organisme de certification est choisi (SQS), il faut :
 | 18/02/2026 | UPDATE 2.2 | Relation client et compréhension des besoins |
 | 18/02/2026 | UPDATE 2.2.1 | Analyse et validation des demandes clients — revue de commande, M1 Leadership |
 | 18/02/2026 | Nouveaux documents | M1-DIR-001, PRO-LOG-001, FIC-PRO-002 créés |
+| 18/02/2026 | UPDATE 3 / 3.1 | Organisation, rôles, responsabilités et autorités détaillés par processus (M1, O1-O4) |
 
 ---
 

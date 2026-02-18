@@ -157,9 +157,162 @@ Plus Sarl est une entreprise unipersonnelle (Sarl) dont toutes les fonctions ope
 
 ---
 
-## 5. Attribution des responsabilites par processus — Traitement des demandes
+## 5. Roles, responsabilites et autorites detailles
 
-### 5.1 Principe general
+> **Source :** UPDATE 3 — Manuel de qualite, section 3.1 (18/02/2026) 🟢
+
+Les roles et responsabilites au sein de Plus Sarl sont definis selon l'organisation fonctionnelle de l'entreprise, afin d'assurer le bon fonctionnement du systeme de management de la qualite et la satisfaction des clients.
+
+### 5.1 M1 — Leadership
+
+Assure le pilotage global de l'entreprise et du systeme de management de la qualite.
+
+**Orientation et pilotage :**
+
+- Definir la vision et la strategie de l'entreprise
+- Etablir, mettre en oeuvre et maintenir la politique qualite
+- Definir les objectifs qualite et en suivre la realisation
+- Piloter l'amelioration continue et assurer la disponibilite des ressources necessaires au fonctionnement du SMQ
+
+**Leadership :**
+
+- Orientation client et prise en compte de ses exigences
+- Allocation des ressources necessaires
+- Definition et attribution des roles et responsabilites
+
+**Maitrise du systeme :**
+
+- Assurer la conformite au referentiel ISO 9001
+- Suivi des performances des processus SMQ
+- Realiser la revue de direction
+- Traitement des risques et des opportunites
+
+### 5.2 O1 — Commercial
+
+Assure la gestion de la relation client, depuis la reception des demandes jusqu'au suivi des commandes et des reclamations.
+
+**Gestion de la relation client :**
+
+- Recevoir et analyser les demandes clients (commandes, devis, reclamations, modifications, etc.)
+- Comprendre les besoins techniques, logistiques et qualitatifs exprimes
+- Assurer une communication claire et continue avec les clients
+- Contribuer a la satisfaction durable des clients
+
+**Analyse des besoins et etablissement des offres :**
+
+- Analyse des specifications techniques et des exigences applicables
+- Verification des quantites, delais et conditions demandees
+- Etablissement des offres et confirmations de commande
+- Coordination avec les autres processus internes pour validation
+
+**Suivi des commandes :**
+
+- Enregistrement des commandes dans le systeme FileMaker
+- Transmission des informations necessaires aux partenaires industriels
+- Suivi global de l'avancement des commandes
+- Information du client en cas d'evolution, de retard ou de difficulte
+
+**Gestion des reclamations clients :**
+
+- Enregistrement de la demande et analyse
+- Les processus concernes sont sollicites pour investigation
+- Reponse adaptee apportee au client
+- Transmission des informations au processus qualite pour traitement si necessaire
+
+### 5.3 O2 — Achats & Sous-traitance
+
+Assure la selection, la coordination et le suivi des partenaires industriels ainsi que la maitrise de la production externalisee, conformement aux exigences du systeme de management de la qualite.
+
+**Selection et gestion des fournisseurs :**
+
+- Garantir la collaboration avec des partenaires industriels capables de repondre aux exigences techniques, qualite et delais
+- Garantir l'evaluation continue des fournisseurs sur la base de la conformite des livraisons, du respect des delais et de la qualite de la communication
+- Identifier des solutions alternatives en cas de defaillance d'un fournisseur
+
+**Coordination et suivi de la production :**
+
+- Assurer la transmission des commandes et des exigences techniques aux partenaires industriels
+- Verifier la faisabilite de production, les delais et conditions de fabrication
+- Suivi regulier de l'avancement de production par echanges documentes (e-mail, WeChat, etc.)
+- Envoi et validation d'echantillons lorsque necessaire
+
+**Maitrise de la production externalisee :**
+
+- Veiller a la prise en compte des specifications techniques clients
+- Veiller a la mise en oeuvre des controles qualite realises par les partenaires industriels
+- Assurer la tracabilite des informations de production et de validation
+- Coordonner avec le processus qualite en cas de non-conformite
+
+### 5.4 O3 — Logistique & Livraison
+
+Assure l'organisation, la coordination et le suivi des expeditions internationales jusqu'a la livraison finale chez le client.
+
+**Organisation du transport :**
+
+- Choix du mode de transport adapte (avion, bateau, train, camion) selon les delais, contraintes et couts
+- Coordination avec les transporteurs et transitaires
+- Planification des expeditions en coherence avec l'avancement de la production
+
+**Maitrise documentaire et douaniere :**
+
+- Assurer l'etablissement des documents d'expedition et des documents douaniers conformes aux commandes clients
+- Prise en compte des exigences reglementaires applicables en Europe et en Suisse
+- Assurer la tracabilite des informations liees a l'expedition
+
+**Suivi des livraisons :**
+
+- Assurer le suivi du transport jusqu'a la livraison finale
+- Transmettre au client les informations de suivi disponibles (tracking, etat d'avancement, etc.)
+- Informer le client en cas de retard, incident ou modification
+
+**Cloture de commande :**
+
+- Confirmer avec le client la bonne execution logistique
+- Coordonner avec le service administratif pour facturation
+- Informer le processus qualite pour la conformite ou non-conformite
+
+### 5.5 O4 — Controle qualite et non-conformites
+
+A pour objectif d'assurer la conformite des produits livres aux exigences clients et de garantir l'amelioration continue du systeme de management de la qualite.
+
+**Maitrise du controle qualite :**
+
+- Veiller a la prise en compte des exigences techniques et qualitatives du client
+- Veiller a la realisation des controles qualite par les partenaires industriels avant expedition
+- Conserver les informations de controles et de validation
+- Analyser les retours clients apres livraison
+
+**Identification des non-conformites :**
+
+- Identification lors de controles par le partenaire industriel
+- Identification a reception de marchandises par le client
+- Identification a la suite d'une reclamation
+- Enregistrement dans une fiche de non-conformite
+- Analyse de la situation et des causes
+
+**Traitement des non-conformites :**
+
+- Acceptation en l'etat apres validation
+- Correction du produit
+- Remplacement de la marchandise
+
+**Actions correctives et prevention :**
+
+- Mise en place d'actions correctives
+- Verification de leur efficacite
+- Integration des informations au suivi qualite, a l'audit interne et a la revue de direction
+
+**Amelioration continue :**
+
+- Amelioration des pratiques de controles
+- Prevention des erreurs
+- Renforcement de la conformite des produits livres
+
+---
+
+## 6. Attribution des responsabilites par processus — Traitement des demandes
+
+### 6.1 Principe general
 
 Chaque demande recue (commande, devis, modification, reclamation) fait l'objet d'une analyse prealable realisee par la gerante selon les responsabilites definies dans le present document. L'analyse couvre les aspects suivants :
 
@@ -170,7 +323,7 @@ Chaque demande recue (commande, devis, modification, reclamation) fait l'objet d
 | **Faisabilite technique et logistique** | O2 - Achats et sous-traitance | Roxane Wicky 🟢 | Evaluer la faisabilite technique avec le(s) partenaire(s) chinois concerne(s). Verifier les capacites de production et les contraintes logistiques. |
 | **Exigences qualite** | O4 - Controle qualite | Roxane Wicky 🟢 | Determiner les exigences qualite applicables (tolerances, materiaux, normes, marquages). Definir les criteres d'acceptation et les controles necessaires. |
 
-### 5.2 Consultation des partenaires industriels
+### 6.2 Consultation des partenaires industriels
 
 Pour chaque demande necessitant une consultation des partenaires chinois, la gerante coordonne les aspects suivants :
 
@@ -181,9 +334,9 @@ Pour chaque demande necessitant une consultation des partenaires chinois, la ger
 | **Livraison** (delais, transport) | O3 - Logistique et livraison | Yuyao Mould Factory / Whang + Transporteurs | Email 🟢 |
 | **Controle qualite pre-expedition** | O4 - Controle qualite | Yuyao Mould Factory / Whang | Email, WeChat, photos, rapports 🟢 |
 
-### 5.3 Traitement par type de demande
+### 6.3 Traitement par type de demande
 
-#### 5.3.1 Commande
+#### 6.3.1 Commande
 
 | Etape | Processus | Responsable | Action |
 |---|---|---|---|
@@ -198,7 +351,7 @@ Pour chaque demande necessitant une consultation des partenaires chinois, la ger
 | 9. Livraison | O3 Logistique | Roxane Wicky | Suivre l'acheminement. Confirmer la reception au client. |
 | 10. Facturation | O1 Commercial | Roxane Wicky | Facturer le client. Archiver la commande dans FileMaker. |
 
-#### 5.3.2 Devis
+#### 6.3.2 Devis
 
 | Etape | Processus | Responsable | Action |
 |---|---|---|---|
@@ -209,7 +362,7 @@ Pour chaque demande necessitant une consultation des partenaires chinois, la ger
 | 5. Envoi au client | O1 Commercial | Roxane Wicky | Transmettre le devis au client avec les delais indicatifs. |
 | 6. Suivi | O1 Commercial | Roxane Wicky | Relancer le client si necessaire. Archiver dans FileMaker. |
 
-#### 5.3.3 Modification
+#### 6.3.3 Modification
 
 | Etape | Processus | Responsable | Action |
 |---|---|---|---|
@@ -219,7 +372,7 @@ Pour chaque demande necessitant une consultation des partenaires chinois, la ger
 | 4. Proposition au client | O1 Commercial | Roxane Wicky | Informer le client de l'impact (delai, prix, contraintes). |
 | 5. Mise a jour | O1 Commercial / S1 Doc. | Roxane Wicky | Mettre a jour la commande dans FileMaker et les documents associes. |
 
-#### 5.3.4 Reclamation
+#### 6.3.4 Reclamation
 
 | Etape | Processus | Responsable | Action |
 |---|---|---|---|
@@ -232,9 +385,9 @@ Pour chaque demande necessitant une consultation des partenaires chinois, la ger
 
 ---
 
-## 6. Communication interne et externe
+## 7. Communication interne et externe
 
-### 6.1 Communication interne
+### 7.1 Communication interne
 
 Dans le contexte d'une entreprise unipersonnelle, la communication interne se materialise par :
 
@@ -245,7 +398,7 @@ Dans le contexte d'une entreprise unipersonnelle, la communication interne se ma
 | **Revue de direction** | Analyse structuree annuelle de la performance du SMQ (cf. FOR-RDR-001) 🟢 |
 | **Sauvegarde des donnees** | Sauvegarde cloud, hebergee par le fournisseur 🟢 |
 
-### 6.2 Communication externe
+### 7.2 Communication externe
 
 | Partie interessee | Canal de communication | Frequence | Responsable |
 |---|---|---|---|
@@ -258,7 +411,7 @@ Dans le contexte d'une entreprise unipersonnelle, la communication interne se ma
 | **Services douaniers** | Documents officiels | A chaque importation/exportation | Roxane Wicky 🟢 |
 | **Associes** (Olav, Capucine Wicky) | Reunions informelles | Selon besoin | Roxane Wicky 🟢 |
 
-### 6.3 Informations documentees communiquees
+### 7.3 Informations documentees communiquees
 
 | Information | Destinataire | Support | Reference |
 |---|---|---|---|
@@ -270,7 +423,7 @@ Dans le contexte d'une entreprise unipersonnelle, la communication interne se ma
 
 ---
 
-## 7. Revue de direction
+## 8. Revue de direction
 
 La revue de direction est realisee au minimum **1 fois par an** par Roxane Wicky, conformement a la clause 9.3 de la norme ISO 9001:2015.
 
@@ -299,7 +452,7 @@ Les donnees de sortie de la revue comprennent les decisions relatives a l'amelio
 
 ---
 
-## 8. Documents associes
+## 9. Documents associes
 
 | Reference | Document |
 |---|---|
@@ -326,7 +479,7 @@ Les donnees de sortie de la revue comprennent les decisions relatives a l'amelio
 
 | Version | Date | Modification | Auteur |
 |---|---|---|---|
-| 0.4 | 18/02/2026 | Creation initiale. Definition du leadership, de l'organigramme fonctionnel, de la matrice des responsabilites par processus, de l'attribution des responsabilites par type de demande, et des modalites de communication. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Creation initiale. Definition du leadership, de l'organigramme fonctionnel, de la matrice des responsabilites par processus, de l'attribution des responsabilites par type de demande, et des modalites de communication. Integration du chapitre 3/3.1 du manuel qualite : roles, responsabilites et autorites detailles par processus (M1, O1, O2, O3, O4). Forme juridique et support du SMQ. | Roxane Wicky |
 
 ---
 
