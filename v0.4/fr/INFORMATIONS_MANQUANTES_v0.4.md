@@ -30,11 +30,11 @@
 | U9 | 5.3 | Rôles et responsabilités par fonction | Synthèse fonctionnelle (Direction, Commercial, Achats, Logistique, Qualité) | M1-DIR-001 (section 5.6) |
 | U10 | 6.1 | Actions face aux risques et opportunités | Introduction, synthèse risques, opportunités d'amélioration | CTX-QUA-001 (section 5) |
 | U11 | 6.2 | Objectifs qualité avec indicateurs précis | Tolérances délais, conditions tarifaires, réactivité 24-48H | OBJ-QUA-001 |
-| U12 | 6.3 | Planification des modifications | Types de modifications, analyse d'impact par processus, mise en oeuvre controlee, revue | CTX-QUA-001 (section 6), CRT-QUA-001 (M1, M2, flux) |
-| U13 | 7 | Ressources (7.1) | Generalites, RH, infrastructures, environnement, ressources externes/partenaires | CTX-QUA-001 (section 7), CRT-QUA-001 (S3) |
-| U14 | 7.2 | Competences | Competences gerante (7 domaines), maintien, extension aux fournisseurs | FOR-CMP-001 (sections 1, extension fournisseurs) |
+| U12 | 6.3 | Planification des modifications | Types de modifications, analyse d'impact par processus, mise en œuvre contrôlée, revue | CTX-QUA-001 (section 6), CRT-QUA-001 (M1, M2, flux) |
+| U13 | 7 | Ressources (7.1) | Généralités, RH, infrastructures, environnement, ressources externes/partenaires | CTX-QUA-001 (section 7), CRT-QUA-001 (S3) |
+| U14 | 7.2 | Compétences | Compétences gérante (7 domaines), maintien, extension aux fournisseurs | FOR-CMP-001 (sections 1, extension fournisseurs) |
 | U15 | 7.3 | Sensibilisation | Sensibilisation politique, objectifs, satisfaction, consequences NC | FOR-CMP-001 (section 5) |
-| U16 | 7.4 | Communication | Communication externe par partie interessee, maitrise confidentialite | CTX-QUA-001 (sections 7.6, 7.7) |
+| U16 | 7.4 | Communication | Communication externe par partie intéressée, maîtrise confidentialité | CTX-QUA-001 (sections 7.6, 7.7) |
 
 ### Nouveaux documents créés en v0.4
 
@@ -163,7 +163,7 @@
 
 **Contexte :** Vous avez indiqué que la gérante réalise l'audit elle-même, sinon un externe.
 
-**Problème ISO 9001 :** La clause 9.2.2 exige que « les auditeurs ne doivent pas auditer leur propre travail ». Dans une entreprise unipersonnelle, cela signifie qu'un auditeur externe est **obligatoire** pour la conformité stricte.
+**Problème ISO 9001 :** La clause 9.2.2 exigé que « les auditeurs ne doivent pas auditer leur propre travail ». Dans une entreprise unipersonnelle, cela signifie qu'un auditeur externe est **obligatoire** pour la conformité stricte.
 
 **Options :**
 1. **Mandater un auditeur externe** (recommandé) — Budget CHF 500-2'000 pour 1 journée
@@ -233,14 +233,14 @@ Maintenant que l'organisme de certification est choisi (SQS), il faut :
 | 19/02/2026 | UPDATE 4.2 | Enrichissement descriptions parties intéressées — CTX-QUA-001 |
 | 19/02/2026 | UPDATE 5.1 | Engagement opérationnel ajouté — M1-DIR-001 section 2.3 |
 | 19/02/2026 | UPDATE 5.2 | Politique qualité enrichie et signée — POL-QUA-001 |
-| 19/02/2026 | UPDATE 5.3 | Synthèse roles par fonction ajoutée — M1-DIR-001 section 5.6 |
+| 19/02/2026 | UPDATE 5.3 | Synthèse rôles par fonction ajoutée — M1-DIR-001 section 5.6 |
 | 19/02/2026 | UPDATE 6.1 | Risques enrichis (introduction, synthèse, opportunités) — CTX-QUA-001 section 5 |
 | 19/02/2026 | UPDATE 6.2 | Objectifs qualité enrichis (tolérances, conditions tarifaires, 24-48H) — OBJ-QUA-001 |
 | 19/02/2026 | Signature POL | Politique qualité signée le 19/02/2026 — point #10 résolu |
 | 20/02/2026 | Numéro IDE (#8) | CH-645.4.101.228-7 ajouté dans DOM-QUA-001 et CTX-QUA-001 |
 | 20/02/2026 | UPDATE 6.3 | Planification des modifications — CTX-QUA-001 section 6 + CRT-QUA-001 (M1, M2, flux) |
 | 20/02/2026 | UPDATE 7 | Ressources (clause 7.1) — CTX-QUA-001 section 7 + CRT-QUA-001 (S3 enrichi) + drawio |
-| 20/02/2026 | UPDATE 7.2 | Competences — FOR-CMP-001 (extension fournisseurs, maintien enrichi) |
+| 20/02/2026 | UPDATE 7.2 | Compétences — FOR-CMP-001 (extension fournisseurs, maintien enrichi) |
 | 20/02/2026 | UPDATE 7.3 | Sensibilisation — FOR-CMP-001 (nouvelle section 5) |
 | 20/02/2026 | UPDATE 7.4 | Communication — CTX-QUA-001 sections 7.6-7.7 + CRT-QUA-001 (S2 enrichi) + drawio |
 

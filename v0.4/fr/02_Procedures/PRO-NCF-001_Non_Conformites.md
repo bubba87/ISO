@@ -1,97 +1,97 @@
-# Procedure de Gestion des Non-Conformites
+# Procédure de Gestion des Non-Conformites
 
 | | |
 |---|---|
-| **Reference** | PRO-NCF-001 |
+| **Référence** | PRO-NCF-001 |
 | **Version** | 0.4 |
-| **Date de creation** | 10/02/2026 |
+| **Date de création** | 10/02/2026 |
 | **Date de revision** | 18/02/2026 |
-| **Redige par** | Roxane Wicky |
+| **Rédigé par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 
-> **Legende :** :red_circle: [A REMPLIR] = obligatoire, manquant | :yellow_circle: [RECOMMANDE] = recommande | :green_circle: = deja rempli | :blue_circle: [A VERIFIER] = a confirmer
+> **Légende :** :red_circle: [À REMPLIR] = obligatoire, manquant | :yellow_circle: [RECOMMANDE] = recommandé | :green_circle: = déjà rempli | :blue_circle: [À VÉRIFIER] = a confirmer
 
 ---
 
 ## 1. Objet
 
-Definir les regles de detection, d'enregistrement, de traitement et de suivi des non-conformites (NC) liees aux produits (moules, pieces plastiques, vis), aux processus et au SMQ de Plus Sarl.
+Définir les règles de detection, d'enregistrement, de traitement et de suivi des non-conformites (NC) liées aux produits (moules, pièces plastiques, vis), aux processus et au SMQ de Plus Sarl.
 
-> **Processus 04 — Controle qualite (cf. CTX-QUA-001, section 1.1) :** Avant l'expedition de la marchandise, Plus Sarl s'assure que les pieces produites sont conformes aux exigences techniques definies par le client et a la commande enregistree et validee. Cette verification repose sur le controle qualite realise par le fabricant, le suivi documentaire conserve sur FileMaker, l'analyse des retours clients par e-mail et la reception et traitement de toute information de non-conformite. En cas de NC : creation d'une fiche, decision de traitement, analyse des causes et mise en oeuvre d'actions correctives (cf. PRO-ACR-001). 🟢
+> **Processus 04 — Contrôle qualité (cf. CTX-QUA-001, section 1.1) :** Avant l'expédition de la marchandise, Plus Sarl s'assure que les pièces produites sont conformes aux exigences techniques définies par le client et à la commande enregistrée et validée. Cette vérification repose sur le contrôle qualité réalisé par le fabricant, le suivi documentaire conserve sur FileMaker, l'analyse des retours clients par e-mail et la reception et traitement de toute information de non-conformité. En cas de NC : création d'une fiche, decision de traitement, analyse des causes et mise en œuvre d'actions correctives (cf. PRO-ACR-001). 🟢
 
 ## 2. Domaine d'application
 
-Toutes les non-conformites detectees :
-- Par les clients (~10 clients actifs) apres livraison (reclamations) -- source principale de detection
-- Lors du suivi des expeditions (dommages transport, retards)
-- Lors du suivi interne (erreurs d'etiquetage, de documentation, de quantite)
-- Lors du controle qualite pre-expedition par les partenaires chinois
-- Lors de la verification des echantillons recus chez Plus Sarl
+Toutes les non-conformites détectées :
+- Par les clients (~10 clients actifs) après livraison (réclamations) -- source principale de detection
+- Lors du suivi des expéditions (dommages transport, retards)
+- Lors du suivi interne (erreurs d'étiquetage, de documentation, de quantité)
+- Lors du contrôle qualité pre-expédition par les partenaires chinois
+- Lors de la vérification des échantillons reçus chez Plus Sarl
 - Lors des audits internes
 - Lors des audits de certification (SQS)
 - Lors du fonctionnement courant du SMQ
 
-> **Note :** Plus Sarl ne receptionne pas physiquement les produits. Les marchandises sont expedites directement de Chine vers les clients europeens. Les non-conformites sont donc principalement detectees par les clients eux-memes apres reception des produits, ou par la gerante lors du suivi operationnel. Un processus de CQ pre-expedition avec envoi d'echantillons chez Plus Sarl en parallele du transport est en place (cf. PRO-ACH-001, section 8).
+> **Note :** Plus Sarl ne réceptionne pas physiquement les produits. Les marchandises sont expédiées directement de Chine vers les clients européens. Les non-conformites sont donc principalement détectées par les clients eux-memes après reception des produits, ou par la gérante lors du suivi opérationnel. Un processus de CQ pre-expédition avec envoi d'échantillons chez Plus Sarl en parallèle du transport est en place (cf. PRO-ACH-001, section 8).
 
 ## 3. Definitions
 
 | Terme | Definition |
 |---|---|
-| **Non-conformite (NC)** | Non-satisfaction d'une exigence (client, norme, reglementaire, interne) |
-| **NC Majeure** | NC ayant un impact significatif sur la qualite du produit ou la satisfaction client |
-| **NC Mineure** | NC ponctuelle, impact limite |
-| **Correction** | Action immediate pour eliminer la NC detectee (traitement du symptome) |
+| **Non-conformité (NC)** | Non-satisfaction d'une exigence (client, norme, réglementaire, interne) |
+| **NC Majeure** | NC ayant un impact significatif sur la qualité du produit ou la satisfaction client |
+| **NC Mineure** | NC ponctuelle, impact limité |
+| **Correction** | Action immédiate pour eliminer la NC détectée (traitement du symptome) |
 | **Action corrective** | Action pour eliminer la cause de la NC et empecher sa recurrence (voir PRO-ACR-001) |
 | **Derogation** | Autorisation d'utiliser un produit non conforme sous conditions (accord client) |
 
-## 4. Responsabilites
+## 4. Responsabilités
 
-| Responsabilite | Qui |
+| Responsabilité | Qui |
 |---|---|
-| Detecter et signaler les NC | :green_circle: Roxane Wicky, gerante (et clients, partenaires chinois) |
-| Enregistrer les NC | :green_circle: Roxane Wicky, gerante |
-| Analyser la situation et decider du traitement | :green_circle: Roxane Wicky, gerante |
-| Mettre en oeuvre les corrections | :green_circle: Roxane Wicky, gerante |
-| Coordonner avec les partenaires chinois | :green_circle: Roxane Wicky, gerante |
-| Declencher les actions correctives | :green_circle: Roxane Wicky, gerante |
-| Suivre la cloture | :green_circle: Roxane Wicky, gerante |
+| Detecter et signaler les NC | :green_circle: Roxane Wicky, gérante (et clients, partenaires chinois) |
+| Enregistrer les NC | :green_circle: Roxane Wicky, gérante |
+| Analyser la situation et decider du traitement | :green_circle: Roxane Wicky, gérante |
+| Mettre en œuvre les corrections | :green_circle: Roxane Wicky, gérante |
+| Coordonner avec les partenaires chinois | :green_circle: Roxane Wicky, gérante |
+| Declencher les actions correctives | :green_circle: Roxane Wicky, gérante |
+| Suivre la clôture | :green_circle: Roxane Wicky, gérante |
 
 ## 5. Sources de detection des NC
 
 | Source | Exemples |
 |---|---|
-| **Reclamation client** | Client signale un defaut, un retard, une erreur de quantite, un probleme d'aspect |
-| **Dommage transport** | Produits endommages pendant le transport (aerien, maritime, ferroviaire) |
-| **Defaut de production** | Pieces non conformes aux specifications (dimensions, aspect, matiere) detectees par le client |
-| **Erreur d'etiquetage/emballage** | Etiquettes incorrectes, confusion de references, erreur de conditionnement |
-| **Retard de livraison** | Delai de production ou de transport non respecte |
-| **CQ pre-expedition** | :green_circle: NC detectee lors du controle qualite avant expedition par le partenaire chinois |
-| **Verification echantillons** | :green_circle: NC detectee lors de la verification des echantillons recus chez Plus Sarl en parallele de la livraison |
-| **Suivi interne** | Detection par la gerante lors du suivi operationnel (verification documents, photos, echanges) |
+| **Réclamation client** | Client signalé un defaut, un retard, une erreur de quantité, un problème d'aspect |
+| **Dommage transport** | Produits endommagés pendant le transport (aérien, maritime, ferroviaire) |
+| **Defaut de production** | Pièces non conformes aux spécifications (dimensions, aspect, matière) détectées par le client |
+| **Erreur d'étiquetage/emballage** | Etiquettes incorrectes, confusion de références, erreur de conditionnement |
+| **Retard de livraison** | Délai de production ou de transport non respecte |
+| **CQ pre-expédition** | :green_circle: NC détectée lors du contrôle qualité avant expédition par le partenaire chinois |
+| **Vérification échantillons** | :green_circle: NC détectée lors de la vérification des échantillons reçus chez Plus Sarl en parallèle de la livraison |
+| **Suivi interne** | Detection par la gérante lors du suivi opérationnel (vérification documents, photos, échanges) |
 | **Audit interne** | Constat d'audit (NC majeure ou mineure) |
 | **Audit de certification** | Constat de l'organisme de certification (SQS) |
-| **Retour du partenaire chinois** | Probleme signale pendant la fabrication par Yuyao Mould Factory ou Whang |
+| **Retour du partenaire chinois** | Problème signalé pendant la fabrication par Yuyao Mould Factory ou Whang |
 | **Fonctionnement courant** | Erreur de commande, oubli, document manquant |
 
-> **Important :** Toutes les reclamations sont traitees independamment de la date a laquelle elles sont signalees par le client.
+> **Important :** Toutes les réclamations sont traitées independamment de la date a laquelle elles sont signalees par le client.
 
-## 6. Procedure de traitement
+## 6. Procédure de traitement
 
 ### 6.1 Logigramme
 
 ```
-    NC detectee (principalement par reclamation client,
-    CQ pre-expedition ou verification echantillons)
+    NC détectée (principalement par reclamation client,
+    CQ pre-expédition ou vérification échantillons)
         |
         v
     +-------------------+
-    | 1. Enregistrer     |---> Fiche NC (numero, date, description)
+    | 1. Enregistrer     |---> Fiche NC (numéro, date, description)
     +-------------------+
         |
         v
     +-------------------+
     | 2. Analyser la     |---> La gerante analyse la situation :
-    |    situation       |     gravite, impact, origine du probleme
+    |    situation       |     gravite, impact, origine du problème
     +-------------------+
         |
         v
@@ -103,14 +103,14 @@ Toutes les non-conformites detectees :
         v
     +-------------------+
     | 4. Mettre en       |---> Appliquer la decision
-    |    oeuvre           |     (remplacement, derogation, etc.)
+    |    oeuvre           |     (remplacement, dérogation, etc.)
     +-------------------+
         |
         v
     +-------------------+
     | 5. Coordonner avec |---> Informer le partenaire chinois
     |    le fournisseur  |     (Yuyao Mould Factory ou Whang)
-    |                    |     Discuter conditions financieres
+    |                    |     Discuter conditions financières
     +-------------------+
         |
         v
@@ -126,133 +126,133 @@ Toutes les non-conformites detectees :
       |               |
       v               v
     +----------+   +---------+
-    | Ouvrir   |   | Cloturer|
+    | Ouvrir   |   | Clôturer|
     | Action   |   | la fiche|
     | Corrective|   | NC      |
     | PRO-ACR  |   +---------+
     +----------+
 ```
 
-### 6.2 Detail des etapes
+### 6.2 Détail des étapes
 
-**Etape 1 - Enregistrer la NC**
+**Étape 1 - Enregistrer la NC**
 
-Remplir la fiche de non-conformite avec :
-- Numero unique : NC_[AAAA]_[NNNN] (ex : NC_2026_1001)
-- Date de detection (date de la reclamation client ou du constat)
-- Source de detection (reclamation client, dommage transport, suivi interne, CQ pre-expedition, verification echantillons, etc.)
+Remplir la fiche de non-conformité avec :
+- Numéro unique : NC_[AAAA]_[NNNN] (ex : NC_2026_1001)
+- Date de detection (date de la réclamation client ou du constat)
+- Source de detection (réclamation client, dommage transport, suivi interne, CQ pre-expédition, vérification échantillons, etc.)
 - Description precise de la NC
-- Produit/processus concerne
-- Reference de la commande/projet (reference FileMaker)
+- Produit/processus concerné
+- Référence de la commande/projet (référence FileMaker)
 
-**Format de numerotation :** NC_AAAA_NNNN
-- AAAA = annee
-- NNNN = numero sequentiel a 4 chiffres (1001, 1002, 1003, ...)
+**Format de numérotation :** NC_AAAA_NNNN
+- AAAA = année
+- NNNN = numéro sequentiel a 4 chiffrés (1001, 1002, 1003, ...)
 - Separateur : underscore (_)
 
-**Etape 2 - Analyser la situation**
+**Étape 2 - Analyser la situation**
 
-La gerante analyse la situation en evaluant :
+La gérante analyse la situation en evaluant :
 - La gravite : Majeure / Mineure
 - L'impact sur le client et sa satisfaction
-- L'origine probable du probleme (defaut de production, transport, erreur de commande, etiquetage)
-- Si d'autres commandes/clients sont potentiellement concernes
+- L'origine probable du problème (defaut de production, transport, erreur de commande, étiquetage)
+- Si d'autres commandes/clients sont potentiellement concernés
 
-**Etape 3 - Decider du traitement**
+**Étape 3 - Decider du traitement**
 
 ### 6.3 Options de traitement des produits non conformes
 
 | Option | Description | Quand l'utiliser | Accord client |
 |---|---|---|---|
-| **Remplacement** | Relancer une production et expedier de nouveaux produits conformes | Option privilegiee -- garantir la satisfaction client | Non necessaire |
-| **Derogation (acceptation par le client)** | Le client accepte le produit malgre la NC | NC mineure, client accepte en l'etat | **Obligatoire** |
-| **Modification / retouche** | Produit modifie si techniquement faisable | Defaut corrigeable | A evaluer avec le client |
-| **Produit laisse chez le client** | Produit defectueux laisse chez le client (rebut ou usage secondaire) | Rapatriement non economique | Accord client |
-| **Recuperation du produit** | Produit defectueux recupere aupres du client | Si necessaire pour analyse ou retour | Non necessaire |
+| **Remplacement** | Relancer une production et expédier de nouveaux produits conformes | Option privilegiee -- garantir la satisfaction client | Non nécessaire |
+| **Derogation (acceptation par le client)** | Le client accepte le produit malgre la NC | NC mineure, client accepte en l'état | **Obligatoire** |
+| **Modification / retouche** | Produit modifie si techniquement faisable | Defaut corrigeable | A évaluer avec le client |
+| **Produit laisse chez le client** | Produit defectueux laisse chez le client (rebut ou usage secondaire) | Rapatriement non économique | Accord client |
+| **Recuperation du produit** | Produit defectueux recupere auprès du client | Si nécessaire pour analyse ou retour | Non nécessaire |
 
-> **Principe directeur :** L'objectif premier est de garantir la satisfaction du client. En regle generale, les produits non conformes sont remplaces.
+> **Principe directeur :** L'objectif premier est de garantir la satisfaction du client. En règle générale, les produits non conformes sont remplacés.
 
-**Etape 4 - Mettre en oeuvre**
+**Étape 4 - Mettre en œuvre**
 
 - Appliquer la decision (lancer le remplacement, organiser la modification, etc.)
 - Documenter les actions prises
-- Communiquer avec le client sur les delais et les solutions proposees
+- Communiquer avec le client sur les délais et les solutions proposées
 
-**Etape 5 - Coordonner avec le fournisseur**
+**Étape 5 - Coordonner avec le fournisseur**
 
 - Informer le partenaire chinois (Yuyao Mould Factory ou Whang) de la NC
-- Discuter les conditions financieres en fonction de l'origine du probleme :
+- Discuter les conditions financières en fonction de l'origine du problème :
   - Si defaut de production : prise en charge par le partenaire chinois
-  - Si dommage transport : reclamation aupres du transporteur
-  - Si erreur d'etiquetage/emballage : correction par le partenaire chinois
-  - Autres cas : negociation au cas par cas
+  - Si dommage transport : réclamation auprès du transporteur
+  - Si erreur d'étiquetage/emballage : correction par le partenaire chinois
+  - Autres cas : négociation au cas par cas
 - Demander au partenaire de conserver les informations de la NC pour les productions futures
-- Demander un renforcement du CQ pre-expedition si la NC aurait pu etre detectee avant envoi
+- Demander un renforcement du CQ pre-expédition si la NC aurait pu être détectée avant envoi
 
-**Etape 6 - Verifier**
+**Étape 6 - Vérifier**
 
 - Confirmer que le traitement est effectif (remplacement livre, client satisfait)
 - S'assurer que le partenaire chinois a bien pris en compte la NC pour les prochaines productions
-- Verifier que le CQ pre-expedition a ete ajuste si necessaire
+- Vérifier que le CQ pre-expédition a été ajuste si nécessaire
 
-## 7. Fiche de Non-Conformite (modele)
+## 7. Fiche de Non-Conformité (modèle)
 
 ### En-tete
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **N. de NC** | NC_[AAAA]_[NNNN] |
 | **Date de detection** | [JJ/MM/AAAA] |
-| **Detectee par** | [Nom du client / Source] |
-| **Commande/Projet concerne** | [Reference FileMaker] |
-| **Client concerne** | [Nom du client] |
+| **Détectée par** | [Nom du client / Source] |
+| **Commande/Projet concerné** | [Référence FileMaker] |
+| **Client concerné** | [Nom du client] |
 
 ### Description
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Produit concerne** | [Description du produit (moule, pieces plastiques, vis)] |
+| **Produit concerné** | [Description du produit (moule, pièces plastiques, vis)] |
 | **Description de la NC** | [Description factuelle et precise] |
-| **Origine probable** | [ ] Defaut de production [ ] Dommage transport [ ] Retard [ ] Erreur de commande [ ] Emballage/Etiquetage [ ] CQ pre-expedition [ ] Verification echantillons [ ] Autre |
-| **Exigence non satisfaite** | [Reference au plan, aux specifications, au contrat] |
+| **Origine probable** | [ ] Defaut de production [ ] Dommage transport [ ] Retard [ ] Erreur de commande [ ] Emballage/Etiquetage [ ] CQ pre-expédition [ ] Vérification échantillons [ ] Autre |
+| **Exigence non satisfaite** | [Référence au plan, aux spécifications, au contrat] |
 | **Gravite** | [ ] Majeure [ ] Mineure |
-| **Quantite concernee** | [Nombre de pieces / lots] |
+| **Quantité concernée** | [Nombre de pièces / lots] |
 | **Preuves** | [Photos, rapports du client, documents de transport, rapport CQ] |
 
-### Traitement immediat (correction)
+### Traitement immédiat (correction)
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **Decision** | [ ] Remplacement [ ] Derogation (acceptation client) [ ] Modification/retouche [ ] Produit laisse chez le client [ ] Recuperation du produit |
-| **Description de la correction** | [Ce qui est fait immediatement] |
-| **Accord client (si derogation)** | [ ] Oui - Ref : [___] [ ] Non applicable |
-| **Date de mise en oeuvre** | [JJ/MM/AAAA] |
-| **Verification** | [Resultat de la verification -- confirmation client] |
+| **Description de la correction** | [Ce qui est fait immédiatement] |
+| **Accord client (si dérogation)** | [ ] Oui - Ref : [___] [ ] Non applicable |
+| **Date de mise en œuvre** | [JJ/MM/AAAA] |
+| **Vérification** | [Résultat de la vérification -- confirmation client] |
 
 ### Coordination fournisseur
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **Partenaire informe** | [ ] Yuyao Mould Factory [ ] Whang [ ] Transporteur |
 | **Date d'information** | [JJ/MM/AAAA] |
 | **Moyen de communication** | [ ] Email [ ] WeChat [ ] Autre |
-| **Conditions financieres** | [Prise en charge fournisseur / partage / autre] |
-| **Actions demandees au partenaire** | [Description : controles renforces, conservation des informations, ajustement CQ pre-expedition, etc.] |
+| **Conditions financières** | [Prise en charge fournisseur / partage / autre] |
+| **Actions demandees au partenaire** | [Description : contrôles renforces, conservation des informations, ajustement CQ pre-expédition, etc.] |
 
-### Action corrective associee
+### Action corrective associée
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Action corrective necessaire ?** | [ ] Oui - Ref : AC_[AAAA]_[NNN] [ ] Non (NC ponctuelle, non recurrente) |
+| **Action corrective nécessaire ?** | [ ] Oui - Ref : AC_[AAAA]_[NNN] [ ] Non (NC ponctuelle, non recurrente) |
 | **Justification si non** | [Pourquoi pas d'action corrective] |
 
-### Cloture
+### Clôture
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Date de cloture** | [JJ/MM/AAAA] |
-| **Cloturee par** | Roxane Wicky |
-| **Statut** | [ ] Soldee [ ] En cours |
+| **Date de clôture** | [JJ/MM/AAAA] |
+| **Clôturée par** | Roxane Wicky |
+| **Statut** | [ ] Soldée [ ] En cours |
 
 ---
 
@@ -260,84 +260,84 @@ La gerante analyse la situation en evaluant :
 
 #### En-tete
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **N. de NC** | :green_circle: NC_2026_1001 |
 | **Date de detection** | :green_circle: 10/02/2026 |
-| **Detectee par** | :green_circle: Suivi interne (Plus Sarl) |
-| **Commande/Projet concerne** | :green_circle: SHIP_25058 / CFM00057428 / 90.60.05710 |
-| **Client concerne** | :green_circle: [Client concerne par la commande CFM00057428] |
+| **Détectée par** | :green_circle: Suivi interne (Plus Sarl) |
+| **Commande/Projet concerné** | :green_circle: SHIP_25058 / CFM00057428 / 90.60.05710 |
+| **Client concerné** | :green_circle: [Client concerné par la commande CFM00057428] |
 
 #### Description
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Produit concerne** | :green_circle: Pieces plastiques - reference 90.60.05710 |
-| **Description de la NC** | :green_circle: Livraison d'un carton de 1000 pieces avec etiquetage incorrect (90.60.05710L au lieu de 90.60.05710) |
+| **Produit concerné** | :green_circle: Pièces plastiques - référence 90.60.05710 |
+| **Description de la NC** | :green_circle: Livraison d'un carton de 1000 pièces avec étiquetage incorrect (90.60.05710L au lieu de 90.60.05710) |
 | **Origine probable** | :green_circle: [X] Emballage/Etiquetage |
-| **Exigence non satisfaite** | :green_circle: Etiquetage conforme a la reference commandee |
+| **Exigence non satisfaite** | :green_circle: Etiquetage conforme à la référence commandee |
 | **Gravite** | :green_circle: [X] Mineure |
-| **Quantite concernee** | :green_circle: 1000 pieces (1 carton) |
-| **Preuves** | Photos non disponibles. :red_circle: [A REMPLIR -- photos demandees mais non encore recues] |
+| **Quantité concernée** | :green_circle: 1000 pièces (1 carton) |
+| **Preuves** | Photos non disponibles. :red_circle: [À REMPLIR -- photos demandees mais non encore reçues] |
 
 #### Analyse
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Analyse** | :green_circle: Erreur sur l'etiquetage uniquement, produit conforme. La reference imprimee sur l'etiquette est 90.60.05710L au lieu de 90.60.05710. Le produit physique est correct. |
-| **Cause exacte** | :red_circle: [A REMPLIR -- cause pas encore identifiee] |
+| **Analyse** | :green_circle: Erreur sur l'étiquetage uniquement, produit conforme. La référence imprimée sur l'etiquette est 90.60.05710L au lieu de 90.60.05710. Le produit physique est correct. |
+| **Cause exacte** | :red_circle: [À REMPLIR -- cause pas encore identifiée] |
 | **Suivi** | :green_circle: Suivi en cours |
 
-#### Traitement immediat (correction)
+#### Traitement immédiat (correction)
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **Decision** | :green_circle: [X] Derogation (acceptation client) |
-| **Description de la correction** | :green_circle: Demande de photo de l'etiquetage pour validation. Le client accepte la marchandise en l'etat car le produit est conforme, seule l'etiquette est erronee. |
-| **Accord client (si derogation)** | :green_circle: [X] Oui - Client accepte le produit en l'etat |
-| **Date de mise en oeuvre** | :green_circle: 10/02/2026 |
-| **Verification** | :green_circle: En cours - client en vacances, suivi a la reprise |
+| **Description de la correction** | :green_circle: Demande de photo de l'étiquetage pour validation. Le client accepte la marchandise en l'état car le produit est conforme, seule l'etiquette est erronee. |
+| **Accord client (si dérogation)** | :green_circle: [X] Oui - Client accepte le produit en l'état |
+| **Date de mise en œuvre** | :green_circle: 10/02/2026 |
+| **Vérification** | :green_circle: En cours - client en vacances, suivi à la reprise |
 
 #### Coordination fournisseur
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **Partenaire informe** | :green_circle: [X] Yuyao Mould Factory |
 | **Date d'information** | :green_circle: 10/02/2026 |
 | **Moyen de communication** | :green_circle: [X] WeChat |
-| **Conditions financieres** | :red_circle: [A REMPLIR -- a determiner] |
-| **Actions demandees au partenaire** | :green_circle: Corriger l'etiquetage pour les prochaines productions de cette reference. Verifier les etiquettes avant expedition. Renforcer le CQ pre-expedition. |
+| **Conditions financières** | :red_circle: [À REMPLIR -- a determiner] |
+| **Actions demandees au partenaire** | :green_circle: Corriger l'étiquetage pour les prochaines productions de cette référence. Vérifier les etiquettes avant expédition. Renforcer le CQ pre-expédition. |
 
-#### Action corrective associee
+#### Action corrective associée
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Action corrective necessaire ?** | :green_circle: [X] Oui - Ref : AC_2026_001 |
-| **Actions prevues** | :green_circle: 1. Informer le fournisseur (fait le 10/02/2026 via WeChat). 2. Creer une checklist de controle qualite complete. |
-| **Delai** | :green_circle: Correction lors du voyage en Chine en mars 2026 |
+| **Action corrective nécessaire ?** | :green_circle: [X] Oui - Ref : AC_2026_001 |
+| **Actions prévues** | :green_circle: 1. Informer le fournisseur (fait le 10/02/2026 via WeChat). 2. Créer une checklist de contrôle qualité complète. |
+| **Délai** | :green_circle: Correction lors du voyage en Chine en mars 2026 |
 
-#### Cloture
+#### Clôture
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Date de cloture** | :red_circle: [A REMPLIR -- en attente] |
-| **Cloturee par** | Roxane Wicky |
+| **Date de clôture** | :red_circle: [À REMPLIR -- en attente] |
+| **Clôturée par** | Roxane Wicky |
 | **Statut** | :green_circle: [X] En cours |
 
 #### Commentaire
 
-:green_circle: Le fournisseur confirme via WeChat que l'erreur concerne l'etiquetage et non le produit. Le produit livre est bien conforme a la reference 90.60.05710. Client en vacances, suivi a la reprise.
+:green_circle: Le fournisseur confirmé via WeChat que l'erreur concerné l'étiquetage et non le produit. Le produit livre est bien conforme à la référence 90.60.05710. Client en vacances, suivi à la reprise.
 
-**Mise a jour 12/02/2026 :** Suivi en cours, photos non disponibles, cause exacte pas encore identifiee. L'action corrective AC_2026_001 reste ouverte. Le traitement sera renforce lors du voyage en Chine prevu en mars 2026.
+**Mise à jour 12/02/2026 :** Suivi en cours, photos non disponibles, cause exacte pas encore identifiée. L'action corrective AC_2026_001 reste ouverte. Le traitement sera renforce lors du voyage en Chine prévu en mars 2026.
 
 ---
 
 ## 8. Registre des non-conformites
 
-| N. NC | Date | Source | Description resumee | Origine | Gravite | Traitement | Statut | AC associee |
+| N. NC | Date | Source | Description résumée | Origine | Gravite | Traitement | Statut | AC associée |
 |---|---|---|---|---|---|---|---|---|
-| :green_circle: NC_2026_1001 | 10/02/2026 | Suivi interne | 1000 pieces livrees avec mauvaise etiquette (90.60.05710L au lieu de 90.60.05710) - SHIP_25058/CFM00057428. Suivi en cours, photos non disponibles, cause pas encore identifiee. | Emballage/Etiquetage | Mineure | Derogation (client accepte en l'etat). Informer fournisseur. Creer checklist controle qualite. | En cours | AC_2026_001 (En cours) |
-| NC_[AAAA]_[NNNN] | [date] | [source] | [resume] | [production/transport/retard/etiquetage/CQ pre-expedition/autre] | [Maj/Min] | [decision] | [Ouvert/Solde] | [AC_xxx ou N/A] |
+| :green_circle: NC_2026_1001 | 10/02/2026 | Suivi interne | 1000 pièces livrées avec mauvaise etiquette (90.60.05710L au lieu de 90.60.05710) - SHIP_25058/CFM00057428. Suivi en cours, photos non disponibles, cause pas encore identifiée. | Emballage/Etiquetage | Mineure | Derogation (client accepte en l'état). Informer fournisseur. Créer checklist contrôle qualité. | En cours | AC_2026_001 (En cours) |
+| NC_[AAAA]_[NNNN] | [date] | [source] | [résumé] | [production/transport/retard/étiquetage/CQ pre-expédition/autre] | [Maj/Min] | [decision] | [Ouvert/Solde] | [AC_xxx ou N/A] |
 
 ---
 
@@ -345,24 +345,24 @@ La gerante analyse la situation en evaluant :
 
 | Indicateur | Formule | Cible | Frequence |
 |---|---|---|---|
-| Nombre de NC par trimestre | Comptage | Tendance a la baisse | Trimestriel |
-| Repartition par origine | Comptage par categorie (production, transport, retard, etiquetage, CQ pre-expedition, autre) | Information | Trimestriel |
-| Delai moyen de traitement | Moyenne (date cloture - date detection) | < 30 jours :blue_circle: [A VERIFIER] | Trimestriel |
+| Nombre de NC par trimestre | Comptage | Tendance à la baisse | Trimestriel |
+| Repartition par origine | Comptage par categorie (production, transport, retard, étiquetage, CQ pre-expédition, autre) | Information | Trimestriel |
+| Délai moyen de traitement | Moyenne (date clôture - date detection) | < 30 jours :blue_circle: [À VÉRIFIER] | Trimestriel |
 | Taux de NC recurrentes | NC recurrentes / Total NC x 100 | < 10% | Annuel |
 | Taux de remplacement | Remplacements / Total NC x 100 | Information | Annuel |
-| NC detectees par CQ pre-expedition | Comptage | Information | Trimestriel |
+| NC détectées par CQ pre-expédition | Comptage | Information | Trimestriel |
 
 ---
 
 > **Instructions de remplissage :**
-> 1. Enregistrez TOUTE non-conformite signalee par un client ou detectee en interne, quelle que soit la date de signalement
-> 2. Utilisez le format de numerotation NC_AAAA_NNNN (ex : NC_2026_1001)
+> 1. Enregistrez TOUTE non-conformité signalée par un client ou détectée en interne, quelle que soit la date de signalement
+> 2. Utilisez le format de numérotation NC_AAAA_NNNN (ex : NC_2026_1001)
 > 3. Photographiez ou demandez au client de photographier les defauts quand c'est possible
-> 4. Communiquez chaque NC produit au partenaire chinois concerne (Yuyao Mould Factory ou Whang)
-> 5. Documentez les echanges par email ou WeChat avec les partenaires chinois
+> 4. Communiquez chaque NC produit au partenaire chinois concerné (Yuyao Mould Factory ou Whang)
+> 5. Documentez les échanges par email ou WeChat avec les partenaires chinois
 > 6. Analysez les tendances lors de la revue de direction
 > 7. En cas de doute sur l'origine, privilegiez la satisfaction client (remplacement)
-> 8. Verifiez si la NC aurait pu etre detectee lors du CQ pre-expedition et ajustez le processus si necessaire
+> 8. Verifiez si la NC aurait pu être détectée lors du CQ pre-expédition et ajustez le processus si nécessaire
 
 ---
 
@@ -370,7 +370,7 @@ La gerante analyse la situation en evaluant :
 
 | Version | Date | Description de la modification | Auteur |
 |---|---|---|---|
-| 0.1 | 10/02/2026 | Creation initiale | Roxane Wicky |
-| 0.2 | 10/02/2026 | Ajout de la premiere NC reelle (NC_2026_1001 - erreur d'etiquetage SHIP_25058/CFM00057428/90.60.05710). Ajout d'un exemple de fiche NC remplie en section 7. Mise a jour du format de numerotation (NC_AAAA_NNNN avec underscores). Ajout de la source de detection "Suivi interne" et de l'origine "Emballage/Etiquetage". | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du systeme de legende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration UPDATE 2.1 Processus 04 : ajout reference au controle qualite pre-expedition formalise (CTX-QUA-001, section 1.1). | Roxane Wicky |
+| 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
+| 0.2 | 10/02/2026 | Ajout de la première NC reelle (NC_2026_1001 - erreur d'étiquetage SHIP_25058/CFM00057428/90.60.05710). Ajout d'un exemple de fiche NC remplie en section 7. Mise à jour du format de numérotation (NC_AAAA_NNNN avec underscores). Ajout de la source de detection "Suivi interne" et de l'origine "Emballage/Etiquetage". | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration UPDATE 2.1 Processus 04 : ajout référence au contrôle qualité pre-expédition formalisé (CTX-QUA-001, section 1.1). | Roxane Wicky |

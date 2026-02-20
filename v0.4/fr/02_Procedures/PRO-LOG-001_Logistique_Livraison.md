@@ -1,91 +1,91 @@
-# Procedure Logistique et Livraison
+# Procédure Logistique et Livraison
 
 | | |
 |---|---|
-| **Reference** | PRO-LOG-001 |
+| **Référence** | PRO-LOG-001 |
 | **Version** | 0.4 |
-| **Date de creation** | 18/02/2026 |
+| **Date de création** | 18/02/2026 |
 | **Date de revision** | 18/02/2026 |
-| **Redige par** | Roxane Wicky |
+| **Rédigé par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 
-> **Legende :** :red_circle: [A REMPLIR] = obligatoire, manquant | :yellow_circle: [RECOMMANDE] = recommande | :green_circle: = deja rempli | :blue_circle: [A VERIFIER] = a confirmer
+> **Légende :** :red_circle: [À REMPLIR] = obligatoire, manquant | :yellow_circle: [RECOMMANDE] = recommandé | :green_circle: = déjà rempli | :blue_circle: [À VÉRIFIER] = a confirmer
 
 ---
 
 ## 1. Objet
 
-Definir les regles d'organisation, de suivi et de maitrise de la logistique internationale et des livraisons, depuis la notification de produits prets par le partenaire chinois jusqu'a la confirmation de reception par le client europeen, en passant par la creation des documents douaniers conformes a la legislation europeenne et suisse.
+Définir les règles d'organisation, de suivi et de maîtrise de la logistique internationale et des livraisons, depuis la notification de produits prêts par le partenaire chinois jusqu'a la confirmation de reception par le client européen, en passant par la création des documents douaniers conformes à la législation européenne et suisse.
 
-> **Cette procedure est essentielle pour Plus Sarl.** La coordination logistique entre la Chine et l'Europe
-> constitue un maillon critique de la chaine de valeur. La maitrise des delais, du transport et des
-> formalites douanieres impacte directement la satisfaction des clients et sera examinee par l'auditeur
+> **Cette procédure est essentielle pour Plus Sarl.** La coordination logistique entre la Chine et l'Europe
+> constitue un maillon critique de la chaîne de valeur. La maîtrise des délais, du transport et des
+> formalités douanières impacte directement la satisfaction des clients et sera examinée par l'auditeur
 > de certification (SQS).
 
 ## 2. Domaine d'application
 
-Toutes les expeditions de produits depuis la Chine vers les clients europeens de Plus Sarl (~10 clients actifs, 50-100 expeditions par an) :
-- Expeditions de pieces plastiques injectees (depuis Yuyao Mould Factory)
+Toutes les expéditions de produits depuis la Chine vers les clients européens de Plus Sarl (~10 clients actifs, 50-100 expéditions par an) :
+- Expeditions de pièces plastiques injectees (depuis Yuyao Mould Factory)
 - Expeditions de vis (depuis Whang, Yuyao)
-- Expeditions combinees ou multi-references
-- Tous les modes de transport : aerien, maritime, ferroviaire
-- Gestion des documents douaniers associes
+- Expeditions combinees ou multi-références
+- Tous les modes de transport : aérien, maritime, ferroviaire
+- Gestion des documents douaniers associés
 
-## 3. Responsabilites
+## 3. Responsabilités
 
-| Responsabilite | Qui |
+| Responsabilité | Qui |
 |---|---|
-| Creation de la fiche de livraison dans FileMaker | :green_circle: Roxane Wicky, gerante |
-| Choix du mode de transport | :green_circle: Roxane Wicky, gerante |
-| Selection et contact du transporteur | :green_circle: Roxane Wicky, gerante |
-| Preparation des documents douaniers | :green_circle: Roxane Wicky, gerante |
-| Suivi d'expedition et tracking | :green_circle: Roxane Wicky, gerante |
-| Gestion des formalites douanieres (EU et CH) | :green_circle: Roxane Wicky, gerante |
-| Confirmation de livraison aupres du client | :green_circle: Roxane Wicky, gerante |
-| Cloture de la fiche livraison dans FileMaker | :green_circle: Roxane Wicky, gerante |
+| Création de la fiche de livraison dans FileMaker | :green_circle: Roxane Wicky, gérante |
+| Choix du mode de transport | :green_circle: Roxane Wicky, gérante |
+| Sélection et contact du transporteur | :green_circle: Roxane Wicky, gérante |
+| Préparation des documents douaniers | :green_circle: Roxane Wicky, gérante |
+| Suivi d'expédition et tracking | :green_circle: Roxane Wicky, gérante |
+| Gestion des formalités douanières (EU et CH) | :green_circle: Roxane Wicky, gérante |
+| Confirmation de livraison auprès du client | :green_circle: Roxane Wicky, gérante |
+| Clôture de la fiche livraison dans FileMaker | :green_circle: Roxane Wicky, gérante |
 
 ## 4. Modes de transport
 
-Le choix du mode de transport est determine par l'urgence de la livraison et le volume des marchandises :
+Le choix du mode de transport est détermine par l'urgence de la livraison et le volume des marchandises :
 
-| Mode | Usage | Delai indicatif Chine-Europe | Tolerance | Criteres de choix |
+| Mode | Usage | Délai indicatif Chine-Europe | Tolerance | Critères de choix |
 |---|---|---|---|---|
-| **Aerien** | Urgent, petits volumes | :green_circle: 5-10 jours | :green_circle: +/- 3 jours | Urgence client, echantillons, petites series |
-| **Maritime** | Standard, grands volumes | :green_circle: 30-45 jours | :green_circle: +/- 10 jours | Volumes importants, cout optimise, delai non critique |
-| **Ferroviaire** | Intermediaire | :green_circle: 15-25 jours | :green_circle: +/- 7 jours | Compromis entre delai et cout, volumes moyens |
+| **Aérien** | Urgent, petits volumes | :green_circle: 5-10 jours | :green_circle: +/- 3 jours | Urgence client, échantillons, petites series |
+| **Maritime** | Standard, grands volumes | :green_circle: 30-45 jours | :green_circle: +/- 10 jours | Volumes importants, coût optimise, délai non critique |
+| **Ferroviaire** | Intermédiaire | :green_circle: 15-25 jours | :green_circle: +/- 7 jours | Compromis entre délai et coût, volumes moyens |
 
 > **Note :** Le mode de transport est choisi au cas par cas en fonction des exigences du client
-> (delai, cout) et du volume de la commande. Le transport maritime est privilegie quand le delai
-> le permet afin d'optimiser les couts.
+> (délai, coût) et du volume de la commande. Le transport maritime est privilegie quand le délai
+> le permet afin d'optimiser les coûts.
 
 ### 4.1 Transporteurs et transitaires
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Modes disponibles** | :green_circle: Aerien, maritime, ferroviaire |
-| **Criteres de selection** | :green_circle: Fiabilite, respect des delais, couverture geographique, cout |
-| **Noms des transporteurs** | :yellow_circle: [RECOMMANDE -- il est recommande de documenter les noms des transporteurs et transitaires utilises pour assurer la tracabilite et l'evaluation] |
+| **Modes disponibles** | :green_circle: Aérien, maritime, ferroviaire |
+| **Critères de sélection** | :green_circle: Fiabilité, respect des délais, couverture géographique, coût |
+| **Noms des transporteurs** | :yellow_circle: [RECOMMANDE -- il est recommandé de documenter les noms des transporteurs et transitaires utilisés pour assurer la traçabilité et l'évaluation] |
 
-## 5. Procedure de livraison
+## 5. Procédure de livraison
 
 ### 5.1 Logigramme
 
 ```
-    Notification produits prets
+    Notification produits prêts
     (depuis processus O2)
             |
             v
     +---------------------------+
     | 1. Recevoir la            |---> Le partenaire chinois notifie
-    |    notification produits  |     que les produits sont prets
-    |    prets                  |     a l'expedition (email/WeChat)
+    |    notification produits  |     que les produits sont prêts
+    |    prêts                  |     à l\'expédition (email/WeChat)
     +---------------------------+
             |
             v
     +---------------------------+
-    | 2. Creer la fiche         |---> Enregistrement dans FileMaker :
-    |    livraison dans         |     references, quantites, client,
-    |    FileMaker              |     delai souhaite
+    | 2. Créer la fiche         |---> Enregistrement dans FileMaker :
+    |    livraison dans         |     references, quantités, client,
+    |    FileMaker              |     délai souhaité
     +---------------------------+
             |
             v
@@ -98,8 +98,8 @@ Le choix du mode de transport est determine par l'urgence de la livraison et le 
             v
     +---------------------------+
     | 4. Selectionner et        |---> Contact transporteur/transitaire
-    |    contacter le           |     Demande de devis si necessaire
-    |    transporteur           |     Confirmation de la reservation
+    |    contacter le           |     Demande de devis si nécessaire
+    |    transporteur           |     Confirmation de la réservation
     +---------------------------+
             |
             v
@@ -112,127 +112,127 @@ Le choix du mode de transport est determine par l'urgence de la livraison et le 
             |
             v
     +---------------------------+
-    | 6. Verifier la conformite |---> Conformite a la legislation
+    | 6. Verifier la conformité |---> Conformite à la législation
     |    des documents          |     europeenne (UE) et suisse (CH)
     |    douaniers              |     Coherence avec la commande client
     +---------------------------+
             |
             v
     +---------------------------+
-    | 7. Lancer l'expedition    |---> Remise des marchandises et
+    | 7. Lancer l'expédition    |---> Remise des marchandises et
     |                           |     documents au transporteur
     +---------------------------+
             |
             v
     +---------------------------+
-    | 8. Suivre l'expedition    |---> Tracking en ligne
+    | 8. Suivre l'expédition    |---> Tracking en ligne
     |                           |     Contact transporteur si besoin
-    |                           |     Mise a jour FileMaker
+    |                           |     Mise à jour FileMaker
     +---------------------------+
             |
             v
     +---------------------------+
-    | 9. Gerer le dedouanement  |---> Suivi des formalites douanieres
-    |                           |     a l'import (EU/CH)
-    |                           |     Resolution des blocages
+    | 9. Gérer le dédouanement  |---> Suivi des formalités douanières
+    |                           |     à l\'import (EU/CH)
+    |                           |     Résolution des blocages
     +---------------------------+
             |
             v
     +---------------------------+
     | 10. Confirmer la          |---> Contact client pour confirmation
-    |     livraison au client   |     de bonne reception
+    |     livraison au client   |     de bonne réception
     +---------------------------+
             |
             v
-       Probleme signale ?
+       Problème signalé ?
        /                \
      NON                OUI
       |                   |
       v                   v
     +---------------------------+
-    | 11. Cloturer la fiche     |   PRO-NCF-001
-    |     dans FileMaker        |   (non-conformite)
+    | 11. Clôturer la fiche     |   PRO-NCF-001
+    |     dans FileMaker        |   (non-conformité)
     +---------------------------+
 ```
 
-### 5.2 Detail des etapes
+### 5.2 Détail des étapes
 
-| # | Etape | Description | Outil | Sortie |
+| # | Étape | Description | Outil | Sortie |
 |---|---|---|---|---|
-| 1 | Reception notification produits prets | Le partenaire chinois informe que les produits sont prets a l'expedition apres CQ pre-expedition (cf. PRO-ACH-001, section 8) | Email / WeChat | Notification recue |
-| 2 | Creation fiche livraison | Enregistrement de toutes les informations de livraison dans FileMaker (references, quantites, client, delai) | FileMaker | Fiche livraison creee |
-| 3 | Choix du mode de transport | Selection du mode de transport (aerien, maritime, ferroviaire) en fonction de l'urgence, du volume et des exigences client | -- | Mode de transport defini |
-| 4 | Selection transporteur | Contact du transporteur ou transitaire, demande de devis si necessaire, confirmation de reservation | Email | Reservation confirmee |
-| 5 | Preparation documents douaniers | Creation de la facture douaniere, du certificat d'origine, de la packing list et de tout autre document requis | FileMaker / Email | Documents douaniers prets |
-| 6 | Verification conformite documents | Verification de la coherence des documents avec la commande client et la legislation douaniere EU et CH | -- | Documents valides |
-| 7 | Lancement expedition | Remise des marchandises et des documents au transporteur | -- | Expedition lancee |
-| 8 | Suivi expedition | Suivi du transport via tracking en ligne, contact transporteur si necessaire, mise a jour du statut dans FileMaker | FileMaker / Email | Statut a jour |
-| 9 | Gestion dedouanement | Suivi des formalites douanieres a l'import, resolution des eventuels blocages | Email | Dedouanement effectue |
-| 10 | Confirmation livraison client | Contact avec le client pour confirmer la bonne reception des marchandises | Email | Confirmation recue |
-| 11 | Cloture dans FileMaker | Cloture de la fiche livraison, archivage des documents associes | FileMaker | Fiche cloturee |
+| 1 | Reception notification produits prêts | Le partenaire chinois informe que les produits sont prêts à l\'expédition après CQ pre-expédition (cf. PRO-ACH-001, section 8) | Email / WeChat | Notification reçue |
+| 2 | Création fiche livraison | Enregistrement de toutes les informations de livraison dans FileMaker (références, quantités, client, délai) | FileMaker | Fiche livraison créée |
+| 3 | Choix du mode de transport | Sélection du mode de transport (aérien, maritime, ferroviaire) en fonction de l'urgence, du volume et des exigences client | -- | Mode de transport défini |
+| 4 | Sélection transporteur | Contact du transporteur ou transitaire, demande de devis si nécessaire, confirmation de réservation | Email | Réservation confirmée |
+| 5 | Préparation documents douaniers | Création de la facture douanière, du certificat d'origine, de la packing list et de tout autre document requis | FileMaker / Email | Documents douaniers prêts |
+| 6 | Vérification conformité documents | Vérification de la cohérence des documents avec la commande client et la législation douanière EU et CH | -- | Documents valides |
+| 7 | Lancement expédition | Remise des marchandises et des documents au transporteur | -- | Expédition lancée |
+| 8 | Suivi expédition | Suivi du transport via tracking en ligne, contact transporteur si nécessaire, mise à jour du statut dans FileMaker | FileMaker / Email | Statut a jour |
+| 9 | Gestion dédouanement | Suivi des formalités douanières à l\'import, résolution des éventuels blocages | Email | Dédouanement effectué |
+| 10 | Confirmation livraison client | Contact avec le client pour confirmer la bonne reception des marchandises | Email | Confirmation reçue |
+| 11 | Clôture dans FileMaker | Clôture de la fiche livraison, archivage des documents associés | FileMaker | Fiche clôturée |
 
 ## 6. Documents douaniers
 
-Les documents suivants sont requis pour chaque expedition :
+Les documents suivants sont requis pour chaque expédition :
 
 | Document | Description | Obligatoire | Responsable |
 |---|---|---|---|
-| **Facture douaniere** | Facture commerciale detaillant les marchandises, quantites, valeurs, incoterms | Oui | :green_circle: Roxane Wicky |
+| **Facture douanière** | Facture commerciale détaillant les marchandises, quantités, valeurs, incoterms | Oui | :green_circle: Roxane Wicky |
 | **Certificat d'origine** | Document attestant l'origine des marchandises (Chine) | Oui | :green_circle: Roxane Wicky / Partenaire chinois |
-| **Packing list** | Liste de colisage detaillant le contenu de chaque colis (poids, dimensions, references) | Oui | :green_circle: Roxane Wicky / Partenaire chinois |
+| **Packing list** | Liste de colisage détaillant le contenu de chaque colis (poids, dimensions, références) | Oui | :green_circle: Roxane Wicky / Partenaire chinois |
 | **Bon de livraison** | Document accompagnant les marchandises pour le client | Oui | :green_circle: Roxane Wicky |
-| **Documents de transport** | AWB (aerien), B/L (maritime), CIM/SMGS (ferroviaire) | Oui | :green_circle: Transporteur |
-| **Declaration en douane** | Declaration d'importation pour la Suisse ou l'UE | Oui | :green_circle: Transitaire / Roxane Wicky |
-| **Certificats specifiques** | Certificats de conformite, rapports de test, si requis par le client ou la reglementation | Selon commande | :blue_circle: [A VERIFIER -- au cas par cas selon les exigences client et reglementaires] |
+| **Documents de transport** | AWB (aérien), B/L (maritime), CIM/SMGS (ferroviaire) | Oui | :green_circle: Transporteur |
+| **Déclaration en douane** | Déclaration d'importation pour la Suisse ou l'UE | Oui | :green_circle: Transitaire / Roxane Wicky |
+| **Certificats spécifiques** | Certificats de conformité, rapports de test, si requis par le client ou la réglementation | Selon commande | :blue_circle: [À VÉRIFIER -- au cas par cas selon les exigences client et réglementaires] |
 
-> **Note :** Les documents douaniers doivent etre conformes a la fois a la legislation europeenne
-> (pour les livraisons directes aux clients UE) et a la legislation suisse (pour les expeditions
-> transitant par la Suisse). La coherence entre les documents douaniers et les commandes clients
-> est verifiee systematiquement avant chaque expedition.
+> **Note :** Les documents douaniers doivent être conformes à la fois à la législation européenne
+> (pour les livraisons directes aux clients UE) et à la législation suisse (pour les expéditions
+> transitant par la Suisse). La cohérence entre les documents douaniers et les commandes clients
+> est vérifiée systématiquement avant chaque expédition.
 
 ## 7. Indicateurs de performance
 
-| Indicateur | Objectif | Statut | Methode de mesure |
+| Indicateur | Objectif | Statut | Méthode de mesure |
 |---|---|---|---|
-| Taux de livraisons dans les delais | >= 95% | :green_circle: | Comparaison delai annonce vs. delai reel dans FileMaker |
-| Respect tolerance transport maritime/ferroviaire | +/- 10 jours | :green_circle: | Suivi des ecarts dans FileMaker |
-| Respect tolerance transport aerien | +/- 3 jours | :green_circle: | Suivi des ecarts dans FileMaker |
-| Taux d'erreurs documents douaniers | < 5% | :green_circle: | Nombre de rejets ou corrections par rapport au nombre total d'expeditions |
-| Reclamations clients liees a la livraison | 0 reclamation majeure par an | :green_circle: | Suivi des reclamations dans FileMaker |
+| Taux de livraisons dans les délais | >= 95% | :green_circle: | Comparaison délai annonce vs. délai reel dans FileMaker |
+| Respect tolérance transport maritime/ferroviaire | +/- 10 jours | :green_circle: | Suivi des écarts dans FileMaker |
+| Respect tolérance transport aérien | +/- 3 jours | :green_circle: | Suivi des écarts dans FileMaker |
+| Taux d'erreurs documents douaniers | < 5% | :green_circle: | Nombre de rejets ou corrections par rapport au nombre total d'expéditions |
+| Réclamations clients liées à la livraison | 0 réclamation majeure par an | :green_circle: | Suivi des réclamations dans FileMaker |
 
 > **Frequence de revue :** Les indicateurs sont revus lors de la revue de direction annuelle
-> et en continu par la gerante dans le cadre du suivi operationnel quotidien.
+> et en continu par la gérante dans le cadre du suivi opérationnel quotidien.
 
 ## 8. Risques et actions
 
 | Risque | Impact | Probabilite | Action preventive | Action corrective |
 |---|---|---|---|---|
-| Retard de transport (intemperies, congestion portuaire, perturbations logistiques) | Livraison en retard chez le client | Moyenne | Integrer des marges de securite dans les delais annonces au client ; diversifier les modes de transport | Informer le client immediatement ; rechercher une solution alternative (changement de mode de transport) |
-| Blocage en douane (documents incomplets ou non conformes) | Retard de livraison, couts supplementaires | Faible | Verifier systematiquement la conformite des documents avant expedition (etape 6) ; se tenir informe des evolutions reglementaires | Corriger les documents et les soumettre a nouveau ; contacter le transitaire pour debloquer la situation |
-| Perte ou dommage de marchandises pendant le transport | Perte financiere, insatisfaction client | Faible | Selectionner des transporteurs fiables ; verifier l'emballage avant expedition | Declarer le sinistre au transporteur ; organiser un remplacement si possible ; enregistrer une NC (PRO-NCF-001) |
-| Erreur dans les documents douaniers (montants, references, quantites) | Blocage en douane, penalites | Faible | Double verification des documents avant envoi (etape 6) | Corriger immediatement ; informer le transitaire et le client |
-| Changement de reglementation douaniere (EU ou CH) | Non-conformite des documents | Faible | Veille reglementaire ; contact regulier avec le transitaire | Adapter les documents et les processus ; former si necessaire |
+| Retard de transport (intemperies, congestion portuaire, perturbations logistiques) | Livraison en retard chez le client | Moyenne | Integrer des marges de sécurité dans les délais annoncés au client ; diversifier les modes de transport | Informer le client immédiatement ; rechercher une solution alternative (changement de mode de transport) |
+| Blocage en douane (documents incomplets ou non conformes) | Retard de livraison, coûts supplementaires | Faible | Vérifier systématiquement la conformité des documents avant expédition (étape 6) ; se tenir informe des évolutions réglementaires | Corriger les documents et les soumettre a nouveau ; contacter le transitaire pour debloquer la situation |
+| Perte ou dommage de marchandises pendant le transport | Perte financière, insatisfaction client | Faible | Selectionner des transporteurs fiables ; vérifier l'emballage avant expédition | Declarer le sinistre au transporteur ; organiser un remplacement si possible ; enregistrer une NC (PRO-NCF-001) |
+| Erreur dans les documents douaniers (montants, références, quantités) | Blocage en douane, pénalités | Faible | Double vérification des documents avant envoi (étape 6) | Corriger immédiatement ; informer le transitaire et le client |
+| Changement de réglementation douanière (EU ou CH) | Non-conformité des documents | Faible | Veille réglementaire ; contact régulier avec le transitaire | Adapter les documents et les processus ; former si nécessaire |
 
 ## 9. Interfaces avec les autres processus
 
 | Processus | Interface | Description |
 |---|---|---|
-| **O1 -- Relation client** | Entree / Sortie | Reception des exigences client (delais, adresse, incoterms) ; confirmation de livraison au client ; traitement des reclamations liees a la livraison |
-| **O2 -- Production et suivi de fabrication** | Entree | Reception de la notification de produits prets a l'expedition apres CQ pre-expedition |
-| **O4 -- Facturation** | Sortie | Transmission des informations de livraison pour facturation (references, quantites, date de livraison) |
-| **S1 -- Maitrise documentaire** | Support | Archivage des documents douaniers, fiches de livraison et preuves de suivi conformement a PRO-DOC-001 |
-| **PRO-ACH-001** | Lien | Les transporteurs et transitaires sont des fournisseurs de classe B evalues selon PRO-ACH-001 |
-| **PRO-NCF-001** | Lien | En cas de probleme de livraison (retard majeur, perte, dommage), une non-conformite est enregistree selon PRO-NCF-001 |
+| **O1 -- Relation client** | Entrée / Sortie | Reception des exigences client (délais, adresse, incoterms) ; confirmation de livraison au client ; traitement des réclamations liées à la livraison |
+| **O2 -- Production et suivi de fabrication** | Entrée | Reception de la notification de produits prêts à l\'expédition après CQ pre-expédition |
+| **O4 -- Facturation** | Sortie | Transmission des informations de livraison pour facturation (références, quantités, date de livraison) |
+| **S1 -- Maîtrise documentaire** | Support | Archivage des documents douaniers, fiches de livraison et preuves de suivi conformément a PRO-DOC-001 |
+| **PRO-ACH-001** | Lien | Les transporteurs et transitaires sont des fournisseurs de classe B évalués selon PRO-ACH-001 |
+| **PRO-NCF-001** | Lien | En cas de problème de livraison (retard majeur, perte, dommage), une non-conformité est enregistrée selon PRO-NCF-001 |
 
 ---
 
 > **Instructions de remplissage :**
-> 1. Enregistrez TOUTES les expeditions dans FileMaker avec les references, les delais, le mode de transport et le statut
-> 2. Conservez TOUS les documents douaniers (factures, certificats d'origine, packing lists) -- ce sont des preuves de maitrise du processus
+> 1. Enregistrez TOUTES les expéditions dans FileMaker avec les références, les délais, le mode de transport et le statut
+> 2. Conservez TOUS les documents douaniers (factures, certificats d'origine, packing lists) -- ce sont des preuves de maîtrise du processus
 > 3. Conservez les preuves de suivi de transport (tracking, emails transporteur) -- l'auditeur (SQS) voudra les voir
-> 4. En cas de retard significatif, informez le client immediatement et documentez l'incident
-> 5. Verifiez systematiquement la coherence entre les documents douaniers et les commandes clients avant chaque expedition
-> 6. Les tolerances de delai (+/- 3 jours aerien, +/- 10 jours maritime) doivent etre communiquees aux clients lors de la confirmation de commande
+> 4. En cas de retard significatif, informez le client immédiatement et documentez l'incident
+> 5. Verifiez systématiquement la cohérence entre les documents douaniers et les commandes clients avant chaque expédition
+> 6. Les tolérances de délai (+/- 3 jours aérien, +/- 10 jours maritime) doivent être communiquees aux clients lors de la confirmation de commande
 
 ---
 
@@ -240,4 +240,4 @@ Les documents suivants sont requis pour chaque expedition :
 
 | Version | Date | Description de la modification | Auteur |
 |---|---|---|---|
-| 0.4 | 18/02/2026 | Creation initiale. Procedure de logistique et livraison couvrant les modes de transport, les documents douaniers, le suivi d'expedition et les indicateurs de performance. Integration du systeme de legende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Création initiale. Procédure de logistique et livraison couvrant les modes de transport, les documents douaniers, le suivi d'expédition et les indicateurs de performance. Intégration du système de légende des champs. | Roxane Wicky |

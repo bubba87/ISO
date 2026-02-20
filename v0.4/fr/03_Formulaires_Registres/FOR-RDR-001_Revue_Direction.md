@@ -2,364 +2,364 @@
 
 | | |
 |---|---|
-| **Reference** | FOR-RDR-001 |
+| **Référence** | FOR-RDR-001 |
 | **Version** | 0.4 |
 | **Date** | 18/02/2026 |
-| **Societe** | Plus Sarl |
+| **Société** | Plus Sarl |
 
-> **Legende :** :red_circle: [A REMPLIR] = obligatoire, manquant | :yellow_circle: [RECOMMANDE] = recommande | :green_circle: = deja rempli | :blue_circle: [A VERIFIER] = a confirmer
+> **Légende :** :red_circle: [À REMPLIR] = obligatoire, manquant | :yellow_circle: [RECOMMANDE] = recommandé | :green_circle: = déjà rempli | :blue_circle: [À VÉRIFIER] = a confirmer
 
 | Version | Date | Modification | Auteur |
 |---|---|---|---|
-| 0.1 | 10/02/2026 | Creation initiale | Roxane Wicky |
-| 0.2 | 10/02/2026 | Ajout formulaire detaille, KPI, sections completes | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration des reponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du systeme de legende des champs. | Roxane Wicky |
+| 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
+| 0.2 | 10/02/2026 | Ajout formulaire détaillé, KPI, sections complètes | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 
 ---
 
-## Formulaire simplifie (Revue de direction — Roxane Wicky)
+## Formulaire simplifié (Revue de direction — Roxane Wicky)
 
-> **Note :** Ce formulaire simplifie permet de conduire et documenter la revue de direction de maniere
-> pragmatique et efficace, adaptee a la structure unipersonnelle de Plus Sarl. Il couvre les elements
-> essentiels exiges par la norme ISO 9001:2015, section 9.3. Le formulaire detaille suit ci-dessous
-> pour une analyse approfondie si necessaire.
+> **Note :** Ce formulaire simplifié permet de conduire et documenter la revue de direction de manière
+> pragmatique et efficace, adaptée à la structure unipersonnelle de Plus Sarl. Il couvre les éléments
+> essentiels exigés par la norme ISO 9001:2015, section 9.3. Le formulaire détaillé suit ci-dessous
+> pour une analyse approfondie si nécessaire.
 
-### Informations generales
+### Informations générales
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Date de la revue** | :red_circle: [A REMPLIR — JJ/MM/AAAA] |
-| **Responsable** | :green_circle: Roxane Wicky — Gerante / Responsable Qualite |
-| **Periode analysee** | :red_circle: [A REMPLIR — Du JJ/MM/AAAA au JJ/MM/AAAA] |
+| **Date de la revue** | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
+| **Responsable** | :green_circle: Roxane Wicky — Gérante / Responsable Qualité |
+| **Période analysée** | :red_circle: [À REMPLIR — Du JJ/MM/AAAA au JJ/MM/AAAA] |
 
-### Elements examines
+### Éléments examines
 
-#### 1. Satisfaction client (retours, reclamations, fidelite)
+#### 1. Satisfaction client (retours, réclamations, fidelite)
 
-| Element | Constat | Commentaire |
+| Élément | Constat | Commentaire |
 |---|---|---|
-| Retours clients (positifs/negatifs) | :red_circle: [A REMPLIR] | |
-| Reclamations recues sur la periode | :red_circle: [A REMPLIR] | |
-| Fidelite des clients (renouvellements) | :red_circle: [A REMPLIR] | ~10 clients actifs |
-| Conclusion satisfaction | [ ] Satisfaisante [ ] A ameliorer | |
+| Retours clients (positifs/negatifs) | :red_circle: [À REMPLIR] | |
+| Réclamations reçues sur la période | :red_circle: [À REMPLIR] | |
+| Fidelite des clients (renouvellements) | :red_circle: [À REMPLIR] | ~10 clients actifs |
+| Conclusion satisfaction | [ ] Satisfaisante [ ] A améliorer | |
 
 #### 2. Non-conformites et actions correctives
 
-| Element | Constat | Commentaire |
+| Élément | Constat | Commentaire |
 |---|---|---|
-| Nombre de NC sur la periode | :red_circle: [A REMPLIR] | |
-| NC soldees / NC en cours | :red_circle: [A REMPLIR] | |
-| Actions correctives mises en place | :red_circle: [A REMPLIR] | |
-| Efficacite des actions correctives | [ ] Efficaces [ ] A renforcer | |
+| Nombre de NC sur la période | :red_circle: [À REMPLIR] | |
+| NC soldées / NC en cours | :red_circle: [À REMPLIR] | |
+| Actions correctives mises en place | :red_circle: [À REMPLIR] | |
+| Efficacité des actions correctives | [ ] Efficaces [ ] A renforcer | |
 
-#### 3. Resultats des objectifs qualite
+#### 3. Résultats des objectifs qualité
 
-| Objectif | Cible | Resultat | Atteint ? |
+| Objectif | Cible | Résultat | Atteint ? |
 |---|---|---|---|
-| Taux de livraison a temps | >= 95% | :red_circle: [A REMPLIR — %] | [ ] Oui [ ] Non |
-| NC par client par an | Max 3 | :red_circle: [A REMPLIR] | [ ] Oui [ ] Non |
-| Delai de reponse aux demandes | 24h | :red_circle: [A REMPLIR] | [ ] Oui [ ] Non |
-| Absence de reclamation majeure | 0 | :red_circle: [A REMPLIR] | [ ] Oui [ ] Non |
+| Taux de livraison a temps | >= 95% | :red_circle: [À REMPLIR — %] | [ ] Oui [ ] Non |
+| NC par client par an | Max 3 | :red_circle: [À REMPLIR] | [ ] Oui [ ] Non |
+| Délai de réponse aux demandes | 24h | :red_circle: [À REMPLIR] | [ ] Oui [ ] Non |
+| Absence de réclamation majeure | 0 | :red_circle: [À REMPLIR] | [ ] Oui [ ] Non |
 
 #### 4. Performance des fournisseurs et transporteurs
 
 | Fournisseur / Transporteur | Appreciation | Commentaire |
 |---|---|---|
-| Yuyao Mould Factory | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [A REMPLIR] |
-| Whang (vis — Yuyao, Chine) | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [A REMPLIR] |
-| Transporteurs | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [A REMPLIR] |
+| Yuyao Mould Factory | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [À REMPLIR] |
+| Whang (vis — Yuyao, Chine) | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [À REMPLIR] |
+| Transporteurs | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [À REMPLIR] |
 
-#### 5. Resultats de l'audit interne
+#### 5. Résultats de l'audit interne
 
-| Element | Constat |
+| Élément | Constat |
 |---|---|
-| Date du dernier audit | :red_circle: [A REMPLIR] |
-| Nombre de NC / observations | :red_circle: [A REMPLIR] |
-| Actions correctives issues de l'audit | :red_circle: [A REMPLIR] |
-| Conclusion de l'audit | :red_circle: [A REMPLIR] |
+| Date du dernier audit | :red_circle: [À REMPLIR] |
+| Nombre de NC / observations | :red_circle: [À REMPLIR] |
+| Actions correctives issues de l'audit | :red_circle: [À REMPLIR] |
+| Conclusion de l'audit | :red_circle: [À REMPLIR] |
 
-#### 6. Evolution du contexte de l'entreprise
+#### 6. Évolution du contexte de l'entreprise
 
-| Element | Evolution constatee | Impact |
+| Élément | Évolution constatee | Impact |
 |---|---|---|
-| Contexte interne | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR] |
-| Contexte externe (marche, reglementation, transport) | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR] |
-| Parties interessees | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR] |
+| Contexte interne | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] |
+| Contexte externe (marche, réglementation, transport) | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] |
+| Parties intéressées | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] |
 
 ### Decisions et actions
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Ameliorations decidees** | :red_circle: [A REMPLIR] |
-| **Actions correctives supplementaires** | :red_circle: [A REMPLIR] |
-| **Besoins en ressources** | :red_circle: [A REMPLIR] |
+| **Ameliorations décidées** | :red_circle: [À REMPLIR] |
+| **Actions correctives supplementaires** | :red_circle: [À REMPLIR] |
+| **Besoins en ressources** | :red_circle: [À REMPLIR] |
 
 ### Plans d'actions
 
-| # | Action | Responsable | Delai |
+| # | Action | Responsable | Délai |
 |---|---|---|---|
-| 1 | :red_circle: [A REMPLIR] | Roxane Wicky | :red_circle: [A REMPLIR — JJ/MM/AAAA] |
-| 2 | :red_circle: [A REMPLIR] | Roxane Wicky | :red_circle: [A REMPLIR — JJ/MM/AAAA] |
-| 3 | :red_circle: [A REMPLIR] | Roxane Wicky | :red_circle: [A REMPLIR — JJ/MM/AAAA] |
+| 1 | :red_circle: [À REMPLIR] | Roxane Wicky | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
+| 2 | :red_circle: [À REMPLIR] | Roxane Wicky | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
+| 3 | :red_circle: [À REMPLIR] | Roxane Wicky | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
 
 ### Conclusion
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Efficacite globale du SMQ** | [ ] Efficace [ ] Partiellement efficace [ ] Insuffisant |
-| **Decision** | [ ] Maintien du SMQ en l'etat [ ] Amelioration necessaire (voir actions ci-dessus) |
+| **Efficacité globale du SMQ** | [ ] Efficace [ ] Partiellement efficace [ ] Insuffisant |
+| **Decision** | [ ] Maintien du SMQ en l'état [ ] Amélioration nécessaire (voir actions ci-dessus) |
 
 ### Validation
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Nom de la gerante** | :green_circle: Roxane Wicky |
-| **Date** | :red_circle: [A REMPLIR — JJ/MM/AAAA] |
+| **Nom de la gérante** | :green_circle: Roxane Wicky |
+| **Date** | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
 | **Signature** | ______________________________ |
 
 ---
 ---
 
-## Compte-rendu detaille de revue de direction
+## Compte-rendu détaillé de revue de direction
 
 | | |
 |---|---|
-| **Date de la revue** | :red_circle: [A REMPLIR — date de la premiere revue] |
+| **Date de la revue** | :red_circle: [À REMPLIR — date de la première revue] |
 | **Lieu** | :green_circle: Bureau de Plus Sarl, Route de Montet 11, 1588 Cudrefin |
-| **Participant(s)** | :green_circle: Roxane Wicky — Gerante / Responsable Qualite |
-| **Duree** | :red_circle: [A REMPLIR] |
-| **Periode analysee** | :red_circle: [A REMPLIR — Du ... au ...] |
+| **Participant(s)** | :green_circle: Roxane Wicky — Gérante / Responsable Qualité |
+| **Duree** | :red_circle: [À REMPLIR] |
+| **Période analysée** | :red_circle: [À REMPLIR — Du ... au ...] |
 | **Fiduciaire** | :green_circle: Paradiso |
 | **Organisme de certification** | :green_circle: SQS |
 
 ---
 
-> **Note** : Meme en tant qu'entreprise unipersonnelle, la revue de direction doit etre realisee
-> et documentee formellement au minimum 1 fois par an. C'est une analyse structuree
-> des performances du SMQ. Roxane Wicky, seule collaboratrice, cumule les roles de
-> direction et de responsable qualite. Cette revue est conduite par elle seule.
+> **Note** : Meme en tant qu'entreprise unipersonnelle, la revue de direction doit être réalisée
+> et documentée formellement au minimum 1 fois par an. C'est une analyse structuree
+> des performances du SMQ. Roxane Wicky, seule collaboratrice, cumule les rôles de
+> direction et de responsable qualité. Cette revue est conduite par elle seule.
 
 ---
 
-## DONNEES D'ENTREE (elements a analyser)
+## DONNÉES D'ENTREE (éléments a analyser)
 
-### 1. Etat des actions des revues de direction precedentes
+### 1. État des actions des revues de direction précédentes
 
-| Action decidee (revue precedente) | Responsable | Delai | Statut | Commentaire |
+| Action décidée (revue précédente) | Responsable | Délai | Statut | Commentaire |
 |---|---|---|---|---|
-| N/A — Premiere revue de direction | | | | :green_circle: Mise en place du SMQ ISO 9001 en cours |
+| N/A — Première revue de direction | | | | :green_circle: Mise en place du SMQ ISO 9001 en cours |
 
 ---
 
 ### 2. Modifications du contexte
 
-| Element | Evolution constatee | Impact sur le SMQ |
+| Élément | Évolution constatee | Impact sur le SMQ |
 |---|---|---|
-| Enjeux internes | :red_circle: [A REMPLIR — changements dans l'entreprise] | :red_circle: [A REMPLIR — Impact] |
-| Enjeux externes | :red_circle: [A REMPLIR — evolution du marche, relations Chine-Europe, reglementation, taux de change] | :red_circle: [A REMPLIR — Impact] |
-| Parties interessees | :red_circle: [A REMPLIR — nouvelles exigences des clients europeens, evolution des partenaires chinois (Yuyao Mould Factory, Whang)] | :red_circle: [A REMPLIR — Impact] |
-| Contexte economique | :red_circle: [A REMPLIR — chiffre d'affaires, marges, conditions de transport international] | :red_circle: [A REMPLIR — Impact] |
-| Contexte reglementaire | :red_circle: [A REMPLIR — douanes, import/export, normes produits] | :red_circle: [A REMPLIR — Impact] |
-| Fiduciaire (Paradiso) | :red_circle: [A REMPLIR — retours de la fiduciaire sur les aspects financiers et reglementaires] | :red_circle: [A REMPLIR — Impact] |
+| Enjeux internes | :red_circle: [À REMPLIR — changements dans l'entreprise] | :red_circle: [À REMPLIR — Impact] |
+| Enjeux externes | :red_circle: [À REMPLIR — évolution du marche, relations Chine-Europe, réglementation, taux de change] | :red_circle: [À REMPLIR — Impact] |
+| Parties intéressées | :red_circle: [À REMPLIR — nouvelles exigences des clients européens, évolution des partenaires chinois (Yuyao Mould Factory, Whang)] | :red_circle: [À REMPLIR — Impact] |
+| Contexte économique | :red_circle: [À REMPLIR — chiffre d'affaires, marges, conditions de transport international] | :red_circle: [À REMPLIR — Impact] |
+| Contexte réglementaire | :red_circle: [À REMPLIR — douanes, import/export, normes produits] | :red_circle: [À REMPLIR — Impact] |
+| Fiduciaire (Paradiso) | :red_circle: [À REMPLIR — retours de la fiduciaire sur les aspects financiers et réglementaires] | :red_circle: [À REMPLIR — Impact] |
 
 ---
 
-### 3. Performance des processus et conformite des produits
+### 3. Performance des processus et conformité des produits
 
-#### 3.1 Indicateurs qualite (KPI)
+#### 3.1 Indicateurs qualité (KPI)
 
-| Indicateur | Objectif | Resultat | Atteint ? | Tendance | Commentaire |
+| Indicateur | Objectif | Résultat | Atteint ? | Tendance | Commentaire |
 |---|---|---|---|---|---|
-| Taux de livraison a temps | >= 95% | :red_circle: [A REMPLIR — %] | [ ] Oui [ ] Non | :red_circle: [A REMPLIR — hausse/baisse] | Objectif qualite v0.2 |
-| NC par client par an | Max 3 | :red_circle: [A REMPLIR] | [ ] Oui [ ] Non | | Objectif qualite v0.2 |
-| Delai de reponse aux demandes clients | 24h | :red_circle: [A REMPLIR] | [ ] Oui [ ] Non | | Objectif qualite v0.2 |
-| Absence de reclamation majeure | 0 | :red_circle: [A REMPLIR] | [ ] Oui [ ] Non | | Objectif qualite v0.2 |
-| Taux de conformite des livraisons | >= 95% | :red_circle: [A REMPLIR — %] | [ ] Oui [ ] Non | :red_circle: [A REMPLIR — hausse/baisse] | Base sur l'absence de reclamation client |
-| Respect delais livraison mer/rail | +/-10 jours | :red_circle: [A REMPLIR — %] | [ ] Oui [ ] Non | | |
-| Respect delais livraison air | +/-3 jours | :red_circle: [A REMPLIR — %] | [ ] Oui [ ] Non | | |
-| Taux de fidelisation clients | >= 80% | :red_circle: [A REMPLIR — %] | [ ] Oui [ ] Non | | ~10 clients actifs |
-| Satisfaction client (indicateurs indirects) | Positive | :red_circle: [A REMPLIR] | [ ] Oui [ ] Non | | Messages de remerciement, renouvellements |
+| Taux de livraison a temps | >= 95% | :red_circle: [À REMPLIR — %] | [ ] Oui [ ] Non | :red_circle: [À REMPLIR — hausse/baisse] | Objectif qualité v0.2 |
+| NC par client par an | Max 3 | :red_circle: [À REMPLIR] | [ ] Oui [ ] Non | | Objectif qualité v0.2 |
+| Délai de réponse aux demandes clients | 24h | :red_circle: [À REMPLIR] | [ ] Oui [ ] Non | | Objectif qualité v0.2 |
+| Absence de réclamation majeure | 0 | :red_circle: [À REMPLIR] | [ ] Oui [ ] Non | | Objectif qualité v0.2 |
+| Taux de conformité des livraisons | >= 95% | :red_circle: [À REMPLIR — %] | [ ] Oui [ ] Non | :red_circle: [À REMPLIR — hausse/baisse] | Base sur l'absence de réclamation client |
+| Respect délais livraison mer/rail | +/-10 jours | :red_circle: [À REMPLIR — %] | [ ] Oui [ ] Non | | |
+| Respect délais livraison air | +/-3 jours | :red_circle: [À REMPLIR — %] | [ ] Oui [ ] Non | | |
+| Taux de fidelisation clients | >= 80% | :red_circle: [À REMPLIR — %] | [ ] Oui [ ] Non | | ~10 clients actifs |
+| Satisfaction client (indicateurs indirects) | Positive | :red_circle: [À REMPLIR] | [ ] Oui [ ] Non | | Messages de remerciement, renouvellements |
 
 #### 3.2 Bilan des non-conformites
 
-| Element | Nombre | Commentaire |
+| Élément | Nombre | Commentaire |
 |---|---|---|
-| NC totales sur la periode | :red_circle: [A REMPLIR] | |
-| dont NC majeures | :red_circle: [A REMPLIR] | |
-| dont NC mineures | :red_circle: [A REMPLIR] | |
-| NC soldees | :red_circle: [A REMPLIR] | |
-| NC en cours | :red_circle: [A REMPLIR] | |
-| Principales causes identifiees | :red_circle: [A REMPLIR] | |
+| NC totales sur la période | :red_circle: [À REMPLIR] | |
+| dont NC majeures | :red_circle: [À REMPLIR] | |
+| dont NC mineures | :red_circle: [À REMPLIR] | |
+| NC soldées | :red_circle: [À REMPLIR] | |
+| NC en cours | :red_circle: [À REMPLIR] | |
+| Principales causes identifiées | :red_circle: [À REMPLIR] | |
 
 #### 3.3 Bilan des actions correctives
 
-| Element | Nombre | Commentaire |
+| Élément | Nombre | Commentaire |
 |---|---|---|
-| AC ouvertes sur la periode | :red_circle: [A REMPLIR] | |
-| AC soldees (efficaces) | :red_circle: [A REMPLIR] | |
-| AC en cours | :red_circle: [A REMPLIR] | |
-| AC non efficaces | :red_circle: [A REMPLIR] | |
+| AC ouvertes sur la période | :red_circle: [À REMPLIR] | |
+| AC soldées (efficaces) | :red_circle: [À REMPLIR] | |
+| AC en cours | :red_circle: [À REMPLIR] | |
+| AC non efficaces | :red_circle: [À REMPLIR] | |
 
 ---
 
 ### 4. Satisfaction client
 
-| Element | Resultat | Commentaire |
+| Élément | Résultat | Commentaire |
 |---|---|---|
-| Absence de reclamations | :red_circle: [A REMPLIR] | Indicateur principal actuel |
-| Messages de remerciement recus | :red_circle: [A REMPLIR] | Archives par email |
-| Retours qualitatifs positifs | :red_circle: [A REMPLIR] | Dans les echanges email courants |
-| Renouvellements de commandes | :red_circle: [A REMPLIR] | Continuite de la relation commerciale |
-| Nombre de clients perdus | :red_circle: [A REMPLIR] | |
-| Nombre de nouveaux clients | :red_circle: [A REMPLIR] | |
+| Absence de réclamations | :red_circle: [À REMPLIR] | Indicateur principal actuel |
+| Messages de remerciement reçus | :red_circle: [À REMPLIR] | Archivés par email |
+| Retours qualitatifs positifs | :red_circle: [À REMPLIR] | Dans les échanges email courants |
+| Renouvellements de commandes | :red_circle: [À REMPLIR] | Continuité de la relation commerciale |
+| Nombre de clients perdus | :red_circle: [À REMPLIR] | |
+| Nombre de nouveaux clients | :red_circle: [À REMPLIR] | |
 | Nombre de clients actifs | :green_circle: ~10 | |
 | Questionnaire formel envoye | [ ] Oui [ ] Non | :yellow_circle: [RECOMMANDE — a mettre en place pour les ~10 clients actifs] |
-| Points a ameliorer | :red_circle: [A REMPLIR] | |
+| Points a améliorer | :red_circle: [À REMPLIR] | |
 
 ---
 
-### 5. Resultats d'audit
+### 5. Résultats d'audit
 
 #### Audit interne
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| Date de l'audit | :red_circle: [A REMPLIR — premier audit interne a planifier] |
-| Auditeur | :yellow_circle: [RECOMMANDE : auditeur externe — la gerante envisage de realiser l'audit elle-meme, mais un auditeur externe est fortement recommande pour la clause 9.2] |
-| Nb NC majeures | :red_circle: [A REMPLIR] |
-| Nb NC mineures | :red_circle: [A REMPLIR] |
-| Nb observations | :red_circle: [A REMPLIR] |
-| Actions correctives associees | :red_circle: [A REMPLIR — References des AC] |
-| Conclusion | :red_circle: [A REMPLIR] |
+| Date de l'audit | :red_circle: [À REMPLIR — premier audit interne a planifier] |
+| Auditeur | :yellow_circle: [RECOMMANDE : auditeur externe — la gérante envisage de réaliser l'audit elle-meme, mais un auditeur externe est fortement recommandé pour la clause 9.2] |
+| Nb NC majeures | :red_circle: [À REMPLIR] |
+| Nb NC mineures | :red_circle: [À REMPLIR] |
+| Nb observations | :red_circle: [À REMPLIR] |
+| Actions correctives associées | :red_circle: [À REMPLIR — Références des AC] |
+| Conclusion | :red_circle: [À REMPLIR] |
 
 #### Audit de certification/surveillance (si applicable)
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| Date de l'audit | :red_circle: [A REMPLIR — a planifier] |
+| Date de l'audit | :red_circle: [À REMPLIR — a planifier] |
 | Organisme | :green_circle: SQS |
-| Constats principaux | :red_circle: [A REMPLIR] |
-| Actions a mener | :red_circle: [A REMPLIR] |
+| Constats principaux | :red_circle: [À REMPLIR] |
+| Actions a mener | :red_circle: [À REMPLIR] |
 
 ---
 
 ### 6. Performance des fournisseurs
 
-| Fournisseur | Note d'evaluation | Appreciation | Actions |
+| Fournisseur | Note d'évaluation | Appreciation | Actions |
 |---|---|---|---|
-| Yuyao Mould Factory (partenaire principal — moules, injection) | :red_circle: [A REMPLIR — __/100] | :red_circle: [A REMPLIR — premiere evaluation formelle] | :red_circle: [A REMPLIR — Actions decidees] |
-| Whang (vis — Yuyao, Chine) | :red_circle: [A REMPLIR — __/100] | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR — Actions decidees] |
-| [Transporteurs — aerien] | :red_circle: [A REMPLIR — __/100] | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR — Actions decidees] |
-| [Transporteurs — maritime/ferroviaire] | :red_circle: [A REMPLIR — __/100] | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR — Actions decidees] |
+| Yuyao Mould Factory (partenaire principal — moules, injection) | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR — première évaluation formelle] | :red_circle: [À REMPLIR — Actions décidées] |
+| Whang (vis — Yuyao, Chine) | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR — Actions décidées] |
+| [Transporteurs — aérien] | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR — Actions décidées] |
+| [Transporteurs — maritime/ferroviaire] | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR — Actions décidées] |
 
 ---
 
-### 7. Adequation des ressources
+### 7. Adéquation des ressources
 
-| Ressource | Adequate ? | Besoin identifie |
+| Ressource | Adequate ? | Besoin identifié |
 |---|---|---|
-| Humaines (charge de travail) | [ ] Oui [ ] Non | :red_circle: [A REMPLIR — Roxane Wicky — seule collaboratrice, evaluer la charge] |
-| Competences / formations | [ ] Oui [ ] Non | :red_circle: [A REMPLIR — Formation ISO 9001 recommandee — voir FOR-CMP-001] |
-| Infrastructure (bureau, equipements) | [ ] Oui [ ] Non | :green_circle: Bureau Route de Montet 11, Cudrefin |
+| Humaines (charge de travail) | [ ] Oui [ ] Non | :red_circle: [À REMPLIR — Roxane Wicky — seule collaboratrice, évaluer la charge] |
+| Compétences / formations | [ ] Oui [ ] Non | :red_circle: [À REMPLIR — Formation ISO 9001 recommandée — voir FOR-CMP-001] |
+| Infrastructure (bureau, équipements) | [ ] Oui [ ] Non | :green_circle: Bureau Route de Montet 11, Cudrefin |
 | Outils informatiques | [ ] Oui [ ] Non | :green_circle: FileMaker, Email, WeChat |
-| Sauvegarde des donnees | :green_circle: Cloud, heberge par le fournisseur | :green_circle: Sauvegarde cloud assuree par le fournisseur d'hebergement |
-| Instruments de mesure | N/A | :green_circle: Pas de controle dimensionnel — produits livres directement de Chine au client |
+| Sauvegarde des données | :green_circle: Cloud, heberge par le fournisseur | :green_circle: Sauvegarde cloud assurée par le fournisseur d'hebergement |
+| Instruments de mesure | N/A | :green_circle: Pas de contrôle dimensionnel — produits livrés directement de Chine au client |
 
 ---
 
-### 8. Efficacite des actions face aux risques et opportunites
+### 8. Efficacité des actions face aux risques et opportunités
 
-| Risque/Opportunite | Action entreprise | Resultat | Commentaire |
+| Risque/Opportunité | Action entreprise | Résultat | Commentaire |
 |---|---|---|---|
-| Risque NC fabrication en Chine | :red_circle: [A REMPLIR — Action mise en place] | :red_circle: [A REMPLIR — Efficace/Insuffisant] | |
-| Risque retard livraison (transport international) | :red_circle: [A REMPLIR — Action mise en place] | :red_circle: [A REMPLIR — Efficace/Insuffisant] | Objectifs : mer/rail +/-10j, air +/-3j |
-| Risque dependance fournisseur unique | :green_circle: Second partenaire chinois identifie : Whang (vis, Yuyao) | :green_circle: Realise | |
-| Opportunite certification ISO 9001 | :green_circle: Mise en place du SMQ, organisme SQS selectionne | :green_circle: En cours | |
-| Risque absence controle reception | :green_circle: CQ pre-expedition par le partenaire + echantillonnage chez Plus Sarl en parallele du transport | :red_circle: [A REMPLIR — a evaluer] | Visite en Chine prevue pour formaliser le suivi production |
-| Risque perte de donnees | :green_circle: Sauvegarde cloud, hebergee par le fournisseur | :green_circle: En place | |
+| Risque NC fabrication en Chine | :red_circle: [À REMPLIR — Action mise en place] | :red_circle: [À REMPLIR — Efficace/Insuffisant] | |
+| Risque retard livraison (transport international) | :red_circle: [À REMPLIR — Action mise en place] | :red_circle: [À REMPLIR — Efficace/Insuffisant] | Objectifs : mer/rail +/-10j, air +/-3j |
+| Risque dependance fournisseur unique | :green_circle: Second partenaire chinois identifié : Whang (vis, Yuyao) | :green_circle: Réalisé | |
+| Opportunité certification ISO 9001 | :green_circle: Mise en place du SMQ, organisme SQS sélectionné | :green_circle: En cours | |
+| Risque absence contrôle reception | :green_circle: CQ pre-expédition par le partenaire + echantillonnage chez Plus Sarl en parallèle du transport | :red_circle: [À REMPLIR — a évaluer] | Visite en Chine prévue pour formaliser le suivi production |
+| Risque perte de données | :green_circle: Sauvegarde cloud, hebergee par le fournisseur | :green_circle: En place | |
 | [Autres — voir CTX-QUA-001] | | | |
 
 ---
 
-### 9. Opportunites d'amelioration
+### 9. Opportunités d'amélioration
 
-| # | Opportunite identifiee | Source |
+| # | Opportunité identifiée | Source |
 |---|---|---|
 | 1 | Mise en place d'un questionnaire de satisfaction client formel (~10 clients actifs) | Analyse section 9.1 du SMQ |
-| 2 | Formalisation du suivi de production en Chine (visite planifiee) | Analyse section 8.5 du SMQ |
-| 3 | Formation ISO 9001 pour Roxane Wicky (ex. via SQS ou SAQ) | Analyse competences (FOR-CMP-001) |
-| 4 | Formalisation de l'accord qualite avec Whang | Integration du second partenaire |
-| 5 | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR — Source] |
+| 2 | Formalisation du suivi de production en Chine (visite planifiée) | Analyse section 8.5 du SMQ |
+| 3 | Formation ISO 9001 pour Roxane Wicky (ex. via SQS ou SAQ) | Analyse compétences (FOR-CMP-001) |
+| 4 | Formalisation de l'accord qualité avec Whang | Intégration du second partenaire |
+| 5 | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR — Source] |
 
 ---
 
-## DECISIONS ET ACTIONS (donnees de sortie)
+## DECISIONS ET ACTIONS (données de sortie)
 
-### Actions decidees
+### Actions décidées
 
-| # | Action | Responsable | Delai | Ressources necessaires | Priorite |
+| # | Action | Responsable | Délai | Ressources nécessaires | Priorité |
 |---|---|---|---|---|---|
-| 1 | :red_circle: [A REMPLIR] | Roxane Wicky | :red_circle: [A REMPLIR — Date] | :red_circle: [A REMPLIR — Ressources] | :red_circle: [A REMPLIR — Haute/Moyenne/Basse] |
-| 2 | :red_circle: [A REMPLIR] | Roxane Wicky | :red_circle: [A REMPLIR — Date] | :red_circle: [A REMPLIR — Ressources] | :red_circle: [A REMPLIR — Haute/Moyenne/Basse] |
-| 3 | :red_circle: [A REMPLIR] | Roxane Wicky | :red_circle: [A REMPLIR — Date] | :red_circle: [A REMPLIR — Ressources] | :red_circle: [A REMPLIR — Haute/Moyenne/Basse] |
-| 4 | :red_circle: [A REMPLIR] | Roxane Wicky | :red_circle: [A REMPLIR — Date] | :red_circle: [A REMPLIR — Ressources] | :red_circle: [A REMPLIR — Haute/Moyenne/Basse] |
+| 1 | :red_circle: [À REMPLIR] | Roxane Wicky | :red_circle: [À REMPLIR — Date] | :red_circle: [À REMPLIR — Ressources] | :red_circle: [À REMPLIR — Haute/Moyenne/Basse] |
+| 2 | :red_circle: [À REMPLIR] | Roxane Wicky | :red_circle: [À REMPLIR — Date] | :red_circle: [À REMPLIR — Ressources] | :red_circle: [À REMPLIR — Haute/Moyenne/Basse] |
+| 3 | :red_circle: [À REMPLIR] | Roxane Wicky | :red_circle: [À REMPLIR — Date] | :red_circle: [À REMPLIR — Ressources] | :red_circle: [À REMPLIR — Haute/Moyenne/Basse] |
+| 4 | :red_circle: [À REMPLIR] | Roxane Wicky | :red_circle: [À REMPLIR — Date] | :red_circle: [À REMPLIR — Ressources] | :red_circle: [À REMPLIR — Haute/Moyenne/Basse] |
 
-### Decisions sur la politique et les objectifs qualite
+### Decisions sur la politique et les objectifs qualité
 
-| Element | Decision |
+| Élément | Decision |
 |---|---|
-| Politique qualite | [ ] Maintenue en l'etat [ ] A modifier (detail : :red_circle: [A REMPLIR]) |
-| Objectifs qualite | [ ] Maintenus [ ] A modifier (detail : :red_circle: [A REMPLIR]) |
-| Nouveaux objectifs | :red_circle: [A REMPLIR — Si applicable] |
-| Perimetre du SMQ | Coordination industrielle — Conception (8.3) exclue — [ ] Inchange [ ] A modifier |
+| Politique qualité | [ ] Maintenue en l'état [ ] À modifier (détail : :red_circle: [À REMPLIR]) |
+| Objectifs qualité | [ ] Maintenus [ ] À modifier (détail : :red_circle: [À REMPLIR]) |
+| Nouveaux objectifs | :red_circle: [À REMPLIR — Si applicable] |
+| Périmètre du SMQ | Coordination industrielle — Conception (8.3) exclue — [ ] Inchange [ ] À modifier |
 
 ### Besoins en ressources
 
-| Besoin identifie | Justification | Budget estime | Decision |
+| Besoin identifié | Justification | Budget estime | Decision |
 |---|---|---|---|
-| Formation ISO 9001 | Comprehension de la norme pour la gerante | :blue_circle: [A VERIFIER — CHF 500-1'500] | [ ] Approuve [ ] Reporte [ ] Refuse |
-| Visite partenaire(s) chinois (Yuyao Mould Factory + Whang) | Formalisation du suivi de production et accords qualite | :blue_circle: [A VERIFIER] | [ ] Approuve [ ] Reporte [ ] Refuse |
-| Audit de certification SQS | Certification ISO 9001 | :blue_circle: [A VERIFIER — budget audit SQS] | [ ] Approuve [ ] Reporte [ ] Refuse |
-| :red_circle: [A REMPLIR — Besoin supplementaire] | :red_circle: [A REMPLIR — Pourquoi] | :red_circle: [A REMPLIR — CHF ___] | [ ] Approuve [ ] Reporte [ ] Refuse |
+| Formation ISO 9001 | Compréhension de la norme pour la gérante | :blue_circle: [À VÉRIFIER — CHF 500-1'500] | [ ] Approuve [ ] Reporte [ ] Refuse |
+| Visite partenaire(s) chinois (Yuyao Mould Factory + Whang) | Formalisation du suivi de production et accords qualité | :blue_circle: [À VÉRIFIER] | [ ] Approuve [ ] Reporte [ ] Refuse |
+| Audit de certification SQS | Certification ISO 9001 | :blue_circle: [À VÉRIFIER — budget audit SQS] | [ ] Approuve [ ] Reporte [ ] Refuse |
+| :red_circle: [À REMPLIR — Besoin supplementaire] | :red_circle: [À REMPLIR — Pourquoi] | :red_circle: [À REMPLIR — CHF ___] | [ ] Approuve [ ] Reporte [ ] Refuse |
 
 ---
 
 ## Conclusion de la revue
 
-:red_circle: [A REMPLIR — Appreciation globale de la performance du SMQ sur la periode ecoulee.
-Points forts, points a ameliorer, orientation pour la prochaine periode.
+:red_circle: [À REMPLIR — Appreciation globale de la performance du SMQ sur la période écoulée.
+Points forts, points a améliorer, orientation pour la prochaine période.
 
-Elements a considerer pour la redaction :
+Éléments a considerer pour la redaction :
 - Performance globale de la coordination industrielle Chine-Europe
-- Satisfaction des clients europeens (~10 clients actifs)
-- Qualite de la relation avec Yuyao Mould Factory et Whang
-- Respect des delais de livraison
+- Satisfaction des clients européens (~10 clients actifs)
+- Qualité de la relation avec Yuyao Mould Factory et Whang
+- Respect des délais de livraison
 - Avancement de la demarche de certification ISO 9001 avec SQS
 - Retour de la fiduciaire Paradiso sur les aspects financiers
-- Efficacite du CQ pre-expedition et de l'echantillonnage
-- Axes d'amelioration prioritaires pour la prochaine periode]
+- Efficacité du CQ pre-expédition et de l'echantillonnage
+- Axes d'amélioration prioritaires pour la prochaine période]
 
 ---
 
 **Signature de la direction :**
 
-Nom : :green_circle: Roxane Wicky                          Date : :red_circle: [A REMPLIR]
+Nom : :green_circle: Roxane Wicky                          Date : :red_circle: [À REMPLIR]
 
-Fonction : :green_circle: Gerante / Responsable Qualite
+Fonction : :green_circle: Gérante / Responsable Qualité
 
 Signature : ______________________________
 
 ---
 
 > **Instructions de remplissage :**
-> 1. Utilisez le **formulaire simplifie** pour une revue rapide en cours d'annee ou comme base de preparation
-> 2. Utilisez le **formulaire detaille** pour la revue de direction annuelle formelle
+> 1. Utilisez le **formulaire simplifié** pour une revue rapide en cours d'année ou comme base de préparation
+> 2. Utilisez le **formulaire détaillé** pour la revue de direction annuelle formelle
 > 3. Realisez la revue de direction au minimum 1 fois par an
-> 4. Idealement apres l'audit interne et avant l'audit de certification SQS
-> 5. Preparez toutes les donnees AVANT la revue (KPI, NC, satisfaction, evaluation fournisseurs Yuyao Mould Factory et Whang)
+> 4. Idealement après l'audit interne et avant l'audit de certification SQS
+> 5. Preparez toutes les données AVANT la revue (KPI, NC, satisfaction, évaluation fournisseurs Yuyao Mould Factory et Whang)
 > 6. Meme seule, prenez le temps de cette analyse structuree — c'est une exigence ISO 9001 section 9.3
 > 7. L'auditeur SQS examinera ce document attentivement — soyez factuelle et precise
-> 8. Les actions decidees doivent etre suivies et leur realisation verifiee
-> 9. Donnees de sortie requises par la norme : decisions sur l'amelioration du SMQ, l'amelioration des produits/services selon les exigences clients, et les besoins en ressources
-> 10. Coordonnez avec la fiduciaire Paradiso pour les aspects financiers si necessaire
+> 8. Les actions décidées doivent être suivies et leur realisation vérifiée
+> 9. Données de sortie requises par la norme : decisions sur l'amélioration du SMQ, l'amélioration des produits/services selon les exigences clients, et les besoins en ressources
+> 10. Coordonnez avec la fiduciaire Paradiso pour les aspects financiers si nécessaire

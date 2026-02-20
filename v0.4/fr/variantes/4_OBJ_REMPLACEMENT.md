@@ -1,90 +1,90 @@
-# Variante 4B — Objectifs Qualite : Remplacement par UPDATE 6.2
+# Variante 4B — Objectifs Qualité : Remplacement par UPDATE 6.2
 
 | | |
 |---|---|
-| **Reference** | OBJ-QUA-001 |
+| **Référence** | OBJ-QUA-001 |
 | **Version** | 0.4 |
 | **Date de revision** | 19/02/2026 |
-| **Redige par** | Roxane Wicky |
+| **Rédigé par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
-| **Periode** | 2026 |
+| **Période** | 2026 |
 
-> **Source :** UPDATE 6.2 — Manuel de qualite (19/02/2026) 🟢
-
----
-
-## 1. Objectifs qualite annuels
-
-Les objectifs qualite de Plus Sarl sont definis en coherence avec la politique qualite et les activites de coordination industrielle entre clients europeens et partenaires de fabrication chinois. Le suivi des objectifs est assure par les fonctions concernees selon les roles definis au chapitre 5.3. Les resultats sont analyses lors de la revue de direction.
+> **Source :** UPDATE 6.2 — Manuel de qualité (19/02/2026) 🟢
 
 ---
 
-### Objectif 1 — Respect des delais de production
+## 1. Objectifs qualité annuels
 
-- **Objectif :** Assurer le respect des delais annonces aux clients.
+Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politique qualité et les activités de coordination industrielle entre clients européens et partenaires de fabrication chinois. Le suivi des objectifs est assure par les fonctions concernées selon les rôles définis au chapitre 5.3. Les résultats sont analysés lors de la revue de direction.
+
+---
+
+### Objectif 1 — Respect des délais de production
+
+- **Objectif :** Assurer le respect des délais annoncés aux clients.
 
 - **Indicateurs :**
-  - Transport maritime / ferroviaire : livraison dans une fenetre de 1-2 semaine ouvrable par rapport a la date cible
-  - Transport aerien : livraison dans une fenetre de 2-4 jours ouvrable par rapport a la date cible
-  - % global de commandes livrees dans les delais
+  - Transport maritime / ferroviaire : livraison dans une fenetre de 1-2 semaine ouvrable par rapport à la date cible
+  - Transport aérien : livraison dans une fenetre de 2-4 jours ouvrable par rapport à la date cible
+  - % global de commandes livrées dans les délais
 
-- **Suivi :** Visualisation via FileMaker. Coordination avec les transitaires. Enregistrement de l'ecart a chaque livraison.
+- **Suivi :** Visualisation via FileMaker. Coordination avec les transitaires. Enregistrement de l'écart à chaque livraison.
 
 ---
 
-### Objectif 2 — Conformite et qualite des produits
+### Objectif 2 — Conformité et qualité des produits
 
-- **Objectif :** Garantir la conformite des pieces livrees aux exigences clients.
+- **Objectif :** Garantir la conformité des pièces livrées aux exigences clients.
 
 - **Indicateurs :**
   - Nombre de non-conformites (NC) par client et par an
-  - Delai de mise en conformite ou de remplacement suite a une NC
+  - Délai de mise en conformité ou de remplacement suite à une NC
 
-- **Maitrise :**
-  - Transmission des exigences qualite aux fabricants en amont de la production
-  - Controle qualite assure par le fabricant avant expedition
-  - Validation sur echantillon avant lancement serie si necessaire
-  - Gestion des non-conformites : enregistrement, analyse, action corrective, suivi cloture
+- **Maîtrise :**
+  - Transmission des exigences qualité aux fabricants en amont de la production
+  - Contrôle qualité assure par le fabricant avant expédition
+  - Validation sur échantillon avant lancement serie si nécessaire
+  - Gestion des non-conformites : enregistrement, analyse, action corrective, suivi clôture
 
-- **Suivi :** Registre NC dans FileMaker. Coordination avec Yuyao Mould Factory et Whang. Enregistrement systematique de chaque NC.
+- **Suivi :** Registre NC dans FileMaker. Coordination avec Yuyao Mould Factory et Whang. Enregistrement systématique de chaque NC.
 
 ---
 
-### Objectif 3 — Maitrise des conditions tarifaires
+### Objectif 3 — Maîtrise des conditions tarifaires
 
-- **Objectif :** Maintenir des conditions de prix coherentes et acceptees par les clients.
+- **Objectif :** Maintenir des conditions de prix coherentes et acceptées par les clients.
 
 - **Indicateurs :**
-  - Stabilisation des prix sur la periode
+  - Stabilisation des prix sur la période
   - Taux de validation des offres par les clients sans renegociation majeure
 
-- **Suivi :** Comparaison historique des offres. Coordination fournisseurs (Yuyao Mould Factory, Whang) et transporteurs. Suivi des ecarts de prix.
+- **Suivi :** Comparaison historique des offres. Coordination fournisseurs (Yuyao Mould Factory, Whang) et transporteurs. Suivi des écarts de prix.
 
 ---
 
-### Objectif 4 — Suivi et reactivite vis-a-vis des clients
+### Objectif 4 — Suivi et réactivité vis-a-vis des clients
 
 - **Objectif :** Repondre rapidement aux demandes et assurer une communication continue avec les clients.
 
 - **Indicateurs :**
-  - Delai moyen de reponse : 24-48H pour la premiere reponse aux e-mails clients
-  - Niveau de satisfaction ou absence de reclamations
+  - Délai moyen de réponse : 24-48H pour la première réponse aux e-mails clients
+  - Niveau de satisfaction ou absence de réclamations
 
-- **Suivi :** Analyse des echanges clients. Registre reclamations. Mesure du delai de reponse par echantillonnage.
+- **Suivi :** Analyse des échanges clients. Registre réclamations. Mesure du délai de réponse par echantillonnage.
 
 ---
 
 ## 2. Suivi et revue des objectifs
 
-Le suivi des objectifs est assure par les fonctions concernees selon les roles definis au **chapitre 5.3**. Les resultats sont analyses lors de la **revue de direction**.
+Le suivi des objectifs est assure par les fonctions concernées selon les rôles définis au **chapitre 5.3**. Les résultats sont analysés lors de la **revue de direction**.
 
-Les objectifs qualite sont revus :
-- **Trimestriellement** : suivi des indicateurs, identification des tendances, actions correctives si necessaire
-- **Annuellement** : bilan complet lors de la revue de direction, ajustement des cibles pour l'annee suivante
+Les objectifs qualité sont revus :
+- **Trimestriellement** : suivi des indicateurs, identification des tendances, actions correctives si nécessaire
+- **Annuellement** : bilan complet lors de la revue de direction, ajustement des cibles pour l'année suivante
 
 ---
 
-> **Note :** L'objectif 4 (Satisfaction globale) present dans la version precedente n'est plus mentionne explicitement. Les tableaux de suivi trimestriel ne figurent plus dans cette version.
+> **Note :** L'objectif 4 (Satisfaction globale) présent dans la version précédente n'est plus mentionne explicitement. Les tableaux de suivi trimestriel ne figurent plus dans cette version.
 
 ---
 
@@ -92,4 +92,4 @@ Les objectifs qualite sont revus :
 
 | Version | Date | Modification | Auteur |
 |---|---|---|---|
-| 0.4 variante 4B | 19/02/2026 | Variante remplacement : structure remplacee par UPDATE 6.2. 4 objectifs (Respect delais, Conformite, Conditions tarifaires, Reactivite). Format simplifie — listes a puces, sans tableaux de suivi trimestriel. Reference chapitre 5.3 pour roles. | Roxane Wicky |
+| 0.4 variante 4B | 19/02/2026 | Variante remplacement : structure remplacée par UPDATE 6.2. 4 objectifs (Respect délais, Conformité, Conditions tarifaires, Réactivité). Format simplifié — listes a puces, sans tableaux de suivi trimestriel. Référence chapitre 5.3 pour rôles. | Roxane Wicky |

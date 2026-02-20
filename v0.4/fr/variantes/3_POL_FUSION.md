@@ -1,84 +1,84 @@
-# Variante 3A — Politique Qualite : Fusion
+# Variante 3A — Politique Qualité : Fusion
 
 | | |
 |---|---|
-| **Reference** | POL-QUA-001 |
+| **Référence** | POL-QUA-001 |
 | **Version** | 0.4 |
-| **Date de creation** | 10/02/2026 |
+| **Date de création** | 10/02/2026 |
 | **Date de revision** | 19/02/2026 |
-| **Redige par** | Roxane Wicky |
+| **Rédigé par** | Roxane Wicky |
 | **Approuve par** | Direction Plus Sarl |
 
-> **Legende :** 🟡 [RECOMMANDE] = recommande | 🟢 = deja rempli | 🔵 [A VERIFIER] = a confirmer
+> **Légende :** 🟡 [RECOMMANDE] = recommandé | 🟢 = déjà rempli | 🔵 [À VÉRIFIER] = a confirmer
 
 ---
 
-## Plus Sarl - Politique Qualite
+## Plus Sarl - Politique Qualité
 
 ### Notre mission
 
-Plus Sarl est specialisee dans la coordination industrielle entre des clients europeens et des partenaires de fabrication chinois. L'activite couvre la conception, le developpement et la production de pieces industrielles, ainsi que le sourcing de pieces existantes. Les moules sont developpes et stockes en Chine, chez notre partenaire principal Yuyao Mould Factory. L'ensemble des operations est coordonne depuis notre bureau de Cudrefin, en Suisse.
+Plus Sarl est spécialisée dans la coordination industrielle entre des clients européens et des partenaires de fabrication chinois. L'activité couvre la conception, le développement et la production de pièces industrielles, ainsi que le sourcing de pièces existantes. Les moules sont développés et stockés en Chine, chez notre partenaire principal Yuyao Mould Factory. L'ensemble des opérations est coordonné depuis notre bureau de Cudrefin, en Suisse.
 
 ### Engagement de la direction
 
-La direction de Plus Sarl s'engage a mettre en oeuvre, maintenir et ameliorer en continu un systeme de management de la qualite conforme aux exigences ISO 9001, afin de repondre pleinement aux besoins et attentes de ses clients.
+La direction de Plus Sarl s'engage a mettre en œuvre, maintenir et améliorer en continu un système de management de la qualité conforme à exigences ISO 9001, afin de répondre pleinement aux besoins et attentes de ses clients.
 
-L'activite de l'entreprise repose sur la coordination industrielle entre des clients situes principalement en Europe et des partenaires de fabrication localises en Chine. Dans ce contexte, constituent des priorites :
+L'activité de l'entreprise repose sur la coordination industrielle entre des clients situés principalement en Europe et des partenaires de fabrication localisés en Chine. Dans ce contexte, constituent des priorités :
 
 - la satisfaction durable des clients
-- la conformite des produits fournis
-- la maitrise des delais
-- la fiabilite des operations logistiques
+- la conformité des produits fournis
+- la maîtrise des délais
+- la fiabilité des opérations logistiques
 
-La certification est visee aupres de l'organisme **SQS** (Association Suisse pour Systemes de Qualite et de Management). 🟢
+La certification est visee auprès de l'organisme **SQS** (Association Suisse pour Systemes de Qualité et de Management). 🟢
 
 ### Nos engagements
 
 La direction s'engage a :
 
-1. **Traiter les demandes clients** avec reactivite et rigueur.
+1. **Traiter les demandes clients** avec réactivité et rigueur.
 
-2. **Assurer la coherence des offres commerciales** et la maitrise des conditions tarifaires.
+2. **Assurer la cohérence des offres commerciales** et la maîtrise des conditions tarifaires.
 
-3. **Coordonner efficacement les partenaires industriels** afin de garantir la qualite et la conformite des produits.
+3. **Coordonner efficacement les partenaires industriels** afin de garantir la qualité et la conformité des produits.
 
-4. **Surveiller les operations de production, de transport et de livraison.**
+4. **Surveiller les opérations de production, de transport et de livraison.**
 
-5. **Gerer les non-conformites** et mettre en oeuvre des actions visant a eviter leur reapparition.
+5. **Gérer les non-conformites** et mettre en œuvre des actions visant a eviter leur réapparition.
 
-6. **Proteger la confidentialite** des informations techniques et de la propriete intellectuelle.
+6. **Proteger la confidentialité** des informations techniques et de la propriété intellectuelle.
 
-7. **Ameliorer en continu** l'organisation, les methodes de travail et la performance globale du systeme de management de la qualite.
+7. **Ameliorer en continu** l'organisation, les méthodes de travail et la performance globale du système de management de la qualité.
 
-### Nos axes strategiques qualite
+### Nos axes stratégiques qualité
 
-- Garantir le respect des delais de livraison a plus de 95%
-- Limiter les non-conformites a un maximum de 3 NC par client et par an
-- Assurer un delai moyen de reponse aux clients inferieur a 24h
-- Renforcer le partenariat qualite avec nos fournisseurs chinois (Yuyao Mould Factory et **Whang**, Yuyao) 🟢
-- Assurer la maitrise de la chaine logistique internationale (aerien, maritime, ferroviaire)
+- Garantir le respect des délais de livraison a plus de 95%
+- Limiter les non-conformites à un maximum de 3 NC par client et par an
+- Assurer un délai moyen de réponse aux clients inférieur a 24h
+- Renforcer le partenariat qualité avec nos fournisseurs chinois (Yuyao Mould Factory et **Whang**, Yuyao) 🟢
+- Assurer la maîtrise de la chaîne logistique internationale (aérien, maritime, ferroviaire)
 
-### Cadre de reference
+### Cadre de référence
 
-Cette politique qualite constitue le cadre de reference pour :
+Cette politique qualité constitue le cadre de référence pour :
 
-- l'etablissement des objectifs qualite
+- l'établissement des objectifs qualité
 - l'analyse des performances
-- la mise en oeuvre d'actions d'amelioration
+- la mise en œuvre d'actions d'amélioration
 
-Elle est communiquee, comprise et appliquee dans l'ensemble des activites de l'entreprise et fait l'objet d'une revision reguliere afin de garantir sa pertinence et son adequation avec l'evolution du contexte et des attentes des clients.
+Elle est communiquee, comprise et appliquee dans l'ensemble des activités de l'entreprise et fait l'objet d'une revision régulière afin de garantir sa pertinence et son adéquation avec l'évolution du contexte et des attentes des clients.
 
 ### Diffusion
 
-Cette politique qualite est communiquee a :
+Cette politique qualité est communiquee a :
 
 - [X] L'ensemble du personnel (la directrice)
-- [X] Les parties interessees sur demande (clients, partenaires chinois)
+- [X] Les parties intéressées sur demande (clients, partenaires chinois)
 - [X] Disponible sur demande
 
 ### Revue
 
-Cette politique est revue au minimum une fois par an lors de la revue de direction pour s'assurer de son adequation continue.
+Cette politique est revue au minimum une fois par an lors de la revue de direction pour s'assurer de son adéquation continue.
 
 ---
 
@@ -96,7 +96,7 @@ Lieu : Cudrefin
 
 | Version | Date | Modification | Auteur |
 |---|---|---|---|
-| 1.0 | 10/02/2026 | Creation initiale | Roxane Wicky |
-| 0.2 | 10/02/2026 | Mise a jour des axes strategiques qualite : cible 95% livraisons dans les delais, max 3 NC par client/an, delai de reponse 24h | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
-| 0.4 | 19/02/2026 | Integration UPDATE 5.2 : enrichissement engagement direction, priorites explicites, mise a jour engagements (conditions tarifaires, eviter reapparition), ajout cadre de reference, signature direction. | Direction Plus Sarl |
+| 1.0 | 10/02/2026 | Création initiale | Roxane Wicky |
+| 0.2 | 10/02/2026 | Mise à jour des axes stratégiques qualité : cible 95% livraisons dans les délais, max 3 NC par client/an, délai de réponse 24h | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 19/02/2026 | Intégration UPDATE 5.2 : enrichissement engagement direction, priorités explicites, mise à jour engagements (conditions tarifaires, eviter réapparition), ajout cadre de référence, signature direction. | Direction Plus Sarl |

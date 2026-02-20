@@ -34,7 +34,7 @@
 |---|---|---|---|---|
 | 4.1.1 | Les enjeux externes et internes pertinents sont-ils déterminés ? | CTX-QUA-001 (analyse SWOT) | 🔴 [À REMPLIR — lors de l'audit] | |
 | 4.1.2 | Ces enjeux sont-ils surveillés et revus ? | Compte-rendu de revue de direction (FOR-RDR-001) | 🔴 [À REMPLIR — lors de l'audit] | |
-| 4.1.3 | Le contexte prend-il en compte la sous-traitance en Chine (Yuyao Mould Factory et Whang) ? | CTX-QUA-001, archives WeChat | 🔴 [À REMPLIR — lors de l'audit] | |
+| 4.1.3 | Le contexte prend-il en compte la sous-traitance en Chine (Yuyao Mould Factory et Whang) ? | CTX-QUA-001, archivés WeChat | 🔴 [À REMPLIR — lors de l'audit] | |
 
 ### 4.2 Compréhension des besoins et attentes des parties intéressées
 
@@ -49,7 +49,7 @@
 | # | Question | Preuves à examiner | Résultat | Commentaire |
 |---|---|---|---|---|
 | 4.3.1 | Le domaine d'application est-il défini et documenté ? | DOM-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
-| 4.3.2 | L'exclusion du chapitre 8.3 (conception) est-elle justifiée ? | DOM-QUA-001 — la conception appartient aux clients, Plus Sàrl coordonne | 🔴 [À REMPLIR — lors de l'audit] | |
+| 4.3.2 | L'exclusion du chapitre 8.3 (conception) est-elle justifiée ? | DOM-QUA-001 — la conception appartient aux clients, Plus Sàrl coordonné | 🔴 [À REMPLIR — lors de l'audit] | |
 | 4.3.3 | Le domaine inclut-il les processus externalisés (Yuyao, Whang) ? | DOM-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
 
 ### 4.4 SMQ et ses processus
@@ -75,7 +75,7 @@
 | 5.1.2 | La politique qualité est-elle établie et cohérente avec la stratégie ? | POL-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
 | 5.1.3 | Les exigences du SMQ sont-elles intégrées aux processus métier ? | Fiches processus, FileMaker | 🔴 [À REMPLIR — lors de l'audit] | |
 | 5.1.4 | L'approche processus et la réflexion par les risques sont-elles promues ? | CTX-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
-| 5.1.5 | L'orientation client est-elle assurée ? | Archives emails clients, suivi réclamations | 🔴 [À REMPLIR — lors de l'audit] | |
+| 5.1.5 | L'orientation client est-elle assurée ? | Archivés emails clients, suivi réclamations | 🔴 [À REMPLIR — lors de l'audit] | |
 
 ### 5.2 Politique qualité
 
@@ -138,7 +138,7 @@
 
 | # | Question | Preuves à examiner | Résultat | Commentaire |
 |---|---|---|---|---|
-| 7.4.1 | Les communications pertinentes sont-elles déterminées ? | Archives emails (clients), WeChat (partenaires chinois) | 🔴 [À REMPLIR — lors de l'audit] | 🟡 RECOMMANDÉ : mettre en place l'archivage des conversations WeChat (captures d'écran, transfert vers email, ou export depuis WeChat Desktop) |
+| 7.4.1 | Les communications pertinentes sont-elles déterminées ? | Archivés emails (clients), WeChat (partenaires chinois) | 🔴 [À REMPLIR — lors de l'audit] | 🟡 RECOMMANDÉ : mettre en place l'archivage des conversations WeChat (captures d'écran, transfert vers email, ou export depuis WeChat Desktop) |
 | 7.4.2 | Les canaux sont-ils adaptés ? | Email (clients), WeChat (Yuyao + Whang) | 🔴 [À REMPLIR — lors de l'audit] | |
 
 ### 7.5 Informations documentées
@@ -159,9 +159,9 @@
 
 | # | Question | Preuves à examiner | Résultat | Commentaire |
 |---|---|---|---|---|
-| 8.2.1 | La communication avec les clients est-elle maîtrisée ? | Archives emails clients, confirmations de commande | 🔴 [À REMPLIR — lors de l'audit] | ~10 clients actifs, 50-100 commandes/an |
+| 8.2.1 | La communication avec les clients est-elle maîtrisée ? | Archivés emails clients, confirmations de commande | 🔴 [À REMPLIR — lors de l'audit] | ~10 clients actifs, 50-100 commandes/an |
 | 8.2.2 | Les exigences des produits sont-elles déterminées ? | FileMaker (suivi commandes), cahiers des charges clients | 🔴 [À REMPLIR — lors de l'audit] | Produits : pièces plastiques injectées + vis (Whang) |
-| 8.2.3 | Les exigences sont-elles revues avant engagement ? | Archives emails, confirmations de commande | 🔴 [À REMPLIR — lors de l'audit] | |
+| 8.2.3 | Les exigences sont-elles revues avant engagement ? | Archivés emails, confirmations de commande | 🔴 [À REMPLIR — lors de l'audit] | |
 | 8.2.4 | Les exigences légales/réglementaires sont-elles prises en compte ? | Factures douanières, réglementations import/export | 🔴 [À REMPLIR — lors de l'audit] | |
 
 ### 8.3 Conception et développement
@@ -209,8 +209,8 @@
 | # | Question | Preuves à examiner | Résultat | Commentaire |
 |---|---|---|---|---|
 | 8.7.1 | Les produits NC sont-ils identifiés et isolés ? | PRO-NCF-001 | 🔴 [À REMPLIR — lors de l'audit] | |
-| 8.7.2 | Les actions appropriées sont-elles prises ? | Archives emails/WeChat | 🔴 [À REMPLIR — lors de l'audit] | |
-| 8.7.3 | Les dérogations sont-elles approuvées par le client ? | Archives emails clients | 🔴 [À REMPLIR — lors de l'audit] | Réf : NC_2026_1001 — client a accepté en l'état |
+| 8.7.2 | Les actions appropriées sont-elles prises ? | Archivés emails/WeChat | 🔴 [À REMPLIR — lors de l'audit] | |
+| 8.7.3 | Les dérogations sont-elles approuvées par le client ? | Archivés emails clients | 🔴 [À REMPLIR — lors de l'audit] | Réf : NC_2026_1001 — client a accepté en l'état |
 
 ---
 
@@ -320,14 +320,14 @@
 > 4. Concentrez-vous sur le chapitre 8.4 (sous-traitance Chine) — cœur de métier de Plus Sàrl
 > 5. Examinez particulièrement les 9 points d'attention identifiés ci-dessus
 > 6. Vérifiez la traçabilité dans FileMaker
-> 7. Consultez les archives emails (clients) et WeChat (Yuyao + Whang)
+> 7. Consultez les archivés emails (clients) et WeChat (Yuyao + Whang)
 > 8. Examinez NC_2026_1001 comme premier cas documenté de traitement NC dans le SMQ
 > 9. Vérifiez le processus d'échantillonnage parallèle (nouveau en v0.3)
 >
 > **Documents clés à demander :**
 > - Accès FileMaker (commandes, produits, prix, transport)
-> - Archives emails clients
-> - Archives/captures WeChat avec Yuyao et Whang
+> - Archivés emails clients
+> - Archivés/captures WeChat avec Yuyao et Whang
 > - Factures douanières et factures clients
 > - Bons de livraison et accusés de réception
 > - Dossier NC_2026_1001 (fiche NC, AC_2026_001, checklist CQ)
@@ -341,5 +341,5 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout NC_2026_1001, points d'attention | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration réponses (Whang, SQS, ~10 clients, échantillonnage CQ, WeChat archivage). Ajout légende des champs. 50-100 commandes/an. Voyage Chine fin mars. Accord qualité trilingue. | Roxane Wicky |

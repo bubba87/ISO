@@ -1,40 +1,40 @@
-# Formulaire d'Evaluation des Fournisseurs
+# Formulaire d'Évaluation des Fournisseurs
 
 | | |
 |---|---|
-| **Reference** | FOR-EVF-001 |
+| **Référence** | FOR-EVF-001 |
 | **Version** | 0.4 |
 | **Date** | 18/02/2026 |
-| **Societe** | Plus Sarl |
+| **Société** | Plus Sarl |
 
-> **Legende :** :red_circle: [A REMPLIR] = obligatoire, manquant | :yellow_circle: [RECOMMANDE] = recommande | :green_circle: = deja rempli | :blue_circle: [A VERIFIER] = a confirmer
+> **Légende :** :red_circle: [À REMPLIR] = obligatoire, manquant | :yellow_circle: [RECOMMANDE] = recommandé | :green_circle: = déjà rempli | :blue_circle: [À VÉRIFIER] = a confirmer
 
 | Version | Date | Modification | Auteur |
 |---|---|---|---|
-| 0.1 | 10/02/2026 | Creation initiale | Roxane Wicky |
-| 0.2 | 10/02/2026 | Ajout evaluation detaillee, Yuyao Mould Factory, Fournisseur B placeholder | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration des reponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du systeme de legende des champs. | Roxane Wicky |
+| 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
+| 0.2 | 10/02/2026 | Ajout évaluation détaillée, Yuyao Mould Factory, Fournisseur B placeholder | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 
 ---
 
-## Methode simplifiee (formulaire Roxane Wicky)
+## Méthode simplifiée (formulaire Roxane Wicky)
 
-> **Note :** Ce formulaire simplifie permet une evaluation rapide et pragmatique de chaque fournisseur
-> ou transporteur. Il peut etre utilise de maniere autonome ou en complement de l'evaluation detaillee
-> (voir sections suivantes). La methode simplifiee est particulierement adaptee a la structure
+> **Note :** Ce formulaire simplifié permet une évaluation rapide et pragmatique de chaque fournisseur
+> ou transporteur. Il peut être utilisé de manière autonome ou en complement de l'évaluation détaillée
+> (voir sections suivantes). La méthode simplifiée est particulierement adaptée à la structure
 > unipersonnelle de Plus Sarl.
 
-### Informations generales
+### Informations générales
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Nom du fournisseur / transporteur** | :red_circle: [A REMPLIR] |
-| **Type de prestation** | [ ] Fabrication [ ] Transport [ ] Sous-traitance specialisee [ ] Autre : :red_circle: [A REMPLIR] |
-| **Pays** | :red_circle: [A REMPLIR] |
-| **Date de l'evaluation** | :red_circle: [A REMPLIR — JJ/MM/AAAA] |
+| **Nom du fournisseur / transporteur** | :red_circle: [À REMPLIR] |
+| **Type de prestation** | [ ] Fabrication [ ] Transport [ ] Sous-traitance spécialisée [ ] Autre : :red_circle: [À REMPLIR] |
+| **Pays** | :red_circle: [À REMPLIR] |
+| **Date de l'évaluation** | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
 
-### Criteres d'evaluation (notation 1 a 5)
+### Critères d'évaluation (notation 1 a 5)
 
 | Valeur | Signification |
 |---|---|
@@ -44,45 +44,45 @@
 | 4 | Bon |
 | 5 | Tres bon |
 
-| # | Critere | Note (1-5) | Commentaire |
+| # | Critère | Note (1-5) | Commentaire |
 |---|---|---|---|
-| 1 | **Qualite des produits / services** | :red_circle: [A REMPLIR] | |
-| 2 | **Respect des delais** | :red_circle: [A REMPLIR] | |
-| 3 | **Communication et reactivite** | :red_circle: [A REMPLIR] | |
-| 4 | **Gestion des non-conformites** | :red_circle: [A REMPLIR] | |
-| 5 | **Fiabilite globale** | :red_circle: [A REMPLIR] | |
+| 1 | **Qualité des produits / services** | :red_circle: [À REMPLIR] | |
+| 2 | **Respect des délais** | :red_circle: [À REMPLIR] | |
+| 3 | **Communication et réactivité** | :red_circle: [À REMPLIR] | |
+| 4 | **Gestion des non-conformites** | :red_circle: [À REMPLIR] | |
+| 5 | **Fiabilité globale** | :red_circle: [À REMPLIR] | |
 
-### Resultat
+### Résultat
 
-| Element | Valeur |
+| Élément | Valeur |
 |---|---|
-| **Note moyenne** | :red_circle: [A REMPLIR] / 5 |
+| **Note moyenne** | :red_circle: [À REMPLIR] / 5 |
 | **Appreciation** | [ ] Satisfaisant (>= 3,5) [ ] A surveiller (2,5 - 3,4) [ ] Non conforme (< 2,5) |
 
 ### Decision
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **Maintien du fournisseur** | [ ] Oui [ ] Non |
-| **Actions demandees** | :red_circle: [A REMPLIR] |
-| **Date de reevaluation prevue** | :red_circle: [A REMPLIR — JJ/MM/AAAA] |
+| **Actions demandees** | :red_circle: [À REMPLIR] |
+| **Date de reevaluation prévue** | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
 
 ### Validation
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
-| **Nom de la gerante** | :green_circle: Roxane Wicky |
-| **Date** | :red_circle: [A REMPLIR — JJ/MM/AAAA] |
+| **Nom de la gérante** | :green_circle: Roxane Wicky |
+| **Date** | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
 | **Signature** | ______________________________ |
 
 ---
 ---
 
-## Evaluation detaillee des fournisseurs
+## Évaluation détaillée des fournisseurs
 
-> **Note :** L'evaluation detaillee ci-dessous utilise un systeme de notation ponderee sur 100 points
-> (Qualite 40%, Delais 30%, Reactivite 15%, Gestion NC 15%). Elle est complementaire au formulaire
-> simplifie ci-dessus et est recommandee pour les evaluations annuelles formelles des partenaires
+> **Note :** L'évaluation détaillée ci-dessous utilisé un système de notation pondérée sur 100 points
+> (Qualité 40%, Délais 30%, Réactivité 15%, Gestion NC 15%). Elle est complémentaire au formulaire
+> simplifié ci-dessus et est recommandée pour les évaluations annuelles formelles des partenaires
 > critiques (Classe A).
 
 ---
@@ -91,61 +91,61 @@
 
 ### Identification du fournisseur
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **Nom du fournisseur** | :green_circle: Yuyao Mould Factory |
 | **Classe** | :green_circle: [X] A - Critique [ ] B - Important [ ] C - Standard |
 | **Pays** | :green_circle: Chine |
-| **Adresse** | :blue_circle: [A VERIFIER — adresse complete Yuyao, Zhejiang, Chine] |
-| **Contact principal** | :blue_circle: [A VERIFIER — nom et fonction du contact principal] |
-| **Email / Telephone** | :blue_circle: [A VERIFIER] |
+| **Adresse** | :blue_circle: [À VÉRIFIER — adresse complète Yuyao, Zhejiang, Chine] |
+| **Contact principal** | :blue_circle: [À VÉRIFIER — nom et fonction du contact principal] |
+| **Email / Téléphone** | :blue_circle: [À VÉRIFIER] |
 | **Produits/services fournis** | :green_circle: Moules, injection plastique, qualification de sous-traitants |
-| **Partenariat depuis** | :green_circle: 2007 (depuis la creation de Plus Sarl) |
-| **Certifications du fournisseur** | :blue_circle: [A VERIFIER — certifications ISO 9001, ISO 14001 ou autres a verifier aupres du fournisseur] |
-| **Accord qualite signe ?** | :blue_circle: [A VERIFIER — non mentionne, relation basee sur la confiance mutuelle etablie depuis 2007. Il est recommande de formaliser un accord qualite ecrit.] |
+| **Partenariat depuis** | :green_circle: 2007 (depuis la création de Plus Sarl) |
+| **Certifications du fournisseur** | :blue_circle: [À VÉRIFIER — certifications ISO 9001, ISO 14001 ou autres a vérifier auprès du fournisseur] |
+| **Accord qualité signe ?** | :blue_circle: [À VÉRIFIER — non mentionne, relation basee sur la confiance mutuelle etablie depuis 2007. Il est recommandé de formaliser un accord qualité ecrit.] |
 
 ### Nature de la relation
 
-| Element | Description |
+| Élément | Description |
 |---|---|
-| **Type de partenariat** | :green_circle: Partenaire principal de fabrication depuis la creation de l'entreprise |
+| **Type de partenariat** | :green_circle: Partenaire principal de fabrication depuis la création de l'entreprise |
 | **Historique** | :green_circle: Collaboration continue depuis 2007, soit 19 ans de partenariat |
 | **Mode de communication** | :green_circle: Email, WeChat |
 | **Criticite** | :green_circle: Fournisseur critique — partenaire principal pour l'ensemble de la production moules et injection |
-| **Role specifique** | :green_circle: Fabrication de moules, injection plastique, et qualification/coordination de sous-traitants specialises en Chine |
+| **Rôle spécifique** | :green_circle: Fabrication de moules, injection plastique, et qualification/coordination de sous-traitants spécialisés en Chine |
 
-### Criteres d'evaluation specifiques (issus du contexte Plus Sarl)
+### Critères d'évaluation spécifiques (issus du contexte Plus Sarl)
 
-| Critere | Description | Observation |
+| Critère | Description | Observation |
 |---|---|---|
-| **Confiance** | Relation de confiance batie sur 19 ans de collaboration | :green_circle: Critere fondamental de la relation |
-| **Qualite des produits** | Conformite des moules et pieces injectees aux specifications clients | :red_circle: [A REMPLIR — a evaluer formellement] |
-| **Respect des delais** | Respect des delais de livraison convenus (objectifs : mer/rail +/-10 jours, air +/-3 jours) | :red_circle: [A REMPLIR — a evaluer formellement] |
-| **Capacite technique** | Competence technique en moulage, injection, et gestion des sous-traitants | :red_circle: [A REMPLIR — a evaluer formellement] |
+| **Confiance** | Relation de confiance batie sur 19 ans de collaboration | :green_circle: Critère fondamental de la relation |
+| **Qualité des produits** | Conformité des moules et pièces injectees aux spécifications clients | :red_circle: [À REMPLIR — a évaluer formellement] |
+| **Respect des délais** | Respect des délais de livraison convenus (objectifs : mer/rail +/-10 jours, air +/-3 jours) | :red_circle: [À REMPLIR — a évaluer formellement] |
+| **Capacité technique** | Compétence technique en moulage, injection, et gestion des sous-traitants | :red_circle: [À REMPLIR — a évaluer formellement] |
 
-### Periode d'evaluation
+### Période d'évaluation
 
 | Du | Au |
 |---|---|
-| :red_circle: [A REMPLIR — date de debut] | :red_circle: [A REMPLIR — date de fin] |
+| :red_circle: [À REMPLIR — date de debut] | :red_circle: [À REMPLIR — date de fin] |
 
-> **Note :** Premiere evaluation formelle a realiser dans le cadre de la mise en place du SMQ ISO 9001. Les evaluations precedentes etaient basees sur l'experience pratique et la confiance mutuelle.
+> **Note :** Première évaluation formelle a réaliser dans le cadre de la mise en place du SMQ ISO 9001. Les évaluations précédentes etaient basees sur l'expérience pratique et la confiance mutuelle.
 
 ---
 
-### 1. Qualite des livraisons (40%)
+### 1. Qualité des livraisons (40%)
 
-| Element | Donnees |
+| Élément | Données |
 |---|---|
-| Nombre total de lots/livraisons recus | :red_circle: [A REMPLIR] |
-| Nombre de lots conformes | :red_circle: [A REMPLIR] |
-| Nombre de lots avec NC mineures | :red_circle: [A REMPLIR] |
-| Nombre de lots avec NC majeures | :red_circle: [A REMPLIR] |
-| **Taux de conformite** | :red_circle: [A REMPLIR] % |
+| Nombre total de lots/livraisons reçus | :red_circle: [À REMPLIR] |
+| Nombre de lots conformes | :red_circle: [À REMPLIR] |
+| Nombre de lots avec NC mineures | :red_circle: [À REMPLIR] |
+| Nombre de lots avec NC majeures | :red_circle: [À REMPLIR] |
+| **Taux de conformité** | :red_circle: [À REMPLIR] % |
 
 **Bareme :**
 
-| Taux de conformite | Points (/40) |
+| Taux de conformité | Points (/40) |
 |---|---|
 | >= 98% | 40 |
 | 95 - 97% | 35 |
@@ -153,25 +153,25 @@
 | 80 - 89% | 20 |
 | < 80% | 10 |
 
-**Score qualite : :red_circle: [A REMPLIR] / 40**
+**Score qualité : :red_circle: [À REMPLIR] / 40**
 
-**Commentaires :** :red_circle: [A REMPLIR — lors de la premiere evaluation formelle]
+**Commentaires :** :red_circle: [À REMPLIR — lors de la première évaluation formelle]
 
 ---
 
-### 2. Respect des delais (30%)
+### 2. Respect des délais (30%)
 
-| Element | Donnees |
+| Élément | Données |
 |---|---|
-| Nombre total de livraisons | :red_circle: [A REMPLIR] |
-| Nombre de livraisons a temps | :red_circle: [A REMPLIR] |
-| Nombre de livraisons en retard | :red_circle: [A REMPLIR] |
-| Retard moyen (jours) | :red_circle: [A REMPLIR] |
-| **Taux de livraison a temps** | :red_circle: [A REMPLIR] % |
+| Nombre total de livraisons | :red_circle: [À REMPLIR] |
+| Nombre de livraisons a temps | :red_circle: [À REMPLIR] |
+| Nombre de livraisons en retard | :red_circle: [À REMPLIR] |
+| Retard moyen (jours) | :red_circle: [À REMPLIR] |
+| **Taux de livraison a temps** | :red_circle: [À REMPLIR] % |
 
 **Bareme :**
 
-| Taux de respect des delais | Points (/30) |
+| Taux de respect des délais | Points (/30) |
 |---|---|
 | >= 95% | 30 |
 | 90 - 94% | 25 |
@@ -179,84 +179,84 @@
 | 70 - 79% | 12 |
 | < 70% | 5 |
 
-**Score delais : :red_circle: [A REMPLIR] / 30**
+**Score délais : :red_circle: [À REMPLIR] / 30**
 
-**Commentaires :** :red_circle: [A REMPLIR — Objectifs de livraison : mer/rail +/-10 jours, air +/-3 jours]
+**Commentaires :** :red_circle: [À REMPLIR — Objectifs de livraison : mer/rail +/-10 jours, air +/-3 jours]
 
 ---
 
-### 3. Reactivite et communication (15%)
+### 3. Réactivité et communication (15%)
 
-| Critere | Evaluation (1 a 5) |
+| Critère | Évaluation (1 a 5) |
 |---|---|
-| Reactivite aux demandes de renseignements | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Qualite de la communication (email, WeChat) | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Disponibilite et ecoute | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Proactivite (alerte en cas de probleme) | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Qualite des rapports/documents fournis | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| **Moyenne** | :red_circle: [A REMPLIR] / 5 |
+| Réactivité aux demandes de renseignements | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Qualité de la communication (email, WeChat) | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Disponibilité et ecoute | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Proactivite (alerte en cas de problème) | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Qualité des rapports/documents fournis | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| **Moyenne** | :red_circle: [À REMPLIR] / 5 |
 
-**Conversion :** Moyenne x 3 = **Score reactivite : :red_circle: [A REMPLIR] / 15**
+**Conversion :** Moyenne x 3 = **Score réactivité : :red_circle: [À REMPLIR] / 15**
 
-**Commentaires :** :red_circle: [A REMPLIR — lors de la premiere evaluation formelle]
+**Commentaires :** :red_circle: [À REMPLIR — lors de la première évaluation formelle]
 
 ---
 
 ### 4. Gestion des non-conformites (15%)
 
-| Critere | Evaluation (1 a 5) |
+| Critère | Évaluation (1 a 5) |
 |---|---|
 | Rapidite de prise en charge des NC | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Qualite de l'analyse des causes | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Efficacite des actions correctives | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Qualité de l'analyse des causes | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Efficacité des actions correctives | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
 | Non-recurrence des NC | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| **Moyenne** | :red_circle: [A REMPLIR] / 5 |
+| **Moyenne** | :red_circle: [À REMPLIR] / 5 |
 
-**Conversion :** Moyenne x 3 = **Score NC : :red_circle: [A REMPLIR] / 15**
+**Conversion :** Moyenne x 3 = **Score NC : :red_circle: [À REMPLIR] / 15**
 
-**Commentaires :** :red_circle: [A REMPLIR — lors de la premiere evaluation formelle]
+**Commentaires :** :red_circle: [À REMPLIR — lors de la première évaluation formelle]
 
 ---
 
-### Synthese
+### Synthèse
 
-| Critere | Poids | Score |
+| Critère | Poids | Score |
 |---|---|---|
-| Qualite des livraisons | 40% | :red_circle: [A REMPLIR] / 40 |
-| Respect des delais | 30% | :red_circle: [A REMPLIR] / 30 |
-| Reactivite et communication | 15% | :red_circle: [A REMPLIR] / 15 |
-| Gestion des NC | 15% | :red_circle: [A REMPLIR] / 15 |
-| **TOTAL** | **100%** | **:red_circle: [A REMPLIR] / 100** |
+| Qualité des livraisons | 40% | :red_circle: [À REMPLIR] / 40 |
+| Respect des délais | 30% | :red_circle: [À REMPLIR] / 30 |
+| Réactivité et communication | 15% | :red_circle: [À REMPLIR] / 15 |
+| Gestion des NC | 15% | :red_circle: [À REMPLIR] / 15 |
+| **TOTAL** | **100%** | **:red_circle: [À REMPLIR] / 100** |
 
 #### Appreciation globale
 
 | Note | Appreciation | Decision |
 |---|---|---|
 | >= 80 | **Performant** | [ ] Fournisseur maintenu |
-| 60 - 79 | **Acceptable** | [ ] Plan d'amelioration demande |
-| < 60 | **Insuffisant** | [ ] Plan d'amelioration urgent [ ] Recherche d'alternative |
+| 60 - 79 | **Acceptable** | [ ] Plan d'amélioration demande |
+| < 60 | **Insuffisant** | [ ] Plan d'amélioration urgent [ ] Recherche d'alternative |
 
 #### Decision
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **Statut du fournisseur** | [ ] Approuve [ ] Approuve sous conditions [ ] Suspendu [ ] Retire |
-| **Actions decidees** | :red_circle: [A REMPLIR — apres premiere evaluation] |
-| **Communique au fournisseur** | [ ] Oui (date : :red_circle: [A REMPLIR]) [ ] Non (pas necessaire) |
+| **Actions décidées** | :red_circle: [À REMPLIR — après première évaluation] |
+| **Communique au fournisseur** | [ ] Oui (date : :red_circle: [À REMPLIR]) [ ] Non (pas nécessaire) |
 
 ---
 
-**Evaluation realisee par :** :green_circle: Roxane Wicky **Date :** :red_circle: [A REMPLIR]
+**Évaluation réalisée par :** :green_circle: Roxane Wicky **Date :** :red_circle: [À REMPLIR]
 
 **Signature :** ______________________________
 
 ---
 
-### Historique des evaluations — Yuyao Mould Factory
+### Historique des évaluations — Yuyao Mould Factory
 
-| Periode | Note | Appreciation | Actions decidees | Suivi |
+| Période | Note | Appreciation | Actions décidées | Suivi |
 |---|---|---|---|---|
-| 2026 | :red_circle: [A REMPLIR — __/100] | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR] |
+| 2026 | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] |
 | 2027 | [__/100] | | | |
 | 2028 | [__/100] | | | |
 
@@ -267,140 +267,140 @@
 
 ### Identification du fournisseur
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **Nom du fournisseur** | :green_circle: Whang |
 | **Classe** | :green_circle: [X] A - Critique [ ] B - Important [ ] C - Standard |
 | **Pays** | :green_circle: Chine |
 | **Localisation** | :green_circle: Yuyao, Chine |
-| **Adresse** | :blue_circle: [A VERIFIER — adresse complete a Yuyao] |
-| **Contact principal** | :blue_circle: [A VERIFIER — nom et fonction du contact principal] |
-| **Email / Telephone** | :blue_circle: [A VERIFIER] |
+| **Adresse** | :blue_circle: [À VÉRIFIER — adresse complète a Yuyao] |
+| **Contact principal** | :blue_circle: [À VÉRIFIER — nom et fonction du contact principal] |
+| **Email / Téléphone** | :blue_circle: [À VÉRIFIER] |
 | **Produits/services fournis** | :green_circle: Vis (screws) |
 | **Sous-traite** | :green_circle: Non (production interne) |
-| **Partenariat depuis** | :blue_circle: [A VERIFIER — date de debut de collaboration] |
-| **Certifications du fournisseur** | :blue_circle: [A VERIFIER — certifications incertaines, a confirmer aupres du fournisseur] |
-| **Accord qualite signe ?** | :blue_circle: [A VERIFIER — a formaliser] |
+| **Partenariat depuis** | :blue_circle: [À VÉRIFIER — date de debut de collaboration] |
+| **Certifications du fournisseur** | :blue_circle: [À VÉRIFIER — certifications incertaines, a confirmer auprès du fournisseur] |
+| **Accord qualité signe ?** | :blue_circle: [À VÉRIFIER — a formaliser] |
 
 ### Nature de la relation
 
-| Element | Description |
+| Élément | Description |
 |---|---|
-| **Type de partenariat** | :green_circle: Second partenaire de fabrication, specialise en visserie |
-| **Historique** | :blue_circle: [A VERIFIER — date de debut de collaboration] |
+| **Type de partenariat** | :green_circle: Second partenaire de fabrication, spécialisé en visserie |
+| **Historique** | :blue_circle: [À VÉRIFIER — date de debut de collaboration] |
 | **Mode de communication** | :green_circle: Email, WeChat |
-| **Criticite** | :green_circle: Fournisseur critique (Classe A) — produits specialises (vis) |
-| **Role specifique** | :green_circle: Fabrication de vis (screws) — production interne (pas de sous-traitance) |
+| **Criticite** | :green_circle: Fournisseur critique (Classe A) — produits spécialisés (vis) |
+| **Rôle spécifique** | :green_circle: Fabrication de vis (screws) — production interne (pas de sous-traitance) |
 
-### Periode d'evaluation
+### Période d'évaluation
 
 | Du | Au |
 |---|---|
-| :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR] |
+| :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] |
 
 ---
 
-### 1. Qualite des livraisons (40%)
+### 1. Qualité des livraisons (40%)
 
-| Element | Donnees |
+| Élément | Données |
 |---|---|
-| Nombre total de lots/livraisons recus | :red_circle: [A REMPLIR] |
-| Nombre de lots conformes | :red_circle: [A REMPLIR] |
-| Nombre de lots avec NC mineures | :red_circle: [A REMPLIR] |
-| Nombre de lots avec NC majeures | :red_circle: [A REMPLIR] |
-| **Taux de conformite** | :red_circle: [A REMPLIR] % |
+| Nombre total de lots/livraisons reçus | :red_circle: [À REMPLIR] |
+| Nombre de lots conformes | :red_circle: [À REMPLIR] |
+| Nombre de lots avec NC mineures | :red_circle: [À REMPLIR] |
+| Nombre de lots avec NC majeures | :red_circle: [À REMPLIR] |
+| **Taux de conformité** | :red_circle: [À REMPLIR] % |
 
-**Score qualite : :red_circle: [A REMPLIR] / 40**
+**Score qualité : :red_circle: [À REMPLIR] / 40**
 
 ---
 
-### 2. Respect des delais (30%)
+### 2. Respect des délais (30%)
 
-| Element | Donnees |
+| Élément | Données |
 |---|---|
-| Nombre total de livraisons | :red_circle: [A REMPLIR] |
-| Nombre de livraisons a temps | :red_circle: [A REMPLIR] |
-| Nombre de livraisons en retard | :red_circle: [A REMPLIR] |
-| Retard moyen (jours) | :red_circle: [A REMPLIR] |
-| **Taux de livraison a temps** | :red_circle: [A REMPLIR] % |
+| Nombre total de livraisons | :red_circle: [À REMPLIR] |
+| Nombre de livraisons a temps | :red_circle: [À REMPLIR] |
+| Nombre de livraisons en retard | :red_circle: [À REMPLIR] |
+| Retard moyen (jours) | :red_circle: [À REMPLIR] |
+| **Taux de livraison a temps** | :red_circle: [À REMPLIR] % |
 
-**Score delais : :red_circle: [A REMPLIR] / 30**
+**Score délais : :red_circle: [À REMPLIR] / 30**
 
 ---
 
-### 3. Reactivite et communication (15%)
+### 3. Réactivité et communication (15%)
 
-| Critere | Evaluation (1 a 5) |
+| Critère | Évaluation (1 a 5) |
 |---|---|
-| Reactivite aux demandes de renseignements | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Qualite de la communication (email, WeChat) | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Disponibilite et ecoute | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Proactivite (alerte en cas de probleme) | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Qualite des rapports/documents fournis | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| **Moyenne** | :red_circle: [A REMPLIR] / 5 |
+| Réactivité aux demandes de renseignements | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Qualité de la communication (email, WeChat) | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Disponibilité et ecoute | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Proactivite (alerte en cas de problème) | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Qualité des rapports/documents fournis | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| **Moyenne** | :red_circle: [À REMPLIR] / 5 |
 
-**Score reactivite : :red_circle: [A REMPLIR] / 15**
+**Score réactivité : :red_circle: [À REMPLIR] / 15**
 
 ---
 
 ### 4. Gestion des non-conformites (15%)
 
-| Critere | Evaluation (1 a 5) |
+| Critère | Évaluation (1 a 5) |
 |---|---|
 | Rapidite de prise en charge des NC | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Qualite de l'analyse des causes | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| Efficacite des actions correctives | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Qualité de l'analyse des causes | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
+| Efficacité des actions correctives | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
 | Non-recurrence des NC | :red_circle: [ ] 1 [ ] 2 [ ] 3 [ ] 4 [ ] 5 |
-| **Moyenne** | :red_circle: [A REMPLIR] / 5 |
+| **Moyenne** | :red_circle: [À REMPLIR] / 5 |
 
-**Score NC : :red_circle: [A REMPLIR] / 15**
+**Score NC : :red_circle: [À REMPLIR] / 15**
 
 ---
 
-### Synthese
+### Synthèse
 
-| Critere | Poids | Score |
+| Critère | Poids | Score |
 |---|---|---|
-| Qualite des livraisons | 40% | :red_circle: [A REMPLIR] / 40 |
-| Respect des delais | 30% | :red_circle: [A REMPLIR] / 30 |
-| Reactivite et communication | 15% | :red_circle: [A REMPLIR] / 15 |
-| Gestion des NC | 15% | :red_circle: [A REMPLIR] / 15 |
-| **TOTAL** | **100%** | **:red_circle: [A REMPLIR] / 100** |
+| Qualité des livraisons | 40% | :red_circle: [À REMPLIR] / 40 |
+| Respect des délais | 30% | :red_circle: [À REMPLIR] / 30 |
+| Réactivité et communication | 15% | :red_circle: [À REMPLIR] / 15 |
+| Gestion des NC | 15% | :red_circle: [À REMPLIR] / 15 |
+| **TOTAL** | **100%** | **:red_circle: [À REMPLIR] / 100** |
 
 #### Decision
 
-| Element | Detail |
+| Élément | Détail |
 |---|---|
 | **Statut du fournisseur** | [ ] Approuve [ ] Approuve sous conditions [ ] Suspendu [ ] Retire |
-| **Actions decidees** | :red_circle: [A REMPLIR — apres premiere evaluation] |
-| **Communique au fournisseur** | [ ] Oui (date : :red_circle: [A REMPLIR]) [ ] Non (pas necessaire) |
+| **Actions décidées** | :red_circle: [À REMPLIR — après première évaluation] |
+| **Communique au fournisseur** | [ ] Oui (date : :red_circle: [À REMPLIR]) [ ] Non (pas nécessaire) |
 
 ---
 
-**Evaluation realisee par :** :green_circle: Roxane Wicky **Date :** :red_circle: [A REMPLIR]
+**Évaluation réalisée par :** :green_circle: Roxane Wicky **Date :** :red_circle: [À REMPLIR]
 
 **Signature :** ______________________________
 
 ---
 
-### Historique des evaluations — Whang
+### Historique des évaluations — Whang
 
-| Periode | Note | Appreciation | Actions decidees | Suivi |
+| Période | Note | Appreciation | Actions décidées | Suivi |
 |---|---|---|---|---|
-| 2026 | :red_circle: [A REMPLIR — __/100] | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR] | :red_circle: [A REMPLIR] |
+| 2026 | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] |
 | 2027 | [__/100] | | | |
 | 2028 | [__/100] | | | |
 
 ---
 
 > **Instructions de remplissage :**
-> 1. Utilisez le **formulaire simplifie** (Methode Roxane Wicky) pour les evaluations rapides en cours d'annee et pour les fournisseurs/transporteurs de classe B ou C
-> 2. Utilisez l'**evaluation detaillee** (notation ponderee sur 100) pour l'evaluation annuelle formelle des partenaires critiques (Classe A)
+> 1. Utilisez le **formulaire simplifié** (Méthode Roxane Wicky) pour les évaluations rapides en cours d'année et pour les fournisseurs/transporteurs de classe B ou C
+> 2. Utilisez l'**évaluation détaillée** (notation pondérée sur 100) pour l'évaluation annuelle formelle des partenaires critiques (Classe A)
 > 3. Evaluez chaque partenaire chinois au minimum 1 fois par an
-> 4. Basez-vous sur des donnees objectives (pas uniquement des impressions)
-> 5. Conservez les preuves (rapports de controle, emails, NC)
-> 6. Communiquez les resultats au fournisseur (transparence)
+> 4. Basez-vous sur des données objectives (pas uniquement des impressions)
+> 5. Conservez les preuves (rapports de contrôle, emails, NC)
+> 6. Communiquez les résultats au fournisseur (transparence)
 > 7. Si le fournisseur est "insuffisant", documentez le plan d'action
-> 8. Pour Yuyao Mould Factory : la relation de confiance de 19 ans est un atout, mais l'evaluation formelle est desormais requise par le SMQ
-> 9. Pour Whang : verifier les certifications et formaliser l'accord qualite — production interne (vis), pas de sous-traitance
-> 10. La premiere evaluation formelle constitue la reference de base (baseline) pour les evaluations futures
+> 8. Pour Yuyao Mould Factory : la relation de confiance de 19 ans est un atout, mais l'évaluation formelle est desormais requise par le SMQ
+> 9. Pour Whang : vérifier les certifications et formaliser l'accord qualité — production interne (vis), pas de sous-traitance
+> 10. La première évaluation formelle constitue la référence de base (baseline) pour les évaluations futures
