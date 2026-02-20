@@ -82,7 +82,7 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. �
 | Code | Process | Process owner | Purpose | Associated document(s) |
 |---|---|---|---|---|
 | S1 | Document management | Roxane Wicky (Managing Director) | Control QMS documents and records (FileMaker, emails, WeChat). Ensure traceability and feed continual improvement. Cloud backup at the provider 🟢 | PRO-DOC-001 |
-| S2 | Competencies and training | Roxane Wicky (Managing Director) | Maintain and develop the competencies necessary for industrial coordination | FOR-CMP-001 |
+| S2 | Competencies, training and awareness | Roxane Wicky (Managing Director) | Maintain and develop competencies necessary for industrial coordination. Managing director competencies (7 areas), extension to suppliers (continuous evaluation). QMS awareness (policy, objectives, customer satisfaction). English communication 🟢 | FOR-CMP-001 🟢 |
 | S3 | Resources and infrastructure | Roxane Wicky (Managing Director) | Manage human, material, digital and external resources. Infrastructure (FileMaker, email, WeChat, cloud). Work environment (confidentiality, reliability, responsiveness). External resources (Yuyao, Whang, freight forwarders). Accounting via fiduciary Paradiso 🟢 | CTX-QUA-001 (section 7) 🟢 |
 
 ---
@@ -231,3 +231,4 @@ Data is backed up in the **cloud, hosted at the provider**. 🟢
 | 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of sections 2.1, 2.2, 2.2.1 of the quality manual. Addition of Associated Documents column. Revision of the main flow with order review (step 2), partner consultation (step 3), reference to M1-DIR-001. Addition of step 12 (traceability and improvement, S1). Addition of new documents PRO-LOG-001, FIC-PRO-002, M1-DIR-001. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration UPDATE 6.3: enrichment of M1 (planning of changes, clause 6.3), enrichment of M2 (review of change effectiveness), addition of clause 6.3 impact analysis in the main flow (step 2). | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration UPDATEs 7, 7.2, 7.3: enrichment of S3 (resources, clause 7.1, ref. CTX-QUA-001 §7), enrichment of S2 (competencies, awareness, clauses 7.2-7.3, ref. FOR-CMP-001). | Roxane Wicky |

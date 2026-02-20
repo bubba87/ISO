@@ -32,6 +32,9 @@
 | U11 | 6.2 | Quality objectives with precise indicators | Delivery tolerances, pricing conditions, reactivity 24-48H | OBJ-QUA-001 |
 | U12 | 6.3 | Planning of changes | Types of changes, impact analysis by process, controlled implementation, review | CTX-QUA-001 (section 6), CRT-QUA-001 (M1, M2, flow) |
 | U13 | 7 | Resources (7.1) | General, HR, infrastructure, environment, external resources/partners | CTX-QUA-001 (section 7), CRT-QUA-001 (S3) |
+| U14 | 7.2 | Competencies | Managing director competencies (7 domains), maintenance, extension to suppliers | FOR-CMP-001 (sections 1, supplier extension) |
+| U15 | 7.3 | Awareness | Awareness of policy, objectives, satisfaction, NC consequences | FOR-CMP-001 (section 5) |
+| U16 | 7.4 | Communication | External communication by interested party, confidentiality management | CTX-QUA-001 (sections 7.6, 7.7) |
 
 ### New Documents Created in v0.4
 
@@ -237,6 +240,9 @@ Now that the certification body has been chosen (SQS), the following steps are n
 | 20/02/2026 | IDE number (#8) | CH-645.4.101.228-7 added in DOM-QUA-001 and CTX-QUA-001 |
 | 20/02/2026 | UPDATE 6.3 | Planning of changes — CTX-QUA-001 section 6 + CRT-QUA-001 (M1, M2, flow) |
 | 20/02/2026 | UPDATE 7 | Resources (clause 7.1) — CTX-QUA-001 section 7 + CRT-QUA-001 (S3 enriched) + drawio |
+| 20/02/2026 | UPDATE 7.2 | Competencies — FOR-CMP-001 (supplier extension, maintenance enriched) |
+| 20/02/2026 | UPDATE 7.3 | Awareness — FOR-CMP-001 (new section 5) |
+| 20/02/2026 | UPDATE 7.4 | Communication — CTX-QUA-001 sections 7.6-7.7 + CRT-QUA-001 (S2 enriched) + drawio |
 
 ---
 

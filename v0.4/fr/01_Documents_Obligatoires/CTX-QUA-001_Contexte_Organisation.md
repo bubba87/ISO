@@ -503,7 +503,7 @@ Ces dispositions permettent d'assurer que les modifications sont mises en oeuvre
 
 ---
 
-## 7. Ressources (clause 7.1)
+## 7. Support — Ressources et communication (clauses 7.1, 7.4)
 
 > **Source :** UPDATE 7 — Ressources (20/02/2026) 🟢
 
@@ -572,6 +572,39 @@ L'entreprise veille a :
 | **Paradiso** | Fiduciaire / comptabilite | Contrat de mandat 🟢 | Annuel |
 | Transitaires | Transport international (aerien, maritime, ferroviaire) | 🟡 [RECOMMANDE — noms non disponibles] | Suivi par expedition |
 
+### 7.6 Communication (clause 7.4)
+
+> **Source :** UPDATE 7.4 — Communication (20/02/2026) 🟢
+
+Plus Sarl determine les communications internes et externes necessaires au bon fonctionnement de son SMQ en tenant compte :
+- des parties interessees concernees
+- des informations a transmettre
+- des responsabilites associees
+- des exigences de confidentialite et de protection des donnees
+
+#### Communication externe
+
+| Partie interessee | Canal principal | Canal secondaire | Responsable |
+|---|---|---|---|
+| **Clients europeens** | Email | Telephone (urgences) | Roxane Wicky 🟢 |
+| **Partenaires industriels (Chine)** | WeChat | Email | Roxane Wicky 🟢 |
+| **Transporteurs / transitaires** | Email | WeChat (transporteur principal) | Roxane Wicky 🟢 |
+| **Fiduciaire Paradiso** | Email | Telephone | Roxane Wicky 🟢 |
+| **Autorites douanieres** | Email / portail officiel | Telephone | Roxane Wicky 🟢 |
+
+### 7.7 Maitrise de la confidentialite
+
+Plus Sarl veille a la protection des informations techniques, commerciales et contractuelles transmises dans le cadre de ses activites.
+
+A ce titre :
+- les donnees techniques appartenant aux clients sont traitees comme confidentielles
+- l'acces aux systemes informatiques et aux messageries est securise
+- les informations sont transmises uniquement aux parties concernees
+- les documents sont conserves de maniere organisee dans le systeme de gestion interne (FileMaker, cloud)
+- les partenaires industriels sont informes du caractere confidentiel des donnees techniques transmises
+
+Cette organisation garantit la confidentialite des informations et la protection de la propriete intellectuelle.
+
 ---
 
 ## 8. Exigences legales et reglementaires applicables
@@ -638,7 +671,8 @@ Ce document doit etre revu au minimum **1 fois par an** lors de la revue de dire
 | 0.4 | 19/02/2026 | Integration UPDATEs 4.1, 4.2, 6.1 (fusion) : enrichissement SWOT (ajout Forces/Faiblesses/Menaces UPDATE 4.1), enrichissement parties interessees (descriptions UPDATE 4.2), enrichissement section risques (introduction, synthese, opportunites UPDATE 6.1). | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration UPDATE 6.3 : ajout section 6 Planification des modifications (types, analyse d'impact par processus, mise en oeuvre, revue). Ajout numero IDE. Renumerotation sections 7-9. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration UPDATE 7 : ajout section 7 Ressources (clause 7.1) — generalites, RH, infrastructures, environnement, ressources externes. Renumerotation sections 8-10. | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration UPDATE 7.4 : ajout sections 7.6 Communication (clause 7.4) et 7.7 Maitrise de la confidentialite. Section 7 etendue aux clauses 7.1-7.4. | Roxane Wicky |
 
 ---
 
-*Document redige conformement aux exigences de la norme ISO 9001:2015, clauses 4.1, 4.2, 4.3, 6.1, 6.3 et 7.1.*
+*Document redige conformement aux exigences de la norme ISO 9001:2015, clauses 4.1, 4.2, 4.3, 6.1, 6.3, 7.1 et 7.4.*

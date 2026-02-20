@@ -15,6 +15,7 @@
 | 0.2 | 10/02/2026 | Addition of detailed competencies sheet, training plan, self-evaluation | Roxane Wicky |
 | 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, ~10 clients, QC sampling). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration UPDATEs 7.2, 7.3: addition of supplier competencies (industrial partner extension), addition of section 5 Awareness (clause 7.3), enrichment of competency maintenance. | Roxane Wicky |
 
 ---
 
@@ -68,6 +69,29 @@
 | **Continuous communication with partners** | :green_circle: Regular exchanges with Yuyao Mould Factory and Whang (email, WeChat) |
 | **Client feedback** | :green_circle: Continuous learning through feedback and requirements from European clients (~10 active clients) |
 | **Field practice** | :green_circle: Regular visits to Chinese partners and direct production monitoring |
+| **Technical and sector monitoring** | :green_circle: Monitoring of technical, regulatory and logistical developments applicable to the activity |
+| **Performance analysis** | :green_circle: Monitoring of indicators (deadlines, NCs, satisfaction) and adaptation of practices |
+
+> **Source:** UPDATE 7.2 — Competencies (20/02/2026) 🟢
+
+### Extension to suppliers — Industrial partner competencies
+
+Plus Sarl ensures that industrial partners have the technical competencies necessary for manufacturing parts compliant with customer specifications.
+
+This assurance is based on:
+- selection of experienced partners
+- analysis of their technical capacity
+- lasting relationship and performance monitoring
+- evaluation of deadlines and product conformity
+- management of nonconformities and corrective actions if necessary (cf. PRO-NCF-001, PRO-ACR-001)
+
+Partner competencies are continuously evaluated through:
+
+| Evaluation criterion | Monitoring | Associated document |
+|---|---|---|
+| Deadline compliance | Continuous, per order | FileMaker, OBJ-QUA-001 |
+| Conformity of delivered parts | At each reception | FOR-CTR-001, PRO-NCF-001 |
+| Stability of industrial relationship | Annual | FOR-EVF-001 |
 
 ### Competencies required by function
 
@@ -131,6 +155,34 @@
 | Problem resolution and crisis management | :red_circle: [TO BE COMPLETED] | [N/A] | |
 
 **Rating legend:** 1=Beginner, 2=Basic knowledge, 3=Competent, 4=Proficient, 5=Expert
+
+---
+
+## 5. Awareness (clause 7.3)
+
+> **Source:** UPDATE 7.3 — Awareness (20/02/2026) 🟢
+
+Given the one-person structure of the company, the managing director is directly involved in the understanding, application and improvement of the quality management system.
+
+Plus Sarl ensures that any person involved in activities covered by the QMS is aware of:
+- the company's quality policy (cf. POL-QUA-001)
+- applicable quality objectives (cf. OBJ-QUA-001)
+- the importance of customer satisfaction
+- requirements relating to product and service conformity
+- potential consequences of deviating from QMS requirements
+
+### Awareness methods
+
+| Method | Description |
+|---|---|
+| **Integration into daily activities** | Quality requirements are integrated into current management of orders, purchasing and deliveries |
+| **Communication of priorities and objectives** | Regular communication of quality priorities and objectives |
+| **Nonconformity analysis** | Analysis of NCs and customer feedback as an awareness lever (cf. PRO-NCF-001) |
+| **Management review** | Performance review during management review (cf. FOR-RDR-001) |
+
+In case of problems or malfunctions, the managing director adapts her organization, working methods and decisions to prevent recurrence of the situation and contribute to the continual improvement of performance.
+
+This direct involvement guarantees permanent consideration of QMS requirements in accordance with ISO 9001:2015 standard.
 
 ---
 

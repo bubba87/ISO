@@ -82,7 +82,7 @@ La certification ISO 9001:2015 est visee aupres de l'organisme **SQS**. 🟢
 | Code | Processus | Pilote | Objectif | Document(s) associe(s) |
 |---|---|---|---|---|
 | S1 | Gestion documentaire | Roxane Wicky (Gerante) | Maitriser les documents et enregistrements du SMQ (FileMaker, emails, WeChat). Assurer la tracabilite et alimenter l'amelioration continue. Sauvegarde cloud chez le fournisseur 🟢 | PRO-DOC-001 |
-| S2 | Competences et formations | Roxane Wicky (Gerante) | Maintenir et developper les competences necessaires a la coordination industrielle | FOR-CMP-001 |
+| S2 | Competences, formations et sensibilisation | Roxane Wicky (Gerante) | Maintenir et developper les competences necessaires a la coordination industrielle. Competences gerante (7 domaines), extension aux fournisseurs (evaluation continue). Sensibilisation au SMQ (politique, objectifs, satisfaction client). Communication en anglais 🟢 | FOR-CMP-001 🟢 |
 | S3 | Ressources et infrastructure | Roxane Wicky (Gerante) | Gerer les ressources humaines, materielles, numeriques et externes. Infrastructures (FileMaker, email, WeChat, cloud). Environnement de travail (confidentialite, fiabilite, reactivite). Ressources externes (Yuyao, Whang, transitaires). Comptabilite via fiduciaire Paradiso 🟢 | CTX-QUA-001 (section 7) 🟢 |
 
 ---
@@ -231,3 +231,4 @@ Les donnees sont sauvegardees dans le **cloud, hebergement chez le fournisseur**
 | 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration des chapitres 2.1, 2.2, 2.2.1 du manuel qualite. Ajout de la colonne Documents associes. Revision du flux principal avec revue de commande (etape 2), consultation partenaires (etape 3), reference a M1-DIR-001. Ajout de l'etape 12 (tracabilite et amelioration, S1). Ajout des nouveaux documents PRO-LOG-001, FIC-PRO-002, M1-DIR-001. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration UPDATE 6.3 : enrichissement M1 (planification des modifications, clause 6.3), enrichissement M2 (revue efficacite modifications), ajout analyse d'impact clause 6.3 dans le flux principal (etape 2). | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration UPDATEs 7, 7.2, 7.3 : enrichissement S3 (ressources, clause 7.1, ref. CTX-QUA-001 §7), enrichissement S2 (competences, sensibilisation, clauses 7.2-7.3, ref. FOR-CMP-001). | Roxane Wicky |

@@ -502,7 +502,7 @@ These provisions ensure that changes are implemented in a controlled manner, tra
 
 ---
 
-## 7. Resources (clause 7.1)
+## 7. Support — Resources and Communication (clauses 7.1, 7.4)
 
 > **Source:** UPDATE 7 — Resources (20/02/2026) 🟢
 
@@ -571,6 +571,39 @@ The company ensures to:
 | **Paradiso** | Fiduciary / accounting | Service agreement 🟢 | Annual |
 | Freight forwarders | International transport (air, sea, rail) | 🟡 [RECOMMENDED — names not available] | Per shipment |
 
+### 7.6 Communication (clause 7.4)
+
+> **Source:** UPDATE 7.4 — Communication (20/02/2026) 🟢
+
+Plus Sarl determines the internal and external communications necessary for the proper functioning of its QMS, taking into account:
+- the interested parties concerned
+- the information to be communicated
+- the associated responsibilities
+- the requirements for confidentiality and data protection
+
+#### External communication
+
+| Interested party | Primary channel | Secondary channel | Responsible |
+|---|---|---|---|
+| **European customers** | Email | Telephone (emergencies) | Roxane Wicky 🟢 |
+| **Industrial partners (China)** | WeChat | Email | Roxane Wicky 🟢 |
+| **Carriers / freight forwarders** | Email | WeChat (main carrier) | Roxane Wicky 🟢 |
+| **Fiduciary Paradiso** | Email | Telephone | Roxane Wicky 🟢 |
+| **Customs authorities** | Email / official portal | Telephone | Roxane Wicky 🟢 |
+
+### 7.7 Confidentiality management
+
+Plus Sarl ensures the protection of technical, commercial and contractual information transmitted in the course of its activities.
+
+To this end:
+- technical data belonging to customers are treated as confidential
+- access to computer systems and messaging is secured
+- information is transmitted only to the parties concerned
+- documents are stored in an organized manner in the internal management system (FileMaker, cloud)
+- industrial partners are informed of the confidential nature of the technical data transmitted
+
+This organization guarantees the confidentiality of information and the protection of intellectual property.
+
 ---
 
 ## 8. Applicable Legal and Regulatory Requirements
@@ -637,7 +670,8 @@ This document must be reviewed at least **once a year** during the management re
 | 0.4 | 19/02/2026 | Integration of UPDATEs 4.1, 4.2, 6.1 (merge): SWOT enrichment (addition of Strengths/Weaknesses/Threats UPDATE 4.1), interested parties enrichment (descriptions UPDATE 4.2), risk section enrichment (introduction, summary, opportunities UPDATE 6.1). | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration of UPDATE 6.3: addition of section 6 Planning of Changes (types, impact analysis by process, implementation, review). Addition of IDE number. Renumbering of sections 7-9. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration of UPDATE 7: addition of section 7 Resources (clause 7.1) — general, HR, infrastructure, environment, external resources. Renumbering of sections 8-10. | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration of UPDATE 7.4: addition of sections 7.6 Communication (clause 7.4) and 7.7 Confidentiality management. Section 7 extended to clauses 7.1-7.4. | Roxane Wicky |
 
 ---
 
-*Document prepared in accordance with the requirements of ISO 9001:2015 standard, clauses 4.1, 4.2, 4.3, 6.1, 6.3 and 7.1.*
+*Document prepared in accordance with the requirements of ISO 9001:2015 standard, clauses 4.1, 4.2, 4.3, 6.1, 6.3, 7.1 and 7.4.*

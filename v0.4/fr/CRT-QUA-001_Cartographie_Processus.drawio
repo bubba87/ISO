@@ -118,7 +118,7 @@
           </mxCell>
         </UserObject>
 
-        <UserObject label="&lt;b&gt;S2&lt;/b&gt;&lt;br&gt;Compétences&lt;br&gt;&amp; Formation&lt;br&gt;&lt;i&gt;(7.2)&lt;/i&gt;" link="data:page/id,page-s2" id="s2">
+        <UserObject label="&lt;b&gt;S2&lt;/b&gt;&lt;br&gt;Compétences&lt;br&gt;&amp; Sensibilisation&lt;br&gt;&lt;i&gt;(7.2, 7.3)&lt;/i&gt;&lt;br&gt;&lt;i&gt;FOR-CMP-001&lt;/i&gt;" link="data:page/id,page-s2" id="s2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" vertex="1" parent="sup-lane">
             <mxGeometry x="440" y="45" width="200" height="80" as="geometry"/>
           </mxCell>

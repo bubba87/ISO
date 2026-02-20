@@ -32,6 +32,9 @@
 | U11 | 6.2 | Objectifs qualité avec indicateurs précis | Tolérances délais, conditions tarifaires, réactivité 24-48H | OBJ-QUA-001 |
 | U12 | 6.3 | Planification des modifications | Types de modifications, analyse d'impact par processus, mise en oeuvre controlee, revue | CTX-QUA-001 (section 6), CRT-QUA-001 (M1, M2, flux) |
 | U13 | 7 | Ressources (7.1) | Generalites, RH, infrastructures, environnement, ressources externes/partenaires | CTX-QUA-001 (section 7), CRT-QUA-001 (S3) |
+| U14 | 7.2 | Competences | Competences gerante (7 domaines), maintien, extension aux fournisseurs | FOR-CMP-001 (sections 1, extension fournisseurs) |
+| U15 | 7.3 | Sensibilisation | Sensibilisation politique, objectifs, satisfaction, consequences NC | FOR-CMP-001 (section 5) |
+| U16 | 7.4 | Communication | Communication externe par partie interessee, maitrise confidentialite | CTX-QUA-001 (sections 7.6, 7.7) |
 
 ### Nouveaux documents créés en v0.4
 
@@ -237,6 +240,9 @@ Maintenant que l'organisme de certification est choisi (SQS), il faut :
 | 20/02/2026 | Numéro IDE (#8) | CH-645.4.101.228-7 ajouté dans DOM-QUA-001 et CTX-QUA-001 |
 | 20/02/2026 | UPDATE 6.3 | Planification des modifications — CTX-QUA-001 section 6 + CRT-QUA-001 (M1, M2, flux) |
 | 20/02/2026 | UPDATE 7 | Ressources (clause 7.1) — CTX-QUA-001 section 7 + CRT-QUA-001 (S3 enrichi) + drawio |
+| 20/02/2026 | UPDATE 7.2 | Competences — FOR-CMP-001 (extension fournisseurs, maintien enrichi) |
+| 20/02/2026 | UPDATE 7.3 | Sensibilisation — FOR-CMP-001 (nouvelle section 5) |
+| 20/02/2026 | UPDATE 7.4 | Communication — CTX-QUA-001 sections 7.6-7.7 + CRT-QUA-001 (S2 enrichi) + drawio |
 
 ---
 

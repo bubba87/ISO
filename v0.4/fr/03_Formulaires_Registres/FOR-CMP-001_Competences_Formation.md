@@ -15,6 +15,7 @@
 | 0.2 | 10/02/2026 | Ajout fiche competences detaillee, plan de formation, auto-evaluation | Roxane Wicky |
 | 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration des reponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du systeme de legende des champs. | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration UPDATEs 7.2, 7.3 : ajout competences fournisseurs (extension partenaires industriels), ajout section 5 Sensibilisation (clause 7.3), enrichissement maintien des competences. | Roxane Wicky |
 
 ---
 
@@ -68,6 +69,29 @@
 | **Communication continue avec les partenaires** | :green_circle: Echanges reguliers avec Yuyao Mould Factory et Whang (email, WeChat) |
 | **Retours clients** | :green_circle: Apprentissage continu par les retours et exigences des clients europeens (~10 clients actifs) |
 | **Pratique terrain** | :green_circle: Visites regulieres chez les partenaires chinois et suivi direct de la production |
+| **Veille technique et sectorielle** | :green_circle: Suivi des evolutions techniques, reglementaires et logistiques applicables a l'activite |
+| **Analyse des performances** | :green_circle: Suivi des indicateurs (delais, NC, satisfaction) et adaptation des pratiques |
+
+> **Source :** UPDATE 7.2 — Competences (20/02/2026) 🟢
+
+### Extension aux fournisseurs — Competences des partenaires industriels
+
+Plus Sarl veille a ce que les partenaires industriels disposent des competences techniques necessaires a la fabrication des pieces conformes aux specifications clients.
+
+Cette assurance repose sur :
+- la selection de partenaires experimentes
+- l'analyse de leur capacite technique
+- la relation durable et le suivi des performances
+- l'evaluation des delais et de la conformite produit
+- la gestion des non-conformites et des actions correctives si necessaire (cf. PRO-NCF-001, PRO-ACR-001)
+
+Les competences des partenaires sont evaluees de maniere continue a travers :
+
+| Critere d'evaluation | Suivi | Document associe |
+|---|---|---|
+| Respect des delais | Continu, par commande | FileMaker, OBJ-QUA-001 |
+| Conformite des pieces livrees | A chaque reception | FOR-CTR-001, PRO-NCF-001 |
+| Stabilite de la relation industrielle | Annuel | FOR-EVF-001 |
 
 ### Competences requises par fonction
 
@@ -131,6 +155,34 @@
 | Resolution de problemes et gestion de crise | :red_circle: [A REMPLIR] | [N/A] | |
 
 **Legende notation :** 1=Debutant, 2=Notions de base, 3=Competent, 4=Confirme, 5=Expert
+
+---
+
+## 5. Sensibilisation (clause 7.3)
+
+> **Source :** UPDATE 7.3 — Sensibilisation (20/02/2026) 🟢
+
+Compte tenu de la structure unipersonnelle de l'entreprise, la gerante est directement impliquee dans la comprehension, l'application et l'amelioration du systeme de management de la qualite.
+
+Plus Sarl veille a ce que toute personne intervenant dans les activites couvertes par le SMQ soit sensibilisee a :
+- la politique qualite de l'entreprise (cf. POL-QUA-001)
+- aux objectifs qualite applicables (cf. OBJ-QUA-001)
+- a l'importance de la satisfaction client
+- aux exigences relatives a la conformite des produits et services
+- aux consequences potentielles d'un ecart par rapport aux exigences du SMQ
+
+### Moyens de sensibilisation
+
+| Moyen | Description |
+|---|---|
+| **Integration dans les activites quotidiennes** | Les exigences qualite sont integrees dans la gestion courante des commandes, achats et livraisons |
+| **Communication des priorites et objectifs** | Communication reguliere des priorites et objectifs qualite |
+| **Analyse des non-conformites** | Analyse des NC et des retours clients comme levier de sensibilisation (cf. PRO-NCF-001) |
+| **Revue de direction** | Revue des performances lors de la revue de direction (cf. FOR-RDR-001) |
+
+En cas de probleme ou de dysfonctionnement, la gerante adapte son organisation, ses methodes de travail et ses decisions afin d'eviter la repetition de la situation et de contribuer a l'amelioration continue des performances.
+
+Cette implication directe garantit la prise en compte permanente des exigences du SMQ conformement a la norme ISO 9001:2015.
 
 ---
 
