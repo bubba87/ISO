@@ -5,7 +5,7 @@
 | **Reference** | DOM-QUA-001 |
 | **Version** | 0.4 |
 | **Creation date** | 10/02/2026 |
-| **Revision date** | 18/02/2026 |
+| **Revision date** | 20/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -20,7 +20,7 @@
 | Company name | Plus Sarl 🟢 |
 | Address | Route de Montet 11, 1588 Cudrefin, Switzerland 🟢 |
 | Legal form | Limited liability company (Sarl) 🟢 |
-| IDE No. | 🔴 [TO BE COMPLETED — not disclosed] |
+| IDE No. | CH-645.4.101.228-7 🟢 |
 | Headcount | 1 person (Managing Director - Roxane Wicky) 🟢 |
 | Site(s) concerned | 1 office: Route de Montet 11, 1588 Cudrefin 🟢 |
 | Date of establishment | 2007 🟢 |
@@ -104,3 +104,4 @@ See document CTX-QUA-001 for details on interested parties and their requirement
 | 0.2 | 10/02/2026 | Version update, no content change | Roxane Wicky |
 | 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 20/02/2026 | Addition of IDE number (CH-645.4.101.228-7). Point #8 resolved. | Roxane Wicky |

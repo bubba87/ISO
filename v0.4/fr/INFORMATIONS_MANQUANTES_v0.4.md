@@ -59,7 +59,7 @@
 | 5 | CQ avant expédition | 🔴 Ouvert | Le partenaire fera un CQ + envoi d'échantillonnage en parallèle | 🟢 Résolu | Formaliser dans l'accord qualité |
 | 6 | Satisfaction client | 🔴 Ouvert | ~10 clients actifs, seront informés | 🟢 Résolu | Envoyer le questionnaire FOR-SAT-001 aux 10 clients |
 | 7 | Formations/diplômes Roxane | 🔴 Ouvert | Non divulgué pour le moment | 🔴 Manquant | **À compléter avant l'audit** — l'auditeur vérifiera les compétences |
-| 8 | Numéro IDE | 🔴 Ouvert | Non divulgué pour le moment | 🔴 Manquant | À ajouter dans DOM-QUA-001 quand disponible |
+| 8 | Numéro IDE | 🔴 Ouvert | **CH-645.4.101.228-7** | 🟢 Résolu | Ajouté dans DOM-QUA-001 et CTX-QUA-001 le 20/02/2026 |
 | 9 | Méthode de sauvegarde | 🔴 Ouvert | Cloud, hébergement chez fournisseur | 🟢 Résolu | Détailler la fréquence et le fournisseur si possible |
 | 10 | Organisme de certification | 🔴 Ouvert | **SQS** | 🟢 Résolu | Contacter SQS pour un devis et une date d'audit |
 | 11 | NC_2026_1001 suivi | 🔵 En cours | Suivi oui, photos non, cause pas encore identifiée | 🔵 En cours | Obtenir les photos, identifier la cause lors du voyage en Chine |
@@ -75,7 +75,7 @@
 | # | Document | Champ | Description | Clause ISO |
 |---|---|---|---|---|
 | 1 | FOR-CMP-001 | Diplômes et formations | Les diplômes, formations initiales et expériences de Roxane Wicky doivent être documentés | 7.2 |
-| 2 | DOM-QUA-001 | Numéro IDE | L'identifiant des entreprises de Plus Sàrl | 4.3 |
+| 2 | DOM-QUA-001 | Numéro IDE | ~~L'identifiant des entreprises de Plus Sàrl~~ 🟢 CH-645.4.101.228-7 ajouté le 20/02/2026 | 4.3 |
 | 3 | PRO-AUD-001 | Auditeur interne | Choix final : gérante ou externe. Si gérante : documenter la justification. Si externe : identifier et mandater. | 9.2 |
 | 4 | PRO-AUD-001 | Date du premier audit | Planifier la date de l'audit interne (avant l'audit SQS) | 9.2 |
 | 5 | FOR-RDR-001 | Première revue de direction | Réaliser et documenter la première revue de direction (avant l'audit SQS) | 9.3 |
@@ -115,7 +115,7 @@
 ### Phase 1 — Immédiat (février 2026)
 - [X] Signer la politique qualité (POL-QUA-001) — ✅ Signée le 19/02/2026
 - [ ] Compléter les diplômes/formations dans FOR-CMP-001
-- [ ] Ajouter le numéro IDE dans DOM-QUA-001
+- [X] Ajouter le numéro IDE dans DOM-QUA-001 — ✅ CH-645.4.101.228-7 ajouté le 20/02/2026
 - [ ] Contacter SQS pour un devis d'audit de certification
 - [ ] Commencer le suivi des indicateurs T1 (OBJ-QUA-001)
 
@@ -232,6 +232,7 @@ Maintenant que l'organisme de certification est choisi (SQS), il faut :
 | 19/02/2026 | UPDATE 6.1 | Risques enrichis (introduction, synthèse, opportunités) — CTX-QUA-001 section 5 |
 | 19/02/2026 | UPDATE 6.2 | Objectifs qualité enrichis (tolérances, conditions tarifaires, 24-48H) — OBJ-QUA-001 |
 | 19/02/2026 | Signature POL | Politique qualité signée le 19/02/2026 — point #10 résolu |
+| 20/02/2026 | Numéro IDE (#8) | CH-645.4.101.228-7 ajouté dans DOM-QUA-001 et CTX-QUA-001 |
 
 ---
 

@@ -490,7 +490,7 @@ Molds are developed and stored in China, at manufacturing partners. Molds are th
 | **Address** | Route de Montet 11, 1588 Cudrefin, Switzerland |
 | **Managing Director** | Roxane Wicky |
 | **Legal form** | Sarl (Limited liability company) |
-| **IDE No.** | 🔴 [TO FILL IN — not disclosed] |
+| **IDE No.** | CH-645.4.101.228-7 🟢 |
 | **Year of incorporation** | 2007 |
 | **Number of employees** | 1 (the managing director) |
 | **Shareholders** | Roxane Wicky, Olav Wicky, Capucine Wicky |

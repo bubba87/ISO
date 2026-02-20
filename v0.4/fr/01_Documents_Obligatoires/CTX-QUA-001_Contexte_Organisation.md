@@ -491,7 +491,7 @@ Les moules sont developpes et stockes en Chine, chez les partenaires de fabricat
 | **Adresse** | Route de Montet 11, 1588 Cudrefin, Suisse |
 | **Gerante** | Roxane Wicky |
 | **Forme juridique** | Sarl (Societe a responsabilite limitee) |
-| **N. IDE** | 🔴 [A REMPLIR — non divulgue] |
+| **N. IDE** | CH-645.4.101.228-7 🟢 |
 | **Annee de fondation** | 2007 |
 | **Nombre d'employes** | 1 (la gerante) |
 | **Associes** | Roxane Wicky, Olav Wicky, Capucine Wicky |

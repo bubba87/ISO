@@ -59,7 +59,7 @@
 | 5 | Pre-shipment QC | 🔴 Open | The partner will perform QC + send samples in parallel | 🟢 Resolved | Formalize in the quality agreement |
 | 6 | Customer satisfaction | 🔴 Open | ~10 active clients, will be informed | 🟢 Resolved | Send questionnaire FOR-SAT-001 to the 10 clients |
 | 7 | Roxane's qualifications/diplomas | 🔴 Open | Not disclosed at this time | 🔴 Missing | **To be completed before the audit** — the auditor will verify competencies |
-| 8 | IDE number | 🔴 Open | Not disclosed at this time | 🔴 Missing | To be added in DOM-QUA-001 when available |
+| 8 | IDE number | 🔴 Open | **CH-645.4.101.228-7** | 🟢 Resolved | Added in DOM-QUA-001 and CTX-QUA-001 on 20/02/2026 |
 | 9 | Backup method | 🔴 Open | Cloud, hosted by provider | 🟢 Resolved | Detail the frequency and provider if possible |
 | 10 | Certification body | 🔴 Open | **SQS** | 🟢 Resolved | Contact SQS for a quote and an audit date |
 | 11 | NC_2026_1001 follow-up | 🔵 In progress | Follow-up yes, photos no, cause not yet identified | 🔵 In progress | Obtain photos, identify the cause during the China trip |
@@ -75,7 +75,7 @@
 | # | Document | Field | Description | ISO Clause |
 |---|---|---|---|---|
 | 1 | FOR-CMP-001 | Diplomas and qualifications | Roxane Wicky's diplomas, initial training and experience must be documented | 7.2 |
-| 2 | DOM-QUA-001 | IDE number | The enterprise identification number of Plus Sarl | 4.3 |
+| 2 | DOM-QUA-001 | IDE number | ~~The enterprise identification number of Plus Sarl~~ 🟢 CH-645.4.101.228-7 added on 20/02/2026 | 4.3 |
 | 3 | PRO-AUD-001 | Internal auditor | Final choice: managing director or external. If managing director: document the justification. If external: identify and appoint. | 9.2 |
 | 4 | PRO-AUD-001 | First audit date | Schedule the internal audit date (before the SQS audit) | 9.2 |
 | 5 | FOR-RDR-001 | First management review | Conduct and document the first management review (before the SQS audit) | 9.3 |
@@ -115,7 +115,7 @@
 ### Phase 1 — Immediate (February 2026)
 - [X] Sign the quality policy (POL-QUA-001) — Signed on 19/02/2026
 - [ ] Complete diplomas/qualifications in FOR-CMP-001
-- [ ] Add the IDE number in DOM-QUA-001
+- [X] Add the IDE number in DOM-QUA-001 — CH-645.4.101.228-7 added on 20/02/2026
 - [ ] Contact SQS for a certification audit quote
 - [ ] Begin Q1 indicator monitoring (OBJ-QUA-001)
 
@@ -232,6 +232,7 @@ Now that the certification body has been chosen (SQS), the following steps are n
 | 19/02/2026 | UPDATE 6.1 | Risks enriched (introduction, synthesis, opportunities) — CTX-QUA-001 section 5 |
 | 19/02/2026 | UPDATE 6.2 | Quality objectives enriched (tolerances, pricing conditions, 24-48H) — OBJ-QUA-001 |
 | 19/02/2026 | POL Signature | Quality policy signed on 19/02/2026 — point #10 resolved |
+| 20/02/2026 | IDE number (#8) | CH-645.4.101.228-7 added in DOM-QUA-001 and CTX-QUA-001 |
 
 ---
 
