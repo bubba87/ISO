@@ -5,7 +5,7 @@
 | **Reference** | M1-DIR-001 |
 | **Version** | 0.4 |
 | **Date de creation** | 18/02/2026 |
-| **Date de revision** | 18/02/2026 |
+| **Date de revision** | 19/02/2026 |
 | **Redige par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 
@@ -62,6 +62,31 @@ La gerante s'engage a ce que :
 - Les exigences des clients soient determinees, comprises et satisfaites en permanence 🟢
 - Les risques et opportunites susceptibles d'affecter la conformite des produits et services soient determines et pris en compte (cf. CTX-QUA-001) 🟢
 - L'accroissement de la satisfaction des clients soit un objectif permanent (cf. OBJ-QUA-001) 🟢
+
+### 2.3 Engagement operationnel
+
+> **Source :** UPDATE 5.1 — Manuel de qualite, section 5.1 (19/02/2026) 🟢
+
+La direction s'implique activement dans la mise en oeuvre, le maintien et l'amelioration du SMQ.
+
+Elle assure l'integration des exigences du systeme qualite dans les activites operationnelles notamment par :
+
+- la supervision de la gestion des demandes clients et des offres commerciales
+- l'analyse des conditions tarifaires afin de garantir la coherence et la maitrise des engagements
+- le suivi des transports et le respect des delais annonces
+- la coordination des echanges entre les clients et les partenaires industriels en cas de problematique qualite
+- la mise en oeuvre d'actions correctives en cas de dysfonctionnement identifie
+
+**Gestion des situations de crise :**
+
+En cas de retard logistique, reevalue les partenaires et adapte les modalites de transport.
+En cas de retard de production, renforce le suivi et ajuste la planification.
+En cas de NC produit, veille a l'analyse des causes, actions correctives et suivi controles ulterieurs.
+
+**Resultats assures par cet engagement :**
+
+Par cet engagement la direction assure : orientation client, maitrise des risques, conformite des exigences applicables, amelioration continue du SMQ.
+Pilotage par realisation reguliere de la revue de direction.
 
 ---
 
@@ -308,6 +333,58 @@ A pour objectif d'assurer la conformite des produits livres aux exigences client
 - Prevention des erreurs
 - Renforcement de la conformite des produits livres
 
+### 5.6 Synthese des roles par fonction
+
+> **Source :** UPDATE 5.3 — Manuel de qualite, section 5.3 (19/02/2026) 🟢
+>
+> Cette synthese presente une vue fonctionnelle complementaire aux descriptions detaillees par processus (5.1 a 5.5). Elle offre une lecture directe par fonction plutot que par processus SMQ.
+
+**Direction :**
+
+- definition de la strategie et des orientations
+- etablissement et maintien de la politique qualite
+- definition et suivi des objectifs qualite
+- allocation des ressources necessaires
+- realisation de la revue de direction
+- conformite aux exigences ISO 9001
+- pilotage de l'amelioration continue
+
+**Commercial :**
+
+- analyse des besoins clients
+- etablissement des offres commerciales
+- validation des commandes
+- communication avec les clients
+- traitement des reclamations
+
+**Achats :**
+
+- selection et evaluation des partenaires industriels
+- transmission des exigences techniques
+- coordination de la production
+- respect des delais de fabrication
+- maitrise des exigences qualite applicables
+
+**Logistique :**
+
+- organisation du transport international
+- preparation et conformite des documents d'expedition
+- suivi des livraisons
+- information des clients en cas d'alea logistique
+
+**Qualite :**
+
+- gestion du SMQ
+- maitrise documentaire
+- gestion des non-conformites
+- mise en oeuvre des actions correctives
+- realisation des audits internes
+- suivi des indicateurs et des performances
+
+**Maitrise des conditions commerciales :**
+
+Les prix lies a la production et au transport sont communiques par les fournisseurs et transporteurs. La gerante adapte les conditions commerciales en consequence, tout en conservant la maitrise des decisions finales vis-a-vis des clients.
+
 ---
 
 ## 6. Attribution des responsabilites par processus — Traitement des demandes
@@ -480,6 +557,7 @@ Les donnees de sortie de la revue comprennent les decisions relatives a l'amelio
 | Version | Date | Modification | Auteur |
 |---|---|---|---|
 | 0.4 | 18/02/2026 | Creation initiale. Definition du leadership, de l'organigramme fonctionnel, de la matrice des responsabilites par processus, de l'attribution des responsabilites par type de demande, et des modalites de communication. Integration du chapitre 3/3.1 du manuel qualite : roles, responsabilites et autorites detailles par processus (M1, O1, O2, O3, O4). Forme juridique et support du SMQ. | Roxane Wicky |
+| 0.4 | 19/02/2026 | Integration UPDATEs 5.1, 5.3 (fusion) : ajout section 2.3 Engagement operationnel (gestion de crise, resultats), ajout section 5.6 Synthese des roles par fonction (Direction, Commercial, Achats, Logistique, Qualite, Conditions commerciales). | Roxane Wicky |
 
 ---
 

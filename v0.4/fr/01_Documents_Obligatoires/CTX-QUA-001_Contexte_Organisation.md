@@ -5,7 +5,7 @@
 | **Reference** | CTX-QUA-001 |
 | **Version** | 0.4 |
 | **Date de creation** | 10/02/2026 |
-| **Date de revision** | 18/02/2026 |
+| **Date de revision** | 19/02/2026 |
 | **Redige par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 
@@ -226,6 +226,10 @@ Client europeen --> Plus Sarl --> Partenaires chinois --> Plus Sarl --> Client e
 
 ## 2. Analyse du contexte (SWOT)
 
+> **Source :** UPDATE 4.1 — Manuel de qualite (19/02/2026) 🟢 *(intro et ajouts)* | v0.4 existant 🟢 *(base)*
+
+La comprehension du contexte de l'organisation constitue le fondement du systeme de management de la qualite, conformement a la clause 4.1 de la norme ISO 9001:2015. L'analyse des enjeux internes et externes permet d'identifier les facteurs susceptibles d'influer sur la capacite de Plus Sarl a atteindre les resultats vises et a satisfaire de maniere durable les exigences de ses clients.
+
 ### Enjeux externes (section 4.1 du contexte)
 
 - Dependance envers les partenaires industriels chinois pour l'outillage et la production
@@ -254,6 +258,8 @@ Client europeen --> Plus Sarl --> Partenaires chinois --> Plus Sarl --> Client e
 | Couts de production competitifs grace aux partenaires chinois 🟢 | Vulnerabilite en cas d'absence ou d'indisponibilite de la gerante 🟢 |
 | Haut niveau de maitrise documentaire, technique et organisationnelle 🟢 | Forte exigence de gestion des priorites et de planification 🟢 |
 | Capacite de communication fluide et continue (multilangue, multicanal) 🟢 | Certifications des partenaires chinois non confirmees 🔵 [A VERIFIER — certifications Whang incertaines] |
+| Communication directe et rapide avec les partenaires industriels en Chine 🟢 | Centralisation des connaissances 🟢 |
+| Organisation agile permettant une prise de decision rapide 🟢 | Dependance aux outils numeriques et aux communications a distance pour la coordination des activites 🟢 |
 
 #### Enjeux externes
 
@@ -265,6 +271,10 @@ Client europeen --> Plus Sarl --> Partenaires chinois --> Plus Sarl --> Client e
 | Certification ISO 9001 via SQS = acces a de nouveaux marches et renforcement de la confiance 🟢 | Perte d'un client important 🟢 |
 | Diversification possible des fournisseurs en Asie (Whang deja en place comme second partenaire) 🟢 | Variations des couts de production, transport et matieres premieres 🟢 |
 | Developpement de l'offre vis (screws) via le partenariat Whang 🟢 | Risques lies aux formalites douanieres (niveau considere comme maitrisable) 🟢 |
+| | Aleas lies au contexte geopolitique 🟢 |
+| | Dependance economique a un nombre restreint de clients 🟢 |
+
+Cette analyse SWOT est revue au minimum une fois par an lors de la revue de direction, ou a chaque changement significatif affectant le contexte interne ou externe de l'organisation. Les enjeux identifies alimentent directement la gestion des risques et opportunites (section 5) ainsi que la politique qualite de Plus Sarl.
 
 ---
 
@@ -272,14 +282,16 @@ Client europeen --> Plus Sarl --> Partenaires chinois --> Plus Sarl --> Client e
 
 | Partie interessee | Exigences / Attentes | Surveillance |
 |---|---|---|
-| **Clients europeens** (~10 clients actifs) | Produits conformes, respect des delais, communication reactive, protection de la confidentialite et de la propriete intellectuelle | Suivi des commandes, enquetes de satisfaction, traitement des reclamations |
-| **Partenaires de fabrication chinois** (Yuyao Mould Factory + **Whang**, Yuyao) 🟢 | Developpement d'outillage, fabrication de moules, production de pieces et vis. Doivent respecter les exigences techniques, la qualite et les delais | Evaluation fournisseur annuelle, suivi de production, communication reguliere |
-| **Transporteurs et prestataires logistiques internationaux** | Transport des marchandises Chine-Europe. Delais, integrite des produits et conformite documentaire sont critiques | Suivi des expeditions, evaluation de la fiabilite, performance de livraison |
-| **Services douaniers** | Conformite reglementaire en matiere d'import/export | Suivi des documents douaniers, veille reglementaire |
+| **Clients europeens** (~10 clients actifs) | Conformite technique des pieces, respect des delais, communication reactive, confidentialite et protection de la propriete intellectuelle 🟢 | Suivi des commandes, enquetes de satisfaction, traitement des reclamations |
+| **Partenaires de fabrication chinois** (Yuyao Mould Factory + **Whang**, Yuyao) 🟢 | Transmission claire des exigences et coordination efficace. Developpement d'outillage, fabrication de moules, production de pieces et vis. Doivent respecter les exigences techniques, la qualite et les delais 🟢 | Evaluation fournisseur annuelle, suivi de production, communication reguliere |
+| **Transporteurs et prestataires logistiques internationaux** | Fiabilite des delais, integrite des marchandises et conformite des documents d'expedition 🟢 | Suivi des expeditions, evaluation de la fiabilite, performance de livraison |
+| **Autorites douanieres** | Conformite reglementaire en matiere d'import/export ; respect des exigences d'importation applicables 🟢 | Suivi des documents douaniers, veille reglementaire |
 | **Fiduciaire : Paradiso** 🟢 | Conformite administrative, comptable et fiscale | Suivi des obligations legales, bilans periodiques |
 | **Associes** (Roxane, Olav, Capucine Wicky) | Rentabilite, perennite de l'entreprise | Resultats financiers, revue de direction |
 | **Organisme de certification : SQS** 🟢 | Conformite a ISO 9001:2015 | Audits, revues de direction |
 | 🟡 [RECOMMANDE — identifier d'autres parties interessees eventuelles, ex. assurances, banque] | 🟡 [RECOMMANDE] | 🟡 [RECOMMANDE] |
+
+Les besoins et attentes de ces parties interessees sont pris en compte dans la gestion des processus, l'analyse des risques et opportunites ainsi que lors de la revue de direction.
 
 ---
 
@@ -330,43 +342,103 @@ Client europeen --> Plus Sarl --> Partenaires chinois --> Plus Sarl --> Client e
 
 ## 5. Analyse des risques et opportunites
 
+### Introduction - Actions face aux risques et opportunites
+
+> **Source :** UPDATE 6.1 — Actions face aux risques et opportunites (19/02/2026) 🟢
+
+Dans le cadre de la planification de son systeme de management de la qualite, Plus Sarl identifie et analyse les risques et opportunites susceptibles d'influencer sa capacite a fournir des produits et services conformes aux exigences des clients et a ameliorer leur satisfaction.
+
+A partir de l'analyse du contexte et du SWOT, Plus Sarl identifie les risques et opportunites susceptibles d'influencer :
+
+- la conformite des produits
+- le respect des delais
+- la satisfaction des clients
+- la performance du systeme de management de la qualite
+
+Des actions proportionnees sont definies afin de :
+
+- prevenir ou reduire les risques identifies
+- exploiter les opportunites d'amelioration
+- garantir l'efficacite des processus et la continuite des activites
+
+Ces actions sont integrees dans les processus operationnels, notamment :
+
+- la selection et le suivi des partenaires industriels
+- la planification des transports et le suivi logistique
+- la gestion des non-conformites et des actions correctives
+- la definition des objectifs qualite et des actions d'amelioration
+
+L'efficacite des actions mises en oeuvre est evaluee lors :
+
+- du suivi des indicateurs
+- des audits internes
+- de la revue de direction
+
+Ces risques et opportunites sont suivis regulierement et integres dans l'amelioration continue du systeme de management de la qualite conformement a la norme ISO 9001:2015.
+
 ### 5.1 Risques identifies (section 6.1)
 
 #### Processus Commercial (relation client)
 
 | # | Risque / Opportunite | Type | Probabilite | Impact | Niveau | Action prevue |
 |---|---|---|---|---|---|---|
-| R1 | Perte d'un client important | Risque | Faible | Eleve | **Moyen** | Maintenir un haut niveau de confiance et de service pour fideliser les clients ; diversification du portefeuille clients |
-| O1 | Amelioration continue de la satisfaction client | Opportunite | Elevee | Eleve | **Eleve** | Suivi proactif, communication reactive, traitement rapide des demandes |
+| R1 | Perte d'un client important | Risque | Faible | Eleve | **Moyen** | Maintien d'une relation de confiance et d'un haut niveau de service afin de fideliser les clients ; diversification du portefeuille clients |
+| O1 | Amelioration continue de la satisfaction client | Opportunite | Elevee | Eleve | **Eleve** | Suivi proactif, communication reactive, traitement rapide des demandes ; integration systematique dans les objectifs qualite |
 | O2 | Certification ISO 9001 via SQS = acces a de nouveaux marches | Opportunite | Elevee | Eleve | **Eleve** | Obtenir et maintenir la certification, communiquer aupres des prospects |
 
 #### Processus Achats / Sous-traitance (partenaires chinois)
 
 | # | Risque / Opportunite | Type | Probabilite | Impact | Niveau | Action prevue |
 |---|---|---|---|---|---|---|
-| R2 | Defaillance ou indisponibilite d'un partenaire/fournisseur chinois | Risque | Faible | Tres eleve | **Eleve** | Communication etroite avec les partenaires, suivi de production renforce ; disponibilite de Whang comme second partenaire |
-| R3 | Defauts qualite majeurs sur des produits deja fabriques | Risque | Moyenne | Eleve | **Eleve** | Traitement rapide des non-conformites, remplacement des pieces defectueuses, controles renforces pour les productions suivantes |
-| O3 | Renforcement de la qualite de production | Opportunite | Elevee | Eleve | **Eleve** | Cahiers des charges precis, controles renforces, retour d'experience systematique |
+| R2 | Defaillance ou indisponibilite d'un partenaire/fournisseur chinois | Risque | Faible | Tres eleve | **Eleve** | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; disponibilite de Whang comme second partenaire |
+| R3 | Defauts qualite majeurs sur des produits deja fabriques | Risque | Moyenne | Eleve | **Eleve** | Traitement rapide des non-conformites, remplacement des pieces defectueuses et mise en place de controles renforces lors des productions suivantes |
+| O3 | Renforcement de la qualite de production | Opportunite | Elevee | Eleve | **Eleve** | Cahiers des charges precis, controles renforces, retour d'experience systematique ; selection et suivi rigoureux des partenaires industriels |
 
 #### Processus Logistique / Livraison
 
 | # | Risque / Opportunite | Type | Probabilite | Impact | Niveau | Action prevue |
 |---|---|---|---|---|---|---|
-| R4 | Retards significatifs de transport international | Risque | Moyenne | Eleve | **Eleve** | Selection et reevaluation des transporteurs sur la base de leur fiabilite ; marges de securite dans les delais |
-| R5 | Risques lies aux formalites douanieres | Risque | Faible | Moyen | **Faible** | Niveau considere comme maitrisable ; suivi rigoureux de la conformite documentaire |
-| O4 | Optimisation des delais de livraison | Opportunite | Moyenne | Eleve | **Eleve** | Amelioration continue du suivi logistique, evaluation reguliere des transporteurs |
+| R4 | Retards significatifs de transport international | Risque | Moyenne | Eleve | **Eleve** | Choix et reevaluation des transporteurs en fonction de leur fiabilite et de leurs performances ; marges de securite dans les delais ; planification des transports et suivi logistique renforce |
+| R5 | Risques lies aux formalites douanieres | Risque | Faible | Moyen | **Faible** | Niveau considere comme maitrisable grace a la recherche de solutions adaptees avec les acteurs concernes ; suivi rigoureux de la conformite documentaire |
+| O4 | Optimisation des delais de livraison | Opportunite | Moyenne | Eleve | **Eleve** | Amelioration continue du suivi logistique, evaluation reguliere des transporteurs, planification optimisee |
 
-### 5.2 Synthese des actions de mitigation
+### 5.2 Synthese des principaux risques et actions de maitrise
+
+> **Source :** UPDATE 6.1 — Actions face aux risques et opportunites (19/02/2026) 🟢
+
+Les principaux risques identifies sont :
+
+- la defaillance ou l'indisponibilite d'un fournisseur ou partenaire industriel en Chine
+- des retards significatifs lies au transport international
+- l'apparition de defauts qualite majeurs sur produits deja fabriques
+- la perte d'un client important pour l'activite de l'entreprise
+
+Le risque lie aux formalites douanieres est egalement pris en compte, tout en etant considere comme maitrisable grace a la recherche de solutions adaptees avec les acteurs concernes.
+
+Afin de maitriser ces risques, Plus Sarl met en oeuvre notamment les actions suivantes :
 
 | Risque | Actions cles |
 |---|---|
-| Defaillance partenaire chinois | Communication etroite, suivi de production renforce, Whang disponible comme second partenaire |
-| Retards de transport international | Selection et reevaluation des transporteurs sur la base de leur fiabilite |
-| Defauts qualite majeurs | Traitement rapide des NC, remplacement des pieces defectueuses, controles renforces pour les productions suivantes |
-| Perte d'un client important | Maintien d'un haut niveau de confiance et de service pour fideliser les clients |
-| Formalites douanieres | Niveau considere comme maitrisable ; suivi documentaire rigoureux |
+| Defaillance partenaire chinois | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; Whang disponible comme second partenaire |
+| Retards de transport international | Choix et reevaluation des transporteurs en fonction de leur fiabilite et de leurs performances ; marges de securite dans les delais |
+| Defauts qualite majeurs | Traitement rapide des non-conformites, remplacement des pieces defectueuses et mise en place de controles renforces lors des productions suivantes |
+| Perte d'un client important | Maintien d'une relation de confiance et d'un haut niveau de service afin de fideliser les clients ; diversification du portefeuille clients |
+| Formalites douanieres | Niveau considere comme maitrisable ; suivi documentaire rigoureux ; recherche de solutions adaptees avec les acteurs concernes |
 
-### 5.3 Grille d'evaluation
+### 5.3 Opportunites d'amelioration
+
+> **Source :** UPDATE 6.1 — Actions face aux risques et opportunites (19/02/2026) 🟢
+
+Plus Sarl identifie egalement des opportunites d'amelioration, notamment :
+
+- l'optimisation des delais
+- le renforcement de la qualite des productions
+- l'amelioration continue de la satisfaction client
+- l'acces a de nouveaux marches grace a la certification ISO 9001
+
+Ces opportunites sont exploitees par les actions d'amelioration integrees dans les processus operationnels et suivies lors des audits internes et revues de direction.
+
+### 5.4 Grille d'evaluation
 
 **Probabilite :** Faible (1) / Moyenne (2) / Elevee (3)
 
@@ -440,6 +512,7 @@ Ce document doit etre revu au minimum **1 fois par an** lors de la revue de dire
 | 0.2 | 10/02/2026 | Correction canton : Cudrefin est dans le canton de Fribourg (et non Vaud) | Roxane Wicky |
 | 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration des chapitres 2.1 (Activites et organisation de la production externalisee), 2.2 (Relation client et comprehension des besoins), 2.2.1 (Analyse et validation des demandes clients) et 3/3.1 (Forme juridique, responsabilites de la gerante, support du SMQ) du manuel qualite. Ajout des 5 processus formalises (01-04 + S1), de la revue de commande et de la reference a M1-DIR-001. | Roxane Wicky |
+| 0.4 | 19/02/2026 | Integration UPDATEs 4.1, 4.2, 6.1 (fusion) : enrichissement SWOT (ajout Forces/Faiblesses/Menaces UPDATE 4.1), enrichissement parties interessees (descriptions UPDATE 4.2), enrichissement section risques (introduction, synthese, opportunites UPDATE 6.1). | Roxane Wicky |
 
 ---
 
