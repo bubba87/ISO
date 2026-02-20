@@ -5,7 +5,7 @@
 | **Reference** | CRT-QUA-001 |
 | **Version** | 0.4 |
 | **Creation date** | 10/02/2026 |
-| **Revision date** | 18/02/2026 |
+| **Revision date** | 20/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -64,8 +64,8 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. ð
 
 | Code | Process | Process owner | Purpose | Associated document(s) |
 |---|---|---|---|---|
-| M1 | Leadership and strategy | Roxane Wicky (Managing Director) | Define the quality policy, strategic objectives, assign responsibilities and guide the company | **M1-DIR-001**, POL-QUA-001 ðŸŸ¢ |
-| M2 | Continual improvement | Roxane Wicky (Managing Director) | Drive QMS improvement (nonconformities, corrective actions, indicators) | PRO-NCF-001, PRO-ACR-001 |
+| M1 | Leadership and strategy | Roxane Wicky (Managing Director) | Define the quality policy, strategic objectives, assign responsibilities, guide the company and **plan changes** (clause 6.3 â€” impact analysis, validation, controlled implementation) | **M1-DIR-001**, POL-QUA-001, CTX-QUA-001 (section 6) ðŸŸ¢ |
+| M2 | Continual improvement | Roxane Wicky (Managing Director) | Drive QMS improvement (nonconformities, corrective actions, indicators). **Review of change effectiveness** during management review | PRO-NCF-001, PRO-ACR-001 |
 | M3 | Management review | Roxane Wicky (Managing Director) | Evaluate QMS performance and decide on improvement actions | FOR-RDR-001 |
 
 ### Operational processes
@@ -112,6 +112,8 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. ð
     - References, quantities, deadlines: O1 Commercial
     - Technical and logistical feasibility: O2 Purchasing & Subcontracting
     - Applicable quality requirements: O4 Quality control
+    - If change: impact analysis by process (clause 6.3)
+      and client validation before implementation
             |
             v
  3. CONSULTATION OF INDUSTRIAL PARTNERS (O1/O2/O3)
@@ -172,6 +174,8 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. ð
 ```
 
 > **v0.4:** The flow now integrates the **order review** (step 2) formalised in accordance with section 2.2.1 of the quality manual, with assignment of responsibilities by process according to M1-DIR-001. Any subsequent modification requested by the client is subject to analysis, partner validation if necessary, client confirmation by email and a FileMaker update.
+>
+> **v0.4 (UPDATE 6.3):** Step 2 now integrates **planning of changes** (clause 6.3 ISO 9001). Any change likely to impact conformity, delivery times, commercial conditions or organization is subject to an impact analysis by process (O1-O4), client information/validation and controlled implementation. Changes are reviewed during the management review (M3). See CTX-QUA-001 section 6.
 
 ---
 
@@ -226,3 +230,4 @@ Data is backed up in the **cloud, hosted at the provider**. ðŸŸ¢
 | 0.2 | 10/02/2026 | Update of quality objectives by process with confirmed targets: 24h response, max 3 NC/client/year, 95% on-time deliveries, absence of major complaints | Roxane Wicky |
 | 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of sections 2.1, 2.2, 2.2.1 of the quality manual. Addition of Associated Documents column. Revision of the main flow with order review (step 2), partner consultation (step 3), reference to M1-DIR-001. Addition of step 12 (traceability and improvement, S1). Addition of new documents PRO-LOG-001, FIC-PRO-002, M1-DIR-001. | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration UPDATE 6.3: enrichment of M1 (planning of changes, clause 6.3), enrichment of M2 (review of change effectiveness), addition of clause 6.3 impact analysis in the main flow (step 2). | Roxane Wicky |

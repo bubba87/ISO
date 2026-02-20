@@ -30,6 +30,7 @@
 | U9 | 5.3 | Roles and responsibilities by function | Functional summary (Management, Sales, Purchasing, Logistics, Quality) | M1-DIR-001 (section 5.6) |
 | U10 | 6.1 | Actions to address risks and opportunities | Introduction, risk synthesis, improvement opportunities | CTX-QUA-001 (section 5) |
 | U11 | 6.2 | Quality objectives with precise indicators | Delivery tolerances, pricing conditions, reactivity 24-48H | OBJ-QUA-001 |
+| U12 | 6.3 | Planning of changes | Types of changes, impact analysis by process, controlled implementation, review | CTX-QUA-001 (section 6), CRT-QUA-001 (M1, M2, flow) |
 
 ### New Documents Created in v0.4
 
@@ -233,6 +234,7 @@ Now that the certification body has been chosen (SQS), the following steps are n
 | 19/02/2026 | UPDATE 6.2 | Quality objectives enriched (tolerances, pricing conditions, 24-48H) — OBJ-QUA-001 |
 | 19/02/2026 | POL Signature | Quality policy signed on 19/02/2026 — point #10 resolved |
 | 20/02/2026 | IDE number (#8) | CH-645.4.101.228-7 added in DOM-QUA-001 and CTX-QUA-001 |
+| 20/02/2026 | UPDATE 6.3 | Planning of changes — CTX-QUA-001 section 6 + CRT-QUA-001 (M1, M2, flow) |
 
 ---
 

@@ -30,6 +30,7 @@
 | U9 | 5.3 | Rôles et responsabilités par fonction | Synthèse fonctionnelle (Direction, Commercial, Achats, Logistique, Qualité) | M1-DIR-001 (section 5.6) |
 | U10 | 6.1 | Actions face aux risques et opportunités | Introduction, synthèse risques, opportunités d'amélioration | CTX-QUA-001 (section 5) |
 | U11 | 6.2 | Objectifs qualité avec indicateurs précis | Tolérances délais, conditions tarifaires, réactivité 24-48H | OBJ-QUA-001 |
+| U12 | 6.3 | Planification des modifications | Types de modifications, analyse d'impact par processus, mise en oeuvre controlee, revue | CTX-QUA-001 (section 6), CRT-QUA-001 (M1, M2, flux) |
 
 ### Nouveaux documents créés en v0.4
 
@@ -233,6 +234,7 @@ Maintenant que l'organisme de certification est choisi (SQS), il faut :
 | 19/02/2026 | UPDATE 6.2 | Objectifs qualité enrichis (tolérances, conditions tarifaires, 24-48H) — OBJ-QUA-001 |
 | 19/02/2026 | Signature POL | Politique qualité signée le 19/02/2026 — point #10 résolu |
 | 20/02/2026 | Numéro IDE (#8) | CH-645.4.101.228-7 ajouté dans DOM-QUA-001 et CTX-QUA-001 |
+| 20/02/2026 | UPDATE 6.3 | Planification des modifications — CTX-QUA-001 section 6 + CRT-QUA-001 (M1, M2, flux) |
 
 ---
 

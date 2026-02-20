@@ -5,7 +5,7 @@
 | **Reference** | CTX-QUA-001 |
 | **Version** | 0.4 |
 | **Date de creation** | 10/02/2026 |
-| **Date de revision** | 19/02/2026 |
+| **Date de revision** | 20/02/2026 |
 | **Redige par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 
@@ -450,7 +450,59 @@ These opportunities are exploited through improvement actions integrated into op
 
 ---
 
-## 6. Applicable Legal and Regulatory Requirements
+## 6. Planning of Changes (clause 6.3)
+
+> **Source:** UPDATE 6.3 — Planning of changes (20/02/2026) 🟢
+
+Plus Sarl ensures that any change likely to have an impact on:
+- product conformity
+- production or delivery deadlines
+- commercial conditions
+- process organization
+
+is analyzed, planned and controlled before its implementation.
+
+### 6.1 Types of Changes Concerned
+
+Changes may relate in particular to:
+- introduction of a new industrial partner
+- change of supplier or carrier
+- product or tooling modification
+- evolution of logistics arrangements
+- internal organizational evolution
+
+### 6.2 Impact Analysis by Process
+
+Before implementation, the change is evaluated according to the processes concerned:
+
+| Process | Impact analysis |
+|---|---|
+| **O1 — Sales** | Analysis of impact on customer requirements and customer validation if necessary |
+| **O2 — Purchasing & industrial coordination** | Analysis of technical feasibility and production impacts |
+| **O3 — Logistics** | Analysis of deadline impacts and shipping conditions |
+| **O4 — Quality** | Analysis of risks on product conformity and definition of adapted controls if necessary |
+
+### 6.3 Implementation and Follow-up
+
+Depending on the nature of the planned change, Plus Sarl:
+- evaluates the potential consequences on parts conformity, delivery deadlines and commercial conditions
+- systematically informs the concerned customer
+- requests customer validation when the modification concerns a supplier, a production or a specific part
+- carries out, when relevant, trials or a first controlled implementation, in particular for transport-related changes
+- updates the applicable documents and information
+- integrates identified risks into the monitoring of the concerned processes
+
+### 6.4 Review and Improvement
+
+Changes are reviewed during the management review to evaluate their effectiveness and their impact on the quality management system.
+
+The Managing Director retains responsibility for the final decision and ensures the integration of changes into the continual improvement of the organization in accordance with ISO 9001:2015 standard.
+
+These provisions ensure that changes are implemented in a controlled manner, transparent for the customer and compliant with QMS requirements.
+
+---
+
+## 7. Applicable Legal and Regulatory Requirements
 
 | Domain | Requirement | Reference | Monitoring |
 |---|---|---|---|
@@ -467,7 +519,7 @@ These opportunities are exploited through improvement actions integrated into op
 
 ---
 
-## 7. Tooling Management (molds)
+## 8. Tooling Management (molds)
 
 Molds are developed and stored in China, at manufacturing partners. Molds are the **property of customers**. A **mold inventory exists**. 🟢
 
@@ -480,7 +532,7 @@ Molds are developed and stored in China, at manufacturing partners. Molds are th
 
 ---
 
-## 8. Additional Information
+## 9. Additional Information
 
 ### Company Contact Details
 
@@ -512,7 +564,8 @@ This document must be reviewed at least **once a year** during the management re
 | 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of chapters 2.1 (Activities and organization of outsourced production), 2.2 (Customer relationship and understanding of needs), 2.2.1 (Analysis and validation of customer requests) and 3/3.1 (Legal form, managing director's responsibilities, QMS support) from the quality manual. Addition of 5 formalized processes (01-04 + S1), order review and reference to M1-DIR-001. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Integration of UPDATEs 4.1, 4.2, 6.1 (merge): SWOT enrichment (addition of Strengths/Weaknesses/Threats UPDATE 4.1), interested parties enrichment (descriptions UPDATE 4.2), risk section enrichment (introduction, summary, opportunities UPDATE 6.1). | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration of UPDATE 6.3: addition of section 6 Planning of Changes (types, impact analysis by process, implementation, review). Addition of IDE number. Renumbering of sections 7-9. | Roxane Wicky |
 
 ---
 
-*Document prepared in accordance with the requirements of ISO 9001:2015 standard, clauses 4.1, 4.2, 4.3 and 6.1.*
+*Document prepared in accordance with the requirements of ISO 9001:2015 standard, clauses 4.1, 4.2, 4.3, 6.1 and 6.3.*

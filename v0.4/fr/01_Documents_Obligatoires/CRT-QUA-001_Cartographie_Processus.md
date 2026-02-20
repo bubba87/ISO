@@ -5,7 +5,7 @@
 | **Reference** | CRT-QUA-001 |
 | **Version** | 0.4 |
 | **Date de creation** | 10/02/2026 |
-| **Date de revision** | 18/02/2026 |
+| **Date de revision** | 20/02/2026 |
 | **Redige par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 
@@ -64,8 +64,8 @@ La certification ISO 9001:2015 est visee aupres de l'organisme **SQS**. 🟢
 
 | Code | Processus | Pilote | Objectif | Document(s) associe(s) |
 |---|---|---|---|---|
-| M1 | Leadership et strategie | Roxane Wicky (Gerante) | Definir la politique qualite, les objectifs strategiques, attribuer les responsabilites et orienter l'entreprise | **M1-DIR-001**, POL-QUA-001 🟢 |
-| M2 | Amelioration continue | Roxane Wicky (Gerante) | Piloter l'amelioration du SMQ (non-conformites, actions correctives, indicateurs) | PRO-NCF-001, PRO-ACR-001 |
+| M1 | Leadership et strategie | Roxane Wicky (Gerante) | Definir la politique qualite, les objectifs strategiques, attribuer les responsabilites, orienter l'entreprise et **planifier les modifications** (clause 6.3 — analyse d'impact, validation, mise en oeuvre controlee) | **M1-DIR-001**, POL-QUA-001, CTX-QUA-001 (section 6) 🟢 |
+| M2 | Amelioration continue | Roxane Wicky (Gerante) | Piloter l'amelioration du SMQ (non-conformites, actions correctives, indicateurs). **Revue de l'efficacite des modifications** lors de la revue de direction | PRO-NCF-001, PRO-ACR-001 |
 | M3 | Revue de direction | Roxane Wicky (Gerante) | Evaluer les performances du SMQ et decider des actions d'amelioration | FOR-RDR-001 |
 
 ### Processus operationnels
@@ -112,6 +112,8 @@ La certification ISO 9001:2015 est visee aupres de l'organisme **SQS**. 🟢
     - References, quantites, delais : O1 Commercial
     - Faisabilite technique et logistique : O2 Achats & Sous-traitance
     - Exigences qualite applicables : O4 Controle qualite
+    - Si modification : analyse d'impact par processus (clause 6.3)
+      et validation client avant mise en oeuvre
             |
             v
  3. CONSULTATION PARTENAIRES INDUSTRIELS (O1/O2/O3)
@@ -172,6 +174,8 @@ La certification ISO 9001:2015 est visee aupres de l'organisme **SQS**. 🟢
 ```
 
 > **v0.4 :** Le flux integre desormais la **revue de commande** (etape 2) formalisee selon le chapitre 2.2.1 du manuel qualite, avec attribution des responsabilites par processus selon M1-DIR-001. Toute modification ulterieure demandee par le client fait l'objet d'une analyse, d'une validation partenaire si necessaire, d'une confirmation client par e-mail et d'une mise a jour FileMaker.
+>
+> **v0.4 (UPDATE 6.3) :** L'etape 2 integre desormais la **planification des modifications** (clause 6.3 ISO 9001). Toute modification susceptible d'impacter la conformite, les delais, les conditions commerciales ou l'organisation fait l'objet d'une analyse d'impact par processus (O1-O4), d'une information/validation client et d'une mise en oeuvre controlee. Les modifications sont revues en revue de direction (M3). Voir CTX-QUA-001 section 6.
 
 ---
 
@@ -226,3 +230,4 @@ Les donnees sont sauvegardees dans le **cloud, hebergement chez le fournisseur**
 | 0.2 | 10/02/2026 | Mise a jour des objectifs qualite par processus avec cibles confirmees : 24h reponse, max 3 NC/client/an, 95% livraisons dans les delais, absence de reclamation majeure | Roxane Wicky |
 | 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration des chapitres 2.1, 2.2, 2.2.1 du manuel qualite. Ajout de la colonne Documents associes. Revision du flux principal avec revue de commande (etape 2), consultation partenaires (etape 3), reference a M1-DIR-001. Ajout de l'etape 12 (tracabilite et amelioration, S1). Ajout des nouveaux documents PRO-LOG-001, FIC-PRO-002, M1-DIR-001. | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration UPDATE 6.3 : enrichissement M1 (planification des modifications, clause 6.3), enrichissement M2 (revue efficacite modifications), ajout analyse d'impact clause 6.3 dans le flux principal (etape 2). | Roxane Wicky |

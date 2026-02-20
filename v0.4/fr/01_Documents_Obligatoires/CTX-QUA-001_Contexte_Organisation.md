@@ -451,7 +451,59 @@ Ces opportunites sont exploitees par les actions d'amelioration integrees dans l
 
 ---
 
-## 6. Exigences legales et reglementaires applicables
+## 6. Planification des modifications (clause 6.3)
+
+> **Source :** UPDATE 6.3 — Planification des modifications (20/02/2026) 🟢
+
+Plus Sarl veille a ce que toute modification susceptible d'avoir un impact sur :
+- la conformite des produits
+- les delais de production ou de livraison
+- les conditions commerciales
+- l'organisation des processus
+
+soit analysee, planifiee et maitrisee avant sa mise en oeuvre.
+
+### 6.1 Types de modifications concernees
+
+Les modifications peuvent concerner notamment :
+- l'introduction d'un nouveau partenaire industriel
+- un changement de fournisseur ou de transporteur
+- une modification de produit ou d'outillage
+- une evolution des modalites logistiques
+- une evolution organisationnelle interne
+
+### 6.2 Analyse des impacts par processus
+
+Avant mise en oeuvre, le changement est evalue selon les processus concernes :
+
+| Processus | Analyse d'impact |
+|---|---|
+| **O1 — Commercial** | Analyse de l'impact sur les exigences clients et validation client si necessaire |
+| **O2 — Achats & coordination industrielle** | Analyse de la faisabilite technique et des impacts production |
+| **O3 — Logistique** | Analyse des impacts delais et conditions d'expedition |
+| **O4 — Qualite** | Analyse des risques sur la conformite produit et definition de controles adaptes si necessaire |
+
+### 6.3 Mise en oeuvre et suivi
+
+Selon la nature du changement envisage, Plus Sarl :
+- evalue les consequences potentielles sur la conformite des pieces, les delais de livraison et les conditions commerciales
+- informe systematiquement le client concerne
+- sollicite la validation du client lorsque la modification concerne un fournisseur, une production ou une piece specifique
+- realise, lorsque cela est pertinent, des essais ou une premiere mise en oeuvre controlee, notamment pour les changements lies au transport
+- met a jour les documents et informations applicables
+- integre les risques identifies dans le suivi des processus concernes
+
+### 6.4 Revue et amelioration
+
+Les modifications sont revues lors de la revue de direction afin d'evaluer leur efficacite et leur impact sur le systeme de management de la qualite.
+
+La gerante conserve la responsabilite de la decision finale et veille a l'integration des changements dans l'amelioration continue de l'organisation conformement a la norme ISO 9001:2015.
+
+Ces dispositions permettent d'assurer que les modifications sont mises en oeuvre de maniere maitrisee, transparente pour le client et conforme aux exigences du SMQ.
+
+---
+
+## 7. Exigences legales et reglementaires applicables
 
 | Domaine | Exigence | Reference | Surveillance |
 |---|---|---|---|
@@ -468,7 +520,7 @@ Ces opportunites sont exploitees par les actions d'amelioration integrees dans l
 
 ---
 
-## 7. Gestion des outillages (moules)
+## 8. Gestion des outillages (moules)
 
 Les moules sont developpes et stockes en Chine, chez les partenaires de fabrication. Les moules sont la **propriete des clients**. Un **inventaire des moules existe**. 🟢
 
@@ -481,7 +533,7 @@ Les moules sont developpes et stockes en Chine, chez les partenaires de fabricat
 
 ---
 
-## 8. Informations complementaires
+## 9. Informations complementaires
 
 ### Coordonnees de l'entreprise
 
@@ -513,7 +565,8 @@ Ce document doit etre revu au minimum **1 fois par an** lors de la revue de dire
 | 0.3 | 12/02/2026 | Integration des reponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du systeme de legende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration des chapitres 2.1 (Activites et organisation de la production externalisee), 2.2 (Relation client et comprehension des besoins), 2.2.1 (Analyse et validation des demandes clients) et 3/3.1 (Forme juridique, responsabilites de la gerante, support du SMQ) du manuel qualite. Ajout des 5 processus formalises (01-04 + S1), de la revue de commande et de la reference a M1-DIR-001. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Integration UPDATEs 4.1, 4.2, 6.1 (fusion) : enrichissement SWOT (ajout Forces/Faiblesses/Menaces UPDATE 4.1), enrichissement parties interessees (descriptions UPDATE 4.2), enrichissement section risques (introduction, synthese, opportunites UPDATE 6.1). | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration UPDATE 6.3 : ajout section 6 Planification des modifications (types, analyse d'impact par processus, mise en oeuvre, revue). Ajout numero IDE. Renumerotation sections 7-9. | Roxane Wicky |
 
 ---
 
-*Document redige conformement aux exigences de la norme ISO 9001:2015, clauses 4.1, 4.2, 4.3 et 6.1.*
+*Document redige conformement aux exigences de la norme ISO 9001:2015, clauses 4.1, 4.2, 4.3, 6.1 et 6.3.*
