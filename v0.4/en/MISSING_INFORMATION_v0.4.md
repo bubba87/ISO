@@ -23,6 +23,13 @@
 | U2 | 2.2 | Customer relationship and understanding of needs | Customer strategy, communication, adaptation | CTX-QUA-001 (section 1.2) |
 | U3 | 2.2.1 | Analysis and validation of customer requests | Formalised order review, reference M1 Leadership | CTX-QUA-001 (section 1.3), CRT-QUA-001 (main flow) |
 | U4 | 3 / 3.1 | Organisation, roles, responsibilities and authorities | Legal form, Managing Director responsibilities, QMS support, detailed roles by process (M1, O1-O4) | CTX-QUA-001 (sections 1.4, 1.5), M1-DIR-001 (section 5) |
+| U5 | 4.1 | Internal/external issues + SWOT | Enrichment of SWOT matrix (Strengths, Weaknesses, Threats added) | CTX-QUA-001 (section 2) |
+| U6 | 4.2 | Relevant interested parties | Enrichment of interested parties descriptions | CTX-QUA-001 (section 3) |
+| U7 | 5.1 | Leadership and operational commitment | Operational commitment, crisis management, results | M1-DIR-001 (section 2.3) |
+| U8 | 5.2 | Official signed quality policy | Priorities, updated commitments, framework, dated signature | POL-QUA-001 |
+| U9 | 5.3 | Roles and responsibilities by function | Functional summary (Management, Sales, Purchasing, Logistics, Quality) | M1-DIR-001 (section 5.6) |
+| U10 | 6.1 | Actions to address risks and opportunities | Introduction, risk synthesis, improvement opportunities | CTX-QUA-001 (section 5) |
+| U11 | 6.2 | Quality objectives with precise indicators | Delivery tolerances, pricing conditions, reactivity 24-48H | OBJ-QUA-001 |
 
 ### New Documents Created in v0.4
 
@@ -76,7 +83,7 @@
 | 7 | FOR-EVF-001 | First Yuyao evaluation | Conduct the first formal evaluation of Yuyao Mould Factory | 8.4 |
 | 8 | FOR-EVF-001 | First Whang evaluation | Conduct the first formal evaluation of Whang | 8.4 |
 | 9 | FOR-SAT-001 | Satisfaction questionnaire | Send the questionnaire to the ~10 active clients | 9.1.2 |
-| 10 | POL-QUA-001 | Signature | Sign the quality policy | 5.2 |
+| 10 | POL-QUA-001 | Signature | ~~Sign the quality policy~~ 🟢 Signed on 19/02/2026 (UPDATE 5.2) | 5.2 |
 | 11 | PRO-ACH-001 | Quality agreement | Prepare and sign the quality agreement with Yuyao and Whang | 8.4 |
 
 ### 🟡 MEDIUM PRIORITY — Recommended before the audit
@@ -106,7 +113,7 @@
 ## Recommended Action Plan for SQS Certification
 
 ### Phase 1 — Immediate (February 2026)
-- [ ] Sign the quality policy (POL-QUA-001)
+- [X] Sign the quality policy (POL-QUA-001) — Signed on 19/02/2026
 - [ ] Complete diplomas/qualifications in FOR-CMP-001
 - [ ] Add the IDE number in DOM-QUA-001
 - [ ] Contact SQS for a certification audit quote
@@ -217,6 +224,14 @@ Now that the certification body has been chosen (SQS), the following steps are n
 | 18/02/2026 | UPDATE 2.2.1 | Analysis and validation of customer requests — order review, M1 Leadership |
 | 18/02/2026 | New documents | M1-DIR-001, PRO-LOG-001, FIC-PRO-002 created |
 | 18/02/2026 | UPDATE 3 / 3.1 | Organisation, roles, responsibilities and authorities detailed by process (M1, O1-O4) |
+| 19/02/2026 | UPDATE 4.1 | SWOT enrichment (Strengths, Weaknesses, Threats added) — CTX-QUA-001 |
+| 19/02/2026 | UPDATE 4.2 | Enrichment of interested parties descriptions — CTX-QUA-001 |
+| 19/02/2026 | UPDATE 5.1 | Operational commitment added — M1-DIR-001 section 2.3 |
+| 19/02/2026 | UPDATE 5.2 | Quality policy enriched and signed — POL-QUA-001 |
+| 19/02/2026 | UPDATE 5.3 | Summary of roles by function added — M1-DIR-001 section 5.6 |
+| 19/02/2026 | UPDATE 6.1 | Risks enriched (introduction, synthesis, opportunities) — CTX-QUA-001 section 5 |
+| 19/02/2026 | UPDATE 6.2 | Quality objectives enriched (tolerances, pricing conditions, 24-48H) — OBJ-QUA-001 |
+| 19/02/2026 | POL Signature | Quality policy signed on 19/02/2026 — point #10 resolved |
 
 ---
 
