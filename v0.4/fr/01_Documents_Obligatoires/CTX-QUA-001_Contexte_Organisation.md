@@ -503,7 +503,78 @@ Ces dispositions permettent d'assurer que les modifications sont mises en oeuvre
 
 ---
 
-## 7. Exigences legales et reglementaires applicables
+## 7. Ressources (clause 7.1)
+
+> **Source :** UPDATE 7 — Ressources (20/02/2026) 🟢
+
+### 7.1 Generalites
+
+Plus Sarl determine et met a disposition les ressources necessaires pour etablir, mettre en oeuvre, maintenir et ameliorer en continu son systeme de management de la qualite.
+
+Ces ressources comprennent :
+- les ressources humaines necessaires aux fonctions definies au chapitre 5.3 (cf. M1-DIR-001 section 5.6)
+- les infrastructures numeriques et materielles
+- les ressources externes liees aux processus externalises (partenaires industriels et logistique)
+
+Les ressources sont adaptees a l'activite de coordination industrielle internationale.
+
+### 7.2 Ressources humaines
+
+Les competences necessaires aux fonctions de direction, commercial, coordination industrielle, logistique et qualite sont definies au chapitre 5.3 (cf. M1-DIR-001 section 5.6).
+
+L'entreprise veille a ce que les activites soient assurees par des personnes disposant :
+- des connaissances techniques liees aux produits
+- de la maitrise des exigences clients
+- de la capacite a coordonner des partenaires internationaux
+- de la comprehension des exigences qualite et reglementaires applicables
+
+Les competences sont maintenues par l'experience professionnelle, la formation continue et la veille sectorielle (cf. FOR-CMP-001).
+
+### 7.3 Infrastructures
+
+Les infrastructures necessaires au fonctionnement comprennent notamment :
+
+| Infrastructure | Utilisation |
+|---|---|
+| Ordinateur equipe de logiciels | Gestion administrative et technique |
+| Systeme FileMaker | Suivi des produits, commandes, prix et transports 🟢 |
+| Messagerie electronique | Echanges formels avec les partenaires industriels et les clients 🟢 |
+| Acces internet | Communication, suivi logistique et acces aux informations necessaires 🟢 |
+| Application WeChat | Echanges operationnels avec les partenaires en Chine 🟢 |
+| Telephone portable | Disponibilite et reactivite dans les communications 🟢 |
+| Sauvegarde cloud | Sauvegarde des donnees, hebergement chez fournisseur 🟢 |
+
+Ces outils sont maintenus en etat de fonctionnement afin de garantir la continuite des activites.
+
+### 7.4 Environnement pour le fonctionnement des processus
+
+L'environnement de travail garantit :
+- la confidentialite des donnees techniques et commerciales
+- la fiabilite des communications internationales
+- la reactivite dans la gestion des commandes et des urgences
+
+### 7.5 Ressources externes — processus externalises
+
+Dans le cadre de son activite, Plus Sarl s'appuie sur ses partenaires industriels en Chine pour la production des pieces.
+
+Ces partenaires constituent des ressources externes essentielles au fonctionnement du systeme de management de la qualite.
+
+L'entreprise veille a :
+- travailler avec des entreprises etablies et conformes aux exigences legales applicables
+- maintenir une relation durable fondee sur la confiance et la connaissance de leur organisation
+- assurer un suivi regulier des performances (delais, conformite produit)
+- integrer ces partenaires dans la maitrise des processus externalises (cf. clause 8.4, PRO-ACH-001)
+
+| Partenaire | Activite | Relation | Suivi |
+|---|---|---|---|
+| **Yuyao Mould Factory** | Fabrication moules et injection | Partenaire principal et historique (depuis 2007) 🟢 | Accord qualite, evaluation annuelle (FOR-EVF-001) |
+| **Whang** (Yuyao) | Fabrication de vis (screws) | Second partenaire de production 🟢 | Accord qualite, evaluation annuelle (FOR-EVF-001) |
+| **Paradiso** | Fiduciaire / comptabilite | Contrat de mandat 🟢 | Annuel |
+| Transitaires | Transport international (aerien, maritime, ferroviaire) | 🟡 [RECOMMANDE — noms non disponibles] | Suivi par expedition |
+
+---
+
+## 8. Exigences legales et reglementaires applicables
 
 | Domaine | Exigence | Reference | Surveillance |
 |---|---|---|---|
@@ -520,7 +591,7 @@ Ces dispositions permettent d'assurer que les modifications sont mises en oeuvre
 
 ---
 
-## 8. Gestion des outillages (moules)
+## 9. Gestion des outillages (moules)
 
 Les moules sont developpes et stockes en Chine, chez les partenaires de fabrication. Les moules sont la **propriete des clients**. Un **inventaire des moules existe**. 🟢
 
@@ -533,7 +604,7 @@ Les moules sont developpes et stockes en Chine, chez les partenaires de fabricat
 
 ---
 
-## 9. Informations complementaires
+## 10. Informations complementaires
 
 ### Coordonnees de l'entreprise
 
@@ -566,7 +637,8 @@ Ce document doit etre revu au minimum **1 fois par an** lors de la revue de dire
 | 0.4 | 18/02/2026 | Integration des chapitres 2.1 (Activites et organisation de la production externalisee), 2.2 (Relation client et comprehension des besoins), 2.2.1 (Analyse et validation des demandes clients) et 3/3.1 (Forme juridique, responsabilites de la gerante, support du SMQ) du manuel qualite. Ajout des 5 processus formalises (01-04 + S1), de la revue de commande et de la reference a M1-DIR-001. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Integration UPDATEs 4.1, 4.2, 6.1 (fusion) : enrichissement SWOT (ajout Forces/Faiblesses/Menaces UPDATE 4.1), enrichissement parties interessees (descriptions UPDATE 4.2), enrichissement section risques (introduction, synthese, opportunites UPDATE 6.1). | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration UPDATE 6.3 : ajout section 6 Planification des modifications (types, analyse d'impact par processus, mise en oeuvre, revue). Ajout numero IDE. Renumerotation sections 7-9. | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration UPDATE 7 : ajout section 7 Ressources (clause 7.1) — generalites, RH, infrastructures, environnement, ressources externes. Renumerotation sections 8-10. | Roxane Wicky |
 
 ---
 
-*Document redige conformement aux exigences de la norme ISO 9001:2015, clauses 4.1, 4.2, 4.3, 6.1 et 6.3.*
+*Document redige conformement aux exigences de la norme ISO 9001:2015, clauses 4.1, 4.2, 4.3, 6.1, 6.3 et 7.1.*

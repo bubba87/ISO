@@ -502,7 +502,78 @@ These provisions ensure that changes are implemented in a controlled manner, tra
 
 ---
 
-## 7. Applicable Legal and Regulatory Requirements
+## 7. Resources (clause 7.1)
+
+> **Source:** UPDATE 7 — Resources (20/02/2026) 🟢
+
+### 7.1 General
+
+Plus Sarl determines and provides the resources needed to establish, implement, maintain and continually improve its quality management system.
+
+These resources include:
+- human resources necessary for the functions defined in chapter 5.3 (cf. M1-DIR-001 section 5.6)
+- digital and material infrastructure
+- external resources related to outsourced processes (industrial partners and logistics)
+
+Resources are adapted to the international industrial coordination activity.
+
+### 7.2 Human Resources
+
+The competencies required for the functions of management, sales, industrial coordination, logistics and quality are defined in chapter 5.3 (cf. M1-DIR-001 section 5.6).
+
+The company ensures that activities are carried out by persons with:
+- technical knowledge related to the products
+- mastery of customer requirements
+- ability to coordinate international partners
+- understanding of applicable quality and regulatory requirements
+
+Competencies are maintained through professional experience, continuing education and sector monitoring (cf. FOR-CMP-001).
+
+### 7.3 Infrastructure
+
+The infrastructure necessary for operations includes:
+
+| Infrastructure | Usage |
+|---|---|
+| Computer equipped with software | Administrative and technical management |
+| FileMaker system | Product tracking, orders, prices and transport 🟢 |
+| Email | Formal exchanges with industrial partners and clients 🟢 |
+| Internet access | Communication, logistics tracking and access to necessary information 🟢 |
+| WeChat application | Operational exchanges with partners in China 🟢 |
+| Mobile phone | Availability and responsiveness in communications 🟢 |
+| Cloud backup | Data backup, hosted by provider 🟢 |
+
+These tools are maintained in working order to ensure business continuity.
+
+### 7.4 Environment for Process Operation
+
+The work environment ensures:
+- confidentiality of technical and commercial data
+- reliability of international communications
+- responsiveness in order management and emergencies
+
+### 7.5 External Resources — Outsourced Processes
+
+As part of its activity, Plus Sarl relies on its industrial partners in China for the production of parts.
+
+These partners are essential external resources for the operation of the quality management system.
+
+The company ensures to:
+- work with established companies compliant with applicable legal requirements
+- maintain a lasting relationship based on trust and knowledge of their organization
+- ensure regular monitoring of performance (delivery times, product conformity)
+- integrate these partners into the control of outsourced processes (cf. clause 8.4, PRO-ACH-001)
+
+| Partner | Activity | Relationship | Monitoring |
+|---|---|---|---|
+| **Yuyao Mould Factory** | Mold manufacturing and injection | Main and longstanding partner (since 2007) 🟢 | Quality agreement, annual evaluation (FOR-EVF-001) |
+| **Whang** (Yuyao) | Screw manufacturing | Second production partner 🟢 | Quality agreement, annual evaluation (FOR-EVF-001) |
+| **Paradiso** | Fiduciary / accounting | Service agreement 🟢 | Annual |
+| Freight forwarders | International transport (air, sea, rail) | 🟡 [RECOMMENDED — names not available] | Per shipment |
+
+---
+
+## 8. Applicable Legal and Regulatory Requirements
 
 | Domain | Requirement | Reference | Monitoring |
 |---|---|---|---|
@@ -519,7 +590,7 @@ These provisions ensure that changes are implemented in a controlled manner, tra
 
 ---
 
-## 8. Tooling Management (molds)
+## 9. Tooling Management (molds)
 
 Molds are developed and stored in China, at manufacturing partners. Molds are the **property of customers**. A **mold inventory exists**. 🟢
 
@@ -532,7 +603,7 @@ Molds are developed and stored in China, at manufacturing partners. Molds are th
 
 ---
 
-## 9. Additional Information
+## 10. Additional Information
 
 ### Company Contact Details
 
@@ -565,7 +636,8 @@ This document must be reviewed at least **once a year** during the management re
 | 0.4 | 18/02/2026 | Integration of chapters 2.1 (Activities and organization of outsourced production), 2.2 (Customer relationship and understanding of needs), 2.2.1 (Analysis and validation of customer requests) and 3/3.1 (Legal form, managing director's responsibilities, QMS support) from the quality manual. Addition of 5 formalized processes (01-04 + S1), order review and reference to M1-DIR-001. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Integration of UPDATEs 4.1, 4.2, 6.1 (merge): SWOT enrichment (addition of Strengths/Weaknesses/Threats UPDATE 4.1), interested parties enrichment (descriptions UPDATE 4.2), risk section enrichment (introduction, summary, opportunities UPDATE 6.1). | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration of UPDATE 6.3: addition of section 6 Planning of Changes (types, impact analysis by process, implementation, review). Addition of IDE number. Renumbering of sections 7-9. | Roxane Wicky |
+| 0.4 | 20/02/2026 | Integration of UPDATE 7: addition of section 7 Resources (clause 7.1) — general, HR, infrastructure, environment, external resources. Renumbering of sections 8-10. | Roxane Wicky |
 
 ---
 
-*Document prepared in accordance with the requirements of ISO 9001:2015 standard, clauses 4.1, 4.2, 4.3, 6.1 and 6.3.*
+*Document prepared in accordance with the requirements of ISO 9001:2015 standard, clauses 4.1, 4.2, 4.3, 6.1, 6.3 and 7.1.*

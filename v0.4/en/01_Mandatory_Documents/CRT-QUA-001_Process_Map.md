@@ -83,7 +83,7 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. �
 |---|---|---|---|---|
 | S1 | Document management | Roxane Wicky (Managing Director) | Control QMS documents and records (FileMaker, emails, WeChat). Ensure traceability and feed continual improvement. Cloud backup at the provider 🟢 | PRO-DOC-001 |
 | S2 | Competencies and training | Roxane Wicky (Managing Director) | Maintain and develop the competencies necessary for industrial coordination | FOR-CMP-001 |
-| S3 | Resources and infrastructure | Roxane Wicky (Managing Director) | Manage material, IT and financial resources. Accounting via fiduciary Paradiso 🟢 | — |
+| S3 | Resources and infrastructure | Roxane Wicky (Managing Director) | Manage human, material, digital and external resources. Infrastructure (FileMaker, email, WeChat, cloud). Work environment (confidentiality, reliability, responsiveness). External resources (Yuyao, Whang, freight forwarders). Accounting via fiduciary Paradiso 🟢 | CTX-QUA-001 (section 7) 🟢 |
 
 ---
 

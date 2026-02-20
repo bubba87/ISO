@@ -124,7 +124,7 @@
           </mxCell>
         </UserObject>
 
-        <UserObject label="&lt;b&gt;S3&lt;/b&gt;&lt;br&gt;Ressources &amp;&lt;br&gt;Infrastructure&lt;br&gt;&lt;i&gt;(7.1)&lt;/i&gt;" link="data:page/id,page-s3" id="s3">
+        <UserObject label="&lt;b&gt;S3&lt;/b&gt;&lt;br&gt;Ressources &amp;&lt;br&gt;Infrastructure&lt;br&gt;&lt;i&gt;(7.1)&lt;/i&gt;&lt;br&gt;FileMaker, Cloud&lt;br&gt;&lt;i&gt;CTX-QUA-001 §7&lt;/i&gt;" link="data:page/id,page-s3" id="s3">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" vertex="1" parent="sup-lane">
             <mxGeometry x="840" y="45" width="200" height="80" as="geometry"/>
           </mxCell>
@@ -169,7 +169,7 @@
         </mxCell>
 
         <!-- Version -->
-        <mxCell id="version" value="v0.4 — 18/02/2026 — Plus Sàrl — Certification SQS" style="text;html=1;align=right;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=9;fontColor=#999999;" vertex="1" parent="1">
+        <mxCell id="version" value="v0.4 — 20/02/2026 — Plus Sàrl — Certification SQS" style="text;html=1;align=right;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=9;fontColor=#999999;" vertex="1" parent="1">
           <mxGeometry x="1100" y="720" width="300" height="20" as="geometry"/>
         </mxCell>
       </root>

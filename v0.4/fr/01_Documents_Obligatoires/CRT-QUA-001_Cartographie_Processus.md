@@ -83,7 +83,7 @@ La certification ISO 9001:2015 est visee aupres de l'organisme **SQS**. 🟢
 |---|---|---|---|---|
 | S1 | Gestion documentaire | Roxane Wicky (Gerante) | Maitriser les documents et enregistrements du SMQ (FileMaker, emails, WeChat). Assurer la tracabilite et alimenter l'amelioration continue. Sauvegarde cloud chez le fournisseur 🟢 | PRO-DOC-001 |
 | S2 | Competences et formations | Roxane Wicky (Gerante) | Maintenir et developper les competences necessaires a la coordination industrielle | FOR-CMP-001 |
-| S3 | Ressources et infrastructure | Roxane Wicky (Gerante) | Gerer les ressources materielles, informatiques et financieres. Comptabilite via fiduciaire Paradiso 🟢 | — |
+| S3 | Ressources et infrastructure | Roxane Wicky (Gerante) | Gerer les ressources humaines, materielles, numeriques et externes. Infrastructures (FileMaker, email, WeChat, cloud). Environnement de travail (confidentialite, fiabilite, reactivite). Ressources externes (Yuyao, Whang, transitaires). Comptabilite via fiduciaire Paradiso 🟢 | CTX-QUA-001 (section 7) 🟢 |
 
 ---
 
