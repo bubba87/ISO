@@ -354,6 +354,23 @@ La gérante analyse la situation en evaluant :
 
 ---
 
+## 10. Maîtrise des produits non-conformes (clause 8.7)
+
+> **Source :** UPDATE 7.5-8.7 — Maîtrise des produits non-conformes (21/02/2026) 🟢
+
+En cas de non-conformité signalée après livraison :
+- le problème est analysé sur la base des informations et photos transmises par le client
+- un échange est organisé avec le partenaire industriel afin d'identifier la cause
+- une décision est prise concernant le remplacement, la correction ou l'acceptation exceptionnelle
+- des actions correctives sont définies pour éviter la répétition
+
+> 🟡 [RECOMMANDÉ] Un **registre formalisé des non-conformités** sera mis en place dans le système FileMaker afin d'assurer :
+> - la traçabilité des incidents
+> - l'analyse des causes
+> - le suivi des actions correctives
+
+---
+
 > **Instructions de remplissage :**
 > 1. Enregistrez TOUTE non-conformité signalée par un client ou détectée en interne, quelle que soit la date de signalement
 > 2. Utilisez le format de numérotation NC_AAAA_NNNN (ex : NC_2026_1001)

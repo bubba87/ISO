@@ -40,6 +40,25 @@ Dans le cadre de l'activité de coordination industrielle de Plus Sarl, les prod
 | Decision d'acceptation/refus | Absence de réclamation = conformité implicite (cf. section 8.6 du manuel qualité) |
 | Ouverture NC si defaut | Si réclamation client : declenchement du processus NC (PRO-NCF-001) |
 
+### Libération des produits (clause 8.5 / 8.6)
+
+> **Source :** UPDATE 7.5-8.7 — Production externalisée et libération (21/02/2026) 🟢
+
+La conformité des produits est assurée par :
+- la transmission des spécifications techniques aux partenaires industriels
+- la validation de faisabilité avant lancement de production
+- la réalisation d'un contrôle qualité interne par le fabricant avant expédition
+- l'émission d'un rapport de contrôle qualité 🟡 [RECOMMANDÉ — à formaliser lors du voyage en Chine]
+
+La libération repose sur :
+- le contrôle qualité réalisé par le fabricant
+- la confirmation de conformité
+- lorsque nécessaire, des photos ou éléments justificatifs transmis
+
+En cas de non-conformité détectée avant expédition, une nouvelle production ou une correction est réalisée avant toute livraison client.
+
+> 🟡 [RECOMMANDÉ] Amélioration du formalisme du processus de libération prévue pour renforcer la traçabilité documentaire des contrôles effectués.
+
 ---
 
 ## Checklist de contrôle qualité

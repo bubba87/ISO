@@ -136,6 +136,35 @@ SMQ/
 | Rapports d'inspection fournisseur | Partenaires chinois | Dossier SMQ > 06_Documents_externes > Documents_fournisseur | :green_circle: Roxane Wicky |
 | Documents comptables | Fiduciaire Paradiso | Fiduciaire + copie locale | :green_circle: Paradiso / Roxane Wicky |
 
+## 5bis. Maîtrise des informations documentées (clause 7.5)
+
+> **Source :** UPDATE 7.5-8.7 — Informations documentées (21/02/2026) 🟢
+
+Plus Sarl détermine, crée, met à jour et maîtrise les informations documentées nécessaires à l'efficacité de son système de management de la qualité et à la conformité des produits et services fournis.
+
+### Exigences de maîtrise
+
+Plus Sarl veille à assurer :
+- **l'accessibilité** aux seules personnes autorisées
+- **la lisibilité** et l'identification des documents
+- **la conservation** appropriée des enregistrements
+- **la protection** contre toute perte, détérioration ou utilisation non maîtrisée
+
+### Confidentialité des données
+
+Les données techniques, commerciales et contractuelles, y compris les designs et spécifications appartenant aux clients, sont traitées comme **strictement confidentielles**.
+
+La confidentialité est assurée notamment par :
+- un accès sécurisé aux systèmes informatiques
+- la limitation des échanges aux interlocuteurs concernés
+- l'organisation structurée des supports numériques
+- la protection des accès aux bases de données et aux messageries
+- la transmission contrôlée des informations aux partenaires industriels
+
+Ces dispositions garantissent la traçabilité des opérations, la protection de la propriété intellectuelle des clients, la conformité aux exigences réglementaires ainsi que la continuité des activités.
+
+---
+
 ## 6. Gestion des enregistrements
 
 ### 6.1 Documents opérationnels générés par l'activité
@@ -258,3 +287,4 @@ La liste de gestion documentaire ci-dessous recense l'ensemble des documents du 
 | 0.2 | 10/02/2026 | Ajout de la liste de gestion documentaire (LST-DOC-001) alignee sur le modèle de la gérante. Ajout du type de document LST (Liste de gestion). Mise à jour de la liste maitresse avec tous les documents du SMQ en version 0.2. | Roxane Wicky |
 | 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration UPDATE 2.1 S1 : ajout référence au rôle formalisé de la gestion documentaire (CTX-QUA-001 section 1.1). Ajout de 3 nouveaux documents à la liste maitresse et à la liste de gestion : M1-DIR-001, FIC-PRO-002, PRO-LOG-001. Ajout du type de document M1 (Leadership). | Roxane Wicky |
+| 0.4 | 21/02/2026 | Intégration UPDATE 7.5 : ajout section 5bis — Maîtrise des informations documentées (clause 7.5). Exigences de maîtrise (accessibilité, lisibilité, conservation, protection). Confidentialité des données techniques et mesures de protection. | Roxane Wicky |

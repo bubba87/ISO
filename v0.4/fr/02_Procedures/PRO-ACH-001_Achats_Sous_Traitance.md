@@ -92,14 +92,22 @@ Tous les achats et prestations externalisées ayant un impact sur la qualité de
 
 La sélection et le maintien des partenaires de Plus Sarl reposent sur les critères suivants :
 
+> **Source :** UPDATE 7.5-8.7 — Maîtrise des partenaires et fournisseurs industriels (21/02/2026) 🟢
+
 | Critère | Importance | Commentaire |
 |---|---|---|
-| **Confiance construite dans le temps** | Critique | Relation de long terme, fiabilité demontree |
-| **Qualité des produits livrés** | Critique | Conformité aux spécifications, taux de NC faible |
-| **Respect des délais** | Élevée | Livraisons dans les temps convenus |
-| **Capacité technique** | Élevée | Equipements adaptes, savoir-faire, faisabilité |
-| **Communication et réactivité** | Moyenne | Échanges fluides par email et WeChat |
-| **Prix et conditions commerciales** | Moyenne | Competitivite et transparence |
+| **Expérience industrielle et compétence technique** | Critique | Savoir-faire démontré dans le domaine concerné |
+| **Capacité à produire selon les spécifications clients** | Critique | Conformité aux exigences techniques |
+| **Qualité des installations et conditions de travail observées** | Élevée | Évaluée lors de visites sur site |
+| **Fiabilité et stabilité des délais** | Élevée | Livraisons dans les temps convenus |
+| **Capacité à respecter les délais** | Élevée | Délais de production tenus |
+| **Réactivité et flexibilité** | Moyenne | Échanges fluides par email et WeChat |
+| **Cohérence des conditions tarifaires** | Moyenne | Compétitivité et transparence |
+| **Confiance construite dans le temps** | Critique | Relation de long terme, fiabilité démontrée |
+
+Le partenaire industriel principal, en relation historique et durable avec l'entreprise, participe à l'identification et à la sélection de nouveaux sous-traitants lorsque nécessaire.
+
+Des visites sur site peuvent être réalisées afin d'évaluer les capacités techniques et organisationnelles.
 
 > **Note :** Les partenaires actuels sont en place depuis la création de Plus Sarl en 2007 (Yuyao Mould Factory) et sont maintenus sur la base de la confiance mutuelle, de la qualité des produits et du respect des délais. Le suivi de performance est continu.
 
@@ -299,14 +307,20 @@ En tant que partenaire principal depuis 2007, Yuyao Mould Factory joue un rôle 
 
 ### 11.1 Suivi continu (partenaires de classe A)
 
-La performance des partenaires chinois est suivie en continu par la gérante :
+La performance des partenaires chinois est évaluée de manière continue sur la base :
+
+> **Source :** UPDATE 7.5-8.7 — Évaluation et suivi des fournisseurs (21/02/2026) 🟢
 
 | Critère | Mode de suivi |
 |---|---|
-| Qualité des livraisons | Suivi des réclamations clients, taux de NC par partenaire |
-| Respect des délais | Comparaison délai annonce vs. délai reel de livraison |
-| Communication et réactivité | Appreciation qualitative des échanges email/WeChat |
-| Gestion des NC | Délai et efficacité de traitement des NC signalees |
+| **Respect des délais de production** | Comparaison délai annoncé vs. délai réel de livraison |
+| **Niveau de qualité des produits livrés** | Suivi des réclamations clients, taux de NC par partenaire |
+| **Taux de non-conformités et réactivité en cas de problème** | Délai et efficacité de traitement des NC signalées |
+| **Stabilité des conditions commerciales** | Suivi des prix et conditions tarifaires |
+
+En cas de dysfonctionnements répétés, une analyse est réalisée et une décision peut être prise de chercher un partenaire alternatif. Compte tenu de la nature spécifique des productions (petites séries techniques), le changement de fournisseur fait l'objet d'une évaluation préalable de faisabilité et de disponibilité.
+
+> 🟡 [RECOMMANDÉ] Un renforcement formel du suivi fournisseur est en cours de structuration afin d'améliorer la traçabilité des évaluations.
 
 > **Premier cas documenté de NC :** La NC_2026_1001 (erreur d'étiquetage sur SHIP_25058/CFM00057428/90.60.05710) constitue le premier cas documenté de non-conformité avec le fournisseur actuel. Le fournisseur a été informe via WeChat le 10/02/2026. Le traitement est en cours et sera renforce lors du voyage en Chine prévu en mars 2026.
 
@@ -351,6 +365,29 @@ Voir formulaire FOR-EVF-001 pour le détail de l'évaluation annuelle.
 
 ---
 
+## 12bis. Validation des nouveaux outillages (clause 8.4)
+
+> **Source :** UPDATE 7.5-8.7 — Validation outillages (21/02/2026) 🟢
+
+Lors du développement d'un nouveau moule ou d'une modification d'outillage :
+- les spécifications techniques sont validées avec le client
+- un échantillon ou une première production peut être soumis à validation
+- la production série ne débute qu'après confirmation du client
+
+Les validations sont conservées sous forme d'échanges écrits par courriel.
+
+## 12ter. Confidentialité et propriété intellectuelle (clause 8.4)
+
+> **Source :** UPDATE 7.5-8.7 — Confidentialité PI (21/02/2026) 🟢
+
+Les designs, plans et spécifications techniques appartiennent aux clients et sont traités comme confidentiels.
+
+Les moules développés pour les clients sont stockés chez les partenaires industriels en Chine.
+
+Les informations techniques sont transmises uniquement aux partenaires concernés et ne sont pas diffusées sans autorisation.
+
+---
+
 > **Instructions de remplissage :**
 > 1. **PRIORITÉ** : Formaliser un accord qualité avec Yuyao Mould Factory et Whang des que le dossier de certification est pret
 > 2. Conservez TOUS les emails et échanges WeChat avec les partenaires chinois -- ce sont des preuves de suivi
@@ -371,3 +408,4 @@ Voir formulaire FOR-EVF-001 pour le détail de l'évaluation annuelle.
 | 0.2 | 10/02/2026 | Ajout de la référence a NC_2026_1001 comme premier cas documenté de NC fournisseur. Ajout de la section 9.3 (suivi qualité sur site) avec le voyage en Chine planifié en mars 2026 et ses objectifs. Mise à jour de la section 7 (accord qualité) avec référence au voyage de mars 2026. | Roxane Wicky |
 | 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration UPDATE 2.1 : ajout section 9 "Fiche de production FileMaker" (caracteristiques, délais, mises a jour, suivi, echantillonnage). Ajout de la revue de commande (cf. M1-DIR-001, CTX-QUA-001 section 1.3) dans le logigramme. Renumerotation des sections 9→10, 10→11, 11→12. | Roxane Wicky |
+| 0.4 | 21/02/2026 | Intégration UPDATE 7.5-8.7 (clause 8.4) : mise à jour des 7 critères de sélection partenaires, 4 indicateurs d'évaluation continue, renforcement formel du suivi fournisseur, validation des nouveaux outillages (échantillon avant série), confidentialité et propriété intellectuelle. | Roxane Wicky |

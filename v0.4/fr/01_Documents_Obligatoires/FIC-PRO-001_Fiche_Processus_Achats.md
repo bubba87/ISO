@@ -245,6 +245,48 @@ Le partenaire realisera un contrôle qualité avant expédition ainsi qu'un envo
 
 Les moules sont développés et stockés en Chine, chez les partenaires. Les moules sont la **propriété des clients**. Un **inventaire des moules existe**. 🟢
 
+### Planification et maîtrise opérationnelle (clause 8.1)
+
+> **Source :** UPDATE 7.5-8.7 — Planification opérationnelle (21/02/2026) 🟢
+
+Lors de la réception d'une commande ou d'une demande :
+- la demande est analysée afin de vérifier sa faisabilité technique, logistique ou commerciale
+- si nécessaire, les éléments techniques sont transmis au partenaire industriel pour étude de faisabilité et confirmation des délais
+- les délais de production sont confirmés avant validation définitive auprès du client
+- la commande est enregistrée dans le système FileMaker, assurant sa traçabilité
+- un accusé de réception est transmis au client, confirmant les quantités, prix et délais
+
+> **Note :** Dans le cas où l'entreprise n'est pas en mesure de répondre à une demande (par exemple pour un nouveau produit hors champ de compétence), la demande peut être refusée afin de garantir la conformité et la maîtrise des engagements. Seules les commandes réalisables et maîtrisées sont acceptées.
+
+### Exigences relatives aux produits et services (clause 8.2)
+
+> **Source :** UPDATE 7.5-8.7 — Exigences produits (21/02/2026) 🟢
+
+Les demandes des clients sont reçues sous forme de bon de commande ou par courrier électronique. Elles peuvent inclure :
+- quantités commandées
+- délais souhaités
+- références produit ou version spécifique
+- spécifications techniques (dimensions, coloris, modifications particulières)
+- exigences emballages
+- exigences logistiques ou lieu de livraison
+
+En cas de nouveau produit ou de modification technique, un plan ou des spécifications peuvent être transmis.
+
+**Revue des exigences :** Avant validation, Plus Sarl procède à une revue afin de vérifier :
+- la compréhension complète des besoins
+- la faisabilité technique auprès du partenaire industriel
+- la capacité de production
+- les conditions logistiques
+- la cohérence des conditions commerciales
+
+Toute exigence incomplète ou ambiguë fait l'objet d'une clarification auprès du client.
+
+**Gestion des modifications :** Toute modification ultérieure fait l'objet :
+- d'une nouvelle analyse
+- d'une validation fournisseur si nécessaire
+- d'une confirmation écrite au client
+- d'une mise à jour dans le système de gestion
+
 ### Points d'attention spécifiques
 
 - **Propriété intellectuelle** : les conceptions et plans appartiennent exclusivement aux clients. Plus Sarl veille à la confidentialité des informations techniques transmises aux partenaires chinois (cf. Politique qualité, engagement n.6).
@@ -253,6 +295,31 @@ Les moules sont développés et stockés en Chine, chez les partenaires. Les mou
 - **Pas d'activité de conception** : Plus Sarl ne conçoit pas les produits (clause 8.3 exclue). Le rôle est celui de coordinateur industriel entre le client (proprietaire de la conception) et le fabricant chinois.
 - **Voyage en Chine mars 2026** : un deplacement sur site est planifié pour renforcer les contrôles qualité en production et consolider les exigences auprès des partenaires.
 - **Accord qualité** : un accord qualité sera formalisé avec Yuyao Mould Factory et Whang des que le dossier de certification sera pret. 🟢
+
+### Maîtrise de la production externalisée (clause 8.5)
+
+> **Source :** UPDATE 7.5-8.7 — Production externalisée et libération (21/02/2026) 🟢
+
+La production des pièces est réalisée par des partenaires industriels en Chine. La conformité des produits est assurée par :
+- la transmission des spécifications techniques aux partenaires industriels
+- la validation de faisabilité avant lancement de production
+- la réalisation d'un contrôle qualité interne par le fabricant avant expédition
+- l'émission d'un rapport de contrôle qualité 🟡 [RECOMMANDÉ — à formaliser et standardiser lors du voyage en Chine]
+
+En cas de non-conformité détectée avant expédition, une nouvelle production ou une correction est réalisée avant toute livraison client.
+
+### Libération des produits et services (clause 8.6)
+
+> **Source :** UPDATE 7.5-8.7 — Libération (21/02/2026) 🟢
+
+La libération des produits est effectuée après confirmation par le partenaire industriel que les pièces sont conformes aux exigences définies.
+
+La libération repose sur :
+- le contrôle qualité réalisé par le fabricant
+- la confirmation de conformité
+- lorsque nécessaire, des photos ou éléments justificatifs transmis
+
+> 🟡 [RECOMMANDÉ] Une amélioration du formalisme du processus de libération sera mise en place afin de renforcer la traçabilité documentaire des contrôles effectués.
 
 ---
 
@@ -264,3 +331,4 @@ Les moules sont développés et stockés en Chine, chez les partenaires. Les mou
 | 0.2 | 10/02/2026 | Mise à jour des indicateurs de performance (délais fournisseur >= 95%, max 3 NC/client/an). Ajout des actions d'amélioration : voyage Chine mars 2026, renforcement contrôle étiquetage suite NC_2026_1001. | Roxane Wicky |
 | 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration UPDATE 2.1 : ajout activité 1b (fiche de production FileMaker), référence à la revue de commande (M1-DIR-001, CTX-QUA-001 section 1.3). | Roxane Wicky |
+| 0.4 | 21/02/2026 | Intégration UPDATE 7.5-8.7 : ajout sections 8.1 (planification opérationnelle, refus commande hors compétence), 8.2 (exigences produits, revue des exigences, gestion des modifications). | Roxane Wicky |

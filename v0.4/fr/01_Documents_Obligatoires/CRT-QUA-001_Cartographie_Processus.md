@@ -5,7 +5,7 @@
 | **Référence** | CRT-QUA-001 |
 | **Version** | 0.4 |
 | **Date de création** | 10/02/2026 |
-| **Date de revision** | 20/02/2026 |
+| **Date de révision** | 21/02/2026 |
 | **Rédigé par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 
@@ -72,16 +72,16 @@ La certification ISO 9001:2015 est visee auprès de l'organisme **SQS**. 🟢
 
 | Code | Processus | Pilote | Objectif | Document(s) associé(s) |
 |---|---|---|---|---|
-| O1 | Commercial | Roxane Wicky (Gérante) | Gérer les relations clients (~10 clients actifs), analyser les besoins, réaliser la revue de commande, suivre les commandes dans FileMaker | CTX-QUA-001 (sections 1.2, 1.3) 🟢 |
-| O2 | Achats et sous-traitance | Roxane Wicky (Gérante) | Coordonner les partenaires chinois (Yuyao Mould Factory et **Whang**), créer les fiches de production FileMaker, suivre la fabrication 🟢 | PRO-ACH-001, FIC-PRO-001 |
-| O3 | Logistique et livraison | Roxane Wicky (Gérante) | Créer les fiches de livraison FileMaker, organiser le transport international, gérer les documents douaniers, assurer le suivi jusqu'a livraison 🟢 | **PRO-LOG-001**, **FIC-PRO-002** 🟢 |
-| O4 | Contrôle qualité | Roxane Wicky (Gérante) | Vérifier la conformité des pièces avant expédition, gérer les NC et actions correctives, analyser les retours clients | PRO-NCF-001, PRO-ACR-001, FOR-CTR-001 |
+| O1 | Commercial | Roxane Wicky (Gérante) | Gérer les relations clients (~10 clients actifs), analyser les besoins, déterminer les exigences applicables (6 types, clause 8.2), réaliser la revue de commande, possibilité de refuser une commande hors domaine (clause 8.1), suivre les commandes dans FileMaker | CTX-QUA-001 (sections 1.2, 1.3), FIC-PRO-001 🟢 |
+| O2 | Achats et sous-traitance | Roxane Wicky (Gérante) | Coordonner les partenaires chinois (Yuyao Mould Factory et **Whang**), sélection sur 7 critères et évaluation sur 4 indicateurs (clause 8.4), valider les nouveaux outillages avant série, créer les fiches de production FileMaker, suivre la fabrication externalisée (4 moyens de conformité, clause 8.5), assurer la confidentialité de la propriété intellectuelle 🟢 | PRO-ACH-001, FIC-PRO-001 |
+| O3 | Logistique et livraison | Roxane Wicky (Gérante) | Créer les fiches de livraison FileMaker, organiser le transport international, gérer les documents douaniers, assurer le suivi jusqu'à livraison 🟢 | **PRO-LOG-001**, **FIC-PRO-002** 🟢 |
+| O4 | Contrôle qualité | Roxane Wicky (Gérante) | Vérifier la conformité des pièces avant expédition, libération formalisée sur 3 critères (CQ fabricant, confirmation commande, photos — clause 8.6), gérer les NC et actions correctives selon processus en 4 étapes (clause 8.7), registre NC dans FileMaker 🔵 [À VÉRIFIER — registre à mettre en place], analyser les retours clients | PRO-NCF-001, PRO-ACR-001, FOR-CTR-001 |
 
 ### Processus support
 
 | Code | Processus | Pilote | Objectif | Document(s) associé(s) |
 |---|---|---|---|---|
-| S1 | Gestion documentaire | Roxane Wicky (Gérante) | Maitriser les documents et enregistrements du SMQ (FileMaker, emails, WeChat). Assurer la traçabilité et alimenter l'amélioration continue. Sauvegarde cloud chez le fournisseur 🟢 | PRO-DOC-001 |
+| S1 | Gestion documentaire | Roxane Wicky (Gérante) | Maîtriser les documents et enregistrements du SMQ (FileMaker, emails, WeChat). Maîtrise des informations documentées selon clause 7.5 (accessibilité, lisibilité, conservation, protection). Mesures de confidentialité des données. Assurer la traçabilité et alimenter l'amélioration continue. Sauvegarde cloud chez le fournisseur 🟢 | PRO-DOC-001 |
 | S2 | Compétences, formations et sensibilisation | Roxane Wicky (Gérante) | Maintenir et developper les compétences nécessaires à la coordination industrielle. Compétences gérante (7 domaines), extension aux fournisseurs (évaluation continue). Sensibilisation au SMQ (politique, objectifs, satisfaction client). Communication en anglais 🟢 | FOR-CMP-001 🟢 |
 | S3 | Ressources et infrastructure | Roxane Wicky (Gérante) | Gérer les ressources humaines, materielles, numeriques et externes. Infrastructures (FileMaker, email, WeChat, cloud). Environnement de travail (confidentialité, fiabilité, réactivité). Ressources externes (Yuyao, Whang, transitaires). Comptabilite via fiduciaire Paradiso 🟢 | CTX-QUA-001 (section 7) 🟢 |
 
@@ -109,9 +109,14 @@ La certification ISO 9001:2015 est visee auprès de l'organisme **SQS**. 🟢
  2. ANALYSE PRÉALABLE ET REVUE DE COMMANDE (O1/O2/O4 - cf. M1-DIR-001)
     Analyse selon les responsabilités définies dans M1 Leadership :
     - Compréhension des besoins : O1 Commercial
-    - Références, quantités, délais : O1 Commercial
+    - Détermination des exigences (6 types, clause 8.2) :
+      spécifications techniques, quantités/délais, exigences
+      légales/réglementaires, normes, conditions de livraison,
+      exigences implicites (emballage, marquage, certificats)
     - Faisabilité technique et logistique : O2 Achats & Sous-traitance
-    - Exigences qualité applicables : O4 Controle qualité
+    - Exigences qualité applicables : O4 Contrôle qualité
+    - Possibilité de refuser une commande hors domaine de
+      compétence (clause 8.1)
     - Si modification : analyse d'impact par processus (clause 6.3)
       et validation client avant mise en œuvre
             |
@@ -135,14 +140,22 @@ La certification ISO 9001:2015 est visee auprès de l'organisme **SQS**. 🟢
             |
             v
  6. LANCEMENT DE LA PRODUCTION (O2 - Achats)
+    Si nouveau moule/outillage : validation sur échantillon avant
+    lancement en série (clause 8.4)
     Confirmation de commande auprès du/des partenaire(s) chinois
     Suivi de fabrication (photos, rapports d'étape, échanges WeChat)
-    Envoi d'échantillons aux clients et a Plus Sarl si nécessaire
+    4 moyens de conformité : spécifications transmises, suivi
+    production, CQ pré-expédition, échantillons (clause 8.5)
+    Envoi d'échantillons aux clients et à Plus Sarl si nécessaire
             |
             v
- 7. CONTRÔLE QUALITÉ PRE-EXPEDITION (O4)
+ 7. CONTRÔLE QUALITÉ ET LIBÉRATION (O4) (clauses 8.5/8.6)
     Vérification de conformité : exigences techniques + commande
     Le partenaire réalise un CQ avant expédition
+    Libération sur 3 critères :
+    - CQ fabricant conforme
+    - Confirmation correspondance avec la commande
+    - Photos des pièces et de l'emballage
     + envoi d'échantillons chez Plus Sarl en parallèle du transport
             |
             v
@@ -159,9 +172,11 @@ La certification ISO 9001:2015 est visee auprès de l'organisme **SQS**. 🟢
 10. CONFIRMATION DE RECEPTION PAR LE CLIENT (O3/O1)
     Le client confirme la bonne réception des marchandises
             |
-            +---> Si NON CONFORME : Processus NC (O4 - Controle qualité)
-            |     Création fiche NC, analyse, decision de traitement,
-            |     actions correctives (cf. PRO-NCF-001, PRO-ACR-001)
+            +---> Si NON CONFORME : Processus NC en 4 étapes (clause 8.7)
+            |     1. Identification et isolement du lot
+            |     2. Analyse de la NC et décision de traitement
+            |     3. Actions correctives (cf. PRO-NCF-001, PRO-ACR-001)
+            |     4. Enregistrement dans le registre NC FileMaker
             |
             v
 11. FACTURATION ET SUIVI (O1 - Commercial)
@@ -173,9 +188,11 @@ La certification ISO 9001:2015 est visee auprès de l'organisme **SQS**. 🟢
     Alimentation : suivi NC, audit interne, revue de direction
 ```
 
-> **v0.4 :** Le flux intégré desormais la **revue de commande** (étape 2) formalisée selon le chapitre 2.2.1 du manuel qualité, avec attribution des responsabilités par processus selon M1-DIR-001. Toute modification ulterieure demandee par le client fait l'objet d'une analyse, d'une validation partenaire si nécessaire, d'une confirmation client par e-mail et d'une mise à jour FileMaker.
+> **v0.4 :** Le flux intègre désormais la **revue de commande** (étape 2) formalisée selon le chapitre 2.2.1 du manuel qualité, avec attribution des responsabilités par processus selon M1-DIR-001. Toute modification ultérieure demandée par le client fait l'objet d'une analyse, d'une validation partenaire si nécessaire, d'une confirmation client par e-mail et d'une mise à jour FileMaker.
 >
-> **v0.4 (UPDATE 6.3) :** L'étape 2 intégré desormais la **planification des modifications** (clause 6.3 ISO 9001). Toute modification susceptible d'impacter la conformité, les délais, les conditions commerciales ou l'organisation fait l'objet d'une analyse d'impact par processus (O1-O4), d'une information/validation client et d'une mise en œuvre contrôlée. Les modifications sont revues en revue de direction (M3). Voir CTX-QUA-001 section 6.
+> **v0.4 (UPDATE 6.3) :** L'étape 2 intègre désormais la **planification des modifications** (clause 6.3 ISO 9001). Toute modification susceptible d'impacter la conformité, les délais, les conditions commerciales ou l'organisation fait l'objet d'une analyse d'impact par processus (O1-O4), d'une information/validation client et d'une mise en œuvre contrôlée. Les modifications sont revues en revue de direction (M3). Voir CTX-QUA-001 section 6.
+>
+> **v0.4 (UPDATE 7.5-8.7) :** Enrichissement du flux principal : étape 2 — détermination des 6 types d'exigences (clause 8.2) et possibilité de refus hors domaine (clause 8.1) ; étape 6 — validation outillages avant série et 4 moyens de conformité production externalisée (clauses 8.4/8.5) ; étape 7 — libération formalisée sur 3 critères (clause 8.6) ; étape 10 — processus NC en 4 étapes avec registre FileMaker (clause 8.7). Enrichissement S1 (maîtrise informations documentées, confidentialité, clause 7.5). Enrichissement O1, O2, O4 (clauses 8.1-8.7).
 
 ---
 
@@ -232,3 +249,4 @@ Les données sont sauvegardees dans le **cloud, hebergement chez le fournisseur*
 | 0.4 | 18/02/2026 | Intégration des chapitres 2.1, 2.2, 2.2.1 du manuel qualité. Ajout de la colonne Documents associés. Revision du flux principal avec revue de commande (étape 2), consultation partenaires (étape 3), référence a M1-DIR-001. Ajout de l'étape 12 (traçabilité et amélioration, S1). Ajout des nouveaux documents PRO-LOG-001, FIC-PRO-002, M1-DIR-001. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Intégration UPDATE 6.3 : enrichissement M1 (planification des modifications, clause 6.3), enrichissement M2 (revue efficacité modifications), ajout analyse d'impact clause 6.3 dans le flux principal (étape 2). | Roxane Wicky |
 | 0.4 | 20/02/2026 | Intégration UPDATEs 7, 7.2, 7.3 : enrichissement S3 (ressources, clause 7.1, ref. CTX-QUA-001 §7), enrichissement S2 (compétences, sensibilisation, clauses 7.2-7.3, ref. FOR-CMP-001). | Roxane Wicky |
+| 0.4 | 21/02/2026 | Intégration UPDATE 7.5-8.7 : enrichissement S1 (maîtrise informations documentées, confidentialité, clause 7.5), enrichissement O1 (exigences 8.2, refus 8.1), enrichissement O2 (critères sélection 8.4, validation outillages, confidentialité PI, production externalisée 8.5), enrichissement O4 (libération 8.6, processus NC 8.7, registre NC FileMaker). Mise à jour du flux principal (étapes 2, 6, 7, 10). | Roxane Wicky |
