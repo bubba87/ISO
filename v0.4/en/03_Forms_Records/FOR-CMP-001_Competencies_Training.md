@@ -4,7 +4,7 @@
 |---|---|
 | **Reference** | FOR-CMP-001 |
 | **Version** | 0.4 |
-| **Date** | 18/02/2026 |
+| **Date** | 22/02/2026 |
 | **Company** | Plus Sarl |
 
 > **Legend:** :red_circle: [TO BE COMPLETED] = mandatory, missing | :yellow_circle: [RECOMMENDED] = recommended | :green_circle: = already completed | :blue_circle: [TO BE VERIFIED] = to be confirmed
@@ -13,9 +13,10 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Addition of detailed competencies sheet, training plan, self-evaluation | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, ~10 clients, QC sampling). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, QC sampling). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration UPDATEs 7.2, 7.3: addition of supplier competencies (industrial partner extension), addition of section 5 Awareness (clause 7.3), enrichment of competency maintenance. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Diplomas and experience documented (RECAP point #1). Oukailuo replaces Whang. | Roxane Wicky |
 
 ---
 
@@ -35,19 +36,19 @@
 
 | Diploma / Title | Institution | Year | Field |
 |---|---|---|---|
-| :red_circle: [TO BE COMPLETED — not disclosed at this time] | :red_circle: [TO BE COMPLETED — not disclosed at this time] | :red_circle: [TO BE COMPLETED — not disclosed at this time] | :red_circle: [TO BE COMPLETED — not disclosed at this time] |
-| :red_circle: [TO BE COMPLETED — potential additional training — not disclosed] | :red_circle: [TO BE COMPLETED — not disclosed] | :red_circle: [TO BE COMPLETED — not disclosed] | :red_circle: [TO BE COMPLETED — not disclosed] |
+| :green_circle: Commerce diploma | Neuchâtel | :red_circle: [TO BE COMPLETED] | Commerce |
+| :green_circle: International aesthetics diploma | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED] | Aesthetics |
+| :green_circle: Federal certificate (BF) in medical aesthetics | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED] | Medical aesthetics |
 
-> **:red_circle: [TO BE COMPLETED — not disclosed at this time]**: Roxane Wicky's diplomas and initial training have not been disclosed at this stage.
-> Keep copies of diplomas and training certificates in the competencies file when they are provided.
+> Keep copies of diplomas and training certificates in the competencies file.
 > The SQS auditor will request documented evidence of competencies (diplomas, certificates, CV).
 
 ### Relevant professional experience
 
 | Position | Company | Period | Competencies acquired |
 |---|---|---|---|
-| :red_circle: [TO BE COMPLETED — not disclosed] | :red_circle: [TO BE COMPLETED — not disclosed] | :red_circle: [TO BE COMPLETED — not disclosed] | :red_circle: [TO BE COMPLETED — not disclosed] |
-| :green_circle: Managing Director / Founder | :green_circle: Plus Sarl, Cudrefin | :green_circle: 2007 - present | :green_circle: China-Europe industrial coordination, complete business management, European client relations and Chinese partners (Yuyao Mould Factory, Whang) |
+| :green_circle: Assistant to management | :green_circle: Plus Sarl, Cudrefin | :green_circle: 2013 - 2016 | :green_circle: Assistance to management, operational support |
+| :green_circle: Managing Director | :green_circle: Plus Sarl, Cudrefin (founded 2007) | :green_circle: 2016 - present | :green_circle: China-Europe industrial coordination, complete business management, European client relations and Chinese partners (Yuyao Mould Factory, Oukailuo) |
 
 ### Key competencies identified (section 7.2 of QMS)
 
@@ -56,17 +57,17 @@
 | 1 | **Strong availability for service continuity** | Ability to ensure service continuity and responsiveness to clients and partners, as the sole point of contact for the company | :green_circle: Acquired — daily practice since 2007 |
 | 2 | **Ability to define priorities** | Aptitude to define priorities in overall business management, simultaneously managing sales, technical, logistics and administrative aspects | :green_circle: Acquired — management experience since 2007 |
 | 3 | **Assessment of competency limits** | Ability to assess competency limits and to refuse or stop a product when a compliant solution cannot be guaranteed | :green_circle: Acquired — critical competency for quality |
-| 4 | **Relationship skills and human sense** | Relationship skills and human sense for handling complaints, maintaining trust and preserving relationships with suppliers (Yuyao Mould Factory and Whang) | :green_circle: Acquired — foundation of 19-year relationship with Yuyao Mould Factory |
+| 4 | **Relationship skills and human sense** | Relationship skills and human sense for handling complaints, maintaining trust and preserving relationships with suppliers (Yuyao Mould Factory and Oukailuo) | :green_circle: Acquired — foundation of 19-year relationship with Yuyao Mould Factory |
 | 5 | **Rapid problem resolution** | Ability to implement rapid problem resolution solutions, including commercial adjustments | :green_circle: Acquired — common practice |
 | 6 | **English communication** | Proficiency in English communication with international partners (European clients, Chinese suppliers) | :green_circle: Acquired — daily use |
-| 7 | **Availability for critical travel** | Availability to travel to Chinese partners (Yuyao Mould Factory, Whang), clients or customs authorities in case of critical situation | :green_circle: Acquired — regular travel to China |
+| 7 | **Availability for critical travel** | Availability to travel to Chinese partners (Yuyao Mould Factory, Oukailuo), clients or customs authorities in case of critical situation | :green_circle: Acquired — regular travel to China |
 
 ### Competency maintenance
 
 | Maintenance mode | Description |
 |---|---|
 | **Daily experience** | :green_circle: Daily practice of industrial coordination since 2007 |
-| **Continuous communication with partners** | :green_circle: Regular exchanges with Yuyao Mould Factory and Whang (email, WeChat) |
+| **Continuous communication with partners** | :green_circle: Regular exchanges with Yuyao Mould Factory and Oukailuo (email, WeChat) |
 | **Client feedback** | :green_circle: Continuous learning through feedback and requirements from European clients (~10 active clients) |
 | **Field practice** | :green_circle: Regular visits to Chinese partners and direct production monitoring |
 | **Technical and sector monitoring** | :green_circle: Monitoring of technical, regulatory and logistical developments applicable to the activity |
@@ -100,7 +101,7 @@ Partner competencies are continuously evaluated through:
 | **Management** | Strategy, business management, decision making | :green_circle: [X] Acquired [ ] In progress [ ] To be acquired | [ ] Yes [X] No |
 | **Quality manager** | ISO 9001, audit, QMS management | :yellow_circle: [ ] Acquired [X] In progress [ ] To be acquired | :yellow_circle: [X] Yes [ ] No — [RECOMMENDED: ISO 9001 training via SQS or SAQ] |
 | **Sales** | Negotiation, client relations, quotations | :green_circle: [X] Acquired [ ] In progress [ ] To be acquired | [ ] Yes [X] No |
-| **Purchasing / Subcontracting** | Supplier management (Yuyao Mould Factory, Whang), import, international logistics | :green_circle: [X] Acquired [ ] In progress [ ] To be acquired | [ ] Yes [X] No |
+| **Purchasing / Subcontracting** | Supplier management (Yuyao Mould Factory, Oukailuo), import, international logistics | :green_circle: [X] Acquired [ ] In progress [ ] To be acquired | [ ] Yes [X] No |
 | **Technical coordination** | Knowledge of moulds, plastic injection, screws, materials (without design — 8.3 excluded) | :green_circle: [X] Acquired [ ] In progress [ ] To be acquired | [ ] Yes [X] No |
 | **Administration** | Accounting (in connection with Paradiso fiduciary), customs, invoicing | :green_circle: [X] Acquired [ ] In progress [ ] To be acquired | [ ] Yes [X] No |
 | **Logistics** | Air, sea, rail transport, international coordination | :green_circle: [X] Acquired [ ] In progress [ ] To be acquired | [ ] Yes [X] No |
@@ -148,7 +149,7 @@ Partner competencies are continuously evaluated through:
 | Technical coordination (moulds, injection, screws, materials) | :red_circle: [TO BE COMPLETED] | [N/A — first evaluation] | |
 | Sales (client relations, negotiation) — ~10 active clients | :red_circle: [TO BE COMPLETED] | [N/A] | |
 | Quality (QMS, ISO 9001 standards, improvement) | :red_circle: [TO BE COMPLETED] | [N/A] | :yellow_circle: [RECOMMENDED — ISO 9001 training recommended, e.g. via SQS] |
-| Supplier management (Yuyao Mould Factory, Whang, logistics) | :red_circle: [TO BE COMPLETED] | [N/A] | |
+| Supplier management (Yuyao Mould Factory, Oukailuo, logistics) | :red_circle: [TO BE COMPLETED] | [N/A] | |
 | Administration (accounting with Paradiso fiduciary, customs) | :red_circle: [TO BE COMPLETED] | [N/A] | |
 | Management (strategy, planning, priorities) | :red_circle: [TO BE COMPLETED] | [N/A] | |
 | International communication (English) | :red_circle: [TO BE COMPLETED] | [N/A] | |

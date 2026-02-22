@@ -5,7 +5,7 @@
 | **Reference** | PRO-ACH-001 |
 | **Version** | 0.4 |
 | **Date of creation** | 10/02/2026 |
-| **Date of revision** | 18/02/2026 |
+| **Date of revision** | 22/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -26,7 +26,7 @@ Define the rules for selection, evaluation and control of suppliers and subcontr
 All purchases and outsourced services having an impact on the quality of products delivered to customers (~10 active customers):
 - Mould manufacturing (Chinese partners)
 - Plastic parts injection moulding (Chinese partners)
-- Screw manufacturing (Whang, Yuyao)
+- Hardware and fasteners (Oukailuo, Yuyao)
 - Subcontracting of specialities by the Chinese partners
 - International transport (freight forwarder, air/sea/rail carrier)
 - Any other supplier having a quality impact
@@ -58,14 +58,14 @@ All purchases and outsourced services having an impact on the quality of product
 | **Basis of the relationship** | :green_circle: Trust built over nearly 20 years of collaboration |
 | **Documented NCs** | :green_circle: NC_2026_1001 - Labelling error (90.60.05710L instead of 90.60.05710) - 10/02/2026 |
 
-### 4.2 Second Specialised Partner: Whang
+### 4.2 Second Specialised Partner: Oukailuo
 
 | Element | Detail |
 |---|---|
-| **Name** | :green_circle: Whang |
+| **Name** | :green_circle: Oukailuo |
 | **Location** | :green_circle: Yuyao, China |
 | **Class** | :green_circle: A - Critical |
-| **Products/Services** | :green_circle: Screws |
+| **Products/Services** | :green_circle: Hardware and fasteners |
 | **Subcontracting** | :green_circle: Does not subcontract -- internal production only |
 | **Certifications** | :blue_circle: [TO BE VERIFIED -- uncertain] |
 
@@ -82,7 +82,7 @@ All purchases and outsourced services having an impact on the quality of product
 
 | Class | Criterion | Examples | Level of control |
 |---|---|---|---|
-| **A - Critical** | Direct impact on product quality | :green_circle: Yuyao Mould Factory, Whang | Continuous monitoring, regular evaluation |
+| **A - Critical** | Direct impact on product quality | :green_circle: Yuyao Mould Factory, Oukailuo | Continuous monitoring, regular evaluation |
 | **B - Important** | Indirect impact on quality or delivery times | Carriers, freight forwarders :yellow_circle: [RECOMMENDED -- names to be documented] | Simplified periodic evaluation |
 | **C - Standard** | Low impact on quality | :green_circle: Office supplies, fiduciary Paradiso, IT tools | No formal evaluation |
 
@@ -118,7 +118,7 @@ The selection and retention of Plus Sarl's partners is based on the following cr
 > **[POINT OF ATTENTION]**: To date, the relationship with the Chinese partners is based on mutual trust
 > built since 2007. There is no formal signed quality agreement.
 >
-> **Deadline:** :green_circle: As soon as the certification file is ready, a quality agreement will be formalised with Yuyao Mould Factory and Whang.
+> **Deadline:** :green_circle: As soon as the certification file is ready, a quality agreement will be formalised with Yuyao Mould Factory and Oukailuo.
 >
 > **Recommendation:** The formalisation of a quality agreement with Class A partners is
 > strongly recommended to meet the requirements of ISO 9001:2015 (clause 8.4).
@@ -150,7 +150,7 @@ The selection and retention of Plus Sarl's partners is based on the following cr
 
 | Element | Detail |
 |---|---|
-| **QC responsible** | :green_circle: Chinese partner (Yuyao Mould Factory or Whang) |
+| **QC responsible** | :green_circle: Chinese partner (Yuyao Mould Factory or Oukailuo) |
 | **Time of inspection** | :green_circle: Before shipment |
 | **Sampling** | :green_circle: The partner sends samples to Plus Sarl in parallel with shipment to the European customer |
 | **Objective** | Allow Plus Sarl to verify product conformity in parallel with delivery |
@@ -200,7 +200,7 @@ For each order, a **production sheet** is created in the FileMaker system compri
     +---------------------------+
     | 3. Technical coordination |---> Exchanges via email and WeChat
     |    with the Chinese       |     with Yuyao Mould Factory or
-    |    partner                |     Whang
+    |    partner                |     Oukailuo
     +---------------------------+
             |
             v
@@ -286,11 +286,11 @@ As the main partner since 2007, Yuyao Mould Factory plays an extended role:
 | **Technical coordination** | Technical interface between Plus Sarl and the production workshops |
 | **Pre-shipment QC** | :green_circle: Performs a quality control before shipment and sends samples to Plus Sarl in parallel with transport |
 
-### 10.3 Role of Whang
+### 10.3 Role of Oukailuo
 
 | Function | Description |
 |---|---|
-| **Specialised production** | :green_circle: Screw manufacturing (screws) |
+| **Specialised production** | :green_circle: Hardware and fasteners manufacturing |
 | **Internal production only** | :green_circle: This partner does not subcontract -- all production is carried out in-house |
 | **Certifications** | :blue_circle: [TO BE VERIFIED -- uncertain] |
 | **Pre-shipment QC** | :green_circle: Performs a quality control before shipment and sends samples to Plus Sarl in parallel with transport |
@@ -345,14 +345,14 @@ See form FOR-EVF-001 for the detail of the annual evaluation.
 | Supplier | Class | Product/Service | Country | Quality agreement | Last evaluation | Score | Status |
 |---|---|---|---|---|---|---|---|
 | :green_circle: Yuyao Mould Factory | A | Moulds + injection moulding + subcontracting coordination | China | No (trust-based) [TO BE FORMALISED -- as soon as the certification file is ready] | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED] | Approved |
-| :green_circle: Whang | A | Screws -- internal production | Yuyao, China | No (trust-based) [TO BE FORMALISED -- as soon as the certification file is ready] | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED] | Approved |
+| :green_circle: Oukailuo | A | Hardware and fasteners -- internal production | Yuyao, China | No (trust-based) [TO BE FORMALISED -- as soon as the certification file is ready] | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED] | Approved |
 | :yellow_circle: [RECOMMENDED -- names to be documented] | B | International transport (air/sea/rail) | :yellow_circle: [RECOMMENDED] | N/A | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED] | Approved |
 | :green_circle: Paradiso | C | Fiduciary / accounting | Switzerland | N/A | N/A | N/A | Approved |
 
 ---
 
 > **Completion instructions:**
-> 1. **PRIORITY**: Formalise a quality agreement with Yuyao Mould Factory and Whang as soon as the certification file is ready
+> 1. **PRIORITY**: Formalise a quality agreement with Yuyao Mould Factory and Oukailuo as soon as the certification file is ready
 > 2. Keep ALL emails and WeChat exchanges with the Chinese partners -- these are evidence of monitoring
 > 3. Record all orders in FileMaker with references, deadlines and specifications
 > 4. The auditor (SQS) will want to see: evidence of technical coordination, evaluations, NC tracking per partner
@@ -369,5 +369,6 @@ See form FOR-EVF-001 for the detail of the annual evaluation.
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Addition of the reference to NC_2026_1001 as the first documented supplier NC case. Addition of section 9.3 (on-site quality monitoring) with the trip to China planned for March 2026 and its objectives. Update of section 7 (quality agreement) with reference to the March 2026 trip. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, QC sampling). Addition of the field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, QC sampling). Addition of the field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of UPDATE 2.1: addition of section 9 "FileMaker Production Sheet" (specifications, deadlines, updates, monitoring, sampling). Addition of order review (cf. M1-DIR-001, CTX-QUA-001 section 1.3) in the flowchart. Renumbering of sections 9→10, 10→11, 11→12. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Oukailuo replaces Whang (hardware and fasteners). | Roxane Wicky |

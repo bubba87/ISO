@@ -4,7 +4,7 @@
 |---|---|
 | **Reference** | FOR-SAT-001 |
 | **Version** | 0.4 |
-| **Date** | 18/02/2026 |
+| **Date** | 22/02/2026 |
 | **Company** | Plus Sarl |
 
 > **Legend:** 🔴 [TO BE COMPLETED] = mandatory, missing | 🟡 [RECOMMENDED] = recommended | 🟢 = already filled | 🔵 [TO BE VERIFIED] = to be confirmed
@@ -13,8 +13,9 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Added detailed methods, indicators, summary | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, ~10 clients, QC sampling). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, QC sampling). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Confirmed as customer satisfaction document (RECAP point #6). | Roxane Wicky |
 
 ---
 

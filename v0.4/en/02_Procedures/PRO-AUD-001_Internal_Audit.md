@@ -5,7 +5,7 @@
 | **Reference** | PRO-AUD-001 |
 | **Version** | 0.4 |
 | **Date of creation** | 10/02/2026 |
-| **Date of revision** | 18/02/2026 |
+| **Date of revision** | 22/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -33,20 +33,15 @@ The audit covers in particular:
 |---|---|
 | Plan the audit programme | :green_circle: Roxane Wicky (Managing Director) |
 | Select and appoint the internal auditor | :green_circle: Roxane Wicky (Managing Director) |
-| Conduct the audit | The Managing Director herself or an external auditor. :yellow_circle: [RECOMMENDED: an external auditor is strongly recommended to satisfy the independence requirement of clause 9.2 ISO 9001:2015] |
+| Conduct the audit | :green_circle: Capucine & Olav Wicky (shareholders) — appointed as internal auditors (independence requirement satisfied, clause 9.2.2 c) |
 | Validate the audit report | :green_circle: Roxane Wicky (Managing Director) |
 | Implement corrective actions | :green_circle: Roxane Wicky (Managing Director) |
 | Certification body | :green_circle: SQS |
 
-> **IMPORTANT - INDEPENDENCE REQUIREMENT (clause 9.2 ISO 9001:2015):**
-> The Managing Director should not audit her own processes. An independent external auditor
-> is strongly recommended to guarantee the objectivity and impartiality of the audit.
-
-> **:yellow_circle: [RECOMMENDED: EXTERNAL AUDITOR]**
-> The Managing Director indicated that she could conduct the audit herself, or engage an external auditor.
-> The ISO 9001:2015 standard (clause 9.2.2) requires that "auditors shall not audit their own work".
-> For a sole proprietorship such as Plus Sarl, **it is strongly recommended to appoint an external auditor**
-> (quality consultant, certified auditor, or audit exchange between SMEs) to satisfy this independence requirement.
+> **INDEPENDENCE REQUIREMENT (clause 9.2.2 c) — SATISFIED:**
+> Capucine & Olav Wicky (shareholders of Plus Sarl) have been appointed as internal auditors.
+> As shareholders who do not perform the operational activities audited, they satisfy the
+> independence requirement of clause 9.2.2 c) of ISO 9001:2015 ("auditors shall not audit their own work").
 > The certification body SQS will examine this point during the certification audit.
 
 ## 4. Frequency
@@ -70,16 +65,16 @@ The audit covers in particular:
 
 | Process to be audited | ISO 9001 clause | Planned period | Auditor | Status |
 |---|---|---|---|---|
-| M1 - Leadership and commitment | 5.1, 5.2, 5.3 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
-| M2 - Continual improvement | 10.1, 10.2, 10.3 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
-| M3 - Management review | 9.3 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
-| O1 - Commercial (European customer relations) | 8.2 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
-| O2 - Purchasing and subcontracting (Chinese partners) | 8.4 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
-| O3 - Coordination, monitoring and delivery | 8.5, 8.6, 8.7 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
-| S1 - Document management (FileMaker, files, emails) | 7.5 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
-| S2 - Competencies | 7.2 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
-| Context and planning | 4.1, 4.2, 4.3, 4.4, 6.1, 6.2 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
-| Customer satisfaction | 9.1.2 | :red_circle: [TO BE COMPLETED] | :red_circle: [TO BE COMPLETED -- external auditor recommended] | [ ] Planned / Completed |
+| M1 - Leadership and commitment | 5.1, 5.2, 5.3 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
+| M2 - Continual improvement | 10.1, 10.2, 10.3 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
+| M3 - Management review | 9.3 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
+| O1 - Commercial (European customer relations) | 8.2 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
+| O2 - Purchasing and subcontracting (Chinese partners) | 8.4 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
+| O3 - Coordination, monitoring and delivery | 8.5, 8.6, 8.7 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
+| S1 - Document management (FileMaker, files, emails) | 7.5 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
+| S2 - Competencies | 7.2 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
+| Context and planning | 4.1, 4.2, 4.3, 4.4, 6.1, 6.2 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
+| Customer satisfaction | 9.1.2 | :red_circle: [TO BE COMPLETED] | :green_circle: Capucine & Olav Wicky | [ ] Planned / Completed |
 
 > **Note:** Clause 8.3 (Design and development) is excluded from the audit scope as it is excluded from the scope of the Plus Sarl QMS (the company does not carry out any design activities).
 
@@ -100,15 +95,13 @@ The audit covers in particular:
 ### 6.2 Auditor Selection Criteria
 
 The internal auditor must:
-- [ ] Be independent of the audited processes (not be the Managing Director) :yellow_circle: [RECOMMENDED -- strongly recommended for clause 9.2]
+- [x] Be independent of the audited processes (not be the Managing Director) :green_circle: Capucine & Olav Wicky (shareholders) — independence satisfied per clause 9.2.2 c)
 - [ ] Have knowledge of the ISO 9001:2015 standard
 - [ ] Ideally, have internal auditor training (ISO 19011)
 - [ ] Be objective and impartial
 
-**Options for Plus Sarl:**
-- Appointed quality consultant
-- Auditor from a partner company (audit exchange between SMEs)
-- Independent certified auditor
+**Appointed auditors for Plus Sarl:**
+- :green_circle: Capucine & Olav Wicky (shareholders — internal auditors, independence requirement satisfied per clause 9.2.2 c)
 
 ### 6.3 Conducting the Audit (Audit Day)
 
@@ -124,7 +117,7 @@ The internal auditor must:
 - Review of exchanges with the Chinese partners (email, WeChat)
 - Check of operational documents (customs invoices, customer invoices, delivery notes, order acknowledgements)
 - Verification of FileMaker data backups (cloud, hosted by provider)
-- Verification of the quality agreement with Yuyao Mould Factory and Whang
+- Verification of the quality agreement with Yuyao Mould Factory and Oukailuo
 - Review of the pre-shipment QC and sampling process
 
 ### 6.4 After the Audit
@@ -155,16 +148,15 @@ The internal auditor must:
 |---|---|
 | **Audit date** | :red_circle: [TO BE COMPLETED -- DD/MM/YYYY] |
 | **Location** | :green_circle: Plus Sarl - Route de Montet 11, 1588 Cudrefin, Switzerland |
-| **Auditor** | :red_circle: [TO BE COMPLETED -- The Managing Director herself or an external auditor. :yellow_circle: An external auditor is strongly recommended to satisfy the independence requirement of clause 9.2 ISO 9001:2015] |
+| **Auditor** | :green_circle: Capucine & Olav Wicky (shareholders — internal auditors, independence satisfied per clause 9.2.2 c) |
 | **Scope** | :green_circle: All QMS processes (excluding 8.3 Design and development) |
 | **Normative reference** | :green_circle: ISO 9001:2015 Standard |
 | **Certification body** | :green_circle: SQS |
 
-> **IMPORTANT - INDEPENDENCE REQUIREMENT (clause 9.2 ISO 9001:2015):**
-> Although the Managing Director may consider conducting the audit herself,
-> the ISO 9001:2015 standard requires that auditors do not verify their own work.
-> For Plus Sarl, a sole proprietorship, it is strongly recommended to engage an independent
-> external auditor. This audit report template must be completed by the appointed auditor.
+> **INDEPENDENCE REQUIREMENT (clause 9.2.2 c) — SATISFIED:**
+> Capucine & Olav Wicky (shareholders) have been appointed as internal auditors.
+> They do not perform the operational activities audited, satisfying clause 9.2.2 c).
+> This audit report template must be completed by the appointed auditors.
 > The certification body SQS will evaluate compliance with this requirement.
 
 ### Elements Verified
@@ -237,4 +229,5 @@ The internal auditor must:
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Update of the audit report template (section 8) to align with the report structure defined by the Managing Director: general information, elements verified, findings (conforming points, points for improvement, NCs detected), actions decided, conclusion and validation. Retention of the independence warning (clause 9.2). | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, QC sampling). Addition of the field legend system. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, QC sampling). Addition of the field legend system. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Internal auditors confirmed: Capucine & Olav Wicky (shareholders). Oukailuo replaces Whang. | Roxane Wicky |

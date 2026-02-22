@@ -4,7 +4,7 @@
 |---|---|
 | **Reference** | FOR-CTR-001 |
 | **Version** | 0.4 |
-| **Date** | 18/02/2026 |
+| **Date** | 22/02/2026 |
 | **Company** | Plus Sarl |
 
 > **Legend:** :red_circle: [TO BE COMPLETED] = mandatory, missing | :yellow_circle: [RECOMMENDED] = recommended | :green_circle: = already completed | :blue_circle: [TO BE VERIFIED] = to be confirmed
@@ -13,7 +13,7 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Added QC checklist, detailed control sheet, register, link to NC_2026_1001 | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, ~10 clients, QC sampling). Added field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, QC sampling). Added field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration UPDATE 2.1 Process 04: reference to formalized quality control (CTX-QUA-001 section 1.1). Control sheet to be formalized with YAN. | Roxane Wicky |
 
 ---
@@ -50,7 +50,7 @@ Within the framework of Plus Sarl's industrial coordination activity, products m
 > or upon receipt of documents, in order to prevent recurrence of this type of non-conformity.
 >
 > **Note:** This checklist will be finalized and validated during the trip to China in March 2026,
-> in consultation with manufacturing partners (Yuyao Mould Factory and Whang).
+> in consultation with manufacturing partners (Yuyao Mould Factory and Oukailuo).
 >
 > **Update v0.3 (NC_2026_1001):** Monitoring in progress: yes. Photos not available. Cause not yet identified.
 
@@ -89,7 +89,7 @@ Within the framework of Plus Sarl's industrial coordination activity, products m
 | **Shipment date** | :red_circle: [TO BE COMPLETED — DD/MM/YYYY] |
 | **Expected delivery date** | :red_circle: [TO BE COMPLETED — DD/MM/YYYY] |
 | **Actual delivery date** | :red_circle: [TO BE COMPLETED — DD/MM/YYYY] |
-| **Supplier** | [ ] Yuyao Mould Factory [ ] Whang |
+| **Supplier** | [ ] Yuyao Mould Factory [ ] Oukailuo |
 | **Plus Sarl order No.** | :red_circle: [TO BE COMPLETED — FileMaker reference] |
 | **Final customer** | :red_circle: [TO BE COMPLETED — European customer name] |
 | **Carrier** | :red_circle: [TO BE COMPLETED — Carrier / freight forwarder name] |
@@ -209,7 +209,7 @@ Within the framework of Plus Sarl's industrial coordination activity, products m
 | **Photos available** | :red_circle: Not available |
 | **Cause identified** | :red_circle: Not yet identified |
 | **Corrective action** | :green_circle: Quality control checklist implemented (FOR-CTR-001) |
-| **Next step** | :yellow_circle: [RECOMMENDED — identify root cause during trip to China in March 2026, in consultation with Yuyao Mould Factory and/or Whang] |
+| **Next step** | :yellow_circle: [RECOMMENDED — identify root cause during trip to China in March 2026, in consultation with Yuyao Mould Factory and/or Oukailuo] |
 
 ---
 
@@ -233,5 +233,5 @@ Within the framework of Plus Sarl's industrial coordination activity, products m
 > 7. In the absence of complaint within a reasonable time, conformity is implicit
 > 8. If the customer reports a problem, immediately open an NC sheet (PRO-NCF-001)
 > 9. These sheets are key evidence for the SQS auditor — they demonstrate monitoring despite absence of physical reception
-> 10. The planned visit to China in March 2026 will allow finalizing the quality control checklist and strengthening upstream quality control with Yuyao Mould Factory and Whang (cf. section 8.5 of quality manual)
+> 10. The planned visit to China in March 2026 will allow finalizing the quality control checklist and strengthening upstream quality control with Yuyao Mould Factory and Oukailuo (cf. section 8.5 of quality manual)
 > 11. NC_2026_1001: monitoring in progress, photos not available, cause not yet identified — to be investigated during trip to China

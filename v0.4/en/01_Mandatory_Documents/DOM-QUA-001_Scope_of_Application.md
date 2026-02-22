@@ -5,7 +5,7 @@
 | **Reference** | DOM-QUA-001 |
 | **Version** | 0.4 |
 | **Creation date** | 10/02/2026 |
-| **Revision date** | 20/02/2026 |
+| **Revision date** | 22/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -51,7 +51,7 @@ The Quality Management System of Plus Sarl covers the following activities:
 
 - Injected industrial parts (custom-developed molds)
 - Injection molds (developed and stored at Yuyao Mould Factory in China) — property of clients 🟢
-- Screws manufactured by Whang (Yuyao, China) 🟢
+- Screws manufactured by Oukailuo (Yuyao, China) 🟢
 - Existing parts sourced from suppliers
 - Industrial coordination and logistics services
 
@@ -90,7 +90,7 @@ See document CTX-QUA-001 for details on interested parties and their requirement
 |---|---|---|
 | Mold manufacturing | Yuyao Mould Factory (main longstanding partner) 🟢 | Quality agreement, specifications, production monitoring, incoming inspection |
 | Plastic part injection | Yuyao Mould Factory 🟢 | Quality agreement, technical specifications, incoming inspection |
-| Screw manufacturing | **Whang** (Yuyao, China) 🟢 | Quality agreement, specifications, incoming inspection |
+| Screw manufacturing | **Oukailuo** (Yuyao, China) 🟢 | Quality agreement, specifications, incoming inspection |
 | International transport | Freight forwarders (air, sea, rail) 🟡 [RECOMMENDED — names not currently available] | Transport specifications, shipment tracking |
 | Accounting / fiduciary | **Paradiso** 🟢 | Service agreement |
 
@@ -102,6 +102,6 @@ See document CTX-QUA-001 for details on interested parties and their requirement
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Version update, no content change | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Addition of IDE number (CH-645.4.101.228-7). Point #8 resolved. | Roxane Wicky |

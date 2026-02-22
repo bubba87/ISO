@@ -5,7 +5,7 @@
 | **Reference** | CTX-QUA-001 |
 | **Version** | 0.4 |
 | **Date de creation** | 10/02/2026 |
-| **Date de revision** | 20/02/2026 |
+| **Date de revision** | 22/02/2026 |
 | **Redige par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 
@@ -21,7 +21,7 @@ Plus Sarl is a Swiss company founded in 2007, with its headquarters located at R
 
 Plus Sarl works with two Chinese manufacturing partners:
 - **Yuyao Mould Factory**: main and historical partner 🟢
-- **Whang** (Yuyao, China — specialized in screws): second production partner 🟢
+- **Oukailuo** (Yuyao, China — hardware and fasteners): second production partner 🟢
 
 The company has approximately **10 active customers**. 🟢
 
@@ -211,7 +211,7 @@ This system is based in particular on:
 
 ### Data Backup
 
-Company data is backed up in the **cloud, hosting at the supplier**. 🟢
+Data is backed up at **Gramatec SA** (Switzerland). Recording is automatic. In case of loss, theft or system failure, Gramatec SA is prepared to restore all data. 🟢
 
 ### Value Chain
 
@@ -257,7 +257,7 @@ Understanding the organization's context constitutes the foundation of the quali
 | In-depth knowledge of the European market and customer needs 🟢 | No in-house production capacity 🟢 |
 | Competitive production costs thanks to Chinese partners 🟢 | Vulnerability in case of managing director's absence or unavailability 🟢 |
 | High level of documentary, technical and organizational control 🟢 | High requirement for priority and planning management 🟢 |
-| Fluid and continuous communication capability (multilingual, multichannel) 🟢 | Chinese partners' certifications not confirmed 🔵 [TO VERIFY — Whang certifications uncertain] |
+| Fluid and continuous communication capability (multilingual, multichannel) 🟢 | Chinese partners' certifications not confirmed 🔵 [TO VERIFY — Oukailuo certifications uncertain] |
 | Direct and rapid communication with industrial partners in China 🟢 | Knowledge centralization 🟢 |
 | Agile organization enabling rapid decision-making 🟢 | Dependence on digital tools and remote communications for activity coordination 🟢 |
 
@@ -269,8 +269,8 @@ Understanding the organization's context constitutes the foundation of the quali
 | Production quality strengthening 🟢 | Significant international transport delays 🟢 |
 | Continual improvement of customer satisfaction 🟢 | Major quality defects on already manufactured products 🟢 |
 | ISO 9001 certification via SQS = access to new markets and trust strengthening 🟢 | Loss of an important customer 🟢 |
-| Possible supplier diversification in Asia (Whang already in place as second partner) 🟢 | Variations in production, transport and raw material costs 🟢 |
-| Development of screw offering via Whang partnership 🟢 | Risks related to customs formalities (level considered controllable) 🟢 |
+| Possible supplier diversification in Asia (Oukailuo already in place as second partner) 🟢 | Variations in production, transport and raw material costs 🟢 |
+| Development of screw offering via Oukailuo partnership 🟢 | Risks related to customs formalities (level considered controllable) 🟢 |
 | | Hazards related to geopolitical context 🟢 |
 | | Economic dependence on a limited number of customers 🟢 |
 
@@ -283,7 +283,7 @@ This SWOT analysis is reviewed at least once a year during the management review
 | Interested party | Requirements / Expectations | Monitoring |
 |---|---|---|
 | **European customers** (~10 active customers) | Technical conformity of parts, deadline compliance, responsive communication, confidentiality and protection of intellectual property 🟢 | Order tracking, satisfaction surveys, complaint handling |
-| **Chinese manufacturing partners** (Yuyao Mould Factory + **Whang**, Yuyao) 🟢 | Clear transmission of requirements and efficient coordination. Tooling development, mold manufacturing, production of parts and screws. Must comply with technical requirements, quality and deadlines 🟢 | Annual supplier evaluation, production monitoring, regular communication |
+| **Chinese manufacturing partners** (Yuyao Mould Factory + **Oukailuo**, Yuyao) 🟢 | Clear transmission of requirements and efficient coordination. Tooling development, mold manufacturing, production of parts and screws. Must comply with technical requirements, quality and deadlines 🟢 | Annual supplier evaluation, production monitoring, regular communication |
 | **International transport and logistics service providers** | Deadline reliability, goods integrity and shipping document conformity 🟢 | Shipment tracking, reliability evaluation, delivery performance |
 | **Customs authorities** | Regulatory compliance regarding import/export; compliance with applicable import requirements 🟢 | Customs document monitoring, regulatory watch |
 | **Fiduciary: Paradiso** 🟢 | Administrative, accounting and tax compliance | Monitoring of legal obligations, periodic reports |
@@ -316,8 +316,8 @@ The needs and expectations of these interested parties are taken into account in
 
 | Element | Detail |
 |---|---|
-| **Degrees and training** | 🔴 [TO FILL IN — not disclosed at the moment] |
-| **Professional experience** | Founder and managing director of Plus Sarl since 2007 (China-Europe industrial coordination) 🟢 |
+| **Degrees and training** | 🟢 Commerce diploma (Neuchâtel), International aesthetics diploma, Federal certificate (BF) in medical aesthetics |
+| **Professional experience** | Assistant to management 2013-2016, Managing director of Plus Sarl since 2016 (China-Europe industrial coordination, founded 2007) 🟢 |
 
 ### Responsibility Matrix
 
@@ -329,13 +329,9 @@ The needs and expectations of these interested parties are taken into account in
 | Purchasing / Subcontracting | Chinese partner relations, orders, production monitoring | Roxane Wicky (Managing Director) |
 | Technical coordination | Mold specifications, technical monitoring, validation | Roxane Wicky (Managing Director) |
 | Administrative | Invoicing, customs documents, correspondence | Roxane Wicky (Managing Director) |
-| Internal audit | Conducting the annual internal audit | The managing director herself, otherwise an **independent external auditor** |
+| Internal audit | Conducting the annual internal audit | 🟢 **Capucine Wicky & Olav Wicky** (shareholders of Plus Sarl) — independence requirement satisfied (clause 9.2) |
 
-> **Strong recommendation (ISO 9001:2015, clause 9.2)**: Although the managing director has indicated
-> she can conduct the audit herself, it is **strongly recommended** to appoint an independent
-> external auditor. In a one-person organization, the requirement for auditor independence and
-> impartiality (clause 9.2.2 c) cannot be met if the audit is
-> performed by the only person in the organization. 🟡 [RECOMMENDED — appoint an external auditor]
+> **Decision (clause 9.2):** Internal auditors are Capucine Wicky and Olav Wicky, shareholders of Plus Sarl. They are not involved in operational processes, which satisfies the independence and impartiality requirement (clause 9.2.2 c). 🟢
 
 ---
 
@@ -389,7 +385,7 @@ These risks and opportunities are monitored regularly and integrated into the co
 
 | # | Risk / Opportunity | Type | Probability | Impact | Level | Planned action |
 |---|---|---|---|---|---|---|
-| R2 | Failure or unavailability of a Chinese partner/supplier | Risk | Low | Very high | **High** | Maintaining close communication with industrial partners and reinforced production monitoring; availability of Whang as second partner |
+| R2 | Failure or unavailability of a Chinese partner/supplier | Risk | Low | Very high | **High** | Maintaining close communication with industrial partners and reinforced production monitoring; availability of Oukailuo as second partner |
 | R3 | Major quality defects on already manufactured products | Risk | Medium | High | **High** | Rapid non-conformity handling, replacement of defective parts and implementation of reinforced controls during subsequent productions |
 | O3 | Production quality strengthening | Opportunity | High | High | **High** | Precise specifications, reinforced controls, systematic feedback; rigorous selection and monitoring of industrial partners |
 
@@ -418,7 +414,7 @@ To control these risks, Plus Sarl implements in particular the following actions
 
 | Risk | Key actions |
 |---|---|
-| Chinese partner failure | Maintaining close communication with industrial partners and reinforced production monitoring; Whang available as second partner |
+| Chinese partner failure | Maintaining close communication with industrial partners and reinforced production monitoring; Oukailuo available as second partner |
 | International transport delays | Selection and reassessment of carriers based on their reliability and performance; safety margins in deadlines |
 | Major quality defects | Rapid non-conformity handling, replacement of defective parts and implementation of reinforced controls during subsequent productions |
 | Loss of an important customer | Maintaining a trust relationship and high level of service to retain customers; customer portfolio diversification |
@@ -541,7 +537,7 @@ The infrastructure necessary for operations includes:
 | Internet access | Communication, logistics tracking and access to necessary information 🟢 |
 | WeChat application | Operational exchanges with partners in China 🟢 |
 | Mobile phone | Availability and responsiveness in communications 🟢 |
-| Cloud backup | Data backup, hosted by provider 🟢 |
+| Backup | Gramatec SA (Switzerland) — automatic recording, full restore guaranteed 🟢 |
 
 These tools are maintained in working order to ensure business continuity.
 
@@ -567,9 +563,9 @@ The company ensures to:
 | Partner | Activity | Relationship | Monitoring |
 |---|---|---|---|
 | **Yuyao Mould Factory** | Mold manufacturing and injection | Main and longstanding partner (since 2007) 🟢 | Quality agreement, annual evaluation (FOR-EVF-001) |
-| **Whang** (Yuyao) | Screw manufacturing | Second production partner 🟢 | Quality agreement, annual evaluation (FOR-EVF-001) |
+| **Oukailuo** (Yuyao) | Hardware and fasteners | Second production partner 🟢 | Quality agreement (FOR-AQF-002), annual evaluation (FOR-EVF-001) |
 | **Paradiso** | Fiduciary / accounting | Service agreement 🟢 | Annual |
-| Freight forwarders | International transport (air, sea, rail) | 🟡 [RECOMMENDED — names not available] | Per shipment |
+| **ECAM** (China), contact Sofia | International transport (air, sea, rail) | Main carrier 🟢 — communication via WeChat/email | Per shipment |
 
 ### 7.6 Communication (clause 7.4)
 
@@ -630,7 +626,7 @@ Molds are developed and stored in China, at manufacturing partners. Molds are th
 | Element | Detail |
 |---|---|
 | **Mold ownership** | Molds belong to customers 🟢 |
-| **Storage location** | At Chinese partners (Yuyao Mould Factory, Whang) |
+| **Storage location** | At Chinese partners (Yuyao Mould Factory, Oukailuo) |
 | **Inventory** | An inventory exists 🟢 |
 | **Mold condition monitoring** | 🟡 [RECOMMENDED — implement periodic mold condition monitoring] |
 
@@ -665,12 +661,14 @@ This document must be reviewed at least **once a year** during the management re
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Canton correction: Cudrefin is in the canton of Fribourg (not Vaud) | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of chapters 2.1 (Activities and organization of outsourced production), 2.2 (Customer relationship and understanding of needs), 2.2.1 (Analysis and validation of customer requests) and 3/3.1 (Legal form, managing director's responsibilities, QMS support) from the quality manual. Addition of 5 formalized processes (01-04 + S1), order review and reference to M1-DIR-001. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Integration of UPDATEs 4.1, 4.2, 6.1 (merge): SWOT enrichment (addition of Strengths/Weaknesses/Threats UPDATE 4.1), interested parties enrichment (descriptions UPDATE 4.2), risk section enrichment (introduction, summary, opportunities UPDATE 6.1). | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration of UPDATE 6.3: addition of section 6 Planning of Changes (types, impact analysis by process, implementation, review). Addition of IDE number. Renumbering of sections 7-9. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration of UPDATE 7: addition of section 7 Resources (clause 7.1) — general, HR, infrastructure, environment, external resources. Renumbering of sections 8-10. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration of UPDATE 7.4: addition of sections 7.6 Communication (clause 7.4) and 7.7 Confidentiality management. Section 7 extended to clauses 7.1-7.4. | Roxane Wicky |
+| 0.4 | 21/02/2026 | Integration of UPDATE 7.5-8.7: no direct changes to this document (changes apply to CRT-QUA-001, PRO-NCF-001, PRO-ACR-001). | Roxane Wicky |
+| 0.4 | 22/02/2026 | Integration UPDATE 9.1/10.2/10.3/9.3 and RECAP 13 points: diplomas and experience of managing director documented (section 4), internal auditor resolved = Capucine & Olav Wicky (section 4), backup = Gramatec SA (sections 1, 7.3), external resources updated (section 7.5) — Oukailuo description, ECAM carrier added. | Roxane Wicky |
 
 ---
 

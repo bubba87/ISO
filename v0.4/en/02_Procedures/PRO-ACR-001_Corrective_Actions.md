@@ -5,7 +5,7 @@
 | **Reference** | PRO-ACR-001 |
 | **Version** | 0.4 |
 | **Creation date** | 10/02/2026 |
-| **Revision date** | 18/02/2026 |
+| **Revision date** | 22/02/2026 |
 | **Prepared by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -179,7 +179,7 @@ The objective of corrective actions is to prevent recurrence of NCs and reduce i
 | | - Ask supplier to implement double control on labeling |
 | | - Integrate labeling control into pre-shipment QC |
 
-> **Guiding principle:** Plus Sarl's corrective actions aim to prevent recurrence and reduce impact on the customer. The managing director acts to the extent of her competencies and relies on her Chinese partners (Yuyao Mould Factory and Whang) for technical aspects of manufacturing.
+> **Guiding principle:** Plus Sarl's corrective actions aim to prevent recurrence and reduce impact on the customer. The managing director acts to the extent of her competencies and relies on her Chinese partners (Yuyao Mould Factory and Oukailuo) for technical aspects of manufacturing.
 
 **Step 3 - Identify root cause**
 
@@ -232,7 +232,7 @@ The corrective action must:
 | **Method used** | [ ] 5 Whys [ ] Other |
 | **Analysis detail** | [See 5 Whys table] |
 | **Root cause identified** | [Root cause description] |
-| **Partner involved in analysis** | [ ] Yuyao Mould Factory [ ] Whang [ ] Carrier [ ] Internal analysis only |
+| **Partner involved in analysis** | [ ] Yuyao Mould Factory [ ] Oukailuo [ ] Carrier [ ] Internal analysis only |
 
 ### Action plan
 
@@ -340,7 +340,7 @@ The corrective action must:
 > 1. Only open a CA if justified (major, recurring, or audit NC)
 > 2. Take time to properly analyze the root cause -- this is the key step
 > 3. The 5 Whys method is simple and effective for a micro-company like Plus Sarl
-> 4. Involve Chinese partners (Yuyao Mould Factory or Whang) in the analysis when the NC comes from manufacturing
+> 4. Involve Chinese partners (Yuyao Mould Factory or Oukailuo) in the analysis when the NC comes from manufacturing
 > 5. Document exchanges (emails, WeChat) as evidence of corrective actions
 > 6. The auditor (SQS) will verify that your CAs are effective (not just on paper)
 > 7. Root cause analysis is done to the extent of the managing director's competencies -- it is a continuous improvement approach
@@ -354,5 +354,6 @@ The corrective action must:
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Addition of first real corrective action (AC_2026_001 linked to NC_2026_1001 - labeling error). Addition of Scenario 4 (labeling/packaging error). Numbering format update (underscores). Addition of "Labeling/Packaging" category in indicators. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, QC sampling). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, QC sampling). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration UPDATE 2.1 Process 04: addition of reference to link with formalized quality control (CTX-QUA-001, section 1.1). | Roxane Wicky |
+| 0.4 | 22/02/2026 | Oukailuo replaces Whang. | Roxane Wicky |

@@ -34,13 +34,13 @@
 |---|---|---|---|---|
 | 4.1.1 | Are the relevant external and internal issues determined? | CTX-QUA-001 (SWOT analysis) | 🔴 [TO BE COMPLETED — during the audit] | |
 | 4.1.2 | Are these issues monitored and reviewed? | Management review report (FOR-RDR-001) | 🔴 [TO BE COMPLETED — during the audit] | |
-| 4.1.3 | Does the context take into account subcontracting in China (Yuyao Mould Factory and Whang)? | CTX-QUA-001, WeChat archives | 🔴 [TO BE COMPLETED — during the audit] | |
+| 4.1.3 | Does the context take into account subcontracting in China (Yuyao Mould Factory and Oukailuo)? | CTX-QUA-001, WeChat archives | 🔴 [TO BE COMPLETED — during the audit] | |
 
 ### 4.2 Understanding the needs and expectations of interested parties
 
 | # | Question | Evidence to examine | Result | Comment |
 |---|---|---|---|---|
-| 4.2.1 | Are the interested parties identified (customers, Yuyao, Whang, SQS, Paradiso, etc.)? | CTX-QUA-001 | 🔴 [TO BE COMPLETED — during the audit] | |
+| 4.2.1 | Are the interested parties identified (customers, Yuyao, Oukailuo, SQS, Paradiso, etc.)? | CTX-QUA-001 | 🔴 [TO BE COMPLETED — during the audit] | |
 | 4.2.2 | Are their relevant requirements determined? | CTX-QUA-001 | 🔴 [TO BE COMPLETED — during the audit] | |
 | 4.2.3 | Is this information reviewed and updated? | Management review report | 🔴 [TO BE COMPLETED — during the audit] | |
 
@@ -50,7 +50,7 @@
 |---|---|---|---|---|
 | 4.3.1 | Is the scope defined and documented? | DOM-QUA-001 | 🔴 [TO BE COMPLETED — during the audit] | |
 | 4.3.2 | Is the exclusion of chapter 8.3 (design) justified? | DOM-QUA-001 — design belongs to the customers, Plus Sarl coordinates | 🔴 [TO BE COMPLETED — during the audit] | |
-| 4.3.3 | Does the scope include the externally provided processes (Yuyao, Whang)? | DOM-QUA-001 | 🔴 [TO BE COMPLETED — during the audit] | |
+| 4.3.3 | Does the scope include the externally provided processes (Yuyao, Oukailuo)? | DOM-QUA-001 | 🔴 [TO BE COMPLETED — during the audit] | |
 
 ### 4.4 QMS and its processes
 
@@ -139,7 +139,7 @@
 | # | Question | Evidence to examine | Result | Comment |
 |---|---|---|---|---|
 | 7.4.1 | Are relevant communications determined? | Email archives (customers), WeChat (Chinese partners) | 🔴 [TO BE COMPLETED — during the audit] | 🟡 RECOMMENDED: implement archiving of WeChat conversations (screenshots, transfer to email, or export from WeChat Desktop) |
-| 7.4.2 | Are the channels appropriate? | Email (customers), WeChat (Yuyao + Whang) | 🔴 [TO BE COMPLETED — during the audit] | |
+| 7.4.2 | Are the channels appropriate? | Email (customers), WeChat (Yuyao + Oukailuo) | 🔴 [TO BE COMPLETED — during the audit] | |
 
 ### 7.5 Documented information
 
@@ -160,7 +160,7 @@
 | # | Question | Evidence to examine | Result | Comment |
 |---|---|---|---|---|
 | 8.2.1 | Is communication with customers controlled? | Customer email archives, order confirmations | 🔴 [TO BE COMPLETED — during the audit] | ~10 active customers, 50-100 orders/year |
-| 8.2.2 | Are product requirements determined? | FileMaker (order tracking), customer specifications | 🔴 [TO BE COMPLETED — during the audit] | Products: injection-moulded plastic parts + screws (Whang) |
+| 8.2.2 | Are product requirements determined? | FileMaker (order tracking), customer specifications | 🔴 [TO BE COMPLETED — during the audit] | Products: injection-moulded plastic parts + screws (Oukailuo) |
 | 8.2.3 | Are requirements reviewed before commitment? | Email archives, order confirmations | 🔴 [TO BE COMPLETED — during the audit] | |
 | 8.2.4 | Are legal/regulatory requirements taken into account? | Customs invoices, import/export regulations | 🔴 [TO BE COMPLETED — during the audit] | |
 
@@ -176,7 +176,7 @@
 
 | # | Question | Evidence to examine | Result | Comment |
 |---|---|---|---|---|
-| 8.4.1 | Are externally provided processes identified? | DOM-QUA-001, PRO-ACH-001 | 🔴 [TO BE COMPLETED — during the audit] | 2 partners: Yuyao Mould Factory (moulds/injection) + Whang (screws) |
+| 8.4.1 | Are externally provided processes identified? | DOM-QUA-001, PRO-ACH-001 | 🔴 [TO BE COMPLETED — during the audit] | 2 partners: Yuyao Mould Factory (moulds/injection) + Oukailuo (screws) |
 | 8.4.2 | Are supplier selection criteria defined? | PRO-ACH-001 | 🔴 [TO BE COMPLETED — during the audit] | |
 | 8.4.3 | Are suppliers periodically evaluated? | FOR-EVF-001 | 🔴 [TO BE COMPLETED — during the audit] | 🔴 First formal evaluation to be carried out |
 | 8.4.4 | Does a quality agreement exist with the Chinese partners? | 🔴 No formal agreement | 🔴 [TO BE COMPLETED — during the audit] | **ATTENTION POINT**: no formal quality agreement. Planned during the China trip end of March 2026. Trilingual agreement FR/EN/CN planned. |
@@ -320,14 +320,14 @@
 > 4. Focus on chapter 8.4 (subcontracting in China) — Plus Sarl's core business
 > 5. Pay particular attention to the 9 attention points identified above
 > 6. Verify traceability in FileMaker
-> 7. Consult email archives (customers) and WeChat (Yuyao + Whang)
+> 7. Consult email archives (customers) and WeChat (Yuyao + Oukailuo)
 > 8. Examine NC_2026_1001 as the first documented NC handling case in the QMS
 > 9. Verify the parallel sampling process (new in v0.3)
 >
 > **Key documents to request:**
 > - FileMaker access (orders, products, prices, transport)
 > - Customer email archives
-> - WeChat archives/screenshots with Yuyao and Whang
+> - WeChat archives/screenshots with Yuyao and Oukailuo
 > - Customs invoices and customer invoices
 > - Delivery notes and reception acknowledgements
 > - NC_2026_1001 file (NC form, AC_2026_001, QC checklist)
@@ -341,5 +341,5 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Addition of NC_2026_1001, attention points | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, SQS, ~10 clients, QC sampling, WeChat archiving). Addition of field legend. 50-100 orders/year. China trip end of March. Trilingual quality agreement. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Integration of responses (Oukailuo, SQS, ~10 clients, QC sampling, WeChat archiving). Addition of field legend. 50-100 orders/year. China trip end of March. Trilingual quality agreement. | Roxane Wicky |

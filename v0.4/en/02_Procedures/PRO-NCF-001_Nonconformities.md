@@ -5,7 +5,7 @@
 | **Reference** | PRO-NCF-001 |
 | **Version** | 0.4 |
 | **Creation date** | 10/02/2026 |
-| **Revision date** | 18/02/2026 |
+| **Revision date** | 22/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -70,7 +70,7 @@ All nonconformities detected:
 | **Internal monitoring** | Detection by the Managing Director during operational monitoring (document verification, photos, exchanges) |
 | **Internal audit** | Audit finding (major or minor NC) |
 | **Certification audit** | Finding by the certification body (SQS) |
-| **Chinese partner feedback** | Problem reported during manufacturing by Yuyao Mould Factory or Whang |
+| **Chinese partner feedback** | Problem reported during manufacturing by Yuyao Mould Factory or Oukailuo |
 | **Routine operations** | Order error, omission, missing document |
 
 > **Important:** All complaints are handled regardless of the date on which they are reported by the customer.
@@ -109,7 +109,7 @@ All nonconformities detected:
         v
     +-------------------+
     | 5. Coordinate with |---> Inform the Chinese partner
-    |    the supplier    |     (Yuyao Mould Factory or Whang)
+    |    the supplier    |     (Yuyao Mould Factory or Oukailuo)
     |                    |     Discuss financial terms
     +-------------------+
         |
@@ -180,7 +180,7 @@ The Managing Director analyses the situation by assessing:
 
 **Step 5 - Coordinate with the Supplier**
 
-- Inform the Chinese partner (Yuyao Mould Factory or Whang) of the NC
+- Inform the Chinese partner (Yuyao Mould Factory or Oukailuo) of the NC
 - Discuss financial terms depending on the origin of the problem:
   - If production defect: borne by the Chinese partner
   - If transport damage: claim to the carrier
@@ -233,7 +233,7 @@ The Managing Director analyses the situation by assessing:
 
 | Element | Detail |
 |---|---|
-| **Partner informed** | [ ] Yuyao Mould Factory [ ] Whang [ ] Carrier |
+| **Partner informed** | [ ] Yuyao Mould Factory [ ] Oukailuo [ ] Carrier |
 | **Date informed** | [DD/MM/YYYY] |
 | **Communication method** | [ ] Email [ ] WeChat [ ] Other |
 | **Financial terms** | [Supplier bears cost / shared / other] |
@@ -358,7 +358,7 @@ The Managing Director analyses the situation by assessing:
 > 1. Record EVERY nonconformity reported by a customer or detected internally, regardless of the date of reporting
 > 2. Use the numbering format NC_YYYY_NNNN (e.g.: NC_2026_1001)
 > 3. Photograph or ask the customer to photograph defects when possible
-> 4. Communicate each product NC to the relevant Chinese partner (Yuyao Mould Factory or Whang)
+> 4. Communicate each product NC to the relevant Chinese partner (Yuyao Mould Factory or Oukailuo)
 > 5. Document exchanges via email or WeChat with the Chinese partners
 > 6. Analyse trends during the management review
 > 7. When in doubt about the origin, prioritise customer satisfaction (replacement)
@@ -372,5 +372,6 @@ The Managing Director analyses the situation by assessing:
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Addition of the first real NC (NC_2026_1001 - labelling error SHIP_25058/CFM00057428/90.60.05710). Addition of a completed NC form example in section 7. Update of the numbering format (NC_YYYY_NNNN with underscores). Addition of the detection source "Internal monitoring" and the origin "Packaging/Labelling". | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, QC sampling). Addition of the field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, QC sampling). Addition of the field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of UPDATE 2.1 Process 04: addition of reference to the formalised pre-shipment quality control (CTX-QUA-001, section 1.1). | Roxane Wicky |
+| 0.4 | 22/02/2026 | Oukailuo replaces Whang. | Roxane Wicky |

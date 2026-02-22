@@ -4,7 +4,7 @@
 |---|---|
 | **Reference** | FOR-RCL-001 |
 | **Version** | 0.4 |
-| **Date** | 18/02/2026 |
+| **Date** | 22/02/2026 |
 | **Company** | Plus Sarl |
 
 > **Legend:** :red_circle: [TO BE COMPLETED] = mandatory, missing | :yellow_circle: [RECOMMENDED] = recommended | :green_circle: = already completed | :blue_circle: [TO BE VERIFIED] = to be confirmed
@@ -13,8 +13,8 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Added register, indicators, link NC_2026_1001 | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Added field legend system. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, ~10 clients, CQ sampling). Added field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Added field legend system. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, CQ sampling). Added field legend system. | Roxane Wicky |
 
 ---
 
@@ -34,7 +34,7 @@
 | **Processing timeframe** | :green_circle: All complaints are processed regardless of the date reported by the customer |
 | **Processing procedure** | :green_circle: Identify the cause, implement corrective actions, ensure customer satisfaction |
 | **Product replacement** | :green_circle: Products are replaced when the non-conformity is attributable to Plus Sarl or its suppliers |
-| **Financial conditions** | :green_circle: Discussed with the supplier (Yuyao Mould Factory or Whang) depending on the origin of the problem |
+| **Financial conditions** | :green_circle: Discussed with the supplier (Yuyao Mould Factory or Oukailuo) depending on the origin of the problem |
 | **Responsible person** | :green_circle: Roxane Wicky (Manager — sole employee) |
 
 ---
@@ -78,7 +78,7 @@
 | **Complaint justified?** | [ ] Yes [ ] Partially [ ] No |
 | **Justification** | :red_circle: [TO BE COMPLETED — If not justified, explain why] |
 | **Origin of problem** | [ ] Manufacturing (Chinese supplier) [ ] Transport [ ] Customer specification [ ] Plus Sarl coordination [ ] Other: :red_circle: [TO BE COMPLETED] |
-| **Supplier concerned** | [ ] Yuyao Mould Factory [ ] Whang [ ] Carrier [ ] Other: :red_circle: [TO BE COMPLETED] |
+| **Supplier concerned** | [ ] Yuyao Mould Factory [ ] Oukailuo [ ] Carrier [ ] Other: :red_circle: [TO BE COMPLETED] |
 | **Associated NC opened?** | [ ] Yes - Ref: NC-[AAAA]-[NNN] [ ] No |
 | **Identified cause** | :red_circle: [TO BE COMPLETED — Root cause of complaint] |
 | **Immediate correction** | :red_circle: [TO BE COMPLETED — Immediate corrective action for customer] |
@@ -132,7 +132,7 @@
 |---|---|---|---|---|---|
 | Number of complaints | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] |
 | Of which justified | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] |
-| Of which related to manufacturing (Yuyao Mould Factory / Whang) | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] |
+| Of which related to manufacturing (Yuyao Mould Factory / Oukailuo) | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] |
 | Of which related to transport | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] |
 | Of which related to coordination | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] |
 | Average processing time (days) | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] | :red_circle: [TO BE COMPLETED — ongoing] |
@@ -145,7 +145,7 @@
 > 1. Record ALL complaints, even verbal ones (by phone or WeChat)
 > 2. Acknowledge receipt to the customer within 24-48h
 > 3. Process critical complaints as a priority
-> 4. Communicate to the concerned Chinese partner (Yuyao Mould Factory or Whang) if the complaint concerns manufacturing
+> 4. Communicate to the concerned Chinese partner (Yuyao Mould Factory or Oukailuo) if the complaint concerns manufacturing
 > 5. Discuss financial conditions with the supplier depending on the origin of the problem
 > 6. Products are replaced when the NC is attributable to Plus Sarl or its suppliers
 > 7. The absence of complaints is used as an indicator of customer satisfaction (see FOR-SAT-001)

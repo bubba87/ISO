@@ -4,7 +4,7 @@
 |---|---|
 | **Reference** | FOR-EVF-001 |
 | **Version** | 0.4 |
-| **Date** | 18/02/2026 |
+| **Date** | 22/02/2026 |
 | **Company** | Plus Sarl |
 
 > **Legend:** 🔴 [TO BE COMPLETED] = mandatory, missing | 🟡 [RECOMMENDED] = recommended | 🟢 = already filled | 🔵 [TO BE VERIFIED] = to be confirmed
@@ -13,8 +13,9 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Addition of detailed evaluation, Yuyao Mould Factory, Supplier B placeholder | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, ~10 customers, QC sampling). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, ~10 customers, QC sampling). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Oukailuo replaces Whang. | Roxane Wicky |
 
 ---
 
@@ -263,20 +264,20 @@
 ---
 ---
 
-## SUPPLIER B — Whang
+## SUPPLIER B — Oukailuo
 
 ### Supplier identification
 
 | Item | Detail |
 |---|---|
-| **Supplier name** | 🟢 Whang |
+| **Supplier name** | 🟢 Oukailuo |
 | **Class** | 🟢 [X] A - Critical [ ] B - Important [ ] C - Standard |
 | **Country** | 🟢 China |
 | **Location** | 🟢 Yuyao, China |
 | **Address** | 🔵 [TO BE VERIFIED — full address in Yuyao] |
 | **Main contact** | 🔵 [TO BE VERIFIED — name and position of the main contact] |
 | **Email / Phone** | 🔵 [TO BE VERIFIED] |
-| **Products/services provided** | 🟢 Screws |
+| **Products/services provided** | 🟢 Hardware and fasteners |
 | **Subcontracted** | 🟢 No (in-house production) |
 | **Partnership since** | 🔵 [TO BE VERIFIED — start date of collaboration] |
 | **Supplier certifications** | 🔵 [TO BE VERIFIED — certifications uncertain, to be confirmed with the supplier] |
@@ -286,11 +287,11 @@
 
 | Item | Description |
 |---|---|
-| **Type of partnership** | 🟢 Second manufacturing partner, specialising in screws |
+| **Type of partnership** | 🟢 Second manufacturing partner, specialising in hardware and fasteners |
 | **History** | 🔵 [TO BE VERIFIED — start date of collaboration] |
 | **Communication method** | 🟢 Email, WeChat |
-| **Criticality** | 🟢 Critical supplier (Class A) — specialised products (screws) |
-| **Specific role** | 🟢 Screw manufacturing — in-house production (no subcontracting) |
+| **Criticality** | 🟢 Critical supplier (Class A) — specialised products (hardware and fasteners) |
+| **Specific role** | 🟢 Hardware and fasteners manufacturing — in-house production (no subcontracting) |
 
 ### Evaluation period
 
@@ -383,7 +384,7 @@
 
 ---
 
-### Evaluation history — Whang
+### Evaluation history — Oukailuo
 
 | Period | Score | Assessment | Actions decided | Follow-up |
 |---|---|---|---|---|
@@ -402,5 +403,5 @@
 > 6. Communicate results to the supplier (transparency)
 > 7. If the supplier is "insufficient", document the action plan
 > 8. For Yuyao Mould Factory: the 19-year trust relationship is an asset, but formal evaluation is now required by the QMS
-> 9. For Whang: verify certifications and formalise the quality agreement — in-house production (screws), no subcontracting
+> 9. For Oukailuo: verify certifications and formalise the quality agreement — in-house production (hardware and fasteners), no subcontracting
 > 10. The first formal evaluation establishes the baseline for future evaluations

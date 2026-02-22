@@ -5,7 +5,7 @@
 | **Reference** | PRO-DOC-001 |
 | **Version** | 0.4 |
 | **Date of creation** | 10/02/2026 |
-| **Date of revision** | 18/02/2026 |
+| **Date of revision** | 22/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -37,7 +37,7 @@ This procedure applies to all QMS documents:
 | Creation and updating of documents | :green_circle: Roxane Wicky (Managing Director) |
 | Approval of documents | :green_circle: Roxane Wicky (Managing Director) |
 | Distribution and archiving | :green_circle: Roxane Wicky (Managing Director) |
-| Retention of manufacturing technical data | :green_circle: Chinese partners (Yuyao Mould Factory and Whang) |
+| Retention of manufacturing technical data | :green_circle: Chinese partners (Yuyao Mould Factory and Oukailuo) |
 | Accounting and fiduciary | :green_circle: Paradiso (fiduciary) |
 
 > **Note:** Plus Sarl being a sole proprietorship, all document responsibilities rest with the Managing Director, Roxane Wicky. The fiduciary Paradiso handles accounting management.
@@ -59,7 +59,7 @@ This procedure applies to all QMS documents:
 | Management list | LST-XXX-NNN | LST-DOC-001 |
 | External document | EXT-XXX-NNN | EXT-NRM-001 |
 
-**Legend:** XXX = domain (QUA=quality, DOC=documents, AUD=audit, NCF=nonconformity, ACR=corrective actions, ACH=purchasing, EVF=supplier evaluation, SAT=satisfaction, RDR=management review, CMP=competencies, RCL=complaints, CTR=inspection)
+**Legend:** XXX = domain (QUA=quality, DOC=documents, AUD=audit, NCF=nonconformity, ACR=corrective actions, ACH=purchasing, EVF=supplier evaluation, SAT=satisfaction, RDR=management review, CMP=competencies, RCL=complaints, CTR=inspection, AQF=quality agreement)
 
 ## 5. Document Management Procedure
 
@@ -86,7 +86,7 @@ Approved documents are stored on the following media:
 | **Local computer files** (computer) | QMS documents, procedures, forms, quality records | :green_circle: Roxane Wicky |
 | **Email archives** | Exchanges with customers, carriers, customs | :green_circle: Roxane Wicky |
 | **WeChat** | Operational exchanges with Chinese partners | :green_circle: Roxane Wicky |
-| **Files at Chinese partner** | Manufacturing technical data, drawings, moulds, production specifications | :green_circle: Yuyao Mould Factory / Whang |
+| **Files at Chinese partner** | Manufacturing technical data, drawings, moulds, production specifications | :green_circle: Yuyao Mould Factory / Oukailuo |
 | **Fiduciary Paradiso** | Accounting documents, tax returns | :green_circle: Paradiso |
 
 **Storage structure on the computer:**
@@ -131,7 +131,7 @@ QMS/
 |---|---|---|---|
 | ISO 9001:2015 Standard | SNV / ISO | QMS folder > 06_External_documents > Standards | :green_circle: Roxane Wicky |
 | Customer technical specifications | European customers (~10 active customers) | QMS folder > 06_External_documents > Customer_specifications + FileMaker | :green_circle: Roxane Wicky |
-| Manufacturing technical data (drawings, moulds) | Yuyao Mould Factory / Whang | Files at the Chinese partner + local copy | :green_circle: Roxane Wicky / Chinese partner |
+| Manufacturing technical data (drawings, moulds) | Yuyao Mould Factory / Oukailuo | Files at the Chinese partner + local copy | :green_circle: Roxane Wicky / Chinese partner |
 | Customs and regulatory documents | Customs authorities / freight forwarders | Email archives + local folder | :green_circle: Roxane Wicky |
 | Supplier inspection reports | Chinese partners | QMS folder > 06_External_documents > Supplier_documents | :green_circle: Roxane Wicky |
 | Accounting documents | Fiduciary Paradiso | Fiduciary + local copy | :green_circle: Paradiso / Roxane Wicky |
@@ -186,7 +186,7 @@ Data is protected by:
 |---|---|
 | **Inventory** | :green_circle: Existing |
 | **Ownership** | :green_circle: Property of the customers |
-| **Storage location** | At the Chinese partners (Yuyao Mould Factory / Whang) |
+| **Storage location** | At the Chinese partners (Yuyao Mould Factory / Oukailuo) |
 | **Tracking responsible** | Roxane Wicky (Managing Director) |
 | **Retention** | Mould lifespan + 3 years (cf. section 6.2) |
 
@@ -217,6 +217,8 @@ Data is protected by:
 | FOR-RCL-001 | Customer Complaints | 0.4 | 18/02/2026 | In force |
 | FOR-CTR-001 | Incoming Inspection | 0.4 | 18/02/2026 | In force |
 | CHK-AUD-001 | ISO 9001 Audit Checklist | 0.4 | 18/02/2026 | In force |
+| FOR-AQF-001 | Quality Agreement — Hardeng Yuyao Mould Factory | 0.4 | 22/02/2026 | Active |
+| FOR-AQF-002 | Quality Agreement — Oukailuo | 0.4 | 22/02/2026 | Active |
 | LST-DOC-001 | Document Management List | 0.4 | 18/02/2026 | In force |
 
 ## 9. Document Management List (LST-DOC-001)
@@ -246,6 +248,8 @@ The document management list below records all QMS documents with their current 
 | Customer Complaints | FOR-RCL-001 | 0.4 | 18/02/2026 | Roxane Wicky | Computer / QMS Folder |
 | Incoming Inspection | FOR-CTR-001 | 0.4 | 18/02/2026 | Roxane Wicky | Computer / QMS Folder |
 | ISO 9001 Audit Checklist | CHK-AUD-001 | 0.4 | 18/02/2026 | Roxane Wicky | Computer / QMS Folder |
+| Quality Agreement — Hardeng Yuyao Mould Factory | FOR-AQF-001 | 0.4 | 22/02/2026 | Roxane Wicky | Computer / QMS Folder |
+| Quality Agreement — Oukailuo | FOR-AQF-002 | 0.4 | 22/02/2026 | Roxane Wicky | Computer / QMS Folder |
 | Document Management List | LST-DOC-001 | 0.4 | 18/02/2026 | Roxane Wicky | Computer / QMS Folder |
 
 ---
@@ -256,5 +260,6 @@ The document management list below records all QMS documents with their current 
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Addition of the document management list (LST-DOC-001) aligned with the Managing Director's template. Addition of the LST (Management list) document type. Update of the master list with all QMS documents in version 0.2. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, QC sampling). Addition of the field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, QC sampling). Addition of the field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of UPDATE 2.1 S1: addition of reference to the formalised role of document management (CTX-QUA-001 section 1.1). Addition of 3 new documents to the master list and the management list: M1-DIR-001, FIC-PRO-002, PRO-LOG-001. Addition of the M1 (Leadership) document type. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Addition of FOR-AQF-001 and FOR-AQF-002 to master list. Oukailuo replaces Whang. | Roxane Wicky |

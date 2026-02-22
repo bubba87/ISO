@@ -5,7 +5,7 @@
 | **Reference** | PRO-LOG-001 |
 | **Version** | 0.4 |
 | **Date de creation** | 18/02/2026 |
-| **Date de revision** | 18/02/2026 |
+| **Date de revision** | 22/02/2026 |
 | **Redige par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 
@@ -26,7 +26,7 @@ Define the organizational rules, monitoring, and control of international logist
 
 All product shipments from China to Plus Sarl's European customers (~10 active customers, 50-100 shipments per year):
 - Shipments of injection molded plastic parts (from Yuyao Mould Factory)
-- Shipments of screws (from Whang, Yuyao)
+- Shipments of screws (from Oukailuo, Yuyao)
 - Combined or multi-reference shipments
 - All transport modes: air, sea, rail
 - Management of associated customs documents
@@ -241,3 +241,4 @@ The following documents are required for each shipment:
 | Version | Date | Description de la modification | Auteur |
 |---|---|---|---|
 | 0.4 | 18/02/2026 | Initial creation. Logistics and delivery procedure covering transport modes, customs documents, shipment tracking and performance indicators. Integration of field legend system. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Oukailuo replaces Whang. | Roxane Wicky |

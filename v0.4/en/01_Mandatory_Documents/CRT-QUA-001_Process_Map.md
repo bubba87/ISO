@@ -5,7 +5,7 @@
 | **Reference** | CRT-QUA-001 |
 | **Version** | 0.4 |
 | **Creation date** | 10/02/2026 |
-| **Revision date** | 20/02/2026 |
+| **Revision date** | 22/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -17,7 +17,7 @@
 
 ### Context
 
-Plus Sarl specialises in industrial coordination between European clients and Chinese manufacturing partners. The company does not carry out any design activities (clause 8.3 of the ISO 9001:2015 standard excluded from the scope of application). Designs and intellectual property belong to the clients. The activity covers commercial coordination, purchasing and subcontracting with Chinese partners (Yuyao Mould Factory and **Whang**, Yuyao), international logistics organisation and quality control.
+Plus Sarl specialises in industrial coordination between European clients and Chinese manufacturing partners. The company does not carry out any design activities (clause 8.3 of the ISO 9001:2015 standard excluded from the scope of application). Designs and intellectual property belong to the clients. The activity covers commercial coordination, purchasing and subcontracting with Chinese partners (Yuyao Mould Factory and **Oukailuo**, Yuyao), international logistics organisation and quality control.
 
 ISO 9001:2015 certification is pursued through the certification body **SQS**. 🟢
 
@@ -65,25 +65,25 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. �
 | Code | Process | Process owner | Purpose | Associated document(s) |
 |---|---|---|---|---|
 | M1 | Leadership and strategy | Roxane Wicky (Managing Director) | Define the quality policy, strategic objectives, assign responsibilities, guide the company and **plan changes** (clause 6.3 — impact analysis, validation, controlled implementation) | **M1-DIR-001**, POL-QUA-001, CTX-QUA-001 (section 6) 🟢 |
-| M2 | Continual improvement | Roxane Wicky (Managing Director) | Drive QMS improvement (nonconformities, corrective actions, indicators). **Review of change effectiveness** during management review | PRO-NCF-001, PRO-ACR-001 |
-| M3 | Management review | Roxane Wicky (Managing Director) | Evaluate QMS performance and decide on improvement actions | FOR-RDR-001 |
+| M2 | Continual improvement | Roxane Wicky (Managing Director) | Drive QMS improvement (nonconformities, corrective actions, indicators). NC and corrective actions per clause 10.2 (5 cause types, CA register in FileMaker). Continual improvement per clause 10.3 (triggers, China visits, effectiveness verification). **Review of change effectiveness** during management review 🟢 | PRO-NCF-001, PRO-ACR-001 |
+| M3 | Management review | Roxane Wicky (Managing Director) | Evaluate QMS performance and decide on improvement actions. Management review strengthened per clause 9.3 (relevance, adequacy, effectiveness, strategy alignment), 6 input elements, minimum annual frequency 🟢 | FOR-RDR-001 |
 
 ### Operational processes
 
 | Code | Process | Process owner | Purpose | Associated document(s) |
 |---|---|---|---|---|
-| O1 | Commercial | Roxane Wicky (Managing Director) | Manage client relationships (~10 active clients), analyse needs, carry out order review, track orders in FileMaker | CTX-QUA-001 (sections 1.2, 1.3) 🟢 |
-| O2 | Purchasing and subcontracting | Roxane Wicky (Managing Director) | Coordinate Chinese partners (Yuyao Mould Factory and **Whang**), create FileMaker production sheets, monitor production 🟢 | PRO-ACH-001, FIC-PRO-001 |
+| O1 | Commercial | Roxane Wicky (Managing Director) | Manage client relationships (~10 active clients), analyse needs, determine applicable requirements (6 types, clause 8.2), carry out order review, option to decline orders outside scope (clause 8.1), track orders in FileMaker | CTX-QUA-001 (sections 1.2, 1.3), FIC-PRO-001 🟢 |
+| O2 | Purchasing and subcontracting | Roxane Wicky (Managing Director) | Coordinate Chinese partners (Yuyao Mould Factory and **Oukailuo**), selection on 7 criteria and evaluation on 4 indicators (clause 8.4), validate new tooling before series production, create FileMaker production sheets, monitor outsourced manufacturing (4 means of conformity, clause 8.5), ensure intellectual property confidentiality. Formalized quality agreements (FOR-AQF-001 Yuyao, FOR-AQF-002 Oukailuo) 🟢 | PRO-ACH-001, FIC-PRO-001, **FOR-AQF-001**, **FOR-AQF-002** |
 | O3 | Logistics and delivery | Roxane Wicky (Managing Director) | Create FileMaker delivery sheets, organise international transport, manage customs documents, ensure tracking until delivery 🟢 | **PRO-LOG-001**, **FIC-PRO-002** 🟢 |
-| O4 | Quality control | Roxane Wicky (Managing Director) | Verify part conformity before shipment, manage NCs and corrective actions, analyse client returns | PRO-NCF-001, PRO-ACR-001, FOR-CTR-001 |
+| O4 | Quality control | Roxane Wicky (Managing Director) | Verify part conformity before shipment, formalized release on 3 criteria (manufacturer QC, order confirmation, photos — clause 8.6), manage NCs and corrective actions per 4-step process (clause 8.7), NC register in FileMaker 🔵 [TO VERIFY — register to be set up], analyse client returns. Monitoring, measurement, analysis and evaluation per clause 9.1 (deadlines, product conformity, suppliers, customer satisfaction) 🟢 | PRO-NCF-001, PRO-ACR-001, FOR-CTR-001, OBJ-QUA-001 |
 
 ### Support processes
 
 | Code | Process | Process owner | Purpose | Associated document(s) |
 |---|---|---|---|---|
-| S1 | Document management | Roxane Wicky (Managing Director) | Control QMS documents and records (FileMaker, emails, WeChat). Ensure traceability and feed continual improvement. Cloud backup at the provider 🟢 | PRO-DOC-001 |
+| S1 | Document management | Roxane Wicky (Managing Director) | Control QMS documents and records (FileMaker, emails, WeChat). Control of documented information per clause 7.5 (accessibility, legibility, retention, protection). Data confidentiality measures. Ensure traceability and feed continual improvement. Cloud backup at the provider 🟢 | PRO-DOC-001 |
 | S2 | Competencies, training and awareness | Roxane Wicky (Managing Director) | Maintain and develop competencies necessary for industrial coordination. Managing director competencies (7 areas), extension to suppliers (continuous evaluation). QMS awareness (policy, objectives, customer satisfaction). English communication 🟢 | FOR-CMP-001 🟢 |
-| S3 | Resources and infrastructure | Roxane Wicky (Managing Director) | Manage human, material, digital and external resources. Infrastructure (FileMaker, email, WeChat, cloud). Work environment (confidentiality, reliability, responsiveness). External resources (Yuyao, Whang, freight forwarders). Accounting via fiduciary Paradiso 🟢 | CTX-QUA-001 (section 7) 🟢 |
+| S3 | Resources and infrastructure | Roxane Wicky (Managing Director) | Manage human, material, digital and external resources. Infrastructure (FileMaker, email, WeChat, cloud). Work environment (confidentiality, reliability, responsiveness). External resources (Yuyao, Oukailuo, freight forwarders). Accounting via fiduciary Paradiso 🟢 | CTX-QUA-001 (section 7) 🟢 |
 
 ---
 
@@ -109,9 +109,13 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. �
  2. PRELIMINARY ANALYSIS AND ORDER REVIEW (O1/O2/O4 - cf. M1-DIR-001)
     Analysis according to responsibilities defined in M1 Leadership:
     - Understanding of needs: O1 Commercial
-    - References, quantities, deadlines: O1 Commercial
+    - Determination of requirements (6 types, clause 8.2):
+      technical specifications, quantities/deadlines, legal/regulatory
+      requirements, standards, delivery conditions,
+      implicit requirements (packaging, marking, certificates)
     - Technical and logistical feasibility: O2 Purchasing & Subcontracting
     - Applicable quality requirements: O4 Quality control
+    - Option to decline orders outside scope of competence (clause 8.1)
     - If change: impact analysis by process (clause 6.3)
       and client validation before implementation
             |
@@ -130,19 +134,27 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. �
             v
  5. TECHNICAL COORDINATION (O2 - Purchasing)
     Exchanges by email and WeChat with Yuyao Mould Factory
-    and/or Whang depending on the project (moulds/parts or screws)
+    and/or Oukailuo depending on the project (moulds/parts or hardware and fasteners)
     Technical back-and-forth until validation
             |
             v
  6. PRODUCTION LAUNCH (O2 - Purchasing)
+    If new mould/tooling: validation on sample before
+    series production (clause 8.4)
     Order confirmation to the Chinese partner(s)
     Production monitoring (photos, progress reports, WeChat exchanges)
+    4 means of conformity: specifications transmitted, production
+    monitoring, pre-shipment QC, samples (clause 8.5)
     Sending of samples to clients and to Plus Sarl if necessary
             |
             v
- 7. PRE-SHIPMENT QUALITY CONTROL (O4)
+ 7. PRE-SHIPMENT QUALITY CONTROL AND RELEASE (O4) (clauses 8.5/8.6)
     Conformity check: technical requirements + order
     The partner carries out a QC before shipment
+    Release on 3 criteria:
+    - Manufacturer QC compliant
+    - Confirmation of correspondence with order
+    - Photos of parts and packaging
     + sending of samples to Plus Sarl in parallel with transport
             |
             v
@@ -159,9 +171,11 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. �
 10. CONFIRMATION OF RECEIPT BY CLIENT (O3/O1)
     The client confirms proper receipt of goods
             |
-            +---> If NON-CONFORMING: NC Process (O4 - Quality control)
-            |     Creation of NC sheet, analysis, decision on treatment,
-            |     corrective actions (cf. PRO-NCF-001, PRO-ACR-001)
+            +---> If NON-CONFORMING: NC Process in 4 steps (clause 8.7)
+            |     1. Identification and isolation of the batch
+            |     2. NC analysis and treatment decision
+            |     3. Corrective actions (cf. PRO-NCF-001, PRO-ACR-001)
+            |     4. Recording in NC register in FileMaker
             |
             v
 11. INVOICING AND FOLLOW-UP (O1 - Commercial)
@@ -176,6 +190,8 @@ ISO 9001:2015 certification is pursued through the certification body **SQS**. �
 > **v0.4:** The flow now integrates the **order review** (step 2) formalised in accordance with section 2.2.1 of the quality manual, with assignment of responsibilities by process according to M1-DIR-001. Any subsequent modification requested by the client is subject to analysis, partner validation if necessary, client confirmation by email and a FileMaker update.
 >
 > **v0.4 (UPDATE 6.3):** Step 2 now integrates **planning of changes** (clause 6.3 ISO 9001). Any change likely to impact conformity, delivery times, commercial conditions or organization is subject to an impact analysis by process (O1-O4), client information/validation and controlled implementation. Changes are reviewed during the management review (M3). See CTX-QUA-001 section 6.
+>
+> **v0.4 (UPDATE 7.5-8.7):** Enrichment of main flow: step 2 — determination of 6 requirement types (clause 8.2) and refusal option outside scope (clause 8.1); step 6 — tooling validation before series and 4 means of outsourced production conformity (clauses 8.4/8.5); step 7 — formalized release on 3 criteria (clause 8.6); step 10 — 4-step NC process with FileMaker register (clause 8.7). Enrichment of S1 (documented information control, confidentiality, clause 7.5). Enrichment of O1, O2, O4 (clauses 8.1-8.7).
 
 ---
 
@@ -196,7 +212,7 @@ The quality objectives of Plus Sarl are aligned with the four axes defined in do
 | M2 Continual improvement | Number of corrective actions completed on time | 100% 🟢 | Quarterly |
 | M3 Management review | Effective holding of management review | At least once per year 🟢 | Annual |
 | S1 Document management | Documents up to date in FileMaker | 100% 🟢 | Annual |
-| S2 Competencies | Competency maintenance (training, monitoring) | 🔴 [TO BE COMPLETED — diplomas and training not disclosed] | Annual |
+| S2 | Competencies | Competency maintenance (training, monitoring) | 🟢 Diplomas documented (commerce, aesthetics, BF), experience 2013-present | Annual |
 
 ---
 
@@ -210,7 +226,7 @@ The quality objectives of Plus Sarl are aligned with the four axes defined in do
 
 ### Data backup
 
-Data is backed up in the **cloud, hosted at the provider**. 🟢
+Data is backed up at **Gramatec SA** (Switzerland). Recording is automatic. In case of loss, theft or system failure, Gramatec SA is prepared to restore all data. 🟢
 
 ---
 
@@ -228,7 +244,9 @@ Data is backed up in the **cloud, hosted at the provider**. 🟢
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Update of quality objectives by process with confirmed targets: 24h response, max 3 NC/client/year, 95% on-time deliveries, absence of major complaints | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of sections 2.1, 2.2, 2.2.1 of the quality manual. Addition of Associated Documents column. Revision of the main flow with order review (step 2), partner consultation (step 3), reference to M1-DIR-001. Addition of step 12 (traceability and improvement, S1). Addition of new documents PRO-LOG-001, FIC-PRO-002, M1-DIR-001. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration UPDATE 6.3: enrichment of M1 (planning of changes, clause 6.3), enrichment of M2 (review of change effectiveness), addition of clause 6.3 impact analysis in the main flow (step 2). | Roxane Wicky |
 | 0.4 | 20/02/2026 | Integration UPDATEs 7, 7.2, 7.3: enrichment of S3 (resources, clause 7.1, ref. CTX-QUA-001 §7), enrichment of S2 (competencies, awareness, clauses 7.2-7.3, ref. FOR-CMP-001). | Roxane Wicky |
+| 0.4 | 21/02/2026 | Integration UPDATE 7.5-8.7: enrichment of S1 (documented information control, confidentiality, clause 7.5), enrichment of O1 (requirements 8.2, refusal 8.1), enrichment of O2 (selection criteria 8.4, tooling validation, IP confidentiality, outsourced production 8.5), enrichment of O4 (release 8.6, NC process 8.7, NC register FileMaker). Main flow update (steps 2, 6, 7, 10). | Roxane Wicky |
+| 0.4 | 22/02/2026 | Integration UPDATE 9.1/10.2/10.3/9.3 and RECAP 13 points: enrichment of M2 (NC clause 10.2, continual improvement clause 10.3), enrichment of M3 (management review strengthened clause 9.3), enrichment of O2 (quality agreements FOR-AQF-001 Yuyao + FOR-AQF-002 Oukailuo), enrichment of O4 (monitoring/measurement/analysis clause 9.1). Backup = Gramatec SA (Switzerland). S2 diplomas resolved. | Roxane Wicky |

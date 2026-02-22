@@ -13,8 +13,9 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Added detailed form, KPI, complete sections | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud, ~10 clients, QC sampling). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, QC sampling). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Integration UPDATE 9.3 and RECAP 13 points: auditor = Capucine & Olav Wicky, backup = Gramatec SA, Oukailuo replaces Whang. | Roxane Wicky |
 
 ---
 
@@ -67,7 +68,7 @@
 | Supplier / Carrier | Assessment | Comment |
 |---|---|---|
 | Yuyao Mould Factory | [ ] Satisfactory [ ] To be monitored [ ] Non-compliant | 🔴 [TO BE COMPLETED] |
-| Whang (screws — Yuyao, China) | [ ] Satisfactory [ ] To be monitored [ ] Non-compliant | 🔴 [TO BE COMPLETED] |
+| Oukailuo (hardware and fasteners — Yuyao, China) | [ ] Satisfactory [ ] To be monitored [ ] Non-compliant | 🔴 [TO BE COMPLETED] |
 | Carriers | [ ] Satisfactory [ ] To be monitored [ ] Non-compliant | 🔴 [TO BE COMPLETED] |
 
 #### 5. Internal audit results
@@ -158,7 +159,7 @@
 |---|---|---|
 | Internal issues | 🔴 [TO BE COMPLETED — changes within the company] | 🔴 [TO BE COMPLETED — Impact] |
 | External issues | 🔴 [TO BE COMPLETED — market evolution, China-Europe relations, regulations, exchange rates] | 🔴 [TO BE COMPLETED — Impact] |
-| Interested parties | 🔴 [TO BE COMPLETED — new requirements from European clients, evolution of Chinese partners (Yuyao Mould Factory, Whang)] | 🔴 [TO BE COMPLETED — Impact] |
+| Interested parties | 🔴 [TO BE COMPLETED — new requirements from European clients, evolution of Chinese partners (Yuyao Mould Factory, Oukailuo)] | 🔴 [TO BE COMPLETED — Impact] |
 | Economic context | 🔴 [TO BE COMPLETED — turnover, margins, international transport conditions] | 🔴 [TO BE COMPLETED — Impact] |
 | Regulatory context | 🔴 [TO BE COMPLETED — customs, import/export, product standards] | 🔴 [TO BE COMPLETED — Impact] |
 | Fiduciary (Paradiso) | 🔴 [TO BE COMPLETED — fiduciary feedback on financial and regulatory aspects] | 🔴 [TO BE COMPLETED — Impact] |
@@ -226,7 +227,7 @@
 | Element | Detail |
 |---|---|
 | Audit date | 🔴 [TO BE COMPLETED — first internal audit to be planned] |
-| Auditor | 🟡 [RECOMMENDED: external auditor — the Managing Director plans to conduct the audit herself, but an external auditor is strongly recommended for clause 9.2] |
+| Auditor | 🟢 **Capucine Wicky & Olav Wicky** (shareholders of Plus Sarl) — independence requirement satisfied (clause 9.2) |
 | No. of major NCs | 🔴 [TO BE COMPLETED] |
 | No. of minor NCs | 🔴 [TO BE COMPLETED] |
 | No. of observations | 🔴 [TO BE COMPLETED] |
@@ -249,7 +250,7 @@
 | Supplier | Evaluation score | Assessment | Actions |
 |---|---|---|---|
 | Yuyao Mould Factory (main partner — moulds, injection) | 🔴 [TO BE COMPLETED — __/100] | 🔴 [TO BE COMPLETED — first formal evaluation] | 🔴 [TO BE COMPLETED — Actions decided] |
-| Whang (screws — Yuyao, China) | 🔴 [TO BE COMPLETED — __/100] | 🔴 [TO BE COMPLETED] | 🔴 [TO BE COMPLETED — Actions decided] |
+| Oukailuo (hardware and fasteners — Yuyao, China) | 🔴 [TO BE COMPLETED — __/100] | 🔴 [TO BE COMPLETED] | 🔴 [TO BE COMPLETED — Actions decided] |
 | [Carriers — air] | 🔴 [TO BE COMPLETED — __/100] | 🔴 [TO BE COMPLETED] | 🔴 [TO BE COMPLETED — Actions decided] |
 | [Carriers — sea/rail] | 🔴 [TO BE COMPLETED — __/100] | 🔴 [TO BE COMPLETED] | 🔴 [TO BE COMPLETED — Actions decided] |
 
@@ -263,7 +264,7 @@
 | Competencies / training | [ ] Yes [ ] No | 🔴 [TO BE COMPLETED — ISO 9001 training recommended — see FOR-CMP-001] |
 | Infrastructure (office, equipment) | [ ] Yes [ ] No | 🟢 Office Route de Montet 11, Cudrefin |
 | IT tools | [ ] Yes [ ] No | 🟢 FileMaker, Email, WeChat |
-| Data backup | 🟢 Cloud, hosted by the hosting provider | 🟢 Cloud backup ensured by the hosting provider |
+| Data backup | 🟢 Gramatec SA (Switzerland) — automatic recording, full restore guaranteed |
 | Measuring instruments | N/A | 🟢 No dimensional control — products delivered directly from China to client |
 
 ---
@@ -274,10 +275,10 @@
 |---|---|---|---|
 | Manufacturing NC risk in China | 🔴 [TO BE COMPLETED — Action implemented] | 🔴 [TO BE COMPLETED — Effective/Insufficient] | |
 | Delivery delay risk (international transport) | 🔴 [TO BE COMPLETED — Action implemented] | 🔴 [TO BE COMPLETED — Effective/Insufficient] | Objectives: sea/rail +/-10d, air +/-3d |
-| Single supplier dependency risk | 🟢 Second Chinese partner identified: Whang (screws, Yuyao) | 🟢 Achieved | |
+| Single supplier dependency risk | 🟢 Second Chinese partner identified: Oukailuo (hardware and fasteners, Yuyao) | 🟢 Achieved | |
 | ISO 9001 certification opportunity | 🟢 QMS implementation, SQS certification body selected | 🟢 In progress | |
 | Absence of reception control risk | 🟢 Pre-shipment QC by the partner + sampling at Plus Sarl in parallel with transport | 🔴 [TO BE COMPLETED — to be assessed] | Visit to China planned to formalise production monitoring |
-| Data loss risk | 🟢 Cloud backup, hosted by the provider | 🟢 In place | |
+| Data loss risk | 🟢 Gramatec SA (Switzerland) — automatic recording, full restore guaranteed | 🟢 In place | |
 | [Others — see CTX-QUA-001] | | | |
 
 ---
@@ -289,7 +290,7 @@
 | 1 | Implementation of a formal customer satisfaction questionnaire (~10 active clients) | QMS section 9.1 analysis |
 | 2 | Formalisation of production monitoring in China (visit planned) | QMS section 8.5 analysis |
 | 3 | ISO 9001 training for Roxane Wicky (e.g. via SQS or SAQ) | Competency analysis (FOR-CMP-001) |
-| 4 | Formalisation of the quality agreement with Whang | Integration of the second partner |
+| 4 | Formalisation of the quality agreement with Oukailuo | Integration of the second partner |
 | 5 | 🔴 [TO BE COMPLETED] | 🔴 [TO BE COMPLETED — Source] |
 
 ---
@@ -319,7 +320,7 @@
 | Identified need | Justification | Estimated budget | Decision |
 |---|---|---|---|
 | ISO 9001 training | Understanding of the standard for the Managing Director | 🔵 [TO BE VERIFIED — CHF 500-1'500] | [ ] Approved [ ] Postponed [ ] Rejected |
-| Visit to Chinese partner(s) (Yuyao Mould Factory + Whang) | Formalisation of production monitoring and quality agreements | 🔵 [TO BE VERIFIED] | [ ] Approved [ ] Postponed [ ] Rejected |
+| Visit to Chinese partner(s) (Yuyao Mould Factory + Oukailuo) | Formalisation of production monitoring and quality agreements | 🔵 [TO BE VERIFIED] | [ ] Approved [ ] Postponed [ ] Rejected |
 | SQS certification audit | ISO 9001 certification | 🔵 [TO BE VERIFIED — SQS audit budget] | [ ] Approved [ ] Postponed [ ] Rejected |
 | 🔴 [TO BE COMPLETED — Additional need] | 🔴 [TO BE COMPLETED — Why] | 🔴 [TO BE COMPLETED — CHF ___] | [ ] Approved [ ] Postponed [ ] Rejected |
 
@@ -333,7 +334,7 @@ Strengths, areas for improvement, direction for the next period.
 Elements to consider when drafting:
 - Overall performance of China-Europe industrial coordination
 - Satisfaction of European clients (~10 active clients)
-- Quality of the relationship with Yuyao Mould Factory and Whang
+- Quality of the relationship with Yuyao Mould Factory and Oukailuo
 - On-time delivery compliance
 - Progress of the ISO 9001 certification initiative with SQS
 - Feedback from the fiduciary Paradiso on financial aspects
@@ -357,7 +358,7 @@ Signature: ______________________________
 > 2. Use the **detailed form** for the formal annual management review
 > 3. Conduct the management review at least once per year
 > 4. Ideally after the internal audit and before the SQS certification audit
-> 5. Prepare all data BEFORE the review (KPI, NCs, satisfaction, supplier evaluation Yuyao Mould Factory and Whang)
+> 5. Prepare all data BEFORE the review (KPI, NCs, satisfaction, supplier evaluation Yuyao Mould Factory and Oukailuo)
 > 6. Even alone, take the time for this structured analysis — it is an ISO 9001 section 9.3 requirement
 > 7. The SQS auditor will examine this document carefully — be factual and precise
 > 8. Decided actions must be followed up and their implementation verified

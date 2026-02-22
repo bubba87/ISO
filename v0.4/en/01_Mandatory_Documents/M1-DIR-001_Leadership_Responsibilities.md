@@ -5,7 +5,7 @@
 | **Reference** | M1-DIR-001 |
 | **Version** | 0.4 |
 | **Creation date** | 18/02/2026 |
-| **Revision date** | 19/02/2026 |
+| **Revision date** | 22/02/2026 |
 | **Drafted by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -127,10 +127,10 @@ Plus Sarl is a one-person company (Sarl) in which all operational and management
 | **General management** | Strategy, quality policy, management review, QMS commitment | Roxane Wicky (Managing Director) 🟢 |
 | **Quality manager** | QMS management, continual improvement, indicator monitoring, internal audit | Roxane Wicky (Managing Director) 🟢 |
 | **Sales manager** | European customer relations (~10 active customers), offers, quotes, orders, customer satisfaction | Roxane Wicky (Managing Director) 🟢 |
-| **Purchasing and subcontracting** | Coordination with Yuyao Mould Factory and Whang (Yuyao), production monitoring, supplier evaluation | Roxane Wicky (Managing Director) 🟢 |
+| **Purchasing and subcontracting** | Coordination with Yuyao Mould Factory and Oukailuo (Yuyao), production monitoring, supplier evaluation | Roxane Wicky (Managing Director) 🟢 |
 | **Logistics coordination** | International transport (air, sea, rail), customs documents, shipment tracking | Roxane Wicky (Managing Director) 🟢 |
 | **Administrative manager** | Invoicing, customs documents, correspondence, coordination with Paradiso fiduciary | Roxane Wicky (Managing Director) 🟢 |
-| **Internal audit** | Conducting annual internal audit | Managing director herself, otherwise **independent external auditor** 🟡 [RECOMMENDED — appoint an external auditor to comply with clause 9.2.2 c] |
+| **Internal audit** | Conducting annual internal audit | 🟢 **Capucine Wicky & Olav Wicky** (shareholders of Plus Sarl) — independence requirement satisfied (clause 9.2.2 c) |
 
 ---
 
@@ -141,7 +141,7 @@ Plus Sarl is a one-person company (Sarl) in which all operational and management
 | Code | Process | Owner | Main responsibilities |
 |---|---|---|---|
 | **O1** | Sales | Roxane Wicky 🟢 | Reception and analysis of customer requests (orders, quotes, modifications). Understanding of needs and requirements. Establishment of offers and order confirmation. Customer satisfaction monitoring. Communication with European customers by email. |
-| **O2** | Purchasing and subcontracting | Roxane Wicky 🟢 | Consultation with Chinese partners (Yuyao Mould Factory, Whang). Technical feasibility analysis. Price and deadline negotiation. Placement of manufacturing orders. Production monitoring (photos, reports, WeChat). Periodic supplier evaluation. |
+| **O2** | Purchasing and subcontracting | Roxane Wicky 🟢 | Consultation with Chinese partners (Yuyao Mould Factory, Oukailuo). Technical feasibility analysis. Price and deadline negotiation. Placement of manufacturing orders. Production monitoring (photos, reports, WeChat). Periodic supplier evaluation. |
 | **O3** | Logistics and delivery | Roxane Wicky 🟢 | Organization of international transport (air, sea, rail). Preparation of export and customs documents. Shipment tracking until delivery. Deadline management (+/- 3 days air, +/- 10 days sea/rail). |
 | **O4** | Quality control | Roxane Wicky 🟢 | Definition of quality requirements for each order. Monitoring of pre-shipment quality control carried out by Chinese partner. Verification of samples received in parallel with transport. Non-conformity management and corrective actions. Customer complaint handling. |
 
@@ -165,7 +165,7 @@ Plus Sarl is a one-person company (Sarl) in which all operational and management
 
 > In the context of a one-person company, Roxane Wicky is **R** (Responsible), **A** (Accountable), **C** (Consulted) and **I** (Informed) for all processes. External partners are consulted or informed according to their role.
 
-| Process | Roxane Wicky (Managing Director) | Yuyao Mould Factory | Whang (Yuyao) | European customers | Carriers | Paradiso fiduciary | SQS |
+| Process | Roxane Wicky (Managing Director) | Yuyao Mould Factory | Oukailuo (Yuyao) | European customers | Carriers | Paradiso fiduciary | SQS |
 |---|---|---|---|---|---|---|---|
 | O1 Sales | **R/A** | I | I | C/I | - | - | - |
 | O2 Purchasing and subcontracting | **R/A** | C/I | C/I | I | - | - | - |
@@ -406,10 +406,10 @@ For each request requiring consultation with Chinese partners, the managing dire
 
 | Aspect | Process | Partner consulted | Communication mode |
 |---|---|---|---|
-| **Technical feasibility** | O1 - Sales / O2 - Purchasing | Yuyao Mould Factory and/or Whang | Email, WeChat 🟢 |
-| **Manufacturing** (molds, parts, screws) | O2 - Purchasing and subcontracting | Yuyao Mould Factory (molds, injection) / Whang (screws) | Email, WeChat 🟢 |
-| **Delivery** (deadlines, transport) | O3 - Logistics and delivery | Yuyao Mould Factory / Whang + Carriers | Email 🟢 |
-| **Pre-shipment quality control** | O4 - Quality control | Yuyao Mould Factory / Whang | Email, WeChat, photos, reports 🟢 |
+| **Technical feasibility** | O1 - Sales / O2 - Purchasing | Yuyao Mould Factory and/or Oukailuo | Email, WeChat 🟢 |
+| **Manufacturing** (molds, parts, screws) | O2 - Purchasing and subcontracting | Yuyao Mould Factory (molds, injection) / Oukailuo (screws) | Email, WeChat 🟢 |
+| **Delivery** (deadlines, transport) | O3 - Logistics and delivery | Yuyao Mould Factory / Oukailuo + Carriers | Email 🟢 |
+| **Pre-shipment quality control** | O4 - Quality control | Yuyao Mould Factory / Oukailuo | Email, WeChat, photos, reports 🟢 |
 
 ### 6.3 Processing by request type
 
@@ -473,7 +473,7 @@ In the context of a one-person company, internal communication materializes thro
 | **Document management** | Systematic recording of information in FileMaker (orders, prices, monitoring, history) 🟢 |
 | **Exchange traceability** | Email and WeChat message archiving related to each order 🟢 |
 | **Management review** | Structured annual analysis of QMS performance (cf. FOR-RDR-001) 🟢 |
-| **Data backup** | Cloud backup, hosted by supplier 🟢 |
+| **Data backup** | Gramatec SA (Switzerland) — automatic recording, full restore guaranteed 🟢 |
 
 ### 7.2 External communication
 
@@ -481,7 +481,7 @@ In the context of a one-person company, internal communication materializes thro
 |---|---|---|---|
 | **European customers** (~10 active) | Email | Continuous (objective: response < 24h) | Roxane Wicky 🟢 |
 | **Yuyao Mould Factory** (main partner) | Email, WeChat | Continuous (production monitoring) | Roxane Wicky 🟢 |
-| **Whang** (Yuyao — screws) | Email, WeChat | According to orders | Roxane Wicky 🟢 |
+| **Oukailuo** (Yuyao — screws) | Email, WeChat | According to orders | Roxane Wicky 🟢 |
 | **Carriers** | Email | Per shipment | Roxane Wicky 🟢 |
 | **Paradiso fiduciary** | Email, telephone | Periodic (accounting, legal obligations) | Roxane Wicky 🟢 |
 | **SQS** (certification body) | Email, mail | According to audit schedule | Roxane Wicky 🟢 |
@@ -518,7 +518,7 @@ Management review is conducted at least **once per year** by Roxane Wicky, in ac
 - Process performance and product conformity
 - European customer satisfaction
 - Audit results (internal and SQS certification)
-- Supplier performance (Yuyao Mould Factory, Whang)
+- Supplier performance (Yuyao Mould Factory, Oukailuo)
 - Resource adequacy
 - Effectiveness of actions addressing risks and opportunities
 - Improvement opportunities
@@ -549,6 +549,8 @@ Review outputs include decisions relating to QMS improvement, resource needs and
 | FOR-EVF-001 | Supplier Evaluation |
 | FOR-CMP-001 | Competence and Training |
 | CHK-AUD-001 | ISO 9001 Audit Checklist |
+| FOR-AQF-001 | Quality Agreement — Hardeng Yuyao Mould Factory |
+| FOR-AQF-002 | Quality Agreement — Oukailuo |
 
 ---
 
@@ -558,6 +560,7 @@ Review outputs include decisions relating to QMS improvement, resource needs and
 |---|---|---|---|
 | 0.4 | 18/02/2026 | Initial creation. Definition of leadership, functional organization chart, responsibility matrix by process, assignment of responsibilities by request type, and communication procedures. Integration of quality manual chapter 3/3.1: detailed roles, responsibilities and authorities by process (M1, O1, O2, O3, O4). Legal form and QMS support. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Integration UPDATEs 5.1, 5.3 (merger): addition of section 2.3 Operational Commitment (crisis management, results), addition of section 5.6 Summary of Roles by Function (Management, Sales, Purchasing, Logistics, Quality, Commercial Conditions). | Roxane Wicky |
+| 0.4 | 22/02/2026 | Integration UPDATE 9.1/10.2/10.3/9.3 and RECAP 13 points: internal auditor resolved = Capucine & Olav Wicky (section 3.3), backup = Gramatec SA (section 7.1), quality agreements FOR-AQF-001/002 added to associated documents. Oukailuo replaces Whang. | Roxane Wicky |
 
 ---
 

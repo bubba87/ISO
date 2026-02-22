@@ -5,7 +5,7 @@
 | **Reference** | POL-QUA-001 |
 | **Version** | 0.4 |
 | **Creation Date** | 10/02/2026 |
-| **Revision Date** | 19/02/2026 |
+| **Revision Date** | 22/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Management Plus Sarl |
 
@@ -55,7 +55,7 @@ Management commits to:
 - Ensure delivery deadlines are met at over 95%
 - Limit non-conformities to a maximum of 3 NC per client per year
 - Ensure an average response time to clients of less than 24h
-- Strengthen the quality partnership with our Chinese suppliers (Yuyao Mould Factory and **Whang**, Yuyao) 🟢
+- Strengthen the quality partnership with our Chinese suppliers (Yuyao Mould Factory and **Oukailuo**, Yuyao) 🟢
 - Ensure control of the international logistics chain (air, sea, rail)
 
 ### Framework
@@ -98,6 +98,6 @@ Place: Cudrefin
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Update of strategic quality priorities: target 95% on-time deliveries, max 3 NC per client/year, 24h response time | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Integration UPDATE 5.2 (merge): enrichment of management commitment, explicit priorities, update of commitments (pricing conditions, prevent recurrence), addition of framework, management signature dated 19/02/2026. | Management Plus Sarl |

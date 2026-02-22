@@ -5,7 +5,7 @@
 | **Reference** | FIC-PRO-001 |
 | **Version** | 0.4 |
 | **Creation date** | 10/02/2026 |
-| **Revision date** | 18/02/2026 |
+| **Revision date** | 22/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -21,7 +21,7 @@
 | **Code** | O2 |
 | **Type** | Operational |
 | **Process owner** | Roxane Wicky (Managing Director) |
-| **Purpose** | Coordinate Chinese partners (Yuyao Mould Factory and **Whang**, Yuyao) to ensure the manufacturing of parts, moulds and screws in accordance with the specifications of European clients, in compliance with deadlines, prices and quality requirements. |
+| **Purpose** | Coordinate Chinese partners (Yuyao Mould Factory and **Oukailuo**, Yuyao) to ensure the manufacturing of parts, moulds and hardware in accordance with the specifications of European clients, in compliance with deadlines, prices and quality requirements. |
 
 ---
 
@@ -37,7 +37,7 @@
 
 | Output data (outputs) | Recipient |
 |---|---|
-| Manufacturing order transmitted to the Chinese partner | Yuyao Mould Factory / Whang |
+| Manufacturing order transmitted to the Chinese partner | Yuyao Mould Factory / Oukailuo |
 | Feasibility and manufacturing lead time confirmation | Process O1 - Commercial (for client information) |
 | Production monitoring reports (photos, progress reports) | Internal / Client if requested |
 | Manufactured products ready for shipment | Process O3 - Logistics and delivery |
@@ -54,7 +54,7 @@
 |---|---|---|---|---|
 | 1 | Order review and receipt of specifications | Receive from the commercial process the technical specifications, drawings, requirements and client needs. Verify the completeness of the file. Carry out the preliminary analysis in accordance with M1-DIR-001 (cf. CTX-QUA-001 section 1.3). | Roxane Wicky | Client requirements, technical drawings, transmission email, FileMaker order record |
 | 1b | Creation of the FileMaker production record | Create the production record in the FileMaker system: expected product characteristics, manufacturing lead time, production monitoring. This record is updated throughout the manufacturing process (cf. PRO-ACH-001, section 9). 🟢 | Roxane Wicky | FileMaker production record |
-| 2 | Consultation of Chinese partner(s) | Transmit the specifications to Yuyao Mould Factory (main partner) or to **Whang** (Yuyao — specialised in screw manufacturing) depending on the nature of the project. Request a feasibility analysis, quotation and lead time. Communication by email and WeChat. | Roxane Wicky | Emails, WeChat messages, supplier quotation |
+| 2 | Consultation of Chinese partner(s) | Transmit the specifications to Yuyao Mould Factory (main partner) or to **Oukailuo** (Yuyao — hardware and fasteners) depending on the nature of the project. Request a feasibility analysis, quotation and lead time. Communication by email and WeChat. | Roxane Wicky | Emails, WeChat messages, supplier quotation |
 | 3 | Iterative technical exchanges | Coordinate back-and-forth between the client and the Chinese partner until a validated technical solution is reached (materials, tolerances, manufacturing process, price). Translate and adapt requirements if necessary. | Roxane Wicky | Emails, WeChat messages, exchange summaries |
 | 4 | Validation and order placement | Once the technical solution and price are validated by the client, issue the manufacturing order to the Chinese partner. Prepare the order documents (customs invoice, purchase order). | Roxane Wicky | Purchase order, customs invoice, order confirmation |
 | 5 | Production monitoring | Monitor production progress with the Chinese partner. Receive and analyse photos, progress reports, inspection reports. Intervene in case of deviation. | Roxane Wicky | Production photos, progress reports, supplier inspection reports, WeChat messages |
@@ -78,7 +78,7 @@
             v
     +-------------------------------+
     | 2. Consultation of Chinese    |----> Email/WeChat to Yuyao Mould Factory
-    |    partner (feasibility,      |      or Whang (Yuyao - screws)
+    |    partner (feasibility,      |      or Oukailuo (Yuyao - hardware)
     |    quotation, lead time)      |
     +-------------------------------+
             |
@@ -152,7 +152,7 @@
 |---|---|
 | **Human** | Roxane Wicky (Managing Director) - full management of the coordination process with Chinese partners |
 | **Material** | Office in Cudrefin (Route de Montet 11, 1588 Cudrefin), computer, telephone |
-| **IT** | Email (formal communication with clients and partners), WeChat (daily communication with Chinese partners), FileMaker (order tracking, information recording). Cloud backup at the provider 🟢 |
+| **IT** | Email (formal communication with clients and partners), WeChat (daily communication with Chinese partners), FileMaker (order tracking, information recording). Gramatec SA (Switzerland) — automatic recording 🟢 |
 | **Documentary** | Client specifications, technical drawings, supplier catalogues, applicable standards, order history |
 | **Financial** | 🟡 [RECOMMENDED — define the annual purchasing and subcontracting budget] |
 
@@ -174,10 +174,10 @@
 
 | # | Action | Description | Deadline | Status |
 |---|---|---|---|---|
-| A01 | Trip to China - March 2026 | Planned trip to China in March 2026 to strengthen production quality controls, visit partners (Yuyao Mould Factory and **Whang**), and consolidate quality requirements on site. | March 2026 | Planned |
+| A01 | Trip to China - March 2026 | Planned trip to China in March 2026 to strengthen production quality controls, visit partners (Yuyao Mould Factory and **Oukailuo**), and consolidate quality requirements on site. | March 2026 | Planned |
 | A02 | Strengthening of labelling controls | Following NC_2026_1001 (labelling error on 1000 pieces SHIP_25058/CFM00057428/90.60.05710), strengthening of labelling controls before shipment. | Q2 2026 | In progress |
-| A03 | Quality agreement with Yuyao Mould Factory | Formalise a quality agreement with Yuyao as soon as the certification file is ready. 🟢 | As soon as certification file ready | Planned |
-| A04 | Quality agreement with Whang | Formalise a quality agreement with Whang as soon as the certification file is ready. 🟢 | As soon as certification file ready | Planned |
+| A03 | Quality agreement with Yuyao Mould Factory | Formalise a quality agreement with Yuyao as soon as the certification file is ready. 🟢 | As soon as certification file ready | 🟢 Done — FOR-AQF-001 |
+| A04 | Quality agreement with Oukailuo | Formalise a quality agreement with Oukailuo as soon as the certification file is ready. 🟢 | As soon as certification file ready | 🟢 Done — FOR-AQF-002 |
 
 ---
 
@@ -190,11 +190,11 @@ See CTX-QUA-001 for details. Summary:
 | R01 | Manufacturing delay at the Chinese partner | High | Regular production monitoring (WeChat/email), deadline anticipation, safety margin in schedules |
 | R02 | Nonconformity of manufactured parts | High | Pre-shipment quality control by the partner, sending of samples in parallel, inspection reports, NC history for identification of recurring causes 🟢 |
 | R03 | Communication issue (language barrier, time zone difference) | Medium | Use of WeChat for quick exchanges, detailed written specifications, photos and samples |
-| R04 | Dependence on a limited number of partners | Medium | Maintaining two active Chinese partners (Yuyao Mould Factory and Whang), regular evaluation, monitoring for potential additional partners 🟢 |
+| R04 | Dependence on a limited number of partners | Medium | Maintaining two active Chinese partners (Yuyao Mould Factory and Oukailuo), regular evaluation, monitoring for potential additional partners 🟢 |
 | R05 | Raw material price or exchange rate fluctuation | Medium | Price monitoring over several years, quotations validated by the client, proactive communication in case of variation |
-| R06 | Partner certifications not confirmed | Medium | 🔵 [TO BE VERIFIED — Whang certifications uncertain, to be clarified during China trip March 2026] |
+| R06 | Partner certifications not confirmed | Medium | 🔵 [TO BE VERIFIED — Oukailuo certifications uncertain, to be clarified during China trip March 2026] |
 | O01 | Strengthening of partnership with Yuyao Mould Factory | High | Trust relationship built since the creation of Plus Sarl (2007), regular communication, trip to China planned March 2026, quality agreement in preparation |
-| O02 | Capacity diversification via Whang (screws) | Medium | Develop orders with Whang to expand production capacity (screws and other) 🟢 |
+| O02 | Capacity diversification via Oukailuo (screws) | Medium | Develop orders with Oukailuo to expand production capacity (screws and other) 🟢 |
 
 ---
 
@@ -235,7 +235,7 @@ See CTX-QUA-001 for details. Summary:
 | Partner | Role | Location | Products | Certifications | Communication method |
 |---|---|---|---|---|---|
 | **Yuyao Mould Factory** | Main partner - mould and part manufacturing | Yuyao, China | Injection moulds, plastic parts | 🔵 [TO BE VERIFIED] | Email, WeChat |
-| **Whang** | Second partner - screw manufacturing | Yuyao, China | Screws 🟢 | 🔵 [TO BE VERIFIED — certifications uncertain] | Email, WeChat |
+| **Oukailuo** | Second partner - hardware and fasteners | Yuyao, China | Hardware and fasteners 🟢 | 🔵 [TO BE VERIFIED — certifications uncertain] | Email, WeChat |
 
 ### Pre-shipment quality control
 
@@ -252,7 +252,7 @@ The moulds are developed and stored in China, at the partners' premises. The mou
 - **Time zone difference**: coordination with China involves a time zone difference of 6 to 7 hours. The use of WeChat enables quick exchanges despite this difference.
 - **No design activity**: Plus Sarl does not design products (clause 8.3 excluded). The role is that of industrial coordinator between the client (design owner) and the Chinese manufacturer.
 - **Trip to China March 2026**: an on-site visit is planned to strengthen production quality controls and consolidate requirements with the partners.
-- **Quality agreement**: a quality agreement will be formalised with Yuyao Mould Factory and Whang as soon as the certification file is ready. 🟢
+- **Quality agreement**: a quality agreement formalized: FOR-AQF-001 (Yuyao Mould Factory) and FOR-AQF-002 (Oukailuo). 🟢
 
 ---
 
@@ -262,5 +262,6 @@ The moulds are developed and stored in China, at the partners' premises. The mou
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Update of performance indicators (supplier on-time delivery >= 95%, max 3 NC/client/year). Addition of improvement actions: China trip March 2026, strengthened labelling control following NC_2026_1001. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Integration of UPDATE 2.1: addition of activity 1b (FileMaker production record), reference to order review (M1-DIR-001, CTX-QUA-001 section 1.3). | Roxane Wicky |
+| 0.4 | 22/02/2026 | Integration UPDATE 9.1/10.2/10.3/9.3 and RECAP 13 points: Oukailuo replaces Whang, backup = Gramatec SA, quality agreements formalized (FOR-AQF-001 Yuyao, FOR-AQF-002 Oukailuo). | Roxane Wicky |

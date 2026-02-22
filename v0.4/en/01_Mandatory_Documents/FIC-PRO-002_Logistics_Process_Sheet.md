@@ -5,7 +5,7 @@
 | **Reference** | FIC-PRO-002 |
 | **Version** | 0.4 |
 | **Creation date** | 18/02/2026 |
-| **Revision date** | 18/02/2026 |
+| **Revision date** | 22/02/2026 |
 | **Written by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 
@@ -154,7 +154,7 @@
 |---|---|
 | **Human** | Roxane Wicky (Managing Director) - full management of the logistics process, coordination with carriers and customs authorities |
 | **Material** | Office in Cudrefin (Route de Montet 11, 1588 Cudrefin), computer, telephone |
-| **IT** | Email (formal communication with customers, carriers and customs authorities), WeChat (coordination with Chinese partners for shipment), FileMaker (delivery tracking, information recording). Cloud backup at the provider's 🟢 |
+| **IT** | Email (formal communication with customers, carriers and customs authorities), WeChat (coordination with Chinese partners for shipment), FileMaker (delivery tracking, information recording). Gramatec SA (Switzerland) — automatic recording 🟢 |
 | **Documentary** | Export documents, CH and EU customs regulations, carrier rates, delivery history |
 | **Financial** | 🟡 [RECOMMENDED — define the annual transport and logistics budget] |
 
@@ -232,7 +232,7 @@ See CTX-QUA-001 for details. Summary:
 
 ### Coordination with Chinese partners
 
-The organisation of transport requires close coordination with the Chinese partners (Yuyao Mould Factory and **Whang**) for the availability of goods at the point of departure. Communication takes place primarily by email and WeChat.
+The organisation of transport requires close coordination with the Chinese partners (Yuyao Mould Factory and **Oukailuo**) for the availability of goods at the point of departure. Communication takes place primarily by email and WeChat.
 
 ### Specific attention points
 
@@ -240,7 +240,7 @@ The organisation of transport requires close coordination with the Chinese partn
 - **Incoterms**: the delivery conditions (distribution of responsibilities between Plus Sarl and the customer) are defined for each order.
 - **Time difference**: coordination with China for shipment involves a time difference of 6 to 7 hours. WeChat enables rapid exchanges despite this difference.
 - **Paradiso**: the fiduciary is involved in the accounting and tax management of import/export operations.
-- **Backup**: all logistics and customs documents are backed up in the cloud. 🟢
+- **Backup**: all logistics and customs documents are backed up at Gramatec SA (Switzerland). 🟢
 
 ---
 
@@ -249,3 +249,4 @@ The organisation of transport requires close coordination with the Chinese partn
 | Version | Date | Modification | Author |
 |---|---|---|---|
 | 0.4 | 18/02/2026 | Initial creation of the process sheet O3 - Logistics and Delivery. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Integration UPDATE 9.1/10.2/10.3/9.3 and RECAP 13 points: Oukailuo replaces Whang, backup = Gramatec SA. | Roxane Wicky |

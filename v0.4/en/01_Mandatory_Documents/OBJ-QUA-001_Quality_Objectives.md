@@ -5,7 +5,7 @@
 | **Reference** | OBJ-QUA-001 |
 | **Version** | 0.4 |
 | **Creation date** | 10/02/2026 |
-| **Revision date** | 19/02/2026 |
+| **Revision date** | 22/02/2026 |
 | **Drafted by** | Roxane Wicky |
 | **Approved by** | Roxane Wicky |
 | **Period** | 2026 |
@@ -16,7 +16,7 @@
 
 ## 1. Annual quality objectives
 
-The quality objectives of Plus Sarl are defined in consistency with the quality policy and the industrial coordination activities between European customers and Chinese manufacturing partners (Yuyao Mould Factory and **Whang**, Yuyao). These objectives have been confirmed and reflect the company's four strategic axes. Certification is aimed at with the **SQS** certification body. 🟢
+The quality objectives of Plus Sarl are defined in consistency with the quality policy and the industrial coordination activities between European customers and Chinese manufacturing partners (Yuyao Mould Factory and **Oukailuo**, Yuyao). These objectives have been confirmed and reflect the company's four strategic axes. Certification is aimed at with the **SQS** certification body. 🟢
 
 ---
 
@@ -60,7 +60,7 @@ The quality objectives of Plus Sarl are defined in consistency with the quality 
 | **Target** | Maximum 3 NC per customer per year 🟢 |
 | **Replacement delay target** | Replacement carried out within a timeframe consistent with the need expressed by the customer 🟢 |
 | **Responsible** | Roxane Wicky (Manager) |
-| **Resources** | Non-conformity forms, NC register, coordination with Yuyao Mould Factory and Whang, tracking in FileMaker |
+| **Resources** | Non-conformity forms, NC register, coordination with Yuyao Mould Factory and Oukailuo, tracking in FileMaker |
 | **Deadline** | 31/12/2026 |
 | **Tracking method** | Systematic recording of each NC in the register, monitoring of the number of NCs per customer, quarterly summary |
 
@@ -93,7 +93,7 @@ The quality objectives of Plus Sarl are defined in consistency with the quality 
 | **Current value** | To be measured - first year: establish the baseline |
 | **Target** | Quotes validated by customers without major renegotiation 🔵 [TO VERIFY] |
 | **Responsible** | Roxane Wicky (Manager) |
-| **Resources** | Quote history, coordination with suppliers (Yuyao Mould Factory, Whang) and carriers |
+| **Resources** | Quote history, coordination with suppliers (Yuyao Mould Factory, Oukailuo) and carriers |
 | **Deadline** | 31/12/2026 |
 | **Tracking method** | Historical comparison of quotes, monitoring of price deviations, supplier/carrier coordination, quarterly summary |
 
@@ -193,6 +193,6 @@ The results are presented during the management review and serve as a basis for 
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Initial creation | Roxane Wicky |
 | 0.2 | 10/02/2026 | Major update: confirmed objectives with quantified targets (95% deadlines, max 3 NC/customer/year, 24h response, absence of major complaints). Replacement of objective 3 (Price control) with Response reactivity (24h). Replacement of objective 4 (Reactivity) with Overall customer satisfaction. Addition of reference NC_2026_1001 as first recorded NC. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Integration of responses (Whang, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Integration of responses (Oukailuo, Paradiso, SQS, cloud backup). Addition of field legend system. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Integration UPDATE 6.2 (merge): update of deadline tolerances (1-2 bus. week / 2-4 bus. days), addition of replacement delay indicator and conformity control, addition of Objective 3 Pricing Conditions, update of reactivity target (24-48H), addition of reference to chapter 5.3 for roles, dashboard extended to 5 objectives. | Roxane Wicky |
