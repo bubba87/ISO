@@ -3,7 +3,7 @@
 | | |
 |---|---|
 | **Version** | 0.4 |
-| **Date** | 18/02/2026 |
+| **Date** | 21/02/2026 |
 | **Auteur** | Roxane Wicky |
 | **Statut** | Document vivant — à mettre à jour au fur et à mesure |
 
@@ -15,7 +15,7 @@
 
 ## Nouveautés v0.4 — Mises à jour du manuel qualité
 
-> **Source :** 4 PDFs UPDATE (UPDATE_ISO9001_2.1, UPDATE_ISO9001_2.2, UPDATE_ISO9001_RW_2.2.1, ISO9001_UPDATE_RW_3) du 18/02/2026
+> **Sources :** 4 PDFs UPDATE (UPDATE_ISO9001_2.1, UPDATE_ISO9001_2.2, UPDATE_ISO9001_RW_2.2.1, ISO9001_UPDATE_RW_3) du 18/02/2026 + 12 PDFs UPDATE (U5-U16) du 19-20/02/2026 + 1 PDF UPDATE (ISO9001_UPDATE_RW_7.5-8.7_260221) du 21/02/2026
 
 | # | Chapitre | Titre | Impact | Documents mis à jour |
 |---|---|---|---|---|
@@ -33,8 +33,15 @@
 | U12 | 6.3 | Planification des modifications | Types de modifications, analyse d'impact par processus, mise en œuvre contrôlée, revue | CTX-QUA-001 (section 6), CRT-QUA-001 (M1, M2, flux) |
 | U13 | 7 | Ressources (7.1) | Généralités, RH, infrastructures, environnement, ressources externes/partenaires | CTX-QUA-001 (section 7), CRT-QUA-001 (S3) |
 | U14 | 7.2 | Compétences | Compétences gérante (7 domaines), maintien, extension aux fournisseurs | FOR-CMP-001 (sections 1, extension fournisseurs) |
-| U15 | 7.3 | Sensibilisation | Sensibilisation politique, objectifs, satisfaction, consequences NC | FOR-CMP-001 (section 5) |
+| U15 | 7.3 | Sensibilisation | Sensibilisation politique, objectifs, satisfaction, conséquences NC | FOR-CMP-001 (section 5) |
 | U16 | 7.4 | Communication | Communication externe par partie intéressée, maîtrise confidentialité | CTX-QUA-001 (sections 7.6, 7.7) |
+| U17 | 7.5 | Informations documentées | Exigences de maîtrise (accessibilité, lisibilité, conservation, protection), 5 mesures de confidentialité des données | PRO-DOC-001 (section 5bis) |
+| U18 | 8.1 | Planification et maîtrise opérationnelle | Processus de commande formalisé, possibilité de refuser une commande hors domaine de compétence | FIC-PRO-001, CRT-QUA-001 (O1, flux étape 2) |
+| U19 | 8.2 | Exigences relatives aux produits et services | 6 types d'exigences, revue de commande, gestion des modifications | FIC-PRO-001, CRT-QUA-001 (O1, flux étape 2) |
+| U20 | 8.4 | Maîtrise des partenaires et fournisseurs | 7 critères de sélection, 4 indicateurs d'évaluation, validation outillages avant série, confidentialité propriété intellectuelle | PRO-ACH-001, CRT-QUA-001 (O2, flux étape 6) |
+| U21 | 8.5 | Production externalisée | 4 moyens de conformité (spécifications, suivi, CQ, échantillons), rapport CQ à formaliser | FIC-PRO-001, FOR-CTR-001, CRT-QUA-001 (flux étapes 6-7) |
+| U22 | 8.6 | Libération des produits et services | 3 critères de libération (CQ fabricant, confirmation commande, photos), formalisme à améliorer | FIC-PRO-001, FOR-CTR-001, CRT-QUA-001 (flux étape 7) |
+| U23 | 8.7 | Maîtrise des produits non-conformes | Processus NC en 4 étapes, registre NC dans FileMaker à mettre en place | PRO-NCF-001, CRT-QUA-001 (O4, flux étape 10) |
 
 ### Nouveaux documents créés en v0.4
 
@@ -50,6 +57,9 @@
 |---|---|---|---|---|
 | 14 | Fiche de contrôle qualité à formaliser avec YAN | UPDATE 2.1 (Processus 04) | 🔵 [À VÉRIFIER] | À traiter lors du voyage en Chine mars 2026 |
 | 15 | Définir avec la Chine comment vérifier production identique à commande | UPDATE 2.1 (Processus 04) | 🔵 [À VÉRIFIER] | À définir lors du voyage en Chine mars 2026 |
+| 16 | Rapport CQ à formaliser avec le partenaire lors du voyage en Chine | UPDATE 8.5 (Production externalisée) | 🔵 [À VÉRIFIER] | À traiter lors du voyage en Chine mars 2026 |
+| 17 | Formalisme de libération des produits à améliorer avec l'expérience | UPDATE 8.6 (Libération) | 🟡 [RECOMMANDÉ] | Amélioration progressive au fil des commandes |
+| 18 | Registre des non-conformités dans FileMaker à mettre en place | UPDATE 8.7 (Produits non-conformes) | 🔵 [À VÉRIFIER] | À créer dans FileMaker avant l'audit SQS |
 
 ---
 
@@ -123,11 +133,13 @@
 - [X] Ajouter le numéro IDE dans DOM-QUA-001 — ✅ CH-645.4.101.228-7 ajouté le 20/02/2026
 - [ ] Contacter SQS pour un devis d'audit de certification
 - [ ] Commencer le suivi des indicateurs T1 (OBJ-QUA-001)
+- [ ] Créer le registre NC dans FileMaker (cf. UPDATE 8.7, PRO-NCF-001)
 
 ### Phase 2 — Fin mars 2026 (voyage en Chine — dates fixées)
 - [ ] Formaliser l'accord qualité trilingue (FR/EN/CN) avec Yuyao Mould Factory
 - [ ] Formaliser l'accord qualité trilingue (FR/EN/CN) avec Whang
 - [ ] Finaliser la checklist de contrôle qualité (FOR-CTR-001)
+- [ ] Formaliser le rapport CQ avec le partenaire (cf. UPDATE 8.5)
 - [ ] Réaliser la première évaluation formelle des fournisseurs (FOR-EVF-001)
 - [ ] Traiter AC_2026_001 (photos, cause racine, actions correctives sur site)
 - [ ] Vérifier les certifications de Whang
@@ -163,7 +175,7 @@
 
 **Contexte :** Vous avez indiqué que la gérante réalise l'audit elle-même, sinon un externe.
 
-**Problème ISO 9001 :** La clause 9.2.2 exigé que « les auditeurs ne doivent pas auditer leur propre travail ». Dans une entreprise unipersonnelle, cela signifie qu'un auditeur externe est **obligatoire** pour la conformité stricte.
+**Problème ISO 9001 :** La clause 9.2.2 exige que « les auditeurs ne doivent pas auditer leur propre travail ». Dans une entreprise unipersonnelle, cela signifie qu'un auditeur externe est **obligatoire** pour la conformité stricte.
 
 **Options :**
 1. **Mandater un auditeur externe** (recommandé) — Budget CHF 500-2'000 pour 1 journée
@@ -243,6 +255,14 @@ Maintenant que l'organisme de certification est choisi (SQS), il faut :
 | 20/02/2026 | UPDATE 7.2 | Compétences — FOR-CMP-001 (extension fournisseurs, maintien enrichi) |
 | 20/02/2026 | UPDATE 7.3 | Sensibilisation — FOR-CMP-001 (nouvelle section 5) |
 | 20/02/2026 | UPDATE 7.4 | Communication — CTX-QUA-001 sections 7.6-7.7 + CRT-QUA-001 (S2 enrichi) + drawio |
+| 21/02/2026 | UPDATE 7.5 | Informations documentées — PRO-DOC-001 (section 5bis, maîtrise et confidentialité) |
+| 21/02/2026 | UPDATE 8.1 | Planification opérationnelle — FIC-PRO-001 (processus commande, refus hors domaine) |
+| 21/02/2026 | UPDATE 8.2 | Exigences produits/services — FIC-PRO-001 (6 types, revue, modifications) |
+| 21/02/2026 | UPDATE 8.4 | Partenaires/fournisseurs — PRO-ACH-001 (7 critères, 4 indicateurs, outillages, PI) |
+| 21/02/2026 | UPDATE 8.5 | Production externalisée — FIC-PRO-001, FOR-CTR-001 (4 moyens conformité) |
+| 21/02/2026 | UPDATE 8.6 | Libération — FIC-PRO-001, FOR-CTR-001 (3 critères libération) |
+| 21/02/2026 | UPDATE 8.7 | Produits non-conformes — PRO-NCF-001 (processus NC 4 étapes, registre FileMaker) |
+| 21/02/2026 | Cartographie | CRT-QUA-001 — mise à jour O1, O2, O4, S1, flux principal (étapes 2, 6, 7, 10) |
 
 ---
 
