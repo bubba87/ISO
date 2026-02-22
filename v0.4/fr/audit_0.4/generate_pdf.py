@@ -230,7 +230,7 @@ COVER_HTML = """
     <div class="info">Organisme de certification : SQS</div>
     <div class="badge">VERSION 0.4 — VERSION DE TRAVAIL</div>
     <div class="info" style="margin-top:30px;">Reference : MQ-001</div>
-    <div class="info">Date : 20/02/2026</div>
+    <div class="info">Date : 22/02/2026</div>
     <div class="footer-note">Ce document est strictement confidentiel.<br>
     Il est destine a l'organisme de certification SQS dans le cadre de l'audit ISO 9001:2015.</div>
 </div>

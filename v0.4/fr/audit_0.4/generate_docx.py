@@ -101,7 +101,7 @@ def add_cover_page(doc):
         ("Gérante", "Roxane Wicky"),
         ("Organisme de certification", "SQS"),
         ("Version", "0.4 — Version de travail"),
-        ("Date", "20/02/2026"),
+        ("Date", "22/02/2026"),
     ]
 
     table = doc.add_table(rows=len(info), cols=2)

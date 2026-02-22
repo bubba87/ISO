@@ -8,7 +8,7 @@
 | **Gérante** | Roxane Wicky |
 | **Organisme de certification** | SQS |
 | **Version** | 0.4 — Version de travail |
-| **Date** | 20/02/2026 |
+| **Date** | 22/02/2026 |
 
 ---
 
@@ -27,7 +27,7 @@ Le dossier est organisé selon la structure de la norme ISO 9001:2015 (chapitres
 | **Manuel Qualité** | MQ-001 (présent dossier) |
 | **Cartographie des processus** | CRT-QUA-001 + fichier .drawio |
 | **Nombre de processus** | 10 (3 management + 4 opérationnels + 3 support) |
-| **Nombre de documents SMQ** | 24 documents |
+| **Nombre de documents SMQ** | 26 documents |
 | **Exclusion** | Clause 8.3 — Conception et développement |
 
 ---
@@ -66,7 +66,7 @@ Le dossier est organisé selon la structure de la norme ISO 9001:2015 (chapitres
 |---|---|---|---|---|
 | 7.1 | Ressources (generalites, RH, infrastructure, environnement) | CTX-QUA-001 | Section 7 (7.1 a 7.5) | 🟢 |
 | 7.1.5 | Ressources pour la surveillance et la mesure | CTX-QUA-001 | Section 7.3 (infrastructure) | 🟢 |
-| 7.2 | Compétences | FOR-CMP-001 | Sections 1-4 | 🟢 (partiellement — diplomes 🔴) |
+| 7.2 | Compétences | FOR-CMP-001 | Sections 1-4 | 🟢 (diplômes et expérience documentés) |
 | 7.3 | Sensibilisation | FOR-CMP-001 | Section 5 | 🟢 |
 | 7.4 | Communication | CTX-QUA-001, M1-DIR-001 | CTX §7.6-7.7, M1 §7 | 🟢 |
 | 7.5 | Informations documentées | PRO-DOC-001 | Sections 1-9 | 🟢 |
@@ -81,7 +81,7 @@ Le dossier est organisé selon la structure de la norme ISO 9001:2015 (chapitres
 | 8.2.2 | Détermination des exigences | M1-DIR-001 | Section 6.1 | 🟢 |
 | 8.2.3 | Revue des exigences | CTX-QUA-001 | Section 1.3 (revue de commande) | 🟢 |
 | 8.3 | Conception et développement | **EXCLU** | DOM-QUA-001 §3 | Justification documentée |
-| 8.4 | Maîtrise des processus, produits et services fournis par des prestataires externes | PRO-ACH-001, FIC-PRO-001, FOR-EVF-001 | Documents complets | 🟢 |
+| 8.4 | Maîtrise des processus, produits et services fournis par des prestataires externes | PRO-ACH-001, FIC-PRO-001, FOR-EVF-001, FOR-AQF-001, FOR-AQF-002 | Documents complets (accords qualité formalisés) | 🟢 |
 | 8.5 | Production et prestation de service | PRO-LOG-001, FIC-PRO-002 | Documents complets | 🟢 |
 | 8.5.3 | Propriété des clients ou des prestataires externes | CTX-QUA-001, PRO-DOC-001 | CTX §9 (moules), PRO-DOC §7 | 🟢 |
 | 8.6 | Liberation des produits et services | FOR-CTR-001 | Document complet | 🟢 |
@@ -91,7 +91,7 @@ Le dossier est organisé selon la structure de la norme ISO 9001:2015 (chapitres
 
 | Clause ISO | Exigence | Document(s) SMQ | Section(s) | Statut |
 |---|---|---|---|---|
-| 9.1 | Surveillance, mesure, analyse et évaluation | OBJ-QUA-001, FOR-SAT-001 | OBJ §2 (tableau de bord), FOR-SAT | 🟢 |
+| 9.1 | Surveillance, mesure, analyse et évaluation | OBJ-QUA-001, FOR-SAT-001 | OBJ §2 (tableau de bord), §4 (5 volets 9.1), FOR-SAT | 🟢 |
 | 9.1.2 | Satisfaction du client | FOR-SAT-001 | Document complet | 🟢 |
 | 9.2 | Audit interne | PRO-AUD-001, CHK-AUD-001 | Documents complets | 🟢 |
 | 9.3 | Revue de direction | FOR-RDR-001, M1-DIR-001 | FOR-RDR complet, M1 §8 | 🟢 |
@@ -101,8 +101,8 @@ Le dossier est organisé selon la structure de la norme ISO 9001:2015 (chapitres
 | Clause ISO | Exigence | Document(s) SMQ | Section(s) | Statut |
 |---|---|---|---|---|
 | 10.1 | Généralités | CRT-QUA-001 | M2 — Amélioration continue | 🟢 |
-| 10.2 | Non-conformité et action corrective | PRO-NCF-001, PRO-ACR-001, FOR-RCL-001 | Documents complets | 🟢 |
-| 10.3 | Amélioration continue | CRT-QUA-001, FOR-RDR-001 | M2 processus, revue de direction | 🟢 |
+| 10.2 | Non-conformité et action corrective | PRO-NCF-001 (§11), PRO-ACR-001, FOR-RCL-001 | 5 types de causes, registre AC, actions correctives | 🟢 |
+| 10.3 | Amélioration continue | PRO-ACR-001 (§9), CRT-QUA-001, FOR-RDR-001 | Déclencheurs, visites Chine, vérification efficacité | 🟢 |
 
 ---
 
@@ -141,21 +141,23 @@ Le dossier est organisé selon la structure de la norme ISO 9001:2015 (chapitres
 | 17 | FOR-RDR-001 | Revue de Direction | 9.3 |
 | 18 | FOR-CMP-001 | Compétences et Formation | 7.2, 7.3 |
 | 19 | FOR-RCL-001 | Réclamations Client | 10.2 |
-| 20 | FOR-CTR-001 | Contrôle Reception | 8.6 |
+| 20 | FOR-CTR-001 | Contrôle Réception | 8.6 |
+| 21 | FOR-AQF-001 | Accord Qualité — Hardeng Yuyao Mould Factory | 8.4 |
+| 22 | FOR-AQF-002 | Accord Qualité — Oukailuo | 8.4 |
 
 ### 04 — Checklists
 
 | # | Référence | Titre | Clauses ISO couvertes |
 |---|---|---|---|
-| 21 | CHK-AUD-001 | Checklist Audit ISO 9001 | 9.2 |
+| 23 | CHK-AUD-001 | Checklist Audit ISO 9001 | 9.2 |
 
 ### Fichiers complémentaires
 
 | # | Référence | Titre |
 |---|---|---|
-| 22 | CRT-QUA-001.drawio | Cartographie des Processus (format visuel) |
-| 23 | LEGENDE.md | Système de légende des champs |
-| 24 | INFORMATIONS_MANQUANTES_v0.4.md | Suivi des informations et mises a jour |
+| 24 | CRT-QUA-001.drawio | Cartographie des Processus (format visuel) |
+| 25 | LEGENDE.md | Système de légende des champs |
+| 26 | INFORMATIONS_MANQUANTES_v0.4.md | Suivi des informations et mises à jour |
 
 ---
 
@@ -165,35 +167,42 @@ Le dossier est organisé selon la structure de la norme ISO 9001:2015 (chapitres
 
 | # | Élément | Document | Impact |
 |---|---|---|---|
-| 1 | Diplomes et formations de la gérante | FOR-CMP-001 §1 | Non divulgues à ce stade — a fournir avant l'audit |
-| 2 | Expérience professionnelle antérieure | FOR-CMP-001 §1 | Non divulguee — a completer |
-| 3 | Auto-évaluation des compétences | FOR-CMP-001 §4 | A remplir (notes 1-5) |
-| 4 | Registre des formations suivies | FOR-CMP-001 §2 | A completer avec les formations passees |
+| 1 | ~~Diplômes et formations de la gérante~~ | FOR-CMP-001 §1 | 🟢 Résolu — diplômes et expériences documentés (RECAP point #7) |
+| 2 | ~~Expérience professionnelle antérieure~~ | FOR-CMP-001 §1 | 🟢 Résolu — assistante direction 2013-2016, gérante 2016-présent |
+| 3 | Auto-évaluation des compétences | FOR-CMP-001 §4 | À remplir (notes 1-5) |
+| 4 | Registre des formations suivies | FOR-CMP-001 §2 | À compléter avec les formations passées |
 | 5 | Suivi trimestriel des objectifs qualité | OBJ-QUA-001 §1-2 | Première année — collecte en cours |
-| 6 | Fiche de contrôle qualité formalisée avec les partenaires | CTX-QUA-001 §1.1 (O4) | 🔵 A formaliser avec Yuyao Mould Factory |
+| 6 | Fiche de contrôle qualité formalisée avec les partenaires | CTX-QUA-001 §1.1 (O4) | 🔵 À formaliser lors du voyage en Chine mars 2026 |
 
 ### Points forts du SMQ
 
-- Structure documentaire complète (24 documents) couvrant tous les chapitres ISO 9001
+- Structure documentaire complète (26 documents) couvrant tous les chapitres ISO 9001
 - Cartographie des processus avec 10 processus formalisés
 - Matrice RACI détaillée pour l'entreprise unipersonnelle
 - Analyse SWOT complète avec matrice risques/opportunités
 - 5 objectifs qualité mesurables avec tableaux de suivi trimestriels
-- Politique qualité signee par la direction
-- Communication externe structuree par partie intéressée
+- Politique qualité signée par la direction 🟢
+- Communication externe structurée par partie intéressée
 - Exclusion 8.3 clairement justifiée
+- Auditeur interne identifié : Capucine & Olav Wicky (exigence d'indépendance satisfaite) 🟢
+- Accords qualité formalisés avec les 2 partenaires chinois (FOR-AQF-001/002) 🟢
+- Sauvegarde identifiée : Gramatec SA (Suisse), enregistrement automatique 🟢
+- Diplômes et expérience de la gérante documentés 🟢
+- Transporteur principal identifié : ECAM, contact Sofia 🟢
 
 ### Recommandations pre-audit
 
 | # | Recommandation | Priorité |
 |---|---|---|
-| 1 | Completer les informations sur les diplomes et formations (FOR-CMP-001) | Haute |
+| 1 | ~~Compléter les diplômes et formations~~ | ~~Haute~~ 🟢 Résolu |
 | 2 | Réaliser l'auto-évaluation des compétences (FOR-CMP-001 §4) | Haute |
 | 3 | Suivre une formation ISO 9001 (via SQS ou SAQ) | Haute |
-| 4 | Mandater un auditeur interne externe (clause 9.2.2 c) | Recommandé |
-| 5 | Formaliser la fiche de contrôle qualité avec les partenaires chinois | Recommandé |
+| 4 | ~~Mandater un auditeur interne~~ | ~~Recommandé~~ 🟢 Capucine & Olav Wicky |
+| 5 | Formaliser la fiche de contrôle qualité avec les partenaires (voyage Chine mars 2026) | Recommandé |
 | 6 | Commencer le suivi trimestriel des indicateurs (OBJ-QUA-001) | Haute |
+| 7 | Faire signer les accords qualité FOR-AQF-001/002 (voyage Chine mars 2026) | Haute |
+| 8 | Créer le registre NC dans FileMaker (cf. UPDATE 8.7) | Haute |
 
 ---
 
-*Index généré le 20/02/2026 — Version de travail v0.4*
+*Index mis à jour le 22/02/2026 — Version de travail v0.4 (27 UPDATEs + RECAP 13 points intégrés)*

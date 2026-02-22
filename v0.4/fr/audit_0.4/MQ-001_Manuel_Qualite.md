@@ -4,7 +4,7 @@
 |---|---|
 | **Référence** | MQ-001 |
 | **Version** | 0.4 — Version de travail |
-| **Date** | 20/02/2026 |
+| **Date** | 22/02/2026 |
 | **Rédigé par** | Roxane Wicky |
 | **Approuve par** | Roxane Wicky |
 | **Organisme de certification** | SQS |
@@ -90,7 +90,7 @@ Plus Sarl ne réalise pas directement la production. Celle-ci est effectuée par
 | Partenaire | Activité | Relation |
 |---|---|---|
 | **Yuyao Mould Factory** | Fabrication moules et injection | Partenaire principal et historique (depuis 2007) 🟢 |
-| **Oukailuo** (Yuyao, Chine) | Fabrication de vis | Second partenaire de production 🟢 |
+| **Oukailuo** (Yuyao, Chine) | Visserie et quincaillerie | Second partenaire de production 🟢 |
 
 ### Chaîne de valeur
 
@@ -108,7 +108,7 @@ Client europeen --> Plus Sarl --> Partenaires chinois --> Plus Sarl --> Client e
 | **FileMaker** | Gestion des données, suivi des commandes, prix, transport |
 | **Email** | Communication avec les clients et les partenaires |
 | **WeChat** | Communication avec les partenaires chinois |
-| **Cloud** | Sauvegarde des données, hebergement chez le fournisseur 🟢 |
+| **Gramatec SA** (Suisse) | Hébergement FileMaker, sauvegarde automatique, restauration garantie 🟢 |
 
 ---
 
@@ -196,7 +196,7 @@ Le SMQ de Plus Sarl est structure autour de **10 processus** :
 | | M2 | Amélioration continue | PRO-NCF-001, PRO-ACR-001 |
 | | M3 | Revue de direction | FOR-RDR-001 |
 | **Opérationnel** | O1 | Commercial | CTX-QUA-001 (§1.2, 1.3) |
-| | O2 | Achats et sous-traitance | PRO-ACH-001, FIC-PRO-001 |
+| | O2 | Achats et sous-traitance | PRO-ACH-001, FIC-PRO-001, FOR-AQF-001, FOR-AQF-002 |
 | | O3 | Logistique et livraison | PRO-LOG-001, FIC-PRO-002 |
 | | O4 | Contrôle qualité | PRO-NCF-001, FOR-CTR-001 |
 | **Support** | S1 | Gestion documentaire | PRO-DOC-001 |
@@ -326,7 +326,7 @@ La politique qualité de Plus Sarl est etablie, communiquee et maintenue.
 
 #### Audit interne
 
-La gérante peut réaliser l'audit interne elle-meme. Cependant, il est **fortement recommandé** de mandater un auditeur externe indépendant pour respecter l'exigence d'indépendance de la clause 9.2.2 c). 🟡
+L'audit interne est réalisé par **Capucine Wicky & Olav Wicky** (actionnaires de Plus Sarl). L'exigence d'indépendance de la clause 9.2.2 c) est satisfaite : les auditeurs n'auditent pas leur propre travail. 🟢
 
 *(cf. M1-DIR-001 §3, 4, 5, 6)*
 
@@ -417,7 +417,7 @@ Les compétences requises pour les fonctions de direction, commercial, coordinat
 | Acces internet | Communication, suivi logistique 🟢 |
 | Application WeChat | Échanges opérationnels avec partenaires chinois 🟢 |
 | Téléphone mobile | Disponibilité et réactivité 🟢 |
-| Sauvegarde cloud | Sauvegarde des données, chez le fournisseur 🟢 |
+| Hébergement Gramatec SA | Sauvegarde automatique FileMaker, restauration garantie (Suisse) 🟢 |
 
 #### Environnement de travail
 
@@ -428,9 +428,10 @@ L'environnement de travail assure la confidentialité des données, la fiabilit�
 | Partenaire | Activité | Suivi |
 |---|---|---|
 | **Yuyao Mould Factory** | Moules et injection | Accord qualité, évaluation annuelle (FOR-EVF-001) 🟢 |
-| **Oukailuo** (Yuyao) | Vis | Accord qualité, évaluation annuelle 🟢 |
+| **Oukailuo** (Yuyao) | Visserie et quincaillerie | Accord qualité (FOR-AQF-002), évaluation annuelle 🟢 |
+| **ECAM** (Chine) | Transporteur principal, contact Sofia | Évaluation très positive depuis des années 🟢 |
 | **Paradiso** | Fiduciaire | Contrat de mandat 🟢 |
-| Transitaires | Transport international | Suivi par expédition 🟡 |
+| Transitaires | Transport international | Définis selon prix, qualité ou port d'arrivée 🟢 |
 
 *(cf. CTX-QUA-001 §7)*
 
@@ -443,7 +444,13 @@ Les compétences de la gérante sont documentées dans le registre FOR-CMP-001 :
 
 **Extension aux fournisseurs :** Plus Sarl veille à ce que les partenaires industriels disposent des compétences techniques nécessaires. Évaluation continue via respect des délais, conformité des pièces, stabilité de la relation.
 
-**Informations en attente :** Diplomes et formations initiales de la gérante non divulgues à ce stade. 🔴
+**Formation initiale et expérience :**
+- Diplôme de commerce (Neuchâtel) 🟢
+- Diplômes maquillage et esthétique international 🟢
+- Brevet fédéral esthétique médicale 🟢
+- Assistante de direction chez Plus Sarl (2013-2016) 🟢
+- Gérante / Directrice de Plus Sarl (2016-présent) 🟢
+- Formation sur le terrain en Suisse et en Chine à de nombreuses reprises 🟢
 
 *(cf. FOR-CMP-001 §1-4)*
 
@@ -485,14 +492,17 @@ Plus Sarl veille à la protection des informations techniques, commerciales et c
 
 ### 7.5 Informations documentées
 
-Le SMQ comprend **24 documents** gérés selon la procédure PRO-DOC-001 :
+Le SMQ comprend **26 documents** gérés selon la procédure PRO-DOC-001 :
 
 **Gestion documentaire :**
 - Création, approbation, diffusion, mise à jour et archivage par la gérante
 - Codification systématique (POL, DOM, CTX, CRT, OBJ, M1, FIC, PRO, FOR, CHK, LST)
 - Stockage : FileMaker, fichiers locaux, archivés email, WeChat, partenaires chinois, fiduciaire
-- Sauvegarde cloud automatique 🟢
+- Sauvegarde automatique chez Gramatec SA (Suisse), restauration garantie 🟢
 - Conservation : 3 ans (enregistrements SMQ), 5 ans (commandes), 10 ans (factures)
+
+**Maîtrise des informations documentées (clause 7.5) :**
+Plus Sarl veille à assurer l'accessibilité, la lisibilité, la conservation et la protection de toutes les informations documentées. Les données techniques, commerciales et contractuelles sont traitées comme strictement confidentielles. 5 mesures de protection : accès sécurisé, limitation aux interlocuteurs concernés, organisation structurée, protection bases de données, transmission contrôlée. 🟢
 
 La liste maitresse des documents et la liste de gestion documentaire sont tenues a jour dans PRO-DOC-001 §8-9.
 
@@ -525,6 +535,18 @@ Les activités opérationnelles sont planifiées et maitrisees a travers les 4 p
 
 ### 8.2 Exigences relatives aux produits et services
 
+#### Détermination des exigences (clause 8.2)
+
+Plus Sarl détermine **6 types d'exigences** applicables à chaque commande :
+1. Spécifications techniques (plans, matières, tolérances)
+2. Quantités et délais
+3. Exigences légales et réglementaires (douanes, normes)
+4. Normes applicables
+5. Conditions de livraison
+6. Exigences implicites (emballage, marquage, certificats)
+
+Plus Sarl se réserve la **possibilité de refuser** une commande hors de son domaine de compétence (clause 8.1). 🟢
+
 #### Revue de commande
 
 Chaque demande client (commande, devis, modification, réclamation) fait l'objet d'une analyse préalable :
@@ -532,13 +554,13 @@ Chaque demande client (commande, devis, modification, réclamation) fait l'objet
 | Aspect | Processus |
 |---|---|
 | Compréhension des besoins | O1 — Commercial |
-| Références, quantités, délais | O1 — Commercial |
+| Détermination des 6 types d'exigences | O1 — Commercial |
 | Faisabilité technique et logistique | O2 — Achats & sous-traitance |
 | Exigences qualité | O4 — Contrôle qualité |
 
-Apres validation : enregistrement dans FileMaker, accusé de reception au client.
+Après validation : enregistrement dans FileMaker, accusé de réception au client.
 
-Toute modification est soumise a analyse, validation partenaire si nécessaire, confirmation client par email et mise à jour FileMaker.
+Toute modification est soumise à analyse, validation partenaire si nécessaire, confirmation client par email et mise à jour FileMaker.
 
 *(cf. CTX-QUA-001 §1.3, M1-DIR-001 §6)*
 
@@ -550,17 +572,20 @@ Plus Sarl ne conçoit pas les produits. Les conceptions, cahiers des charges, br
 
 La production est entièrement externalisée chez les partenaires chinois. La maîtrise repose sur :
 
-- **Sélection** : partenaires experimentes, capacité technique évaluée
+- **Sélection** sur **7 critères** : capacité technique, qualité, réactivité, fiabilité, prix, communication, flexibilité 🟢
 - **Suivi** : communication régulière (email, WeChat), échanges documentés, rapports de production
-- **Évaluation** : évaluation annuelle des fournisseurs (FOR-EVF-001), suivi des indicateurs (délais, conformité)
-- **Contrôle** : contrôle qualité pre-expédition par le partenaire, échantillons valides
+- **Évaluation** sur **4 indicateurs** : respect des délais, conformité des pièces, stabilité relation, réactivité 🟢
+- **Contrôle** : contrôle qualité pré-expédition par le partenaire, échantillons validés
+- **Validation outillages** : tout nouveau moule validé sur échantillon avant lancement série 🟢
+- **Confidentialité** : propriété intellectuelle des clients protégée par les accords qualité 🟢
 
-Les critères d'évaluation continue incluent :
-- Respect des délais (continu, par commande)
-- Conformité des pièces livrées (a chaque reception)
-- Stabilité de la relation industrielle (annuel)
+**Accords qualité formalisés :**
+- **FOR-AQF-001** — Accord qualité avec Hardeng Yuyao Mould Factory (10 sections) 🟢
+- **FOR-AQF-002** — Accord qualité avec Oukailuo (10 sections) 🟢
 
-*(cf. PRO-ACH-001, FIC-PRO-001, FOR-EVF-001)*
+**Transporteur principal :** ECAM (Chine), contact Sofia (WeChat/email). Évaluation très positive depuis des années. Transitaires définis selon prix, qualité ou port d'arrivée. 🟢
+
+*(cf. PRO-ACH-001, FIC-PRO-001, FOR-EVF-001, FOR-AQF-001, FOR-AQF-002)*
 
 ### 8.5 Production et prestation de service
 
@@ -571,6 +596,12 @@ La coordination de la production et la prestation logistique suivent les process
 - Vérification de la faisabilité, délais et conditions de fabrication
 - Suivi de production par échanges documentés
 - Envoi et validation d'échantillons
+
+**4 moyens de conformité pour la production externalisée (clause 8.5) :**
+1. Transmission des spécifications techniques complètes
+2. Suivi de production (photos, rapports d'étape, WeChat)
+3. Contrôle qualité pré-expédition par le partenaire
+4. Envoi d'échantillons chez Plus Sarl en parallèle du transport 🟢
 
 **Processus O3 — Logistique et livraison :**
 - Organisation du transport adapte (avion, bateau, train)
@@ -590,21 +621,24 @@ Les données techniques (designs, spécifications) appartiennent aux clients et 
 
 ### 8.6 Liberation des produits et services
 
-Avant expédition, Plus Sarl s'assure de la conformité des pièces :
-- vérification de la conformité aux exigences techniques
-- contrôle qualité réalisé par le fabricant 🔵 [À VÉRIFIER — fiche de contrôle a formaliser]
-- suivi documentaire conserve sur FileMaker
-- analyse des retours clients après livraison
+Avant expédition, Plus Sarl s'assure de la conformité par une **libération formalisée sur 3 critères** (clause 8.6) :
+
+1. **CQ fabricant conforme** — le partenaire réalise un contrôle qualité interne avant expédition
+2. **Confirmation correspondance avec la commande** — vérification que la production correspond aux spécifications
+3. **Photos des pièces et de l'emballage** — preuve visuelle de conformité
+
+En complément : envoi d'échantillons chez Plus Sarl en parallèle du transport. Suivi documentaire conservé sur FileMaker. Analyse des retours clients après livraison. 🟢
 
 *(cf. FOR-CTR-001)*
 
 ### 8.7 Maîtrise des éléments de sortie non conformes
 
-En cas de non-conformité identifiée :
-1. Création d'une fiche de non-conformité
-2. Decision : acceptation, remplacement ou correction
-3. Analyse de la cause et investigation
-4. Mise en œuvre d'actions correctives pour eviter la répétition
+En cas de non-conformité identifiée, **processus en 4 étapes** (clause 8.7) :
+
+1. **Identification et isolement** du lot concerné
+2. **Analyse de la NC** et décision de traitement (acceptation, remplacement, correction)
+3. **Actions correctives** (cf. PRO-NCF-001, PRO-ACR-001)
+4. **Enregistrement** dans le registre NC FileMaker 🔵 [À VÉRIFIER — registre à mettre en place]
 
 *(cf. PRO-NCF-001)*
 
@@ -614,19 +648,25 @@ En cas de non-conformité identifiée :
 
 ### 9.1 Surveillance, mesure, analyse et évaluation
 
-Le suivi de la performance du SMQ s'appuie sur :
+Le suivi de la performance du SMQ s'appuie sur **5 volets de suivi, mesure, analyse et évaluation** (clause 9.1) :
+
+1. **Suivi des délais** : transport maritime/ferroviaire (+/-10 jours), aérien (+/-3 jours)
+2. **Conformité produit** : taux de conformité >= 95%, max 3 NC/client/an
+3. **Performance fournisseurs** : évaluation continue (délais, conformité, stabilité, réactivité)
+4. **Satisfaction client** : absence de réclamation majeure, retours qualitatifs, fidélisation
+5. **Fréquence d'analyse** : trimestrielle (indicateurs), annuelle (revue de direction, audit)
 
 **Indicateurs de performance (tableau de bord) :**
 
-| Indicateur | Cible | Frequence |
+| Indicateur | Cible | Fréquence |
 |---|---|---|
 | % livraisons dans les délais | >= 95% | Trimestriel |
 | Nb de NC par client/an | Max 3 | Trimestriel |
-| Validation des offres sans reneg. majeure | Oui | Trimestriel |
+| Validation des offres sans renég. majeure | Oui | Trimestriel |
 | Délai moyen de réponse email | 24-48H | Trimestriel |
 | Satisfaction globale clients | Absence réclamation majeure | Semestriel |
 
-*(cf. OBJ-QUA-001 §2)*
+*(cf. OBJ-QUA-001 §2, §4)*
 
 ### 9.1.2 Satisfaction du client
 
@@ -643,30 +683,27 @@ L'audit interne est réalisé au minimum 1 fois par an, conformément à la proc
 
 | Élément | Détail |
 |---|---|
-| **Frequence** | Minimum 1 fois par an |
-| **Responsable** | Gérante ou auditeur externe indépendant 🟡 |
+| **Fréquence** | Minimum 1 fois par an |
+| **Auditeurs** | **Capucine Wicky & Olav Wicky** (actionnaires de Plus Sarl) 🟢 |
 | **Référence** | PRO-AUD-001, CHK-AUD-001 |
 
-> **Recommandation forte :** dans une organisation unipersonnelle, il est recommandé de mandater un auditeur externe indépendant pour respecter l'exigence d'indépendance (clause 9.2.2 c). 🟡
+> **Exigence d'indépendance satisfaite** (clause 9.2.2 c) : les auditeurs internes sont les actionnaires Capucine et Olav Wicky, qui n'exercent pas d'activité opérationnelle dans l'entreprise. 🟢
 
 *(cf. PRO-AUD-001, CHK-AUD-001)*
 
 ### 9.3 Revue de direction
 
-La revue de direction est réalisée au minimum **1 fois par an** par Roxane Wicky.
+La revue de direction est réalisée au minimum **1 fois par an** par Roxane Wicky. Elle vise à s'assurer de la **pertinence**, l'**adéquation**, l'**efficacité** et l'**alignement avec la stratégie** de l'entreprise (clause 9.3 renforcée). Des revues intermédiaires peuvent être réalisées en cas d'événement majeur.
 
-**Éléments examines :**
-- État des actions des revues précédentes
-- Modifications du contexte interne et externe
-- Performance des processus et conformité des produits
-- Satisfaction des clients européens
-- Résultats des audits
-- Performance des fournisseurs (Yuyao Mould Factory, Oukailuo)
-- Adéquation des ressources
-- Efficacité des actions face aux risques et opportunités
-- Opportunités d'amélioration
+**6 éléments d'entrée requis (clause 9.3) :**
+a) Résultats des indicateurs (9.1)
+b) État des actions correctives (10.2)
+c) État des risques et opportunités (6.1)
+d) Performance des partenaires industriels (8.4)
+e) Ressources (chapitre 7)
+f) Opportunités d'amélioration (10.3)
 
-Les données de sortie comprennent les decisions relatives à l'amélioration du SMQ, aux besoins en ressources et aux actions a mener.
+**Décisions et actions issues de la revue :** définir de nouveaux objectifs qualité si nécessaire, décider d'actions correctives ou préventives, renforcer la sélection ou le suivi des fournisseurs, ajuster les processus opérationnels, planifier les améliorations prioritaires. Les décisions sont formalisées dans le compte rendu de revue de direction.
 
 *(cf. FOR-RDR-001, M1-DIR-001 §8)*
 
@@ -691,13 +728,15 @@ Le processus **M2 — Amélioration continue** pilote l'amélioration du SMQ a t
 - a reception de marchandises par le client
 - à la suite d'une réclamation
 
-**Processus de traitement :**
-1. Enregistrement dans une fiche de NC
-2. Analyse de la situation et des causes
-3. Decision de traitement : acceptation, correction ou remplacement
+**Processus de traitement (clause 10.2) :**
+1. Analyse de la cause racine
+2. Identification du type de cause (5 types : défaut production, erreur humaine, étiquetage, logistique, clarification)
+3. Action corrective adaptée (5 types : correction production, renforcement CQ, reprise étiquetage, adaptation logistique, amélioration communication)
 4. Mise en place d'actions correctives
 5. Vérification de leur efficacité
 6. Intégration au suivi qualité, audit interne et revue de direction
+
+**Registre des actions correctives** par catégorie (fournisseurs, transporteurs, client) dans FileMaker. Si récurrence d'une NC identique : analyse approfondie et actions renforcées. 🟢
 
 **NC enregistrée en 2026 :** NC_2026_1001 — erreur d'étiquetage sur expédition SHIP_25058 / article CFM00057428 / référence 90.60.05710 (1000 pièces avec mauvaise etiquette). Action : renforcement contrôle étiquetage. 🟢
 
@@ -705,14 +744,18 @@ Le processus **M2 — Amélioration continue** pilote l'amélioration du SMQ a t
 
 ### 10.3 Amélioration continue
 
-L'amélioration continue est alimentee par :
-- les résultats des audits internes
-- l'analyse des indicateurs de performance
-- les retours clients et les réclamations
-- les résultats de la revue de direction
-- les actions correctives mises en œuvre
+L'amélioration continue (clause 10.3) vise 5 objectifs : réduire les NC, optimiser les délais, renforcer la qualité, améliorer la satisfaction client, fiabiliser la chaîne logistique.
 
-Les decisions d'amélioration sont prises lors de la revue de direction et intégrées dans la planification des objectifs qualité.
+**Déclencheurs d'amélioration :**
+- Non-conformité détectée ou récurrente
+- Retard de livraison constaté
+- Retour ou réclamation client
+- Indicateurs qualité en dessous des cibles
+- **Visites en Chine** — levier majeur d'amélioration (formalisation du suivi production, contrôle qualité sur site, renforcement relation partenaires) 🟢
+
+L'efficacité des améliorations est vérifiée selon 4 critères : disparition du problème, amélioration des indicateurs, satisfaction des parties, absence de récurrence.
+
+Les décisions d'amélioration sont consolidées lors de la revue de direction annuelle et intégrées dans la planification des objectifs qualité.
 
 ---
 
@@ -741,8 +784,10 @@ Les decisions d'amélioration sont prises lors de la revue de direction et inté
 | 17 | FOR-RDR-001 | Revue de Direction |
 | 18 | FOR-CMP-001 | Compétences et Formation |
 | 19 | FOR-RCL-001 | Réclamations Client |
-| 20 | FOR-CTR-001 | Contrôle Reception |
-| 21 | CHK-AUD-001 | Checklist Audit ISO 9001 |
+| 20 | FOR-CTR-001 | Contrôle Réception |
+| 21 | FOR-AQF-001 | Accord Qualité — Hardeng Yuyao Mould Factory |
+| 22 | FOR-AQF-002 | Accord Qualité — Oukailuo |
+| 23 | CHK-AUD-001 | Checklist Audit ISO 9001 |
 
 ### B. Correspondance ISO 9001:2015 — Documents SMQ
 
@@ -759,8 +804,9 @@ Voir **CRT-QUA-001.drawio**.
 | Version | Date | Modification | Auteur |
 |---|---|---|---|
 | 0.4 | 20/02/2026 | Création initiale du Manuel Qualité (version de travail). Compilation de l'ensemble des documents SMQ v0.4 incluant 16 UPDATEs intégrés (U1-U16). | Roxane Wicky |
+| 0.4 | 22/02/2026 | Mise à jour complète : intégration UPDATEs 7.5-8.7 (U17-U23), UPDATEs 9.1/10.2/10.3/9.3 (U24-U27) et RECAP 13 points. Enrichissements majeurs : 6 types d'exigences (8.2), 7 critères sélection + 4 indicateurs (8.4), 4 moyens conformité (8.5), 3 critères libération (8.6), processus NC 4 étapes (8.7), 5 volets suivi/mesure (9.1), 5 types de causes NC (10.2), amélioration continue 10.3, revue direction renforcée 9.3. Résolutions RECAP : auditeur Capucine & Olav Wicky, diplômes Roxane, Gramatec SA, ECAM/Sofia, accords qualité FOR-AQF-001/002. Total : 26 documents SMQ. | Roxane Wicky |
 
 ---
 
 *Manuel Qualité rédigé conformément aux exigences de la norme ISO 9001:2015.*
-*Document de travail — Version 0.4 — Plus Sarl, Cudrefin, Suisse.*
+*Document de travail — Version 0.4 (mise à jour 22/02/2026) — Plus Sarl, Cudrefin, Suisse.*
