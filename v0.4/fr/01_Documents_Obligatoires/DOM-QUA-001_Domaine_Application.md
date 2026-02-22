@@ -51,7 +51,7 @@ Le Système de Management de la Qualité de Plus Sarl couvre les activités suiv
 
 - Pièces industrielles injectees (moules développés sur mesure)
 - Moules d'injection (développés et stockés chez Yuyao Mould Factory en Chine) — propriété des clients 🟢
-- Vis (screws) fabriquees par Whang (Yuyao, Chine) 🟢
+- Vis (screws) fabriquees par Oukailuo (Yuyao, Chine) 🟢
 - Pièces existantes sourcees auprès de fournisseurs
 - Services de coordination industrielle et logistique
 
@@ -90,7 +90,7 @@ Voir document CTX-QUA-001 pour le détail des parties intéressées et leurs exi
 |---|---|---|
 | Fabrication des moules | Yuyao Mould Factory (partenaire principal historique) 🟢 | Accord qualité, cahier des charges, suivi de production, contrôle a reception |
 | Injection des pièces plastiques | Yuyao Mould Factory 🟢 | Accord qualité, spécifications techniques, contrôle a reception |
-| Fabrication de vis (screws) | **Whang** (Yuyao, Chine) 🟢 | Accord qualité, cahier des charges, contrôle a reception |
+| Fabrication de vis (screws) | **Oukailuo** (Yuyao, Chine) 🟢 | Accord qualité, cahier des charges, contrôle a reception |
 | Transport international | Transitaires (aérien, maritime, ferroviaire) 🟡 [RECOMMANDE — noms non disponibles actuellement] | Cahier des charges transport, suivi des expéditions |
 | Comptabilite / fiduciaire | **Paradiso** 🟢 | Contrat de mandat |
 
@@ -102,6 +102,6 @@ Voir document CTX-QUA-001 pour le détail des parties intéressées et leurs exi
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Mise à jour version, aucun changement de contenu | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Ajout du numéro IDE (CH-645.4.101.228-7). Point #8 resolu. | Roxane Wicky |

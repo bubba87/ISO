@@ -13,8 +13,8 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout évaluation détaillée, Yuyao Mould Factory, Fournisseur B placeholder | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 
 ---
 
@@ -263,13 +263,13 @@
 ---
 ---
 
-## FOURNISSEUR B — Whang
+## FOURNISSEUR B — Oukailuo
 
 ### Identification du fournisseur
 
 | Élément | Détail |
 |---|---|
-| **Nom du fournisseur** | :green_circle: Whang |
+| **Nom du fournisseur** | :green_circle: Oukailuo |
 | **Classe** | :green_circle: [X] A - Critique [ ] B - Important [ ] C - Standard |
 | **Pays** | :green_circle: Chine |
 | **Localisation** | :green_circle: Yuyao, Chine |
@@ -383,7 +383,7 @@
 
 ---
 
-### Historique des évaluations — Whang
+### Historique des évaluations — Oukailuo
 
 | Période | Note | Appreciation | Actions décidées | Suivi |
 |---|---|---|---|---|
@@ -402,5 +402,5 @@
 > 6. Communiquez les résultats au fournisseur (transparence)
 > 7. Si le fournisseur est "insuffisant", documentez le plan d'action
 > 8. Pour Yuyao Mould Factory : la relation de confiance de 19 ans est un atout, mais l'évaluation formelle est desormais requise par le SMQ
-> 9. Pour Whang : vérifier les certifications et formaliser l'accord qualité — production interne (vis), pas de sous-traitance
+> 9. Pour Oukailuo : vérifier les certifications et formaliser l'accord qualité — production interne (vis), pas de sous-traitance
 > 10. La première évaluation formelle constitue la référence de base (baseline) pour les évaluations futures

@@ -21,7 +21,7 @@
 | **Code** | O2 |
 | **Type** | Opérationnel |
 | **Pilote** | Roxane Wicky (Gérante) |
-| **Finalite** | Coordonner les partenaires chinois (Yuyao Mould Factory et **Whang**, Yuyao) pour assurer la fabrication des pièces, moules et vis conformément aux spécifications des clients européens, dans le respect des délais, des prix et des exigences qualité. |
+| **Finalite** | Coordonner les partenaires chinois (Yuyao Mould Factory et **Oukailuo**, Yuyao) pour assurer la fabrication des pièces, moules et vis conformément aux spécifications des clients européens, dans le respect des délais, des prix et des exigences qualité. |
 
 ---
 
@@ -37,7 +37,7 @@
 
 | Données de sortie (outputs) | Destinataire |
 |---|---|
-| Commande de fabrication transmise au partenaire chinois | Yuyao Mould Factory / Whang |
+| Commande de fabrication transmise au partenaire chinois | Yuyao Mould Factory / Oukailuo |
 | Confirmation de faisabilité et de délai de fabrication | Processus O1 - Commercial (pour information au client) |
 | Rapports de suivi de fabrication (photos, rapports d'étape) | Interne / Client si demande |
 | Produits fabriques prêts à l\'expédition | Processus O3 - Logistique et livraison |
@@ -54,7 +54,7 @@
 |---|---|---|---|---|
 | 1 | Revue de commande et reception des spécifications | Recevoir du processus commercial les spécifications techniques, plans, cahier des charges et exigences du client. Vérifier la completude du dossier. Réaliser l'analyse préalable selon M1-DIR-001 (cf. CTX-QUA-001 section 1.3). | Roxane Wicky | Cahier des charges client, plans techniques, email de transmission, fiche commande FileMaker |
 | 1b | Création de la fiche de production FileMaker | Créer la fiche de production dans le système FileMaker : caracteristiques attendues du produit, délai de fabrication, suivi de production. Cette fiche est mise à jour tout au long de la fabrication (cf. PRO-ACH-001, section 9). 🟢 | Roxane Wicky | Fiche de production FileMaker |
-| 2 | Consultation du/des partenaire(s) chinois | Transmettre les spécifications a Yuyao Mould Factory (partenaire principal) ou a **Whang** (Yuyao — spécialisé dans la fabrication de vis) selon la nature du projet. Demander une analyse de faisabilité, un devis et un délai. Communication par email et WeChat. | Roxane Wicky | Emails, messages WeChat, devis fournisseur |
+| 2 | Consultation du/des partenaire(s) chinois | Transmettre les spécifications a Yuyao Mould Factory (partenaire principal) ou a **Oukailuo** (Yuyao — spécialisé dans la fabrication de vis) selon la nature du projet. Demander une analyse de faisabilité, un devis et un délai. Communication par email et WeChat. | Roxane Wicky | Emails, messages WeChat, devis fournisseur |
 | 3 | Échanges techniques iteratifs | Coordonner les allers-retours entre le client et le partenaire chinois jusqu'a obtenir une solution technique validée (materiaux, tolérances, procede de fabrication, prix). Traduire et adapter les exigences si nécessaire. | Roxane Wicky | Emails, messages WeChat, comptes-rendus d'échanges |
 | 4 | Validation et passation de commande | Une fois la solution technique et le prix valides par le client, emettre la commande de fabrication au partenaire chinois. Établir les documents de commande (facture douanière, bon de commande). | Roxane Wicky | Bon de commande, facture douanière, confirmation de commande |
 | 5 | Suivi de fabrication | Suivre l'avancement de la production auprès du partenaire chinois. Recevoir et analyser les photos, rapports d'étape, rapports d'inspection. Intervenir en cas d'écart constate. | Roxane Wicky | Photos de production, rapports d'étape, rapports d'inspection fournisseur, messages WeChat |
@@ -78,7 +78,7 @@
             v
     +-------------------------------+
     | 2. Consultation du partenaire |----> Email/WeChat vers Yuyao Mould Factory
-    |    chinois (faisabilité,      |      ou Whang (Yuyao - vis)
+    |    chinois (faisabilité,      |      ou Oukailuo (Yuyao - vis)
     |    devis, délai)              |
     +-------------------------------+
             |
@@ -174,10 +174,10 @@
 
 | # | Action | Description | Échéance | Statut |
 |---|---|---|---|---|
-| A01 | Voyage en Chine - mars 2026 | Deplacement prévu en Chine en mars 2026 pour renforcer les contrôles qualité en production, visiter les partenaires (Yuyao Mould Factory et **Whang**), et consolider les exigences qualité sur site. | Mars 2026 | Planifié |
+| A01 | Voyage en Chine - mars 2026 | Deplacement prévu en Chine en mars 2026 pour renforcer les contrôles qualité en production, visiter les partenaires (Yuyao Mould Factory et **Oukailuo**), et consolider les exigences qualité sur site. | Mars 2026 | Planifié |
 | A02 | Renforcement des contrôles d'étiquetage | Suite à la NC_2026_1001 (erreur d'étiquetage sur 1000 pièces SHIP_25058/CFM00057428/90.60.05710), renforcement des contrôles d'étiquetage avant expédition. | T2 2026 | En cours |
 | A03 | Accord qualité avec Yuyao Mould Factory | Formaliser un accord qualité avec Yuyao des que le dossier de certification est pret. 🟢 | Des que dossier certification pret | Planifié |
-| A04 | Accord qualité avec Whang | Formaliser un accord qualité avec Whang des que le dossier de certification est pret. 🟢 | Des que dossier certification pret | Planifié |
+| A04 | Accord qualité avec Oukailuo | Formaliser un accord qualité avec Oukailuo des que le dossier de certification est pret. 🟢 | Des que dossier certification pret | Planifié |
 
 ---
 
@@ -190,11 +190,11 @@ Voir CTX-QUA-001 pour le détail. Résumé :
 | R01 | Retard de fabrication chez le partenaire chinois | Élevé | Suivi régulier de la production (WeChat/email), anticipation des délais, marge de sécurité dans les plannings |
 | R02 | Non-conformité des pièces fabriquees | Élevé | Contrôle qualité pre-expédition par le partenaire, envoi d'échantillons en parallèle, rapports d'inspection, historique des NC pour identification des causes recurrentes 🟢 |
 | R03 | Problème de communication (barriere linguistique, decalage horaire) | Moyen | Utilisation de WeChat pour échanges rapides, spécifications ecrites détaillées, photos et échantillons |
-| R04 | Dependance envers un nombre limité de partenaires | Moyen | Maintien de deux partenaires chinois actifs (Yuyao Mould Factory et Whang), évaluation régulière, veille sur d'éventuels partenaires complémentaires 🟢 |
+| R04 | Dependance envers un nombre limité de partenaires | Moyen | Maintien de deux partenaires chinois actifs (Yuyao Mould Factory et Oukailuo), évaluation régulière, veille sur d'éventuels partenaires complémentaires 🟢 |
 | R05 | Fluctuation des prix matières premières ou taux de change | Moyen | Suivi des prix sur plusieurs années, offres validées par le client, communication proactive en cas de variation |
-| R06 | Certifications des partenaires non confirmees | Moyen | 🔵 [À VÉRIFIER — certifications de Whang incertaines, a clarifier lors du voyage en Chine mars 2026] |
+| R06 | Certifications des partenaires non confirmees | Moyen | 🔵 [À VÉRIFIER — certifications de Oukailuo incertaines, a clarifier lors du voyage en Chine mars 2026] |
 | O01 | Renforcement du partenariat avec Yuyao Mould Factory | Élevé | Relation de confiance construite depuis la création de Plus Sarl (2007), communication régulière, voyage prévu en Chine mars 2026, accord qualité en préparation |
-| O02 | Diversification des capacités via Whang (vis) | Moyen | Developper les commandes auprès de Whang pour elargir les capacités de production (vis et autres) 🟢 |
+| O02 | Diversification des capacités via Oukailuo (vis) | Moyen | Developper les commandes auprès de Oukailuo pour elargir les capacités de production (vis et autres) 🟢 |
 
 ---
 
@@ -235,7 +235,7 @@ Voir CTX-QUA-001 pour le détail. Résumé :
 | Partenaire | Rôle | Localisation | Produits | Certifications | Mode de communication |
 |---|---|---|---|---|---|
 | **Yuyao Mould Factory** | Partenaire principal - fabrication de moules et pièces | Yuyao, Chine | Moules d'injection, pièces plastiques | 🔵 [À VÉRIFIER] | Email, WeChat |
-| **Whang** | Second partenaire - fabrication de vis | Yuyao, Chine | Vis (screws) 🟢 | 🔵 [À VÉRIFIER — certifications incertaines] | Email, WeChat |
+| **Oukailuo** | Second partenaire - fabrication de vis | Yuyao, Chine | Vis (screws) 🟢 | 🔵 [À VÉRIFIER — certifications incertaines] | Email, WeChat |
 
 ### Contrôle qualité pre-expédition
 
@@ -294,7 +294,7 @@ Toute exigence incomplète ou ambiguë fait l'objet d'une clarification auprès 
 - **Decalage horaire** : la coordination avec la Chine impliqué un decalage horaire de 6 a 7 heures. L'utilisation de WeChat permet des échanges rapides malgre ce decalage.
 - **Pas d'activité de conception** : Plus Sarl ne conçoit pas les produits (clause 8.3 exclue). Le rôle est celui de coordinateur industriel entre le client (proprietaire de la conception) et le fabricant chinois.
 - **Voyage en Chine mars 2026** : un deplacement sur site est planifié pour renforcer les contrôles qualité en production et consolider les exigences auprès des partenaires.
-- **Accord qualité** : un accord qualité sera formalisé avec Yuyao Mould Factory et Whang des que le dossier de certification sera pret. 🟢
+- **Accord qualité** : un accord qualité sera formalisé avec Yuyao Mould Factory et Oukailuo des que le dossier de certification sera pret. 🟢
 
 ### Maîtrise de la production externalisée (clause 8.5)
 
@@ -329,6 +329,6 @@ La libération repose sur :
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Mise à jour des indicateurs de performance (délais fournisseur >= 95%, max 3 NC/client/an). Ajout des actions d'amélioration : voyage Chine mars 2026, renforcement contrôle étiquetage suite NC_2026_1001. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration UPDATE 2.1 : ajout activité 1b (fiche de production FileMaker), référence à la revue de commande (M1-DIR-001, CTX-QUA-001 section 1.3). | Roxane Wicky |
 | 0.4 | 21/02/2026 | Intégration UPDATE 7.5-8.7 : ajout sections 8.1 (planification opérationnelle, refus commande hors compétence), 8.2 (exigences produits, revue des exigences, gestion des modifications). | Roxane Wicky |

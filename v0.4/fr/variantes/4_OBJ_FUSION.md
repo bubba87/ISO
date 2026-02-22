@@ -16,7 +16,7 @@
 
 ## 1. Objectifs qualité annuels
 
-Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politique qualité et les activités de coordination industrielle entre clients européens et partenaires de fabrication chinois (Yuyao Mould Factory et **Whang**, Yuyao). Ces objectifs ont été confirmés et refletent les quatre axes stratégiques de l'entreprise. La certification est visee auprès de l'organisme **SQS**. 🟢
+Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politique qualité et les activités de coordination industrielle entre clients européens et partenaires de fabrication chinois (Yuyao Mould Factory et **Oukailuo**, Yuyao). Ces objectifs ont été confirmés et refletent les quatre axes stratégiques de l'entreprise. La certification est visee auprès de l'organisme **SQS**. 🟢
 
 ---
 
@@ -60,7 +60,7 @@ Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politiqu
 | **Cible** | Maximum 3 NC par client et par an 🟢 |
 | **Cible délai de remplacement** | Remplacement effectué dans un délai conforme au besoin exprime par le client 🟢 |
 | **Responsable** | Roxane Wicky (Gérante) |
-| **Ressources** | Fiches de non-conformité, registre NC, coordination avec Yuyao Mould Factory et Whang, suivi dans FileMaker |
+| **Ressources** | Fiches de non-conformité, registre NC, coordination avec Yuyao Mould Factory et Oukailuo, suivi dans FileMaker |
 | **Échéance** | 31/12/2026 |
 | **Méthode de suivi** | Enregistrement systématique de chaque NC dans le registre, suivi du nombre de NC par client, synthèse trimestrielle |
 
@@ -93,7 +93,7 @@ Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politiqu
 | **Valeur actuelle** | À mesurer - première année : établir la référence |
 | **Cible** | Offres validées par les clients sans renegociation majeure 🔵 [À VÉRIFIER] |
 | **Responsable** | Roxane Wicky (Gérante) |
-| **Ressources** | Historique des offres, coordination avec fournisseurs (Yuyao Mould Factory, Whang) et transporteurs |
+| **Ressources** | Historique des offres, coordination avec fournisseurs (Yuyao Mould Factory, Oukailuo) et transporteurs |
 | **Échéance** | 31/12/2026 |
 | **Méthode de suivi** | Comparaison historique des offres, suivi des écarts de prix, coordination fournisseurs/transporteurs, synthèse trimestrielle |
 
@@ -193,6 +193,6 @@ Les résultats sont présentés lors de la revue de direction et servent de base
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Mise à jour majeure : objectifs confirmés avec cibles chiffrees (95% délais, max 3 NC/client/an, 24h réponse, absence réclamation majeure). Remplacement de l'objectif 3 (Maîtrise des prix) par Réactivité de réponse (24h). Remplacement de l'objectif 4 (Réactivité) par Satisfaction globale des clients. Ajout de la référence NC_2026_1001 comme première NC enregistrée. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 variante 4A | 19/02/2026 | Variante fusion : mise à jour des tolérances délais (1-2 sem. ouv. / 2-4j ouv.), ajout maîtrise conformité et indicateur délai remplacement, ajout Objectif 3 Conditions tarifaires (UPDATE 6.2), mise à jour cible réactivité (24-48H), ajout paragraphe chapitre 5.3, tableau de bord etendu a 5 objectifs. | Roxane Wicky |

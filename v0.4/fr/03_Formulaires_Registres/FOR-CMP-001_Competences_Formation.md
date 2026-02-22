@@ -13,9 +13,10 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout fiche compétences détaillée, plan de formation, auto-évaluation | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Intégration UPDATEs 7.2, 7.3 : ajout compétences fournisseurs (extension partenaires industriels), ajout section 5 Sensibilisation (clause 7.3), enrichissement maintien des compétences. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Récap 13 points : diplômes et formations de Roxane Wicky renseignés (Diplôme commerce Neuchâtel, diplômes esthétique international, Brevet fédéral esthétique médicale). Expérience professionnelle complétée (assistante direction 2013-2016, gérante depuis 2016, formations terrain Suisse/Chine). | Roxane Wicky |
 
 ---
 
@@ -33,21 +34,22 @@
 
 ### Formation initiale
 
-| Diplome / Titre | Établissement | Annee | Domaine |
+| Diplôme / Titre | Établissement | Année | Domaine |
 |---|---|---|---|
-| :red_circle: [À REMPLIR — non divulgue pour le moment] | :red_circle: [À REMPLIR — non divulgue pour le moment] | :red_circle: [À REMPLIR — non divulgue pour le moment] | :red_circle: [À REMPLIR — non divulgue pour le moment] |
-| :red_circle: [À REMPLIR — formation complémentaire éventuelle — non divulgue] | :red_circle: [À REMPLIR — non divulgue] | :red_circle: [À REMPLIR — non divulgue] | :red_circle: [À REMPLIR — non divulgue] |
+| 🟢 Diplôme de commerce | Neuchâtel | 🔵 [À VÉRIFIER — année] | Commerce, gestion |
+| 🟢 Diplômes maquillage et esthétique international | 🔵 [À VÉRIFIER — établissement] | 🔵 [À VÉRIFIER — année] | Esthétique internationale |
+| 🟢 Brevet fédéral esthétique médicale | Suisse (brevet fédéral) | 🔵 [À VÉRIFIER — année] | Esthétique médicale |
 
-> **:red_circle: [À REMPLIR — non divulgue pour le moment]** : Les diplomes et formations initiales de Roxane Wicky n'ont pas été divulgues à ce stade.
-> Conserver les copies des diplomes et attestations dans le dossier compétences lorsqu'ils seront fournis.
-> L'auditeur SQS demandera des preuves documentées des compétences (diplomes, attestations, CV).
+> 🟢 **Formations et diplômes divulgués le 22/02/2026.** Les copies des diplômes et attestations doivent être conservées dans le dossier compétences.
+> L'auditeur SQS demandera des preuves documentées des compétences (diplômes, attestations, CV).
 
 ### Expérience professionnelle pertinente
 
 | Poste | Entreprise | Période | Compétences acquises |
 |---|---|---|---|
-| :red_circle: [À REMPLIR — non divulgue] | :red_circle: [À REMPLIR — non divulgue] | :red_circle: [À REMPLIR — non divulgue] | :red_circle: [À REMPLIR — non divulgue] |
-| :green_circle: Gérante / Fondatrice | :green_circle: Plus Sarl, Cudrefin | :green_circle: 2007 - présent | :green_circle: Coordination industrielle Chine-Europe, gestion complète d'entreprise, relation clients européens et partenaires chinois (Yuyao Mould Factory, Whang) |
+| 🟢 Assistante de direction | 🟢 Plus Sàrl, Cudrefin | 🟢 2013 - 2016 | Coordination industrielle, gestion administrative, relation clients et fournisseurs |
+| 🟢 Gérante / Directrice | 🟢 Plus Sàrl, Cudrefin | 🟢 2016 - présent | Reprise complète de la gestion de l'entreprise, coordination Chine-Europe, relation clients européens et partenaires chinois (Hardeng Yuyao Mould Factory, Oukailuo) |
+| 🟢 Formation terrain | 🟢 Suisse et Chine | 🟢 Nombreuses reprises | Formation sur le terrain en coordination industrielle, contrôle qualité, relation fournisseurs, logistique internationale |
 
 ### Compétences cles identifiées (section 7.2 du SMQ)
 
@@ -56,17 +58,17 @@
 | 1 | **Disponibilité forte pour la continuité de service** | Capacité a assurer la continuité du service et la réactivité envers les clients et les partenaires, en tant que seule interlocutrice de l'entreprise | :green_circle: Acquis — pratique quotidienne depuis 2007 |
 | 2 | **Capacité a définir les priorités** | Aptitude a définir les priorités dans la gestion globale de l'entreprise, en gerant simultanement les aspects commerciaux, techniques, logistiques et administratifs | :green_circle: Acquis — expérience de direction depuis 2007 |
 | 3 | **Évaluation des limites de compétence** | Capacité a évaluer les limites de compétence et a refuser ou stopper un produit lorsqu'une solution conforme ne peut être garantie | :green_circle: Acquis — compétence critique pour la qualité |
-| 4 | **Compétences relationnelles et sens humain** | Aptitudes relationnelles et sens humain pour la gestion des réclamations, le maintien de la confiance et la preservation des relations avec les fournisseurs (Yuyao Mould Factory et Whang) | :green_circle: Acquis — fondement de la relation de 19 ans avec Yuyao Mould Factory |
+| 4 | **Compétences relationnelles et sens humain** | Aptitudes relationnelles et sens humain pour la gestion des réclamations, le maintien de la confiance et la preservation des relations avec les fournisseurs (Yuyao Mould Factory et Oukailuo) | :green_circle: Acquis — fondement de la relation de 19 ans avec Yuyao Mould Factory |
 | 5 | **Résolution rapide de problèmes** | Capacité a mettre en œuvre des solutions rapides de résolution de problèmes, y compris des ajustements commerciaux | :green_circle: Acquis — pratique courante |
 | 6 | **Communication en anglais** | Maîtrise de la communication en anglais avec les partenaires internationaux (clients européens, fournisseurs chinois) | :green_circle: Acquis — utilisation quotidienne |
-| 7 | **Disponibilité pour les deplacements critiques** | Disponibilité pour se deplacer chez les partenaires chinois (Yuyao Mould Factory, Whang), les clients ou les autorites douanières en cas de situation critique | :green_circle: Acquis — deplacements réguliers en Chine |
+| 7 | **Disponibilité pour les deplacements critiques** | Disponibilité pour se deplacer chez les partenaires chinois (Yuyao Mould Factory, Oukailuo), les clients ou les autorites douanières en cas de situation critique | :green_circle: Acquis — deplacements réguliers en Chine |
 
 ### Maintien des compétences
 
 | Mode de maintien | Description |
 |---|---|
 | **Expérience quotidienne** | :green_circle: Pratique quotidienne de la coordination industrielle depuis 2007 |
-| **Communication continue avec les partenaires** | :green_circle: Échanges réguliers avec Yuyao Mould Factory et Whang (email, WeChat) |
+| **Communication continue avec les partenaires** | :green_circle: Échanges réguliers avec Yuyao Mould Factory et Oukailuo (email, WeChat) |
 | **Retours clients** | :green_circle: Apprentissage continu par les retours et exigences des clients européens (~10 clients actifs) |
 | **Pratique terrain** | :green_circle: Visites régulières chez les partenaires chinois et suivi direct de la production |
 | **Veille technique et sectorielle** | :green_circle: Suivi des évolutions techniques, réglementaires et logistiques applicables à l'activité |
@@ -100,7 +102,7 @@ Les compétences des partenaires sont évaluées de manière continue a travers 
 | **Direction** | Stratégie, gestion d'entreprise, prise de decision | :green_circle: [X] Acquis [ ] En cours [ ] À acquérir | [ ] Oui [X] Non |
 | **Responsable qualité** | ISO 9001, audit, gestion SMQ | :yellow_circle: [ ] Acquis [X] En cours [ ] À acquérir | :yellow_circle: [X] Oui [ ] Non — [RECOMMANDE : formation ISO 9001 via SQS ou SAQ] |
 | **Commercial** | Négociation, relation client, offres | :green_circle: [X] Acquis [ ] En cours [ ] À acquérir | [ ] Oui [X] Non |
-| **Achats / Sous-traitance** | Gestion fournisseurs (Yuyao Mould Factory, Whang), import, logistique internationale | :green_circle: [X] Acquis [ ] En cours [ ] À acquérir | [ ] Oui [X] Non |
+| **Achats / Sous-traitance** | Gestion fournisseurs (Yuyao Mould Factory, Oukailuo), import, logistique internationale | :green_circle: [X] Acquis [ ] En cours [ ] À acquérir | [ ] Oui [X] Non |
 | **Coordination technique** | Connaissance moules, injection plastique, vis, materiaux (sans conception — 8.3 exclue) | :green_circle: [X] Acquis [ ] En cours [ ] À acquérir | [ ] Oui [X] Non |
 | **Administratif** | Comptabilite (en lien avec fiduciaire Paradiso), douanes, facturation | :green_circle: [X] Acquis [ ] En cours [ ] À acquérir | [ ] Oui [X] Non |
 | **Logistique** | Transport aérien, maritime, ferroviaire, coordination internationale | :green_circle: [X] Acquis [ ] En cours [ ] À acquérir | [ ] Oui [X] Non |
@@ -148,7 +150,7 @@ Les compétences des partenaires sont évaluées de manière continue a travers 
 | Coordination technique (moules, injection, vis, materiaux) | :red_circle: [À REMPLIR] | [N/A — première évaluation] | |
 | Commercial (relation client, négociation) — ~10 clients actifs | :red_circle: [À REMPLIR] | [N/A] | |
 | Qualité (SMQ, normes ISO 9001, amélioration) | :red_circle: [À REMPLIR] | [N/A] | :yellow_circle: [RECOMMANDE — Formation ISO 9001 recommandée, ex. via SQS] |
-| Gestion fournisseurs (Yuyao Mould Factory, Whang, logistique) | :red_circle: [À REMPLIR] | [N/A] | |
+| Gestion fournisseurs (Yuyao Mould Factory, Oukailuo, logistique) | :red_circle: [À REMPLIR] | [N/A] | |
 | Administratif (comptabilite avec fiduciaire Paradiso, douanes) | :red_circle: [À REMPLIR] | [N/A] | |
 | Management (stratégie, planification, priorités) | :red_circle: [À REMPLIR] | [N/A] | |
 | Communication internationale (anglais) | :red_circle: [À REMPLIR] | [N/A] | |

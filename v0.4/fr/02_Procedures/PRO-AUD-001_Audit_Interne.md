@@ -33,21 +33,18 @@ L'audit couvre notamment :
 |---|---|
 | Planifier le programme d'audit | :green_circle: Roxane Wicky (gérante) |
 | Selectionner et mandater l'auditeur interne | :green_circle: Roxane Wicky (gérante) |
-| Réaliser l'audit | La gérante elle-meme ou un auditeur externe. :yellow_circle: [RECOMMANDE : un auditeur externe est fortement recommandé pour satisfaire l'exigence d'indépendance de la clause 9.2 ISO 9001:2015] |
+| Réaliser l'audit | 🟢 **Capucine Wicky & Olav Wicky** (actionnaires de Plus Sàrl) — audit interne réalisé par les actionnaires, garantissant l'indépendance vis-à-vis de la gérante (clause 9.2) |
 | Valider le rapport d'audit | :green_circle: Roxane Wicky (gérante) |
 | Mettre en œuvre les actions correctives | :green_circle: Roxane Wicky (gérante) |
 | Organisme de certification | :green_circle: SQS |
 
-> **IMPORTANT - EXIGENCE D'INDEPENDANCE (clause 9.2 ISO 9001:2015) :**
-> La gérante ne devrait pas auditer ses propres processus. Un auditeur externe indépendant
-> est fortement recommandé pour garantir l'objectivite et l'impartialité de l'audit.
-
-> **:yellow_circle: [RECOMMANDE : AUDITEUR EXTERNE]**
-> La gérante a indique qu'elle pourrait réaliser l'audit elle-meme, ou faire appel à un auditeur externe.
-> La norme ISO 9001:2015 (clause 9.2.2) exigé que "les auditeurs ne doivent pas auditer leur propre travail".
-> Pour une entreprise unipersonnelle comme Plus Sarl, **il est fortement recommandé de mandater un auditeur externe**
-> (consultant qualité, auditeur certifie, ou échange d'audits entre PME) pour satisfaire cette exigence d'indépendance.
-> L'organisme de certification SQS examinera ce point lors de l'audit de certification.
+> 🟢 **EXIGENCE D'INDÉPENDANCE SATISFAITE (clause 9.2 ISO 9001:2015) :**
+> L'audit interne est réalisé par **Capucine Wicky et Olav Wicky**, actionnaires de Plus Sàrl.
+> En tant qu'actionnaires non impliqués dans la gestion opérationnelle quotidienne, ils garantissent
+> l'indépendance et l'impartialité requises par la clause 9.2.2 (« les auditeurs ne doivent pas auditer
+> leur propre travail »). La gérante (Roxane Wicky) n'audite pas ses propres processus.
+>
+> **Source :** Récap 13 points (22/02/2026) — Point #1 résolu.
 
 ## 4. Frequence
 
@@ -124,7 +121,7 @@ L'auditeur interne doit :
 - Examen des échanges avec les partenaires chinois (e-mail, WeChat)
 - Contrôle des documents opérationnels (factures douanières, factures clients, bons de livraison, accuses de reception)
 - Vérification des sauvegardes des données FileMaker (cloud, hebergement chez fournisseur)
-- Vérification de l'accord qualité avec Yuyao Mould Factory et Whang
+- Vérification de l'accord qualité avec Yuyao Mould Factory et Oukailuo
 - Examen du processus de CQ pre-expédition et d'echantillonnage
 
 ### 6.4 Apres l'audit
@@ -237,4 +234,5 @@ L'auditeur interne doit :
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Mise à jour du modèle de rapport d'audit (section 8) pour l'aligner sur la structure du rapport définié par la gérante : informations générales, éléments vérifiés, constats (points conformes, points a améliorer, NC détectées), actions décidées, conclusion et validation. Maintien de l'avertissement d'indépendance (clause 9.2). | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, échantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Récap 13 points — Point #1 résolu : auditeurs internes désignés = Capucine Wicky & Olav Wicky (actionnaires). Exigence d'indépendance clause 9.2 satisfaite. | Roxane Wicky |

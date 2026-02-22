@@ -62,5 +62,5 @@ Fait a Cudrefin, le 19 fevrier 2026 — Direction Plus Sarl
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Mise à jour des axes stratégiques qualité : cible 95% livraisons dans les délais, max 3 NC par client/an, délai de réponse 24h | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Remplacement integral du corps du document par le texte officiel UPDATE 5.2. Suppression des axes stratégiques chiffrés (renvoyes vers OBJ-QUA-001). | Direction Plus Sarl |

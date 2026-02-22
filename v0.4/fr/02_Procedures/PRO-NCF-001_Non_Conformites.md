@@ -70,7 +70,7 @@ Toutes les non-conformites détectées :
 | **Suivi interne** | Detection par la gérante lors du suivi opérationnel (vérification documents, photos, échanges) |
 | **Audit interne** | Constat d'audit (NC majeure ou mineure) |
 | **Audit de certification** | Constat de l'organisme de certification (SQS) |
-| **Retour du partenaire chinois** | Problème signalé pendant la fabrication par Yuyao Mould Factory ou Whang |
+| **Retour du partenaire chinois** | Problème signalé pendant la fabrication par Yuyao Mould Factory ou Oukailuo |
 | **Fonctionnement courant** | Erreur de commande, oubli, document manquant |
 
 > **Important :** Toutes les réclamations sont traitées independamment de la date a laquelle elles sont signalees par le client.
@@ -109,7 +109,7 @@ Toutes les non-conformites détectées :
         v
     +-------------------+
     | 5. Coordonner avec |---> Informer le partenaire chinois
-    |    le fournisseur  |     (Yuyao Mould Factory ou Whang)
+    |    le fournisseur  |     (Yuyao Mould Factory ou Oukailuo)
     |                    |     Discuter conditions financières
     +-------------------+
         |
@@ -180,7 +180,7 @@ La gérante analyse la situation en evaluant :
 
 **Étape 5 - Coordonner avec le fournisseur**
 
-- Informer le partenaire chinois (Yuyao Mould Factory ou Whang) de la NC
+- Informer le partenaire chinois (Yuyao Mould Factory ou Oukailuo) de la NC
 - Discuter les conditions financières en fonction de l'origine du problème :
   - Si defaut de production : prise en charge par le partenaire chinois
   - Si dommage transport : réclamation auprès du transporteur
@@ -233,7 +233,7 @@ La gérante analyse la situation en evaluant :
 
 | Élément | Détail |
 |---|---|
-| **Partenaire informe** | [ ] Yuyao Mould Factory [ ] Whang [ ] Transporteur |
+| **Partenaire informe** | [ ] Yuyao Mould Factory [ ] Oukailuo [ ] Transporteur |
 | **Date d'information** | [JJ/MM/AAAA] |
 | **Moyen de communication** | [ ] Email [ ] WeChat [ ] Autre |
 | **Conditions financières** | [Prise en charge fournisseur / partage / autre] |
@@ -371,23 +371,58 @@ En cas de non-conformité signalée après livraison :
 
 ---
 
-> **Instructions de remplissage :**
-> 1. Enregistrez TOUTE non-conformité signalée par un client ou détectée en interne, quelle que soit la date de signalement
-> 2. Utilisez le format de numérotation NC_AAAA_NNNN (ex : NC_2026_1001)
-> 3. Photographiez ou demandez au client de photographier les defauts quand c'est possible
-> 4. Communiquez chaque NC produit au partenaire chinois concerné (Yuyao Mould Factory ou Whang)
-> 5. Documentez les échanges par email ou WeChat avec les partenaires chinois
-> 6. Analysez les tendances lors de la revue de direction
-> 7. En cas de doute sur l'origine, privilegiez la satisfaction client (remplacement)
-> 8. Verifiez si la NC aurait pu être détectée lors du CQ pre-expédition et ajustez le processus si nécessaire
+## 11. Non-conformité et actions correctives (clause 10.2)
+
+> **Source :** UPDATE 10.2 (22/02/2026) 🟢
+
+Pour chaque non-conformité significative, Plus Sàrl :
+
+1. **Analyse la cause** du problème par échanges avec le client et le partenaire industriel
+2. **Identifie le type de cause** :
+   - défaut de production
+   - erreur humaine
+   - problème d'étiquetage
+   - problème logistique
+   - défaut de clarification initiale
+3. **Définit une action corrective** adaptée
+
+Les actions correctives peuvent inclure :
+- renforcement du contrôle qualité
+- rappel des exigences techniques
+- mise en place d'une note d'attention spécifique chez le fournisseur
+- amélioration de la clarification des spécifications
+- modification d'un processus interne
+
+En cas de non-conformité répétitive, une **analyse approfondie** est réalisée afin d'éviter toute récurrence.
+
+L'efficacité des actions correctives est vérifiée lors des productions ultérieures.
+
+> 🔵 [À VÉRIFIER] Un **registre des actions correctives** sera mis en place dans FileMaker ou sur document chez le fournisseur, distinguant :
+> - non-conformité fournisseurs
+> - non-conformité transporteurs
+> - non-conformité liée à une mauvaise utilisation ou clarification client
 
 ---
 
-## Historique des revisions
+> **Instructions de remplissage :**
+> 1. Enregistrez TOUTE non-conformité signalée par un client ou détectée en interne
+> 2. Utilisez le format de numérotation NC_AAAA_NNNN (ex : NC_2026_1001)
+> 3. Photographiez ou demandez au client de photographier les défauts quand c'est possible
+> 4. Communiquez chaque NC produit au partenaire chinois concerné (Hardeng Yuyao Mould Factory ou Oukailuo)
+> 5. Documentez les échanges par email ou WeChat avec les partenaires chinois
+> 6. Analysez les tendances lors de la revue de direction
+> 7. En cas de doute sur l'origine, privilégiez la satisfaction client (remplacement)
+> 8. Vérifiez si la NC aurait pu être détectée lors du CQ pré-expédition et ajustez le processus si nécessaire
+
+---
+
+## Historique des révisions
 
 | Version | Date | Description de la modification | Auteur |
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout de la première NC reelle (NC_2026_1001 - erreur d'étiquetage SHIP_25058/CFM00057428/90.60.05710). Ajout d'un exemple de fiche NC remplie en section 7. Mise à jour du format de numérotation (NC_AAAA_NNNN avec underscores). Ajout de la source de detection "Suivi interne" et de l'origine "Emballage/Etiquetage". | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration UPDATE 2.1 Processus 04 : ajout référence au contrôle qualité pre-expédition formalisé (CTX-QUA-001, section 1.1). | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration UPDATE 2.1 Processus 04 : ajout référence au contrôle qualité pré-expédition formalisé (CTX-QUA-001, section 1.1). | Roxane Wicky |
+| 0.4 | 21/02/2026 | Intégration UPDATE 8.7 : ajout section 10 — Maîtrise des produits non-conformes (clause 8.7), registre NC FileMaker. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Intégration UPDATE 10.2 : ajout section 11 — NC et actions correctives (clause 10.2), 5 types de causes, 5 actions correctives, analyse approfondie si récurrence, registre AC par catégorie. | Roxane Wicky |

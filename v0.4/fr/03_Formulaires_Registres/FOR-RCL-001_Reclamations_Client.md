@@ -13,8 +13,8 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout registre, indicateurs, lien NC_2026_1001 | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 
 ---
 
@@ -34,7 +34,7 @@
 | **Délai de prise en compte** | :green_circle: Toute réclamation est traitée quelle que soit sa date de signalement par le client |
 | **Processus de traitement** | :green_circle: Identifier la cause, mettre en œuvre des actions correctives, assurer la satisfaction du client |
 | **Remplacement de produits** | :green_circle: Les produits sont remplacés lorsque la non-conformité est imputable a Plus Sarl ou a ses fournisseurs |
-| **Conditions financières** | :green_circle: Discutees avec le fournisseur (Yuyao Mould Factory ou Whang) en fonction de l'origine du problème |
+| **Conditions financières** | :green_circle: Discutees avec le fournisseur (Yuyao Mould Factory ou Oukailuo) en fonction de l'origine du problème |
 | **Responsable** | :green_circle: Roxane Wicky (gérante — seule collaboratrice) |
 
 ---
@@ -78,7 +78,7 @@
 | **Réclamation justifiée ?** | [ ] Oui [ ] Partiellement [ ] Non |
 | **Justification** | :red_circle: [À REMPLIR — Si non justifiée, expliquer pourquoi] |
 | **Origine du problème** | [ ] Fabrication (fournisseur chinois) [ ] Transport [ ] Specification client [ ] Coordination Plus Sarl [ ] Autre : :red_circle: [À REMPLIR] |
-| **Fournisseur concerné** | [ ] Yuyao Mould Factory [ ] Whang [ ] Transporteur [ ] Autre : :red_circle: [À REMPLIR] |
+| **Fournisseur concerné** | [ ] Yuyao Mould Factory [ ] Oukailuo [ ] Transporteur [ ] Autre : :red_circle: [À REMPLIR] |
 | **NC associée ouverte ?** | [ ] Oui - Ref : NC-[AAAA]-[NNN] [ ] Non |
 | **Cause identifiée** | :red_circle: [À REMPLIR — Cause racine de la réclamation] |
 | **Correction immédiate** | :red_circle: [À REMPLIR — Action corrective immédiate pour le client] |
@@ -132,7 +132,7 @@
 |---|---|---|---|---|---|
 | Nombre de réclamations | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] |
 | Dont justifiées | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] |
-| Dont liées à la fabrication (Yuyao Mould Factory / Whang) | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] |
+| Dont liées à la fabrication (Yuyao Mould Factory / Oukailuo) | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] |
 | Dont liées au transport | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] |
 | Dont liées à la coordination | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] |
 | Délai moyen de traitement (jours) | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] | :red_circle: [À REMPLIR — au fur et a mesure] |
@@ -145,7 +145,7 @@
 > 1. Enregistrez TOUTE réclamation, meme verbale (par téléphone ou WeChat)
 > 2. Accusez reception au client dans les 24-48h
 > 3. Traitez les réclamations critiques en priorité
-> 4. Communiquez au partenaire chinois concerné (Yuyao Mould Factory ou Whang) si la réclamation concerné la fabrication
+> 4. Communiquez au partenaire chinois concerné (Yuyao Mould Factory ou Oukailuo) si la réclamation concerné la fabrication
 > 5. Discutez les conditions financières avec le fournisseur en fonction de l'origine du problème
 > 6. Les produits sont remplacés lorsque la NC est imputable a Plus Sarl ou ses fournisseurs
 > 7. L'absence de réclamation est utilisée comme indicateur de satisfaction client (voir FOR-SAT-001)

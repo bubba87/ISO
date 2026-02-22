@@ -55,7 +55,7 @@ La direction s'engage a :
 - Garantir le respect des délais de livraison a plus de 95%
 - Limiter les non-conformites à un maximum de 3 NC par client et par an
 - Assurer un délai moyen de réponse aux clients inférieur a 24h
-- Renforcer le partenariat qualité avec nos fournisseurs chinois (Yuyao Mould Factory et **Whang**, Yuyao) 🟢
+- Renforcer le partenariat qualité avec nos fournisseurs chinois (Yuyao Mould Factory et **Oukailuo**, Yuyao) 🟢
 - Assurer la maîtrise de la chaîne logistique internationale (aérien, maritime, ferroviaire)
 
 ### Cadre de référence
@@ -98,6 +98,6 @@ Lieu : Cudrefin
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Mise à jour des axes stratégiques qualité : cible 95% livraisons dans les délais, max 3 NC par client/an, délai de réponse 24h | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Intégration UPDATE 5.2 (fusion) : enrichissement engagement direction, priorités explicites, mise à jour engagements (conditions tarifaires, eviter réapparition), ajout cadre de référence, signature direction datee 19/02/2026. | Direction Plus Sarl |

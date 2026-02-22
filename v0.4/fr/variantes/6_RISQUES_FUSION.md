@@ -60,7 +60,7 @@ Ces risques et opportunités sont suivis régulièrement et intégrés dans l'am
 
 | # | Risque / Opportunité | Type | Probabilite | Impact | Niveau | Action prévue |
 |---|---|---|---|---|---|---|
-| R2 | Défaillance ou indisponibilité d'un partenaire/fournisseur chinois | Risque | Faible | Tres élevé | **Élevé** | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; disponibilité de Whang comme second partenaire |
+| R2 | Défaillance ou indisponibilité d'un partenaire/fournisseur chinois | Risque | Faible | Tres élevé | **Élevé** | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; disponibilité de Oukailuo comme second partenaire |
 | R3 | Defauts qualité majeurs sur des produits déjà fabriques | Risque | Moyenne | Élevé | **Élevé** | Traitement rapide des non-conformites, remplacement des pièces defectueuses et mise en place de contrôles renforces lors des productions suivantes |
 | O3 | Renforcement de la qualité de production | Opportunité | Élevée | Élevé | **Élevé** | Cahiers des charges precis, contrôles renforces, retour d'expérience systématique ; sélection et suivi rigoureux des partenaires industriels |
 
@@ -89,7 +89,7 @@ Afin de maîtriser ces risques, Plus Sarl met en œuvre notamment les actions su
 
 | Risque | Actions cles |
 |---|---|
-| Défaillance partenaire chinois | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; Whang disponible comme second partenaire |
+| Défaillance partenaire chinois | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; Oukailuo disponible comme second partenaire |
 | Retards de transport international | Choix et reevaluation des transporteurs en fonction de leur fiabilité et de leurs performances ; marges de sécurité dans les délais |
 | Defauts qualité majeurs | Traitement rapide des non-conformites, remplacement des pièces defectueuses et mise en place de contrôles renforces lors des productions suivantes |
 | Perte d'un client important | Maintien d'une relation de confiance et d'un haut niveau de service afin de fideliser les clients ; diversification du portefeuille clients |

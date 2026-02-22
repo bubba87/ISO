@@ -13,7 +13,7 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout checklist CQ, fiche contrôle détaillée, registre, lien NC_2026_1001 | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration UPDATE 2.1 Processus 04 : référence au contrôle qualité formalisé (CTX-QUA-001 section 1.1). Fiche de contrôle a formaliser avec YAN. | Roxane Wicky |
 
 ---
@@ -69,7 +69,7 @@ En cas de non-conformité détectée avant expédition, une nouvelle production 
 > ou a reception des documents, afin de prevenir la recurrence de ce type de non-conformité.
 >
 > **Note :** Cette checklist sera finalisée et validée lors du voyage en Chine en mars 2026,
-> en concertation avec les partenaires de fabrication (Yuyao Mould Factory et Whang).
+> en concertation avec les partenaires de fabrication (Yuyao Mould Factory et Oukailuo).
 >
 > **Mise à jour v0.3 (NC_2026_1001) :** Suivi en cours : oui. Photos non disponibles. Cause pas encore identifiée.
 
@@ -108,7 +108,7 @@ En cas de non-conformité détectée avant expédition, une nouvelle production 
 | **Date d'expédition** | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
 | **Date de livraison prévue** | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
 | **Date de livraison effective** | :red_circle: [À REMPLIR — JJ/MM/AAAA] |
-| **Fournisseur** | [ ] Yuyao Mould Factory [ ] Whang |
+| **Fournisseur** | [ ] Yuyao Mould Factory [ ] Oukailuo |
 | **N de commande Plus Sarl** | :red_circle: [À REMPLIR — Référence FileMaker] |
 | **Client final** | :red_circle: [À REMPLIR — Nom du client européen] |
 | **Transporteur** | :red_circle: [À REMPLIR — Nom du transporteur / transitaire] |
@@ -228,7 +228,7 @@ En cas de non-conformité détectée avant expédition, une nouvelle production 
 | **Photos disponibles** | :red_circle: Non disponibles |
 | **Cause identifiée** | :red_circle: Pas encore identifiée |
 | **Action corrective** | :green_circle: Checklist de contrôle qualité mise en place (FOR-CTR-001) |
-| **Prochaine étape** | :yellow_circle: [RECOMMANDE — identifier la cause racine lors du voyage en Chine en mars 2026, en concertation avec Yuyao Mould Factory et/ou Whang] |
+| **Prochaine étape** | :yellow_circle: [RECOMMANDE — identifier la cause racine lors du voyage en Chine en mars 2026, en concertation avec Yuyao Mould Factory et/ou Oukailuo] |
 
 ---
 
@@ -252,5 +252,5 @@ En cas de non-conformité détectée avant expédition, une nouvelle production 
 > 7. En l'absence de réclamation dans un délai raisonnable, la conformité est implicite
 > 8. Si le client signalé un problème, ouvrez immédiatement une fiche NC (PRO-NCF-001)
 > 9. Ces fiches sont des preuves cles pour l'auditeur SQS — elles demontrent le suivi malgre l'absence de reception physique
-> 10. La visite planifiée en Chine en mars 2026 permettra de finaliser la checklist de contrôle qualité et de renforcer le contrôle qualité en amont avec Yuyao Mould Factory et Whang (cf. section 8.5 du manuel qualité)
+> 10. La visite planifiée en Chine en mars 2026 permettra de finaliser la checklist de contrôle qualité et de renforcer le contrôle qualité en amont avec Yuyao Mould Factory et Oukailuo (cf. section 8.5 du manuel qualité)
 > 11. NC_2026_1001 : suivi en cours, photos non disponibles, cause pas encore identifiée — a investiguer lors du voyage en Chine

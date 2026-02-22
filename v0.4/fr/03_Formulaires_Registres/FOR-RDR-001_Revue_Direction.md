@@ -13,8 +13,9 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout formulaire détaillé, KPI, sections complètes | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, ~10 clients, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 22/02/2026 | UPDATE 9.3 — Revue de direction renforcée (pertinence, adéquation, efficacité, alignement stratégie). 6 éléments d'entrée requis. Récap 13 points : auditeur interne = Capucine & Olav Wicky (actionnaires), sauvegarde = Gramatec SA (Suisse). | Roxane Wicky |
 
 ---
 
@@ -67,7 +68,7 @@
 | Fournisseur / Transporteur | Appreciation | Commentaire |
 |---|---|---|
 | Yuyao Mould Factory | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [À REMPLIR] |
-| Whang (vis — Yuyao, Chine) | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [À REMPLIR] |
+| Oukailuo (vis — Yuyao, Chine) | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [À REMPLIR] |
 | Transporteurs | [ ] Satisfaisant [ ] A surveiller [ ] Non conforme | :red_circle: [À REMPLIR] |
 
 #### 5. Résultats de l'audit interne
@@ -135,10 +136,19 @@
 
 ---
 
-> **Note** : Meme en tant qu'entreprise unipersonnelle, la revue de direction doit être réalisée
-> et documentée formellement au minimum 1 fois par an. C'est une analyse structuree
-> des performances du SMQ. Roxane Wicky, seule collaboratrice, cumule les rôles de
-> direction et de responsable qualité. Cette revue est conduite par elle seule.
+> **Note (clause 9.3 renforcée — UPDATE 9.3, 22/02/2026) :** La direction réalise au minimum une revue annuelle
+> du système de management de la qualité afin de s'assurer de : sa **pertinence**, son **adéquation**,
+> son **efficacité** et son **alignement avec la stratégie** de l'entreprise.
+> Des revues intermédiaires peuvent être réalisées en cas d'événement majeur.
+>
+> **Éléments d'entrée requis (9.3) :**
+> a) Résultats des indicateurs (9.1) — b) État des actions correctives (10.2) — c) État des risques et opportunités (6.1)
+> d) Performance des partenaires industriels (8.4) — e) Ressources (chapitre 7) — f) Opportunités d'amélioration (10.3)
+>
+> **Décisions et actions issues de la revue :** définir de nouveaux objectifs qualité si nécessaire,
+> décider d'actions correctives ou préventives, renforcer la sélection ou le suivi des fournisseurs,
+> ajuster les processus opérationnels, planifier les améliorations prioritaires.
+> Les décisions sont formalisées dans ce compte rendu de revue de direction.
 
 ---
 
@@ -158,7 +168,7 @@
 |---|---|---|
 | Enjeux internes | :red_circle: [À REMPLIR — changements dans l'entreprise] | :red_circle: [À REMPLIR — Impact] |
 | Enjeux externes | :red_circle: [À REMPLIR — évolution du marche, relations Chine-Europe, réglementation, taux de change] | :red_circle: [À REMPLIR — Impact] |
-| Parties intéressées | :red_circle: [À REMPLIR — nouvelles exigences des clients européens, évolution des partenaires chinois (Yuyao Mould Factory, Whang)] | :red_circle: [À REMPLIR — Impact] |
+| Parties intéressées | :red_circle: [À REMPLIR — nouvelles exigences des clients européens, évolution des partenaires chinois (Yuyao Mould Factory, Oukailuo)] | :red_circle: [À REMPLIR — Impact] |
 | Contexte économique | :red_circle: [À REMPLIR — chiffre d'affaires, marges, conditions de transport international] | :red_circle: [À REMPLIR — Impact] |
 | Contexte réglementaire | :red_circle: [À REMPLIR — douanes, import/export, normes produits] | :red_circle: [À REMPLIR — Impact] |
 | Fiduciaire (Paradiso) | :red_circle: [À REMPLIR — retours de la fiduciaire sur les aspects financiers et réglementaires] | :red_circle: [À REMPLIR — Impact] |
@@ -226,7 +236,7 @@
 | Élément | Détail |
 |---|---|
 | Date de l'audit | :red_circle: [À REMPLIR — premier audit interne a planifier] |
-| Auditeur | :yellow_circle: [RECOMMANDE : auditeur externe — la gérante envisage de réaliser l'audit elle-meme, mais un auditeur externe est fortement recommandé pour la clause 9.2] |
+| Auditeur | :green_circle: **Capucine Wicky & Olav Wicky** (actionnaires de Plus Sarl) — exigence d'indépendance satisfaite (clause 9.2) |
 | Nb NC majeures | :red_circle: [À REMPLIR] |
 | Nb NC mineures | :red_circle: [À REMPLIR] |
 | Nb observations | :red_circle: [À REMPLIR] |
@@ -249,7 +259,7 @@
 | Fournisseur | Note d'évaluation | Appreciation | Actions |
 |---|---|---|---|
 | Yuyao Mould Factory (partenaire principal — moules, injection) | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR — première évaluation formelle] | :red_circle: [À REMPLIR — Actions décidées] |
-| Whang (vis — Yuyao, Chine) | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR — Actions décidées] |
+| Oukailuo (vis — Yuyao, Chine) | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR — Actions décidées] |
 | [Transporteurs — aérien] | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR — Actions décidées] |
 | [Transporteurs — maritime/ferroviaire] | :red_circle: [À REMPLIR — __/100] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR — Actions décidées] |
 
@@ -263,7 +273,7 @@
 | Compétences / formations | [ ] Oui [ ] Non | :red_circle: [À REMPLIR — Formation ISO 9001 recommandée — voir FOR-CMP-001] |
 | Infrastructure (bureau, équipements) | [ ] Oui [ ] Non | :green_circle: Bureau Route de Montet 11, Cudrefin |
 | Outils informatiques | [ ] Oui [ ] Non | :green_circle: FileMaker, Email, WeChat |
-| Sauvegarde des données | :green_circle: Cloud, heberge par le fournisseur | :green_circle: Sauvegarde cloud assurée par le fournisseur d'hebergement |
+| Sauvegarde des données | :green_circle: **Gramatec SA** (Suisse) — enregistrement automatique | :green_circle: Restauration garantie par Gramatec SA en cas de perte, vol ou problème système |
 | Instruments de mesure | N/A | :green_circle: Pas de contrôle dimensionnel — produits livrés directement de Chine au client |
 
 ---
@@ -274,10 +284,10 @@
 |---|---|---|---|
 | Risque NC fabrication en Chine | :red_circle: [À REMPLIR — Action mise en place] | :red_circle: [À REMPLIR — Efficace/Insuffisant] | |
 | Risque retard livraison (transport international) | :red_circle: [À REMPLIR — Action mise en place] | :red_circle: [À REMPLIR — Efficace/Insuffisant] | Objectifs : mer/rail +/-10j, air +/-3j |
-| Risque dependance fournisseur unique | :green_circle: Second partenaire chinois identifié : Whang (vis, Yuyao) | :green_circle: Réalisé | |
+| Risque dependance fournisseur unique | :green_circle: Second partenaire chinois identifié : Oukailuo (vis, Yuyao) | :green_circle: Réalisé | |
 | Opportunité certification ISO 9001 | :green_circle: Mise en place du SMQ, organisme SQS sélectionné | :green_circle: En cours | |
 | Risque absence contrôle reception | :green_circle: CQ pre-expédition par le partenaire + echantillonnage chez Plus Sarl en parallèle du transport | :red_circle: [À REMPLIR — a évaluer] | Visite en Chine prévue pour formaliser le suivi production |
-| Risque perte de données | :green_circle: Sauvegarde cloud, hebergee par le fournisseur | :green_circle: En place | |
+| Risque perte de données | :green_circle: Sauvegarde chez Gramatec SA (Suisse), enregistrement automatique, restauration garantie | :green_circle: En place | |
 | [Autres — voir CTX-QUA-001] | | | |
 
 ---
@@ -289,7 +299,7 @@
 | 1 | Mise en place d'un questionnaire de satisfaction client formel (~10 clients actifs) | Analyse section 9.1 du SMQ |
 | 2 | Formalisation du suivi de production en Chine (visite planifiée) | Analyse section 8.5 du SMQ |
 | 3 | Formation ISO 9001 pour Roxane Wicky (ex. via SQS ou SAQ) | Analyse compétences (FOR-CMP-001) |
-| 4 | Formalisation de l'accord qualité avec Whang | Intégration du second partenaire |
+| 4 | Formalisation de l'accord qualité avec Oukailuo | Intégration du second partenaire |
 | 5 | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR — Source] |
 
 ---
@@ -319,7 +329,7 @@
 | Besoin identifié | Justification | Budget estime | Decision |
 |---|---|---|---|
 | Formation ISO 9001 | Compréhension de la norme pour la gérante | :blue_circle: [À VÉRIFIER — CHF 500-1'500] | [ ] Approuve [ ] Reporte [ ] Refuse |
-| Visite partenaire(s) chinois (Yuyao Mould Factory + Whang) | Formalisation du suivi de production et accords qualité | :blue_circle: [À VÉRIFIER] | [ ] Approuve [ ] Reporte [ ] Refuse |
+| Visite partenaire(s) chinois (Yuyao Mould Factory + Oukailuo) | Formalisation du suivi de production et accords qualité | :blue_circle: [À VÉRIFIER] | [ ] Approuve [ ] Reporte [ ] Refuse |
 | Audit de certification SQS | Certification ISO 9001 | :blue_circle: [À VÉRIFIER — budget audit SQS] | [ ] Approuve [ ] Reporte [ ] Refuse |
 | :red_circle: [À REMPLIR — Besoin supplementaire] | :red_circle: [À REMPLIR — Pourquoi] | :red_circle: [À REMPLIR — CHF ___] | [ ] Approuve [ ] Reporte [ ] Refuse |
 
@@ -333,7 +343,7 @@ Points forts, points a améliorer, orientation pour la prochaine période.
 Éléments a considerer pour la redaction :
 - Performance globale de la coordination industrielle Chine-Europe
 - Satisfaction des clients européens (~10 clients actifs)
-- Qualité de la relation avec Yuyao Mould Factory et Whang
+- Qualité de la relation avec Yuyao Mould Factory et Oukailuo
 - Respect des délais de livraison
 - Avancement de la demarche de certification ISO 9001 avec SQS
 - Retour de la fiduciaire Paradiso sur les aspects financiers
@@ -357,7 +367,7 @@ Signature : ______________________________
 > 2. Utilisez le **formulaire détaillé** pour la revue de direction annuelle formelle
 > 3. Realisez la revue de direction au minimum 1 fois par an
 > 4. Idealement après l'audit interne et avant l'audit de certification SQS
-> 5. Preparez toutes les données AVANT la revue (KPI, NC, satisfaction, évaluation fournisseurs Yuyao Mould Factory et Whang)
+> 5. Preparez toutes les données AVANT la revue (KPI, NC, satisfaction, évaluation fournisseurs Yuyao Mould Factory et Oukailuo)
 > 6. Meme seule, prenez le temps de cette analyse structuree — c'est une exigence ISO 9001 section 9.3
 > 7. L'auditeur SQS examinera ce document attentivement — soyez factuelle et precise
 > 8. Les actions décidées doivent être suivies et leur realisation vérifiée

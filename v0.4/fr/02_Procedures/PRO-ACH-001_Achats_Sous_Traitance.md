@@ -26,7 +26,7 @@ Définir les règles de sélection, d'évaluation et de maîtrise des fournisseu
 Tous les achats et prestations externalisées ayant un impact sur la qualité des produits livrés aux clients (~10 clients actifs) :
 - Fabrication de moules (partenaires chinois)
 - Injection de pièces plastiques (partenaires chinois)
-- Fabrication de vis (Whang, Yuyao)
+- Fabrication de vis (Oukailuo, Yuyao)
 - Sous-traitance de specialites par les partenaires chinois
 - Transport international (transitaire, transporteur aérien/maritime/ferroviaire)
 - Tout autre fournisseur ayant un impact qualité
@@ -58,32 +58,40 @@ Tous les achats et prestations externalisées ayant un impact sur la qualité de
 | **Base de la relation** | :green_circle: Confiance construite sur pres de 20 ans de collaboration |
 | **NC documentées** | :green_circle: NC_2026_1001 - Erreur d'étiquetage (90.60.05710L au lieu de 90.60.05710) - 10/02/2026 |
 
-### 4.2 Second partenaire spécialisé : Whang
+### 4.2 Second partenaire spécialisé : Oukailuo
 
 | Élément | Détail |
 |---|---|
-| **Nom** | :green_circle: Whang |
-| **Localisation** | :green_circle: Yuyao, Chine |
-| **Classe** | :green_circle: A - Critique |
-| **Produits/Services** | :green_circle: Vis (screws) |
-| **Sous-traitance** | :green_circle: Ne sous-traite pas -- production interne uniquement |
-| **Certifications** | :blue_circle: [À VÉRIFIER -- incertain] |
+| **Nom** | 🟢 Oukailuo |
+| **Localisation** | 🟢 Yuyao, Chine |
+| **Classe** | 🟢 A - Critique |
+| **Produits/Services** | 🟢 Visserie et quincaillerie |
+| **Sous-traitance** | 🟢 Ne sous-traite pas — production interne uniquement |
+| **Certifications** | 🔵 [À VÉRIFIER — incertain] |
+
+> **Source :** Récap 13 points (22/02/2026) — Point #3 : nom clarifié (anciennement « Whang »).
 
 ### 4.3 Transporteurs et transitaires
 
 | Élément | Détail |
 |---|---|
-| **Classe** | :green_circle: B - Important |
-| **Modes de transport utilisés** | :green_circle: Aérien, maritime, ferroviaire |
-| **Critères** | :green_circle: Fiabilité, respect des délais, couverture géographique |
-| **Noms des transporteurs** | :yellow_circle: [RECOMMANDE -- noms non disponibles. Il est recommandé de documenter les noms des transporteurs et transitaires utilisés pour assurer la traçabilité et l'évaluation] |
+| **Transporteur principal** | 🟢 **ECAM** (Chine) |
+| **Contact** | 🟢 **Sofia** — communication par WeChat, documents officiels par WeChat ou e-mail |
+| **Classe** | 🟢 B - Important |
+| **Modes de transport utilisés** | 🟢 Aérien, maritime, ferroviaire |
+| **Critères** | 🟢 Fiabilité, respect des délais, couverture géographique |
+| **Évaluation** | 🟢 Évaluation très positive depuis des années, considéré comme un partenaire dans la chaîne |
+| **Transitaires** | 🟢 Définis selon le prix, la qualité ou le port d'arrivée en Europe, par Plus Sàrl ou par Sofia chez ECAM |
+| **Transporteurs externes** | 🟡 Possibilité de travailler avec des transporteurs externes si nécessaire |
+
+> **Source :** Récap 13 points (22/02/2026) — Point #4 résolu.
 
 ## 5. Classification des fournisseurs
 
 | Classe | Critère | Exemples | Niveau de maîtrise |
 |---|---|---|---|
-| **A - Critique** | Impact direct sur la qualité du produit | :green_circle: Yuyao Mould Factory, Whang | Suivi continu, évaluation régulière |
-| **B - Important** | Impact indirect sur la qualité ou les délais | Transporteurs, transitaires :yellow_circle: [RECOMMANDE -- noms a documenter] | Évaluation périodique simplifiée |
+| **A - Critique** | Impact direct sur la qualité du produit | 🟢 Hardeng Yuyao Mould Factory, Oukailuo | Suivi continu, évaluation régulière |
+| **B - Important** | Impact indirect sur la qualité ou les délais | 🟢 ECAM (transporteur principal, contact : Sofia) | Évaluation périodique simplifiée |
 | **C - Standard** | Impact faible sur la qualité | :green_circle: Fournitures de bureau, fiduciaire Paradiso, outils informatiques | Pas d'évaluation formelle |
 
 ## 6. Sélection et maintien des partenaires
@@ -126,7 +134,7 @@ Des visites sur site peuvent être réalisées afin d'évaluer les capacités te
 > **[POINT D'ATTENTION]** : A ce jour, la relation avec les partenaires chinois repose sur la confiance
 > mutuelle construite depuis 2007. Il n'existe pas d'accord qualité formel signe.
 >
-> **Échéance :** :green_circle: Des que le dossier de certification est pret, un accord qualité sera formalisé avec Yuyao Mould Factory et Whang.
+> **Échéance :** :green_circle: Des que le dossier de certification est pret, un accord qualité sera formalisé avec Yuyao Mould Factory et Oukailuo.
 >
 > **Recommandation :** La formalisation d'un accord qualité avec les partenaires de classe A est
 > fortement recommandée pour répondre aux exigences de la norme ISO 9001:2015 (clause 8.4).
@@ -158,7 +166,7 @@ Des visites sur site peuvent être réalisées afin d'évaluer les capacités te
 
 | Élément | Détail |
 |---|---|
-| **Responsable du CQ** | :green_circle: Partenaire chinois (Yuyao Mould Factory ou Whang) |
+| **Responsable du CQ** | :green_circle: Partenaire chinois (Yuyao Mould Factory ou Oukailuo) |
 | **Moment du contrôle** | :green_circle: Avant expédition |
 | **Echantillonnage** | :green_circle: Le partenaire envoie des échantillons chez Plus Sarl en parallèle de l'expédition au client européen |
 | **Objectif** | Permettre a Plus Sarl de vérifier la conformité des produits en parallèle de la livraison |
@@ -208,7 +216,7 @@ Pour chaque commande, une **fiche de production** est créée dans le système F
     +---------------------------+
     | 3. Coordination technique |---> Échanges par email et WeChat
     |    avec le partenaire     |     avec Yuyao Mould Factory ou
-    |    chinois                |     Whang
+    |    chinois                |     Oukailuo
     +---------------------------+
             |
             v
@@ -294,7 +302,7 @@ En tant que partenaire principal depuis 2007, Yuyao Mould Factory joue un rôle 
 | **Coordination technique** | Interface technique entre Plus Sarl et les ateliers de production |
 | **CQ pre-expédition** | :green_circle: Réalisé un contrôle qualité avant expédition et envoie un echantillonnage chez Plus Sarl en parallèle du transport |
 
-### 10.3 Rôle de Whang
+### 10.3 Rôle de Oukailuo
 
 | Fonction | Description |
 |---|---|
@@ -359,7 +367,7 @@ Voir formulaire FOR-EVF-001 pour le détail de l'évaluation annuelle.
 | Fournisseur | Classe | Produit/Service | Pays | Accord qualité | Dernière évaluation | Note | Statut |
 |---|---|---|---|---|---|---|---|
 | :green_circle: Yuyao Mould Factory | A | Moules + injection + coordination sous-traitance | Chine | Non (base confiance) [A FORMALISER -- des que le dossier de certification est pret] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] | Approuve |
-| :green_circle: Whang | A | Vis (screws) -- production interne | Yuyao, Chine | Non (base confiance) [A FORMALISER -- des que le dossier de certification est pret] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] | Approuve |
+| :green_circle: Oukailuo | A | Vis (screws) -- production interne | Yuyao, Chine | Non (base confiance) [A FORMALISER -- des que le dossier de certification est pret] | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] | Approuve |
 | :yellow_circle: [RECOMMANDE -- noms a documenter] | B | Transport international (aérien/maritime/ferroviaire) | :yellow_circle: [RECOMMANDE] | N/A | :red_circle: [À REMPLIR] | :red_circle: [À REMPLIR] | Approuve |
 | :green_circle: Paradiso | C | Fiduciaire / comptabilite | Suisse | N/A | N/A | N/A | Approuve |
 
@@ -389,7 +397,7 @@ Les informations techniques sont transmises uniquement aux partenaires concerné
 ---
 
 > **Instructions de remplissage :**
-> 1. **PRIORITÉ** : Formaliser un accord qualité avec Yuyao Mould Factory et Whang des que le dossier de certification est pret
+> 1. **PRIORITÉ** : Formaliser un accord qualité avec Yuyao Mould Factory et Oukailuo des que le dossier de certification est pret
 > 2. Conservez TOUS les emails et échanges WeChat avec les partenaires chinois -- ce sont des preuves de suivi
 > 3. Enregistrez toutes les commandes dans FileMaker avec les références, délais et spécifications
 > 4. L'auditeur (SQS) voudra voir : les preuves de coordination technique, les évaluations, le suivi des NC par partenaire
@@ -406,6 +414,7 @@ Les informations techniques sont transmises uniquement aux partenaires concerné
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout de la référence a NC_2026_1001 comme premier cas documenté de NC fournisseur. Ajout de la section 9.3 (suivi qualité sur site) avec le voyage en Chine planifié en mars 2026 et ses objectifs. Mise à jour de la section 7 (accord qualité) avec référence au voyage de mars 2026. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration UPDATE 2.1 : ajout section 9 "Fiche de production FileMaker" (caracteristiques, délais, mises a jour, suivi, echantillonnage). Ajout de la revue de commande (cf. M1-DIR-001, CTX-QUA-001 section 1.3) dans le logigramme. Renumerotation des sections 9→10, 10→11, 11→12. | Roxane Wicky |
 | 0.4 | 21/02/2026 | Intégration UPDATE 7.5-8.7 (clause 8.4) : mise à jour des 7 critères de sélection partenaires, 4 indicateurs d'évaluation continue, renforcement formel du suivi fournisseur, validation des nouveaux outillages (échantillon avant série), confidentialité et propriété intellectuelle. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Récap 13 points : renommage Whang → Oukailuo (visserie et quincaillerie), transporteur ECAM (contact Sofia) identifié, Hardeng Yuyao Mould Factory (nom complet). Points #3 et #4 résolus. | Roxane Wicky |

@@ -34,13 +34,13 @@
 |---|---|---|---|---|
 | 4.1.1 | Les enjeux externes et internes pertinents sont-ils déterminés ? | CTX-QUA-001 (analyse SWOT) | 🔴 [À REMPLIR — lors de l'audit] | |
 | 4.1.2 | Ces enjeux sont-ils surveillés et revus ? | Compte-rendu de revue de direction (FOR-RDR-001) | 🔴 [À REMPLIR — lors de l'audit] | |
-| 4.1.3 | Le contexte prend-il en compte la sous-traitance en Chine (Yuyao Mould Factory et Whang) ? | CTX-QUA-001, archivés WeChat | 🔴 [À REMPLIR — lors de l'audit] | |
+| 4.1.3 | Le contexte prend-il en compte la sous-traitance en Chine (Yuyao Mould Factory et Oukailuo) ? | CTX-QUA-001, archivés WeChat | 🔴 [À REMPLIR — lors de l'audit] | |
 
 ### 4.2 Compréhension des besoins et attentes des parties intéressées
 
 | # | Question | Preuves à examiner | Résultat | Commentaire |
 |---|---|---|---|---|
-| 4.2.1 | Les parties intéressées sont-elles identifiées (clients, Yuyao, Whang, SQS, Paradiso, etc.) ? | CTX-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
+| 4.2.1 | Les parties intéressées sont-elles identifiées (clients, Yuyao, Oukailuo, SQS, Paradiso, etc.) ? | CTX-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
 | 4.2.2 | Leurs exigences pertinentes sont-elles déterminées ? | CTX-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
 | 4.2.3 | Ces informations sont-elles revues et mises à jour ? | Compte-rendu de revue de direction | 🔴 [À REMPLIR — lors de l'audit] | |
 
@@ -50,7 +50,7 @@
 |---|---|---|---|---|
 | 4.3.1 | Le domaine d'application est-il défini et documenté ? | DOM-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
 | 4.3.2 | L'exclusion du chapitre 8.3 (conception) est-elle justifiée ? | DOM-QUA-001 — la conception appartient aux clients, Plus Sàrl coordonné | 🔴 [À REMPLIR — lors de l'audit] | |
-| 4.3.3 | Le domaine inclut-il les processus externalisés (Yuyao, Whang) ? | DOM-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
+| 4.3.3 | Le domaine inclut-il les processus externalisés (Yuyao, Oukailuo) ? | DOM-QUA-001 | 🔴 [À REMPLIR — lors de l'audit] | |
 
 ### 4.4 SMQ et ses processus
 
@@ -139,7 +139,7 @@
 | # | Question | Preuves à examiner | Résultat | Commentaire |
 |---|---|---|---|---|
 | 7.4.1 | Les communications pertinentes sont-elles déterminées ? | Archivés emails (clients), WeChat (partenaires chinois) | 🔴 [À REMPLIR — lors de l'audit] | 🟡 RECOMMANDÉ : mettre en place l'archivage des conversations WeChat (captures d'écran, transfert vers email, ou export depuis WeChat Desktop) |
-| 7.4.2 | Les canaux sont-ils adaptés ? | Email (clients), WeChat (Yuyao + Whang) | 🔴 [À REMPLIR — lors de l'audit] | |
+| 7.4.2 | Les canaux sont-ils adaptés ? | Email (clients), WeChat (Yuyao + Oukailuo) | 🔴 [À REMPLIR — lors de l'audit] | |
 
 ### 7.5 Informations documentées
 
@@ -160,7 +160,7 @@
 | # | Question | Preuves à examiner | Résultat | Commentaire |
 |---|---|---|---|---|
 | 8.2.1 | La communication avec les clients est-elle maîtrisée ? | Archivés emails clients, confirmations de commande | 🔴 [À REMPLIR — lors de l'audit] | ~10 clients actifs, 50-100 commandes/an |
-| 8.2.2 | Les exigences des produits sont-elles déterminées ? | FileMaker (suivi commandes), cahiers des charges clients | 🔴 [À REMPLIR — lors de l'audit] | Produits : pièces plastiques injectées + vis (Whang) |
+| 8.2.2 | Les exigences des produits sont-elles déterminées ? | FileMaker (suivi commandes), cahiers des charges clients | 🔴 [À REMPLIR — lors de l'audit] | Produits : pièces plastiques injectées + vis (Oukailuo) |
 | 8.2.3 | Les exigences sont-elles revues avant engagement ? | Archivés emails, confirmations de commande | 🔴 [À REMPLIR — lors de l'audit] | |
 | 8.2.4 | Les exigences légales/réglementaires sont-elles prises en compte ? | Factures douanières, réglementations import/export | 🔴 [À REMPLIR — lors de l'audit] | |
 
@@ -176,7 +176,7 @@
 
 | # | Question | Preuves à examiner | Résultat | Commentaire |
 |---|---|---|---|---|
-| 8.4.1 | Les processus externalisés sont-ils identifiés ? | DOM-QUA-001, PRO-ACH-001 | 🔴 [À REMPLIR — lors de l'audit] | 2 partenaires : Yuyao Mould Factory (moules/injection) + Whang (vis) |
+| 8.4.1 | Les processus externalisés sont-ils identifiés ? | DOM-QUA-001, PRO-ACH-001 | 🔴 [À REMPLIR — lors de l'audit] | 2 partenaires : Yuyao Mould Factory (moules/injection) + Oukailuo (vis) |
 | 8.4.2 | Des critères de sélection des fournisseurs sont-ils définis ? | PRO-ACH-001 | 🔴 [À REMPLIR — lors de l'audit] | |
 | 8.4.3 | Les fournisseurs sont-ils évalués périodiquement ? | FOR-EVF-001 | 🔴 [À REMPLIR — lors de l'audit] | 🔴 Première évaluation formelle à réaliser |
 | 8.4.4 | Un accord qualité existe-t-il avec les partenaires chinois ? | 🔴 Pas d'accord formel | 🔴 [À REMPLIR — lors de l'audit] | **POINT D'ATTENTION** : pas d'accord qualité formel. Prévu lors du voyage en Chine fin mars 2026. Accord trilingue FR/EN/CN prévu. |
@@ -320,14 +320,14 @@
 > 4. Concentrez-vous sur le chapitre 8.4 (sous-traitance Chine) — cœur de métier de Plus Sàrl
 > 5. Examinez particulièrement les 9 points d'attention identifiés ci-dessus
 > 6. Vérifiez la traçabilité dans FileMaker
-> 7. Consultez les archivés emails (clients) et WeChat (Yuyao + Whang)
+> 7. Consultez les archivés emails (clients) et WeChat (Yuyao + Oukailuo)
 > 8. Examinez NC_2026_1001 comme premier cas documenté de traitement NC dans le SMQ
 > 9. Vérifiez le processus d'échantillonnage parallèle (nouveau en v0.3)
 >
 > **Documents clés à demander :**
 > - Accès FileMaker (commandes, produits, prix, transport)
 > - Archivés emails clients
-> - Archivés/captures WeChat avec Yuyao et Whang
+> - Archivés/captures WeChat avec Yuyao et Oukailuo
 > - Factures douanières et factures clients
 > - Bons de livraison et accusés de réception
 > - Dossier NC_2026_1001 (fiche NC, AC_2026_001, checklist CQ)
@@ -341,5 +341,5 @@
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout NC_2026_1001, points d'attention | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration réponses (Whang, SQS, ~10 clients, échantillonnage CQ, WeChat archivage). Ajout légende des champs. 50-100 commandes/an. Voyage Chine fin mars. Accord qualité trilingue. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration réponses (Oukailuo, SQS, ~10 clients, échantillonnage CQ, WeChat archivage). Ajout légende des champs. 50-100 commandes/an. Voyage Chine fin mars. Accord qualité trilingue. | Roxane Wicky |

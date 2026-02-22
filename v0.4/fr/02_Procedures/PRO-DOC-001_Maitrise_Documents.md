@@ -37,7 +37,7 @@ Cette procédure s'applique à l\'ensemble des documents du SMQ :
 | Création et mise à jour des documents | :green_circle: Roxane Wicky (gérante) |
 | Approbation des documents | :green_circle: Roxane Wicky (gérante) |
 | Diffusion et archivage | :green_circle: Roxane Wicky (gérante) |
-| Conservation des données techniques de fabrication | :green_circle: Partenaires chinois (Yuyao Mould Factory et Whang) |
+| Conservation des données techniques de fabrication | :green_circle: Partenaires chinois (Yuyao Mould Factory et Oukailuo) |
 | Comptabilite et fiduciaire | :green_circle: Paradiso (fiduciaire) |
 
 > **Note :** Plus Sarl étant une entreprise unipersonnelle, l'ensemble des responsabilités documentaires incombe à la gérante, Roxane Wicky. La fiduciaire Paradiso assure la gestion comptable.
@@ -59,7 +59,7 @@ Cette procédure s'applique à l\'ensemble des documents du SMQ :
 | Liste de gestion | LST-XXX-NNN | LST-DOC-001 |
 | Document externe | EXT-XXX-NNN | EXT-NRM-001 |
 
-**Légende :** XXX = domaine (QUA=qualité, DOC=documents, AUD=audit, NCF=non-conformité, ACR=actions correctives, ACH=achats, EVF=évaluation fournisseur, SAT=satisfaction, RDR=revue direction, CMP=compétences, RCL=réclamations, CTR=contrôle)
+**Légende :** XXX = domaine (QUA=qualité, DOC=documents, AUD=audit, NCF=non-conformité, ACR=actions correctives, ACH=achats, EVF=évaluation fournisseur, AQF=accord qualité fournisseur, SAT=satisfaction, RDR=revue direction, CMP=compétences, RCL=réclamations, CTR=contrôle)
 
 ## 5. Procédure de gestion documentaire
 
@@ -86,7 +86,7 @@ Les documents approuves sont stockés sur les supports suivants :
 | **Fichiers informatiques locaux** (ordinateur) | Documents SMQ, procédures, formulaires, enregistrements qualité | :green_circle: Roxane Wicky |
 | **Archivés e-mail** | Échanges avec clients, transporteurs, douanes | :green_circle: Roxane Wicky |
 | **WeChat** | Échanges opérationnels avec les partenaires chinois | :green_circle: Roxane Wicky |
-| **Fichiers chez le partenaire chinois** | Données techniques de fabrication, plans, moules, spécifications de production | :green_circle: Yuyao Mould Factory / Whang |
+| **Fichiers chez le partenaire chinois** | Données techniques de fabrication, plans, moules, spécifications de production | :green_circle: Yuyao Mould Factory / Oukailuo |
 | **Fiduciaire Paradiso** | Documents comptables, declarations fiscales | :green_circle: Paradiso |
 
 **Structure de stockage sur l'ordinateur :**
@@ -131,7 +131,7 @@ SMQ/
 |---|---|---|---|
 | Norme ISO 9001:2015 | SNV / ISO | Dossier SMQ > 06_Documents_externes > Normes | :green_circle: Roxane Wicky |
 | Specifications techniques clients | Clients européens (~10 clients actifs) | Dossier SMQ > 06_Documents_externes > Specifications_clients + FileMaker | :green_circle: Roxane Wicky |
-| Données techniques de fabrication (plans, moules) | Yuyao Mould Factory / Whang | Fichiers chez le partenaire chinois + copie locale | :green_circle: Roxane Wicky / Partenaire chinois |
+| Données techniques de fabrication (plans, moules) | Yuyao Mould Factory / Oukailuo | Fichiers chez le partenaire chinois + copie locale | :green_circle: Roxane Wicky / Partenaire chinois |
 | Documents douaniers et réglementaires | Autorites douanières / transitaires | Archivés e-mail + dossier local | :green_circle: Roxane Wicky |
 | Rapports d'inspection fournisseur | Partenaires chinois | Dossier SMQ > 06_Documents_externes > Documents_fournisseur | :green_circle: Roxane Wicky |
 | Documents comptables | Fiduciaire Paradiso | Fiduciaire + copie locale | :green_circle: Paradiso / Roxane Wicky |
@@ -196,16 +196,20 @@ Ces dispositions garantissent la traçabilité des opérations, la protection de
 
 ### 6.3 Sauvegarde
 
-:green_circle: Sauvegarde cloud, hebergement chez fournisseur de services informatiques. Les données FileMaker et les fichiers du SMQ sont sauvegardes automatiquement dans le cloud.
+🟢 Le système FileMaker est hébergé chez **Gramatec SA** en Suisse. L'enregistrement est automatique. Les données sont stockées chez Gramatec. En cas de perte, vol ou problème sur le système, Gramatec SA est disposé à ressortir l'ensemble des données.
 
 Les données sont protégées par :
-- **Sauvegarde cloud automatique** : les données FileMaker et les fichiers du SMQ sont sauvegardes automatiquement dans le cloud, heberge chez le fournisseur de services informatiques
-- **Gestion des accès** a FileMaker (accès restreint à la gérante)
+- **Hébergement suisse** : Gramatec SA, fournisseur de services informatiques basé en Suisse 🟢
+- **Sauvegarde automatique** : enregistrement automatique des données FileMaker 🟢
+- **Restauration garantie** : Gramatec SA assure la récupération complète des données en cas d'incident 🟢
+- **Gestion des accès** à FileMaker (accès restreint à la gérante)
 
-> :yellow_circle: [RECOMMANDE] Il est recommandé de completer le dispositif de sauvegarde cloud par :
+> 🟡 [RECOMMANDÉ] Il est recommandé de compléter le dispositif par :
 > - Une vérification périodique (mensuelle) de l'intégrité des sauvegardes
-> - Un test de restauration annuel pour valider la capacité de recuperation des données
-> - La documentation du contrat avec le fournisseur de services cloud (SLA, localisation des données, politique de confidentialité)
+> - Un test de restauration annuel pour valider la capacité de récupération des données
+> - La documentation du contrat avec Gramatec SA (SLA, localisation des données, politique de confidentialité)
+
+> **Source :** Récap 13 points (22/02/2026) — Point #9 résolu.
 
 ## 7. Inventaire des moules
 
@@ -215,7 +219,7 @@ Les données sont protégées par :
 |---|---|
 | **Inventaire** | :green_circle: Existant |
 | **Propriété** | :green_circle: Propriété des clients |
-| **Lieu de stockage** | Chez les partenaires chinois (Yuyao Mould Factory / Whang) |
+| **Lieu de stockage** | Chez les partenaires chinois (Hardeng Yuyao Mould Factory / Oukailuo) |
 | **Responsable du suivi** | Roxane Wicky (gérante) |
 | **Conservation** | Duree de vie du moule + 3 ans (cf. section 6.2) |
 
@@ -245,6 +249,8 @@ Les données sont protégées par :
 | FOR-CMP-001 | Compétences et formation | 0.4 | 18/02/2026 | En vigueur |
 | FOR-RCL-001 | Réclamations client | 0.4 | 18/02/2026 | En vigueur |
 | FOR-CTR-001 | Contrôle reception | 0.4 | 18/02/2026 | En vigueur |
+| **FOR-AQF-001** | **Accord qualité fournisseur — Hardeng Yuyao Mould Factory** | **0.4** | **22/02/2026** | **En vigueur** 🟢 |
+| **FOR-AQF-002** | **Accord qualité fournisseur — Oukailuo** | **0.4** | **22/02/2026** | **En vigueur** 🟢 |
 | CHK-AUD-001 | Checklist audit ISO 9001 | 0.4 | 18/02/2026 | En vigueur |
 | LST-DOC-001 | Liste de gestion documentaire | 0.4 | 18/02/2026 | En vigueur |
 
@@ -274,6 +280,8 @@ La liste de gestion documentaire ci-dessous recense l'ensemble des documents du 
 | Compétences et formation | FOR-CMP-001 | 0.4 | 18/02/2026 | Roxane Wicky | Ordinateur / Dossier SMQ |
 | Réclamations client | FOR-RCL-001 | 0.4 | 18/02/2026 | Roxane Wicky | Ordinateur / Dossier SMQ |
 | Contrôle reception | FOR-CTR-001 | 0.4 | 18/02/2026 | Roxane Wicky | Ordinateur / Dossier SMQ |
+| **Accord qualité Yuyao** | **FOR-AQF-001** | **0.4** | **22/02/2026** | **Roxane Wicky** | **Ordinateur / Dossier SMQ** 🟢 |
+| **Accord qualité Oukailuo** | **FOR-AQF-002** | **0.4** | **22/02/2026** | **Roxane Wicky** | **Ordinateur / Dossier SMQ** 🟢 |
 | Checklist audit ISO 9001 | CHK-AUD-001 | 0.4 | 18/02/2026 | Roxane Wicky | Ordinateur / Dossier SMQ |
 | Liste de gestion documentaire | LST-DOC-001 | 0.4 | 18/02/2026 | Roxane Wicky | Ordinateur / Dossier SMQ |
 
@@ -285,6 +293,7 @@ La liste de gestion documentaire ci-dessous recense l'ensemble des documents du 
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout de la liste de gestion documentaire (LST-DOC-001) alignee sur le modèle de la gérante. Ajout du type de document LST (Liste de gestion). Mise à jour de la liste maitresse avec tous les documents du SMQ en version 0.2. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration UPDATE 2.1 S1 : ajout référence au rôle formalisé de la gestion documentaire (CTX-QUA-001 section 1.1). Ajout de 3 nouveaux documents à la liste maitresse et à la liste de gestion : M1-DIR-001, FIC-PRO-002, PRO-LOG-001. Ajout du type de document M1 (Leadership). | Roxane Wicky |
 | 0.4 | 21/02/2026 | Intégration UPDATE 7.5 : ajout section 5bis — Maîtrise des informations documentées (clause 7.5). Exigences de maîtrise (accessibilité, lisibilité, conservation, protection). Confidentialité des données techniques et mesures de protection. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Récap 13 points — Point #9 : sauvegarde précisée (Gramatec SA, Suisse, enregistrement automatique, restauration garantie). Renommage Whang → Oukailuo. Ajout FOR-AQF-001 (Yuyao) et FOR-AQF-002 (Oukailuo) à la liste maîtresse et à la liste de gestion (RECAP point #2). Ajout codification AQF. | Roxane Wicky |

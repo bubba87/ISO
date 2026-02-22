@@ -46,7 +46,7 @@ Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politiqu
   - Validation sur échantillon avant lancement serie si nécessaire
   - Gestion des non-conformites : enregistrement, analyse, action corrective, suivi clôture
 
-- **Suivi :** Registre NC dans FileMaker. Coordination avec Yuyao Mould Factory et Whang. Enregistrement systématique de chaque NC.
+- **Suivi :** Registre NC dans FileMaker. Coordination avec Yuyao Mould Factory et Oukailuo. Enregistrement systématique de chaque NC.
 
 ---
 
@@ -58,7 +58,7 @@ Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politiqu
   - Stabilisation des prix sur la période
   - Taux de validation des offres par les clients sans renegociation majeure
 
-- **Suivi :** Comparaison historique des offres. Coordination fournisseurs (Yuyao Mould Factory, Whang) et transporteurs. Suivi des écarts de prix.
+- **Suivi :** Comparaison historique des offres. Coordination fournisseurs (Yuyao Mould Factory, Oukailuo) et transporteurs. Suivi des écarts de prix.
 
 ---
 

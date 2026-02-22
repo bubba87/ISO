@@ -5,7 +5,7 @@
 | **Référence** | CRT-QUA-001 |
 | **Version** | 0.4 |
 | **Date de création** | 10/02/2026 |
-| **Date de révision** | 21/02/2026 |
+| **Date de révision** | 22/02/2026 |
 | **Rédigé par** | Roxane Wicky |
 | **Approuvé par** | Roxane Wicky |
 
@@ -17,7 +17,7 @@
 
 ### Contexte
 
-Plus Sarl est spécialisée dans la coordination industrielle entre des clients européens et des partenaires de fabrication chinois. L'entreprise n'exerce aucune activité de conception (clause 8.3 de la norme ISO 9001:2015 exclue du domaine d'application). Les conceptions et la propriété intellectuelle appartiennent aux clients. L'activité couvre la coordination commerciale, les achats et la sous-traitance auprès de partenaires chinois (Yuyao Mould Factory et **Whang**, Yuyao), l'organisation logistique internationale et le contrôle qualité.
+Plus Sarl est spécialisée dans la coordination industrielle entre des clients européens et des partenaires de fabrication chinois. L'entreprise n'exerce aucune activité de conception (clause 8.3 de la norme ISO 9001:2015 exclue du domaine d'application). Les conceptions et la propriété intellectuelle appartiennent aux clients. L'activité couvre la coordination commerciale, les achats et la sous-traitance auprès de partenaires chinois (Yuyao Mould Factory et **Oukailuo**, Yuyao), l'organisation logistique internationale et le contrôle qualité.
 
 La certification ISO 9001:2015 est visée auprès de l'organisme **SQS**. 🟢
 
@@ -65,17 +65,17 @@ La certification ISO 9001:2015 est visée auprès de l'organisme **SQS**. 🟢
 | Code | Processus | Pilote | Objectif | Document(s) associé(s) |
 |---|---|---|---|---|
 | M1 | Leadership et stratégie | Roxane Wicky (Gérante) | Définir la politique qualité, les objectifs stratégiques, attribuer les responsabilités, orienter l'entreprise et **planifier les modifications** (clause 6.3 — analyse d'impact, validation, mise en œuvre contrôlée) | **M1-DIR-001**, POL-QUA-001, CTX-QUA-001 (section 6) 🟢 |
-| M2 | Amélioration continue | Roxane Wicky (Gérante) | Piloter l'amélioration du SMQ (non-conformités, actions correctives, indicateurs). **Revue de l'efficacité des modifications** lors de la revue de direction | PRO-NCF-001, PRO-ACR-001 |
-| M3 | Revue de direction | Roxane Wicky (Gérante) | Évaluer les performances du SMQ et décider des actions d'amélioration | FOR-RDR-001 |
+| M2 | Amélioration continue | Roxane Wicky (Gérante) | Piloter l'amélioration du SMQ (non-conformités, actions correctives, indicateurs). NC et actions correctives selon clause 10.2 (5 types de causes, registre AC FileMaker). Amélioration continue selon clause 10.3 (déclencheurs, visites Chine, vérification efficacité). **Revue de l'efficacité des modifications** lors de la revue de direction 🟢 | PRO-NCF-001, PRO-ACR-001 |
+| M3 | Revue de direction | Roxane Wicky (Gérante) | Évaluer les performances du SMQ et décider des actions d'amélioration. Revue de direction renforcée selon clause 9.3 (pertinence, adéquation, efficacité, alignement stratégie), 6 éléments d'entrée, fréquence annuelle minimum 🟢 | FOR-RDR-001 |
 
 ### Processus opérationnels
 
 | Code | Processus | Pilote | Objectif | Document(s) associé(s) |
 |---|---|---|---|---|
 | O1 | Commercial | Roxane Wicky (Gérante) | Gérer les relations clients (~10 clients actifs), analyser les besoins, déterminer les exigences applicables (6 types, clause 8.2), réaliser la revue de commande, possibilité de refuser une commande hors domaine (clause 8.1), suivre les commandes dans FileMaker | CTX-QUA-001 (sections 1.2, 1.3), FIC-PRO-001 🟢 |
-| O2 | Achats et sous-traitance | Roxane Wicky (Gérante) | Coordonner les partenaires chinois (Yuyao Mould Factory et **Whang**), sélection sur 7 critères et évaluation sur 4 indicateurs (clause 8.4), valider les nouveaux outillages avant série, créer les fiches de production FileMaker, suivre la fabrication externalisée (4 moyens de conformité, clause 8.5), assurer la confidentialité de la propriété intellectuelle 🟢 | PRO-ACH-001, FIC-PRO-001 |
+| O2 | Achats et sous-traitance | Roxane Wicky (Gérante) | Coordonner les partenaires chinois (Yuyao Mould Factory et **Oukailuo**), sélection sur 7 critères et évaluation sur 4 indicateurs (clause 8.4), valider les nouveaux outillages avant série, créer les fiches de production FileMaker, suivre la fabrication externalisée (4 moyens de conformité, clause 8.5), assurer la confidentialité de la propriété intellectuelle. Accords qualité formalisés (FOR-AQF-001 Yuyao, FOR-AQF-002 Oukailuo) 🟢 | PRO-ACH-001, FIC-PRO-001, **FOR-AQF-001**, **FOR-AQF-002** |
 | O3 | Logistique et livraison | Roxane Wicky (Gérante) | Créer les fiches de livraison FileMaker, organiser le transport international, gérer les documents douaniers, assurer le suivi jusqu'à livraison 🟢 | **PRO-LOG-001**, **FIC-PRO-002** 🟢 |
-| O4 | Contrôle qualité | Roxane Wicky (Gérante) | Vérifier la conformité des pièces avant expédition, libération formalisée sur 3 critères (CQ fabricant, confirmation commande, photos — clause 8.6), gérer les NC et actions correctives selon processus en 4 étapes (clause 8.7), registre NC dans FileMaker 🔵 [À VÉRIFIER — registre à mettre en place], analyser les retours clients | PRO-NCF-001, PRO-ACR-001, FOR-CTR-001 |
+| O4 | Contrôle qualité | Roxane Wicky (Gérante) | Vérifier la conformité des pièces avant expédition, libération formalisée sur 3 critères (CQ fabricant, confirmation commande, photos — clause 8.6), gérer les NC et actions correctives selon processus en 4 étapes (clause 8.7), registre NC dans FileMaker 🔵 [À VÉRIFIER — registre à mettre en place], analyser les retours clients. Suivi, mesure, analyse et évaluation selon clause 9.1 (délais, conformité produit, fournisseurs, satisfaction client) 🟢 | PRO-NCF-001, PRO-ACR-001, FOR-CTR-001, OBJ-QUA-001 |
 
 ### Processus support
 
@@ -83,7 +83,7 @@ La certification ISO 9001:2015 est visée auprès de l'organisme **SQS**. 🟢
 |---|---|---|---|---|
 | S1 | Gestion documentaire | Roxane Wicky (Gérante) | Maîtriser les documents et enregistrements du SMQ (FileMaker, emails, WeChat). Maîtrise des informations documentées selon clause 7.5 (accessibilité, lisibilité, conservation, protection). Mesures de confidentialité des données. Assurer la traçabilité et alimenter l'amélioration continue. Sauvegarde cloud chez le fournisseur 🟢 | PRO-DOC-001 |
 | S2 | Compétences, formations et sensibilisation | Roxane Wicky (Gérante) | Maintenir et développer les compétences nécessaires à la coordination industrielle. Compétences gérante (7 domaines), extension aux fournisseurs (évaluation continue). Sensibilisation au SMQ (politique, objectifs, satisfaction client). Communication en anglais 🟢 | FOR-CMP-001 🟢 |
-| S3 | Ressources et infrastructure | Roxane Wicky (Gérante) | Gérer les ressources humaines, matérielles, numériques et externes. Infrastructures (FileMaker, email, WeChat, cloud). Environnement de travail (confidentialité, fiabilité, réactivité). Ressources externes (Yuyao, Whang, transitaires). Comptabilité via fiduciaire Paradiso 🟢 | CTX-QUA-001 (section 7) 🟢 |
+| S3 | Ressources et infrastructure | Roxane Wicky (Gérante) | Gérer les ressources humaines, matérielles, numériques et externes. Infrastructures (FileMaker, email, WeChat, cloud). Environnement de travail (confidentialité, fiabilité, réactivité). Ressources externes (Yuyao, Oukailuo, transitaires). Comptabilité via fiduciaire Paradiso 🟢 | CTX-QUA-001 (section 7) 🟢 |
 
 ---
 
@@ -135,7 +135,7 @@ La certification ISO 9001:2015 est visée auprès de l'organisme **SQS**. 🟢
             v
  5. COORDINATION TECHNIQUE (O2 - Achats)
     Échanges par email et WeChat avec Yuyao Mould Factory
-    et/ou Whang selon le projet (moules/pièces ou vis)
+    et/ou Oukailuo selon le projet (moules/pièces ou vis)
     Allers-retours techniques jusqu'à validation
             |
             v
@@ -213,7 +213,7 @@ Les objectifs qualité de Plus Sarl sont alignés sur les quatre axes définis d
 | M2 Amélioration | Nombre d'actions correctives réalisées dans les délais | 100% 🟢 | Trimestriel |
 | M3 Revue de direction | Tenue effective de la revue de direction | 1 fois par an minimum 🟢 | Annuel |
 | S1 Gestion documentaire | Documents à jour dans FileMaker | 100% 🟢 | Annuel |
-| S2 Compétences | Maintien des compétences (formations, veille) | 🔴 [À REMPLIR — diplômes et formations non divulgués] | Annuel |
+| S2 Compétences | Maintien des compétences (formations, veille) | 🟢 Diplômes documentés (commerce, esthétique, BF), expérience 2013-présent | Annuel |
 
 ---
 
@@ -227,7 +227,7 @@ Les objectifs qualité de Plus Sarl sont alignés sur les quatre axes définis d
 
 ### Sauvegarde des données
 
-Les données sont sauvegardées dans le **cloud, hébergement chez le fournisseur**. 🟢
+Les données sont sauvegardées chez **Gramatec SA** (Suisse). L'enregistrement est automatique. En cas de perte, vol ou problème système, Gramatec SA est disposé à ressortir l'ensemble des données. 🟢
 
 ---
 
@@ -245,8 +245,9 @@ Les données sont sauvegardées dans le **cloud, hébergement chez le fournisseu
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Mise à jour des objectifs qualité par processus avec cibles confirmées : 24h réponse, max 3 NC/client/an, 95% livraisons dans les délais, absence de réclamation majeure | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration des chapitres 2.1, 2.2, 2.2.1 du manuel qualité. Ajout de la colonne Documents associés. Révision du flux principal avec revue de commande (étape 2), consultation partenaires (étape 3), référence à M1-DIR-001. Ajout de l'étape 12 (traçabilité et amélioration, S1). Ajout des nouveaux documents PRO-LOG-001, FIC-PRO-002, M1-DIR-001. | Roxane Wicky |
 | 0.4 | 20/02/2026 | Intégration UPDATE 6.3 : enrichissement M1 (planification des modifications, clause 6.3), enrichissement M2 (revue efficacité modifications), ajout analyse d'impact clause 6.3 dans le flux principal (étape 2). | Roxane Wicky |
 | 0.4 | 20/02/2026 | Intégration UPDATEs 7, 7.2, 7.3 : enrichissement S3 (ressources, clause 7.1, ref. CTX-QUA-001 §7), enrichissement S2 (compétences, sensibilisation, clauses 7.2-7.3, ref. FOR-CMP-001). | Roxane Wicky |
 | 0.4 | 21/02/2026 | Intégration UPDATE 7.5-8.7 : enrichissement S1 (maîtrise informations documentées, confidentialité, clause 7.5), enrichissement O1 (exigences 8.2, refus 8.1), enrichissement O2 (critères sélection 8.4, validation outillages, confidentialité PI, production externalisée 8.5), enrichissement O4 (libération 8.6, processus NC 8.7, registre NC FileMaker). Mise à jour du flux principal (étapes 2, 6, 7, 10). | Roxane Wicky |
+| 0.4 | 22/02/2026 | Intégration UPDATE 9.1/10.2/10.3/9.3 et RECAP 13 points : enrichissement M2 (NC clause 10.2, amélioration continue clause 10.3), enrichissement M3 (revue direction renforcée clause 9.3), enrichissement O2 (accords qualité FOR-AQF-001 Yuyao + FOR-AQF-002 Oukailuo), enrichissement O4 (suivi/mesure/analyse clause 9.1). Sauvegarde = Gramatec SA (Suisse). Diplômes S2 résolus. | Roxane Wicky |

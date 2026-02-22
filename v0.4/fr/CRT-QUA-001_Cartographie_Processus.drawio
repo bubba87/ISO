@@ -62,7 +62,7 @@
           </mxCell>
         </UserObject>
 
-        <UserObject label="&lt;b&gt;O2&lt;/b&gt;&lt;br&gt;Achats &amp;&lt;br&gt;Sous-traitance&lt;br&gt;&lt;i&gt;(8.4)&lt;/i&gt;&lt;br&gt;Yuyao + Whang&lt;br&gt;&lt;i&gt;Fiche production FM&lt;/i&gt;" link="data:page/id,page-o2" id="o2">
+        <UserObject label="&lt;b&gt;O2&lt;/b&gt;&lt;br&gt;Achats &amp;&lt;br&gt;Sous-traitance&lt;br&gt;&lt;i&gt;(8.4)&lt;/i&gt;&lt;br&gt;Yuyao + Oukailuo&lt;br&gt;&lt;i&gt;Fiche production FM&lt;/i&gt;" link="data:page/id,page-o2" id="o2">
           <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;shadow=1;" vertex="1" parent="op-lane">
             <mxGeometry x="290" y="50" width="200" height="100" as="geometry"/>
           </mxCell>
@@ -251,7 +251,7 @@
         </UserObject>
 
         <!-- Lane: Partenaire Chinois -->
-        <mxCell id="o1-lane3" value="&lt;b&gt;Partenaire&lt;br&gt;Chinois&lt;br&gt;(Yuyao/Whang)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=120;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;collapsible=0;" vertex="1" parent="1">
+        <mxCell id="o1-lane3" value="&lt;b&gt;Partenaire&lt;br&gt;Chinois&lt;br&gt;(Yuyao/Oukailuo)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=120;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;collapsible=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="460" width="1360" height="200" as="geometry"/>
         </mxCell>
 
@@ -347,8 +347,8 @@
           </mxCell>
         </UserObject>
 
-        <!-- Lane: Yuyao / Whang -->
-        <mxCell id="o2-lane2" value="&lt;b&gt;Yuyao Mould&lt;br&gt;Factory /&lt;br&gt;Whang&lt;/b&gt;" style="swimlane;horizontal=1;startSize=120;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;collapsible=0;" vertex="1" parent="1">
+        <!-- Lane: Yuyao / Oukailuo -->
+        <mxCell id="o2-lane2" value="&lt;b&gt;Yuyao Mould&lt;br&gt;Factory /&lt;br&gt;Oukailuo&lt;/b&gt;" style="swimlane;horizontal=1;startSize=120;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;collapsible=0;" vertex="1" parent="1">
           <mxGeometry x="20" y="260" width="1360" height="200" as="geometry"/>
         </mxCell>
 
@@ -787,7 +787,7 @@
         <mxCell id="s1-h" value="&lt;b&gt;Email&lt;/b&gt;&lt;br&gt;(clients EU)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="s1-lane2">
           <mxGeometry x="430" y="30" width="110" height="60" as="geometry"/>
         </mxCell>
-        <mxCell id="s1-i" value="&lt;b&gt;WeChat&lt;/b&gt;&lt;br&gt;(Yuyao, Whang)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="s1-lane2">
+        <mxCell id="s1-i" value="&lt;b&gt;WeChat&lt;/b&gt;&lt;br&gt;(Yuyao, Oukailuo)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="s1-lane2">
           <mxGeometry x="590" y="30" width="120" height="60" as="geometry"/>
         </mxCell>
         <mxCell id="s1-j" value="&lt;b&gt;Cloud&lt;/b&gt;&lt;br&gt;(hébergeur)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="s1-lane2">

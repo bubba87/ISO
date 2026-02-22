@@ -90,7 +90,7 @@ Plus Sarl ne réalise pas directement la production. Celle-ci est effectuée par
 | Partenaire | Activité | Relation |
 |---|---|---|
 | **Yuyao Mould Factory** | Fabrication moules et injection | Partenaire principal et historique (depuis 2007) 🟢 |
-| **Whang** (Yuyao, Chine) | Fabrication de vis | Second partenaire de production 🟢 |
+| **Oukailuo** (Yuyao, Chine) | Fabrication de vis | Second partenaire de production 🟢 |
 
 ### Chaîne de valeur
 
@@ -150,7 +150,7 @@ L'analyse SWOT complète (forces, faiblesses, opportunités, menaces) est docume
 |---|---|
 | Certification ISO 9001 via SQS = accès a de nouveaux marches | Défaillance ou indisponibilité d'un partenaire chinois |
 | Amélioration continue de la satisfaction client | Retards significatifs du transport international |
-| Diversification fournisseurs en Asie (Whang en place) | Defauts qualité majeurs sur produits fabriques |
+| Diversification fournisseurs en Asie (Oukailuo en place) | Defauts qualité majeurs sur produits fabriques |
 
 *(cf. CTX-QUA-001 §2 pour la matrice complète)*
 
@@ -161,7 +161,7 @@ Les parties intéressées pertinentes et leurs exigences sont identifiées :
 | Partie intéressée | Exigences principales |
 |---|---|
 | **Clients européens** (~10 actifs) | Conformité technique, respect des délais, communication réactive, confidentialité |
-| **Partenaires chinois** (Yuyao Mould Factory, Whang) | Transmission claire des exigences, coordination efficace |
+| **Partenaires chinois** (Yuyao Mould Factory, Oukailuo) | Transmission claire des exigences, coordination efficace |
 | **Transporteurs et transitaires** | Fiabilité des délais, intégrité des marchandises |
 | **Autorites douanières** | Conformité réglementaire importation/exportation |
 | **Fiduciaire Paradiso** | Conformité administrative, comptable et fiscale |
@@ -288,7 +288,7 @@ La politique qualité de Plus Sarl est etablie, communiquee et maintenue.
 - Respect des délais de livraison a plus de 95%
 - Maximum 3 NC par client et par an
 - Délai moyen de réponse aux clients inférieur a 24h
-- Renforcement du partenariat qualité avec Yuyao Mould Factory et Whang
+- Renforcement du partenariat qualité avec Yuyao Mould Factory et Oukailuo
 - Maîtrise de la chaîne logistique internationale
 
 **Signature :** Direction Plus Sarl — 19/02/2026 — Cudrefin 🟢
@@ -343,7 +343,7 @@ Plus Sarl identifié et analyse les risques et opportunités susceptibles d'infl
 | # | Risque | Probabilite | Impact | Niveau | Action principale |
 |---|---|---|---|---|---|
 | R1 | Perte d'un client important | Faible | Élevé | Moyen | Maintien relation de confiance, diversification |
-| R2 | Défaillance d'un partenaire chinois | Faible | Tres élevé | Élevé | Communication renforcee, Whang en second partenaire |
+| R2 | Défaillance d'un partenaire chinois | Faible | Tres élevé | Élevé | Communication renforcee, Oukailuo en second partenaire |
 | R3 | Defauts qualité majeurs | Moyen | Élevé | Élevé | Gestion rapide NC, remplacement, contrôles renforces |
 | R4 | Retards transport international | Moyen | Élevé | Élevé | Sélection transporteurs, marges de sécurité |
 | R5 | Risques douaniers | Faible | Moyen | Faible | Niveau controlable, suivi documentaire rigoureux |
@@ -428,7 +428,7 @@ L'environnement de travail assure la confidentialité des données, la fiabilit�
 | Partenaire | Activité | Suivi |
 |---|---|---|
 | **Yuyao Mould Factory** | Moules et injection | Accord qualité, évaluation annuelle (FOR-EVF-001) 🟢 |
-| **Whang** (Yuyao) | Vis | Accord qualité, évaluation annuelle 🟢 |
+| **Oukailuo** (Yuyao) | Vis | Accord qualité, évaluation annuelle 🟢 |
 | **Paradiso** | Fiduciaire | Contrat de mandat 🟢 |
 | Transitaires | Transport international | Suivi par expédition 🟡 |
 
@@ -661,7 +661,7 @@ La revue de direction est réalisée au minimum **1 fois par an** par Roxane Wic
 - Performance des processus et conformité des produits
 - Satisfaction des clients européens
 - Résultats des audits
-- Performance des fournisseurs (Yuyao Mould Factory, Whang)
+- Performance des fournisseurs (Yuyao Mould Factory, Oukailuo)
 - Adéquation des ressources
 - Efficacité des actions face aux risques et opportunités
 - Opportunités d'amélioration

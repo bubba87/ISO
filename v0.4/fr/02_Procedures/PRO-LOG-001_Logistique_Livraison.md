@@ -26,7 +26,7 @@ Définir les règles d'organisation, de suivi et de maîtrise de la logistique i
 
 Toutes les expéditions de produits depuis la Chine vers les clients européens de Plus Sarl (~10 clients actifs, 50-100 expéditions par an) :
 - Expeditions de pièces plastiques injectees (depuis Yuyao Mould Factory)
-- Expeditions de vis (depuis Whang, Yuyao)
+- Expeditions de vis (depuis Oukailuo, Yuyao)
 - Expeditions combinees ou multi-références
 - Tous les modes de transport : aérien, maritime, ferroviaire
 - Gestion des documents douaniers associés

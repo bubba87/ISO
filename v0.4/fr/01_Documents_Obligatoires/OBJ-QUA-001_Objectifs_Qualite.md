@@ -16,7 +16,7 @@
 
 ## 1. Objectifs qualité annuels
 
-Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politique qualité et les activités de coordination industrielle entre clients européens et partenaires de fabrication chinois (Yuyao Mould Factory et **Whang**, Yuyao). Ces objectifs ont été confirmés et refletent les quatre axes stratégiques de l'entreprise. La certification est visee auprès de l'organisme **SQS**. 🟢
+Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politique qualité et les activités de coordination industrielle entre clients européens et partenaires de fabrication chinois (Yuyao Mould Factory et **Oukailuo**, Yuyao). Ces objectifs ont été confirmés et refletent les quatre axes stratégiques de l'entreprise. La certification est visee auprès de l'organisme **SQS**. 🟢
 
 ---
 
@@ -60,7 +60,7 @@ Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politiqu
 | **Cible** | Maximum 3 NC par client et par an 🟢 |
 | **Cible délai de remplacement** | Remplacement effectué dans un délai conforme au besoin exprime par le client 🟢 |
 | **Responsable** | Roxane Wicky (Gérante) |
-| **Ressources** | Fiches de non-conformité, registre NC, coordination avec Yuyao Mould Factory et Whang, suivi dans FileMaker |
+| **Ressources** | Fiches de non-conformité, registre NC, coordination avec Yuyao Mould Factory et Oukailuo, suivi dans FileMaker |
 | **Échéance** | 31/12/2026 |
 | **Méthode de suivi** | Enregistrement systématique de chaque NC dans le registre, suivi du nombre de NC par client, synthèse trimestrielle |
 
@@ -93,7 +93,7 @@ Les objectifs qualité de Plus Sarl sont définis en cohérence avec la politiqu
 | **Valeur actuelle** | À mesurer - première année : établir la référence |
 | **Cible** | Offres validées par les clients sans renegociation majeure 🔵 [À VÉRIFIER] |
 | **Responsable** | Roxane Wicky (Gérante) |
-| **Ressources** | Historique des offres, coordination avec fournisseurs (Yuyao Mould Factory, Whang) et transporteurs |
+| **Ressources** | Historique des offres, coordination avec fournisseurs (Yuyao Mould Factory, Oukailuo) et transporteurs |
 | **Échéance** | 31/12/2026 |
 | **Méthode de suivi** | Comparaison historique des offres, suivi des écarts de prix, coordination fournisseurs/transporteurs, synthèse trimestrielle |
 
@@ -187,12 +187,73 @@ Les résultats sont présentés lors de la revue de direction et servent de base
 
 ---
 
-## Historique des revisions
+## 4. Suivi, mesure, analyse et évaluation (clause 9.1)
+
+> **Source :** UPDATE 9.1 (22/02/2026) 🟢
+
+Plus Sàrl détermine les éléments à surveiller et mesure afin d'évaluer la performance de ses processus et l'efficacité de son SMQ. Les données analysées proviennent principalement du système FileMaker, des échanges clients et du suivi des partenaires industriels.
+
+### 4.1 Suivi des délais
+
+L'entreprise suit :
+- la date de commande
+- la date de livraison prévue
+- la date réelle de livraison
+
+Ces données permettent :
+- d'identifier les retards éventuels
+- d'analyser la cause (production, transport ou autre facteur)
+- d'évaluer la performance logistique globale
+
+Un suivi périodique permet d'identifier les tendances annuelles ou semestrielles. 🔵 [À VÉRIFIER — suivi à mettre en place]
+
+### 4.2 Suivi de la conformité produit
+
+Le nombre et la nature des non-conformités sont suivis. Les NC peuvent être liées :
+- à un défaut de production
+- à une erreur d'étiquetage ou d'emballage
+- à un problème ponctuel de fabrication
+
+L'analyse permet d'identifier les fournisseurs concernés, les causes récurrentes et les actions correctives à mettre en place.
+
+### 4.3 Suivi des fournisseurs
+
+La performance des partenaires industriels est évaluée sur la base :
+- du respect des délais
+- du niveau de qualité des produits
+- de la réactivité en cas de problème
+- de la stabilité des conditions commerciales
+
+Cette évaluation permet d'identifier les fournisseurs les plus fiables et ceux nécessitant une surveillance renforcée.
+
+### 4.4 Satisfaction client
+
+La satisfaction client est évaluée à travers :
+- les retours reçus par courrier électronique
+- la stabilité et la répétition des commandes
+- l'absence de perte de clients liée à des problèmes de qualité
+- les réclamations éventuelles
+
+Une synthèse de satisfaction peut être réalisée périodiquement.
+
+### 4.5 Fréquence d'analyse
+
+L'analyse globale des performances est réalisée au minimum **une fois par an** dans le cadre de la revue de direction. Des analyses intermédiaires peuvent être effectuées si nécessaire.
+
+Les résultats des analyses permettent :
+- d'identifier les axes d'amélioration
+- d'adapter les processus opérationnels
+- de renforcer la maîtrise des risques
+
+---
+
+## Historique des révisions
 
 | Version | Date | Modification | Auteur |
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Mise à jour majeure : objectifs confirmés avec cibles chiffrees (95% délais, max 3 NC/client/an, 24h réponse, absence réclamation majeure). Remplacement de l'objectif 3 (Maîtrise des prix) par Réactivité de réponse (24h). Remplacement de l'objectif 4 (Réactivité) par Satisfaction globale des clients. Ajout de la référence NC_2026_1001 comme première NC enregistrée. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 18/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
-| 0.4 | 19/02/2026 | Intégration UPDATE 6.2 (fusion) : mise à jour tolérances délais (1-2 sem. ouv. / 2-4j ouv.), ajout indicateur délai remplacement et maîtrise conformité, ajout Objectif 3 Conditions tarifaires, mise à jour cible réactivité (24-48H), ajout référence chapitre 5.3 pour rôles, tableau de bord etendu a 5 objectifs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 18/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.4 | 19/02/2026 | Intégration UPDATE 6.2 (fusion) : mise à jour tolérances délais (1-2 sem. ouv. / 2-4j ouv.), ajout indicateur délai remplacement et maîtrise conformité, ajout Objectif 3 Conditions tarifaires, mise à jour cible réactivité (24-48H), ajout référence chapitre 5.3 pour rôles, tableau de bord étendu à 5 objectifs. | Roxane Wicky |
+| 0.4 | 22/02/2026 | Intégration UPDATE 9.1 : ajout section 4 « Suivi, mesure, analyse et évaluation » (clause 9.1). 5 volets : suivi délais, conformité produit, fournisseurs, satisfaction client, fréquence d'analyse. | Roxane Wicky |

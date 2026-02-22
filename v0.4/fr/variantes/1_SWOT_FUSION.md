@@ -39,7 +39,7 @@ La compréhension du contexte de l'organisation constitue le fondement du systè
 | Connaissance approfondie du marche européen et des besoins clients 🟢 | Pas de capacité de production propre 🟢 |
 | Couts de production competitifs grace aux partenaires chinois 🟢 | Vulnerabilite en cas d'absence ou d'indisponibilité de la gérante 🟢 |
 | Haut niveau de maîtrise documentaire, technique et organisationnelle 🟢 | Forte exigence de gestion des priorités et de la planification 🟢 |
-| Capacité de communication fluide et continue (multilangue, multicanal) 🟢 | Certifications des partenaires chinois non confirmees 🔵 [À VÉRIFIER — certifications Whang incertaines] |
+| Capacité de communication fluide et continue (multilangue, multicanal) 🟢 | Certifications des partenaires chinois non confirmees 🔵 [À VÉRIFIER — certifications Oukailuo incertaines] |
 | Communication directe et rapide avec les partenaires industriels en Chine 🆕 UPDATE 4.1 | Centralisation des connaissances 🆕 UPDATE 4.1 |
 | Organisation agile permettant une prise de decision rapide 🆕 UPDATE 4.1 | Dependance aux outils numeriques et aux communications a distance pour la coordination des activités 🆕 UPDATE 4.1 |
 
@@ -51,8 +51,8 @@ La compréhension du contexte de l'organisation constitue le fondement du systè
 | Renforcement de la qualité de production 🟢 | Retards significatifs de transport international 🟢 |
 | Amélioration continue de la satisfaction client 🟢 | Defauts qualité majeurs sur des produits déjà fabriques 🟢 |
 | Certification ISO 9001 via SQS = accès a de nouveaux marches et renforcement de la confiance 🟢 | Perte d'un client important 🟢 |
-| Diversification possible des fournisseurs en Asie (Whang déjà en place comme second partenaire) 🟢 | Variations des coûts de production, transport et matières premières 🟢 |
-| Développement de l'offre vis (screws) via le partenariat Whang 🟢 | Risques liés aux formalités douanières (niveau considéré comme maitrisable) 🟢 |
+| Diversification possible des fournisseurs en Asie (Oukailuo déjà en place comme second partenaire) 🟢 | Variations des coûts de production, transport et matières premières 🟢 |
+| Développement de l'offre vis (screws) via le partenariat Oukailuo 🟢 | Risques liés aux formalités douanières (niveau considéré comme maitrisable) 🟢 |
 | | Aléas liés au contexte géopolitique 🆕 UPDATE 4.1 |
 | | Dependance économique à un nombre restreint de clients 🆕 UPDATE 4.1 |
 

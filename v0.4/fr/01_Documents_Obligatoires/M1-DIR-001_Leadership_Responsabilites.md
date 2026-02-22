@@ -127,7 +127,7 @@ Plus Sarl est une entreprise unipersonnelle (Sarl) dont toutes les fonctions op�
 | **Direction générale** | Stratégie, politique qualité, revue de direction, engagement SMQ | Roxane Wicky (Gérante) 🟢 |
 | **Responsable qualité** | Pilotage du SMQ, amélioration continue, suivi des indicateurs, audit interne | Roxane Wicky (Gérante) 🟢 |
 | **Responsable commercial** | Relation clients européens (~10 clients actifs), offres, devis, commandes, satisfaction client | Roxane Wicky (Gérante) 🟢 |
-| **Achats et sous-traitance** | Coordination avec Yuyao Mould Factory et Whang (Yuyao), suivi de production, évaluation fournisseurs | Roxane Wicky (Gérante) 🟢 |
+| **Achats et sous-traitance** | Coordination avec Yuyao Mould Factory et Oukailuo (Yuyao), suivi de production, évaluation fournisseurs | Roxane Wicky (Gérante) 🟢 |
 | **Coordination logistique** | Transport international (aérien, maritime, ferroviaire), documents douaniers, suivi des expéditions | Roxane Wicky (Gérante) 🟢 |
 | **Responsable administratif** | Facturation, documents douaniers, correspondance, coordination avec la fiduciaire Paradiso | Roxane Wicky (Gérante) 🟢 |
 | **Audit interne** | Realisation de l'audit interne annuel | Gérante elle-meme, sinon **auditeur externe indépendant** 🟡 [RECOMMANDE — mandater un auditeur externe pour respecter la clause 9.2.2 c] |
@@ -141,7 +141,7 @@ Plus Sarl est une entreprise unipersonnelle (Sarl) dont toutes les fonctions op�
 | Code | Processus | Pilote | Responsabilités principales |
 |---|---|---|---|
 | **O1** | Commercial | Roxane Wicky 🟢 | Reception et analyse des demandes clients (commandes, devis, modifications). Compréhension des besoins et exigences. Établissement des offres et confirmation des commandes. Suivi de la satisfaction client. Communication avec les clients européens par email. |
-| **O2** | Achats et sous-traitance | Roxane Wicky 🟢 | Consultation des partenaires chinois (Yuyao Mould Factory, Whang). Analyse de faisabilité technique. Négociation des prix et des délais. Passation des commandes de fabrication. Suivi de production (photos, rapports, WeChat). Évaluation périodique des fournisseurs. |
+| **O2** | Achats et sous-traitance | Roxane Wicky 🟢 | Consultation des partenaires chinois (Yuyao Mould Factory, Oukailuo). Analyse de faisabilité technique. Négociation des prix et des délais. Passation des commandes de fabrication. Suivi de production (photos, rapports, WeChat). Évaluation périodique des fournisseurs. |
 | **O3** | Logistique et livraison | Roxane Wicky 🟢 | Organisation du transport international (aérien, maritime, ferroviaire). Préparation des documents d'exportation et douaniers. Suivi des expéditions jusqu'a livraison. Gestion des délais (+/- 3 jours aérien, +/- 10 jours maritime/ferroviaire). |
 | **O4** | Contrôle qualité | Roxane Wicky 🟢 | Definition des exigences qualité pour chaque commande. Suivi du contrôle qualité pre-expédition réalisé par le partenaire chinois. Vérification des échantillons reçus en parallèle du transport. Gestion des non-conformites et actions correctives. Traitement des réclamations clients. |
 
@@ -165,7 +165,7 @@ Plus Sarl est une entreprise unipersonnelle (Sarl) dont toutes les fonctions op�
 
 > Dans le contexte d'une entreprise unipersonnelle, Roxane Wicky est **R** (Responsable), **A** (Approbatrice), **C** (Consultee) et **I** (Informee) pour l'ensemble des processus. Les partenaires externes sont consultes ou informes selon leur rôle.
 
-| Processus | Roxane Wicky (Gérante) | Yuyao Mould Factory | Whang (Yuyao) | Clients européens | Transporteurs | Fiduciaire Paradiso | SQS |
+| Processus | Roxane Wicky (Gérante) | Yuyao Mould Factory | Oukailuo (Yuyao) | Clients européens | Transporteurs | Fiduciaire Paradiso | SQS |
 |---|---|---|---|---|---|---|---|
 | O1 Commercial | **R/A** | I | I | C/I | - | - | - |
 | O2 Achats et sous-traitance | **R/A** | C/I | C/I | I | - | - | - |
@@ -406,10 +406,10 @@ Pour chaque demande necessitant une consultation des partenaires chinois, la gé
 
 | Aspect | Processus | Partenaire consulte | Mode de communication |
 |---|---|---|---|
-| **Faisabilité technique** | O1 - Commercial / O2 - Achats | Yuyao Mould Factory et/ou Whang | Email, WeChat 🟢 |
-| **Fabrication** (moules, pièces, vis) | O2 - Achats et sous-traitance | Yuyao Mould Factory (moules, injection) / Whang (vis) | Email, WeChat 🟢 |
-| **Livraison** (délais, transport) | O3 - Logistique et livraison | Yuyao Mould Factory / Whang + Transporteurs | Email 🟢 |
-| **Contrôle qualité pre-expédition** | O4 - Contrôle qualité | Yuyao Mould Factory / Whang | Email, WeChat, photos, rapports 🟢 |
+| **Faisabilité technique** | O1 - Commercial / O2 - Achats | Yuyao Mould Factory et/ou Oukailuo | Email, WeChat 🟢 |
+| **Fabrication** (moules, pièces, vis) | O2 - Achats et sous-traitance | Yuyao Mould Factory (moules, injection) / Oukailuo (vis) | Email, WeChat 🟢 |
+| **Livraison** (délais, transport) | O3 - Logistique et livraison | Yuyao Mould Factory / Oukailuo + Transporteurs | Email 🟢 |
+| **Contrôle qualité pre-expédition** | O4 - Contrôle qualité | Yuyao Mould Factory / Oukailuo | Email, WeChat, photos, rapports 🟢 |
 
 ### 6.3 Traitement par type de demande
 
@@ -481,7 +481,7 @@ Dans le contexte d'une entreprise unipersonnelle, la communication interne se ma
 |---|---|---|---|
 | **Clients européens** (~10 actifs) | Email | Continue (objectif : réponse < 24h) | Roxane Wicky 🟢 |
 | **Yuyao Mould Factory** (partenaire principal) | Email, WeChat | Continue (suivi de production) | Roxane Wicky 🟢 |
-| **Whang** (Yuyao — vis) | Email, WeChat | Selon commandes | Roxane Wicky 🟢 |
+| **Oukailuo** (Yuyao — vis) | Email, WeChat | Selon commandes | Roxane Wicky 🟢 |
 | **Transporteurs** | Email | Par expédition | Roxane Wicky 🟢 |
 | **Fiduciaire Paradiso** | Email, téléphone | Périodique (comptabilite, obligations legales) | Roxane Wicky 🟢 |
 | **SQS** (organisme de certification) | Email, courrier | Selon planification des audits | Roxane Wicky 🟢 |
@@ -518,7 +518,7 @@ La revue de direction est réalisée au minimum **1 fois par an** par Roxane Wic
 - Performance des processus et conformité des produits
 - Satisfaction des clients européens
 - Résultats des audits (internes et de certification SQS)
-- Performance des fournisseurs (Yuyao Mould Factory, Whang)
+- Performance des fournisseurs (Yuyao Mould Factory, Oukailuo)
 - Adéquation des ressources
 - Efficacité des actions face aux risques et opportunités
 - Opportunités d'amélioration

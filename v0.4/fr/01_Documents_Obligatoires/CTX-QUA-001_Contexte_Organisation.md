@@ -21,7 +21,7 @@ Plus Sarl est une entreprise suisse fondee en 2007, dont le siege social se situ
 
 Plus Sarl travaille avec deux partenaires chinois de fabrication :
 - **Yuyao Mould Factory** : partenaire principal et historique 🟢
-- **Whang** (Yuyao, Chine — spécialisé dans les vis) : second partenaire de production 🟢
+- **Oukailuo** (Yuyao, Chine — spécialisé dans les vis) : second partenaire de production 🟢
 
 L'entreprise compte environ **10 clients actifs**. 🟢
 
@@ -257,7 +257,7 @@ La compréhension du contexte de l'organisation constitue le fondement du systè
 | Connaissance approfondie du marche européen et des besoins clients 🟢 | Pas de capacité de production propre 🟢 |
 | Couts de production competitifs grace aux partenaires chinois 🟢 | Vulnerabilite en cas d'absence ou d'indisponibilité de la gérante 🟢 |
 | Haut niveau de maîtrise documentaire, technique et organisationnelle 🟢 | Forte exigence de gestion des priorités et de planification 🟢 |
-| Capacité de communication fluide et continue (multilangue, multicanal) 🟢 | Certifications des partenaires chinois non confirmees 🔵 [À VÉRIFIER — certifications Whang incertaines] |
+| Capacité de communication fluide et continue (multilangue, multicanal) 🟢 | Certifications des partenaires chinois non confirmees 🔵 [À VÉRIFIER — certifications Oukailuo incertaines] |
 | Communication directe et rapide avec les partenaires industriels en Chine 🟢 | Centralisation des connaissances 🟢 |
 | Organisation agile permettant une prise de decision rapide 🟢 | Dependance aux outils numeriques et aux communications a distance pour la coordination des activités 🟢 |
 
@@ -269,8 +269,8 @@ La compréhension du contexte de l'organisation constitue le fondement du systè
 | Renforcement de la qualité de production 🟢 | Retards significatifs de transport international 🟢 |
 | Amélioration continue de la satisfaction client 🟢 | Defauts qualité majeurs sur des produits déjà fabriques 🟢 |
 | Certification ISO 9001 via SQS = accès a de nouveaux marches et renforcement de la confiance 🟢 | Perte d'un client important 🟢 |
-| Diversification possible des fournisseurs en Asie (Whang déjà en place comme second partenaire) 🟢 | Variations des coûts de production, transport et matières premières 🟢 |
-| Développement de l'offre vis (screws) via le partenariat Whang 🟢 | Risques liés aux formalités douanières (niveau considéré comme maitrisable) 🟢 |
+| Diversification possible des fournisseurs en Asie (Oukailuo déjà en place comme second partenaire) 🟢 | Variations des coûts de production, transport et matières premières 🟢 |
+| Développement de l'offre vis (screws) via le partenariat Oukailuo 🟢 | Risques liés aux formalités douanières (niveau considéré comme maitrisable) 🟢 |
 | | Aléas liés au contexte géopolitique 🟢 |
 | | Dependance économique à un nombre restreint de clients 🟢 |
 
@@ -283,7 +283,7 @@ Cette analyse SWOT est revue au minimum une fois par an lors de la revue de dire
 | Partie intéressée | Exigences / Attentes | Surveillance |
 |---|---|---|
 | **Clients européens** (~10 clients actifs) | Conformité technique des pièces, respect des délais, communication réactive, confidentialité et protection de la propriété intellectuelle 🟢 | Suivi des commandes, enquêtes de satisfaction, traitement des réclamations |
-| **Partenaires de fabrication chinois** (Yuyao Mould Factory + **Whang**, Yuyao) 🟢 | Transmission claire des exigences et coordination efficace. Développement d'outillage, fabrication de moules, production de pièces et vis. Doivent respecter les exigences techniques, la qualité et les délais 🟢 | Évaluation fournisseur annuelle, suivi de production, communication régulière |
+| **Partenaires de fabrication chinois** (Yuyao Mould Factory + **Oukailuo**, Yuyao) 🟢 | Transmission claire des exigences et coordination efficace. Développement d'outillage, fabrication de moules, production de pièces et vis. Doivent respecter les exigences techniques, la qualité et les délais 🟢 | Évaluation fournisseur annuelle, suivi de production, communication régulière |
 | **Transporteurs et prestataires logistiques internationaux** | Fiabilité des délais, intégrité des marchandises et conformité des documents d'expédition 🟢 | Suivi des expéditions, évaluation de la fiabilité, performance de livraison |
 | **Autorites douanières** | Conformité réglementaire en matière d'import/export ; respect des exigences d'importation applicables 🟢 | Suivi des documents douaniers, veille réglementaire |
 | **Fiduciaire : Paradiso** 🟢 | Conformité administrative, comptable et fiscale | Suivi des obligations legales, bilans périodiques |
@@ -390,7 +390,7 @@ Ces risques et opportunités sont suivis régulièrement et intégrés dans l'am
 
 | # | Risque / Opportunité | Type | Probabilite | Impact | Niveau | Action prévue |
 |---|---|---|---|---|---|---|
-| R2 | Défaillance ou indisponibilité d'un partenaire/fournisseur chinois | Risque | Faible | Tres élevé | **Élevé** | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; disponibilité de Whang comme second partenaire |
+| R2 | Défaillance ou indisponibilité d'un partenaire/fournisseur chinois | Risque | Faible | Tres élevé | **Élevé** | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; disponibilité de Oukailuo comme second partenaire |
 | R3 | Defauts qualité majeurs sur des produits déjà fabriques | Risque | Moyenne | Élevé | **Élevé** | Traitement rapide des non-conformites, remplacement des pièces defectueuses et mise en place de contrôles renforces lors des productions suivantes |
 | O3 | Renforcement de la qualité de production | Opportunité | Élevée | Élevé | **Élevé** | Cahiers des charges precis, contrôles renforces, retour d'expérience systématique ; sélection et suivi rigoureux des partenaires industriels |
 
@@ -419,7 +419,7 @@ Afin de maîtriser ces risques, Plus Sarl met en œuvre notamment les actions su
 
 | Risque | Actions cles |
 |---|---|
-| Défaillance partenaire chinois | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; Whang disponible comme second partenaire |
+| Défaillance partenaire chinois | Maintien d'une communication etroite avec les partenaires industriels et suivi renforce de la production ; Oukailuo disponible comme second partenaire |
 | Retards de transport international | Choix et reevaluation des transporteurs en fonction de leur fiabilité et de leurs performances ; marges de sécurité dans les délais |
 | Defauts qualité majeurs | Traitement rapide des non-conformites, remplacement des pièces defectueuses et mise en place de contrôles renforces lors des productions suivantes |
 | Perte d'un client important | Maintien d'une relation de confiance et d'un haut niveau de service afin de fideliser les clients ; diversification du portefeuille clients |
@@ -568,7 +568,7 @@ L'entreprise veille a :
 | Partenaire | Activité | Relation | Suivi |
 |---|---|---|---|
 | **Yuyao Mould Factory** | Fabrication moules et injection | Partenaire principal et historique (depuis 2007) 🟢 | Accord qualité, évaluation annuelle (FOR-EVF-001) |
-| **Whang** (Yuyao) | Fabrication de vis (screws) | Second partenaire de production 🟢 | Accord qualité, évaluation annuelle (FOR-EVF-001) |
+| **Oukailuo** (Yuyao) | Fabrication de vis (screws) | Second partenaire de production 🟢 | Accord qualité, évaluation annuelle (FOR-EVF-001) |
 | **Paradiso** | Fiduciaire / comptabilite | Contrat de mandat 🟢 | Annuel |
 | Transitaires | Transport international (aérien, maritime, ferroviaire) | 🟡 [RECOMMANDE — noms non disponibles] | Suivi par expédition |
 
@@ -631,7 +631,7 @@ Les moules sont développés et stockés en Chine, chez les partenaires de fabri
 | Élément | Détail |
 |---|---|
 | **Propriété des moules** | Les moules appartiennent aux clients 🟢 |
-| **Lieu de stockage** | Chez les partenaires chinois (Yuyao Mould Factory, Whang) |
+| **Lieu de stockage** | Chez les partenaires chinois (Yuyao Mould Factory, Oukailuo) |
 | **Inventaire** | Un inventaire existe 🟢 |
 | **Suivi de l'état des moules** | 🟡 [RECOMMANDE — mettre en place un suivi périodique de l'état des moules] |
 
@@ -666,7 +666,7 @@ Ce document doit être revu au minimum **1 fois par an** lors de la revue de dir
 |---|---|---|---|
 | 1.0 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Correction canton : Cudrefin est dans le canton de Fribourg (et non Vaud) | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, sauvegarde cloud). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration des chapitres 2.1 (Activités et organisation de la production externalisée), 2.2 (Relation client et compréhension des besoins), 2.2.1 (Analyse et validation des demandes clients) et 3/3.1 (Forme juridique, responsabilités de la gérante, support du SMQ) du manuel qualité. Ajout des 5 processus formalisés (01-04 + S1), de la revue de commande et de la référence a M1-DIR-001. | Roxane Wicky |
 | 0.4 | 19/02/2026 | Intégration UPDATEs 4.1, 4.2, 6.1 (fusion) : enrichissement SWOT (ajout Forces/Faiblesses/Menaces UPDATE 4.1), enrichissement parties intéressées (descriptions UPDATE 4.2), enrichissement section risques (introduction, synthèse, opportunités UPDATE 6.1). | Roxane Wicky |
 | 0.4 | 20/02/2026 | Intégration UPDATE 6.3 : ajout section 6 Planification des modifications (types, analyse d'impact par processus, mise en œuvre, revue). Ajout numéro IDE. Renumerotation sections 7-9. | Roxane Wicky |

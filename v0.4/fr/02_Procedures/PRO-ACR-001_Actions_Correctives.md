@@ -180,7 +180,7 @@ L'objectif des actions correctives est de prevenir la recurrence des NC et de re
 | | - Demander au fournisseur de mettre en place un double contrôle sur l'étiquetage |
 | | - Integrer le contrôle d'étiquetage dans le CQ pre-expédition |
 
-> **Principe directeur :** Les actions correctives de Plus Sarl visent a prevenir la recurrence et a reduire l'impact sur le client. La gérante agit dans la mesure de ses compétences et s'appuie sur ses partenaires chinois (Yuyao Mould Factory et Whang) pour les aspects techniques de la fabrication.
+> **Principe directeur :** Les actions correctives de Plus Sarl visent a prevenir la recurrence et a reduire l'impact sur le client. La gérante agit dans la mesure de ses compétences et s'appuie sur ses partenaires chinois (Yuyao Mould Factory et Oukailuo) pour les aspects techniques de la fabrication.
 
 **Étape 3 - Identifier la cause racine**
 
@@ -233,7 +233,7 @@ L'action corrective doit :
 | **Méthode utilisée** | [ ] 5 Pourquoi [ ] Autre |
 | **Détail de l'analyse** | [Voir tableau des 5 Pourquoi] |
 | **Cause racine identifiée** | [Description de la cause racine] |
-| **Partenaire impliqué dans l'analyse** | [ ] Yuyao Mould Factory [ ] Whang [ ] Transporteur [ ] Analyse interne uniquement |
+| **Partenaire impliqué dans l'analyse** | [ ] Yuyao Mould Factory [ ] Oukailuo [ ] Transporteur [ ] Analyse interne uniquement |
 
 ### Plan d'action
 
@@ -338,22 +338,63 @@ L'action corrective doit :
 ---
 
 > **Instructions de remplissage :**
-> 1. N'ouvrez une AC que si c'est justifié (NC majeure, recurrente, ou d'audit)
-> 2. Prenez le temps de bien analyser la cause racine -- c'est l'étape cle
-> 3. La méthode des 5 Pourquoi est simple et efficace pour une micro-entreprise comme Plus Sarl
-> 4. Impliquez les partenaires chinois (Yuyao Mould Factory ou Whang) dans l'analyse quand la NC vient de la fabrication
+> 1. N'ouvrez une AC que si c'est justifié (NC majeure, récurrente, ou d'audit)
+> 2. Prenez le temps de bien analyser la cause racine — c'est l'étape clé
+> 3. La méthode des 5 Pourquoi est simple et efficace pour une micro-entreprise comme Plus Sàrl
+> 4. Impliquez les partenaires chinois (Hardeng Yuyao Mould Factory ou Oukailuo) dans l'analyse quand la NC vient de la fabrication
 > 5. Documentez les échanges (emails, WeChat) comme preuves des actions correctives
-> 6. L'auditeur (SQS) verifiera que vos AC sont efficaces (pas juste sur papier)
-> 7. L'analyse des causes se fait dans la mesure des compétences de la gérante -- c'est une demarche d'amélioration continue
-> 8. Le CQ pre-expédition avec echantillonnage peut être une source d'AC si des NC sont détectées avant livraison
+> 6. L'auditeur (SQS) vérifiera que vos AC sont efficaces (pas juste sur papier)
+> 7. L'analyse des causes se fait dans la mesure des compétences de la gérante — c'est une démarche d'amélioration continue
+> 8. Le CQ pré-expédition avec échantillonnage peut être une source d'AC si des NC sont détectées avant livraison
 
 ---
 
-## Historique des revisions
+## 9. Amélioration continue (clause 10.3)
+
+> **Source :** UPDATE 10.3 (22/02/2026) 🟢
+
+Plus Sàrl améliore en continu son système de management de la qualité afin d'assurer :
+- la satisfaction durable des clients
+- le respect des délais
+- la réduction des non-conformités
+- la maîtrise des partenaires industriels
+- la stabilité et la fiabilité des opérations
+
+### Déclencheurs d'amélioration
+
+Les améliorations peuvent être initiées à la suite :
+- d'une non-conformité
+- d'un retard logistique
+- d'un retour client
+- de l'analyse des indicateurs de performance
+- d'observations réalisées lors des visites sur site chez les partenaires industriels en Chine
+
+> Les déplacements réguliers en Chine constituent un **levier majeur d'amélioration continue** permettant de renforcer la communication, d'optimiser les processus de production, d'améliorer la compréhension des exigences qualité et d'ajuster les modalités de contrôle et de suivi.
+
+### Vérification de l'efficacité
+
+L'efficacité des améliorations est évaluée sur la base :
+- de l'absence de réclamations significatives
+- du respect des délais annoncés
+- de la stabilité des commandes clients
+- du maintien de relations durables avec les partenaires
+
+Une amélioration est considérée comme efficace lorsque :
+- les retards diminuent
+- les non-conformités ne se répètent pas
+- les échanges sont plus fluides
+- les clients maintiennent leur confiance et leurs commandes
+
+Les décisions d'amélioration sont consolidées lors de la **revue de direction annuelle**.
+
+---
+
+## Historique des révisions
 
 | Version | Date | Description de la modification | Auteur |
 |---|---|---|---|
 | 0.1 | 10/02/2026 | Création initiale | Roxane Wicky |
 | 0.2 | 10/02/2026 | Ajout de la première action corrective reelle (AC_2026_001 liée à NC_2026_1001 - erreur d'étiquetage). Ajout du Scenario 4 (erreur d'étiquetage/emballage). Mise à jour du format de numérotation (underscores). Ajout de la categorie "Etiquetage/Emballage" dans les indicateurs. | Roxane Wicky |
-| 0.3 | 12/02/2026 | Intégration des réponses (Whang, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
+| 0.3 | 12/02/2026 | Intégration des réponses (Oukailuo, Paradiso, SQS, cloud, echantillonnage CQ). Ajout du système de légende des champs. | Roxane Wicky |
 | 0.4 | 18/02/2026 | Intégration UPDATE 2.1 Processus 04 : ajout référence au lien avec le contrôle qualité formalisé (CTX-QUA-001, section 1.1). | Roxane Wicky |
+| 0.4 | 22/02/2026 | Intégration UPDATE 10.3 : ajout section 9 — Amélioration continue (clause 10.3). Déclencheurs d'amélioration (NC, retard, retour client, indicateurs, visites Chine), vérification efficacité, consolidation en revue de direction. | Roxane Wicky |

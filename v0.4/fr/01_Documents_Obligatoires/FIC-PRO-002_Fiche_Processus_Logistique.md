@@ -231,7 +231,7 @@ Voir CTX-QUA-001 pour le détail. Résumé :
 
 ### Coordination avec les partenaires chinois
 
-L'organisation du transport impliqué une coordination etroite avec les partenaires chinois (Yuyao Mould Factory et **Whang**) pour la mise à disposition des marchandises au point de depart. La communication se fait principalement par email et WeChat.
+L'organisation du transport impliqué une coordination etroite avec les partenaires chinois (Yuyao Mould Factory et **Oukailuo**) pour la mise à disposition des marchandises au point de depart. La communication se fait principalement par email et WeChat.
 
 ### Points d'attention spécifiques
 
