@@ -1,7 +1,8 @@
-<mxfile host="app.diagrams.net" modified="2026-02-23T12:00:00.000Z" agent="Plus Sàrl SMQ ISO 9001 — Version Optimisée" version="24.0.0" type="device">
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-02-23T12:00:00.000Z" agent="Plus Sarl SMQ ISO 9001" version="24.0.0" type="device">
 
   <!-- ======================== PAGE VUE D'ENSEMBLE OPTIMISÉE ======================== -->
-  <diagram id="page-overview" name="Vue d'ensemble">
+  <diagram id="page-overview" name="Vue d ensemble">
     <mxGraphModel dx="1900" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0"/><mxCell id="1" parent="0"/>
@@ -85,7 +86,7 @@
   </diagram>
 
   <!-- ======================== M1 OPTIMISÉ ======================== -->
-  <diagram id="page-m1" name="M1 - Leadership (Optimisé)">
+  <diagram id="page-m1" name="M1 - Leadership (Optimise)">
     <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0"/><mxCell id="1" parent="0"/>
@@ -140,7 +141,7 @@
   </diagram>
 
   <!-- ======================== M2 OPTIMISÉ ======================== -->
-  <diagram id="page-m2" name="M2 - Amélioration (Optimisé)">
+  <diagram id="page-m2" name="M2 - Amelioration (Optimise)">
     <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0"/><mxCell id="1" parent="0"/>
@@ -186,7 +187,7 @@
   </diagram>
 
   <!-- ======================== M3 OPTIMISÉ ======================== -->
-  <diagram id="page-m3" name="M3 - Revue Direction (Optimisé)">
+  <diagram id="page-m3" name="M3 - Revue Direction (Optimise)">
     <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0"/><mxCell id="1" parent="0"/>
@@ -231,7 +232,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-O1" name="O1 – Traitement Offres (Optimisé)">
+  <diagram id="page-O1" name="O1 - Traitement Offres (Optimise)">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -295,7 +296,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-O2" name="O2 – Achats &amp; Fabrication (Optimisé)">
+  <diagram id="page-O2" name="O2 - Achats et Fabrication (Optimise)">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -363,7 +364,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-O3" name="O3 – Logistique &amp; Livraison (Optimisé)">
+  <diagram id="page-O3" name="O3 - Logistique et Livraison (Optimise)">
     <mxGraphModel dx="1422" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -435,7 +436,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-O4" name="O4 – Contrôle Qualité &amp; NC (Optimisé)">
+  <diagram id="page-O4" name="O4 - Controle Qualite et NC (Optimise)">
     <mxGraphModel dx="1422" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -503,7 +504,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-S1" name="S1 – Gestion Documentaire (Optimisé)">
+  <diagram id="page-S1" name="S1 - Gestion Documentaire (Optimise)">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -549,7 +550,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-S2" name="S2 – Compétences &amp; Formation (Optimisé)">
+  <diagram id="page-S2" name="S2 - Competences et Formation (Optimise)">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -594,7 +595,7 @@
       </root>
     </mxGraphModel>
   </diagram>
-  <diagram id="page-S3" name="S3 – Ressources &amp; Infrastructure (Optimisé)">
+  <diagram id="page-S3" name="S3 - Ressources et Infrastructure (Optimise)">
     <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
       <root>
         <mxCell id="0" />
