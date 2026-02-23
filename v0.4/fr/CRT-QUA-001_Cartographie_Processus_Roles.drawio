@@ -1,0 +1,481 @@
+<mxfile host="app.diagrams.net" modified="2026-02-23T10:00:00.000Z" agent="Plus Sàrl SMQ ISO 9001" version="24.0.0" type="device">
+  <diagram id="cartographie-roles" name="Cartographie par Rôles">
+    <mxGraphModel dx="1900" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ==================== TITRE ==================== -->
+        <mxCell id="title" value="&lt;b&gt;CARTOGRAPHIE DES PROCESSUS PAR RÔLES&lt;/b&gt;&lt;br&gt;SMQ ISO 9001:2015 — Plus Sàrl — Coordination industrielle Chine-Europe&lt;br&gt;IDE : CH-645.4.101.228-7" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="500" y="5" width="800" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================== EXIGENCES / SATISFACTION ==================== -->
+        <mxCell id="exig" value="&lt;b&gt;EXIGENCES&lt;br&gt;CLIENTS&lt;/b&gt;&lt;br&gt;&lt;i&gt;~10 clients EU&lt;br&gt;50-100 cmd/an&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="10" y="390" width="120" height="100" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="satis" value="&lt;b&gt;SATISFACTION&lt;br&gt;CLIENTS&lt;/b&gt;&lt;br&gt;&lt;i&gt;Certification SQS&lt;br&gt;Amélioration&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="1785" y="390" width="120" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- ============================= SWIMLANE 1 : CLIENT ================================= -->
+        <!-- ==================================================================================== -->
+        <mxCell id="lane-client" value="&lt;b&gt;CLIENT&lt;br&gt;EUROPÉEN&lt;/b&gt;&lt;br&gt;&lt;i&gt;(~10 clients)&lt;/i&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;fontStyle=0;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="80" width="1640" height="130" as="geometry"/>
+        </mxCell>
+
+        <!-- Activités Client -->
+        <mxCell id="c1" value="&lt;b&gt;Envoi demande&lt;/b&gt;&lt;br&gt;&lt;i&gt;(email / tél.)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="lane-client">
+          <mxGeometry x="150" y="30" width="130" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="c2" value="&lt;b&gt;Validation&lt;br&gt;spécifications&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="lane-client">
+          <mxGeometry x="540" y="30" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="c3" value="&lt;b&gt;Confirmation&lt;br&gt;commande&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="lane-client">
+          <mxGeometry x="860" y="30" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="c4" value="&lt;b&gt;Réception&lt;br&gt;marchandise&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="lane-client">
+          <mxGeometry x="1270" y="30" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="c5" value="&lt;b&gt;Retour&lt;br&gt;satisfaction&lt;/b&gt;&lt;br&gt;&lt;i&gt;(ou réclamation)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="lane-client">
+          <mxGeometry x="1460" y="25" width="130" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- ============================ SWIMLANE 2 : DIRECTION =============================== -->
+        <!-- ==================================================================================== -->
+        <mxCell id="lane-direction" value="&lt;b&gt;DIRECTION&lt;/b&gt;&lt;br&gt;Roxane Wicky&lt;br&gt;&lt;i&gt;(Gérante)&lt;/i&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;fontStyle=0;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="210" width="1640" height="155" as="geometry"/>
+        </mxCell>
+
+        <!-- M1 - Leadership -->
+        <mxCell id="m1" value="&lt;b&gt;M1&lt;/b&gt;&lt;br&gt;Leadership&lt;br&gt;&amp;amp; Stratégie&lt;br&gt;&lt;i&gt;(5.1, 5.2, 5.3)&lt;/i&gt;&lt;br&gt;&lt;i&gt;POL-QUA-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="lane-direction">
+          <mxGeometry x="150" y="25" width="160" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Revue de commande -->
+        <mxCell id="d1" value="&lt;b&gt;Revue de&lt;br&gt;commande&lt;/b&gt;&lt;br&gt;&lt;i&gt;6 types exigences&lt;br&gt;(clause 8.2)&lt;/i&gt;&lt;br&gt;&lt;i&gt;M1-DIR-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="lane-direction">
+          <mxGeometry x="420" y="25" width="160" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- M2 - Amélioration -->
+        <mxCell id="m2" value="&lt;b&gt;M2&lt;/b&gt;&lt;br&gt;Amélioration&lt;br&gt;Continue&lt;br&gt;&lt;i&gt;(10.1, 10.2, 10.3)&lt;/i&gt;&lt;br&gt;&lt;i&gt;PDCA&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="lane-direction">
+          <mxGeometry x="750" y="25" width="160" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- M3 - Revue de direction -->
+        <mxCell id="m3" value="&lt;b&gt;M3&lt;/b&gt;&lt;br&gt;Revue de&lt;br&gt;Direction&lt;br&gt;&lt;i&gt;(clause 9.3)&lt;/i&gt;&lt;br&gt;&lt;i&gt;FOR-RDR-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="lane-direction">
+          <mxGeometry x="1100" y="25" width="160" height="90" as="geometry"/>
+        </mxCell>
+
+        <!-- Suivi actions décidées -->
+        <mxCell id="d2" value="&lt;b&gt;Suivi actions&lt;/b&gt;&lt;br&gt;&lt;i&gt;décidées en RDD&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="lane-direction">
+          <mxGeometry x="1380" y="40" width="130" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- =========================== SWIMLANE 3 : OPÉRATIONNEL ============================ -->
+        <!-- ==================================================================================== -->
+        <mxCell id="lane-operationnel" value="&lt;b&gt;OPÉRATIONNEL&lt;/b&gt;&lt;br&gt;Plus Sàrl&lt;br&gt;&lt;i&gt;(O1, O2, O3)&lt;/i&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;fontStyle=0;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="365" width="1640" height="180" as="geometry"/>
+        </mxCell>
+
+        <!-- O1 - Commercial -->
+        <mxCell id="o1-label" value="&lt;b&gt;O1 — Commercial (8.2)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=9;fontColor=#336600;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="150" y="115" width="340" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o1a" value="&lt;b&gt;Analyse&lt;br&gt;besoins client&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="150" y="30" width="130" height="55" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o1b" value="&lt;b&gt;Enregistrement&lt;/b&gt;&lt;br&gt;&lt;i&gt;FileMaker&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="310" y="30" width="120" height="55" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o1c" value="&lt;b&gt;Consultation&lt;br&gt;partenaire&lt;/b&gt;&lt;br&gt;&lt;i&gt;(email/WeChat)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="460" y="30" width="130" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- O2 - Achats -->
+        <mxCell id="o2-label" value="&lt;b&gt;O2 — Achats &amp;amp; Sous-traitance (8.4)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=9;fontColor=#336600;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="630" y="115" width="310" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o2a" value="&lt;b&gt;Placement&lt;br&gt;commande&lt;/b&gt;&lt;br&gt;&lt;i&gt;FOR-AQF-001/002&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="640" y="30" width="140" height="55" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o2b" value="&lt;b&gt;Suivi&lt;br&gt;production&lt;/b&gt;&lt;br&gt;&lt;i&gt;(WeChat/photos)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="820" y="30" width="130" height="55" as="geometry"/>
+        </mxCell>
+
+        <!-- O3 - Logistique -->
+        <mxCell id="o3-label" value="&lt;b&gt;O3 — Logistique &amp;amp; Livraison (8.5, 8.6)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=9;fontColor=#336600;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="1000" y="115" width="340" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o3a" value="&lt;b&gt;Organisation&lt;br&gt;transport&lt;/b&gt;&lt;br&gt;&lt;i&gt;(air/mer/rail)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="1000" y="30" width="130" height="55" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o3b" value="&lt;b&gt;Documents&lt;br&gt;douaniers&lt;/b&gt;&lt;br&gt;&lt;i&gt;(EU + CH)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="1170" y="30" width="120" height="55" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o3c" value="&lt;b&gt;Suivi &amp;amp;&lt;br&gt;tracking&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="1320" y="30" width="110" height="55" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o3d" value="&lt;b&gt;Facturation&lt;br&gt;&amp;amp; clôture&lt;/b&gt;&lt;br&gt;&lt;i&gt;FileMaker&lt;/i&gt;&lt;br&gt;&lt;i&gt;PRO-LOG-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="lane-operationnel">
+          <mxGeometry x="1470" y="25" width="130" height="65" as="geometry"/>
+        </mxCell>
+
+        <!-- Separator lines between O1/O2/O3 -->
+        <mxCell id="sep-o1o2" value="" style="endArrow=none;dashed=1;strokeColor=#82b366;strokeWidth=1;opacity=40;" edge="1" parent="lane-operationnel">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="620" y="10" as="sourcePoint"/>
+            <mxPoint x="620" y="140" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="sep-o2o3" value="" style="endArrow=none;dashed=1;strokeColor=#82b366;strokeWidth=1;opacity=40;" edge="1" parent="lane-operationnel">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="980" y="10" as="sourcePoint"/>
+            <mxPoint x="980" y="140" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- ============================== SWIMLANE 4 : SUPPORT =============================== -->
+        <!-- ==================================================================================== -->
+        <mxCell id="lane-support" value="&lt;b&gt;SUPPORT&lt;/b&gt;&lt;br&gt;SMQ&lt;br&gt;&lt;i&gt;(S1, S2, S3, O4)&lt;/i&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;fontStyle=0;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="545" width="1640" height="200" as="geometry"/>
+        </mxCell>
+
+        <!-- S1, S2, S3 en bas de la swimlane (processus continus) -->
+        <mxCell id="s-label" value="&lt;b&gt;Processus support continus :&lt;/b&gt;" style="text;html=1;align=left;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=9;fontColor=#996600;" vertex="1" parent="lane-support">
+          <mxGeometry x="150" y="130" width="200" height="20" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s1" value="&lt;b&gt;S1&lt;/b&gt; Gestion documentaire&lt;br&gt;&lt;i&gt;(7.5) FileMaker, Cloud&lt;br&gt;Gramatec SA&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;shadow=0;" vertex="1" parent="lane-support">
+          <mxGeometry x="150" y="150" width="165" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s2" value="&lt;b&gt;S2&lt;/b&gt; Compétences &amp;amp; Formations&lt;br&gt;&lt;i&gt;(7.2, 7.3) FOR-CMP-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;shadow=0;" vertex="1" parent="lane-support">
+          <mxGeometry x="340" y="150" width="175" height="40" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="s3" value="&lt;b&gt;S3&lt;/b&gt; Ressources &amp;amp; Infrastructure&lt;br&gt;&lt;i&gt;(7.1) CTX-QUA-001 §7&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;shadow=0;" vertex="1" parent="lane-support">
+          <mxGeometry x="540" y="150" width="175" height="40" as="geometry"/>
+        </mxCell>
+
+        <!-- O4 — Contrôle qualité (dans le Support comme demandé) -->
+        <mxCell id="o4-label" value="&lt;b&gt;O4 — Contrôle Qualité (8.6, 8.7, 10.2)&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=9;fontColor=#996600;fontStyle=1;" vertex="1" parent="lane-support">
+          <mxGeometry x="750" y="5" width="320" height="18" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o4a" value="&lt;b&gt;Contrôle&lt;br&gt;qualité&lt;/b&gt;&lt;br&gt;&lt;i&gt;Vérification&lt;br&gt;conformité&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="lane-support">
+          <mxGeometry x="760" y="28" width="130" height="65" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o4b" value="&lt;b&gt;Libération&lt;/b&gt;&lt;br&gt;3 critères :&lt;br&gt;CQ fabricant&lt;br&gt;Correspondance cmd&lt;br&gt;Photos" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;shadow=1;" vertex="1" parent="lane-support">
+          <mxGeometry x="940" y="18" width="140" height="110" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o4c" value="&lt;b&gt;Gestion NC&lt;/b&gt;&lt;br&gt;&lt;i&gt;4 étapes&lt;br&gt;(clause 8.7)&lt;/i&gt;&lt;br&gt;&lt;i&gt;PRO-NCF-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;shadow=1;" vertex="1" parent="lane-support">
+          <mxGeometry x="1150" y="28" width="140" height="65" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="o4d" value="&lt;b&gt;Registre NC&lt;/b&gt;&lt;br&gt;&lt;i&gt;FileMaker&lt;/i&gt;&lt;br&gt;&lt;b&gt;Action corrective&lt;/b&gt;&lt;br&gt;&lt;i&gt;PRO-ACR-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;shadow=1;" vertex="1" parent="lane-support">
+          <mxGeometry x="1370" y="28" width="150" height="65" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- ============================ SWIMLANE 5 : FOURNISSEUR ============================= -->
+        <!-- ==================================================================================== -->
+        <mxCell id="lane-fournisseur" value="&lt;b&gt;FOURNISSEUR&lt;/b&gt;&lt;br&gt;Yuyao Mould&lt;br&gt;Factory /&lt;br&gt;Oukailuo" style="swimlane;horizontal=1;startSize=130;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;fontStyle=0;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="130" y="745" width="1640" height="155" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f1" value="&lt;b&gt;Réception&lt;br&gt;spécifications&lt;/b&gt;&lt;br&gt;&lt;i&gt;(WeChat)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="lane-fournisseur">
+          <mxGeometry x="460" y="30" width="130" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f2" value="&lt;b&gt;Étude technique&lt;br&gt;&amp;amp; faisabilité&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="lane-fournisseur">
+          <mxGeometry x="630" y="30" width="130" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f3" value="&lt;b&gt;Fabrication&lt;/b&gt;&lt;br&gt;&lt;i&gt;Moules, pièces,&lt;br&gt;vis (8.4/8.5)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="lane-fournisseur">
+          <mxGeometry x="810" y="30" width="130" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f4" value="&lt;b&gt;CQ pré-&lt;br&gt;expédition&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="lane-fournisseur">
+          <mxGeometry x="990" y="30" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f5" value="&lt;b&gt;Envoi&lt;br&gt;échantillon&lt;/b&gt;&lt;br&gt;&lt;i&gt;→ Plus Sàrl&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="lane-fournisseur">
+          <mxGeometry x="1160" y="30" width="120" height="60" as="geometry"/>
+        </mxCell>
+
+        <mxCell id="f6" value="&lt;b&gt;Prép. docs&lt;br&gt;export &amp;amp;&lt;br&gt;expédition&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="lane-fournisseur">
+          <mxGeometry x="1370" y="30" width="130" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Transporteur note -->
+        <mxCell id="transport-note" value="&lt;i&gt;Transport : ECAM (Chine)&lt;br&gt;Air : 5-10j | Mer : 30-45j | Rail : 18-25j&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=#f5f5f5;strokeColor=#666;rounded=1;fontSize=9;fontColor=#666;" vertex="1" parent="lane-fournisseur">
+          <mxGeometry x="1150" y="105" width="220" height="35" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- ========================= FLÈCHES — FLUX PRINCIPAL ================================ -->
+        <!-- ==================================================================================== -->
+
+        <!-- EXIGENCES → c1 -->
+        <mxCell id="arr-exig-c1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=2;" edge="1" source="exig" target="c1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- c1 → o1a : demande client → analyse opérationnelle -->
+        <mxCell id="arr-c1-o1a" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;" edge="1" source="c1" target="o1a" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o1a → o1b -->
+        <mxCell id="arr-o1a-o1b" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="o1a" target="o1b" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o1b → o1c -->
+        <mxCell id="arr-o1b-o1c" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="o1b" target="o1c" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o1c → f1 : consultation → fournisseur reçoit specs -->
+        <mxCell id="arr-o1c-f1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;" edge="1" source="o1c" target="f1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- f1 → f2 -->
+        <mxCell id="arr-f1-f2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d79b00;strokeWidth=2;" edge="1" source="f1" target="f2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- f2 → d1 : faisabilité → revue de commande (direction) -->
+        <mxCell id="arr-f2-d1" value="Faisabilité" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1;fontSize=9;" edge="1" source="f2" target="d1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- d1 → c2 : revue → validation client -->
+        <mxCell id="arr-d1-c2" value="Validé" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;fontSize=9;" edge="1" source="d1" target="c2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- c2 → c3 : client valide → confirme commande -->
+        <mxCell id="arr-c2-c3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=2;" edge="1" source="c2" target="c3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- c3 → o2a : confirmation commande → placement commande -->
+        <mxCell id="arr-c3-o2a" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;" edge="1" source="c3" target="o2a" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o2a → o2b -->
+        <mxCell id="arr-o2a-o2b" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="o2a" target="o2b" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o2a → f3 : placement commande → fabrication -->
+        <mxCell id="arr-o2a-f3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;" edge="1" source="o2a" target="f3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- f3 → f4 : fabrication → CQ pré-expédition -->
+        <mxCell id="arr-f3-f4" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d79b00;strokeWidth=2;" edge="1" source="f3" target="f4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- f4 → o4a : CQ fournisseur → contrôle qualité (support) -->
+        <mxCell id="arr-f4-o4a" value="Rapport CQ" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;fontSize=9;" edge="1" source="f4" target="o4a" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- f4 → f5 : CQ → envoi échantillon (parallèle) -->
+        <mxCell id="arr-f4-f5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#9673a6;strokeWidth=1;dashed=1;" edge="1" source="f4" target="f5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o4a → o4b : contrôle → libération -->
+        <mxCell id="arr-o4a-o4b" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#d6b656;strokeWidth=2;" edge="1" source="o4a" target="o4b" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o4b → o3a : libéré → logistique (OK) -->
+        <mxCell id="arr-o4b-o3a" value="OK" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;fontSize=10;fontStyle=1;" edge="1" source="o4b" target="o3a" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o4b → o4c : NC détectée -->
+        <mxCell id="arr-o4b-o4c" value="NC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=2;fontSize=10;fontStyle=1;" edge="1" source="o4b" target="o4c" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o4c → o4d : NC → registre + action corrective -->
+        <mxCell id="arr-o4c-o4d" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=2;" edge="1" source="o4c" target="o4d" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o3a → o3b -->
+        <mxCell id="arr-o3a-o3b" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="o3a" target="o3b" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o3b → o3c -->
+        <mxCell id="arr-o3b-o3c" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="o3b" target="o3c" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o3b → f6 : docs douaniers → fournisseur prépare export -->
+        <mxCell id="arr-o3b-f6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=1;" edge="1" source="o3b" target="f6" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- f6 → c4 : expédition → client reçoit -->
+        <mxCell id="arr-f6-c4" value="Livraison" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333333;strokeWidth=2;fontSize=9;" edge="1" source="f6" target="c4" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- c4 → c5 : réception → satisfaction -->
+        <mxCell id="arr-c4-c5" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=2;" edge="1" source="c4" target="c5" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- c5 → satis : satisfaction → sortie -->
+        <mxCell id="arr-c5-satis" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="c5" target="satis" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o3c → o3d -->
+        <mxCell id="arr-o3c-o3d" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="o3c" target="o3d" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- ======================= FLÈCHES — MANAGEMENT (bleu pointillé) ===================== -->
+        <!-- ==================================================================================== -->
+
+        <!-- m1 → d1 : leadership oriente la revue de commande -->
+        <mxCell id="arr-m1-d1" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" source="m1" target="d1" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- m1 → m2 : leadership → amélioration -->
+        <mxCell id="arr-m1-m2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=1;dashed=1;" edge="1" source="m1" target="m2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- m2 → m3 : amélioration → revue direction -->
+        <mxCell id="arr-m2-m3" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=1;dashed=1;" edge="1" source="m2" target="m3" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- m3 → d2 : revue → suivi actions -->
+        <mxCell id="arr-m3-d2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=2;" edge="1" source="m3" target="d2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- d2 → m1 : boucle retour (suivi → leadership) -->
+        <mxCell id="arr-d2-m1" value="Boucle PDCA" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=1;dashed=1;fontSize=8;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="d2" target="m1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="1575" y="390"/>
+              <mxPoint x="360" y="390"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- ========================== FLÈCHES — FEEDBACK QUALITÉ ============================= -->
+        <!-- ==================================================================================== -->
+
+        <!-- c5 → m2 : retour satisfaction → amélioration continue -->
+        <mxCell id="arr-c5-m2" value="Données satisfaction" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=1;dashed=1;fontSize=8;" edge="1" source="c5" target="m2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o4d → m2 : NC/AC → amélioration continue -->
+        <mxCell id="arr-o4d-m2" value="Données NC/AC" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=1;dashed=1;fontSize=8;" edge="1" source="o4d" target="m2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- o4c → f2 : retour NC → fournisseur (correction) -->
+        <mxCell id="arr-o4c-f2" value="Retour NC fournisseur" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=1;dashed=1;fontSize=8;exitX=0;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0;entryDx=0;entryDy=0;" edge="1" source="o4c" target="f2" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- ====================== FLÈCHES — SUPPORT (jaune pointillé) ======================== -->
+        <!-- ==================================================================================== -->
+
+        <!-- Support vers opérationnel (lignes verticales pointillées) -->
+        <mxCell id="arr-sup-op1" value="" style="endArrow=classic;rounded=1;strokeColor=#d6b656;strokeWidth=1;dashed=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="695" as="sourcePoint"/>
+            <mxPoint x="360" y="555" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arr-sup-op2" value="" style="endArrow=classic;rounded=1;strokeColor=#d6b656;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="695" as="sourcePoint"/>
+            <mxPoint x="555" y="555" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <mxCell id="arr-sup-op3" value="" style="endArrow=classic;rounded=1;strokeColor=#d6b656;strokeWidth=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="755" y="695" as="sourcePoint"/>
+            <mxPoint x="755" y="555" as="targetPoint"/>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ==================================================================================== -->
+        <!-- ======================== EXCLUSION NOTE + LÉGENDE + VERSION ======================= -->
+        <!-- ==================================================================================== -->
+
+        <!-- Exclusion 8.3 -->
+        <mxCell id="excl" value="&lt;b&gt;⛔ Clause 8.3 — Conception et développement&lt;/b&gt;&lt;br&gt;&lt;i&gt;EXCLUE du domaine d'application.&lt;br&gt;Les conceptions sont la propriété des clients.&lt;br&gt;Plus Sàrl = coordinateur industriel.&lt;/i&gt;" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;fontSize=9;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="15" y="920" width="280" height="65" as="geometry"/>
+        </mxCell>
+
+        <!-- Légende -->
+        <mxCell id="legend" value="&lt;b&gt;Légende :&lt;/b&gt;&lt;br&gt;🔴 Client | 🔵 Direction/Management | 🟢 Opérationnel | 🟡 Support | 🟠 Fournisseur&lt;br&gt;─── Flux principal | --- Interactions / Support | ◇ Point de décision&lt;br&gt;NC = Non-conformité | AC = Action corrective | RDD = Revue de direction | CQ = Contrôle qualité" style="text;html=1;align=left;verticalAlign=top;whiteSpace=wrap;rounded=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="15" y="1000" width="520" height="65" as="geometry"/>
+        </mxCell>
+
+        <!-- Outils -->
+        <mxCell id="outils" value="&lt;b&gt;Outils :&lt;/b&gt; FileMaker (base données) | Email (clients EU) | WeChat (partenaires CN) | Cloud Gramatec SA (sauvegarde)" style="text;html=1;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=1;fillColor=#f5f5f5;strokeColor=#999999;fontSize=9;" vertex="1" parent="1">
+          <mxGeometry x="560" y="1000" width="500" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- Version -->
+        <mxCell id="version" value="CRT-QUA-001 v0.4 — 23/02/2026 — Plus Sàrl — Certification SQS — Cartographie par rôles" style="text;html=1;align=right;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=9;fontColor=#999999;" vertex="1" parent="1">
+          <mxGeometry x="1400" y="1050" width="500" height="20" as="geometry"/>
+        </mxCell>
+
+        <!-- Note méthodologique -->
+        <mxCell id="note-methodo" value="&lt;i&gt;10 processus : M1-M3 (management), O1-O4 (opérationnel), S1-S3 (support)&lt;br&gt;Pilote unique : Roxane Wicky (micro-entreprise, 1 collaboratrice)&lt;br&gt;26 documents SMQ | Organisme de certification : SQS&lt;/i&gt;" style="text;html=1;align=right;verticalAlign=top;whiteSpace=wrap;rounded=1;fillColor=none;strokeColor=none;fontSize=9;fontColor=#666666;" vertex="1" parent="1">
+          <mxGeometry x="1350" y="920" width="350" height="55" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
