@@ -1,0 +1,645 @@
+<mxfile host="app.diagrams.net" modified="2026-02-23T12:00:00.000Z" agent="Plus Sàrl SMQ ISO 9001 — Version Optimisée" version="24.0.0" type="device">
+
+  <!-- ======================== PAGE VUE D'ENSEMBLE OPTIMISÉE ======================== -->
+  <diagram id="page-overview" name="Vue d'ensemble">
+    <mxGraphModel dx="1900" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="title" value="&lt;b&gt;CARTOGRAPHIE DES PROCESSUS — SMQ ISO 9001:2015&lt;/b&gt;&lt;br&gt;Plus Sàrl — Coordination industrielle Chine-Europe — IDE: CH-645.4.101.228-7&lt;br&gt;&lt;b&gt;VERSION OPTIMISÉE&lt;/b&gt; — Refonte des flux, gates qualité, escalades" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="400" y="5" width="1000" height="65" as="geometry"/>
+        </mxCell>
+        <mxCell id="exig" value="&lt;b&gt;EXIGENCES&lt;br&gt;CLIENTS&lt;/b&gt;&lt;br&gt;&lt;i&gt;~10 clients EU&lt;br&gt;50-100 cmd/an&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="150" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="satis" value="&lt;b&gt;SATISFACTION&lt;br&gt;CLIENTS&lt;/b&gt;&lt;br&gt;&lt;i&gt;Certification SQS&lt;br&gt;Amélioration&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="370" width="150" height="100" as="geometry"/>
+        </mxCell>
+        <!-- MANAGEMENT -->
+        <mxCell id="mgmt-lane" value="&lt;b&gt;MANAGEMENT&lt;/b&gt;" style="swimlane;horizontal=1;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="85" width="1490" height="150" as="geometry"/>
+        </mxCell>
+        <UserObject label="&lt;b&gt;M1&lt;/b&gt;&lt;br&gt;Leadership&lt;br&gt;&lt;i&gt;+ Veille réglementaire&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Gestion modifications&lt;/i&gt;" link="data:page/id,page-m1" id="ov-m1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="mgmt-lane"><mxGeometry x="60" y="40" width="220" height="80" as="geometry"/></mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;M2&lt;/b&gt;&lt;br&gt;Amélioration&lt;br&gt;&lt;i&gt;+ Déclencheurs&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Priorisation&lt;/i&gt;" link="data:page/id,page-m2" id="ov-m2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="mgmt-lane"><mxGeometry x="420" y="40" width="220" height="80" as="geometry"/></mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;M3&lt;/b&gt;&lt;br&gt;Revue Direction&lt;br&gt;&lt;i&gt;+ Checklist 6 entrées&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Diffusion résultats&lt;/i&gt;" link="data:page/id,page-m3" id="ov-m3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;shadow=1;" vertex="1" parent="mgmt-lane"><mxGeometry x="820" y="40" width="230" height="80" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;" edge="1" source="ov-m1" target="ov-m2" parent="mgmt-lane"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;" edge="1" source="ov-m2" target="ov-m3" parent="mgmt-lane"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- OPÉRATIONNEL -->
+        <mxCell id="op-lane" value="&lt;b&gt;OPÉRATIONNEL&lt;/b&gt;" style="swimlane;horizontal=1;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="275" width="1490" height="200" as="geometry"/>
+        </mxCell>
+        <UserObject label="&lt;b&gt;O1&lt;/b&gt;&lt;br&gt;Commercial&lt;br&gt;&lt;i&gt;+ Gate nouveau client&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Track urgence&lt;/i&gt;" link="data:page/id,page-o1" id="ov-o1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="op-lane"><mxGeometry x="30" y="50" width="190" height="100" as="geometry"/></mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;O2&lt;/b&gt;&lt;br&gt;Achats&lt;br&gt;&lt;i&gt;+ Split moule/série&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Validation outillage&lt;/i&gt;" link="data:page/id,page-o2" id="ov-o2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="op-lane"><mxGeometry x="310" y="50" width="210" height="100" as="geometry"/></mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;O3&lt;/b&gt;&lt;br&gt;Logistique&lt;br&gt;&lt;i&gt;+ Arbre transport&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Gate 7 docs&lt;/i&gt;" link="data:page/id,page-o3" id="ov-o3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="op-lane"><mxGeometry x="630" y="50" width="210" height="100" as="geometry"/></mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;O4&lt;/b&gt;&lt;br&gt;Contrôle Qualité&lt;br&gt;&lt;i&gt;+ Matrice sévérité&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Gate efficacité&lt;/i&gt;" link="data:page/id,page-o4" id="ov-o4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;shadow=1;" vertex="1" parent="op-lane"><mxGeometry x="970" y="50" width="200" height="100" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="exig" target="ov-o1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="ov-o1" target="ov-o2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="ov-o2" target="ov-o3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="ov-o3" target="ov-o4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="ov-o4" target="satis" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Feedback O4→O1 -->
+        <mxCell value="Retour qualité + Prévention" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=9;" edge="1" source="ov-o4" target="ov-o1" parent="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1350" y="500"/><mxPoint x="415" y="500"/></Array></mxGeometry>
+        </mxCell>
+        <!-- OPTIMISATION: Satisfaction → M1 -->
+        <mxCell value="OPTIM: Boucle stratégique" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#9673a6;strokeWidth=2;dashed=1;fontSize=8;" edge="1" source="satis" target="ov-m1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: O2 → M3 données fournisseur -->
+        <mxCell value="OPTIM: Données fournisseur" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#9673a6;strokeWidth=1;dashed=1;fontSize=8;" edge="1" source="ov-o2" target="ov-m3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- SUPPORT -->
+        <mxCell id="sup-lane" value="&lt;b&gt;SUPPORT&lt;/b&gt;" style="swimlane;horizontal=1;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="1490" height="150" as="geometry"/>
+        </mxCell>
+        <UserObject label="&lt;b&gt;S1&lt;/b&gt;&lt;br&gt;Gestion Doc&lt;br&gt;&lt;i&gt;+ Cycle de vie&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Test restauration&lt;/i&gt;" link="data:page/id,page-s1" id="ov-s1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="sup-lane"><mxGeometry x="60" y="40" width="220" height="80" as="geometry"/></mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;S2&lt;/b&gt;&lt;br&gt;Compétences&lt;br&gt;&lt;i&gt;+ Matrice 7 domaines&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Éval. partenaires&lt;/i&gt;" link="data:page/id,page-s2" id="ov-s2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="sup-lane"><mxGeometry x="460" y="40" width="220" height="80" as="geometry"/></mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;S3&lt;/b&gt;&lt;br&gt;Ressources&lt;br&gt;&lt;i&gt;+ Plan continuité&lt;/i&gt;&lt;br&gt;&lt;i&gt;+ Dépendances&lt;/i&gt;" link="data:page/id,page-s3" id="ov-s3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;shadow=1;" vertex="1" parent="sup-lane"><mxGeometry x="860" y="40" width="220" height="80" as="geometry"/></mxCell>
+        </UserObject>
+        <!-- Vertical interactions -->
+        <mxCell style="endArrow=classic;startArrow=classic;rounded=1;strokeColor=#999;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="600" y="235" as="sourcePoint"/><mxPoint x="600" y="275" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell style="endArrow=classic;startArrow=classic;rounded=1;strokeColor=#999;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="600" y="475" as="sourcePoint"/><mxPoint x="600" y="530" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell style="endArrow=classic;startArrow=classic;rounded=1;strokeColor=#999;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1100" y="235" as="sourcePoint"/><mxPoint x="1100" y="275" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell style="endArrow=classic;startArrow=classic;rounded=1;strokeColor=#999;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1100" y="475" as="sourcePoint"/><mxPoint x="1100" y="530" as="targetPoint"/></mxGeometry></mxCell>
+        <!-- Legend -->
+        <mxCell id="excl" value="&lt;b&gt;⛔ 8.3 Conception — EXCLUE&lt;/b&gt; | Conceptions = propriété clients" style="text;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666;rounded=1;fontSize=9;" vertex="1" parent="1"><mxGeometry x="20" y="700" width="300" height="25" as="geometry"/></mxCell>
+        <mxCell id="legend" value="&lt;b&gt;Légende :&lt;/b&gt; 🔵 Management | 🟢 Opérationnel | 🟡 Support | 🟣 OPTIMISATION&lt;br&gt;─── Flux principal | --- Interaction | ◇ Décision | ● Début | ◉ Fin" style="text;html=1;align=left;fillColor=#f5f5f5;strokeColor=#999;rounded=1;fontSize=9;" vertex="1" parent="1"><mxGeometry x="20" y="735" width="500" height="35" as="geometry"/></mxCell>
+        <mxCell id="ver" value="CRT-QUA-001 v0.4 — 23/02/2026 — Plus Sàrl — &lt;b&gt;VERSION OPTIMISÉE&lt;/b&gt;" style="text;html=1;align=right;fillColor=none;strokeColor=none;fontSize=9;fontColor=#999;" vertex="1" parent="1"><mxGeometry x="1400" y="750" width="400" height="20" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== M1 OPTIMISÉ ======================== -->
+  <diagram id="page-m1" name="M1 - Leadership (Optimisé)">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="m1-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="m1-title" value="&lt;b&gt;M1 — LEADERSHIP &amp;amp; STRATÉGIE (OPTIMISÉ)&lt;/b&gt;&lt;br&gt;&lt;i&gt;Clauses 5.1-5.3, 6.1-6.3 | M1-DIR-001, POL-QUA-001, CTX-QUA-001&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="280" y="10" width="700" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Direction -->
+        <mxCell id="m1-L1" value="&lt;b&gt;Direction&lt;br&gt;(Roxane Wicky&lt;br&gt;Gérante)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="300" as="geometry"/></mxCell>
+        <mxCell id="m1-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="m1-L1"><mxGeometry x="140" y="40" width="60" height="40" as="geometry"/></mxCell>
+        <!-- OPTIM: Veille réglementaire -->
+        <mxCell id="m1-veille" value="&lt;b&gt;OPTIM&lt;/b&gt;&lt;br&gt;Veille&lt;br&gt;réglementaire&lt;br&gt;&lt;i&gt;(EU/CH import)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;dashed=1;" vertex="1" parent="m1-L1"><mxGeometry x="230" y="25" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-pol" value="Définir&lt;br&gt;politique qualité&lt;br&gt;&lt;i&gt;POL-QUA-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m1-L1"><mxGeometry x="390" y="25" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-obj" value="Fixer objectifs&lt;br&gt;&lt;b&gt;SMART&lt;/b&gt;&lt;br&gt;&lt;i&gt;OBJ-QUA-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m1-L1"><mxGeometry x="550" y="25" width="130" height="70" as="geometry"/></mxCell>
+        <!-- OPTIM: Analyse risques formelle -->
+        <mxCell id="m1-risk" value="&lt;b&gt;OPTIM&lt;/b&gt;&lt;br&gt;Analyse risques&lt;br&gt;&amp;amp; opportunités&lt;br&gt;&lt;i&gt;(SWOT formalisé)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;dashed=1;" vertex="1" parent="m1-L1"><mxGeometry x="710" y="25" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-resp" value="Attribuer&lt;br&gt;responsabilités&lt;br&gt;+ ressources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m1-L1"><mxGeometry x="880" y="25" width="130" height="70" as="geometry"/></mxCell>
+        <!-- OPTIM: Gestion modifications (sous-processus) -->
+        <mxCell id="m1-modif-label" value="&lt;b&gt;OPTIM — Gestion des modifications (clause 6.3)&lt;/b&gt;" style="text;html=1;align=left;fillColor=none;strokeColor=none;fontSize=9;fontColor=#9673a6;" vertex="1" parent="m1-L1"><mxGeometry x="230" y="110" width="300" height="18" as="geometry"/></mxCell>
+        <mxCell id="m1-mod1" value="Demande&lt;br&gt;modification" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="m1-L1"><mxGeometry x="230" y="135" width="110" height="45" as="geometry"/></mxCell>
+        <mxCell id="m1-mod2" value="Analyse impact&lt;br&gt;&lt;i&gt;(par processus&lt;br&gt;O1-O4)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="m1-L1"><mxGeometry x="370" y="130" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="m1-mod3" value="Validation&lt;br&gt;client" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="m1-L1"><mxGeometry x="520" y="125" width="90" height="65" as="geometry"/></mxCell>
+        <mxCell id="m1-mod4" value="Mise en œuvre&lt;br&gt;contrôlée" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="m1-L1"><mxGeometry x="640" y="135" width="110" height="45" as="geometry"/></mxCell>
+        <mxCell id="m1-mod5" value="Revue&lt;br&gt;efficacité" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;" vertex="1" parent="m1-L1"><mxGeometry x="780" y="135" width="100" height="45" as="geometry"/></mxCell>
+        <!-- OPTIM: Matrice communication -->
+        <mxCell id="m1-comm" value="&lt;b&gt;OPTIM&lt;/b&gt;&lt;br&gt;Communiquer&lt;br&gt;&lt;i&gt;(matrice : qui,&lt;br&gt;quoi, quand)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;dashed=1;" vertex="1" parent="m1-L1"><mxGeometry x="1040" y="25" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="m1-L1"><mxGeometry x="1220" y="40" width="60" height="40" as="geometry"/></mxCell>
+        <!-- Main flow arrows -->
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-start" target="m1-veille" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-veille" target="m1-pol" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-pol" target="m1-obj" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-obj" target="m1-risk" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-risk" target="m1-resp" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-resp" target="m1-comm" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-comm" target="m1-end" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Modification sub-flow arrows -->
+        <mxCell style="rounded=1;strokeColor=#9673a6;" edge="1" source="m1-mod1" target="m1-mod2" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#9673a6;" edge="1" source="m1-mod2" target="m1-mod3" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="OK" style="rounded=1;strokeColor=#82b366;" edge="1" source="m1-mod3" target="m1-mod4" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#9673a6;" edge="1" source="m1-mod4" target="m1-mod5" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Link from main flow to sub-process -->
+        <mxCell style="rounded=1;strokeColor=#999;dashed=1;" edge="1" source="m1-resp" target="m1-mod1" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Parties prenantes -->
+        <mxCell id="m1-L2" value="&lt;b&gt;Parties&lt;br&gt;prenantes&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="360" width="1460" height="130" as="geometry"/></mxCell>
+        <mxCell id="m1-pp1" value="Clients EU&lt;br&gt;&lt;i&gt;(~10 actifs)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m1-L2"><mxGeometry x="200" y="30" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="m1-pp2" value="Yuyao Mould&lt;br&gt;+ Oukailuo" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m1-L2"><mxGeometry x="400" y="30" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="m1-pp3" value="SQS&lt;br&gt;&lt;i&gt;(certification)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m1-L2"><mxGeometry x="600" y="30" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="m1-pp4" value="Gramatec SA&lt;br&gt;Paradiso" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m1-L2"><mxGeometry x="780" y="30" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="m1-pp5" value="ECAM&lt;br&gt;&lt;i&gt;(transport)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m1-L2"><mxGeometry x="960" y="30" width="100" height="50" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== M2 OPTIMISÉ ======================== -->
+  <diagram id="page-m2" name="M2 - Amélioration (Optimisé)">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="m2-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="m2-title" value="&lt;b&gt;M2 — AMÉLIORATION CONTINUE (OPTIMISÉ)&lt;/b&gt; — PDCA avec déclencheurs et priorisation" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="280" y="10" width="700" height="30" as="geometry"/></mxCell>
+        <!-- Lane: Direction -->
+        <mxCell id="m2-L1" value="&lt;b&gt;Direction&lt;br&gt;(Roxane Wicky)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="55" width="1460" height="370" as="geometry"/></mxCell>
+        <mxCell id="m2-start" value="DÉBUT&lt;br&gt;&lt;i&gt;Déclencheur&lt;/i&gt;" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=9;html=1;" vertex="1" parent="m2-L1"><mxGeometry x="140" y="80" width="70" height="45" as="geometry"/></mxCell>
+        <!-- OPTIM: Identification déclencheur -->
+        <mxCell id="m2-trig" value="&lt;b&gt;OPTIM&lt;/b&gt;&lt;br&gt;Identifier&lt;br&gt;déclencheur" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;dashed=1;" vertex="1" parent="m2-L1"><mxGeometry x="240" y="70" width="120" height="60" as="geometry"/></mxCell>
+        <!-- OPTIM: Priorisation -->
+        <mxCell id="m2-prio" value="&lt;b&gt;OPTIM&lt;/b&gt;&lt;br&gt;Prioriser&lt;br&gt;&lt;i&gt;(impact ×&lt;br&gt;probabilité)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;dashed=1;" vertex="1" parent="m2-L1"><mxGeometry x="390" y="65" width="120" height="70" as="geometry"/></mxCell>
+        <!-- PDCA -->
+        <mxCell id="m2-plan" value="&lt;b&gt;PLAN&lt;/b&gt;&lt;br&gt;Analyser données&lt;br&gt;Définir actions&lt;br&gt;Fixer jalons" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m2-L1"><mxGeometry x="570" y="30" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="m2-do" value="&lt;b&gt;DO&lt;/b&gt;&lt;br&gt;Mettre en œuvre&lt;br&gt;AC, visite Chine,&lt;br&gt;formation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="m2-L1"><mxGeometry x="900" y="30" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="m2-check" value="&lt;b&gt;CHECK&lt;/b&gt;&lt;br&gt;Mesurer résultats&lt;br&gt;KPIs, vérif. efficacité" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="m2-L1"><mxGeometry x="900" y="200" width="160" height="80" as="geometry"/></mxCell>
+        <mxCell id="m2-dec" value="Efficace ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="m2-L1"><mxGeometry x="700" y="195" width="110" height="80" as="geometry"/></mxCell>
+        <mxCell id="m2-act" value="&lt;b&gt;ACT&lt;/b&gt;&lt;br&gt;Standardiser&lt;br&gt;Capitaliser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="m2-L1"><mxGeometry x="540" y="200" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="m2-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="m2-L1"><mxGeometry x="410" y="215" width="55" height="40" as="geometry"/></mxCell>
+        <!-- OPTIM: Tableau de bord -->
+        <mxCell id="m2-dash" value="&lt;b&gt;OPTIM — Tableau de bord&lt;/b&gt;&lt;br&gt;NC/trimestre | Délais livraison&lt;br&gt;Satisfaction | AC ouvertes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;dashed=1;" vertex="1" parent="m2-L1"><mxGeometry x="1120" y="120" width="200" height="65" as="geometry"/></mxCell>
+        <!-- Arrows -->
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="m2-start" target="m2-trig" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="m2-trig" target="m2-prio" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="m2-prio" target="m2-plan" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333;strokeWidth=2;" edge="1" source="m2-plan" target="m2-do" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333;strokeWidth=2;" edge="1" source="m2-do" target="m2-check" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333;strokeWidth=2;" edge="1" source="m2-check" target="m2-dec" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="Oui" style="rounded=1;strokeColor=#82b366;" edge="1" source="m2-dec" target="m2-act" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="m2-act" target="m2-end" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="Non → retour PLAN" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;dashed=1;fontSize=8;" edge="1" source="m2-dec" target="m2-plan" parent="m2-L1"><mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="755" y="165"/><mxPoint x="650" y="165"/></Array></mxGeometry></mxCell>
+        <!-- Lane: Déclencheurs -->
+        <mxCell id="m2-L2" value="&lt;b&gt;Déclencheurs&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="425" width="1460" height="120" as="geometry"/></mxCell>
+        <mxCell id="m2-t1" value="NC &gt; 3/trim." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="150" y="25" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m2-t2" value="Audit finding" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="280" y="25" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m2-t3" value="KPI &lt; cible" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="410" y="25" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m2-t4" value="Réclamation&lt;br&gt;client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="540" y="25" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m2-t5" value="Visite Chine&lt;br&gt;&lt;i&gt;(insights)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="670" y="25" width="100" height="40" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== M3 OPTIMISÉ ======================== -->
+  <diagram id="page-m3" name="M3 - Revue Direction (Optimisé)">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="m3-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="m3-title" value="&lt;b&gt;M3 — REVUE DE DIRECTION (OPTIMISÉ)&lt;/b&gt; — Clause 9.3 + checklist 6 entrées + diffusion" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="280" y="10" width="700" height="30" as="geometry"/></mxCell>
+        <!-- Lane: Direction -->
+        <mxCell id="m3-L1" value="&lt;b&gt;Direction&lt;br&gt;(Roxane Wicky)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="55" width="1460" height="230" as="geometry"/></mxCell>
+        <mxCell id="m3-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="m3-L1"><mxGeometry x="140" y="80" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3-plan" value="Planifier&lt;br&gt;&lt;i&gt;(annuelle min.)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m3-L1"><mxGeometry x="230" y="70" width="110" height="55" as="geometry"/></mxCell>
+        <!-- OPTIM: Préparation checklist -->
+        <mxCell id="m3-prep" value="&lt;b&gt;OPTIM&lt;/b&gt;&lt;br&gt;Préparer&lt;br&gt;&lt;i&gt;(checklist&lt;br&gt;6 éléments)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;dashed=1;" vertex="1" parent="m3-L1"><mxGeometry x="370" y="65" width="120" height="65" as="geometry"/></mxCell>
+        <mxCell id="m3-analyse" value="Analyser&lt;br&gt;performances&lt;br&gt;+ tendances" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m3-L1"><mxGeometry x="520" y="70" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="m3-dec" value="Décisions&lt;br&gt;(actions,&lt;br&gt;objectifs,&lt;br&gt;ressources)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="m3-L1"><mxGeometry x="670" y="50" width="110" height="95" as="geometry"/></mxCell>
+        <mxCell id="m3-doc" value="Documenter&lt;br&gt;&lt;b&gt;FOR-RDR-001&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m3-L1"><mxGeometry x="810" y="70" width="120" height="55" as="geometry"/></mxCell>
+        <!-- OPTIM: Diffusion résultats -->
+        <mxCell id="m3-diff" value="&lt;b&gt;OPTIM&lt;/b&gt;&lt;br&gt;Diffuser&lt;br&gt;résultats&lt;br&gt;&lt;i&gt;(parties prenantes)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;dashed=1;" vertex="1" parent="m3-L1"><mxGeometry x="960" y="65" width="130" height="65" as="geometry"/></mxCell>
+        <mxCell id="m3-suivi" value="Suivi actions&lt;br&gt;décidées" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m3-L1"><mxGeometry x="1120" y="70" width="110" height="55" as="geometry"/></mxCell>
+        <mxCell id="m3-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="m3-L1"><mxGeometry x="1270" y="78" width="55" height="40" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-start" target="m3-plan" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-plan" target="m3-prep" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-prep" target="m3-analyse" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-analyse" target="m3-dec" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-dec" target="m3-doc" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-doc" target="m3-diff" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-diff" target="m3-suivi" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-suivi" target="m3-end" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Données d'entrée (6 éléments clause 9.3) -->
+        <mxCell id="m3-L2" value="&lt;b&gt;6 éléments&lt;br&gt;d'entrée&lt;br&gt;(clause 9.3)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="285" width="1460" height="120" as="geometry"/></mxCell>
+        <mxCell id="m3-e1" value="1. État actions&lt;br&gt;précédentes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=8;" vertex="1" parent="m3-L2"><mxGeometry x="140" y="25" width="110" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3-e2" value="2. Évolutions&lt;br&gt;contexte" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=8;" vertex="1" parent="m3-L2"><mxGeometry x="270" y="25" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3-e3" value="3. Performance&lt;br&gt;processus" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=8;" vertex="1" parent="m3-L2"><mxGeometry x="390" y="25" width="110" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3-e4" value="4. NC / AC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=8;" vertex="1" parent="m3-L2"><mxGeometry x="520" y="25" width="80" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3-e5" value="5. Résultats&lt;br&gt;audit" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=8;" vertex="1" parent="m3-L2"><mxGeometry x="620" y="25" width="90" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3-e6" value="6. Opportunités&lt;br&gt;amélioration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=8;" vertex="1" parent="m3-L2"><mxGeometry x="730" y="25" width="110" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Données de sortie -->
+        <mxCell id="m3-L3" value="&lt;b&gt;Sorties&lt;br&gt;(clause 9.3)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="405" width="1460" height="100" as="geometry"/></mxCell>
+        <mxCell id="m3-s1" value="Décisions&lt;br&gt;amélioration" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=8;" vertex="1" parent="m3-L3"><mxGeometry x="810" y="20" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3-s2" value="Besoins&lt;br&gt;ressources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=8;" vertex="1" parent="m3-L3"><mxGeometry x="940" y="20" width="100" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3-s3" value="Modifications&lt;br&gt;SMQ" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=8;" vertex="1" parent="m3-L3"><mxGeometry x="1070" y="20" width="100" height="40" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-O1" name="O1 – Traitement Offres (Optimisé)">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Navigation retour -->
+        <UserObject label="⬅ Vue d'ensemble" link="data:page/id,page-overview" id="o1-back">
+          <mxCell style="text;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="10" y="10" width="140" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o1-title" value="&lt;b&gt;O1 – Traitement des Offres &amp; Commandes (OPTIMISÉ)&lt;/b&gt;&lt;br&gt;PRO-ACH-001 | Clause 8.2" style="text;html=1;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1"><mxGeometry x="200" y="10" width="500" height="40" as="geometry"/></mxCell>
+        <!-- Swimlane Client -->
+        <mxCell id="o1-LC" value="&lt;b&gt;CLIENT&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1560" height="110" as="geometry"/></mxCell>
+        <mxCell id="o1-start" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00CC00;strokeColor=#006600;aspect=fixed;" vertex="1" parent="o1-LC"><mxGeometry x="150" y="30" width="40" height="40" as="geometry"/></mxCell>
+        <mxCell id="o1-c1" value="Demande client&lt;br&gt;(offre/commande)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o1-LC"><mxGeometry x="220" y="25" width="140" height="50" as="geometry"/></mxCell>
+        <mxCell id="o1-c2" value="Confirmation&lt;br&gt;commande" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o1-LC"><mxGeometry x="1100" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <!-- Arrows in Client lane -->
+        <mxCell id="o1-a0" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-start" target="o1-c1" parent="o1-LC"/>
+        <!-- Swimlane Roxane -->
+        <mxCell id="o1-LR" value="&lt;b&gt;ROXANE&lt;br&gt;(Resp. Qualité&lt;br&gt;&amp; Commercial)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="170" width="1560" height="200" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Gate nouveau client -->
+        <mxCell id="o1-gate1" value="Nouveau&lt;br&gt;client ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="160" y="20" width="100" height="80" as="geometry"/></mxCell>
+        <mxCell id="o1-qualif" value="&lt;b&gt;OPT&lt;/b&gt; Qualification&lt;br&gt;client (solvabilité,&lt;br&gt;secteur, volume)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=9;" vertex="1" parent="o1-LR"><mxGeometry x="160" y="120" width="130" height="60" as="geometry"/></mxCell>
+        <mxCell id="o1-r1" value="Revue exigences&lt;br&gt;(faisabilité,&lt;br&gt;délai, coût)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o1-LR"><mxGeometry x="320" y="30" width="130" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Checklist 6 types -->
+        <mxCell id="o1-check" value="&lt;b&gt;OPT&lt;/b&gt; Checklist 6 types&lt;br&gt;① Technique ② Délai&lt;br&gt;③ Qualité ④ Logistique&lt;br&gt;⑤ Réglementaire ⑥ Financier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="o1-LR"><mxGeometry x="320" y="110" width="160" height="70" as="geometry"/></mxCell>
+        <mxCell id="o1-gate2" value="Hors&lt;br&gt;domaine ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="510" y="20" width="100" height="80" as="geometry"/></mxCell>
+        <mxCell id="o1-refus" value="Refus motivé&lt;br&gt;au client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;" vertex="1" parent="o1-LR"><mxGeometry x="510" y="120" width="100" height="50" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Track urgence -->
+        <mxCell id="o1-urgence" value="&lt;b&gt;OPT&lt;/b&gt; Priorité&lt;br&gt;⚡ Urgent (2h)&lt;br&gt;⏱ Standard (24h)&lt;br&gt;📋 Planifié (48h)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="o1-LR"><mxGeometry x="640" y="110" width="120" height="70" as="geometry"/></mxCell>
+        <mxCell id="o1-r2" value="Saisie FileMaker&lt;br&gt;(offre/commande)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o1-LR"><mxGeometry x="650" y="30" width="130" height="50" as="geometry"/></mxCell>
+        <mxCell id="o1-r3" value="Consultation&lt;br&gt;fournisseur&lt;br&gt;(WeChat/Email)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o1-LR"><mxGeometry x="820" y="30" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="o1-r4" value="Offre client&lt;br&gt;(prix, délai,&lt;br&gt;conditions)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o1-LR"><mxGeometry x="980" y="30" width="120" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Gestion modifications -->
+        <mxCell id="o1-modif" value="&lt;b&gt;OPT&lt;/b&gt; Gestion&lt;br&gt;modification&lt;br&gt;(avenant si&lt;br&gt;changement &gt;10%)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="o1-LR"><mxGeometry x="1130" y="20" width="120" height="90" as="geometry"/></mxCell>
+        <!-- Link O2 -->
+        <UserObject label="→ O2 Achat" link="data:page/id,page-O2" id="o1-toO2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="1300" y="35" width="100" height="40" as="geometry"/></mxCell>
+        </UserObject>
+        <!-- Arrows Roxane -->
+        <mxCell id="o1-a1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-c1" target="o1-gate1" parent="1"/>
+        <mxCell id="o1-a2" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-gate1" target="o1-qualif" parent="1"/>
+        <mxCell id="o1-a3" value="Non / Après qualif" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-gate1" target="o1-r1" parent="1"/>
+        <mxCell id="o1-a3b" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="o1-qualif" target="o1-r1" parent="1"/>
+        <mxCell id="o1-a4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-r1" target="o1-gate2" parent="1"/>
+        <mxCell id="o1-a5" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-gate2" target="o1-refus" parent="1"/>
+        <mxCell id="o1-a6" value="Non" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-gate2" target="o1-r2" parent="1"/>
+        <mxCell id="o1-a7" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-r2" target="o1-r3" parent="1"/>
+        <mxCell id="o1-a8" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-r3" target="o1-r4" parent="1"/>
+        <mxCell id="o1-a9" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-r4" target="o1-c2" parent="1"/>
+        <mxCell id="o1-a10" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-c2" target="o1-modif" parent="1"/>
+        <mxCell id="o1-a11" value="OK" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-modif" target="o1-toO2" parent="1"/>
+        <!-- Swimlane Fournisseur -->
+        <mxCell id="o1-LF" value="&lt;b&gt;FOURNISSEUR&lt;br&gt;(Yuyao / Oukailuo)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="370" width="1560" height="110" as="geometry"/></mxCell>
+        <mxCell id="o1-f1" value="Réception&lt;br&gt;consultation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o1-LF"><mxGeometry x="820" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o1-f2" value="Devis fournisseur&lt;br&gt;(prix, délai)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o1-LF"><mxGeometry x="980" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o1-af1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-r3" target="o1-f1" parent="1"/>
+        <mxCell id="o1-af2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-f1" target="o1-f2" parent="1"/>
+        <mxCell id="o1-af3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-f2" target="o1-r4" parent="1"/>
+        <!-- End refus -->
+        <mxCell id="o1-end-r" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#CC0000;strokeWidth=3;aspect=fixed;" vertex="1" parent="o1-LR"><mxGeometry x="535" y="180" width="30" height="30" as="geometry"/></mxCell>
+        <mxCell id="o1-aend" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o1-refus" target="o1-end-r" parent="1"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-O2" name="O2 – Achats & Fabrication (Optimisé)">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Navigation retour -->
+        <UserObject label="⬅ Vue d'ensemble" link="data:page/id,page-overview" id="o2-back">
+          <mxCell style="text;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="10" y="10" width="140" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o2-title" value="&lt;b&gt;O2 – Achats &amp; Fabrication (OPTIMISÉ)&lt;/b&gt;&lt;br&gt;PRO-ACH-001 | Clauses 8.4 / 8.5" style="text;html=1;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1"><mxGeometry x="200" y="10" width="500" height="40" as="geometry"/></mxCell>
+        <!-- Swimlane Client -->
+        <mxCell id="o2-LC" value="&lt;b&gt;CLIENT&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1560" height="100" as="geometry"/></mxCell>
+        <mxCell id="o2-start" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00CC00;strokeColor=#006600;aspect=fixed;" vertex="1" parent="o2-LC"><mxGeometry x="150" y="25" width="40" height="40" as="geometry"/></mxCell>
+        <mxCell id="o2-c1" value="Spécifications&lt;br&gt;validées (O1)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o2-LC"><mxGeometry x="220" y="20" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-c2" value="Validation&lt;br&gt;échantillon" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o2-LC"><mxGeometry x="1100" y="20" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-a0" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-start" target="o2-c1" parent="o2-LC"/>
+        <!-- Swimlane Roxane -->
+        <mxCell id="o2-LR" value="&lt;b&gt;ROXANE&lt;br&gt;(Resp. Achats&lt;br&gt;&amp; Qualité)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="160" width="1560" height="220" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Gate type commande -->
+        <mxCell id="o2-gate1" value="Type ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="o2-LR"><mxGeometry x="160" y="30" width="100" height="80" as="geometry"/></mxCell>
+        <mxCell id="o2-moule" value="&lt;b&gt;OPT&lt;/b&gt; Nouveau moule&lt;br&gt;→ Cahier des charges&lt;br&gt;→ Plan 3D requis&lt;br&gt;→ Validation outillage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="o2-LR"><mxGeometry x="150" y="130" width="150" height="70" as="geometry"/></mxCell>
+        <mxCell id="o2-r1" value="Commande&lt;br&gt;fournisseur&lt;br&gt;(bon achat FM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o2-LR"><mxGeometry x="320" y="40" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="o2-r2" value="Suivi fabrication&lt;br&gt;(WeChat / photos)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o2-LR"><mxGeometry x="490" y="40" width="120" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Validation outillage avant série -->
+        <mxCell id="o2-valout" value="&lt;b&gt;OPT&lt;/b&gt; Validation&lt;br&gt;outillage&lt;br&gt;(First Article&lt;br&gt;Inspection)" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="o2-LR"><mxGeometry x="480" y="120" width="120" height="90" as="geometry"/></mxCell>
+        <mxCell id="o2-r3" value="Contrôle qualité&lt;br&gt;usine (photos,&lt;br&gt;mesures)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o2-LR"><mxGeometry x="660" y="40" width="120" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Accord qualité checkpoint -->
+        <mxCell id="o2-aqc" value="&lt;b&gt;OPT&lt;/b&gt; Accord qualité&lt;br&gt;conforme ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=9;" vertex="1" parent="o2-LR"><mxGeometry x="830" y="30" width="120" height="80" as="geometry"/></mxCell>
+        <mxCell id="o2-rejet" value="Retour usine&lt;br&gt;/ correction" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="o2-LR"><mxGeometry x="840" y="140" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-r4" value="Échantillon&lt;br&gt;envoi client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o2-LR"><mxGeometry x="1000" y="40" width="110" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Parallélisation -->
+        <mxCell id="o2-parallel" value="&lt;b&gt;OPT&lt;/b&gt; Parallélisation&lt;br&gt;envoi échantillon +&lt;br&gt;prép. logistique O3" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="o2-LR"><mxGeometry x="990" y="130" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="o2-gate2" value="Échantillon&lt;br&gt;validé ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="o2-LR"><mxGeometry x="1180" y="30" width="110" height="80" as="geometry"/></mxCell>
+        <mxCell id="o2-reprise" value="Reprise&lt;br&gt;fabrication" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;" vertex="1" parent="o2-LR"><mxGeometry x="1190" y="140" width="100" height="50" as="geometry"/></mxCell>
+        <!-- Link O3 -->
+        <UserObject label="→ O3 Logistique" link="data:page/id,page-O3" id="o2-toO3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;" vertex="1" parent="o2-LR"><mxGeometry x="1370" y="45" width="120" height="40" as="geometry"/></mxCell>
+        </UserObject>
+        <!-- Arrows Roxane -->
+        <mxCell id="o2-a1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-c1" target="o2-gate1" parent="1"/>
+        <mxCell id="o2-a2" value="Nouveau moule" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-gate1" target="o2-moule" parent="1"/>
+        <mxCell id="o2-a3" value="Série" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-gate1" target="o2-r1" parent="1"/>
+        <mxCell id="o2-a3b" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="o2-moule" target="o2-r1" parent="1"/>
+        <mxCell id="o2-a4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-r1" target="o2-r2" parent="1"/>
+        <mxCell id="o2-a5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-r2" target="o2-r3" parent="1"/>
+        <mxCell id="o2-a6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-r3" target="o2-aqc" parent="1"/>
+        <mxCell id="o2-a7" value="Non" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-aqc" target="o2-rejet" parent="1"/>
+        <mxCell id="o2-a7b" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="o2-rejet" target="o2-r3" parent="1"/>
+        <mxCell id="o2-a8" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-aqc" target="o2-r4" parent="1"/>
+        <mxCell id="o2-a9" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-r4" target="o2-c2" parent="1"/>
+        <mxCell id="o2-a10" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-c2" target="o2-gate2" parent="1"/>
+        <mxCell id="o2-a11" value="Non" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-gate2" target="o2-reprise" parent="1"/>
+        <mxCell id="o2-a11b" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="o2-reprise" target="o2-r2" parent="1"/>
+        <mxCell id="o2-a12" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-gate2" target="o2-toO3" parent="1"/>
+        <!-- Swimlane Fournisseur -->
+        <mxCell id="o2-LF" value="&lt;b&gt;FOURNISSEUR&lt;br&gt;(Yuyao Mould)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="380" width="1560" height="120" as="geometry"/></mxCell>
+        <mxCell id="o2-f1" value="Réception&lt;br&gt;commande" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o2-LF"><mxGeometry x="320" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-f2" value="Fabrication&lt;br&gt;(moule/série)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o2-LF"><mxGeometry x="490" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-f3" value="CQ usine&lt;br&gt;(autocontrôle)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o2-LF"><mxGeometry x="660" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-f4" value="Préparation&lt;br&gt;expédition" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o2-LF"><mxGeometry x="1000" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-af1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-r1" target="o2-f1" parent="1"/>
+        <mxCell id="o2-af2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-f1" target="o2-f2" parent="1"/>
+        <mxCell id="o2-af3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-f2" target="o2-f3" parent="1"/>
+        <mxCell id="o2-af4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-f3" target="o2-r3" parent="1"/>
+        <mxCell id="o2-af5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o2-r4" target="o2-f4" parent="1"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-O3" name="O3 – Logistique & Livraison (Optimisé)">
+    <mxGraphModel dx="1422" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Navigation retour -->
+        <UserObject label="⬅ Vue d'ensemble" link="data:page/id,page-overview" id="o3-back">
+          <mxCell style="text;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="10" y="10" width="140" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o3-title" value="&lt;b&gt;O3 – Logistique &amp; Livraison (OPTIMISÉ)&lt;/b&gt;&lt;br&gt;PRO-LOG-001 | Clause 8.5.4 / 8.6" style="text;html=1;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1"><mxGeometry x="200" y="10" width="500" height="40" as="geometry"/></mxCell>
+        <!-- Swimlane Client -->
+        <mxCell id="o3-LC" value="&lt;b&gt;CLIENT&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1560" height="120" as="geometry"/></mxCell>
+        <mxCell id="o3-start" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00CC00;strokeColor=#006600;aspect=fixed;" vertex="1" parent="o3-LC"><mxGeometry x="150" y="30" width="40" height="40" as="geometry"/></mxCell>
+        <mxCell id="o3-c1" value="Commande&lt;br&gt;validée (O2)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o3-LC"><mxGeometry x="220" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-c2" value="Réception&lt;br&gt;marchandise" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o3-LC"><mxGeometry x="1050" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-c3" value="&lt;b&gt;Confirmation&lt;br&gt;réception&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=2;" vertex="1" parent="o3-LC"><mxGeometry x="1200" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-a0" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-start" target="o3-c1" parent="o3-LC"/>
+        <mxCell id="o3-ac2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-c2" target="o3-c3" parent="o3-LC"/>
+        <!-- Swimlane Roxane -->
+        <mxCell id="o3-LR" value="&lt;b&gt;ROXANE&lt;br&gt;(Resp. Logistique&lt;br&gt;&amp; Qualité)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="180" width="1560" height="230" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Arbre décision transport -->
+        <mxCell id="o3-arbre" value="&lt;b&gt;OPT&lt;/b&gt; Arbre décision&lt;br&gt;transport :&lt;br&gt;• Poids &gt;500kg → maritime&lt;br&gt;• Urgent → aérien&lt;br&gt;• Standard → ECAM route&lt;br&gt;• Fragile → emballage renforcé" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="o3-LR"><mxGeometry x="150" y="120" width="170" height="90" as="geometry"/></mxCell>
+        <mxCell id="o3-r1" value="Organiser&lt;br&gt;transport&lt;br&gt;(mode, tarif)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o3-LR"><mxGeometry x="160" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="o3-r2" value="Préparer docs&lt;br&gt;export" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o3-LR"><mxGeometry x="320" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Gate 7 docs -->
+        <mxCell id="o3-gate-doc" value="&lt;b&gt;OPT&lt;/b&gt;&lt;br&gt;7 docs&lt;br&gt;complets ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=9;" vertex="1" parent="o3-LR"><mxGeometry x="470" y="15" width="110" height="80" as="geometry"/></mxCell>
+        <mxCell id="o3-docs-list" value="① Facture ② Packing list&lt;br&gt;③ B/L ou AWB ④ CoO&lt;br&gt;⑤ Cert. qualité ⑥ Douane&lt;br&gt;⑦ Instructions spéciales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=7;" vertex="1" parent="o3-LR"><mxGeometry x="460" y="110" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="o3-r3" value="Suivi tracking&lt;br&gt;(n° container/AWB)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o3-LR"><mxGeometry x="620" y="25" width="130" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Alerte délai -->
+        <mxCell id="o3-alerte" value="&lt;b&gt;OPT&lt;/b&gt; Alerte si&lt;br&gt;retard &gt;3j&lt;br&gt;→ Info client&lt;br&gt;→ Plan B transport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="o3-LR"><mxGeometry x="630" y="120" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="o3-r4" value="Dédouanement&lt;br&gt;&amp; livraison" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o3-LR"><mxGeometry x="800" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="o3-r5" value="Vérification&lt;br&gt;réception" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o3-LR"><mxGeometry x="960" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <!-- Gate NC -->
+        <mxCell id="o3-gate-nc" value="NC&lt;br&gt;détectée ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="o3-LR"><mxGeometry x="1200" y="15" width="110" height="80" as="geometry"/></mxCell>
+        <!-- Link O4 -->
+        <UserObject label="→ O4 NC" link="data:page/id,page-O4" id="o3-toO4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=10;" vertex="1" parent="o3-LR"><mxGeometry x="1200" y="120" width="100" height="40" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o3-r6" value="Facturation&lt;br&gt;client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o3-LR"><mxGeometry x="1370" y="25" width="100" height="60" as="geometry"/></mxCell>
+        <mxCell id="o3-end" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#CC0000;strokeWidth=3;aspect=fixed;" vertex="1" parent="o3-LR"><mxGeometry x="1470" y="35" width="35" height="35" as="geometry"/></mxCell>
+        <!-- Arrows Roxane -->
+        <mxCell id="o3-a1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-c1" target="o3-r1" parent="1"/>
+        <mxCell id="o3-a2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-r1" target="o3-r2" parent="1"/>
+        <mxCell id="o3-a3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-r2" target="o3-gate-doc" parent="1"/>
+        <mxCell id="o3-a3b" value="Non → compléter" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="o3-gate-doc" target="o3-r2" parent="1"/>
+        <mxCell id="o3-a4" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-gate-doc" target="o3-r3" parent="1"/>
+        <mxCell id="o3-a5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-r3" target="o3-r4" parent="1"/>
+        <mxCell id="o3-a6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-r4" target="o3-r5" parent="1"/>
+        <mxCell id="o3-a7" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-r5" target="o3-c2" parent="1"/>
+        <mxCell id="o3-a8" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-c3" target="o3-gate-nc" parent="1"/>
+        <mxCell id="o3-a9" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-gate-nc" target="o3-toO4" parent="1"/>
+        <mxCell id="o3-a10" value="Non" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-gate-nc" target="o3-r6" parent="1"/>
+        <mxCell id="o3-a11" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-r6" target="o3-end" parent="1"/>
+        <!-- Swimlane Transporteur -->
+        <mxCell id="o3-LT" value="&lt;b&gt;TRANSPORTEUR&lt;br&gt;(ECAM / Sofia)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="410" width="1560" height="110" as="geometry"/></mxCell>
+        <mxCell id="o3-t1" value="Prise en charge&lt;br&gt;marchandise" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o3-LT"><mxGeometry x="320" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-t2" value="Transit&lt;br&gt;international" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o3-LT"><mxGeometry x="620" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-t3" value="Livraison&lt;br&gt;finale" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="o3-LT"><mxGeometry x="800" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-at1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-r2" target="o3-t1" parent="1"/>
+        <mxCell id="o3-at2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-t1" target="o3-t2" parent="1"/>
+        <mxCell id="o3-at3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-t2" target="o3-t3" parent="1"/>
+        <mxCell id="o3-at4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-t3" target="o3-r4" parent="1"/>
+        <!-- Swimlane Fournisseur -->
+        <mxCell id="o3-LF" value="&lt;b&gt;FOURNISSEUR&lt;br&gt;(Yuyao / Oukailuo)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="520" width="1560" height="110" as="geometry"/></mxCell>
+        <mxCell id="o3-f1" value="Emballage&lt;br&gt;&amp; étiquetage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o3-LF"><mxGeometry x="160" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-f2" value="Remise&lt;br&gt;transporteur" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o3-LF"><mxGeometry x="320" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-af1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-r1" target="o3-f1" parent="1"/>
+        <mxCell id="o3-af2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-f1" target="o3-f2" parent="1"/>
+        <mxCell id="o3-af3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o3-f2" target="o3-t1" parent="1"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-O4" name="O4 – Contrôle Qualité & NC (Optimisé)">
+    <mxGraphModel dx="1422" dy="850" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="1000" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Navigation retour -->
+        <UserObject label="⬅ Vue d'ensemble" link="data:page/id,page-overview" id="o4-back">
+          <mxCell style="text;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="10" y="10" width="140" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o4-title" value="&lt;b&gt;O4 – Contrôle Qualité &amp; Non-Conformités (OPTIMISÉ)&lt;/b&gt;&lt;br&gt;PRO-NCF-001 / PRO-ACR-001 | Clauses 8.7 / 10.2" style="text;html=1;align=center;fontSize=14;fillColor=#dae8fc;strokeColor=#6c8ebf;rounded=1;" vertex="1" parent="1"><mxGeometry x="200" y="10" width="550" height="40" as="geometry"/></mxCell>
+        <!-- Swimlane Client -->
+        <mxCell id="o4-LC" value="&lt;b&gt;CLIENT&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1560" height="110" as="geometry"/></mxCell>
+        <mxCell id="o4-start" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00CC00;strokeColor=#006600;aspect=fixed;" vertex="1" parent="o4-LC"><mxGeometry x="150" y="30" width="40" height="40" as="geometry"/></mxCell>
+        <mxCell id="o4-c1" value="Signalement NC&lt;br&gt;(réclamation,&lt;br&gt;retour, défaut)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o4-LC"><mxGeometry x="220" y="20" width="130" height="60" as="geometry"/></mxCell>
+        <mxCell id="o4-c2" value="Information&lt;br&gt;traitement client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="o4-LC"><mxGeometry x="1050" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="o4-a0" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-start" target="o4-c1" parent="o4-LC"/>
+        <!-- Swimlane Roxane -->
+        <mxCell id="o4-LR" value="&lt;b&gt;ROXANE&lt;br&gt;(Resp. Qualité)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="170" width="1560" height="280" as="geometry"/></mxCell>
+        <mxCell id="o4-r1" value="Enregistrer NC&lt;br&gt;(REG-NCF-001&lt;br&gt;FileMaker)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o4-LR"><mxGeometry x="150" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Matrice sévérité -->
+        <mxCell id="o4-severite" value="&lt;b&gt;OPT&lt;/b&gt; Matrice sévérité&lt;br&gt;┌──────┬────────┐&lt;br&gt;│Mineure│ Corr. simple│&lt;br&gt;│Majeure│ AC + 5 Pq│&lt;br&gt;│Critique│ Blocage lot│&lt;br&gt;└──────┴────────┘" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=7;align=left;" vertex="1" parent="o4-LR"><mxGeometry x="140" y="110" width="150" height="90" as="geometry"/></mxCell>
+        <mxCell id="o4-r2" value="Analyse cause&lt;br&gt;racine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o4-LR"><mxGeometry x="320" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: 5 Pourquoi explicite -->
+        <mxCell id="o4-5pq" value="&lt;b&gt;OPT&lt;/b&gt; 5 Pourquoi&lt;br&gt;① Pourquoi NC ?&lt;br&gt;② Pourquoi cause ?&lt;br&gt;③ Pourquoi pas détecté ?&lt;br&gt;④ Pourquoi processus ?&lt;br&gt;⑤ Pourquoi système ?" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=7;" vertex="1" parent="o4-LR"><mxGeometry x="310" y="110" width="150" height="90" as="geometry"/></mxCell>
+        <mxCell id="o4-r3" value="Correction&lt;br&gt;immédiate&lt;br&gt;(traitement NC)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o4-LR"><mxGeometry x="500" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="o4-gate1" value="Sévérité ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="o4-LR"><mxGeometry x="660" y="15" width="110" height="80" as="geometry"/></mxCell>
+        <mxCell id="o4-minor" value="Mineure:&lt;br&gt;Clôture&lt;br&gt;directe" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=9;" vertex="1" parent="o4-LR"><mxGeometry x="670" y="120" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="o4-r4" value="Action corrective&lt;br&gt;(PRO-ACR-001)&lt;br&gt;Plan d'action" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o4-LR"><mxGeometry x="820" y="25" width="130" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Prévention → retour O2 -->
+        <mxCell id="o4-prev" value="&lt;b&gt;OPT&lt;/b&gt; Prévention&lt;br&gt;→ Mise à jour&lt;br&gt;specs fournisseur&lt;br&gt;→ Retour O2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="o4-LR"><mxGeometry x="830" y="120" width="120" height="70" as="geometry"/></mxCell>
+        <UserObject label="← Retour O2" link="data:page/id,page-O2" id="o4-retO2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=8;" vertex="1" parent="o4-LR"><mxGeometry x="830" y="200" width="100" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o4-r5" value="Vérifier&lt;br&gt;efficacité" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o4-LR"><mxGeometry x="1000" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Gate efficacité 1-3 mois -->
+        <mxCell id="o4-gate2" value="&lt;b&gt;OPT&lt;/b&gt;&lt;br&gt;Efficace&lt;br&gt;(1-3 mois) ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=9;" vertex="1" parent="o4-LR"><mxGeometry x="1150" y="15" width="120" height="80" as="geometry"/></mxCell>
+        <mxCell id="o4-reboucle" value="Rebouclage&lt;br&gt;analyse" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="o4-LR"><mxGeometry x="1160" y="120" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="o4-r6" value="Clôture NC&lt;br&gt;&amp; archivage" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="o4-LR"><mxGeometry x="1320" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <!-- Link M2 escalade -->
+        <UserObject label="↗ M2 Amélioration" link="data:page/id,page-M2" id="o4-toM2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;fontSize=9;" vertex="1" parent="o4-LR"><mxGeometry x="1320" y="120" width="120" height="35" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o4-end" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#CC0000;strokeWidth=3;aspect=fixed;" vertex="1" parent="o4-LR"><mxGeometry x="1460" y="35" width="35" height="35" as="geometry"/></mxCell>
+        <!-- Arrows Roxane -->
+        <mxCell id="o4-a1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-c1" target="o4-r1" parent="1"/>
+        <mxCell id="o4-a2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-r1" target="o4-r2" parent="1"/>
+        <mxCell id="o4-a3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-r2" target="o4-r3" parent="1"/>
+        <mxCell id="o4-a4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-r3" target="o4-gate1" parent="1"/>
+        <mxCell id="o4-a5" value="Mineure" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-gate1" target="o4-minor" parent="1"/>
+        <mxCell id="o4-a5b" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="o4-minor" target="o4-r5" parent="1"/>
+        <mxCell id="o4-a6" value="Majeure/Critique" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-gate1" target="o4-r4" parent="1"/>
+        <mxCell id="o4-a7" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-r4" target="o4-r5" parent="1"/>
+        <mxCell id="o4-a8" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-r5" target="o4-c2" parent="1"/>
+        <mxCell id="o4-a8b" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-r5" target="o4-gate2" parent="1"/>
+        <mxCell id="o4-a9" value="Non" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-gate2" target="o4-reboucle" parent="1"/>
+        <mxCell id="o4-a9b" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="o4-reboucle" target="o4-r2" parent="1"/>
+        <mxCell id="o4-a10" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-gate2" target="o4-r6" parent="1"/>
+        <mxCell id="o4-a11" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-r6" target="o4-end" parent="1"/>
+        <!-- Swimlane Fournisseur -->
+        <mxCell id="o4-LF" value="&lt;b&gt;FOURNISSEUR&lt;br&gt;(Yuyao / Oukailuo)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="450" width="1560" height="110" as="geometry"/></mxCell>
+        <mxCell id="o4-f1" value="Analyse&lt;br&gt;interne usine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o4-LF"><mxGeometry x="320" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o4-f2" value="Mise en œuvre&lt;br&gt;correction usine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="o4-LF"><mxGeometry x="820" y="25" width="130" height="50" as="geometry"/></mxCell>
+        <mxCell id="o4-af1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-r2" target="o4-f1" parent="1"/>
+        <mxCell id="o4-af2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-f1" target="o4-r2" parent="1"/>
+        <mxCell id="o4-af3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="o4-r4" target="o4-f2" parent="1"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-S1" name="S1 – Gestion Documentaire (Optimisé)">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Navigation retour -->
+        <UserObject label="⬅ Vue d'ensemble" link="data:page/id,page-overview" id="s1-back">
+          <mxCell style="text;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="10" y="10" width="140" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="s1-title" value="&lt;b&gt;S1 – Gestion Documentaire (OPTIMISÉ)&lt;/b&gt;&lt;br&gt;PRO-DOC-001 | Clause 7.5" style="text;html=1;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1"><mxGeometry x="200" y="10" width="450" height="40" as="geometry"/></mxCell>
+        <!-- Swimlane Roxane -->
+        <mxCell id="s1-LR" value="&lt;b&gt;ROXANE&lt;br&gt;(Resp. Qualité&lt;br&gt;&amp; Documents)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1560" height="240" as="geometry"/></mxCell>
+        <mxCell id="s1-start" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00CC00;strokeColor=#006600;aspect=fixed;" vertex="1" parent="s1-LR"><mxGeometry x="150" y="30" width="40" height="40" as="geometry"/></mxCell>
+        <mxCell id="s1-r1" value="Créer/Modifier&lt;br&gt;document&lt;br&gt;(modèle SMQ)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s1-LR"><mxGeometry x="230" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Cycle de vie -->
+        <mxCell id="s1-cycle" value="&lt;b&gt;OPT&lt;/b&gt; Cycle de vie :&lt;br&gt;Brouillon → Revue&lt;br&gt;→ Approuvé → Actif&lt;br&gt;→ Obsolète → Archivé" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="s1-LR"><mxGeometry x="220" y="110" width="150" height="70" as="geometry"/></mxCell>
+        <mxCell id="s1-r2" value="Revue &amp;&lt;br&gt;approbation&lt;br&gt;(Roxane)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s1-LR"><mxGeometry x="400" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Versionnage -->
+        <mxCell id="s1-version" value="&lt;b&gt;OPT&lt;/b&gt; Versionnage&lt;br&gt;• Majeur: 1.0 → 2.0&lt;br&gt;  (changement fond)&lt;br&gt;• Mineur: 1.0 → 1.1&lt;br&gt;  (correction forme)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=7;" vertex="1" parent="s1-LR"><mxGeometry x="390" y="110" width="140" height="80" as="geometry"/></mxCell>
+        <mxCell id="s1-r3" value="Codification&lt;br&gt;&amp; indexation&lt;br&gt;(LST-DOC-001)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s1-LR"><mxGeometry x="560" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s1-r4" value="Diffusion&lt;br&gt;(Cloud / PDF)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s1-LR"><mxGeometry x="730" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s1-r5" value="Archivage&lt;br&gt;Cloud sécurisé" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s1-LR"><mxGeometry x="890" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s1-r6" value="Revue annuelle&lt;br&gt;(revue direction)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s1-LR"><mxGeometry x="1060" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s1-gate" value="Doc&lt;br&gt;à jour ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s1-LR"><mxGeometry x="1230" y="15" width="100" height="80" as="geometry"/></mxCell>
+        <mxCell id="s1-end" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#CC0000;strokeWidth=3;aspect=fixed;" vertex="1" parent="s1-LR"><mxGeometry x="1400" y="30" width="35" height="35" as="geometry"/></mxCell>
+        <!-- Arrows -->
+        <mxCell id="s1-a0" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-start" target="s1-r1" parent="s1-LR"/>
+        <mxCell id="s1-a1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-r1" target="s1-r2" parent="s1-LR"/>
+        <mxCell id="s1-a2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-r2" target="s1-r3" parent="s1-LR"/>
+        <mxCell id="s1-a3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-r3" target="s1-r4" parent="s1-LR"/>
+        <mxCell id="s1-a4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-r4" target="s1-r5" parent="s1-LR"/>
+        <mxCell id="s1-a5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-r5" target="s1-r6" parent="s1-LR"/>
+        <mxCell id="s1-a6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-r6" target="s1-gate" parent="s1-LR"/>
+        <mxCell id="s1-a7" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-gate" target="s1-end" parent="s1-LR"/>
+        <mxCell id="s1-a8" value="Non → réviser" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="s1-gate" target="s1-r1" parent="s1-LR"/>
+        <!-- Swimlane Systèmes -->
+        <mxCell id="s1-LS" value="&lt;b&gt;SYSTÈMES&lt;br&gt;(Cloud / Gramatec)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="300" width="1560" height="140" as="geometry"/></mxCell>
+        <mxCell id="s1-sys1" value="Stockage&lt;br&gt;Cloud" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s1-LS"><mxGeometry x="730" y="20" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="s1-sys2" value="Backup&lt;br&gt;Gramatec SA" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s1-LS"><mxGeometry x="890" y="20" width="110" height="50" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Test restauration -->
+        <mxCell id="s1-test" value="&lt;b&gt;OPT&lt;/b&gt; Test restauration&lt;br&gt;backup semestriel&lt;br&gt;(Gramatec SA)&lt;br&gt;→ PV de test" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="s1-LS"><mxGeometry x="1060" y="20" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="s1-as1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-r4" target="s1-sys1" parent="1"/>
+        <mxCell id="s1-as2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s1-r5" target="s1-sys2" parent="1"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-S2" name="S2 – Compétences & Formation (Optimisé)">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Navigation retour -->
+        <UserObject label="⬅ Vue d'ensemble" link="data:page/id,page-overview" id="s2-back">
+          <mxCell style="text;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="10" y="10" width="140" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="s2-title" value="&lt;b&gt;S2 – Compétences &amp; Formation (OPTIMISÉ)&lt;/b&gt;&lt;br&gt;Clause 7.2 / 7.3" style="text;html=1;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1"><mxGeometry x="200" y="10" width="450" height="40" as="geometry"/></mxCell>
+        <!-- Swimlane Direction -->
+        <mxCell id="s2-LD" value="&lt;b&gt;DIRECTION&lt;br&gt;(Roxane)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1560" height="230" as="geometry"/></mxCell>
+        <mxCell id="s2-start" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00CC00;strokeColor=#006600;aspect=fixed;" vertex="1" parent="s2-LD"><mxGeometry x="150" y="30" width="40" height="40" as="geometry"/></mxCell>
+        <mxCell id="s2-r1" value="Identifier besoins&lt;br&gt;compétences" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2-LD"><mxGeometry x="230" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Matrice 7 domaines -->
+        <mxCell id="s2-matrice" value="&lt;b&gt;OPT&lt;/b&gt; Matrice 7 domaines&lt;br&gt;① Qualité ISO 9001&lt;br&gt;② Achats internationaux&lt;br&gt;③ Logistique / douane&lt;br&gt;④ Communication Chine&lt;br&gt;⑤ Contrôle qualité&lt;br&gt;⑥ Gestion documentaire&lt;br&gt;⑦ Outils (FM, Cloud)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=7;" vertex="1" parent="s2-LD"><mxGeometry x="210" y="110" width="160" height="100" as="geometry"/></mxCell>
+        <mxCell id="s2-r2" value="Évaluer&lt;br&gt;compétences&lt;br&gt;actuelles" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2-LD"><mxGeometry x="400" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-gate" value="Écart ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s2-LD"><mxGeometry x="540" y="15" width="100" height="80" as="geometry"/></mxCell>
+        <mxCell id="s2-r3" value="Plan formation&lt;br&gt;(interne/externe)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2-LD"><mxGeometry x="690" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-r4" value="Réaliser&lt;br&gt;formation" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2-LD"><mxGeometry x="860" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-r5" value="Évaluer&lt;br&gt;efficacité" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2-LD"><mxGeometry x="1020" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Évaluation partenaires -->
+        <mxCell id="s2-eval" value="&lt;b&gt;OPT&lt;/b&gt; Évaluation&lt;br&gt;partenaires incluse&lt;br&gt;(Yuyao: qualité produit&lt;br&gt;ECAM: délai livraison&lt;br&gt;Paradiso: conformité)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=7;" vertex="1" parent="s2-LD"><mxGeometry x="1000" y="110" width="150" height="80" as="geometry"/></mxCell>
+        <mxCell id="s2-r6" value="Sensibilisation&lt;br&gt;qualité&lt;br&gt;(partenaires)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2-LD"><mxGeometry x="1180" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-r7" value="Documenter&lt;br&gt;(REG-FOR-001)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s2-LD"><mxGeometry x="1350" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-end" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#CC0000;strokeWidth=3;aspect=fixed;" vertex="1" parent="s2-LD"><mxGeometry x="1490" y="35" width="35" height="35" as="geometry"/></mxCell>
+        <!-- Arrows -->
+        <mxCell id="s2-a0" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-start" target="s2-r1" parent="s2-LD"/>
+        <mxCell id="s2-a1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-r1" target="s2-r2" parent="s2-LD"/>
+        <mxCell id="s2-a2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-r2" target="s2-gate" parent="s2-LD"/>
+        <mxCell id="s2-a3" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-gate" target="s2-r3" parent="s2-LD"/>
+        <mxCell id="s2-a3b" value="Non → OK" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-gate" target="s2-r6" parent="s2-LD"/>
+        <mxCell id="s2-a4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-r3" target="s2-r4" parent="s2-LD"/>
+        <mxCell id="s2-a5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-r4" target="s2-r5" parent="s2-LD"/>
+        <mxCell id="s2-a6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-r5" target="s2-r6" parent="s2-LD"/>
+        <mxCell id="s2-a7" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-r6" target="s2-r7" parent="s2-LD"/>
+        <mxCell id="s2-a8" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s2-r7" target="s2-end" parent="s2-LD"/>
+        <!-- Swimlane Formations -->
+        <mxCell id="s2-LF" value="&lt;b&gt;FORMATIONS&lt;br&gt;(Ressources)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="290" width="1560" height="110" as="geometry"/></mxCell>
+        <mxCell id="s2-f1" value="Veille&lt;br&gt;normative&lt;br&gt;(ISO, douane)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s2-LF"><mxGeometry x="690" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="s2-f2" value="Autoformation&lt;br&gt;(webinaires,&lt;br&gt;documentation)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s2-LF"><mxGeometry x="860" y="25" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="s2-f3" value="Certification&lt;br&gt;externe (SQS)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s2-LF"><mxGeometry x="1020" y="25" width="110" height="50" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="page-S3" name="S3 – Ressources & Infrastructure (Optimisé)">
+    <mxGraphModel dx="1422" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1600" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <!-- Navigation retour -->
+        <UserObject label="⬅ Vue d'ensemble" link="data:page/id,page-overview" id="s3-back">
+          <mxCell style="text;html=1;fontSize=11;fontStyle=1;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;whiteSpace=wrap;" vertex="1" parent="1"><mxGeometry x="10" y="10" width="140" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="s3-title" value="&lt;b&gt;S3 – Ressources &amp; Infrastructure (OPTIMISÉ)&lt;/b&gt;&lt;br&gt;Clause 7.1" style="text;html=1;align=center;fontSize=14;fillColor=#fff2cc;strokeColor=#d6b656;rounded=1;" vertex="1" parent="1"><mxGeometry x="200" y="10" width="450" height="40" as="geometry"/></mxCell>
+        <!-- Swimlane Direction -->
+        <mxCell id="s3-LD" value="&lt;b&gt;DIRECTION&lt;br&gt;(Roxane)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1560" height="220" as="geometry"/></mxCell>
+        <mxCell id="s3-start" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#00CC00;strokeColor=#006600;aspect=fixed;" vertex="1" parent="s3-LD"><mxGeometry x="150" y="30" width="40" height="40" as="geometry"/></mxCell>
+        <mxCell id="s3-r1" value="Identifier&lt;br&gt;ressources&lt;br&gt;nécessaires" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s3-LD"><mxGeometry x="230" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s3-r2" value="Allouer&lt;br&gt;budget &amp;&lt;br&gt;ressources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s3-LD"><mxGeometry x="400" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s3-r3" value="Maintenir&lt;br&gt;infrastructure&lt;br&gt;(bureau, IT)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s3-LD"><mxGeometry x="560" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s3-r4" value="Environnement&lt;br&gt;de travail&lt;br&gt;(ergonomie)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s3-LD"><mxGeometry x="730" y="25" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s3-r5" value="Gérer&lt;br&gt;prestataires&lt;br&gt;externes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s3-LD"><mxGeometry x="900" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Plan continuité -->
+        <mxCell id="s3-pca" value="&lt;b&gt;OPT&lt;/b&gt; Plan continuité&lt;br&gt;activité (PCA)&lt;br&gt;• Panne FM → Cloud&lt;br&gt;• Panne Cloud → Gramatec&lt;br&gt;• Panne fournisseur → ?&lt;br&gt;• Pandémie → télétravail" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=7;" vertex="1" parent="s3-LD"><mxGeometry x="550" y="110" width="160" height="95" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Dépendances critiques -->
+        <mxCell id="s3-dep" value="&lt;b&gt;OPT&lt;/b&gt; Dépendances&lt;br&gt;critiques :&lt;br&gt;FileMaker → Cloud&lt;br&gt;→ Gramatec SA&lt;br&gt;(chaîne backup)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;dashed=1;fontSize=8;" vertex="1" parent="s3-LD"><mxGeometry x="880" y="110" width="140" height="80" as="geometry"/></mxCell>
+        <mxCell id="s3-r6" value="Revue&lt;br&gt;annuelle&lt;br&gt;ressources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="s3-LD"><mxGeometry x="1060" y="25" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s3-gate" value="Ressources&lt;br&gt;suffisantes ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=9;" vertex="1" parent="s3-LD"><mxGeometry x="1220" y="15" width="120" height="80" as="geometry"/></mxCell>
+        <mxCell id="s3-end" value="" style="ellipse;whiteSpace=wrap;html=1;fillColor=#FF0000;strokeColor=#CC0000;strokeWidth=3;aspect=fixed;" vertex="1" parent="s3-LD"><mxGeometry x="1430" y="30" width="35" height="35" as="geometry"/></mxCell>
+        <!-- Arrows -->
+        <mxCell id="s3-a0" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s3-start" target="s3-r1" parent="s3-LD"/>
+        <mxCell id="s3-a1" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s3-r1" target="s3-r2" parent="s3-LD"/>
+        <mxCell id="s3-a2" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s3-r2" target="s3-r3" parent="s3-LD"/>
+        <mxCell id="s3-a3" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s3-r3" target="s3-r4" parent="s3-LD"/>
+        <mxCell id="s3-a4" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s3-r4" target="s3-r5" parent="s3-LD"/>
+        <mxCell id="s3-a5" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s3-r5" target="s3-r6" parent="s3-LD"/>
+        <mxCell id="s3-a6" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s3-r6" target="s3-gate" parent="s3-LD"/>
+        <mxCell id="s3-a7" value="Oui" style="edgeStyle=orthogonalEdgeStyle;" edge="1" source="s3-gate" target="s3-end" parent="s3-LD"/>
+        <mxCell id="s3-a8" value="Non → ajuster" style="edgeStyle=orthogonalEdgeStyle;dashed=1;" edge="1" source="s3-gate" target="s3-r2" parent="s3-LD"/>
+        <!-- Swimlane Infrastructure -->
+        <mxCell id="s3-LI" value="&lt;b&gt;INFRASTRUCTURE&lt;br&gt;(Outils &amp; IT)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="280" width="1560" height="130" as="geometry"/></mxCell>
+        <mxCell id="s3-i1" value="FileMaker&lt;br&gt;(ERP/CRM)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s3-LI"><mxGeometry x="230" y="25" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="s3-i2" value="Cloud&lt;br&gt;(stockage)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s3-LI"><mxGeometry x="400" y="25" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="s3-i3" value="Email&lt;br&gt;professionnel" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s3-LI"><mxGeometry x="560" y="25" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="s3-i4" value="WeChat&lt;br&gt;(comm. Chine)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s3-LI"><mxGeometry x="730" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="s3-i5" value="Gramatec SA&lt;br&gt;(backup)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="s3-LI"><mxGeometry x="900" y="25" width="110" height="50" as="geometry"/></mxCell>
+        <!-- OPTIMISATION: Chaîne dépendances avec flèches -->
+        <mxCell id="s3-chain1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9673a6;strokeWidth=2;dashed=1;" edge="1" source="s3-i1" target="s3-i2" parent="s3-LI"/>
+        <mxCell id="s3-chain2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#9673a6;strokeWidth=2;dashed=1;" edge="1" source="s3-i2" target="s3-i5" parent="s3-LI"/>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
