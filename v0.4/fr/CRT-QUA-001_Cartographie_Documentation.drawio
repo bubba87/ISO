@@ -1,0 +1,532 @@
+<mxfile host="app.diagrams.net" modified="2026-02-23T10:00:00.000Z" agent="Plus Sàrl SMQ ISO 9001" version="24.0.0" type="device">
+
+  <!-- ======================== PAGE VUE D'ENSEMBLE ======================== -->
+  <diagram id="page-overview" name="Vue d'ensemble">
+    <mxGraphModel dx="1900" dy="1100" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1900" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <mxCell id="title" value="&lt;b&gt;CARTOGRAPHIE DES PROCESSUS — SMQ ISO 9001:2015&lt;/b&gt;&lt;br&gt;Plus Sàrl — Coordination industrielle Chine-Europe — IDE: CH-645.4.101.228-7&lt;br&gt;&lt;i&gt;Version Documentation — Fidèle aux procédures existantes&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;strokeColor=none;fillColor=none;fontSize=14;" vertex="1" parent="1">
+          <mxGeometry x="450" y="10" width="900" height="60" as="geometry"/>
+        </mxCell>
+        <mxCell id="exig" value="&lt;b&gt;EXIGENCES&lt;br&gt;CLIENTS&lt;/b&gt;&lt;br&gt;&lt;i&gt;~10 clients EU&lt;br&gt;50-100 cmd/an&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="20" y="370" width="150" height="100" as="geometry"/>
+        </mxCell>
+        <mxCell id="satis" value="&lt;b&gt;SATISFACTION&lt;br&gt;CLIENTS&lt;/b&gt;&lt;br&gt;&lt;i&gt;Certification SQS&lt;br&gt;Amélioration&lt;/i&gt;" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1700" y="370" width="150" height="100" as="geometry"/>
+        </mxCell>
+        <!-- MANAGEMENT BAND -->
+        <mxCell id="mgmt-lane" value="&lt;b&gt;PROCESSUS DE MANAGEMENT&lt;/b&gt;" style="swimlane;horizontal=1;startSize=30;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=12;fontStyle=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="90" width="1490" height="150" as="geometry"/>
+        </mxCell>
+        <UserObject label="&lt;b&gt;M1&lt;/b&gt;&lt;br&gt;Leadership&lt;br&gt;&lt;i&gt;(5.1-5.3, 6.3)&lt;/i&gt;" link="data:page/id,page-m1" id="ov-m1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;" vertex="1" parent="mgmt-lane">
+            <mxGeometry x="80" y="45" width="200" height="70" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;M2&lt;/b&gt;&lt;br&gt;Amélioration Continue&lt;br&gt;&lt;i&gt;(10.1-10.3) PDCA&lt;/i&gt;" link="data:page/id,page-m2" id="ov-m2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;" vertex="1" parent="mgmt-lane">
+            <mxGeometry x="440" y="45" width="220" height="70" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;M3&lt;/b&gt;&lt;br&gt;Revue de Direction&lt;br&gt;&lt;i&gt;(9.3) FOR-RDR-001&lt;/i&gt;" link="data:page/id,page-m3" id="ov-m3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;shadow=1;" vertex="1" parent="mgmt-lane">
+            <mxGeometry x="880" y="45" width="220" height="70" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;" edge="1" source="ov-m1" target="ov-m2" parent="mgmt-lane"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;" edge="1" source="ov-m2" target="ov-m3" parent="mgmt-lane"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- OPERATIONAL BAND -->
+        <mxCell id="op-lane" value="&lt;b&gt;PROCESSUS OPÉRATIONNELS&lt;/b&gt;" style="swimlane;horizontal=1;startSize=30;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=12;fontStyle=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="280" width="1490" height="200" as="geometry"/>
+        </mxCell>
+        <UserObject label="&lt;b&gt;O1&lt;/b&gt;&lt;br&gt;Commercial&lt;br&gt;&lt;i&gt;(8.2)&lt;/i&gt;&lt;br&gt;Revue commande" link="data:page/id,page-o1" id="ov-o1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;shadow=1;" vertex="1" parent="op-lane">
+            <mxGeometry x="30" y="50" width="180" height="100" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;O2&lt;/b&gt;&lt;br&gt;Achats &amp;amp;&lt;br&gt;Sous-traitance&lt;br&gt;&lt;i&gt;(8.4) Yuyao/Oukailuo&lt;/i&gt;" link="data:page/id,page-o2" id="ov-o2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;shadow=1;" vertex="1" parent="op-lane">
+            <mxGeometry x="310" y="50" width="210" height="100" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;O3&lt;/b&gt;&lt;br&gt;Logistique &amp;amp;&lt;br&gt;Livraison&lt;br&gt;&lt;i&gt;(8.5/8.6) Air/Mer/Rail&lt;/i&gt;" link="data:page/id,page-o3" id="ov-o3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;shadow=1;" vertex="1" parent="op-lane">
+            <mxGeometry x="630" y="50" width="210" height="100" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;O4&lt;/b&gt;&lt;br&gt;Contrôle Qualité&lt;br&gt;&lt;i&gt;(8.7/10.2)&lt;/i&gt;&lt;br&gt;NC + AC" link="data:page/id,page-o4" id="ov-o4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;shadow=1;" vertex="1" parent="op-lane">
+            <mxGeometry x="970" y="50" width="180" height="100" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="exig" target="ov-o1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="ov-o1" target="ov-o2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="ov-o2" target="ov-o3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="ov-o3" target="ov-o4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#82b366;strokeWidth=2;" edge="1" source="ov-o4" target="satis" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Feedback O4→O1 -->
+        <mxCell id="fb" value="Retour qualité" style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#b85450;strokeWidth=1;dashed=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" source="ov-o4" target="ov-o1" parent="1">
+          <mxGeometry relative="1" as="geometry"><Array as="points"><mxPoint x="1250" y="500"/><mxPoint x="410" y="500"/></Array></mxGeometry>
+        </mxCell>
+        <!-- SUPPORT BAND -->
+        <mxCell id="sup-lane" value="&lt;b&gt;PROCESSUS SUPPORT&lt;/b&gt;" style="swimlane;horizontal=1;startSize=30;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=12;fontStyle=1;collapsible=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="530" width="1490" height="150" as="geometry"/>
+        </mxCell>
+        <UserObject label="&lt;b&gt;S1&lt;/b&gt;&lt;br&gt;Gestion Documentaire&lt;br&gt;&lt;i&gt;(7.5) FileMaker/Cloud&lt;/i&gt;" link="data:page/id,page-s1" id="ov-s1">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" vertex="1" parent="sup-lane">
+            <mxGeometry x="80" y="45" width="220" height="70" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;S2&lt;/b&gt;&lt;br&gt;Compétences &amp;amp;&lt;br&gt;Formations&lt;br&gt;&lt;i&gt;(7.2/7.3) FOR-CMP-001&lt;/i&gt;" link="data:page/id,page-s2" id="ov-s2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" vertex="1" parent="sup-lane">
+            <mxGeometry x="480" y="45" width="220" height="70" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <UserObject label="&lt;b&gt;S3&lt;/b&gt;&lt;br&gt;Ressources &amp;amp;&lt;br&gt;Infrastructure&lt;br&gt;&lt;i&gt;(7.1) CTX-QUA-001&lt;/i&gt;" link="data:page/id,page-s3" id="ov-s3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;shadow=1;" vertex="1" parent="sup-lane">
+            <mxGeometry x="880" y="45" width="220" height="70" as="geometry"/>
+          </mxCell>
+        </UserObject>
+        <!-- Vertical dashed arrows mgmt↔op, op↔sup -->
+        <mxCell style="endArrow=classic;startArrow=classic;rounded=1;strokeColor=#999;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="600" y="240" as="sourcePoint"/><mxPoint x="600" y="280" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell style="endArrow=classic;startArrow=classic;rounded=1;strokeColor=#999;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="600" y="480" as="sourcePoint"/><mxPoint x="600" y="530" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell style="endArrow=classic;startArrow=classic;rounded=1;strokeColor=#999;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1100" y="240" as="sourcePoint"/><mxPoint x="1100" y="280" as="targetPoint"/></mxGeometry></mxCell>
+        <mxCell style="endArrow=classic;startArrow=classic;rounded=1;strokeColor=#999;dashed=1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1100" y="480" as="sourcePoint"/><mxPoint x="1100" y="530" as="targetPoint"/></mxGeometry></mxCell>
+        <!-- Legend + version -->
+        <mxCell id="excl" value="&lt;b&gt;⛔ 8.3 Conception — EXCLUE&lt;/b&gt;&lt;br&gt;&lt;i&gt;Conceptions = propriété clients&lt;/i&gt;" style="text;html=1;align=left;fillColor=#f5f5f5;strokeColor=#666;rounded=1;fontSize=9;" vertex="1" parent="1"><mxGeometry x="20" y="700" width="200" height="40" as="geometry"/></mxCell>
+        <mxCell id="legend" value="&lt;b&gt;Légende :&lt;/b&gt; 🔵 Management | 🟢 Opérationnel | 🟡 Support | ─── Flux | --- Interaction | ◇ Décision&lt;br&gt;&lt;i&gt;Cliquer sur un processus pour voir le détail&lt;/i&gt;" style="text;html=1;align=left;fillColor=#f5f5f5;strokeColor=#999;rounded=1;fontSize=9;" vertex="1" parent="1"><mxGeometry x="20" y="750" width="450" height="40" as="geometry"/></mxCell>
+        <mxCell id="ver" value="CRT-QUA-001 v0.4 — 23/02/2026 — Plus Sàrl — Version Documentation" style="text;html=1;align=right;fillColor=none;strokeColor=none;fontSize=9;fontColor=#999;" vertex="1" parent="1"><mxGeometry x="1400" y="760" width="400" height="20" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE M1 - LEADERSHIP ======================== -->
+  <diagram id="page-m1" name="M1 - Leadership">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="m1-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="m1-title" value="&lt;b&gt;M1 — LEADERSHIP &amp;amp; STRATÉGIE&lt;/b&gt; (clauses 5.1, 5.2, 5.3, 6.3)&lt;br&gt;&lt;i&gt;Réf : M1-DIR-001, POL-QUA-001&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="350" y="10" width="600" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Direction -->
+        <mxCell id="m1-L1" value="&lt;b&gt;Direction&lt;br&gt;(Roxane Wicky&lt;br&gt;Gérante)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="260" as="geometry"/></mxCell>
+        <mxCell id="m1-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="m1-L1"><mxGeometry x="140" y="90" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell id="m1-a" value="Définir&lt;br&gt;politique qualité&lt;br&gt;&lt;i&gt;POL-QUA-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m1-L1"><mxGeometry x="230" y="75" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-b" value="Fixer objectifs&lt;br&gt;qualité&lt;br&gt;&lt;i&gt;OBJ-QUA-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m1-L1"><mxGeometry x="390" y="75" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-c" value="Attribuer&lt;br&gt;responsabilités&lt;br&gt;&lt;i&gt;(gérante unique)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m1-L1"><mxGeometry x="550" y="75" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-d" value="Allouer&lt;br&gt;ressources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m1-L1"><mxGeometry x="710" y="75" width="120" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-e" value="Planifier&lt;br&gt;modifications&lt;br&gt;&lt;i&gt;(clause 6.3)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m1-L1"><mxGeometry x="860" y="75" width="130" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-f" value="Communiquer&lt;br&gt;&amp;amp; impliquer&lt;br&gt;parties prenantes" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m1-L1"><mxGeometry x="1020" y="75" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="m1-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="m1-L1"><mxGeometry x="1200" y="90" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-start" target="m1-a" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-a" target="m1-b" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-b" target="m1-c" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-c" target="m1-d" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-d" target="m1-e" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-e" target="m1-f" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m1-f" target="m1-end" parent="m1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: SMQ -->
+        <mxCell id="m1-L2" value="&lt;b&gt;SMQ&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="320" width="1460" height="160" as="geometry"/></mxCell>
+        <mxCell id="m1-g" value="Orientation&lt;br&gt;client&lt;br&gt;&lt;i&gt;(~10 clients EU)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="m1-L2"><mxGeometry x="280" y="40" width="130" height="60" as="geometry"/></mxCell>
+        <mxCell id="m1-h" value="Approche&lt;br&gt;processus&lt;br&gt;&lt;i&gt;(cartographie)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="m1-L2"><mxGeometry x="600" y="40" width="130" height="60" as="geometry"/></mxCell>
+        <mxCell id="m1-i" value="Réflexion&lt;br&gt;par les risques&lt;br&gt;&lt;i&gt;(SWOT)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="m1-L2"><mxGeometry x="900" y="40" width="130" height="60" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#999;dashed=1;" edge="1" source="m1-a" target="m1-g" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#999;dashed=1;" edge="1" source="m1-c" target="m1-h" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#999;dashed=1;" edge="1" source="m1-d" target="m1-i" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE M2 - AMÉLIORATION ======================== -->
+  <diagram id="page-m2" name="M2 - Amélioration Continue">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="m2-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="m2-title" value="&lt;b&gt;M2 — AMÉLIORATION CONTINUE&lt;/b&gt; (clauses 10.1, 10.2, 10.3) — Cycle PDCA" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="300" y="10" width="700" height="30" as="geometry"/></mxCell>
+        <!-- Lane: Direction -->
+        <mxCell id="m2-L1" value="&lt;b&gt;Direction&lt;br&gt;(Roxane Wicky)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="350" as="geometry"/></mxCell>
+        <mxCell id="m2-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="m2-L1"><mxGeometry x="140" y="155" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell id="pdca-p" value="&lt;b&gt;PLAN&lt;/b&gt;&lt;br&gt;Analyser données&lt;br&gt;Identifier améliorations&lt;br&gt;Définir actions" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;" vertex="1" parent="m2-L1"><mxGeometry x="280" y="30" width="200" height="100" as="geometry"/></mxCell>
+        <mxCell id="pdca-d" value="&lt;b&gt;DO&lt;/b&gt;&lt;br&gt;Mettre en œuvre&lt;br&gt;AC, améliorations&lt;br&gt;Visites Chine" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;" vertex="1" parent="m2-L1"><mxGeometry x="750" y="30" width="200" height="100" as="geometry"/></mxCell>
+        <mxCell id="pdca-c" value="&lt;b&gt;CHECK&lt;/b&gt;&lt;br&gt;Vérifier efficacité&lt;br&gt;Surveiller KPIs&lt;br&gt;Audit interne" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;" vertex="1" parent="m2-L1"><mxGeometry x="750" y="210" width="200" height="100" as="geometry"/></mxCell>
+        <mxCell id="pdca-a" value="&lt;b&gt;ACT&lt;/b&gt;&lt;br&gt;Décider (RDD)&lt;br&gt;Corriger si besoin&lt;br&gt;Standardiser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=11;" vertex="1" parent="m2-L1"><mxGeometry x="280" y="210" width="200" height="100" as="geometry"/></mxCell>
+        <mxCell id="m2-end" value="FIN&lt;br&gt;&lt;i&gt;(cycle)&lt;/i&gt;" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="m2-L1"><mxGeometry x="1100" y="240" width="70" height="45" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333;strokeWidth=2;" edge="1" source="m2-start" target="pdca-p" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333;strokeWidth=2;" edge="1" source="pdca-p" target="pdca-d" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333;strokeWidth=2;" edge="1" source="pdca-d" target="pdca-c" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#333;strokeWidth=2;" edge="1" source="pdca-c" target="pdca-a" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="edgeStyle=orthogonalEdgeStyle;rounded=1;strokeColor=#6c8ebf;strokeWidth=1;dashed=1;" edge="1" source="pdca-a" target="pdca-p" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="pdca-c" target="m2-end" parent="m2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Data sources -->
+        <mxCell id="m2-L2" value="&lt;b&gt;Données /&lt;br&gt;Sources&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="410" width="1460" height="140" as="geometry"/></mxCell>
+        <mxCell id="m2-d1" value="NC/Réclamations&lt;br&gt;&lt;i&gt;PRO-NCF-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="150" y="30" width="130" height="50" as="geometry"/></mxCell>
+        <mxCell id="m2-d2" value="KPIs&lt;br&gt;&lt;i&gt;OBJ-QUA-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="310" y="30" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="m2-d3" value="Satisfaction client&lt;br&gt;&lt;i&gt;FOR-SAT-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="460" y="30" width="130" height="50" as="geometry"/></mxCell>
+        <mxCell id="m2-d4" value="Audit interne&lt;br&gt;&lt;i&gt;PRO-AUD-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="620" y="30" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell id="m2-d5" value="Éval. fournisseurs&lt;br&gt;&lt;i&gt;FOR-EVF-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="770" y="30" width="130" height="50" as="geometry"/></mxCell>
+        <mxCell id="m2-d6" value="Retours terrain&lt;br&gt;&lt;i&gt;WeChat, email&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m2-L2"><mxGeometry x="930" y="30" width="120" height="50" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE M3 - REVUE DE DIRECTION ======================== -->
+  <diagram id="page-m3" name="M3 - Revue de Direction">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="m3-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="m3-title" value="&lt;b&gt;M3 — REVUE DE DIRECTION&lt;/b&gt; (clause 9.3)&lt;br&gt;&lt;i&gt;Réf : FOR-RDR-001 — Fréquence : annuelle minimum&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="350" y="10" width="600" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Direction -->
+        <mxCell id="m3-L1" value="&lt;b&gt;Direction&lt;br&gt;(Roxane Wicky)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="220" as="geometry"/></mxCell>
+        <mxCell id="m3-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="m3-L1"><mxGeometry x="140" y="80" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell id="m3-a" value="Collecter&lt;br&gt;données&lt;br&gt;d'entrée" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m3-L1"><mxGeometry x="230" y="65" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="m3-b" value="Analyser&lt;br&gt;performances&lt;br&gt;&lt;i&gt;(KPI, NC, sat.)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m3-L1"><mxGeometry x="380" y="65" width="130" height="60" as="geometry"/></mxCell>
+        <mxCell id="m3-c" value="Prendre&lt;br&gt;décisions" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="m3-L1"><mxGeometry x="540" y="50" width="110" height="90" as="geometry"/></mxCell>
+        <mxCell id="m3-d" value="Documenter&lt;br&gt;&lt;b&gt;FOR-RDR-001&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m3-L1"><mxGeometry x="690" y="65" width="130" height="60" as="geometry"/></mxCell>
+        <mxCell id="m3-e" value="Suivi des&lt;br&gt;actions&lt;br&gt;décidées" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;fontSize=10;" vertex="1" parent="m3-L1"><mxGeometry x="860" y="65" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="m3-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="m3-L1"><mxGeometry x="1020" y="78" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-start" target="m3-a" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-a" target="m3-b" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-b" target="m3-c" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-c" target="m3-d" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-d" target="m3-e" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#6c8ebf;" edge="1" source="m3-e" target="m3-end" parent="m3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Données -->
+        <mxCell id="m3-L2" value="&lt;b&gt;Données /&lt;br&gt;Documents&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="280" width="1460" height="160" as="geometry"/></mxCell>
+        <mxCell id="m3-f" value="KPIs&lt;br&gt;&lt;i&gt;OBJ-QUA-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m3-L2"><mxGeometry x="150" y="30" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="m3-g" value="NC / AC&lt;br&gt;&lt;i&gt;PRO-NCF/ACR&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m3-L2"><mxGeometry x="270" y="30" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="m3-h" value="Satisfaction&lt;br&gt;&lt;i&gt;FOR-SAT-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m3-L2"><mxGeometry x="400" y="30" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="m3-i" value="Audit interne&lt;br&gt;&lt;i&gt;PRO-AUD-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m3-L2"><mxGeometry x="530" y="30" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="m3-j" value="Fournisseurs&lt;br&gt;&lt;i&gt;FOR-EVF-001&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="m3-L2"><mxGeometry x="660" y="30" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#999;dashed=1;" edge="1" source="m3-f" target="m3-a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#999;dashed=1;" edge="1" source="m3-g" target="m3-a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#999;dashed=1;" edge="1" source="m3-h" target="m3-a" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#999;dashed=1;" edge="1" source="m3-i" target="m3-b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#999;dashed=1;" edge="1" source="m3-j" target="m3-b" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE O1 - COMMERCIAL ======================== -->
+  <diagram id="page-o1" name="O1 - Commercial">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="o1-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o1-title" value="&lt;b&gt;O1 — COMMERCIAL&lt;/b&gt; (clause 8.2)&lt;br&gt;&lt;i&gt;Revue de commande — M1-DIR-001&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="350" y="10" width="500" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Client -->
+        <mxCell id="o1-LC" value="&lt;b&gt;Client&lt;br&gt;Européen&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="170" as="geometry"/></mxCell>
+        <mxCell id="o1-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="o1-LC"><mxGeometry x="140" y="50" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell id="o1-c1" value="Envoi demande&lt;br&gt;&lt;i&gt;(email/tél.)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="o1-LC"><mxGeometry x="230" y="40" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="o1-c2" value="Validation&lt;br&gt;spécifications" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="o1-LC"><mxGeometry x="700" y="40" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="o1-c3" value="Confirmation&lt;br&gt;commande" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="o1-LC"><mxGeometry x="1150" y="40" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-start" target="o1-c1" parent="o1-LC"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Roxane -->
+        <mxCell id="o1-LR" value="&lt;b&gt;Roxane Wicky&lt;br&gt;(Plus Sàrl)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="230" width="1460" height="200" as="geometry"/></mxCell>
+        <mxCell id="o1-r1" value="Analyse besoins&lt;br&gt;&lt;b&gt;Revue commande&lt;/b&gt;&lt;br&gt;&lt;i&gt;6 types exigences&lt;br&gt;(clause 8.2)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="140" y="30" width="140" height="70" as="geometry"/></mxCell>
+        <mxCell id="o1-dec1" value="Hors&lt;br&gt;domaine ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="310" y="20" width="100" height="80" as="geometry"/></mxCell>
+        <mxCell id="o1-refuse" value="Refuser&lt;br&gt;&lt;i&gt;(clause 8.1)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="310" y="120" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="o1-end-ref" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=9;html=1;" vertex="1" parent="o1-LR"><mxGeometry x="440" y="130" width="50" height="35" as="geometry"/></mxCell>
+        <mxCell id="o1-r2" value="Enregistrement&lt;br&gt;&lt;b&gt;FileMaker&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="440" y="35" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="o1-r3" value="Consultation&lt;br&gt;partenaire&lt;br&gt;&lt;i&gt;(email/WeChat)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="590" y="35" width="130" height="55" as="geometry"/></mxCell>
+        <mxCell id="o1-r4" value="Échanges&lt;br&gt;itératifs" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="760" y="15" width="100" height="85" as="geometry"/></mxCell>
+        <mxCell id="o1-r5" value="Documents&lt;br&gt;commerciaux" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="900" y="35" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="o1-r6" value="Confirmation&lt;br&gt;au client&lt;br&gt;&lt;i&gt;(email)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o1-LR"><mxGeometry x="1050" y="35" width="120" height="55" as="geometry"/></mxCell>
+        <UserObject label="&lt;b&gt;→ O2&lt;/b&gt;&lt;br&gt;Achats" link="data:page/id,page-o2" id="o1-to-o2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=4;" vertex="1" parent="o1-LR"><mxGeometry x="1270" y="35" width="100" height="55" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o1-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="o1-LR"><mxGeometry x="1380" y="42" width="55" height="40" as="geometry"/></mxCell>
+        <!-- Arrows within Roxane lane -->
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-r1" target="o1-dec1" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="Oui" style="rounded=1;strokeColor=#b85450;" edge="1" source="o1-dec1" target="o1-refuse" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#b85450;" edge="1" source="o1-refuse" target="o1-end-ref" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="Non" style="rounded=1;strokeColor=#82b366;" edge="1" source="o1-dec1" target="o1-r2" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-r2" target="o1-r3" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-r3" target="o1-r4" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="Validé" style="rounded=1;strokeColor=#82b366;" edge="1" source="o1-r4" target="o1-r5" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-r5" target="o1-r6" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-r6" target="o1-to-o2" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-to-o2" target="o1-end" parent="o1-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Fournisseur -->
+        <mxCell id="o1-LF" value="&lt;b&gt;Fournisseur&lt;br&gt;(Yuyao /&lt;br&gt;Oukailuo)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="430" width="1460" height="160" as="geometry"/></mxCell>
+        <mxCell id="o1-f1" value="Réception&lt;br&gt;specs&lt;br&gt;&lt;i&gt;(WeChat)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="o1-LF"><mxGeometry x="590" y="35" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="o1-f2" value="Étude&lt;br&gt;faisabilité&lt;br&gt;+ devis" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="o1-LF"><mxGeometry x="760" y="35" width="120" height="55" as="geometry"/></mxCell>
+        <!-- Cross-lane arrows -->
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-c1" target="o1-r1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-r3" target="o1-f1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-f1" target="o1-f2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-f2" target="o1-r4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-c2" target="o1-r4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o1-r6" target="o1-c3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE O2 - ACHATS ======================== -->
+  <diagram id="page-o2" name="O2 - Achats/Sous-traitance">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="o2-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o2-title" value="&lt;b&gt;O2 — ACHATS &amp;amp; SOUS-TRAITANCE&lt;/b&gt; (clause 8.4)&lt;br&gt;&lt;i&gt;Réf : PRO-ACH-001, FIC-PRO-001, FOR-AQF-001/002&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="300" y="10" width="600" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Client (receives samples) -->
+        <mxCell id="o2-LC" value="&lt;b&gt;Client&lt;br&gt;Européen&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="120" as="geometry"/></mxCell>
+        <mxCell id="o2-c1" value="Réception&lt;br&gt;livraison finale" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="o2-LC"><mxGeometry x="1250" y="30" width="120" height="50" as="geometry"/></mxCell>
+        <!-- Lane: Roxane -->
+        <mxCell id="o2-LR" value="&lt;b&gt;Roxane Wicky&lt;br&gt;(Plus Sàrl)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="180" width="1460" height="200" as="geometry"/></mxCell>
+        <mxCell id="o2-start" value="DÉBUT&lt;br&gt;&lt;i&gt;(de O1)&lt;/i&gt;" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=9;html=1;" vertex="1" parent="o2-LR"><mxGeometry x="140" y="55" width="65" height="45" as="geometry"/></mxCell>
+        <mxCell id="o2-r1" value="Réception&lt;br&gt;specs O1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o2-LR"><mxGeometry x="230" y="45" width="110" height="55" as="geometry"/></mxCell>
+        <mxCell id="o2-r2" value="Consultation&lt;br&gt;partenaire&lt;br&gt;&lt;i&gt;(WeChat)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o2-LR"><mxGeometry x="370" y="45" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="o2-r3" value="Placement&lt;br&gt;commande" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o2-LR"><mxGeometry x="520" y="45" width="110" height="55" as="geometry"/></mxCell>
+        <mxCell id="o2-r4" value="Suivi production&lt;br&gt;&lt;i&gt;(WeChat/photos)&lt;/i&gt;&lt;br&gt;&lt;i&gt;Fiche FM&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o2-LR"><mxGeometry x="660" y="40" width="130" height="65" as="geometry"/></mxCell>
+        <mxCell id="o2-r5" value="Réception&lt;br&gt;échantillon" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="o2-LR"><mxGeometry x="960" y="45" width="110" height="55" as="geometry"/></mxCell>
+        <mxCell id="o2-dec" value="Validation&lt;br&gt;OK ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="o2-LR"><mxGeometry x="1090" y="25" width="100" height="80" as="geometry"/></mxCell>
+        <UserObject label="&lt;b&gt;→ O3&lt;/b&gt;&lt;br&gt;Logistique" link="data:page/id,page-o3" id="o2-to-o3">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;fontStyle=4;" vertex="1" parent="o2-LR"><mxGeometry x="1250" y="25" width="100" height="50" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o2-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="o2-LR"><mxGeometry x="1370" y="33" width="55" height="40" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o2-start" target="o2-r1" parent="o2-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o2-r1" target="o2-r2" parent="o2-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o2-r2" target="o2-r3" parent="o2-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o2-r3" target="o2-r4" parent="o2-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o2-r5" target="o2-dec" parent="o2-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="OK" style="rounded=1;strokeColor=#82b366;" edge="1" source="o2-dec" target="o2-to-o3" parent="o2-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o2-to-o3" target="o2-end" parent="o2-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Fournisseur -->
+        <mxCell id="o2-LF" value="&lt;b&gt;Fournisseur&lt;br&gt;(Yuyao /&lt;br&gt;Oukailuo)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="380" width="1460" height="180" as="geometry"/></mxCell>
+        <mxCell id="o2-f1" value="Étude&lt;br&gt;technique" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="o2-LF"><mxGeometry x="370" y="40" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-f2" value="Fabrication&lt;br&gt;&lt;i&gt;(moules/pièces/vis)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="o2-LF"><mxGeometry x="570" y="40" width="130" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-f3" value="&lt;b&gt;CQ pré-&lt;br&gt;expédition&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="o2-LF"><mxGeometry x="740" y="40" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o2-f4" value="Envoi&lt;br&gt;échantillon&lt;br&gt;&lt;i&gt;→ Plus Sàrl&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=10;" vertex="1" parent="o2-LF"><mxGeometry x="880" y="30" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="o2-f5" value="Préparer&lt;br&gt;docs export" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="o2-LF"><mxGeometry x="1090" y="40" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d79b00;" edge="1" source="o2-f1" target="o2-f2" parent="o2-LF"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d79b00;" edge="1" source="o2-f2" target="o2-f3" parent="o2-LF"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d79b00;" edge="1" source="o2-f3" target="o2-f4" parent="o2-LF"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Cross-lane -->
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o2-r2" target="o2-f1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o2-r3" target="o2-f2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o2-f4" target="o2-r5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="OK" style="rounded=1;strokeColor=#82b366;" edge="1" source="o2-dec" target="o2-f5" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE O3 - LOGISTIQUE ======================== -->
+  <diagram id="page-o3" name="O3 - Logistique/Livraison">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="o3-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o3-title" value="&lt;b&gt;O3 — LOGISTIQUE &amp;amp; LIVRAISON&lt;/b&gt; (clauses 8.5, 8.6)&lt;br&gt;&lt;i&gt;Réf : PRO-LOG-001, FIC-PRO-002&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="300" y="10" width="600" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Client (TOP) -->
+        <mxCell id="o3-LC" value="&lt;b&gt;Client&lt;br&gt;Européen&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="140" as="geometry"/></mxCell>
+        <mxCell id="o3-c1" value="Réception&lt;br&gt;marchandise" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="o3-LC"><mxGeometry x="870" y="35" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-c2" value="&lt;b&gt;Confirmation&lt;br&gt;réception&lt;/b&gt;&lt;br&gt;&lt;i&gt;(email)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="o3-LC"><mxGeometry x="1010" y="30" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="o3-c3" value="Conformité&lt;br&gt;OK" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o3-LC"><mxGeometry x="1310" y="35" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-c1" target="o3-c2" parent="o3-LC"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Roxane -->
+        <mxCell id="o3-LR" value="&lt;b&gt;Roxane Wicky&lt;br&gt;(Plus Sàrl)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="200" width="1460" height="180" as="geometry"/></mxCell>
+        <mxCell id="o3-start" value="DÉBUT&lt;br&gt;&lt;i&gt;(de O2)&lt;/i&gt;" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=9;html=1;" vertex="1" parent="o3-LR"><mxGeometry x="140" y="50" width="65" height="45" as="geometry"/></mxCell>
+        <mxCell id="o3-r1" value="Organiser&lt;br&gt;transport&lt;br&gt;&lt;i&gt;(air/mer/rail)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o3-LR"><mxGeometry x="230" y="40" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="o3-r2" value="Préparer docs&lt;br&gt;douaniers&lt;br&gt;&lt;i&gt;(7 documents)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o3-LR"><mxGeometry x="380" y="40" width="130" height="55" as="geometry"/></mxCell>
+        <mxCell id="o3-r3" value="Suivi&lt;br&gt;tracking&lt;br&gt;&lt;i&gt;FileMaker&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o3-LR"><mxGeometry x="700" y="40" width="110" height="55" as="geometry"/></mxCell>
+        <mxCell id="o3-dec" value="NC /&lt;br&gt;Réclam. ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="o3-LR"><mxGeometry x="1070" y="20" width="100" height="80" as="geometry"/></mxCell>
+        <UserObject label="&lt;b&gt;→ O4&lt;/b&gt;&lt;br&gt;Si NC" link="data:page/id,page-o4" id="o3-to-o4">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;fontStyle=4;" vertex="1" parent="o3-LR"><mxGeometry x="1070" y="115" width="100" height="45" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o3-r4" value="Facturation&lt;br&gt;&amp;amp; clôture&lt;br&gt;&lt;b&gt;FileMaker&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o3-LR"><mxGeometry x="1220" y="40" width="120" height="55" as="geometry"/></mxCell>
+        <mxCell id="o3-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="o3-LR"><mxGeometry x="1380" y="48" width="55" height="40" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-start" target="o3-r1" parent="o3-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-r1" target="o3-r2" parent="o3-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-r2" target="o3-r3" parent="o3-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="Non" style="rounded=1;strokeColor=#82b366;" edge="1" source="o3-dec" target="o3-r4" parent="o3-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="Oui" style="rounded=1;strokeColor=#b85450;" edge="1" source="o3-dec" target="o3-to-o4" parent="o3-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-r4" target="o3-end" parent="o3-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Transporteur -->
+        <mxCell id="o3-LT" value="&lt;b&gt;Transporteur&lt;br&gt;ECAM&lt;br&gt;(Sofia)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="380" width="1460" height="140" as="geometry"/></mxCell>
+        <mxCell id="o3-t1" value="Prise en&lt;br&gt;charge" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="o3-LT"><mxGeometry x="530" y="35" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="o3-t2" value="Transport&lt;br&gt;Chine → EU&lt;br&gt;&lt;i&gt;(air/mer/rail)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="o3-LT"><mxGeometry x="660" y="30" width="130" height="60" as="geometry"/></mxCell>
+        <mxCell id="o3-t3" value="Livraison&lt;br&gt;chez client" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="o3-LT"><mxGeometry x="830" y="35" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#666;" edge="1" source="o3-t1" target="o3-t2" parent="o3-LT"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#666;" edge="1" source="o3-t2" target="o3-t3" parent="o3-LT"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Fournisseur (BOTTOM) -->
+        <mxCell id="o3-LF" value="&lt;b&gt;Fournisseur&lt;br&gt;(Yuyao /&lt;br&gt;Oukailuo)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="520" width="1460" height="120" as="geometry"/></mxCell>
+        <mxCell id="o3-f1" value="Remise&lt;br&gt;marchandise&lt;br&gt;au transport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="o3-LF"><mxGeometry x="530" y="30" width="120" height="55" as="geometry"/></mxCell>
+        <!-- Cross-lane arrows -->
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-r2" target="o3-f1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-f1" target="o3-t1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-r3" target="o3-t2" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-t3" target="o3-c1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-c2" target="o3-dec" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o3-r4" target="o3-c3" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Transport info note -->
+        <mxCell id="o3-note" value="&lt;i&gt;Air: 5-10j (±3j) | Mer: 30-45j (±10j) | Rail: 18-25j (±7j)&lt;/i&gt;" style="text;html=1;align=center;fillColor=#f5f5f5;strokeColor=#666;rounded=1;fontSize=9;" vertex="1" parent="1"><mxGeometry x="20" y="650" width="350" height="25" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE O4 - CONTRÔLE QUALITÉ ======================== -->
+  <diagram id="page-o4" name="O4 - Contrôle Qualité">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="o4-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o4-title" value="&lt;b&gt;O4 — CONTRÔLE QUALITÉ &amp;amp; NON-CONFORMITÉS&lt;/b&gt; (clauses 8.7, 10.2)&lt;br&gt;&lt;i&gt;Réf : PRO-NCF-001, PRO-ACR-001&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="300" y="10" width="600" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Client / Détection (TOP) -->
+        <mxCell id="o4-LC" value="&lt;b&gt;Client /&lt;br&gt;Détection&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f8cecc;strokeColor=#b85450;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="130" as="geometry"/></mxCell>
+        <mxCell id="o4-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="o4-LC"><mxGeometry x="140" y="35" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell id="o4-d1" value="NC détectée&lt;br&gt;&lt;i&gt;(réclamation client&lt;br&gt;ou suivi interne)&lt;/i&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="o4-LC"><mxGeometry x="230" y="15" width="150" height="80" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-start" target="o4-d1" parent="o4-LC"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Roxane -->
+        <mxCell id="o4-LR" value="&lt;b&gt;Roxane Wicky&lt;br&gt;(Plus Sàrl)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="190" width="1460" height="230" as="geometry"/></mxCell>
+        <mxCell id="o4-r1" value="Enregistrer NC&lt;br&gt;&lt;b&gt;NC_AAAA_NNNN&lt;/b&gt;&lt;br&gt;&lt;i&gt;FileMaker&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o4-LR"><mxGeometry x="140" y="40" width="140" height="60" as="geometry"/></mxCell>
+        <mxCell id="o4-r2" value="Analyser&lt;br&gt;(gravité, impact)" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o4-LR"><mxGeometry x="310" y="40" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="o4-r3" value="Décider&lt;br&gt;traitement" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="o4-LR"><mxGeometry x="460" y="20" width="110" height="90" as="geometry"/></mxCell>
+        <mxCell id="o4-opts" value="&lt;b&gt;Traitements :&lt;/b&gt;&lt;br&gt;1. Remplacement (privilégié)&lt;br&gt;2. Dérogation (accord client)&lt;br&gt;3. Modification/retouche&lt;br&gt;4. Produit laissé chez client" style="text;html=1;align=left;fontSize=9;fillColor=#f5f5f5;strokeColor=#999;rounded=1;" vertex="1" parent="o4-LR"><mxGeometry x="460" y="125" width="200" height="85" as="geometry"/></mxCell>
+        <mxCell id="o4-r4" value="Vérifier&lt;br&gt;résolution" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o4-LR"><mxGeometry x="780" y="40" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="o4-r5" value="Majeure /&lt;br&gt;Récurrente ?" style="rhombus;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="o4-LR"><mxGeometry x="920" y="15" width="110" height="90" as="geometry"/></mxCell>
+        <mxCell id="o4-r6" value="Ouvrir AC&lt;br&gt;&lt;b&gt;PRO-ACR-001&lt;/b&gt;&lt;br&gt;&lt;i&gt;(5 Pourquoi)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontSize=10;" vertex="1" parent="o4-LR"><mxGeometry x="1070" y="20" width="130" height="55" as="geometry"/></mxCell>
+        <mxCell id="o4-r7" value="Clôturer&lt;br&gt;fiche NC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;fontSize=10;" vertex="1" parent="o4-LR"><mxGeometry x="1070" y="100" width="110" height="50" as="geometry"/></mxCell>
+        <UserObject label="&lt;b&gt;→ M2&lt;/b&gt;&lt;br&gt;Si systémique" link="data:page/id,page-m2" id="o4-to-m2">
+          <mxCell style="rounded=1;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontSize=9;fontStyle=4;" vertex="1" parent="o4-LR"><mxGeometry x="1230" y="20" width="100" height="50" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="o4-end1" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="o4-LR"><mxGeometry x="1230" y="105" width="55" height="40" as="geometry"/></mxCell>
+        <mxCell id="o4-end2" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="o4-LR"><mxGeometry x="1360" y="27" width="55" height="40" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-r1" target="o4-r2" parent="o4-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-r2" target="o4-r3" parent="o4-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-r4" target="o4-r5" parent="o4-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="Oui" style="rounded=1;strokeColor=#b85450;" edge="1" source="o4-r5" target="o4-r6" parent="o4-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell value="Non" style="rounded=1;strokeColor=#82b366;" edge="1" source="o4-r5" target="o4-r7" parent="o4-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-r6" target="o4-to-m2" parent="o4-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-r7" target="o4-end1" parent="o4-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-to-m2" target="o4-end2" parent="o4-LR"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Fournisseur (BOTTOM) -->
+        <mxCell id="o4-LF" value="&lt;b&gt;Fournisseur&lt;br&gt;(Yuyao /&lt;br&gt;Oukailuo)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="420" width="1460" height="140" as="geometry"/></mxCell>
+        <mxCell id="o4-f1" value="Informé NC&lt;br&gt;&lt;i&gt;(WeChat)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="o4-LF"><mxGeometry x="590" y="35" width="110" height="50" as="geometry"/></mxCell>
+        <mxCell id="o4-f2" value="Coordonner&lt;br&gt;remplacement" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;fontSize=10;" vertex="1" parent="o4-LF"><mxGeometry x="740" y="35" width="120" height="50" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d79b00;" edge="1" source="o4-f1" target="o4-f2" parent="o4-LF"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Cross-lane -->
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-d1" target="o4-r1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-r3" target="o4-f1" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#333;" edge="1" source="o4-f2" target="o4-r4" parent="1"><mxGeometry relative="1" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE S1 - GESTION DOCUMENTAIRE ======================== -->
+  <diagram id="page-s1" name="S1 - Gestion Documentaire">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="900" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="s1-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="s1-title" value="&lt;b&gt;S1 — GESTION DOCUMENTAIRE&lt;/b&gt; (clause 7.5)&lt;br&gt;&lt;i&gt;Réf : PRO-DOC-001 — Traçabilité &amp;amp; Amélioration continue&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="300" y="10" width="600" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Roxane -->
+        <mxCell id="s1-L1" value="&lt;b&gt;Roxane Wicky&lt;br&gt;(Gérante)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="200" as="geometry"/></mxCell>
+        <mxCell id="s1-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="s1-L1"><mxGeometry x="140" y="65" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell id="s1-a" value="Créer /&lt;br&gt;modifier&lt;br&gt;document" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s1-L1"><mxGeometry x="230" y="50" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s1-b" value="Approuver&lt;br&gt;&lt;i&gt;(signature)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s1-L1"><mxGeometry x="370" y="50" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s1-c" value="Diffuser" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s1-L1"><mxGeometry x="510" y="55" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="s1-d" value="Archiver" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s1-L1"><mxGeometry x="640" y="55" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="s1-e" value="Sauvegarder&lt;br&gt;&lt;b&gt;Cloud&lt;/b&gt;&lt;br&gt;&lt;i&gt;Gramatec SA&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s1-L1"><mxGeometry x="770" y="45" width="120" height="70" as="geometry"/></mxCell>
+        <mxCell id="s1-f" value="Revue&lt;br&gt;annuelle" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s1-L1"><mxGeometry x="920" y="55" width="100" height="50" as="geometry"/></mxCell>
+        <mxCell id="s1-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="s1-L1"><mxGeometry x="1060" y="62" width="55" height="40" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s1-start" target="s1-a" parent="s1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s1-a" target="s1-b" parent="s1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s1-b" target="s1-c" parent="s1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s1-c" target="s1-d" parent="s1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s1-d" target="s1-e" parent="s1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s1-e" target="s1-f" parent="s1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s1-f" target="s1-end" parent="s1-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Systèmes -->
+        <mxCell id="s1-L2" value="&lt;b&gt;Systèmes&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="260" width="1460" height="140" as="geometry"/></mxCell>
+        <mxCell id="s1-g" value="&lt;b&gt;FileMaker&lt;/b&gt;&lt;br&gt;&lt;i&gt;(commandes,&lt;br&gt;produits, prix)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="s1-L2"><mxGeometry x="230" y="30" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s1-h" value="&lt;b&gt;Email&lt;/b&gt;&lt;br&gt;&lt;i&gt;(clients EU)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="s1-L2"><mxGeometry x="430" y="30" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s1-i" value="&lt;b&gt;WeChat&lt;/b&gt;&lt;br&gt;&lt;i&gt;(Yuyao,&lt;br&gt;Oukailuo)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="s1-L2"><mxGeometry x="620" y="30" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s1-j" value="&lt;b&gt;Cloud&lt;/b&gt;&lt;br&gt;&lt;i&gt;(Gramatec SA)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=10;" vertex="1" parent="s1-L2"><mxGeometry x="810" y="30" width="110" height="60" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE S2 - COMPÉTENCES ======================== -->
+  <diagram id="page-s2" name="S2 - Compétences">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="s2-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="s2-title" value="&lt;b&gt;S2 — COMPÉTENCES &amp;amp; FORMATIONS&lt;/b&gt; (clauses 7.2, 7.3)&lt;br&gt;&lt;i&gt;Réf : FOR-CMP-001&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="350" y="10" width="500" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Direction -->
+        <mxCell id="s2-L1" value="&lt;b&gt;Direction&lt;br&gt;(Roxane Wicky)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="200" as="geometry"/></mxCell>
+        <mxCell id="s2-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="s2-L1"><mxGeometry x="140" y="65" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell id="s2-a" value="Identifier&lt;br&gt;besoins&lt;br&gt;compétences" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s2-L1"><mxGeometry x="240" y="50" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-b" value="Évaluer&lt;br&gt;compétences&lt;br&gt;&lt;i&gt;(7 domaines)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s2-L1"><mxGeometry x="400" y="50" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-c" value="Former /&lt;br&gt;développer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s2-L1"><mxGeometry x="560" y="50" width="110" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-d" value="Sensibiliser&lt;br&gt;au SMQ&lt;br&gt;&lt;i&gt;(politique, objectifs)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s2-L1"><mxGeometry x="710" y="50" width="130" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-e" value="Documenter&lt;br&gt;&lt;b&gt;FOR-CMP-001&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s2-L1"><mxGeometry x="880" y="50" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s2-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="s2-L1"><mxGeometry x="1040" y="62" width="55" height="40" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s2-start" target="s2-a" parent="s2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s2-a" target="s2-b" parent="s2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s2-b" target="s2-c" parent="s2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s2-c" target="s2-d" parent="s2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s2-d" target="s2-e" parent="s2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s2-e" target="s2-end" parent="s2-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Compétences note -->
+        <mxCell id="s2-L2" value="&lt;b&gt;Compétences /&lt;br&gt;Formations&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="260" width="1460" height="130" as="geometry"/></mxCell>
+        <mxCell id="s2-note" value="&lt;b&gt;7 domaines gérante :&lt;/b&gt; Commerce international | Technique industriel | Logistique | Qualité ISO 9001 | Communication multilingue | Gestion PI | Coordination Chine&lt;br&gt;&lt;b&gt;Diplômes :&lt;/b&gt; Commerce Neuchâtel | Esthétique internationale | BF esthétique médicale | Expérience 2013-présent" style="text;html=1;align=left;fontSize=9;fillColor=#f5f5f5;strokeColor=#666;rounded=1;" vertex="1" parent="s2-L2"><mxGeometry x="150" y="20" width="700" height="70" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+  <!-- ======================== PAGE S3 - RESSOURCES ======================== -->
+  <diagram id="page-s3" name="S3 - Ressources">
+    <mxGraphModel dx="1500" dy="900" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1500" pageHeight="700" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/><mxCell id="1" parent="0"/>
+        <UserObject label="← Vue d'ensemble" link="data:page/id,page-overview" id="s3-back">
+          <mxCell style="text;html=1;align=left;fillColor=#e1d5e7;strokeColor=#9673a6;rounded=1;fontSize=11;fontStyle=4;" vertex="1" parent="1"><mxGeometry x="20" y="10" width="180" height="30" as="geometry"/></mxCell>
+        </UserObject>
+        <mxCell id="s3-title" value="&lt;b&gt;S3 — RESSOURCES &amp;amp; INFRASTRUCTURE&lt;/b&gt; (clause 7.1)&lt;br&gt;&lt;i&gt;Réf : CTX-QUA-001 §7&lt;/i&gt;" style="text;html=1;align=center;fontSize=14;fontStyle=1;" vertex="1" parent="1"><mxGeometry x="350" y="10" width="500" height="40" as="geometry"/></mxCell>
+        <!-- Lane: Direction -->
+        <mxCell id="s3-L1" value="&lt;b&gt;Direction&lt;br&gt;(Roxane Wicky)&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="60" width="1460" height="200" as="geometry"/></mxCell>
+        <mxCell id="s3-start" value="DÉBUT" style="ellipse;fillColor=#d5e8d4;strokeColor=#82b366;strokeWidth=2;fontSize=10;html=1;" vertex="1" parent="s3-L1"><mxGeometry x="140" y="65" width="60" height="40" as="geometry"/></mxCell>
+        <mxCell id="s3-a" value="Identifier&lt;br&gt;besoins&lt;br&gt;ressources" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s3-L1"><mxGeometry x="240" y="50" width="120" height="60" as="geometry"/></mxCell>
+        <mxCell id="s3-b" value="Allouer&lt;br&gt;ressources&lt;br&gt;&lt;i&gt;(humaines,&lt;br&gt;matérielles,&lt;br&gt;numériques)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s3-L1"><mxGeometry x="400" y="40" width="120" height="80" as="geometry"/></mxCell>
+        <mxCell id="s3-c" value="Maintenir&lt;br&gt;infrastructure&lt;br&gt;&lt;i&gt;(FM, email,&lt;br&gt;WeChat, cloud)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s3-L1"><mxGeometry x="560" y="40" width="130" height="80" as="geometry"/></mxCell>
+        <mxCell id="s3-d" value="Gérer envir.&lt;br&gt;de travail&lt;br&gt;&lt;i&gt;(confidentialité,&lt;br&gt;fiabilité)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s3-L1"><mxGeometry x="730" y="40" width="120" height="80" as="geometry"/></mxCell>
+        <mxCell id="s3-e" value="Gérer ressources&lt;br&gt;externes&lt;br&gt;&lt;i&gt;(Yuyao, Oukailuo,&lt;br&gt;transitaires, Paradiso)&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;fontSize=10;" vertex="1" parent="s3-L1"><mxGeometry x="890" y="40" width="150" height="80" as="geometry"/></mxCell>
+        <mxCell id="s3-end" value="FIN" style="ellipse;fillColor=#f8cecc;strokeColor=#b85450;strokeWidth=3;fontSize=10;html=1;" vertex="1" parent="s3-L1"><mxGeometry x="1080" y="62" width="55" height="40" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s3-start" target="s3-a" parent="s3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s3-a" target="s3-b" parent="s3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s3-b" target="s3-c" parent="s3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s3-c" target="s3-d" parent="s3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s3-d" target="s3-e" parent="s3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <mxCell style="rounded=1;strokeColor=#d6b656;" edge="1" source="s3-e" target="s3-end" parent="s3-L1"><mxGeometry relative="1" as="geometry"/></mxCell>
+        <!-- Lane: Infrastructure -->
+        <mxCell id="s3-L2" value="&lt;b&gt;Infrastructure&lt;br&gt;/ Outils&lt;/b&gt;" style="swimlane;horizontal=1;startSize=130;fillColor=#f5f5f5;strokeColor=#666;fontSize=11;collapsible=0;" vertex="1" parent="1"><mxGeometry x="20" y="260" width="1460" height="130" as="geometry"/></mxCell>
+        <mxCell id="s3-f" value="&lt;b&gt;FileMaker&lt;/b&gt;&lt;br&gt;&lt;i&gt;Base données&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="s3-L2"><mxGeometry x="200" y="30" width="100" height="55" as="geometry"/></mxCell>
+        <mxCell id="s3-g" value="&lt;b&gt;Email&lt;/b&gt;&lt;br&gt;&lt;i&gt;Clients EU&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="s3-L2"><mxGeometry x="340" y="30" width="100" height="55" as="geometry"/></mxCell>
+        <mxCell id="s3-h" value="&lt;b&gt;WeChat&lt;/b&gt;&lt;br&gt;&lt;i&gt;Partenaires CN&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="s3-L2"><mxGeometry x="480" y="30" width="100" height="55" as="geometry"/></mxCell>
+        <mxCell id="s3-i" value="&lt;b&gt;Cloud&lt;/b&gt;&lt;br&gt;&lt;i&gt;Gramatec SA&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="s3-L2"><mxGeometry x="620" y="30" width="100" height="55" as="geometry"/></mxCell>
+        <mxCell id="s3-j" value="&lt;b&gt;Paradiso&lt;/b&gt;&lt;br&gt;&lt;i&gt;Fiduciaire&lt;/i&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666;fontSize=9;" vertex="1" parent="s3-L2"><mxGeometry x="760" y="30" width="100" height="55" as="geometry"/></mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+
+</mxfile>
