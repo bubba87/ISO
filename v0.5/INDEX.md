@@ -97,4 +97,11 @@
 
 ---
 
+### Revue & Améliorations
+
+> **Revue complète du dossier v0.5** : [REVUE_ET_AMELIORATIONS.md](REVUE_ET_AMELIORATIONS.md)
+> Informations manquantes, améliorations potentielles et plan d'action recommandé.
+
+---
+
 *Document généré le 2026-03-04 — Version 0.5*
