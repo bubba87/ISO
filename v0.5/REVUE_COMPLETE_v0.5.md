@@ -643,6 +643,71 @@ Le dossier v0.5 présente de nombreuses qualités qui constituent une base solid
 
 ---
 
+---
+
+## PARTIE 6 — QUESTIONS NON RÉSOLUES (issues de QUESTIONS.md v0.2)
+
+Le fichier `QUESTIONS.md` (daté du 10/02/2026, version 0.2) contient 13 questions critiques dont certaines n'ont **toujours pas de réponse documentée** dans la v0.5. Ces questions représentent des informations factuelles que seule la Direction peut fournir.
+
+### Questions encore ouvertes dans la v0.5
+
+| # | Question | Clause ISO | Statut v0.5 | Impact |
+|---|----------|-----------|-------------|--------|
+| 1 | **Auditeur interne externe** : qui a été mandaté ? | §9.2 | Non résolu | Bloquant — audit impossible sans auditeur indépendant |
+| 2 | **Accord qualité signé** avec Yuyao Mould Factory ? | §8.4 | Template générique créé, mais aucune preuve de signature | Haute |
+| 3 | **Second partenaire chinois** (Oukailuo/Whang) : informations complètes ? | §8.4 | Disparu de la v0.5 (présent en v0.4) | Haute |
+| 4 | **Checklist contrôle qualité** formalisée avec « YAN » lors du voyage Chine mars 2026 ? | §8.5, §8.6 | PDF source mentionne cette action comme en cours | Haute |
+| 5 | **Transporteurs et transitaires** : noms, contacts, évaluation ? | §8.4 | Non documentés dans la v0.5 | Moyenne |
+| 6 | **NC_2026_1001** (erreur d'étiquetage) : clôturée ? | §10.2 | Aucune mention dans la v0.5 | Moyenne |
+| 7 | **Diplômes et formations** de Roxane Wicky : documentés ? | §7.2 | Skill Matrix absente | Haute |
+| 8 | **Numéro IDE** et registre du commerce : renseignés ? | — | Non documentés | Basse |
+| 9 | **Méthode de sauvegarde** des données (FileMaker, emails, WeChat) | §7.5 | Non documentée | Moyenne |
+| 10 | **Organisme de certification** : choisi ? Devis reçu ? Date cible ? | — | Non documenté | Haute |
+| 11 | **Inventaire des moules** stockés en Chine : existe ? | §8.5.3 | Non documenté (lié au manque K: propriété client) | Haute |
+| 12 | **Propriété des moules** : contractuellement définie (client vs. Plus Sàrl) ? | §8.5.3 | Non documenté | Haute |
+| 13 | **Nombre de clients actifs** et questionnaire satisfaction envoyé ? | §9.1.2 | Template créé mais pas de preuve d'envoi | Moyenne |
+
+### Recommandation
+
+Ces questions doivent être résolues **avant** la Phase 1 du plan d'action. Elles représentent des **données d'entrée** indispensables pour compléter les documents. Sans ces réponses, certains documents resteront des templates vides.
+
+**Action immédiate** : La Direction doit planifier une session de travail dédiée pour répondre à ces 13 points et alimenter les documents correspondants.
+
+---
+
+## PARTIE 7 — ÉVOLUTION v0.1 → v0.5 : CE QUI A ÉTÉ GAGNÉ ET PERDU
+
+### Ce qui a été gagné (améliorations significatives)
+
+| Version | Ajout principal |
+|---------|----------------|
+| v0.1 | Structure initiale : 6 catégories de documents FR + EN |
+| v0.2 | Codification cohérente, traduction EN intégrée |
+| v0.3 | Ajout du fichier INFORMATIONS_MANQUANTES, cartographie .drawio, légende |
+| v0.4 | Leadership (M1-DIR-001), Logistique (FIC-PRO-002), AQF spécifiques (Yuyao, Oukailuo), dossier audit complet avec Manuel Qualité, génération DOCX/PDF |
+| v0.5 | Refonte complète en chapitres ISO (MQ_02-MQ_10), 6 processus formalisés, chaîne processus 8 blocs, 8 documents opérationnels, diagrammes swimlane |
+
+### Ce qui a été perdu ou dilué (points d'attention)
+
+| Élément | Présent en v0.4 | Statut v0.5 |
+|---------|-----------------|-------------|
+| AQF Yuyao spécifique signé | FOR-AQF-001_Accord_Qualite_Yuyao.md | Remplacé par template générique |
+| AQF Oukailuo spécifique | FOR-AQF-002_Accord_Qualite_Oukailuo.md | Disparu |
+| Manuel Qualité consolidé | MQ-001_Manuel_Qualite.md (1 fichier) | Éclaté en 9 fichiers séparés (OK structurellement, mais perte du document consolidé pour l'auditeur) |
+| Dossier audit PDF/DOCX | DOSSIER_AUDIT_ISO9001_Plus_Sarl_v0.4.pdf | Pas encore régénéré pour la v0.5 |
+| Variantes SWOT / Parties intéressées | 6 variantes fusion/remplacement | Intégrées dans MQ_04 (OK) |
+| Référence au PDF source UPDATE_ALL | Détaillé dans INFORMATIONS_MANQUANTES_v0.4 | Lien perdu — le PDF source est plus détaillé que les fichiers MD |
+| Informations concrètes (FileMaker, WeChat, « YAN ») | Présentes dans le PDF source | Généralisées (« ERP », « outils de communication ») |
+
+### Recommandation
+
+Pour la v0.6 ou avant audit :
+1. **Régénérer un dossier audit consolidé** (PDF/DOCX) comme en v0.4
+2. **Restaurer les AQF spécifiques** Yuyao et Oukailuo comme enregistrements signés
+3. **Réintégrer les informations concrètes** du PDF source (FileMaker, WeChat, noms des partenaires)
+
+---
+
 *Revue complète réalisée le 2026-03-04*
 *Dossier v0.5 — Plus Sàrl*
 *Prochaine revue recommandée : après complétion Phase 1*
