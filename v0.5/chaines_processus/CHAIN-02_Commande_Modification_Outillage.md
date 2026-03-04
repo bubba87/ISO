@@ -50,13 +50,13 @@ CLIENT  ──→  [BLOC 1] ──→ [BLOC 2] ──→ [BLOC 3] ──→ [BLO
 | Bloc | Fiche générique | Adaptation requise |
 |------|----------------|-------------------|
 | BLOC 1 | [CH-BLOC-001](CH-BLOC-001_Reception_Commande.md) | Inclure plan de modification technique |
-| BLOC 2 | [CH-BLOC-002](CH-BLOC-002_Revue_Planification.md) | Étude technique + validation faisabilité modification |
-| BLOC 3 | [CH-BLOC-003](CH-BLOC-003_Lancement_Production.md) | Lancement modification outillage chez le fournisseur |
-| BLOC 4 | [CH-BLOC-004](CH-BLOC-004_Suivi_Production.md) | Suivi modification + échantillons d'essai |
-| BLOC 5 | [CH-BLOC-005](CH-BLOC-005_Preparation_Expedition.md) | Standard |
-| BLOC 6 | [CH-BLOC-006](CH-BLOC-006_Suivi_Livraison.md) | Standard |
-| BLOC 7 | [CH-BLOC-007](CH-BLOC-007_Controle_Qualite.md) | Inspection dimensionnelle renforcée |
-| BLOC 8 | [CH-BLOC-008](CH-BLOC-008_Cloture_Feedback.md) | Validation définitive modification outillage |
+| BLOC 2 | [CH-BLOC-002](CH-BLOC-002_Fiche_Commande.md) | Étude technique + validation faisabilité modification |
+| BLOC 3 | [CH-BLOC-003](CH-BLOC-003_Fiche_Transport.md) | Lancement modification outillage chez le fournisseur |
+| BLOC 4 | [CH-BLOC-004](CH-BLOC-004_Etude_Technique.md) | Suivi modification + échantillons d'essai |
+| BLOC 5 | [CH-BLOC-005](CH-BLOC-005_Validation_Commande.md) | Standard |
+| BLOC 6 | [CH-BLOC-006](CH-BLOC-006_Production_Qualite.md) | Standard |
+| BLOC 7 | [CH-BLOC-007](CH-BLOC-007_Livraison_Douane.md) | Inspection dimensionnelle renforcée |
+| BLOC 8 | [CH-BLOC-008](CH-BLOC-008_Acceptation_Marchandise.md) | Validation définitive modification outillage |
 
 ---
 
