@@ -57,13 +57,21 @@
 | Ligne | Bloc | Fiche |
 |-------|------|-------|
 | 01 SALES | BLOC 1 — Réception Commande | [CH-BLOC-001](chaines_processus/CH-BLOC-001_Reception_Commande.md) |
-| 01 SALES | BLOC 2 — Revue & Planification | [CH-BLOC-002](chaines_processus/CH-BLOC-002_Revue_Planification.md) |
-| 02 MANUFACTURE | BLOC 3 — Lancement Production | [CH-BLOC-003](chaines_processus/CH-BLOC-003_Lancement_Production.md) |
-| 02 MANUFACTURE | BLOC 4 — Suivi Production | [CH-BLOC-004](chaines_processus/CH-BLOC-004_Suivi_Production.md) |
-| 03 DELIVERY | BLOC 5 — Préparation Expédition | [CH-BLOC-005](chaines_processus/CH-BLOC-005_Preparation_Expedition.md) |
-| 03 DELIVERY | BLOC 6 — Suivi Livraison | [CH-BLOC-006](chaines_processus/CH-BLOC-006_Suivi_Livraison.md) |
-| 04 QUALITY | BLOC 7 — Contrôle Qualité | [CH-BLOC-007](chaines_processus/CH-BLOC-007_Controle_Qualite.md) |
-| 04 QUALITY | BLOC 8 — Clôture & Feedback | [CH-BLOC-008](chaines_processus/CH-BLOC-008_Cloture_Feedback.md) |
+| 01 SALES | BLOC 2 — Création Fiche de Commande | [CH-BLOC-002](chaines_processus/CH-BLOC-002_Fiche_Commande.md) |
+| 03 DELIVERY | BLOC 3 — Création Fiche de Transport | [CH-BLOC-003](chaines_processus/CH-BLOC-003_Fiche_Transport.md) |
+| 02 MANUFACTURE | BLOC 4 — Étude Technique Fournisseurs | [CH-BLOC-004](chaines_processus/CH-BLOC-004_Etude_Technique.md) |
+| 01 SALES | BLOC 5 — Validation de Commande | [CH-BLOC-005](chaines_processus/CH-BLOC-005_Validation_Commande.md) |
+| 02 MANUFACTURE + 04 QUALITY | BLOC 6 — Production & Qualité | [CH-BLOC-006](chaines_processus/CH-BLOC-006_Production_Qualite.md) |
+| 03 DELIVERY + 01 SALES | BLOC 7 — Livraison & Douane | [CH-BLOC-007](chaines_processus/CH-BLOC-007_Livraison_Douane.md) |
+| 04 QUALITY + 01 SALES | BLOC 8 — Acceptation Marchandise | [CH-BLOC-008](chaines_processus/CH-BLOC-008_Acceptation_Marchandise.md) |
+
+---
+
+### Documents Sources
+
+| Document | Lien |
+|----------|------|
+| Process Chain Produit Existant (Roxane Wicky) | [PROCESS_CHAIN_PRODUIT_EXISTANT_260304.doc](source/PROCESS_CHAIN_PRODUIT_EXISTANT_260304.doc) |
 
 ---
 

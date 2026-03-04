@@ -6,9 +6,10 @@
 |---------|--------|
 | **Code** | CH-BLOC-001 |
 | **Ligne** | 01 SALES |
-| **Intitulé** | Réception & Enregistrement de la Commande |
+| **Intitulé** | Réception d'une Commande Client |
 | **Rôle pilote** | Rôle Commercial |
 | **Processus parent** | P01 — Commercial |
+| **Source** | PROCESS_CHAIN_PRODUIT_EXISTANT_260304.doc |
 
 ---
 
@@ -25,17 +26,15 @@
 
 ## Données d'entrée
 
-- Demande client (email, téléphone, RFQ)
-- Cahier des charges / spécifications produit
+- Commande client (email, téléphone, RFQ)
 - Historique client (commandes précédentes)
 - Référence produit existant (catalogue)
 
 ## Données de sortie
 
-- Commande enregistrée dans le système
-- Confirmation de réception au client
-- Dossier commande initié
-- Transmission vers BLOC 2 (Revue & Planification)
+- Commande enregistrée dans le dossier ORDER_20XX
+- Type de commande identifié (produit existant, modification outillage, nouvel outillage, sourcing)
+- Transmission vers BLOC 2 (Création Fiche de Commande)
 
 ---
 
@@ -43,19 +42,16 @@
 
 | # | Action | Description | Responsable | Document associé |
 |---|--------|-------------|-------------|-----------------|
-| 1 | Réceptionner la commande client | Recevoir et enregistrer la demande (email, WeChat, téléphone) | Rôle Commercial | — |
-| 2 | Vérifier références produit existant | Confirmer que le produit existe dans le catalogue / historique fournisseur | Rôle Commercial | Catalogue produits |
-| 3 | Confirmer prix, délai, quantité | Vérifier les conditions commerciales avec le fournisseur si nécessaire | Rôle Commercial | Grille tarifaire |
-| 4 | Émettre confirmation de commande | Envoyer l'accusé de réception et la confirmation formelle au client | Rôle Commercial | Confirmation de commande |
+| 1 | Charger et enregistrer la commande | Enregistrer la commande sur le bureau et dans le dossier ORDER_20XX sous la même nomenclature que le client | 01 SALES | Dossier ORDER_20XX |
+| 2 | Identifier le type de commande | Déterminer s'il s'agit d'un produit existant, d'une modification d'outillage, d'un nouvel outillage ou de sourcing | 01 SALES | — |
 
 ---
 
 ## Critères de passage au bloc suivant
 
-- Commande enregistrée et numérotée
-- Références produit validées
-- Conditions commerciales confirmées
-- Client informé de la prise en charge
+- Commande enregistrée dans ORDER_20XX
+- Nomenclature client respectée
+- Type de commande identifié
 
 ---
 
@@ -63,8 +59,7 @@
 
 | Vers | Nature |
 |------|--------|
-| BLOC 2 — Revue & Planification | Transfert du dossier commande pour revue de faisabilité |
-| BLOC 7 — Contrôle Qualité | Transmission des exigences qualité spécifiques au client |
+| BLOC 2 — Création Fiche de Commande | Transfert du dossier commande |
 
 ---
 
