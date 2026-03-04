@@ -39,6 +39,34 @@
 
 ---
 
+### Chaîne Processus Général
+
+> **Diagramme Chaîne Processus Général** : [chaine_processus_general.drawio](diagrammes/chaine_processus_general.drawio)
+
+#### 4 Types de Commande
+
+| # | Type de Commande | Statut | Lien |
+|---|-----------------|--------|------|
+| 1 | Commande Produit Existant | Active | [CHAIN-01](chaines_processus/CHAIN-01_Commande_Produit_Existant.md) |
+| 2 | Commande Modification Outillage | À compléter | [CHAIN-02](chaines_processus/CHAIN-02_Commande_Modification_Outillage.md) |
+| 3 | Commande Nouvel Outillage | À compléter | [CHAIN-03](chaines_processus/CHAIN-03_Commande_Nouvel_Outillage.md) |
+| 4 | Commande de Sourcing | À compléter | [CHAIN-04](chaines_processus/CHAIN-04_Commande_Sourcing.md) |
+
+#### 8 Blocs (Fiches détaillées)
+
+| Ligne | Bloc | Fiche |
+|-------|------|-------|
+| 01 SALES | BLOC 1 — Réception Commande | [CH-BLOC-001](chaines_processus/CH-BLOC-001_Reception_Commande.md) |
+| 01 SALES | BLOC 2 — Revue & Planification | [CH-BLOC-002](chaines_processus/CH-BLOC-002_Revue_Planification.md) |
+| 02 MANUFACTURE | BLOC 3 — Lancement Production | [CH-BLOC-003](chaines_processus/CH-BLOC-003_Lancement_Production.md) |
+| 02 MANUFACTURE | BLOC 4 — Suivi Production | [CH-BLOC-004](chaines_processus/CH-BLOC-004_Suivi_Production.md) |
+| 03 DELIVERY | BLOC 5 — Préparation Expédition | [CH-BLOC-005](chaines_processus/CH-BLOC-005_Preparation_Expedition.md) |
+| 03 DELIVERY | BLOC 6 — Suivi Livraison | [CH-BLOC-006](chaines_processus/CH-BLOC-006_Suivi_Livraison.md) |
+| 04 QUALITY | BLOC 7 — Contrôle Qualité | [CH-BLOC-007](chaines_processus/CH-BLOC-007_Controle_Qualite.md) |
+| 04 QUALITY | BLOC 8 — Clôture & Feedback | [CH-BLOC-008](chaines_processus/CH-BLOC-008_Cloture_Feedback.md) |
+
+---
+
 ### Documents Opérationnels
 
 | Document | Lien |
