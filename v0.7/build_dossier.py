@@ -2,9 +2,11 @@
 """
 Génère le dossier numérique HTML standalone et le document consolidé SQS
 pour le SMQ ISO 9001:2015 de Plus Sàrl — v0.7
+
+Dépendances : pip install markdown weasyprint fpdf2
 """
 
-import os
+import base64
 import re
 import subprocess
 import markdown
@@ -67,6 +69,11 @@ SECTIONS = [
     ]),
 ]
 
+DIAGRAMS = [
+    ("Cartographie des Processus ISO 9001", "diagrammes/processus_iso9001.drawio"),
+    ("Chaîne de Processus Générale", "diagrammes/chaine_processus_general.drawio"),
+]
+
 
 def slugify(text):
     return re.sub(r'[^a-z0-9]+', '-', text.lower()).strip('-')
@@ -79,6 +86,13 @@ def read_md(path):
     return f"*Fichier non trouvé : {path}*"
 
 
+def read_file(path):
+    full = BASE / path
+    if full.exists():
+        return full.read_text(encoding='utf-8')
+    return ""
+
+
 def md_to_html(md_text):
     return markdown.markdown(
         md_text,
@@ -87,21 +101,17 @@ def md_to_html(md_text):
     )
 
 
-# ── 1. Génération HTML standalone ─────────────────────────────────────────────
+# ── 1. Génération HTML standalone avec diagrammes drawio ─────────────────────
 
 def build_html():
     nav_items = []
     content_sections = []
-    first_id = None
 
+    # -- Document sections --
     for group_name, docs in SECTIONS:
-        group_slug = slugify(group_name)
         nav_items.append(f'<div class="nav-group">{group_name}</div>')
-
         for doc_title, doc_path in docs:
             doc_id = slugify(doc_title)
-            if first_id is None:
-                first_id = doc_id
             nav_items.append(
                 f'<a class="nav-link" data-target="{doc_id}" '
                 f'href="#{doc_id}">{doc_title}</a>'
@@ -112,6 +122,34 @@ def build_html():
                 f'<section id="{doc_id}" class="doc-section">'
                 f'{html_content}</section>'
             )
+
+    # -- Diagram sections --
+    nav_items.append('<div class="nav-group">Diagrammes</div>')
+    diagram_data = []
+    for diag_title, diag_path in DIAGRAMS:
+        diag_id = slugify(diag_title)
+        nav_items.append(
+            f'<a class="nav-link" data-target="{diag_id}" '
+            f'href="#{diag_id}">{diag_title}</a>'
+        )
+        xml_content = read_file(diag_path)
+        b64 = base64.b64encode(xml_content.encode('utf-8')).decode('ascii')
+        diagram_data.append((diag_id, diag_title, b64))
+        content_sections.append(
+            f'<section id="{diag_id}" class="doc-section diagram-section">'
+            f'<h1>{diag_title}</h1>'
+            f'<div class="diagram-toolbar">'
+            f'<button onclick="diagramZoom(\'{diag_id}\', 1.2)">Zoom +</button>'
+            f'<button onclick="diagramZoom(\'{diag_id}\', 0.8)">Zoom -</button>'
+            f'<button onclick="diagramReset(\'{diag_id}\')">Reset</button>'
+            f'<button onclick="diagramFit(\'{diag_id}\')">Ajuster</button>'
+            f'</div>'
+            f'<div class="diagram-container" id="container-{diag_id}">'
+            f'<div class="diagram-inner" id="inner-{diag_id}" '
+            f'data-xml="{b64}"></div>'
+            f'</div>'
+            f'</section>'
+        )
 
     nav_html = '\n'.join(nav_items)
     content_html = '\n'.join(content_sections)
@@ -206,12 +244,36 @@ body {{ font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: va
 .doc-section > table:first-child {{ max-width: 500px; background: #f9fafb; border-radius: 8px; overflow: hidden; }}
 .doc-section > table:first-child th {{ background: var(--accent); color: #fff; }}
 
+/* Diagram sections */
+.diagram-toolbar {{
+  display: flex; gap: 8px; margin-bottom: 12px; flex-wrap: wrap;
+}}
+.diagram-toolbar button {{
+  padding: 6px 16px; border: 1px solid var(--border); border-radius: 6px;
+  background: #fff; color: var(--text); font-size: 13px; cursor: pointer;
+  transition: all .15s;
+}}
+.diagram-toolbar button:hover {{ background: var(--accent); color: #fff; border-color: var(--accent); }}
+.diagram-container {{
+  width: 100%; height: calc(100vh - 200px); min-height: 500px;
+  border: 1px solid var(--border); border-radius: 8px; overflow: hidden;
+  background: #fff; position: relative; cursor: grab;
+}}
+.diagram-container:active {{ cursor: grabbing; }}
+.diagram-inner {{
+  position: absolute; top: 0; left: 0;
+  transform-origin: 0 0;
+  transition: transform 0.1s ease-out;
+}}
+.diagram-inner svg {{ display: block; }}
+
 /* Print */
 @media print {{
-  .sidebar, .header, .search-box, .menu-btn {{ display: none !important; }}
+  .sidebar, .header, .search-box, .menu-btn, .diagram-toolbar {{ display: none !important; }}
   .content {{ margin: 0; padding: 16px; max-width: 100%; }}
   .doc-section {{ display: block !important; page-break-after: always; }}
   .doc-section:last-child {{ page-break-after: avoid; }}
+  .diagram-container {{ height: auto; overflow: visible; }}
 }}
 
 /* Mobile */
@@ -229,7 +291,7 @@ body {{ font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: va
   <button class="menu-btn" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776;</button>
   <h1>SMQ ISO 9001:2015</h1>
   <span class="version">v0.7</span>
-  <span class="company">Plus Sàrl — Monitoring industriel &amp; Sourcing mondial</span>
+  <span class="company">Plus S&agrave;rl &mdash; Monitoring industriel &amp; Sourcing mondial</span>
 </header>
 
 <nav class="sidebar">
@@ -244,7 +306,7 @@ body {{ font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: va
 </main>
 
 <script>
-// Navigation
+// ── Navigation ──
 document.querySelectorAll('.nav-link').forEach(link => {{
   link.addEventListener('click', e => {{
     e.preventDefault();
@@ -256,16 +318,311 @@ document.querySelectorAll('.nav-link').forEach(link => {{
     window.scrollTo(0, 0);
     document.querySelector('.sidebar').classList.remove('open');
     history.replaceState(null, '', '#' + id);
+    // Render diagram if switching to a diagram section
+    const inner = document.getElementById('inner-' + id);
+    if (inner && !inner.dataset.rendered) renderDiagram(id);
   }});
 }});
 
-// Search
+// ── Search ──
 document.getElementById('search').addEventListener('input', e => {{
   const q = e.target.value.toLowerCase();
   document.querySelectorAll('.nav-link').forEach(link => {{
     link.style.display = link.textContent.toLowerCase().includes(q) ? '' : 'none';
   }});
 }});
+
+// ── Drawio rendering (pure XML to SVG) ──
+const diagramState = {{}};
+
+function parseMxGraphXml(xmlStr) {{
+  const parser = new DOMParser();
+  const doc = parser.parseFromString(xmlStr, 'text/xml');
+  return doc;
+}}
+
+function mxCellToSvg(cells, svgEl, bounds) {{
+  // Simple renderer: extract geometry and styles from mxCell elements
+  cells.forEach(cell => {{
+    const geom = cell.querySelector('mxGeometry');
+    if (!geom) return;
+    const x = parseFloat(geom.getAttribute('x') || 0);
+    const y = parseFloat(geom.getAttribute('y') || 0);
+    const w = parseFloat(geom.getAttribute('width') || 0);
+    const h = parseFloat(geom.getAttribute('height') || 0);
+    const style = cell.getAttribute('style') || '';
+    const value = cell.getAttribute('value') || '';
+    const isEdge = cell.getAttribute('edge') === '1';
+
+    if (isEdge) {{
+      // Draw edges as lines
+      const source = cell.getAttribute('source');
+      const target = cell.getAttribute('target');
+      const pts = geom.querySelector('Array');
+      // Simple edge: just draw from source to target center
+      return; // handled below
+    }}
+
+    if (w > 0 && h > 0) {{
+      bounds.minX = Math.min(bounds.minX, x);
+      bounds.minY = Math.min(bounds.minY, y);
+      bounds.maxX = Math.max(bounds.maxX, x + w);
+      bounds.maxY = Math.max(bounds.maxY, y + h);
+
+      // Parse fill and stroke from style
+      let fill = '#ffffff';
+      let stroke = '#333333';
+      let fontSize = 12;
+      let fontStyle = '';
+      let rounded = false;
+
+      style.split(';').forEach(s => {{
+        const [k, v] = s.split('=');
+        if (k === 'fillColor') fill = v;
+        if (k === 'strokeColor') stroke = v;
+        if (k === 'fontSize') fontSize = parseInt(v);
+        if (k === 'fontStyle' && v === '1') fontStyle = 'font-weight:bold;';
+        if (k === 'rounded' && v === '1') rounded = true;
+      }});
+
+      if (style.includes('swimlane')) {{
+        // Swimlane header
+        const startSize = parseInt(style.match(/startSize=(\d+)/)?.[1] || 30);
+        const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        rect.setAttribute('x', x); rect.setAttribute('y', y);
+        rect.setAttribute('width', w); rect.setAttribute('height', h);
+        rect.setAttribute('fill', 'none'); rect.setAttribute('stroke', stroke);
+        rect.setAttribute('stroke-width', '1.5');
+        if (rounded) rect.setAttribute('rx', '8');
+        svgEl.appendChild(rect);
+
+        const headerRect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+        headerRect.setAttribute('x', x); headerRect.setAttribute('y', y);
+        headerRect.setAttribute('width', w); headerRect.setAttribute('height', startSize);
+        headerRect.setAttribute('fill', fill); headerRect.setAttribute('stroke', stroke);
+        headerRect.setAttribute('stroke-width', '1.5');
+        if (rounded) headerRect.setAttribute('rx', '8');
+        svgEl.appendChild(headerRect);
+
+        if (value) {{
+          const text = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
+          text.setAttribute('x', x + 4); text.setAttribute('y', y + 2);
+          text.setAttribute('width', w - 8); text.setAttribute('height', startSize - 4);
+          const div = document.createElement('div');
+          div.setAttribute('xmlns', 'http://www.w3.org/1999/xhtml');
+          div.style.cssText = `font-size:${{fontSize}}px;${{fontStyle}}text-align:center;color:#333;line-height:${{startSize-4}}px;overflow:hidden;font-family:sans-serif;`;
+          div.innerHTML = value;
+          text.appendChild(div);
+          svgEl.appendChild(text);
+        }}
+      }} else if (style.includes('text;') || style.includes('text;html=1')) {{
+        // Text element
+        if (value) {{
+          const text = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
+          text.setAttribute('x', x); text.setAttribute('y', y);
+          text.setAttribute('width', w); text.setAttribute('height', h);
+          const div = document.createElement('div');
+          div.setAttribute('xmlns', 'http://www.w3.org/1999/xhtml');
+          div.style.cssText = `font-size:${{fontSize}}px;${{fontStyle}}text-align:center;display:flex;align-items:center;justify-content:center;height:100%;color:#333;font-family:sans-serif;padding:2px;`;
+          div.innerHTML = value;
+          text.appendChild(div);
+          svgEl.appendChild(text);
+        }}
+      }} else {{
+        // Regular shape
+        if (style.includes('ellipse')) {{
+          const el = document.createElementNS('http://www.w3.org/2000/svg', 'ellipse');
+          el.setAttribute('cx', x + w/2); el.setAttribute('cy', y + h/2);
+          el.setAttribute('rx', w/2); el.setAttribute('ry', h/2);
+          el.setAttribute('fill', fill); el.setAttribute('stroke', stroke);
+          el.setAttribute('stroke-width', '1.5');
+          svgEl.appendChild(el);
+        }} else if (style.includes('rhombus')) {{
+          const pts = `${{x+w/2}},${{y}} ${{x+w}},${{y+h/2}} ${{x+w/2}},${{y+h}} ${{x}},${{y+h/2}}`;
+          const el = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+          el.setAttribute('points', pts);
+          el.setAttribute('fill', fill); el.setAttribute('stroke', stroke);
+          el.setAttribute('stroke-width', '1.5');
+          svgEl.appendChild(el);
+        }} else {{
+          const rect = document.createElementNS('http://www.w3.org/2000/svg', 'rect');
+          rect.setAttribute('x', x); rect.setAttribute('y', y);
+          rect.setAttribute('width', w); rect.setAttribute('height', h);
+          rect.setAttribute('fill', fill); rect.setAttribute('stroke', stroke);
+          rect.setAttribute('stroke-width', '1.5');
+          if (rounded || style.includes('rounded=1')) rect.setAttribute('rx', '8');
+          svgEl.appendChild(rect);
+        }}
+
+        if (value) {{
+          const text = document.createElementNS('http://www.w3.org/2000/svg', 'foreignObject');
+          text.setAttribute('x', x + 4); text.setAttribute('y', y + 2);
+          text.setAttribute('width', w - 8); text.setAttribute('height', h - 4);
+          const div = document.createElement('div');
+          div.setAttribute('xmlns', 'http://www.w3.org/1999/xhtml');
+          div.style.cssText = `font-size:${{Math.min(fontSize, 11)}}px;${{fontStyle}}text-align:center;display:flex;align-items:center;justify-content:center;height:100%;color:#333;font-family:sans-serif;line-height:1.3;overflow:hidden;padding:2px;`;
+          div.innerHTML = value;
+          text.appendChild(div);
+          svgEl.appendChild(text);
+        }}
+      }}
+    }}
+  }});
+}}
+
+function drawEdges(cells, svgEl, allCells) {{
+  // Build a map of cell id -> center coordinates
+  const centers = {{}};
+  allCells.forEach(cell => {{
+    const geom = cell.querySelector('mxGeometry');
+    if (!geom) return;
+    const x = parseFloat(geom.getAttribute('x') || 0);
+    const y = parseFloat(geom.getAttribute('y') || 0);
+    const w = parseFloat(geom.getAttribute('width') || 0);
+    const h = parseFloat(geom.getAttribute('height') || 0);
+    if (w > 0 && h > 0) {{
+      centers[cell.getAttribute('id')] = {{ x: x + w/2, y: y + h/2, w, h, left: x, top: y }};
+    }}
+  }});
+
+  // Add arrowhead marker
+  let defs = svgEl.querySelector('defs');
+  if (!defs) {{
+    defs = document.createElementNS('http://www.w3.org/2000/svg', 'defs');
+    svgEl.insertBefore(defs, svgEl.firstChild);
+  }}
+  if (!defs.querySelector('#arrowhead')) {{
+    const marker = document.createElementNS('http://www.w3.org/2000/svg', 'marker');
+    marker.setAttribute('id', 'arrowhead');
+    marker.setAttribute('markerWidth', '10'); marker.setAttribute('markerHeight', '7');
+    marker.setAttribute('refX', '9'); marker.setAttribute('refY', '3.5');
+    marker.setAttribute('orient', 'auto');
+    const poly = document.createElementNS('http://www.w3.org/2000/svg', 'polygon');
+    poly.setAttribute('points', '0 0, 10 3.5, 0 7');
+    poly.setAttribute('fill', '#666');
+    marker.appendChild(poly);
+    defs.appendChild(marker);
+  }}
+
+  cells.forEach(cell => {{
+    if (cell.getAttribute('edge') !== '1') return;
+    const srcId = cell.getAttribute('source');
+    const tgtId = cell.getAttribute('target');
+    const src = centers[srcId];
+    const tgt = centers[tgtId];
+    if (!src || !tgt) return;
+
+    const style = cell.getAttribute('style') || '';
+    let strokeColor = '#666666';
+    style.split(';').forEach(s => {{
+      const [k, v] = s.split('=');
+      if (k === 'strokeColor') strokeColor = v;
+    }});
+
+    const line = document.createElementNS('http://www.w3.org/2000/svg', 'line');
+    line.setAttribute('x1', src.x); line.setAttribute('y1', src.y);
+    line.setAttribute('x2', tgt.x); line.setAttribute('y2', tgt.y);
+    line.setAttribute('stroke', strokeColor);
+    line.setAttribute('stroke-width', '1.5');
+    line.setAttribute('marker-end', 'url(#arrowhead)');
+    svgEl.appendChild(line);
+
+    // Edge label
+    const value = cell.getAttribute('value');
+    if (value) {{
+      const mx = (src.x + tgt.x) / 2;
+      const my = (src.y + tgt.y) / 2;
+      const text = document.createElementNS('http://www.w3.org/2000/svg', 'text');
+      text.setAttribute('x', mx); text.setAttribute('y', my - 4);
+      text.setAttribute('text-anchor', 'middle');
+      text.setAttribute('font-size', '10');
+      text.setAttribute('fill', '#666');
+      text.setAttribute('font-family', 'sans-serif');
+      text.textContent = value.replace(/<[^>]+>/g, '');
+      svgEl.appendChild(text);
+    }}
+  }});
+}}
+
+function renderDiagram(diagId) {{
+  const inner = document.getElementById('inner-' + diagId);
+  if (!inner || inner.dataset.rendered) return;
+  inner.dataset.rendered = 'true';
+
+  const xmlB64 = inner.dataset.xml;
+  const xmlStr = atob(xmlB64);
+  const doc = parseMxGraphXml(xmlStr);
+
+  const cells = Array.from(doc.querySelectorAll('mxCell'));
+  const svg = document.createElementNS('http://www.w3.org/2000/svg', 'svg');
+  svg.style.overflow = 'visible';
+
+  const bounds = {{ minX: Infinity, minY: Infinity, maxX: -Infinity, maxY: -Infinity }};
+  mxCellToSvg(cells, svg, bounds);
+  drawEdges(cells, svg, cells);
+
+  const pad = 40;
+  const vw = bounds.maxX - bounds.minX + pad * 2;
+  const vh = bounds.maxY - bounds.minY + pad * 2;
+  svg.setAttribute('viewBox', `${{bounds.minX - pad}} ${{bounds.minY - pad}} ${{vw}} ${{vh}}`);
+  svg.setAttribute('width', vw);
+  svg.setAttribute('height', vh);
+
+  inner.appendChild(svg);
+
+  // Fit to container
+  const container = document.getElementById('container-' + diagId);
+  const scale = Math.min(container.clientWidth / vw, container.clientHeight / vh, 1);
+  diagramState[diagId] = {{ scale, tx: 0, ty: 0, vw, vh }};
+  inner.style.transform = `scale(${{scale}})`;
+
+  // Pan support
+  let dragging = false, lastX = 0, lastY = 0;
+  container.addEventListener('mousedown', e => {{ dragging = true; lastX = e.clientX; lastY = e.clientY; }});
+  container.addEventListener('mousemove', e => {{
+    if (!dragging) return;
+    const st = diagramState[diagId];
+    st.tx += e.clientX - lastX;
+    st.ty += e.clientY - lastY;
+    lastX = e.clientX; lastY = e.clientY;
+    inner.style.transform = `translate(${{st.tx}}px, ${{st.ty}}px) scale(${{st.scale}})`;
+  }});
+  container.addEventListener('mouseup', () => {{ dragging = false; }});
+  container.addEventListener('mouseleave', () => {{ dragging = false; }});
+
+  // Mouse wheel zoom
+  container.addEventListener('wheel', e => {{
+    e.preventDefault();
+    const factor = e.deltaY > 0 ? 0.9 : 1.1;
+    diagramZoom(diagId, factor);
+  }}, {{ passive: false }});
+}}
+
+function diagramZoom(diagId, factor) {{
+  const st = diagramState[diagId];
+  if (!st) return;
+  st.scale *= factor;
+  const inner = document.getElementById('inner-' + diagId);
+  inner.style.transform = `translate(${{st.tx}}px, ${{st.ty}}px) scale(${{st.scale}})`;
+}}
+
+function diagramReset(diagId) {{
+  const st = diagramState[diagId];
+  if (!st) return;
+  st.scale = 1; st.tx = 0; st.ty = 0;
+  const inner = document.getElementById('inner-' + diagId);
+  inner.style.transform = `scale(1)`;
+}}
+
+function diagramFit(diagId) {{
+  const st = diagramState[diagId];
+  if (!st) return;
+  const container = document.getElementById('container-' + diagId);
+  st.scale = Math.min(container.clientWidth / st.vw, container.clientHeight / st.vh, 1.5);
+  st.tx = 0; st.ty = 0;
+  const inner = document.getElementById('inner-' + diagId);
+  inner.style.transform = `scale(${{st.scale}})`;
+}}
 
 // Init: show section from hash or first
 (function() {{
@@ -275,6 +632,9 @@ document.getElementById('search').addEventListener('input', e => {{
     target.classList.add('active');
     const link = document.querySelector('.nav-link[data-target="' + target.id + '"]');
     if (link) link.classList.add('active');
+    // Render diagram if needed
+    const inner = document.getElementById('inner-' + target.id);
+    if (inner) renderDiagram(target.id);
   }}
 }})();
 </script>
@@ -287,12 +647,424 @@ document.getElementById('search').addEventListener('input', e => {{
     return out_file
 
 
-# ── 2. Génération du document consolidé SQS ───────────────────────────────────
+# ── 2. Génération PDF professionnel via weasyprint ───────────────────────────
 
-def build_sqs_document():
+def build_pdf():
+    """Génère un PDF professionnel via HTML + CSS + weasyprint."""
+    from weasyprint import HTML
+
+    # Build all sections as HTML
+    body_parts = []
+
+    # -- Cover page --
+    body_parts.append('''
+    <div class="cover-page">
+      <div class="cover-top-bar"></div>
+      <div class="cover-content">
+        <div class="cover-badge">ISO 9001:2015</div>
+        <h1 class="cover-title">Système de Management<br>de la Qualité</h1>
+        <div class="cover-separator"></div>
+        <h2 class="cover-subtitle">Dossier de certification</h2>
+        <div class="cover-company">Plus Sàrl</div>
+        <div class="cover-activity">Monitoring industriel &amp; Sourcing mondial</div>
+        <div class="cover-meta">
+          <table>
+            <tr><td class="label">Version</td><td>0.7</td></tr>
+            <tr><td class="label">Date</td><td>Mars 2026</td></tr>
+            <tr><td class="label">Classification</td><td>Confidentiel</td></tr>
+            <tr><td class="label">Destinataire</td><td>SQS — Organisme de certification</td></tr>
+          </table>
+        </div>
+      </div>
+      <div class="cover-footer">
+        <p>Ce document est la propriété de Plus Sàrl. Toute reproduction ou diffusion non autorisée est interdite.</p>
+      </div>
+    </div>
+    ''')
+
+    # -- Table of contents page --
+    toc_items = []
+    doc_counter = 0
+    for group_name, docs in SECTIONS:
+        toc_items.append(f'<div class="toc-group">{group_name}</div>')
+        for doc_title, _ in docs:
+            doc_counter += 1
+            toc_items.append(f'<div class="toc-item"><span class="toc-num">{doc_counter}.</span> {doc_title}</div>')
+
+    body_parts.append(f'''
+    <div class="toc-page">
+      <h1 class="toc-title">Table des matières</h1>
+      <div class="toc-list">
+        {''.join(toc_items)}
+      </div>
+    </div>
+    ''')
+
+    # -- Document sections --
+    for group_name, docs in SECTIONS:
+        # Part separator page
+        body_parts.append(f'''
+        <div class="part-page">
+          <div class="part-decoration"></div>
+          <h1 class="part-title">{group_name}</h1>
+          <div class="part-line"></div>
+          <p class="part-count">{len(docs)} document{"s" if len(docs) > 1 else ""}</p>
+        </div>
+        ''')
+
+        for doc_title, doc_path in docs:
+            md_content = read_md(doc_path)
+            html_content = md_to_html(md_content)
+            body_parts.append(f'''
+            <div class="document-section">
+              {html_content}
+            </div>
+            ''')
+
+    content = '\n'.join(body_parts)
+
+    pdf_html = f'''<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<style>
+@page {{
+  size: A4;
+  margin: 25mm 20mm 30mm 20mm;
+  @top-left {{
+    content: "SMQ ISO 9001:2015 — Plus Sàrl";
+    font-size: 8pt;
+    color: #6b7280;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+  }}
+  @top-right {{
+    content: "v0.7 — Mars 2026";
+    font-size: 8pt;
+    color: #6b7280;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+  }}
+  @bottom-center {{
+    content: counter(page);
+    font-size: 9pt;
+    color: #6b7280;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+  }}
+  @bottom-right {{
+    content: "Confidentiel";
+    font-size: 7pt;
+    color: #9ca3af;
+    font-family: 'Segoe UI', system-ui, sans-serif;
+  }}
+}}
+
+@page :first {{
+  margin: 0;
+  @top-left {{ content: none; }}
+  @top-right {{ content: none; }}
+  @bottom-center {{ content: none; }}
+  @bottom-right {{ content: none; }}
+}}
+
+body {{
+  font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  font-size: 10pt;
+  line-height: 1.6;
+  color: #1f2937;
+}}
+
+/* ── Cover Page ── */
+.cover-page {{
+  page: cover;
+  page-break-after: always;
+  height: 297mm;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  padding: 0;
+}}
+.cover-top-bar {{
+  height: 8mm;
+  background: linear-gradient(135deg, #1a56db, #2563eb);
+  width: 100%;
+}}
+.cover-content {{
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30mm 25mm;
+  text-align: center;
+}}
+.cover-badge {{
+  background: #1a56db;
+  color: #fff;
+  padding: 8px 28px;
+  border-radius: 24px;
+  font-size: 14pt;
+  font-weight: 700;
+  letter-spacing: 2px;
+  margin-bottom: 20mm;
+}}
+.cover-title {{
+  font-size: 28pt;
+  font-weight: 700;
+  color: #111827;
+  margin: 0 0 8mm;
+  line-height: 1.2;
+}}
+.cover-separator {{
+  width: 60mm;
+  height: 1mm;
+  background: #1a56db;
+  margin: 0 auto 8mm;
+}}
+.cover-subtitle {{
+  font-size: 16pt;
+  font-weight: 400;
+  color: #4b5563;
+  margin: 0 0 15mm;
+}}
+.cover-company {{
+  font-size: 20pt;
+  font-weight: 700;
+  color: #1a56db;
+  margin: 0 0 3mm;
+}}
+.cover-activity {{
+  font-size: 11pt;
+  color: #6b7280;
+  margin: 0 0 15mm;
+}}
+.cover-meta {{
+  margin-top: 10mm;
+}}
+.cover-meta table {{
+  border-collapse: collapse;
+  margin: 0 auto;
+}}
+.cover-meta td {{
+  padding: 4px 16px;
+  font-size: 10pt;
+  color: #374151;
+  border-bottom: 1px solid #e5e7eb;
+}}
+.cover-meta td.label {{
+  font-weight: 600;
+  color: #1a56db;
+  text-align: right;
+}}
+.cover-footer {{
+  background: #f3f4f6;
+  padding: 6mm 20mm;
+  text-align: center;
+  font-size: 7pt;
+  color: #9ca3af;
+}}
+
+/* ── Table of Contents ── */
+.toc-page {{
+  page-break-after: always;
+}}
+.toc-title {{
+  font-size: 20pt;
+  color: #1a56db;
+  border-bottom: 3px solid #1a56db;
+  padding-bottom: 8px;
+  margin-bottom: 16px;
+}}
+.toc-group {{
+  font-size: 11pt;
+  font-weight: 700;
+  color: #1a56db;
+  margin: 14px 0 6px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  border-left: 4px solid #1a56db;
+  padding-left: 10px;
+}}
+.toc-item {{
+  font-size: 9.5pt;
+  color: #374151;
+  padding: 3px 0 3px 18px;
+  border-bottom: 1px dotted #d1d5db;
+}}
+.toc-num {{
+  color: #6b7280;
+  margin-right: 6px;
+  font-variant-numeric: tabular-nums;
+}}
+
+/* ── Part Separator ── */
+.part-page {{
+  page-break-before: always;
+  page-break-after: always;
+  height: 200mm;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}}
+.part-decoration {{
+  width: 20mm;
+  height: 2mm;
+  background: #1a56db;
+  margin-bottom: 12mm;
+  border-radius: 1mm;
+}}
+.part-title {{
+  font-size: 26pt;
+  color: #1a56db;
+  font-weight: 700;
+  margin: 0 0 8mm;
+}}
+.part-line {{
+  width: 80mm;
+  height: 0.5mm;
+  background: #d1d5db;
+  margin-bottom: 8mm;
+}}
+.part-count {{
+  font-size: 11pt;
+  color: #6b7280;
+}}
+
+/* ── Document Content ── */
+.document-section {{
+  page-break-before: always;
+}}
+.document-section h1 {{
+  font-size: 16pt;
+  color: #1a56db;
+  border-bottom: 2px solid #1a56db;
+  padding-bottom: 6px;
+  margin: 0 0 12px;
+}}
+.document-section h2 {{
+  font-size: 13pt;
+  color: #374151;
+  margin: 18px 0 8px;
+  border-left: 4px solid #1a56db;
+  padding-left: 10px;
+}}
+.document-section h3 {{
+  font-size: 11pt;
+  color: #4b5563;
+  margin: 14px 0 6px;
+}}
+.document-section h4 {{
+  font-size: 10pt;
+  color: #6b7280;
+  margin: 10px 0 4px;
+  font-style: italic;
+}}
+.document-section p {{
+  margin: 6px 0;
+  text-align: justify;
+  line-height: 1.65;
+}}
+.document-section ul, .document-section ol {{
+  margin: 6px 0 6px 18px;
+  line-height: 1.6;
+}}
+.document-section li {{
+  margin: 3px 0;
+}}
+.document-section table {{
+  width: 100%;
+  border-collapse: collapse;
+  margin: 10px 0;
+  font-size: 9pt;
+}}
+.document-section th {{
+  background: #1a56db;
+  color: #ffffff;
+  padding: 8px 10px;
+  text-align: left;
+  font-weight: 600;
+  font-size: 9pt;
+  border: 1px solid #1a56db;
+}}
+.document-section td {{
+  padding: 6px 10px;
+  border: 1px solid #d1d5db;
+  vertical-align: top;
+}}
+.document-section tr:nth-child(even) {{
+  background: #f3f4f6;
+}}
+.document-section tr:nth-child(odd) {{
+  background: #ffffff;
+}}
+.document-section blockquote {{
+  border-left: 4px solid #1a56db;
+  padding: 8px 14px;
+  margin: 10px 0;
+  background: #e8eefb;
+  font-style: italic;
+  font-size: 9.5pt;
+  color: #374151;
+}}
+.document-section code {{
+  background: #f3f4f6;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 9pt;
+  font-family: 'Courier New', monospace;
+}}
+.document-section pre {{
+  background: #1f2937;
+  color: #e5e7eb;
+  padding: 12px;
+  border-radius: 6px;
+  margin: 10px 0;
+  font-size: 8pt;
+  line-height: 1.4;
+  overflow-wrap: break-word;
+  white-space: pre-wrap;
+}}
+.document-section pre code {{
+  background: none;
+  padding: 0;
+  color: inherit;
+}}
+.document-section hr {{
+  border: none;
+  border-top: 1px solid #d1d5db;
+  margin: 16px 0;
+}}
+.document-section strong {{
+  color: #111827;
+}}
+
+/* First table in section = metadata cartouche */
+.document-section > table:first-child {{
+  max-width: 300px;
+  margin-bottom: 16px;
+  border-radius: 6px;
+  overflow: hidden;
+}}
+</style>
+</head>
+<body>
+{content}
+</body>
+</html>'''
+
+    pdf_file = OUT / "SMQ_Plus_Sarl_v0.7_SQS.pdf"
+    HTML(string=pdf_html).write_pdf(str(pdf_file))
+    print(f"[OK] PDF professionnel : {pdf_file}")
+    return pdf_file
+
+
+# ── 3. Génération DOCX amélioré ──────────────────────────────────────────────
+
+def build_docx():
+    """Génère un DOCX consolidé via pandoc avec styles améliorés."""
     parts = []
 
-    # Page de titre (en markdown)
+    # Title page content
     parts.append("""---
 title: "Système de Management de la Qualité ISO 9001:2015"
 subtitle: "Dossier de certification — Plus Sàrl"
@@ -304,29 +1076,23 @@ date: "Mars 2026 — Version 0.7"
 
 # Dossier SMQ — Plus Sàrl
 
-**Objet** : Présentation du Système de Management de la Qualité de Plus Sàrl en vue de la certification ISO 9001:2015
-
-**Organisme** : Plus Sàrl
-**Activité** : Monitoring industriel et sourcing à l'échelle mondiale
-**Version** : v0.7
-**Date** : Mars 2026
-**Classification** : Confidentiel — À l'attention de l'organisme de certification
-
----
-
-## Table des matières
-
-### Partie I — Manuel Qualité (Chapitres 1 à 10)
-### Partie II — Fiches Processus (PM01, P01-P04, PS01-PS03)
-### Partie III — Documents Support (Formulaires et registres)
-### Partie IV — Chaînes de Processus et Fiches BLOC
+| | |
+|---|---|
+| **Objet** | Présentation du SMQ en vue de la certification ISO 9001:2015 |
+| **Organisme** | Plus Sàrl |
+| **Activité** | Monitoring industriel et sourcing à l'échelle mondiale |
+| **Version** | v0.7 |
+| **Date** | Mars 2026 |
+| **Classification** | Confidentiel — À l'attention de l'organisme de certification SQS |
 
 \\newpage
 
 """)
 
+    part_num = 0
     for group_name, docs in SECTIONS:
-        parts.append(f"\n\n\\newpage\n\n# PARTIE : {group_name}\n\n---\n\n")
+        part_num += 1
+        parts.append(f"\n\n\\newpage\n\n# Partie {part_num} — {group_name}\n\n---\n\n")
         for doc_title, doc_path in docs:
             md = read_md(doc_path)
             parts.append(f"\n\n\\newpage\n\n{md}\n\n")
@@ -336,48 +1102,6 @@ date: "Mars 2026 — Version 0.7"
     md_file.write_text(consolidated, encoding='utf-8')
     print(f"[OK] Document consolidé MD : {md_file}")
 
-    # PDF via pandoc
-    pdf_file = OUT / "SMQ_Plus_Sarl_v0.7_SQS.pdf"
-    try:
-        subprocess.run([
-            'pandoc', str(md_file),
-            '-o', str(pdf_file),
-            '--pdf-engine=pdflatex',
-            '-V', 'geometry:margin=2.5cm',
-            '-V', 'fontsize=11pt',
-            '-V', 'documentclass=report',
-            '-V', 'lang=fr',
-            '--toc', '--toc-depth=3',
-            '-V', 'toc-title=Table des matières',
-            '-V', 'mainfont=DejaVu Sans',
-            '--highlight-style=tango',
-        ], check=True, capture_output=True, text=True)
-        print(f"[OK] PDF : {pdf_file}")
-    except subprocess.CalledProcessError as e:
-        print(f"[!!] PDF pdflatex échoué, tentative avec wkhtmltopdf...")
-        try:
-            html_tmp = OUT / "_tmp_sqs.html"
-            subprocess.run([
-                'pandoc', str(md_file),
-                '-o', str(html_tmp),
-                '--standalone', '--toc', '--toc-depth=3',
-                '-c', '',  # no external css
-                '--metadata', 'title=SMQ Plus Sàrl v0.7',
-            ], check=True, capture_output=True, text=True)
-            # Try weasyprint or just keep HTML
-            try:
-                subprocess.run([
-                    'pandoc', str(md_file),
-                    '-o', str(pdf_file),
-                    '--pdf-engine=weasyprint',
-                    '--toc', '--toc-depth=3',
-                ], check=True, capture_output=True, text=True)
-                print(f"[OK] PDF (weasyprint) : {pdf_file}")
-            except Exception:
-                print(f"[!!] PDF non généré — utilisez le HTML standalone ou convertissez le DOCX")
-        except Exception:
-            print(f"[!!] PDF non généré — utilisez le HTML standalone ou convertissez le DOCX")
-
     # DOCX via pandoc
     docx_file = OUT / "SMQ_Plus_Sarl_v0.7_SQS.docx"
     try:
@@ -386,12 +1110,13 @@ date: "Mars 2026 — Version 0.7"
             '-o', str(docx_file),
             '--toc', '--toc-depth=3',
             '--highlight-style=tango',
+            '-V', 'toc-title=Table des matières',
         ], check=True, capture_output=True, text=True)
         print(f"[OK] DOCX : {docx_file}")
     except subprocess.CalledProcessError as e:
         print(f"[!!] DOCX échoué : {e.stderr}")
 
-    return md_file, pdf_file, docx_file
+    return md_file, docx_file
 
 
 # ── Main ──────────────────────────────────────────────────────────────────────
@@ -403,7 +1128,9 @@ if __name__ == '__main__':
     print()
     build_html()
     print()
-    build_sqs_document()
+    build_pdf()
+    print()
+    build_docx()
     print()
     print("=" * 60)
     print(f"  Fichiers générés dans : {OUT}")

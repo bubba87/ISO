@@ -9,22 +9,14 @@ date: "Mars 2026 — Version 0.7"
 
 # Dossier SMQ — Plus Sàrl
 
-**Objet** : Présentation du Système de Management de la Qualité de Plus Sàrl en vue de la certification ISO 9001:2015
-
-**Organisme** : Plus Sàrl
-**Activité** : Monitoring industriel et sourcing à l'échelle mondiale
-**Version** : v0.7
-**Date** : Mars 2026
-**Classification** : Confidentiel — À l'attention de l'organisme de certification
-
----
-
-## Table des matières
-
-### Partie I — Manuel Qualité (Chapitres 1 à 10)
-### Partie II — Fiches Processus (PM01, P01-P04, PS01-PS03)
-### Partie III — Documents Support (Formulaires et registres)
-### Partie IV — Chaînes de Processus et Fiches BLOC
+| | |
+|---|---|
+| **Objet** | Présentation du SMQ en vue de la certification ISO 9001:2015 |
+| **Organisme** | Plus Sàrl |
+| **Activité** | Monitoring industriel et sourcing à l'échelle mondiale |
+| **Version** | v0.7 |
+| **Date** | Mars 2026 |
+| **Classification** | Confidentiel — À l'attention de l'organisme de certification SQS |
 
 \newpage
 
@@ -33,7 +25,7 @@ date: "Mars 2026 — Version 0.7"
 
 \newpage
 
-# PARTIE : Manuel Qualité
+# Partie 1 — Manuel Qualité
 
 ---
 
@@ -2059,7 +2051,7 @@ Plus Sàrl applique le cycle PDCA (roue de Deming) comme méthode fondamentale d
 
 \newpage
 
-# PARTIE : Fiches Processus
+# Partie 2 — Fiches Processus
 
 ---
 
@@ -3998,7 +3990,7 @@ Le Rôle Qualité anime le cycle PDCA (Plan-Do-Check-Act) pour chaque processus 
 
 \newpage
 
-# PARTIE : Documents Support
+# Partie 3 — Documents Support
 
 ---
 
@@ -5622,7 +5614,7 @@ ________________________________________________________________________
 
 \newpage
 
-# PARTIE : Chaînes de Processus
+# Partie 4 — Chaînes de Processus
 
 ---
 
@@ -6364,7 +6356,7 @@ commande        & Qualité       & Douane        marchandise
 
 \newpage
 
-# PARTIE : Fiches BLOC
+# Partie 5 — Fiches BLOC
 
 ---
 
