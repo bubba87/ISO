@@ -31,7 +31,7 @@ La Direction détermine et fournit les ressources nécessaires à l'établisseme
 | Rôle Qualité               | Selon besoin      | Fixe / Freelance     | Siège / International|
 | Rôle Gestion Documentaire  | Selon besoin      | Fixe / Freelance     | Siège                |
 
-**Note :** Une matrice de compétences détaillée sera présentée ultérieurement, définissant les aptitudes requises et détenues pour chaque rôle.
+**Note :** La matrice de compétences détaillée est documentée dans le processus PS02 - Gestion des Compétences (FM-PS02-MCO), définissant les aptitudes requises et détenues pour chaque rôle.
 
 ### 7.1.3 Infrastructure
 

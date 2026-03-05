@@ -130,6 +130,7 @@ Plus Sarl applique une approche processus conformément aux exigences de la norm
 | Réalisation    | P04   | Logistique et expédition         | Produit libéré                         | Livraison client                       |
 | Support        | PS01  | Gestion documentaire             | Besoins documentaires                  | Documents maîtrisés                    |
 | Support        | PS02  | Gestion des compétences          | Besoins en compétences                 | Personnel compétent                    |
+| Support        | PS03  | Amélioration continue            | NC, audits, retours clients            | Actions correctives, plans d'amélioration |
 
 ### 4.5.3 Risques et opportunités par processus
 

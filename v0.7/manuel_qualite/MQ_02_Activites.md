@@ -63,6 +63,7 @@ Ce modèle implique une maîtrise rigoureuse des processus externalisés conform
 |------|--------------------------|-----------------------------|----------------------------------------------|
 | PS01 | Gestion documentaire     | Rôle Gestion Documentaire   | Maîtriser la documentation du SMQ            |
 | PS02 | Gestion des compétences  | Direction                    | Assurer l'adéquation des compétences         |
+| PS03 | Amélioration continue    | Rôle Qualité                 | Piloter l'amélioration continue du SMQ       |
 
 ---
 
@@ -88,7 +89,7 @@ Ce modèle implique une maîtrise rigoureuse des processus externalisés conform
            ▲                                  ▲
            │                                  │
 ┌──────────┴──────────────────────────────────┴────────────┐
-│           PS01 / PS02 - Processus de support             │
+│        PS01 / PS02 / PS03 - Processus de support           │
 └──────────────────────────────────────────────────────────┘
 ```
 

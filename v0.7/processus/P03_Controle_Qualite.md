@@ -109,7 +109,7 @@ Le Rôle Qualité compile et analyse les données qualité (taux de conformité,
 ## 7. Diagramme swimlane
 
 ```
- PROCESSUS P04 - CONTRÔLE QUALITÉ
+ PROCESSUS P03 - CONTRÔLE QUALITÉ
  ============================================================================
 
  Rôle                 | Flux des activités
@@ -196,15 +196,15 @@ Le Rôle Qualité compile et analyse les données qualité (taux de conformité,
        v
   Classification (4 niveaux)
   +--------------------------------------------------+
-  | Niveau 1 : Mineure   - Défaut esthétique mineur  |
-  | Niveau 2 : Majeure   - Non-respect spécification |
-  | Niveau 3 : Critique  - Impact sécurité/fonction   |
-  | Niveau 4 : Bloquante - Arrêt livraison immédiat   |
+  | Niveau 1 : Mineure       - Défaut esthétique mineur  |
+  | Niveau 2 : Significative - Non-respect spécification |
+  | Niveau 3 : Majeure       - Impact conformité/SMQ     |
+  | Niveau 4 : Critique      - Arrêt livraison immédiat  |
   +--------------------------------------------------+
        |
        v
   Décision immédiate
-  (Accepter / Trier / Refuser / Bloquer)
+  (Accepter / Trier / Refuser / Arrêt immédiat)
        |
        v
   Analyse cause racine

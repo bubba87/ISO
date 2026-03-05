@@ -13,7 +13,7 @@
 
 ## 3.1 Structure organisationnelle du SMQ
 
-Le Système de Management de la Qualité de Plus Sàrl repose sur une organisation par rôles fonctionnels. Chaque rôle est défini par ses responsabilités, ses autorités et ses interactions avec les autres rôles. Une matrice de compétences sera présentée ultérieurement pour détailler les aptitudes requises par rôle.
+Le Système de Management de la Qualité de Plus Sàrl repose sur une organisation par rôles fonctionnels. Chaque rôle est défini par ses responsabilités, ses autorités et ses interactions avec les autres rôles. La matrice de compétences détaillée est gérée dans le processus PS02 - Gestion des Compétences (FM-PS02-MCO).
 
 ---
 
@@ -141,7 +141,7 @@ Le Système de Management de la Qualité de Plus Sàrl repose sur une organisati
 
 ## 3.6 Compétences par rôle
 
-Une matrice de compétences détaillée sera établie ultérieurement. Le tableau ci-dessous présente les domaines de compétences requis par rôle.
+La matrice de compétences détaillée est documentée dans le processus PS02 - Gestion des Compétences (FM-PS02-MCO). Le tableau ci-dessous présente les domaines de compétences requis par rôle.
 
 | Rôle                     | Domaines de compétences clés                                          |
 |--------------------------|-----------------------------------------------------------------------|
