@@ -1,179 +1,179 @@
-# Manuel Qualité - Chapitre 5 : Leadership
+# Quality Manual - Chapter 5: Leadership
 
 | **Document**       | MQ_05_Leadership                         |
 |--------------------|------------------------------------------|
 | **Version**        | v0.7                                     |
 | **Date**           | 2026-03-04                               |
-| **Classification** | Interne                                  |
-| **Processus**      | PM01 - Pilotage stratégique              |
-| **Rédaction**      | Rôle Qualité                             |
-| **Approbation**    | Direction                                |
+| **Classification** | Internal                                 |
+| **Process**        | PM01 - Strategic management              |
+| **Drafted by**     | Quality Role                             |
+| **Approved by**    | Management                               |
 
 ---
 
-## 5.1 Leadership et engagement
+## 5.1 Leadership and Commitment
 
-### 5.1.1 Engagement de la Direction
+### 5.1.1 Management Commitment
 
-La Direction de Plus Sàrl démontre son leadership et son engagement envers le Système de Management de la Qualité en :
+The Management of Plus Sàrl demonstrates its leadership and commitment to the Quality Management System by:
 
-1. **Assumant la responsabilité** de l'efficacité du SMQ
-2. **Établissant** la politique qualité et les objectifs qualité compatibles avec le contexte et l'orientation stratégique de l'organisme
-3. **Assurant** l'intégration des exigences du SMQ aux processus métiers
-4. **Promouvant** l'utilisation de l'approche processus et de l'approche par les risques
-5. **Garantissant** la disponibilité des ressources nécessaires au SMQ
-6. **Communiquant** sur l'importance d'un management de la qualité efficace
-7. **Orientant** et soutenant les personnes pour qu'elles contribuent à l'efficacité du SMQ
-8. **Promouvant** l'amélioration continue
-9. **Soutenant** les autres rôles de management dans leurs domaines de responsabilité
+1. **Assuming accountability** for the effectiveness of the QMS
+2. **Establishing** the quality policy and quality objectives compatible with the context and strategic direction of the organization
+3. **Ensuring** the integration of QMS requirements into business processes
+4. **Promoting** the use of the process approach and risk-based thinking
+5. **Ensuring** the availability of resources needed for the QMS
+6. **Communicating** the importance of effective quality management
+7. **Directing** and supporting people to contribute to the effectiveness of the QMS
+8. **Promoting** continuous improvement
+9. **Supporting** other management roles in their areas of responsibility
 
-### 5.1.2 Orientation client
+### 5.1.2 Customer Focus
 
-La Direction s'assure que :
+Management ensures that:
 
-| Exigence                                    | Modalité de mise en œuvre                                     | Responsable       |
+| Requirement                                 | Implementation Method                                         | Responsible       |
 |---------------------------------------------|---------------------------------------------------------------|-------------------|
-| Exigences clients déterminées et satisfaites| Analyse systématique des demandes, revue des exigences        | Rôle Commercial   |
-| Risques pouvant affecter la conformité identifiés | Analyse de risques par commande, inspections planifiées  | Rôle Qualité      |
-| Satisfaction client maintenue et améliorée  | Enquêtes satisfaction, traitement réclamations, suivi KPIs    | Rôle Commercial   |
+| Customer requirements determined and met    | Systematic analysis of requests, requirements review           | Commercial Role   |
+| Risks that may affect conformity identified | Risk analysis per order, planned inspections                   | Quality Role      |
+| Customer satisfaction maintained and improved| Satisfaction surveys, complaint handling, KPI monitoring       | Commercial Role   |
 
 ---
 
-## 5.2 Politique qualité
+## 5.2 Quality Policy
 
-### 5.2.1 Établissement de la politique qualité
+### 5.2.1 Establishing the Quality Policy
 
-La politique qualité de Plus Sàrl est fondée sur **cinq piliers** qui guident l'ensemble des activités et décisions de l'entreprise :
-
----
-
-#### Pilier 1 : Excellence du service client
-
-> Plus Sàrl s'engage à comprendre, anticiper et satisfaire les exigences de ses clients à travers le monde, en fournissant des services de monitoring et de sourcing d'un niveau de qualité irréprochable.
-
-**Traduction opérationnelle :**
-- Analyse approfondie de chaque demande client
-- Communication transparente et régulière
-- Mesure systématique de la satisfaction client
+The quality policy of Plus Sàrl is founded on **five pillars** that guide all of the company's activities and decisions:
 
 ---
 
-#### Pilier 2 : Rigueur dans la maîtrise des fournisseurs
+#### Pillar 1: Excellence in Customer Service
 
-> Plus Sàrl s'engage à sélectionner, qualifier et évaluer ses fournisseurs internationaux selon des critères stricts et objectifs, garantissant la conformité et la fiabilité de la chaîne d'approvisionnement.
+> Plus Sàrl is committed to understanding, anticipating and meeting the requirements of its customers worldwide, by providing monitoring and sourcing services of an impeccable quality level.
 
-**Traduction opérationnelle :**
-- Processus de qualification structuré (AQF)
-- Évaluations périodiques des fournisseurs
-- Classification et suivi des performances
-
----
-
-#### Pilier 3 : Conformité et traçabilité des produits
-
-> Plus Sàrl s'engage à mettre en œuvre des inspections rigoureuses à chaque étape critique de la production, assurant la conformité des produits aux spécifications et leur traçabilité complète.
-
-**Traduction opérationnelle :**
-- Programme d'inspections structuré (IPC, DUPRO, PSI, Loading Check)
-- Documentation exhaustive des contrôles
-- Gestion efficace des non-conformités
+**Operational Implementation:**
+- In-depth analysis of each customer request
+- Transparent and regular communication
+- Systematic measurement of customer satisfaction
 
 ---
 
-#### Pilier 4 : Amélioration continue
+#### Pillar 2: Rigor in Supplier Management
 
-> Plus Sàrl s'engage à améliorer en permanence l'efficacité de son Système de Management de la Qualité par l'analyse des données, le retour d'expérience et la mise en œuvre d'actions correctives et préventives.
+> Plus Sàrl is committed to selecting, qualifying and evaluating its international suppliers according to strict and objective criteria, ensuring the compliance and reliability of the supply chain.
 
-**Traduction opérationnelle :**
-- Suivi des indicateurs de performance (KPIs)
-- Revues de direction périodiques
-- Cycle PDCA appliqué à tous les processus
-
----
-
-#### Pilier 5 : Développement des compétences
-
-> Plus Sàrl s'engage à développer et maintenir les compétences de son équipe, en veillant à l'adéquation entre les aptitudes requises par chaque rôle et les compétences détenues.
-
-**Traduction opérationnelle :**
-- Matrice de compétences par rôle (cf. processus PS02 — FM-PS02-MCO)
-- Plans de formation adaptés
-- Évaluations périodiques des compétences
+**Operational Implementation:**
+- Structured qualification process (AQF)
+- Periodic supplier evaluations
+- Classification and performance monitoring
 
 ---
 
-### 5.2.2 Communication de la politique qualité
+#### Pillar 3: Product Compliance and Traceability
 
-| Action                                      | Support                      | Fréquence         | Responsable       |
+> Plus Sàrl is committed to implementing rigorous inspections at each critical stage of production, ensuring product compliance with specifications and their complete traceability.
+
+**Operational Implementation:**
+- Structured inspection program (IPC, DUPRO, PSI, Loading Check)
+- Comprehensive inspection documentation
+- Effective nonconformity management
+
+---
+
+#### Pillar 4: Continuous Improvement
+
+> Plus Sàrl is committed to continuously improving the effectiveness of its Quality Management System through data analysis, lessons learned and the implementation of corrective and preventive actions.
+
+**Operational Implementation:**
+- Monitoring of key performance indicators (KPIs)
+- Periodic management reviews
+- PDCA cycle applied to all processes
+
+---
+
+#### Pillar 5: Competency Development
+
+> Plus Sàrl is committed to developing and maintaining its team's competencies, ensuring alignment between the skills required by each role and the competencies held.
+
+**Operational Implementation:**
+- Competency matrix by role (see process PS02 -- FM-PS02-MCO)
+- Tailored training plans
+- Periodic competency assessments
+
+---
+
+### 5.2.2 Communication of the Quality Policy
+
+| Action                                      | Medium                       | Frequency         | Responsible       |
 |---------------------------------------------|------------------------------|-------------------|-------------------|
-| Diffusion initiale à tous les collaborateurs| Document signé, affichage    | À l'embauche      | Direction         |
-| Rappel et sensibilisation                   | Réunions d'équipe            | Trimestrielle     | Direction         |
-| Communication aux parties intéressées externes | Site internet, documents contractuels | Continue  | Rôle Commercial   |
-| Revue de la pertinence                      | Revue de direction           | Annuelle          | Direction         |
+| Initial distribution to all employees       | Signed document, display     | Upon hiring       | Management        |
+| Reminder and awareness                      | Team meetings                | Quarterly         | Management        |
+| Communication to external interested parties| Website, contractual documents| Continuous        | Commercial Role   |
+| Relevance review                            | Management review            | Annual            | Management        |
 
-### 5.2.3 Disponibilité
+### 5.2.3 Availability
 
-La politique qualité est :
-- Documentée et maintenue sous forme d'information documentée
-- Communiquée, comprise et appliquée au sein de l'organisme
-- Mise à disposition des parties intéressées pertinentes, sur demande
+The quality policy is:
+- Documented and maintained as documented information
+- Communicated, understood and applied within the organization
+- Made available to relevant interested parties, upon request
 
 ---
 
-## 5.3 Rôles, responsabilités et autorités
+## 5.3 Roles, Responsibilities and Authorities
 
-### 5.3.1 Attribution des rôles
+### 5.3.1 Role Assignment
 
-La Direction attribue les responsabilités et autorités pour les rôles pertinents au sein de l'organisme. La structure organisationnelle de Plus Sàrl repose sur les rôles suivants :
+Management assigns responsibilities and authorities for relevant roles within the organization. The organizational structure of Plus Sàrl is based on the following roles:
 
-| Rôle                       | Responsabilité principale                                              |
-|----------------------------|------------------------------------------------------------------------|
-| Direction                  | Pilotage stratégique, politique qualité, allocation des ressources      |
-| Rôle Commercial            | Relation client, développement commercial, gestion des commandes        |
-| Rôle Achats                | Sourcing international, sélection et gestion des fournisseurs           |
-| Rôle Logistique            | Coordination des transports et expéditions internationales              |
-| Rôle Qualité               | Inspections, gestion NC, audits internes, suivi SMQ                     |
-| Rôle Gestion Documentaire  | Maîtrise documentaire, archivage, contrôle des versions                 |
+| Role                       | Primary Responsibility                                                  |
+|----------------------------|-------------------------------------------------------------------------|
+| Management                 | Strategic management, quality policy, resource allocation               |
+| Commercial Role            | Customer relations, business development, order management              |
+| Purchasing Role            | International sourcing, supplier selection and management               |
+| Logistics Role             | Coordination of international transport and shipments                   |
+| Quality Role               | Inspections, NC management, internal audits, QMS monitoring             |
+| Document Management Role   | Document control, archiving, version control                            |
 
-### 5.3.2 Responsabilités spécifiques au SMQ
+### 5.3.2 QMS-Specific Responsibilities
 
-La Direction s'assure que les responsabilités et autorités suivantes sont attribuées :
+Management ensures that the following responsibilities and authorities are assigned:
 
-| Responsabilité SMQ                                          | Rôle désigné      |
+| QMS Responsibility                                          | Designated Role   |
 |-------------------------------------------------------------|-------------------|
-| Assurer la conformité du SMQ aux exigences ISO 9001:2015    | Rôle Qualité      |
-| Rendre compte à la Direction de la performance du SMQ       | Rôle Qualité      |
-| Promouvoir l'orientation client dans l'organisme            | Rôle Commercial   |
-| Assurer l'intégrité du SMQ lors des changements             | Rôle Qualité      |
-| Maintenir la documentation du SMQ à jour                    | Rôle Gestion Documentaire |
-| Sensibiliser le personnel aux exigences qualité             | Direction         |
+| Ensure QMS conformity with ISO 9001:2015 requirements        | Quality Role      |
+| Report to Management on QMS performance                      | Quality Role      |
+| Promote customer focus within the organization               | Commercial Role   |
+| Ensure QMS integrity during changes                          | Quality Role      |
+| Maintain up-to-date QMS documentation                        | Document Management Role |
+| Raise personnel awareness of quality requirements            | Management        |
 
-### 5.3.3 Délégations d'autorité
+### 5.3.3 Delegation of Authority
 
-| Domaine de décision                        | Autorité principale | Délégation possible à    |
-|--------------------------------------------|---------------------|--------------------------|
-| Approbation de la politique qualité        | Direction           | -                        |
-| Validation des objectifs qualité           | Direction           | -                        |
-| Sélection de fournisseurs                  | Rôle Achats         | -                        |
-| Libération des produits                    | Rôle Qualité        | -                        |
-| Acceptation des commandes clients          | Rôle Commercial     | -                        |
-| Déclenchement d'actions correctives        | Rôle Qualité        | Tout rôle (pour son périmètre) |
-
----
-
-## Références normatives
-
-| Clause ISO 9001:2015 | Exigence                                                     |
-|-----------------------|--------------------------------------------------------------|
-| 5.1                   | Leadership et engagement                                      |
-| 5.1.1                 | Généralités                                                   |
-| 5.1.2                 | Orientation client                                            |
-| 5.2                   | Politique                                                     |
-| 5.2.1                 | Établissement de la politique qualité                         |
-| 5.2.2                 | Communication de la politique qualité                         |
-| 5.3                   | Rôles, responsabilités et autorités au sein de l'organisme    |
+| Decision Area                              | Primary Authority | Possible Delegation to    |
+|--------------------------------------------|-------------------|---------------------------|
+| Quality policy approval                    | Management        | -                         |
+| Quality objectives validation              | Management        | -                         |
+| Supplier selection                         | Purchasing Role   | -                         |
+| Product release                            | Quality Role      | -                         |
+| Customer order acceptance                  | Commercial Role   | -                         |
+| Corrective action initiation              | Quality Role      | Any role (within its scope)|
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+## Normative References
+
+| ISO 9001:2015 Clause | Requirement                                                          |
+|-----------------------|----------------------------------------------------------------------|
+| 5.1                   | Leadership and commitment                                             |
+| 5.1.1                 | General                                                               |
+| 5.1.2                 | Customer focus                                                        |
+| 5.2                   | Policy                                                                |
+| 5.2.1                 | Establishing the quality policy                                       |
+| 5.2.2                 | Communicating the quality policy                                      |
+| 5.3                   | Roles, responsibilities and authorities within the organization       |
+
+---
+
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

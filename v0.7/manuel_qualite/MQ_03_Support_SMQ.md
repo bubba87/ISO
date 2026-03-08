@@ -1,170 +1,170 @@
-# Manuel Qualité - Chapitre 3 : Support du Système de Management de la Qualité
+# Quality Manual - Chapter 3: Quality Management System Support
 
 | **Document**       | MQ_03_Support_SMQ                        |
 |--------------------|------------------------------------------|
 | **Version**        | v0.7                                     |
 | **Date**           | 2026-03-04                               |
-| **Classification** | Interne                                  |
-| **Processus**      | Tous processus                           |
-| **Rédaction**      | Rôle Qualité                             |
-| **Approbation**    | Direction                                |
+| **Classification** | Internal                                 |
+| **Process**        | All processes                            |
+| **Drafted by**     | Quality Role                             |
+| **Approved by**    | Management                               |
 
 ---
 
-## 3.1 Structure organisationnelle du SMQ
+## 3.1 QMS Organizational Structure
 
-Le Système de Management de la Qualité de Plus Sàrl repose sur une organisation par rôles fonctionnels. Chaque rôle est défini par ses responsabilités, ses autorités et ses interactions avec les autres rôles. La matrice de compétences détaillée est gérée dans le processus PS02 - Gestion des Compétences (FM-PS02-MCO).
-
----
-
-## 3.2 Cartographie des rôles
-
-### 3.2.1 Direction
-
-| Attribut              | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-| **Mission**           | Piloter la stratégie de l'entreprise et garantir l'efficacité du SMQ |
-| **Responsabilités**   | Définition de la politique qualité, allocation des ressources, revue de direction, engagement envers la satisfaction client |
-| **Autorité**          | Décisions stratégiques, approbation des documents du SMQ, validation des objectifs qualité |
-| **Processus pilotés** | PM01 - Pilotage stratégique, PS02 - Gestion des compétences          |
-
-### 3.2.2 Rôle Commercial
-
-| Attribut              | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-| **Mission**           | Gérer la relation client et assurer le développement commercial      |
-| **Responsabilités**   | Analyse des demandes clients, émission des offres, suivi des commandes, gestion des réclamations clients |
-| **Autorité**          | Validation des offres commerciales, acceptation des commandes dans le cadre défini |
-| **Processus pilotés** | P01 - Gestion commerciale                                           |
-
-### 3.2.3 Rôle Achats
-
-| Attribut              | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-| **Mission**           | Sélectionner, qualifier et gérer les fournisseurs internationaux     |
-| **Responsabilités**   | Prospection fournisseurs, qualification initiale, négociation, passation de commandes, évaluation périodique des fournisseurs |
-| **Autorité**          | Sélection des fournisseurs, suspension d'un fournisseur non conforme |
-| **Processus pilotés** | P02 - Achats et sourcing                                            |
-
-### 3.2.4 Rôle Logistique
-
-| Attribut              | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-| **Mission**           | Coordonner les opérations logistiques et les expéditions internationales |
-| **Responsabilités**   | Planification des transports, suivi des expéditions, gestion documentaire douanière, coordination avec les transitaires |
-| **Autorité**          | Choix des modes de transport, validation des documents d'expédition   |
-| **Processus pilotés** | P04 - Logistique et expédition                                       |
-
-### 3.2.5 Rôle Qualité
-
-| Attribut              | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-| **Mission**           | Assurer la conformité des produits et l'efficacité du SMQ            |
-| **Responsabilités**   | Planification et réalisation des inspections, gestion des non-conformités, audits internes, suivi des indicateurs qualité, amélioration continue |
-| **Autorité**          | Blocage de produits non conformes, déclenchement d'actions correctives, décision de libération des produits |
-| **Processus pilotés** | P03 - Monitoring et contrôle qualité                                 |
-
-### 3.2.6 Rôle Gestion Documentaire
-
-| Attribut              | Description                                                         |
-|-----------------------|---------------------------------------------------------------------|
-| **Mission**           | Garantir la maîtrise documentaire du SMQ                             |
-| **Responsabilités**   | Création, révision et diffusion des documents, gestion des enregistrements, archivage, contrôle des versions |
-| **Autorité**          | Validation de la conformité documentaire, retrait des documents obsolètes |
-| **Processus pilotés** | PS01 - Gestion documentaire                                         |
+The Quality Management System of Plus Sàrl is based on a functional role-based organization. Each role is defined by its responsibilities, authorities and interactions with other roles. The detailed competency matrix is managed within the PS02 - Competency Management process (FM-PS02-MCO).
 
 ---
 
-## 3.3 Matrice des interactions entre rôles
+## 3.2 Role Map
 
-| Rôle émetteur ↓ / Rôle récepteur → | Direction | Rôle Commercial | Rôle Achats | Rôle Logistique | Rôle Qualité | Rôle Gestion Doc. |
-|--------------------------------------|-----------|-----------------|-------------|-----------------|--------------|---------------------|
-| **Direction**                        | -         | Orientations stratégiques | Budgets achats | Objectifs logistiques | Politique qualité | Exigences documentaires |
-| **Rôle Commercial**                  | Rapports commerciaux | - | Cahier des charges client | Besoins expédition | Exigences qualité client | Demandes de documents |
-| **Rôle Achats**                      | Reporting achats | Confirmations fournisseur | - | Informations fournisseur | Dossiers qualification | Fiches fournisseurs |
-| **Rôle Logistique**                  | Reporting logistique | Confirmations expédition | Coordination transport | - | Documents transport | Documents douaniers |
-| **Rôle Qualité**                     | Indicateurs qualité | Rapports d'inspection | Évaluation fournisseurs | Autorisation d'expédition | - | Rapports et enregistrements |
-| **Rôle Gestion Doc.**               | Tableau de bord documentaire | Documents applicables | Documents applicables | Documents applicables | Documents applicables | - |
+### 3.2.1 Management
+
+| Attribute             | Description                                                         |
+|-----------------------|---------------------------------------------------------------------|
+| **Mission**           | Lead the company strategy and ensure the effectiveness of the QMS    |
+| **Responsibilities**  | Definition of the quality policy, resource allocation, management review, commitment to customer satisfaction |
+| **Authority**         | Strategic decisions, approval of QMS documents, validation of quality objectives |
+| **Processes managed** | PM01 - Strategic management, PS02 - Competency management            |
+
+### 3.2.2 Commercial Role
+
+| Attribute             | Description                                                         |
+|-----------------------|---------------------------------------------------------------------|
+| **Mission**           | Manage customer relations and ensure business development            |
+| **Responsibilities**  | Analysis of customer requests, issuance of quotations, order follow-up, management of customer complaints |
+| **Authority**         | Validation of commercial offers, acceptance of orders within the defined framework |
+| **Processes managed** | P01 - Sales management                                               |
+
+### 3.2.3 Purchasing Role
+
+| Attribute             | Description                                                         |
+|-----------------------|---------------------------------------------------------------------|
+| **Mission**           | Select, qualify and manage international suppliers                    |
+| **Responsibilities**  | Supplier prospecting, initial qualification, negotiation, order placement, periodic supplier evaluation |
+| **Authority**         | Supplier selection, suspension of a non-conforming supplier          |
+| **Processes managed** | P02 - Purchasing and sourcing                                        |
+
+### 3.2.4 Logistics Role
+
+| Attribute             | Description                                                         |
+|-----------------------|---------------------------------------------------------------------|
+| **Mission**           | Coordinate logistics operations and international shipments          |
+| **Responsibilities**  | Transport planning, shipment tracking, customs documentation management, coordination with freight forwarders |
+| **Authority**         | Selection of transport modes, validation of shipping documents        |
+| **Processes managed** | P04 - Logistics and shipping                                         |
+
+### 3.2.5 Quality Role
+
+| Attribute             | Description                                                         |
+|-----------------------|---------------------------------------------------------------------|
+| **Mission**           | Ensure product compliance and QMS effectiveness                      |
+| **Responsibilities**  | Planning and conducting inspections, nonconformity management, internal audits, monitoring of quality indicators, continuous improvement |
+| **Authority**         | Blocking of non-conforming products, initiation of corrective actions, product release decision |
+| **Processes managed** | P03 - Monitoring and quality control                                 |
+
+### 3.2.6 Document Management Role
+
+| Attribute             | Description                                                         |
+|-----------------------|---------------------------------------------------------------------|
+| **Mission**           | Ensure QMS document control                                          |
+| **Responsibilities**  | Creation, revision and distribution of documents, records management, archiving, version control |
+| **Authority**         | Validation of document compliance, withdrawal of obsolete documents  |
+| **Processes managed** | PS01 - Document management                                          |
 
 ---
 
-## 3.4 Flux d'information et de décision
+## 3.3 Role Interaction Matrix
 
-### 3.4.1 Flux ascendants (vers la Direction)
+| Sender role / Receiver role -->      | Management | Commercial Role | Purchasing Role | Logistics Role | Quality Role | Document Mgmt Role |
+|--------------------------------------|-----------|-----------------|-----------------|----------------|--------------|---------------------|
+| **Management**                       | -         | Strategic directions | Purchasing budgets | Logistics objectives | Quality policy | Documentary requirements |
+| **Commercial Role**                  | Sales reports | - | Customer specifications | Shipping needs | Customer quality requirements | Document requests |
+| **Purchasing Role**                  | Purchasing reporting | Supplier confirmations | - | Supplier information | Qualification files | Supplier records |
+| **Logistics Role**                   | Logistics reporting | Shipping confirmations | Transport coordination | - | Transport documents | Customs documents |
+| **Quality Role**                     | Quality indicators | Inspection reports | Supplier evaluations | Shipment authorization | - | Reports and records |
+| **Document Mgmt Role**              | Document dashboard | Applicable documents | Applicable documents | Applicable documents | Applicable documents | - |
 
-| Source             | Type d'information                        | Fréquence        |
+---
+
+## 3.4 Information and Decision Flow
+
+### 3.4.1 Upward Flow (to Management)
+
+| Source             | Type of Information                       | Frequency         |
 |--------------------|-------------------------------------------|-------------------|
-| Rôle Commercial    | Chiffre d'affaires, satisfaction client    | Mensuelle         |
-| Rôle Achats        | Performance fournisseurs, coûts achats     | Mensuelle         |
-| Rôle Logistique    | Taux de livraison à temps, incidents       | Mensuelle         |
-| Rôle Qualité       | Taux de NC, résultats inspections, KPIs    | Mensuelle         |
-| Rôle Gestion Doc.  | État de la documentation, audits doc.      | Trimestrielle     |
+| Commercial Role    | Revenue, customer satisfaction             | Semi-annual       |
+| Purchasing Role    | Supplier performance, purchasing costs     | Semi-annual       |
+| Logistics Role     | On-time delivery rate, incidents           | Semi-annual       |
+| Quality Role       | NC rate, inspection results, KPIs          | Semi-annual       |
+| Document Mgmt Role | Documentation status, document audits      | Quarterly         |
 
-### 3.4.2 Flux descendants (depuis la Direction)
+### 3.4.2 Downward Flow (from Management)
 
-| Destinataire       | Type d'information                         | Fréquence        |
+| Recipient          | Type of Information                        | Frequency         |
 |--------------------|--------------------------------------------|-------------------|
-| Tous les rôles     | Politique qualité, objectifs stratégiques   | Annuelle          |
-| Tous les rôles     | Résultats de la revue de direction          | Semestrielle      |
-| Rôle concerné      | Décisions d'allocation de ressources       | Selon besoin      |
-| Rôle concerné      | Actions correctives stratégiques           | Selon besoin      |
+| All roles          | Quality policy, strategic objectives        | Annual            |
+| All roles          | Management review results                   | Annual            |
+| Relevant role      | Resource allocation decisions               | As needed         |
+| Relevant role      | Strategic corrective actions                | As needed         |
 
-### 3.4.3 Flux transversaux (entre rôles opérationnels)
+### 3.4.3 Cross-functional Flow (between operational roles)
 
-| Émetteur           | Récepteur          | Information                              | Déclencheur           |
+| Sender             | Receiver           | Information                              | Trigger               |
 |--------------------|--------------------|------------------------------------------|-----------------------|
-| Rôle Commercial    | Rôle Achats        | Nouvelle commande validée                | Acceptation commande  |
-| Rôle Achats        | Rôle Qualité       | Commande fournisseur passée              | Confirmation commande |
-| Rôle Qualité       | Rôle Logistique    | Autorisation de libération produit       | Inspection réussie    |
-| Rôle Qualité       | Rôle Achats        | Non-conformité fournisseur               | Détection NC          |
-| Rôle Logistique    | Rôle Commercial    | Confirmation d'expédition                | Départ marchandise    |
+| Commercial Role    | Purchasing Role    | New validated order                      | Order acceptance      |
+| Purchasing Role    | Quality Role       | Supplier order placed                    | Order confirmation    |
+| Quality Role       | Logistics Role     | Product release authorization            | Successful inspection |
+| Quality Role       | Purchasing Role    | Supplier nonconformity                   | NC detection          |
+| Logistics Role     | Commercial Role    | Shipping confirmation                    | Goods departure       |
 
 ---
 
-## 3.5 Matrice des autorités
+## 3.5 Authority Matrix
 
-| Décision                                      | Direction | Rôle Commercial | Rôle Achats | Rôle Qualité | Rôle Logistique | Rôle Gestion Doc. |
-|-----------------------------------------------|-----------|-----------------|-------------|--------------|-----------------|---------------------|
-| Approbation politique qualité                  | A         | I               | I           | C            | I               | I                   |
-| Acceptation d'une commande client              | I         | A               | C           | C            | C               | -                   |
-| Sélection d'un nouveau fournisseur             | I         | I               | A           | C            | -               | -                   |
-| Suspension d'un fournisseur                    | C         | I               | A           | R            | -               | -                   |
-| Libération d'un lot de produits                | -         | I               | I           | A            | I               | -                   |
-| Blocage pour non-conformité                    | I         | I               | I           | A            | I               | -                   |
-| Validation d'un document SMQ                   | A         | -               | -           | C            | -               | R                   |
-| Lancement d'une action corrective              | I         | -               | -           | A            | -               | I                   |
-| Allocation de ressources                       | A         | -               | -           | C            | -               | -                   |
+| Decision                                      | Management | Commercial Role | Purchasing Role | Quality Role | Logistics Role | Document Mgmt Role |
+|-----------------------------------------------|-----------|-----------------|-----------------|--------------|----------------|---------------------|
+| Quality policy approval                        | A         | I               | I               | C            | I              | I                   |
+| Customer order acceptance                      | I         | A               | C               | C            | C              | -                   |
+| New supplier selection                         | I         | I               | A               | C            | -              | -                   |
+| Supplier suspension                            | C         | I               | A               | R            | -              | -                   |
+| Product lot release                            | -         | I               | I               | A            | I              | -                   |
+| Nonconformity hold                             | I         | I               | I               | A            | I              | -                   |
+| QMS document validation                        | A         | -               | -               | C            | -              | R                   |
+| Corrective action initiation                   | I         | -               | -               | A            | -              | I                   |
+| Resource allocation                            | A         | -               | -               | C            | -              | -                   |
 
-**Légende** : A = Approuve / R = Réalise / C = Consulté / I = Informé
+**Legend**: A = Approves / R = Performs / C = Consulted / I = Informed
 
 ---
 
-## 3.6 Compétences par rôle
+## 3.6 Competencies by Role
 
-La matrice de compétences détaillée est documentée dans le processus PS02 - Gestion des Compétences (FM-PS02-MCO). Le tableau ci-dessous présente les domaines de compétences requis par rôle.
+The detailed competency matrix is documented in the PS02 - Competency Management process (FM-PS02-MCO). The table below presents the key competency areas required by role.
 
-| Rôle                     | Domaines de compétences clés                                          |
+| Role                     | Key Competency Areas                                                  |
 |--------------------------|-----------------------------------------------------------------------|
-| Direction                | Management stratégique, gestion financière, leadership, normes ISO    |
-| Rôle Commercial          | Négociation commerciale, relation client, langues étrangères, commerce international |
-| Rôle Achats              | Sourcing international, négociation fournisseurs, connaissance produits, évaluation fournisseurs |
-| Rôle Logistique          | Logistique internationale, réglementation douanière, Incoterms, gestion transport |
-| Rôle Qualité             | Normes qualité ISO 9001, techniques d'inspection, métrologie, audit, gestion NC |
-| Rôle Gestion Documentaire| Gestion documentaire, outils numériques, archivage, maîtrise des enregistrements |
+| Management               | Strategic management, financial management, leadership, ISO standards |
+| Commercial Role          | Sales negotiation, customer relations, foreign languages, international trade |
+| Purchasing Role          | International sourcing, supplier negotiation, product knowledge, supplier evaluation |
+| Logistics Role           | International logistics, customs regulations, Incoterms, transport management |
+| Quality Role             | ISO 9001 quality standards, inspection techniques, metrology, auditing, NC management |
+| Document Management Role | Document management, digital tools, archiving, records control        |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                                |
-|-----------------------|---------------------------------------------------------|
-| 5.3                   | Rôles, responsabilités et autorités au sein de l'organisme |
-| 7.1.2                 | Ressources humaines                                      |
-| 7.2                   | Compétences                                              |
-| 7.4                   | Communication                                            |
-| 4.4.1                 | L'organisme doit établir les processus nécessaires       |
+| ISO 9001:2015 Clause | Requirement                                                     |
+|-----------------------|-----------------------------------------------------------------|
+| 5.3                   | Roles, responsibilities and authorities within the organization  |
+| 7.1.2                 | People                                                           |
+| 7.2                   | Competence                                                       |
+| 7.4                   | Communication                                                    |
+| 4.4.1                 | The organization shall establish the processes needed             |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

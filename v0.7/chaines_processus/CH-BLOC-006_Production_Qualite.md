@@ -1,108 +1,108 @@
-# Fiche Détail Bloc - CH-BLOC-006 : Production et Qualité
+# Block Detail Sheet - CH-BLOC-006: Production and Quality
 
 | **Document**       | CH-BLOC-006_Production_Qualite                |
 |--------------------|-----------------------------------------------|
 | **Version**        | v0.7                                          |
 | **Date**           | 2026-03-04                                    |
-| **Classification** | Interne                                       |
-| **Processus**      | Chaîne Processus - Réalisation                |
-| **Chaîne réf.**    | CHAIN-01 — Commande Produit Existant          |
-| **Rédaction**      | Rôle Qualité                                  |
-| **Approbation**    | Direction                                     |
+| **Classification** | Internal                                      |
+| **Process**        | Process Chain - Realization                   |
+| **Chain ref.**     | CHAIN-01 — Existing Product Order             |
+| **Drafted by**     | QUALITY                                       |
+| **Approved by**    | Management                                    |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Cette fiche décrit les actions détaillées du **BLOC 6 — Production et qualité** dans le cadre de la chaîne processus de commande produit existant. Ce bloc implique deux lignes processus : MANUFACTURE et QUALITY.
+This sheet describes the detailed actions of **BLOCK 6 — Production and Quality** within the existing product order process chain. This block involves two process lines: MANUFACTURE and QUALITY.
 
 ---
 
-## 2. Lignes processus
+## 2. Process Lines
 
-| Code ligne | Ligne          | Rôle pilote    |
+| Line Code  | Line           | Lead Role      |
 |------------|----------------|----------------|
-| 02         | MANUFACTURE    | Rôle Achats    |
-| 04         | QUALITY        | Rôle Qualité   |
+| 02         | MANUFACTURE    | MANUFACTURE    |
+| 04         | QUALITY        | QUALITY        |
 
 ---
 
-## 3. Entrées du bloc
+## 3. Block Inputs
 
-| Élément                            | Provenance                      |
+| Element                            | Source                          |
 |------------------------------------|---------------------------------|
-| Commande validée par le client     | BLOC 5 — Validation commande   |
-| Spécifications produit             | Bibliothèque produits           |
-| Informations fournisseur           | BLOC 4 — Étude technique       |
+| Order validated by the customer    | BLOCK 5 — Order Validation      |
+| Product specifications             | Product library                 |
+| Supplier information               | BLOCK 4 — Technical Study       |
 
 ---
 
-## 4. Actions détaillées
+## 4. Detailed Actions
 
-| N° | Action                                                                                                      | Ligne          | Responsable    | Outil / Support       |
+| No.| Action                                                                                                      | Line           | Owner          | Tool / Support        |
 |----|-------------------------------------------------------------------------------------------------------------|----------------|----------------|-----------------------|
-| 1  | Envoyer la confirmation de production au fournisseur (e-mail ou messagerie)                                  | 02 MANUFACTURE | Rôle Achats    | E-mail / messagerie   |
-| 2  | Validation de la conformité des pièces par le fournisseur suite au contrôle qualité                          | 04 QUALITY     | Rôle Qualité   | Rapport de contrôle   |
+| 1  | Send production confirmation to the supplier (email or messaging)                                            | 02 MANUFACTURE | MANUFACTURE    | Email / messaging     |
+| 2  | Validation of parts conformity by the supplier following quality control                                     | 04 QUALITY     | QUALITY        | Control report        |
 
 ---
 
-## 5. Processus de contrôle qualité
+## 5. Quality Control Process
 
-| Étape                        | Description                                                  | Responsable    |
+| Step                         | Description                                                  | Owner          |
 |------------------------------|--------------------------------------------------------------|----------------|
-| Contrôle fournisseur         | Le fournisseur réalise le contrôle qualité selon les spécifications | Fournisseur    |
-| Rapport de contrôle          | Le fournisseur transmet le rapport de contrôle qualité        | Fournisseur    |
-| Validation conformité        | Vérification du rapport et validation de la conformité        | Rôle Qualité   |
-| Libération production        | Autorisation d'expédition si conformité validée               | Rôle Qualité   |
+| Supplier control             | The supplier performs quality control per specifications       | Supplier       |
+| Control report               | The supplier submits the quality control report               | Supplier       |
+| Conformity validation        | Report review and conformity validation                       | QUALITY        |
+| Production release           | Shipment authorization if conformity is validated             | QUALITY        |
 
 ---
 
-## 6. Sorties du bloc
+## 6. Block Outputs
 
-| Élément                                | Destination                    |
+| Element                                | Destination                    |
 |----------------------------------------|--------------------------------|
-| Confirmation de production envoyée     | Fournisseur                    |
-| Conformité des pièces validée          | BLOC 7 — Livraison & Douane   |
-| Rapport de contrôle qualité            | Archivage qualité              |
+| Production confirmation sent           | Supplier                       |
+| Parts conformity validated             | BLOCK 7 — Delivery & Customs   |
+| Quality control report                 | Quality archiving              |
 
 ---
 
-## 7. Points de contrôle
+## 7. Control Points
 
-| Contrôle                                          | Critère d'acceptation                            | Responsable    |
+| Control                                           | Acceptance Criterion                             | Owner          |
 |---------------------------------------------------|--------------------------------------------------|----------------|
-| Confirmation de production envoyée                | Accusé de réception du fournisseur                | Rôle Achats    |
-| Rapport de contrôle qualité reçu                  | Rapport complet et conforme aux spécifications    | Rôle Qualité   |
-| Conformité des pièces validée                     | Toutes les pièces conformes aux exigences         | Rôle Qualité   |
+| Production confirmation sent                      | Acknowledgment of receipt from the supplier       | MANUFACTURE    |
+| Quality control report received                   | Report complete and compliant with specifications | QUALITY        |
+| Parts conformity validated                        | All parts compliant with requirements             | QUALITY        |
 
 ---
 
-## 8. Documents associés
+## 8. Associated Documents
 
-| Référence   | Document                                      |
+| Reference   | Document                                      |
 |-------------|-----------------------------------------------|
-| CHAIN-01    | Chaîne Processus — Commande Produit Existant  |
-| CH-BLOC-005 | Fiche détail — Validation commande           |
-| CH-BLOC-007 | Fiche détail — Livraison et douane           |
-| PR-P03-CQ   | Processus Contrôle Qualité                   |
-| FM-P03-IPC  | Rapport IPC                                  |
-| FM-P03-DUPRO| Rapport DUPRO                                |
-| FM-P03-PSI  | Rapport PSI                                  |
-| FM-P03-LC   | Rapport Loading Check                        |
-| FM-P03-NC   | Fiche de Non-Conformité                      |
-| IT-P03-ECH  | Instruction Échantillonnage AQL              |
+| CHAIN-01    | Process Chain — Existing Product Order         |
+| CH-BLOC-005 | Detail Sheet — Order Validation               |
+| CH-BLOC-007 | Detail Sheet — Delivery and Customs           |
+| PR-P03-CQ   | Quality Control Process                       |
+| FM-P03-IPC  | IPC Report                                    |
+| FM-P03-DUPRO| DUPRO Report                                  |
+| FM-P03-PSI  | PSI Report                                    |
+| FM-P03-LC   | Loading Check Report                          |
+| FM-P03-NC   | Non-Conformity Report                         |
+| IT-P03-ECH  | AQL Sampling Instruction                      |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                              |
-|-----------------------|-------------------------------------------------------|
-| 8.4                   | Maîtrise des processus, produits et services externalisés |
-| 8.5.1                 | Maîtrise de la production et de la prestation de service  |
-| 8.6                   | Libération des produits et services                    |
+| ISO 9001:2015 Clause | Requirement                                               |
+|-----------------------|-----------------------------------------------------------|
+| 8.4                   | Control of externally provided processes, products and services |
+| 8.5.1                 | Control of production and service provision                |
+| 8.6                   | Release of products and services                           |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

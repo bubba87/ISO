@@ -1,139 +1,139 @@
-# Chaîne Processus - CHAIN-02 : Commande Modification d'Outillage
+# Process Chain - CHAIN-02: Tooling Modification Order
 
 | **Document**       | CHAIN-02_Commande_Modification_Outillage    |
 |--------------------|----------------------------------------------|
 | **Version**        | v0.7                                         |
 | **Date**           | 2026-03-04                                   |
-| **Classification** | Interne                                      |
-| **Statut**         | **Active**                                   |
-| **Processus**      | Chaîne Processus - Réalisation               |
-| **Rédaction**      | Rôle Qualité                                 |
-| **Approbation**    | Direction                                    |
+| **Classification** | Internal                                     |
+| **Status**         | **Active**                                   |
+| **Process**        | Process Chain - Realization                  |
+| **Drafted by**     | QUALITY                                      |
+| **Approved by**    | Management                                   |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Ce document décrit la chaîne processus pour le traitement d'une **commande nécessitant une modification d'outillage existant**. Cette chaîne reprend la structure en 8 blocs de la CHAIN-01 (Produit Existant) avec des adaptations spécifiques liées à la phase de modification technique de l'outillage.
-
----
-
-## 2. Domaine d'application
-
-Cette chaîne s'applique à toute commande client impliquant la modification d'un outillage déjà existant chez un fournisseur qualifié, indépendamment de la localisation géographique du client ou du fournisseur.
+This document describes the process chain for handling an **order requiring modification of existing tooling**. This chain follows the 8-block structure of CHAIN-01 (Existing Product) with specific adaptations related to the technical tooling modification phase.
 
 ---
 
-## 3. Spécificités de la chaîne « Modification d'Outillage »
+## 2. Scope
 
-| Caractéristique                  | Description                                                              |
+This chain applies to any customer order involving the modification of tooling already existing at a qualified supplier, regardless of the geographic location of the customer or supplier.
+
+---
+
+## 3. Specifics of the "Tooling Modification" Chain
+
+| Characteristic                   | Description                                                              |
 |----------------------------------|--------------------------------------------------------------------------|
-| Phase de développement           | Partielle — modification technique de l'outillage existant               |
-| Évaluation fournisseur           | Déjà réalisée — fournisseur qualifié et référencé                        |
-| Outillage                        | Existant mais nécessitant une modification selon les nouvelles exigences |
-| Délai de réalisation             | Intermédiaire — inclut la phase de modification et validation            |
-| Inspection                       | Contrôle qualité renforcé — validation des modifications apportées       |
-| Échantillons                     | Possible validation d'échantillons post-modification                     |
+| Development phase                | Partial — technical modification of existing tooling                     |
+| Supplier evaluation              | Already completed — supplier qualified and referenced                    |
+| Tooling                          | Existing but requiring modification per new requirements                 |
+| Lead time                        | Intermediate — includes modification and validation phase                |
+| Inspection                       | Enhanced quality control — validation of modifications made              |
+| Samples                          | Possible validation of post-modification samples                         |
 
 ---
 
-## 4. Lignes processus
+## 4. Process Lines
 
-| Code | Ligne             | Rôle pilote          | Fonction principale                              |
+| Code | Line              | Lead Role            | Main Function                                    |
 |------|-------------------|----------------------|--------------------------------------------------|
-| 01   | SALES             | Rôle Commercial      | Gestion commerciale, relation client, facturation |
-| 02   | MANUFACTURE       | Rôle Achats          | Coordination fournisseurs, suivi de production    |
-| 03   | DELIVERY          | Rôle Logistique      | Transport, livraison, douane                      |
-| 04   | QUALITY           | Rôle Qualité         | Contrôle conformité, validation qualité           |
+| 01   | SALES             | SALES                | Commercial management, customer relations, invoicing |
+| 02   | MANUFACTURE       | MANUFACTURE          | Supplier coordination, production monitoring      |
+| 03   | DELIVERY          | DELIVERY             | Transport, delivery, customs                      |
+| 04   | QUALITY           | QUALITY              | Compliance control, quality validation            |
 
 ---
 
-## 5. Adaptations par bloc par rapport à CHAIN-01
+## 5. Adaptations per Block Compared to CHAIN-01
 
-| Bloc   | Intitulé                        | Adaptations par rapport à CHAIN-01                                                                |
+| Block  | Title                           | Adaptations Compared to CHAIN-01                                                                  |
 |--------|---------------------------------|---------------------------------------------------------------------------------------------------|
-| BLOC 1 | Réception commande              | Identification du type de commande : modification d'outillage                                     |
-| BLOC 2 | Fiche de commande               | Mention de la modification requise, référence à l'outillage existant                              |
-| BLOC 3 | Fiche de transport              | Délais ajustés pour modification outillage (+2-4 semaines vs standard), coordination transport des échantillons post-modification si nécessaire, planification transport final une fois modification validée |
-| BLOC 4 | Étude technique fournisseurs    | Étude de faisabilité de la modification, devis modification outillage, validation technique        |
-| BLOC 5 | Validation de commande          | AR incluant le détail de la modification, coûts supplémentaires éventuels                         |
-| BLOC 6 | Production et qualité           | Phase de modification outillage, validation échantillons post-modification, puis production série  |
-| BLOC 7 | Livraison & Douane              | Procédure standard de livraison avec délais ajustés (+1-2 semaines), envoi éventuel d'échantillons post-modification au client avant livraison série, documentation spécifique mentionnant la modification d'outillage |
-| BLOC 8 | Acceptation marchandise         | Contrôle renforcé sur les pièces issues de l'outillage modifié                                    |
+| BLOCK 1| Order reception                 | Identification of order type: tooling modification                                                |
+| BLOCK 2| Order sheet                     | Mention of required modification, reference to existing tooling                                   |
+| BLOCK 3| Transport sheet                 | Adjusted lead times for tooling modification (+2-4 weeks vs. standard), coordination of post-modification sample transport if necessary, final transport planning once modification is validated |
+| BLOCK 4| Technical study with suppliers  | Feasibility study of the modification, tooling modification quote, technical validation            |
+| BLOCK 5| Order validation                | AR including modification details, potential additional costs                                      |
+| BLOCK 6| Production and quality          | Tooling modification phase, post-modification sample validation, then series production            |
+| BLOCK 7| Delivery & Customs              | Standard delivery procedure with adjusted lead times (+1-2 weeks), possible shipment of post-modification samples to the customer before series delivery, specific documentation mentioning tooling modification |
+| BLOCK 8| Goods acceptance                | Enhanced control on parts produced from the modified tooling                                       |
 
 ---
 
-## 6. Vue d'ensemble des blocs
+## 6. Overview of the Blocks
 
 ```
-BLOC 1          BLOC 2          BLOC 3          BLOC 4
-Réception       Fiche de        Fiche de        Étude technique
-commande        commande        transport       + Modification
+BLOCK 1         BLOCK 2         BLOCK 3         BLOCK 4
+Order           Order           Transport       Technical Study
+Reception       Sheet           Sheet           + Modification
 [01 SALES]      [01 SALES]      [03 DELIVERY]   [02 MANUFACTURE]
-    │               │               │               │
-    ▼               ▼               ▼               ▼
-BLOC 5          BLOC 6          BLOC 7          BLOC 8
-Validation      Production      Livraison       Acceptation
-commande        & Qualité       & Douane        marchandise
+    |               |               |               |
+    v               v               v               v
+BLOCK 5         BLOCK 6         BLOCK 7         BLOCK 8
+Order           Production      Delivery        Goods
+Validation      & Quality       & Customs       Acceptance
 [01 SALES]      [02 MANUF.      [03 DELIVERY    [04 QUALITY
                  04 QUALITY]     01 SALES]        01 SALES]
 ```
 
 ---
 
-## 7. Matrice de responsabilité (RACI)
+## 7. Responsibility Matrix (RACI)
 
-| Bloc   | Rôle Commercial | Rôle Achats | Rôle Logistique | Rôle Qualité |
+| Block  | SALES           | MANUFACTURE | DELIVERY        | QUALITY      |
 |--------|-----------------|-------------|-----------------|--------------|
-| BLOC 1 | R/A             | I           | I               | I            |
-| BLOC 2 | R/A             | C           | I               | I            |
-| BLOC 3 | I               | C           | R/A             | I            |
-| BLOC 4 | I               | R/A         | I               | C            |
-| BLOC 5 | R/A             | C           | C               | C            |
-| BLOC 6 | I               | R/A         | I               | R/A          |
-| BLOC 7 | R               | I           | R/A             | I            |
-| BLOC 8 | R               | I           | I               | R/A          |
+| BLOCK 1| R/A             | I           | I               | I            |
+| BLOCK 2| R/A             | C           | I               | I            |
+| BLOCK 3| I               | C           | R/A             | I            |
+| BLOCK 4| I               | R/A         | I               | C            |
+| BLOCK 5| R/A             | C           | C               | C            |
+| BLOCK 6| I               | R/A         | I               | R/A          |
+| BLOCK 7| R               | I           | R/A             | I            |
+| BLOCK 8| R               | I           | I               | R/A          |
 
-**Légende** : R = Réalise, A = Approuve, C = Consulté, I = Informé
-
----
-
-## 8. Indicateurs de performance (KPI)
-
-| KPI                                          | Objectif                  | Fréquence de mesure | Responsable       |
-|----------------------------------------------|---------------------------|---------------------|--------------------|
-| Délai de modification d'outillage            | ≤ délai contractuel       | Par commande        | Rôle Achats        |
-| Taux de conformité échantillons post-modif.  | ≥ 95 %                   | Par commande        | Rôle Qualité       |
-| Taux de réclamations clients                 | ≤ 3 %                    | Mensuelle           | Rôle Commercial    |
-| Respect des délais fournisseurs              | ≥ 90 %                   | Mensuelle           | Rôle Achats        |
+**Legend**: R = Responsible, A = Approver, C = Consulted, I = Informed
 
 ---
 
-## 9. Documents associés
+## 8. Key Performance Indicators (KPI)
 
-| Référence   | Document                                          |
+| KPI                                          | Target                    | Measurement Frequency | Owner              |
+|----------------------------------------------|---------------------------|----------------------|--------------------|
+| Tooling modification lead time               | ≤ contractual deadline    | Per order            | MANUFACTURE        |
+| Post-modification sample conformity rate     | ≥ 95%                    | Per order            | QUALITY            |
+| Customer complaint rate                      | ≤ 3%                     | Monthly              | SALES              |
+| Supplier deadline compliance                 | ≥ 90%                    | Monthly              | MANUFACTURE        |
+
+---
+
+## 9. Associated Documents
+
+| Reference   | Document                                          |
 |-------------|---------------------------------------------------|
-| CHAIN-01    | Chaîne Processus — Commande Produit Existant      |
-| CH-BLOC-001 à CH-BLOC-008 | Fiches détail des blocs (référence CHAIN-01) |
+| CHAIN-01    | Process Chain — Existing Product Order             |
+| CH-BLOC-001 to CH-BLOC-008 | Block detail sheets (CHAIN-01 reference) |
 
 ---
 
-## 10. Complétude du document
+## 10. Document Completeness
 
-> Toutes les sections de ce document ont été complétées en v0.7.
+> All sections of this document have been completed in v0.7.
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                                        |
+| ISO 9001:2015 Clause | Requirement                                                     |
 |-----------------------|-----------------------------------------------------------------|
-| 8.1                   | Planification et maîtrise opérationnelles                        |
-| 8.3                   | Conception et développement de produits et services              |
-| 8.4                   | Maîtrise des processus, produits et services externalisés        |
-| 8.5.1                 | Maîtrise de la production et de la prestation de service         |
+| 8.1                   | Operational planning and control                                 |
+| 8.3                   | Design and development of products and services                  |
+| 8.4                   | Control of externally provided processes, products and services  |
+| 8.5.1                 | Control of production and service provision                      |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

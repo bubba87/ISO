@@ -1,101 +1,101 @@
-# Fiche Détail Bloc - CH-BLOC-003 : Création d'une Fiche de Transport
+# Block Detail Sheet - CH-BLOC-003: Transport Sheet Creation
 
 | **Document**       | CH-BLOC-003_Fiche_Transport                   |
 |--------------------|-----------------------------------------------|
 | **Version**        | v0.7                                          |
 | **Date**           | 2026-03-04                                    |
-| **Classification** | Interne                                       |
-| **Processus**      | Chaîne Processus - Réalisation                |
-| **Chaîne réf.**    | CHAIN-01 — Commande Produit Existant          |
-| **Rédaction**      | Rôle Qualité                                  |
-| **Approbation**    | Direction                                     |
+| **Classification** | Internal                                      |
+| **Process**        | Process Chain - Realization                   |
+| **Chain ref.**     | CHAIN-01 — Existing Product Order             |
+| **Drafted by**     | QUALITY                                       |
+| **Approved by**    | Management                                    |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Cette fiche décrit les actions détaillées du **BLOC 3 — Création d'une fiche de transport** dans le cadre de la chaîne processus de commande produit existant.
-
----
-
-## 2. Ligne processus
-
-| Code ligne | Ligne       | Rôle pilote       |
-|------------|-------------|-------------------|
-| 03         | DELIVERY    | Rôle Logistique   |
+This sheet describes the detailed actions of **BLOCK 3 — Transport Sheet Creation** within the existing product order process chain.
 
 ---
 
-## 3. Entrées du bloc
+## 2. Process Line
 
-| Élément                            | Provenance                     |
+| Line Code  | Line        | Lead Role       |
+|------------|-------------|-----------------|
+| 03         | DELIVERY    | DELIVERY        |
+
+---
+
+## 3. Block Inputs
+
+| Element                            | Source                         |
 |------------------------------------|--------------------------------|
-| Fiche de commande complète         | BLOC 2 — Fiche de commande    |
-| Informations de livraison client   | BLOC 2 — Fiche de commande    |
-| Délais souhaités par le client     | BLOC 2 — Fiche de commande    |
+| Completed order sheet              | BLOCK 2 — Order Sheet          |
+| Customer delivery information      | BLOCK 2 — Order Sheet          |
+| Customer requested deadlines       | BLOCK 2 — Order Sheet          |
 
 ---
 
-## 4. Actions détaillées
+## 4. Detailed Actions
 
-| N° | Action                                                                         | Responsable       | Outil / Support                  |
+| No.| Action                                                                         | Owner             | Tool / Support                   |
 |----|--------------------------------------------------------------------------------|--------------------|----------------------------------|
-| 1  | Création d'une fiche de transport ou ajout sur un transport existant            | Rôle Logistique   | Système de gestion des transports|
-| 2  | Validation des délais de livraison par le transporteur                          | Rôle Logistique   | Communication transporteur       |
-| 3  | Définition du type de livraison                                                | Rôle Logistique   | Système de gestion des transports|
+| 1  | Create a transport sheet or add to an existing transport                        | DELIVERY           | Transport management system      |
+| 2  | Validation of delivery deadlines by the carrier                                | DELIVERY           | Carrier communication            |
+| 3  | Definition of the delivery type                                                | DELIVERY           | Transport management system      |
 
 ---
 
-## 5. Types de livraison
+## 5. Delivery Types
 
-| Type de livraison       | Description                                              |
+| Delivery Type           | Description                                              |
 |-------------------------|----------------------------------------------------------|
-| Transport maritime      | Pour les envois volumineux, délais plus longs             |
-| Transport aérien        | Pour les envois urgents ou de faible volume               |
-| Transport routier       | Pour les livraisons régionales ou continentales           |
-| Transport ferroviaire   | Pour les envois intermédiaires volume/délai               |
-| Transport express       | Pour les envois très urgents (courrier express)           |
+| Sea freight             | For bulky shipments, longer lead times                   |
+| Air freight             | For urgent or low-volume shipments                       |
+| Road transport          | For regional or continental deliveries                   |
+| Rail transport          | For intermediate volume/lead time shipments              |
+| Express transport       | For highly urgent shipments (express courier)            |
 
 ---
 
-## 6. Sorties du bloc
+## 6. Block Outputs
 
-| Élément                             | Destination                         |
+| Element                             | Destination                         |
 |-------------------------------------|-------------------------------------|
-| Fiche de transport complète         | BLOC 5 — Validation commande       |
-| Délais de livraison validés         | BLOC 5 — Validation commande       |
-| Type de livraison défini            | BLOC 7 — Livraison & Douane        |
+| Completed transport sheet           | BLOCK 5 — Order Validation          |
+| Validated delivery deadlines        | BLOCK 5 — Order Validation          |
+| Defined delivery type               | BLOCK 7 — Delivery & Customs        |
 
 ---
 
-## 7. Points de contrôle
+## 7. Control Points
 
-| Contrôle                                    | Critère d'acceptation                              | Responsable       |
+| Control                                     | Acceptance Criterion                               | Owner             |
 |---------------------------------------------|----------------------------------------------------|--------------------|
-| Fiche de transport créée ou mise à jour     | Toutes les informations requises renseignées        | Rôle Logistique   |
-| Délais validés par le transporteur          | Délais compatibles avec l'échéance client           | Rôle Logistique   |
-| Type de livraison approprié                 | Cohérent avec le volume, l'urgence et la destination| Rôle Logistique   |
+| Transport sheet created or updated          | All required information completed                  | DELIVERY           |
+| Deadlines validated by the carrier          | Deadlines compatible with the customer deadline     | DELIVERY           |
+| Appropriate delivery type                   | Consistent with volume, urgency, and destination    | DELIVERY           |
 
 ---
 
-## 8. Documents associés
+## 8. Associated Documents
 
-| Référence   | Document                                      |
+| Reference   | Document                                      |
 |-------------|-----------------------------------------------|
-| CHAIN-01    | Chaîne Processus — Commande Produit Existant  |
-| CH-BLOC-002 | Fiche détail — Fiche de commande             |
-| CH-BLOC-007 | Fiche détail — Livraison et douane           |
+| CHAIN-01    | Process Chain — Existing Product Order         |
+| CH-BLOC-002 | Detail Sheet — Order Sheet                    |
+| CH-BLOC-007 | Detail Sheet — Delivery and Customs           |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                              |
+| ISO 9001:2015 Clause | Requirement                                           |
 |-----------------------|-------------------------------------------------------|
-| 8.5.4                 | Préservation                                           |
-| 8.1                   | Planification et maîtrise opérationnelles              |
+| 8.5.4                 | Preservation                                           |
+| 8.1                   | Operational planning and control                       |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

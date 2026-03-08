@@ -1,265 +1,265 @@
-# Manuel Qualité - Chapitre 8 : Réalisation des activités opérationnelles
+# Quality Manual - Chapter 8: Operational Activities
 
 | **Document**       | MQ_08_Realisation                        |
 |--------------------|------------------------------------------|
 | **Version**        | v0.7                                     |
 | **Date**           | 2026-03-04                               |
-| **Classification** | Interne                                  |
-| **Processus**      | P01, P02, P03, P04                       |
-| **Rédaction**      | Rôle Qualité                             |
-| **Approbation**    | Direction                                |
+| **Classification** | Internal                                 |
+| **Process**        | P01, P02, P03, P04                       |
+| **Drafted by**     | Quality Role                             |
+| **Approved by**    | Management                               |
 
 ---
 
-## 8.1 Planification et maîtrise opérationnelles
+## 8.1 Operational planning and control
 
-### 8.1.1 Généralités
+### 8.1.1 General
 
-Plus Sàrl planifie, met en œuvre et maîtrise les processus nécessaires à la fourniture de ses services de monitoring industriel et de sourcing à l'échelle mondiale, en déterminant :
+Plus Sàrl plans, implements, and controls the processes needed for the provision of its industrial follow-up and worldwide sourcing services, by determining:
 
-- Les exigences relatives aux produits et services
-- Les critères d'acceptation des produits et services
-- Les ressources nécessaires pour la conformité
-- La maîtrise des processus conformément aux critères établis
-- Les informations documentées à conserver
+- The requirements for products and services
+- The acceptance criteria for products and services
+- The resources needed for conformity
+- The control of processes in accordance with established criteria
+- The documented information to be retained
 
-### 8.1.2 Maîtrise des processus externalisés
+### 8.1.2 Control of outsourced processes
 
-En tant que société de sourcing et de monitoring, Plus Sàrl externalise la production auprès de fournisseurs internationaux. La maîtrise de ces processus externalisés est assurée par :
+As a sourcing and monitoring company, Plus Sàrl outsources production to international suppliers. Control of these outsourced processes is ensured through:
 
-| Moyen de maîtrise                    | Description                                                      | Responsable       |
+| Control measure                      | Description                                                      | Responsible       |
 |--------------------------------------|------------------------------------------------------------------|-------------------|
-| Qualification des fournisseurs       | Évaluation initiale selon critères définis (AQF)                 | Rôle Achats       |
-| Cahier des charges                   | Spécification technique détaillée transmise au fournisseur       | Rôle Commercial / Rôle Achats |
-| Inspections en cours de production   | Contrôles intermédiaires sur site fournisseur                    | Rôle Qualité      |
-| Inspection finale (PSI)             | Vérification de conformité avant expédition                      | Rôle Qualité      |
-| Évaluation périodique               | Revue des performances fournisseurs                              | Rôle Achats / Rôle Qualité |
+| Supplier qualification               | Initial assessment according to defined criteria (SQA)           | Purchasing Role   |
+| Specifications                       | Detailed technical specifications provided to the supplier       | Commercial Role / Purchasing Role |
+| In-process inspections               | Intermediate controls at the supplier's site                     | Quality Role      |
+| Final inspection (PSI)               | Conformity verification before shipment                          | Quality Role      |
+| Periodic evaluation                  | Supplier performance review                                      | Purchasing Role / Quality Role |
 
 ---
 
-## 8.2 Exigences relatives aux produits et services
+## 8.2 Requirements for products and services
 
-### 8.2.1 Communication avec les clients
+### 8.2.1 Customer communication
 
-| Élément de communication            | Moyen                          | Responsable       | Fréquence          |
+| Communication element                | Method                         | Responsible       | Frequency          |
 |--------------------------------------|--------------------------------|-------------------|--------------------|
-| Informations sur les services       | Site web, présentations        | Rôle Commercial   | Continue           |
-| Traitement des demandes et offres   | Email, visioconférence         | Rôle Commercial   | À chaque demande   |
-| Retour d'information client         | Enquêtes, appels               | Rôle Commercial   | Semestrielle       |
-| Traitement des réclamations         | Formulaire dédié, email        | Rôle Commercial / Rôle Qualité | À chaque occurrence |
-| Exigences relatives à la propriété client | Procédures spécifiques   | Rôle Qualité      | Selon besoin       |
-| Actions d'urgence                   | Téléphone, email prioritaire   | Direction         | Selon besoin       |
+| Information on services              | Website, presentations        | Commercial Role   | Ongoing            |
+| Handling of inquiries and offers     | Email, video conference        | Commercial Role   | Upon each request  |
+| Customer feedback                    | Surveys, calls                 | Commercial Role   | Semi-annual        |
+| Complaint handling                   | Dedicated form, email          | Commercial Role / Quality Role | Upon each occurrence |
+| Requirements related to customer property | Specific procedures        | Quality Role      | As needed          |
+| Emergency actions                    | Phone, priority email          | Management        | As needed          |
 
-### 8.2.2 Détermination des exigences relatives aux produits et services
+### 8.2.2 Determination of requirements for products and services
 
-Pour chaque demande client, les exigences suivantes sont déterminées :
+For each customer request, the following requirements are determined:
 
-| Type d'exigence                      | Source                         | Méthode de détermination       |
+| Type of requirement                  | Source                         | Determination method             |
 |--------------------------------------|--------------------------------|--------------------------------|
-| Exigences spécifiées par le client   | Cahier des charges client      | Analyse de la demande          |
-| Exigences non formulées mais nécessaires | Expérience, normes du secteur | Revue technique interne       |
-| Exigences légales et réglementaires  | Réglementations applicables    | Veille réglementaire           |
-| Exigences internes Plus Sàrl        | Politique qualité, procédures  | Revue des exigences            |
+| Customer-specified requirements      | Customer specifications        | Request analysis                 |
+| Unstated but necessary requirements  | Experience, industry standards | Internal technical review        |
+| Legal and regulatory requirements    | Applicable regulations         | Regulatory watch                 |
+| Plus Sàrl internal requirements     | Quality policy, procedures     | Requirements review              |
 
-### 8.2.3 Revue des exigences
+### 8.2.3 Review of requirements
 
-| Élément de revue                     | Critère de validation          | Responsable       | Enregistrement          |
+| Review element                       | Validation criterion           | Responsible       | Record                  |
 |--------------------------------------|--------------------------------|-------------------|-------------------------|
-| Spécifications techniques            | Complétude et clarté           | Rôle Qualité      | Fiche de revue          |
-| Capacité de réalisation              | Fournisseur qualifié disponible| Rôle Achats       | Fiche de revue          |
-| Délais                               | Cohérence avec la demande      | Rôle Logistique   | Fiche de revue          |
-| Conditions commerciales              | Rentabilité confirmée          | Rôle Commercial   | Fiche de revue          |
-| Exigences réglementaires             | Conformité vérifiée            | Rôle Qualité      | Fiche de revue          |
+| Technical specifications             | Completeness and clarity       | Quality Role      | Review sheet            |
+| Capability to deliver                | Qualified supplier available   | Purchasing Role   | Review sheet            |
+| Timelines                            | Consistency with the request   | Logistics Role    | Review sheet            |
+| Commercial terms                     | Profitability confirmed        | Commercial Role   | Review sheet            |
+| Regulatory requirements              | Compliance verified            | Quality Role      | Review sheet            |
 
 ---
 
-## 8.3 Conception et développement
+## 8.3 Design and development
 
-**Exclusion justifiée** : la clause 8.3 (Conception et développement des produits et services) est exclue du domaine d'application du SMQ de Plus Sàrl. L'entreprise n'assure pas la conception des produits ; celle-ci est réalisée par les clients ou les fournisseurs. Plus Sàrl intervient en tant que prestataire de monitoring et de sourcing.
+**Justified exclusion**: clause 8.3 (Design and development of products and services) is excluded from the scope of the Plus Sàrl QMS. The company does not carry out product design; this is performed by customers or suppliers. Plus Sàrl acts as a monitoring and sourcing service provider.
 
 ---
 
-## 8.4 Maîtrise des processus, produits et services fournis par des prestataires externes
+## 8.4 Control of externally provided processes, products and services
 
-### 8.4.1 Sélection et évaluation des fournisseurs internationaux
+### 8.4.1 Selection and evaluation of international suppliers
 
-Plus Sàrl sélectionne et évalue ses fournisseurs à travers le monde selon des critères objectifs et documentés.
+Plus Sàrl selects and evaluates its suppliers worldwide according to objective and documented criteria.
 
-#### Critères de sélection initiale
+#### Initial selection criteria
 
-| Critère                              | Poids   | Méthode d'évaluation                      |
+| Criterion                            | Weight  | Assessment method                          |
 |--------------------------------------|---------|-------------------------------------------|
-| Capacité de production               | 20%     | Audit sur site, questionnaire technique    |
-| Système qualité en place             | 20%     | Certification ISO, documentation qualité   |
-| Historique et références             | 15%     | Vérification des références, ancienneté    |
-| Compétitivité prix                   | 15%     | Comparaison de devis, analyse de marché    |
-| Respect des délais                   | 15%     | Historique de livraison, engagement contractuel |
-| Conformité réglementaire             | 10%     | Vérifications des licences et certifications |
-| Responsabilité sociale et environnementale | 5% | Questionnaire RSE, audit social           |
+| Production capacity                  | 20%     | On-site audit, technical questionnaire     |
+| Quality system in place              | 20%     | ISO certification, quality documentation   |
+| Track record and references          | 15%     | Reference verification, years in business  |
+| Price competitiveness                | 15%     | Quote comparison, market analysis          |
+| On-time delivery                     | 15%     | Delivery history, contractual commitment   |
+| Regulatory compliance                | 10%     | Verification of licenses and certifications|
+| Social and environmental responsibility | 5%   | CSR questionnaire, social audit            |
 
-#### Assurance Qualité Fournisseur (AQF)
+#### Supplier Quality Assurance (SQA)
 
-Le processus AQF (Assurance Qualité Fournisseur) comprend les étapes suivantes :
+The SQA (Supplier Quality Assurance) process comprises the following steps:
 
-| Étape | Action                              | Description                                                      | Responsable       |
+| Step  | Action                               | Description                                                      | Responsible       |
 |-------|--------------------------------------|------------------------------------------------------------------|-------------------|
-| 1     | Pré-qualification                    | Vérification documentaire (licences, certifications, capacité)   | Rôle Achats       |
-| 2     | Audit initial                        | Visite du site de production, évaluation sur place               | Rôle Qualité      |
-| 3     | Échantillonnage                      | Production et contrôle d'échantillons de référence               | Rôle Qualité      |
-| 4     | Validation                           | Décision de qualification basée sur les résultats                | Rôle Achats / Rôle Qualité |
-| 5     | Enregistrement                       | Intégration au panel fournisseurs qualifiés                      | Rôle Achats       |
-| 6     | Suivi périodique                     | Évaluation continue des performances                             | Rôle Qualité      |
+| 1     | Pre-qualification                    | Documentary verification (licenses, certifications, capacity)    | Purchasing Role   |
+| 2     | Initial audit                        | Production site visit, on-site assessment                        | Quality Role      |
+| 3     | Sampling                             | Production and inspection of reference samples                   | Quality Role      |
+| 4     | Validation                           | Qualification decision based on results                          | Purchasing Role / Quality Role |
+| 5     | Registration                         | Integration into the qualified supplier panel                    | Purchasing Role   |
+| 6     | Periodic monitoring                  | Ongoing performance evaluation                                   | Quality Role      |
 
-### 8.4.2 Classification des fournisseurs
+### 8.4.2 Supplier classification
 
-Les fournisseurs sont classés selon un système **A/B/C** basé sur leur performance globale :
+Suppliers are classified according to an **A/B/C** system based on their overall performance:
 
-| Classe | Note globale | Description                              | Actions associées                              |
+| Class  | Overall score | Description                              | Associated actions                             |
 |--------|-------------|------------------------------------------|------------------------------------------------|
-| **A**  | >= 80/100   | Fournisseur performant                   | Fournisseur privilégié, inspections allégées possibles, partenariat renforcé |
-| **B**  | 60-79/100   | Fournisseur acceptable                   | Surveillance standard, plan d'amélioration si tendance à la baisse |
-| **C**  | < 60/100    | Fournisseur sous surveillance            | Plan d'amélioration obligatoire, inspections renforcées, réévaluation à 3 mois |
+| **A**  | >= 80/100   | High-performing supplier                 | Preferred supplier, reduced inspections possible, strengthened partnership |
+| **B**  | 60-79/100   | Acceptable supplier                      | Standard monitoring, improvement plan if downward trend |
+| **C**  | < 60/100    | Supplier under surveillance              | Mandatory improvement plan, reinforced inspections, reassessment at 3 months |
 
-#### Critères de notation périodique
+#### Periodic scoring criteria
 
-| Critère                              | Poids   | Source de données                          |
+| Criterion                            | Weight  | Data source                                |
 |--------------------------------------|---------|-------------------------------------------|
-| Qualité des produits livrés          | 35%     | Rapports d'inspection, taux de NC          |
-| Respect des délais                   | 25%     | Suivi logistique, historique livraisons    |
-| Réactivité et communication         | 20%     | Évaluation subjective, temps de réponse    |
-| Conformité documentaire             | 10%     | Complétude des dossiers techniques         |
-| Amélioration continue               | 10%     | Actions correctives, évolution des scores  |
+| Quality of delivered products        | 35%     | Inspection reports, NC rate                |
+| On-time delivery                     | 25%     | Logistics tracking, delivery history       |
+| Responsiveness and communication     | 20%     | Subjective assessment, response time       |
+| Documentary compliance               | 10%     | Completeness of technical files            |
+| Continuous improvement               | 10%     | Corrective actions, score evolution        |
 
-### 8.4.3 Réévaluation et sanctions
+### 8.4.3 Reassessment and sanctions
 
-| Situation                            | Action                                    | Responsable       | Délai              |
+| Situation                            | Action                                    | Responsible       | Timeline           |
 |--------------------------------------|-------------------------------------------|-------------------|--------------------|
-| Note < 60/100 pendant 2 périodes     | Plan d'amélioration formel                | Rôle Achats       | Immédiat           |
-| NC majeure répétée (>= 3 occurrences)| Suspension temporaire                     | Rôle Achats       | Immédiat           |
-| Échec du plan d'amélioration         | Retrait de la liste fournisseurs qualifiés| Direction         | Après évaluation   |
-| Fraude ou falsification              | Exclusion définitive                      | Direction         | Immédiat           |
+| Score < 60/100 for 2 periods         | Formal improvement plan                   | Purchasing Role   | Immediate          |
+| Repeated major NC (>= 3 occurrences) | Temporary suspension                     | Purchasing Role   | Immediate          |
+| Improvement plan failure             | Removal from the qualified supplier list  | Management        | After assessment   |
+| Fraud or falsification               | Permanent exclusion                       | Management        | Immediate          |
 
 ---
 
-## 8.5 Production et prestation de service
+## 8.5 Production and service provision
 
-### 8.5.1 Types d'inspections
+### 8.5.1 Types of inspections
 
-Plus Sàrl réalise différents types d'inspections pour assurer la conformité des produits tout au long du cycle de production :
+Plus Sàrl performs various types of inspections to ensure product conformity throughout the production cycle:
 
-| Type d'inspection | Acronyme | Moment                          | Objectif                                                | Taux de contrôle indicatif |
+| Inspection type | Acronym  | Timing                           | Objective                                                | Indicative inspection rate |
 |-------------------|----------|----------------------------------|---------------------------------------------------------|----------------------------|
-| Inspection en cours de production initiale | IPC | Début de production (10-20% réalisé) | Vérifier la conformité des premières pièces, détecter les problèmes précocement | 100% du lot initial |
-| Inspection en cours de production | DUPRO | Production à 40-60% d'avancement | Contrôler la qualité en cours, vérifier le respect du planning | Échantillonnage selon AQL |
-| Inspection pré-expédition | PSI | Production achevée à 100%, avant emballage | Vérification finale de conformité aux spécifications | Échantillonnage selon AQL (ISO 2859-1) |
-| Contrôle au chargement | Loading Check | Au moment du chargement du conteneur | Vérifier la quantité, l'emballage, l'étiquetage et les conditions de chargement | 100% visuel |
+| Initial production inspection | IPC | Start of production (10-20% completed) | Verify conformity of first pieces, detect problems early | 100% of initial batch |
+| During production inspection | DUPRO | Production at 40-60% progress | Monitor quality in progress, verify schedule compliance | Sampling per AQL |
+| Pre-shipment inspection | PSI | Production 100% complete, before packaging | Final conformity verification against specifications | Sampling per AQL (ISO 2859-1) |
+| Loading check | Loading Check | At the time of container loading | Verify quantity, packaging, labeling, and loading conditions | 100% visual |
 
-### 8.5.2 Déroulement d'une inspection
+### 8.5.2 Inspection process
 
-| Étape | Action                              | Description                                                      | Responsable       |
+| Step  | Action                               | Description                                                      | Responsible       |
 |-------|--------------------------------------|------------------------------------------------------------------|-------------------|
-| 1     | Planification                        | Programmation de l'inspection selon le planning de production    | Rôle Qualité      |
-| 2     | Préparation                          | Revue du cahier des charges, préparation de la checklist         | Rôle Qualité      |
-| 3     | Réalisation sur site                 | Exécution des contrôles (visuels, dimensionnels, fonctionnels)  | Rôle Qualité      |
-| 4     | Documentation                        | Rédaction du rapport d'inspection avec photos et mesures        | Rôle Qualité      |
-| 5     | Décision                             | Acceptation / Refus / Acceptation sous conditions               | Rôle Qualité      |
-| 6     | Communication                        | Envoi du rapport au client et notification du résultat          | Rôle Qualité      |
+| 1     | Planning                             | Scheduling the inspection according to the production schedule   | Quality Role      |
+| 2     | Preparation                          | Review of specifications, preparation of the checklist           | Quality Role      |
+| 3     | On-site execution                    | Carrying out controls (visual, dimensional, functional)          | Quality Role      |
+| 4     | Documentation                        | Drafting the inspection report with photos and measurements      | Quality Role      |
+| 5     | Decision                             | Accept / Reject / Conditional acceptance                         | Quality Role      |
+| 6     | Communication                        | Sending the report to the customer and notification of the result| Quality Role      |
 
-### 8.5.3 Critères d'acceptation
+### 8.5.3 Acceptance criteria
 
-| Critère                              | Méthode                          | Référence                        |
+| Criterion                            | Method                           | Reference                        |
 |--------------------------------------|----------------------------------|----------------------------------|
-| Conformité visuelle                  | Contrôle visuel selon échantillon de référence | Cahier des charges client |
-| Conformité dimensionnelle            | Mesures avec instruments calibrés | Plan technique / tolérances      |
-| Conformité fonctionnelle             | Tests de fonctionnement          | Spécifications techniques client |
-| Conformité d'emballage               | Vérification visuelle et physique | Instructions d'emballage         |
-| Conformité d'étiquetage              | Vérification visuelle            | Exigences client et réglementaires |
-| Quantité                             | Comptage / pesée                 | Bon de commande                  |
+| Visual conformity                    | Visual inspection against reference sample | Customer specifications  |
+| Dimensional conformity               | Measurements with calibrated instruments | Technical drawing / tolerances |
+| Functional conformity                | Functional testing               | Customer technical specifications|
+| Packaging conformity                 | Visual and physical verification | Packaging instructions           |
+| Labeling conformity                  | Visual verification              | Customer and regulatory requirements |
+| Quantity                             | Counting / weighing              | Purchase order                   |
 
 ---
 
-## 8.6 Libération des produits et services
+## 8.6 Release of products and services
 
-### 8.6.1 Processus de libération
+### 8.6.1 Release process
 
-La libération des produits est une décision formelle prise par le **Rôle Qualité** après vérification de la conformité à toutes les exigences spécifiées.
+Product release is a formal decision made by the **Quality Role** after verification of conformity to all specified requirements.
 
-| Décision de libération              | Condition                                  | Action subséquente                        |
+| Release decision                     | Condition                                  | Subsequent action                         |
 |--------------------------------------|--------------------------------------------|-------------------------------------------|
-| **Accepté**                          | Tous les critères de conformité respectés  | Autorisation d'expédition par Rôle Logistique |
-| **Accepté sous conditions**          | Écarts mineurs acceptés par le client      | Documentation des écarts, accord client écrit |
-| **Refusé**                           | Non-conformité(s) identifiée(s)            | Déclenchement du processus de gestion des NC  |
+| **Accepted**                         | All conformity criteria met                | Shipment authorization by Logistics Role  |
+| **Conditionally accepted**           | Minor deviations accepted by the customer  | Documentation of deviations, written customer agreement |
+| **Rejected**                         | Non-conformity(ies) identified             | Initiation of the NC management process   |
 
-### 8.6.2 Informations documentées de libération
+### 8.6.2 Release documented information
 
-| Document                             | Contenu                                    | Conservation       |
+| Document                             | Content                                    | Retention         |
 |--------------------------------------|--------------------------------------------|---------------------|
-| Rapport d'inspection final           | Résultats des contrôles, photos, mesures   | 5 ans               |
-| Certificat de conformité             | Déclaration de conformité aux exigences    | 5 ans               |
-| Autorisation d'expédition            | Validation de la libération                | 5 ans               |
-| Accord client (si accepté sous conditions) | Validation écrite du client           | 5 ans               |
+| Final inspection report              | Inspection results, photos, measurements   | 5 years             |
+| Certificate of conformity            | Declaration of conformity to requirements  | 5 years             |
+| Shipment authorization               | Release validation                         | 5 years             |
+| Customer agreement (if conditionally accepted) | Written customer validation         | 5 years             |
 
 ---
 
-## 8.7 Maîtrise des éléments de sortie non conformes
+## 8.7 Control of nonconforming outputs
 
-### 8.7.1 Détection des non-conformités
+### 8.7.1 Detection of non-conformities
 
-Les non-conformités peuvent être détectées à différentes étapes :
+Non-conformities may be detected at various stages:
 
-| Étape de détection                   | Source                                    | Responsable de la détection |
+| Detection stage                      | Source                                    | Detection responsible      |
 |--------------------------------------|-------------------------------------------|----------------------------|
-| Inspection IPC                       | Rapport d'inspection                      | Rôle Qualité               |
-| Inspection DUPRO                     | Rapport d'inspection                      | Rôle Qualité               |
-| Inspection PSI                       | Rapport d'inspection                      | Rôle Qualité               |
-| Loading Check                        | Rapport de chargement                     | Rôle Qualité               |
-| Réception client                     | Réclamation client                        | Rôle Commercial            |
-| Audit fournisseur                    | Rapport d'audit                           | Rôle Qualité               |
+| IPC inspection                       | Inspection report                         | Quality Role               |
+| DUPRO inspection                     | Inspection report                         | Quality Role               |
+| PSI inspection                       | Inspection report                         | Quality Role               |
+| Loading Check                        | Loading report                            | Quality Role               |
+| Customer receipt                     | Customer complaint                        | Commercial Role            |
+| Supplier audit                       | Audit report                              | Quality Role               |
 
-### 8.7.2 Traitement des non-conformités produit
+### 8.7.2 Product non-conformity treatment
 
-| Action                               | Description                                | Responsable       | Délai              |
+| Action                               | Description                                | Responsible        | Timeline            |
 |--------------------------------------|--------------------------------------------|--------------------|---------------------|
-| Identification et isolement          | Marquage et séparation des produits NC     | Rôle Qualité       | Immédiat           |
-| Enregistrement                       | Documentation de la NC (fiche NC)          | Rôle Qualité       | 24 heures          |
-| Notification                         | Information du client et du fournisseur    | Rôle Commercial / Rôle Achats | 24 heures  |
-| Analyse des causes                   | Recherche des causes racines               | Rôle Qualité       | 5 jours ouvrables  |
-| Décision de traitement               | Retouche, tri, rebut, concession           | Rôle Qualité       | Selon décision     |
-| Action corrective                    | Mise en œuvre pour éviter la récurrence   | Fournisseur / Rôle Qualité | 15 jours ouvrables |
-| Vérification d'efficacité            | Contrôle de l'efficacité de l'action       | Rôle Qualité       | À la prochaine commande |
+| Identification and isolation         | Marking and separation of NC products      | Quality Role       | Immediate           |
+| Recording                            | Documentation of the NC (NC sheet)         | Quality Role       | 24 hours            |
+| Notification                         | Information to the customer and supplier   | Commercial Role / Purchasing Role | 24 hours  |
+| Root cause analysis                  | Investigation of root causes               | Quality Role       | 5 business days     |
+| Treatment decision                   | Rework, sorting, scrap, concession         | Quality Role       | Per decision        |
+| Corrective action                    | Implementation to prevent recurrence       | Supplier / Quality Role | 15 business days |
+| Effectiveness verification           | Review of action effectiveness             | Quality Role       | At next order       |
 
-### 8.7.3 Options de traitement des produits non conformes
+### 8.7.3 Options for nonconforming product treatment
 
-| Option                               | Description                                | Condition d'application                   |
+| Option                               | Description                                | Condition for application                 |
 |--------------------------------------|--------------------------------------------|-------------------------------------------|
-| Retouche / Réparation               | Correction du défaut par le fournisseur    | Défaut corrigeable sans impact qualité    |
-| Tri                                  | Séparation des conformes et non-conformes  | Défaut affectant une partie du lot        |
-| Rebut                                | Destruction ou mise au rebut               | Défaut non corrigeable                    |
-| Concession / Dérogation             | Acceptation en l'état avec accord client   | Écart mineur, accord écrit du client      |
-| Retour fournisseur                   | Renvoi au fournisseur pour remplacement    | Défaut majeur, remplacement nécessaire    |
+| Rework / Repair                      | Correction of the defect by the supplier   | Correctable defect with no quality impact |
+| Sorting                              | Separation of conforming and nonconforming | Defect affecting part of the batch        |
+| Scrap                                | Destruction or scrapping                   | Non-correctable defect                    |
+| Concession / Deviation               | Acceptance as-is with customer agreement   | Minor deviation, written customer agreement |
+| Return to supplier                   | Return to supplier for replacement         | Major defect, replacement necessary       |
 
 ---
 
-## Références normatives
+## Normative references
 
-| Clause ISO 9001:2015 | Exigence                                                     |
+| ISO 9001:2015 Clause | Requirement                                                  |
 |-----------------------|--------------------------------------------------------------|
-| 8.1                   | Planification et maîtrise opérationnelles                     |
-| 8.2                   | Exigences relatives aux produits et services                  |
-| 8.2.1                 | Communication avec les clients                                |
-| 8.2.2                 | Détermination des exigences relatives aux produits et services|
-| 8.2.3                 | Revue des exigences relatives aux produits et services        |
-| 8.3                   | Conception et développement (exclusion justifiée)             |
-| 8.4                   | Maîtrise des processus, produits et services fournis par des prestataires externes |
-| 8.4.1                 | Généralités                                                   |
-| 8.4.2                 | Type et étendue de la maîtrise                                |
-| 8.4.3                 | Informations à l'attention des prestataires externes          |
-| 8.5                   | Production et prestation de service                           |
-| 8.5.1                 | Maîtrise de la production et de la prestation de service      |
-| 8.6                   | Libération des produits et services                           |
-| 8.7                   | Maîtrise des éléments de sortie non conformes                 |
+| 8.1                   | Operational planning and control                              |
+| 8.2                   | Requirements for products and services                        |
+| 8.2.1                 | Customer communication                                        |
+| 8.2.2                 | Determination of requirements for products and services       |
+| 8.2.3                 | Review of requirements for products and services              |
+| 8.3                   | Design and development (justified exclusion)                  |
+| 8.4                   | Control of externally provided processes, products and services |
+| 8.4.1                 | General                                                       |
+| 8.4.2                 | Type and extent of control                                    |
+| 8.4.3                 | Information for external providers                            |
+| 8.5                   | Production and service provision                              |
+| 8.5.1                 | Control of production and service provision                   |
+| 8.6                   | Release of products and services                              |
+| 8.7                   | Control of nonconforming outputs                              |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

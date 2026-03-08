@@ -1,164 +1,164 @@
-# Manuel Qualité - Chapitre 6 : Planification
+# Quality Manual - Chapter 6: Planning
 
 | **Document**       | MQ_06_Planification                      |
 |--------------------|------------------------------------------|
 | **Version**        | v0.7                                     |
 | **Date**           | 2026-03-04                               |
-| **Classification** | Interne                                  |
-| **Processus**      | PM01 - Pilotage stratégique              |
-| **Rédaction**      | Rôle Qualité                             |
-| **Approbation**    | Direction                                |
+| **Classification** | Internal                                 |
+| **Process**        | PM01 - Strategic management              |
+| **Drafted by**     | Quality Role                             |
+| **Approved by**    | Management                               |
 
 ---
 
-## 6.1 Actions à mettre en œuvre face aux risques et opportunités
+## 6.1 Actions to address risks and opportunities
 
-### 6.1.1 Méthodologie d'identification des risques
+### 6.1.1 Risk identification methodology
 
-Plus Sàrl applique une démarche structurée d'identification et de traitement des risques et opportunités :
+Plus Sàrl applies a structured approach to the identification and treatment of risks and opportunities:
 
-1. **Identification** : recensement des risques et opportunités liés au contexte (cf. MQ_04)
-2. **Analyse** : évaluation de la probabilité d'occurrence et de la gravité de l'impact
-3. **Hiérarchisation** : classement par niveau de criticité
-4. **Traitement** : définition des actions pour maîtriser les risques ou exploiter les opportunités
-5. **Suivi** : surveillance de l'efficacité des actions mises en œuvre
+1. **Identification**: inventory of risks and opportunities related to the context (see MQ_04)
+2. **Analysis**: assessment of the likelihood of occurrence and the severity of impact
+3. **Prioritization**: ranking by criticality level
+4. **Treatment**: definition of actions to control risks or exploit opportunities
+5. **Monitoring**: surveillance of the effectiveness of implemented actions
 
-### 6.1.2 Échelle d'évaluation
+### 6.1.2 Assessment scale
 
-**Probabilité d'occurrence :**
+**Likelihood of occurrence:**
 
-| Niveau | Libellé      | Description                               |
+| Level | Label        | Description                               |
 |--------|-------------|-------------------------------------------|
-| 1      | Rare         | Moins d'une fois par an                   |
-| 2      | Occasionnel  | Une à deux fois par an                    |
-| 3      | Probable     | Plusieurs fois par an                     |
-| 4      | Fréquent     | Plusieurs fois par trimestre              |
+| 1      | Rare         | Less than once per year                   |
+| 2      | Occasional   | One to two times per year                 |
+| 3      | Likely       | Several times per year                    |
+| 4      | Frequent     | Several times per quarter                 |
 
-**Gravité de l'impact :**
+**Severity of impact:**
 
-| Niveau | Libellé      | Description                               |
+| Level | Label        | Description                               |
 |--------|-------------|-------------------------------------------|
-| 1      | Mineur       | Impact négligeable sur les opérations      |
-| 2      | Modéré       | Impact limité, gérable sans difficulté     |
-| 3      | Majeur       | Impact significatif sur la qualité ou les délais |
-| 4      | Critique     | Impact grave sur la satisfaction client ou la pérennité |
+| 1      | Minor        | Negligible impact on operations            |
+| 2      | Moderate     | Limited impact, manageable without difficulty |
+| 3      | Major        | Significant impact on quality or delivery timelines |
+| 4      | Critical     | Severe impact on customer satisfaction or business continuity |
 
-**Criticité = Probabilité x Gravité**
+**Criticality = Likelihood x Severity**
 
-| Niveau de criticité | Plage | Action requise                              |
+| Criticality level | Range | Required action                             |
 |---------------------|-------|---------------------------------------------|
-| Faible              | 1-4   | Surveillance, aucune action immédiate requise|
-| Moyen               | 5-8   | Actions de réduction à planifier             |
-| Élevé               | 9-12  | Actions prioritaires à mettre en œuvre      |
-| Critique            | 13-16 | Actions immédiates obligatoires              |
+| Low                 | 1-4   | Monitoring, no immediate action required     |
+| Medium              | 5-8   | Reduction actions to be planned              |
+| High                | 9-12  | Priority actions to be implemented           |
+| Critical            | 13-16 | Mandatory immediate actions                  |
 
 ---
 
-### 6.1.3 Registre des risques et opportunités
+### 6.1.3 Risk and opportunity register
 
-#### Risques identifiés
+#### Identified risks
 
-| Réf.  | Risque                                                    | Processus | Prob. | Grav. | Crit. | Action de maîtrise                                          | Responsable       |
+| Ref.  | Risk                                                      | Process   | Likl. | Sev.  | Crit. | Control action                                               | Responsible       |
 |-------|-----------------------------------------------------------|-----------|-------|-------|-------|--------------------------------------------------------------|-------------------|
-| R-01  | Non-conformité produit détectée tardivement                | P03       | 3     | 4     | 12    | Renforcement des inspections intermédiaires (IPC, DUPRO)     | Rôle Qualité      |
-| R-02  | Défaillance d'un fournisseur stratégique                   | P02       | 2     | 4     | 8     | Diversification du panel fournisseurs, fournisseurs de secours| Rôle Achats       |
-| R-03  | Retard de livraison impactant la satisfaction client       | P04       | 3     | 3     | 9     | Suivi proactif des expéditions, marges de sécurité sur les délais | Rôle Logistique|
-| R-04  | Perte de compétences clés liée au départ de personnel      | PS02      | 2     | 3     | 6     | Documentation des savoir-faire, plans de formation croisée   | Direction         |
-| R-05  | Non-respect des exigences réglementaires internationales   | P02/P04   | 2     | 4     | 8     | Veille réglementaire systématique, mise à jour des procédures| Rôle Qualité      |
-| R-06  | Erreur de communication avec le client sur les spécifications | P01    | 2     | 3     | 6     | Revue des exigences formalisée, confirmation écrite          | Rôle Commercial   |
-| R-07  | Perte de données ou de documents critiques du SMQ          | PS01      | 1     | 4     | 4     | Sauvegardes régulières, système documentaire sécurisé        | Rôle Gestion Doc. |
-| R-08  | Fluctuation des taux de change impactant les marges        | P01/P02   | 3     | 2     | 6     | Clauses contractuelles de révision, couverture de change     | Direction         |
+| R-01  | Product non-conformity detected late                       | P03       | 3     | 4     | 12    | Reinforcement of intermediate inspections (IPC, DUPRO)       | Quality Role      |
+| R-02  | Failure of a strategic supplier                            | P02       | 2     | 4     | 8     | Diversification of the supplier panel, backup suppliers       | Purchasing Role   |
+| R-03  | Delivery delay impacting customer satisfaction             | P04       | 3     | 3     | 9     | Proactive shipment tracking, safety margins on delivery timelines | Logistics Role |
+| R-04  | Loss of key competencies due to staff departure            | PS02      | 2     | 3     | 6     | Know-how documentation, cross-training plans                 | Management        |
+| R-05  | Non-compliance with international regulatory requirements  | P02/P04   | 2     | 4     | 8     | Systematic regulatory watch, procedure updates               | Quality Role      |
+| R-06  | Communication error with the customer on specifications    | P01       | 2     | 3     | 6     | Formalized requirements review, written confirmation         | Commercial Role   |
+| R-07  | Loss of critical QMS data or documents                     | PS01      | 1     | 4     | 4     | Regular backups, secure document management system           | Document Management Role |
+| R-08  | Exchange rate fluctuations impacting margins               | P01/P02   | 3     | 2     | 6     | Contractual price revision clauses, currency hedging         | Management        |
 
-#### Opportunités identifiées
+#### Identified opportunities
 
-| Réf.  | Opportunité                                               | Processus | Impact | Action d'exploitation                                        | Responsable       |
+| Ref.  | Opportunity                                               | Process   | Impact | Exploitation action                                          | Responsible       |
 |-------|-----------------------------------------------------------|-----------|--------|---------------------------------------------------------------|-------------------|
-| O-01  | Certification ISO 9001 comme levier commercial            | P01       | Élevé  | Communication active auprès des prospects et clients          | Rôle Commercial   |
-| O-02  | Digitalisation des rapports d'inspection                  | P03       | Élevé  | Déploiement d'outils numériques de reporting en temps réel    | Rôle Qualité      |
-| O-03  | Expansion vers de nouveaux marchés géographiques          | P01/P02   | Élevé  | Prospection de fournisseurs et clients dans de nouvelles régions | Rôle Commercial |
-| O-04  | Partenariats avec des laboratoires d'essais internationaux| P03       | Moyen  | Établissement de conventions avec des laboratoires accrédités | Rôle Qualité      |
+| O-01  | ISO 9001 certification as a commercial lever              | P01       | High   | Active communication to prospects and customers               | Commercial Role   |
+| O-02  | Digitalization of inspection reports                      | P03       | High   | Deployment of digital real-time reporting tools               | Quality Role      |
+| O-03  | Expansion into new geographic markets                     | P01/P02   | High   | Prospecting for suppliers and customers in new regions        | Commercial Role   |
+| O-04  | Partnerships with international testing laboratories      | P03       | Medium | Establishment of agreements with accredited laboratories      | Quality Role      |
 
 ---
 
-## 6.2 Objectifs qualité et planification des actions
+## 6.2 Quality objectives and planning of actions
 
-### 6.2.1 Objectifs qualité
+### 6.2.1 Quality objectives
 
-Les objectifs qualité de Plus Sàrl sont définis annuellement par la Direction, en cohérence avec la politique qualité et les résultats de la revue de direction.
+The quality objectives of Plus Sàrl are defined annually by Management, in alignment with the quality policy and management review results.
 
-| Réf.  | Objectif qualité                                         | Indicateur (KPI)                          | Cible          | Fréquence de mesure | Responsable       |
+| Ref.  | Quality objective                                        | Indicator (KPI)                           | Target         | Measurement frequency | Responsible       |
 |-------|----------------------------------------------------------|-------------------------------------------|----------------|---------------------|-------------------|
-| OQ-01 | Maintenir un taux de satisfaction client élevé           | Note moyenne de satisfaction client        | >= 8/10        | Semestrielle        | Rôle Commercial   |
-| OQ-02 | Réduire le taux de non-conformités fournisseurs          | Nombre de NC / Nombre de commandes (%)    | <= 5%          | Trimestrielle       | Rôle Qualité      |
-| OQ-03 | Assurer le respect des délais de livraison               | Taux de livraisons à temps (%)            | >= 90%         | Mensuelle           | Rôle Logistique   |
-| OQ-04 | Garantir la réalisation des inspections planifiées       | Taux d'inspections réalisées / planifiées | >= 95%         | Mensuelle           | Rôle Qualité      |
-| OQ-05 | Améliorer la maîtrise documentaire du SMQ                | Taux de documents à jour (%)              | >= 98%         | Trimestrielle       | Rôle Gestion Doc. |
-| OQ-06 | Développer les compétences du personnel                  | Taux de réalisation du plan de formation  | >= 80%         | Annuelle            | Direction         |
+| OQ-01 | Maintain a high customer satisfaction rate               | Average customer satisfaction score        | >= 8/10        | Semi-annual         | Commercial Role   |
+| OQ-02 | Reduce the supplier non-conformity rate                  | Number of NCs / Number of orders (%)       | <= 5%          | Quarterly           | Quality Role      |
+| OQ-03 | Ensure compliance with delivery timelines                | On-time delivery rate (%)                  | >= 90%         | Monthly             | Logistics Role    |
+| OQ-04 | Ensure completion of planned inspections                 | Inspections completed / planned rate       | >= 95%         | Monthly             | Quality Role      |
+| OQ-05 | Improve QMS document control                             | Up-to-date documents rate (%)              | >= 98%         | Quarterly           | Document Management Role |
+| OQ-06 | Develop staff competencies                               | Training plan completion rate              | >= 80%         | Annual              | Management        |
 
-### 6.2.2 Planification des actions pour atteindre les objectifs
+### 6.2.2 Planning of actions to achieve objectives
 
-| Réf.  | Actions planifiées                                        | Ressources nécessaires         | Échéance       | Responsable       |
+| Ref.  | Planned actions                                           | Required resources             | Deadline       | Responsible       |
 |-------|-----------------------------------------------------------|--------------------------------|----------------|-------------------|
-| OQ-01 | Mise en place d'enquêtes de satisfaction systématiques    | Outil de sondage en ligne      | T2 2026        | Rôle Commercial   |
-| OQ-02 | Renforcement des critères de qualification fournisseurs   | Grille d'audit mise à jour     | T1 2026        | Rôle Achats       |
-| OQ-03 | Mise en place d'un tableau de suivi logistique            | Outil de tracking              | T2 2026        | Rôle Logistique   |
-| OQ-04 | Planification anticipée des inspections à 4 semaines      | Planning partagé               | Continu        | Rôle Qualité      |
-| OQ-05 | Revue trimestrielle de l'état documentaire               | Checklist documentaire         | Trimestriel    | Rôle Gestion Doc. |
-| OQ-06 | Élaboration du plan de formation annuel                   | Budget formation               | T1 2026        | Direction         |
+| OQ-01 | Implementation of systematic satisfaction surveys         | Online survey tool             | Q2 2026        | Commercial Role   |
+| OQ-02 | Reinforcement of supplier qualification criteria          | Updated audit grid             | Q1 2026        | Purchasing Role   |
+| OQ-03 | Implementation of a logistics tracking dashboard          | Tracking tool                  | Q2 2026        | Logistics Role    |
+| OQ-04 | Forward planning of inspections at 4 weeks                | Shared schedule                | Ongoing        | Quality Role      |
+| OQ-05 | Quarterly review of document status                       | Document checklist             | Quarterly      | Document Management Role |
+| OQ-06 | Development of the annual training plan                   | Training budget                | Q1 2026        | Management        |
 
 ---
 
-## 6.3 Planification des modifications
+## 6.3 Planning of changes
 
-### 6.3.1 Gestion des modifications du SMQ
+### 6.3.1 QMS change management
 
-Toute modification significative du SMQ fait l'objet d'une planification structurée selon la démarche suivante :
+Any significant modification to the QMS is subject to structured planning following the approach below:
 
-| Étape | Action                                    | Description                                                      | Responsable       |
+| Step  | Action                                    | Description                                                      | Responsible       |
 |-------|-------------------------------------------|------------------------------------------------------------------|-------------------|
-| 1     | Identification du besoin de modification  | Détection du besoin (audit, revue, retour client, évolution réglementaire) | Tout rôle     |
-| 2     | Analyse d'impact                          | Évaluation des conséquences sur les processus, ressources et performances | Rôle Qualité  |
-| 3     | Planification de la modification          | Définition des actions, ressources, responsabilités et échéances  | Rôle Qualité      |
-| 4     | Approbation                               | Validation de la modification par la Direction                    | Direction         |
-| 5     | Mise en œuvre                            | Implémentation de la modification selon le plan                   | Rôle concerné     |
-| 6     | Vérification                              | Contrôle de l'efficacité de la modification                       | Rôle Qualité      |
-| 7     | Mise à jour documentaire                  | Actualisation des documents impactés                              | Rôle Gestion Doc. |
+| 1     | Identification of the need for change     | Detection of need (audit, review, customer feedback, regulatory change) | Any role      |
+| 2     | Impact analysis                           | Assessment of consequences on processes, resources, and performance | Quality Role   |
+| 3     | Change planning                           | Definition of actions, resources, responsibilities, and deadlines | Quality Role      |
+| 4     | Approval                                  | Validation of the change by Management                            | Management        |
+| 5     | Implementation                            | Implementation of the change according to the plan                | Relevant role     |
+| 6     | Verification                              | Review of the effectiveness of the change                         | Quality Role      |
+| 7     | Document update                           | Update of affected documents                                      | Document Management Role |
 
-### 6.3.2 Registre des modifications
+### 6.3.2 Change register
 
-Un registre des modifications est tenu à jour et contient :
-- La description de la modification
-- La justification
-- L'analyse d'impact
-- Les actions mises en œuvre
-- Le résultat de la vérification d'efficacité
+A change register is maintained and contains:
+- The description of the change
+- The justification
+- The impact analysis
+- The actions implemented
+- The result of the effectiveness verification
 
-### 6.3.3 Critères déclenchant une revue de modification
+### 6.3.3 Criteria triggering a change review
 
-| Critère                                          | Exemple                                                |
+| Criterion                                        | Example                                                |
 |--------------------------------------------------|--------------------------------------------------------|
-| Changement organisationnel                       | Modification de la structure des rôles                 |
-| Évolution réglementaire                          | Nouvelle réglementation d'importation                  |
-| Retour d'expérience significatif                 | Non-conformité majeure récurrente                      |
-| Demande client spécifique                        | Nouvelle exigence contractuelle                        |
-| Résultat d'audit (interne ou externe)            | Non-conformité audit ISO 9001                          |
-| Évolution technologique                          | Nouveau système d'information                          |
+| Organizational change                            | Modification of the role structure                     |
+| Regulatory change                                | New import regulation                                  |
+| Significant lessons learned                      | Recurring major non-conformity                         |
+| Specific customer request                        | New contractual requirement                            |
+| Audit result (internal or external)              | ISO 9001 audit non-conformity                          |
+| Technological evolution                          | New information system                                 |
 
 ---
 
-## Références normatives
+## Normative references
 
-| Clause ISO 9001:2015 | Exigence                                                     |
+| ISO 9001:2015 Clause | Requirement                                                  |
 |-----------------------|--------------------------------------------------------------|
-| 6.1                   | Actions à mettre en œuvre face aux risques et opportunités   |
-| 6.1.1                 | Prise en compte des enjeux et des exigences                   |
-| 6.1.2                 | Planification des actions                                     |
-| 6.2                   | Objectifs qualité et planification des actions                |
-| 6.2.1                 | Objectifs qualité                                             |
-| 6.2.2                 | Planification des actions pour atteindre les objectifs        |
-| 6.3                   | Planification des modifications                               |
+| 6.1                   | Actions to address risks and opportunities                   |
+| 6.1.1                 | Consideration of issues and requirements                      |
+| 6.1.2                 | Planning of actions                                           |
+| 6.2                   | Quality objectives and planning of actions                    |
+| 6.2.1                 | Quality objectives                                            |
+| 6.2.2                 | Planning of actions to achieve objectives                     |
+| 6.3                   | Planning of changes                                           |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

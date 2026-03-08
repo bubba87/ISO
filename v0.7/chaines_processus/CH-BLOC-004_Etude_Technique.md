@@ -1,105 +1,105 @@
-# Fiche Détail Bloc - CH-BLOC-004 : Étude Technique avec les Fournisseurs
+# Block Detail Sheet - CH-BLOC-004: Technical Study with Suppliers
 
 | **Document**       | CH-BLOC-004_Etude_Technique                   |
 |--------------------|-----------------------------------------------|
 | **Version**        | v0.7                                          |
 | **Date**           | 2026-03-04                                    |
-| **Classification** | Interne                                       |
-| **Processus**      | Chaîne Processus - Réalisation                |
-| **Chaîne réf.**    | CHAIN-01 — Commande Produit Existant          |
-| **Rédaction**      | Rôle Qualité                                  |
-| **Approbation**    | Direction                                     |
+| **Classification** | Internal                                      |
+| **Process**        | Process Chain - Realization                   |
+| **Chain ref.**     | CHAIN-01 — Existing Product Order             |
+| **Drafted by**     | QUALITY                                       |
+| **Approved by**    | Management                                    |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Cette fiche décrit les actions détaillées du **BLOC 4 — Étude technique avec les fournisseurs** dans le cadre de la chaîne processus de commande produit existant.
+This sheet describes the detailed actions of **BLOCK 4 — Technical Study with Suppliers** within the existing product order process chain.
 
 ---
 
-## 2. Ligne processus
+## 2. Process Line
 
-| Code ligne | Ligne          | Rôle pilote   |
+| Line Code  | Line           | Lead Role     |
 |------------|----------------|---------------|
-| 02         | MANUFACTURE    | Rôle Achats   |
+| 02         | MANUFACTURE    | MANUFACTURE   |
 
 ---
 
-## 3. Entrées du bloc
+## 3. Block Inputs
 
-| Élément                            | Provenance                     |
+| Element                            | Source                         |
 |------------------------------------|--------------------------------|
-| Fiche de commande complète         | BLOC 2 — Fiche de commande    |
-| Spécifications produit             | Bibliothèque produits          |
-| Informations fournisseurs qualifiés| Panel fournisseurs             |
+| Completed order sheet              | BLOCK 2 — Order Sheet          |
+| Product specifications             | Product library                |
+| Qualified supplier information     | Supplier panel                 |
 
 ---
 
-## 4. Actions détaillées
+## 4. Detailed Actions
 
-| N° | Action                                                                  | Responsable   | Outil / Support                  |
+| No.| Action                                                                  | Owner         | Tool / Support                   |
 |----|-------------------------------------------------------------------------|---------------|----------------------------------|
-| 1  | Définir le statut de la commande (liste déroulante)                     | Rôle Achats   | Système de gestion des commandes |
-| 2  | Envoi des informations aux fournisseurs requis                          | Rôle Achats   | E-mail / messagerie              |
-| 3  | Validation des délais de production par les fournisseurs                | Rôle Achats   | E-mail / messagerie              |
+| 1  | Define the order status (dropdown list)                                 | MANUFACTURE   | Order management system          |
+| 2  | Send information to the required suppliers                              | MANUFACTURE   | Email / messaging                |
+| 3  | Validation of production lead times by the suppliers                    | MANUFACTURE   | Email / messaging                |
 
 ---
 
-## 5. Statuts de commande
+## 5. Order Statuses
 
-| Statut                  | Description                                                  |
+| Status                  | Description                                                  |
 |-------------------------|--------------------------------------------------------------|
-| En attente              | Commande reçue, en attente de traitement fournisseur          |
-| En cours                | Informations envoyées au fournisseur, en attente de retour    |
-| Délais validés          | Fournisseur a confirmé les délais de production               |
-| En production           | Production lancée chez le fournisseur                         |
+| Pending                 | Order received, awaiting supplier processing                  |
+| In progress             | Information sent to supplier, awaiting response               |
+| Deadlines validated     | Supplier has confirmed production lead times                  |
+| In production           | Production launched at the supplier                           |
 
 ---
 
-## 6. Sorties du bloc
+## 6. Block Outputs
 
-| Élément                              | Destination                      |
+| Element                              | Destination                      |
 |--------------------------------------|----------------------------------|
-| Statut de commande mis à jour        | BLOC 5 — Validation commande    |
-| Délais de production validés         | BLOC 5 — Validation commande    |
-| Confirmation fournisseur             | BLOC 6 — Production et qualité  |
+| Updated order status                 | BLOCK 5 — Order Validation       |
+| Validated production lead times      | BLOCK 5 — Order Validation       |
+| Supplier confirmation                | BLOCK 6 — Production and Quality |
 
 ---
 
-## 7. Points de contrôle
+## 7. Control Points
 
-| Contrôle                                     | Critère d'acceptation                              | Responsable   |
+| Control                                      | Acceptance Criterion                               | Owner         |
 |----------------------------------------------|-----------------------------------------------------|---------------|
-| Statut de commande correctement défini       | Statut cohérent avec l'avancement réel               | Rôle Achats   |
-| Informations envoyées aux bons fournisseurs  | Fournisseurs correspondant au produit commandé       | Rôle Achats   |
-| Délais de production confirmés               | Délais compatibles avec l'échéance client            | Rôle Achats   |
+| Order status correctly defined               | Status consistent with actual progress               | MANUFACTURE   |
+| Information sent to the correct suppliers    | Suppliers matching the ordered product               | MANUFACTURE   |
+| Production lead times confirmed              | Lead times compatible with the customer deadline     | MANUFACTURE   |
 
 ---
 
-## 8. Documents associés
+## 8. Associated Documents
 
-| Référence   | Document                                      |
+| Reference   | Document                                      |
 |-------------|-----------------------------------------------|
-| CHAIN-01    | Chaîne Processus — Commande Produit Existant  |
-| CH-BLOC-002 | Fiche détail — Fiche de commande             |
-| CH-BLOC-005 | Fiche détail — Validation commande           |
-| CH-BLOC-006 | Fiche détail — Production et qualité         |
-| PR-P02-ACH  | Processus Achats et Sous-traitance           |
-| FM-P02-AQF  | Accord Qualité Fournisseur                   |
-| FM-P02-EVAL | Évaluation Fournisseur                       |
+| CHAIN-01    | Process Chain — Existing Product Order         |
+| CH-BLOC-002 | Detail Sheet — Order Sheet                    |
+| CH-BLOC-005 | Detail Sheet — Order Validation               |
+| CH-BLOC-006 | Detail Sheet — Production and Quality         |
+| PR-P02-ACH  | Purchasing and Subcontracting Process         |
+| FM-P02-AQF  | Supplier Quality Agreement                    |
+| FM-P02-EVAL | Supplier Evaluation                           |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                              |
-|-----------------------|-------------------------------------------------------|
-| 8.4                   | Maîtrise des processus, produits et services externalisés |
-| 8.4.3                 | Informations à l'attention des prestataires externes   |
-| 8.1                   | Planification et maîtrise opérationnelles              |
+| ISO 9001:2015 Clause | Requirement                                               |
+|-----------------------|-----------------------------------------------------------|
+| 8.4                   | Control of externally provided processes, products and services |
+| 8.4.3                 | Information for external providers                         |
+| 8.1                   | Operational planning and control                           |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

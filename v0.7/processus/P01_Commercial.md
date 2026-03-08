@@ -1,204 +1,204 @@
-# P01 - Processus Commercial
+# P01 - Commercial Process
 
-| **Processus**       | P01 - Commercial                                      |
+| **Process**         | P01 - Commercial                                      |
 |----------------------|------------------------------------------------------|
-| **Type**            | Réalisation                                           |
-| **Pilote**          | Rôle Commercial                                       |
+| **Type**            | Core                                                  |
+| **Owner**           | Commercial Role                                       |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Référence**       | PR-P01-COM                                            |
-| **Norme ISO 9001**  | Chapitres 8.2, 8.5, 9.1.2                            |
+| **Reference**       | PR-P01-COM                                            |
+| **ISO 9001 Standard** | Clauses 8.2, 8.5, 9.1.2                            |
 
 ---
 
-## 1. Objet et domaine d'application
+## 1. Purpose and Scope
 
-Ce processus décrit les activités commerciales de **Plus Sàrl** depuis la réception d'une demande client jusqu'à la mesure de la satisfaction. Il couvre l'ensemble du cycle commercial pour les activités de monitoring industriel et de sourcing à l'échelle mondiale.
-
----
-
-## 2. Références normatives
-
-- ISO 9001:2015, Chapitres 8.2 (Exigences relatives aux produits et services), 8.5 (Production et prestation de service), 9.1.2 (Satisfaction du client)
-- Manuel Qualité Plus Sàrl (MQ-001)
+This process describes the commercial activities of **Plus Sàrl** from the receipt of a customer request to the measurement of satisfaction. It covers the entire commercial cycle for industrial follow-up and sourcing activities on a global scale.
 
 ---
 
-## 3. Rôles et responsabilités
+## 2. Normative References
 
-| Rôle                        | Responsabilités principales                                          |
+- ISO 9001:2015, Clauses 8.2 (Requirements for Products and Services), 8.5 (Production and Service Provision), 9.1.2 (Customer Satisfaction)
+- Plus Sàrl Quality Manual (MQ-001)
+
+---
+
+## 3. Roles and Responsibilities
+
+| Role                        | Key Responsibilities                                                 |
 |-----------------------------|----------------------------------------------------------------------|
-| **Commercial**              | Gestion des demandes, offres, contrats, suivi client                 |
-| **Direction**               | Validation des offres stratégiques, approbation des contrats majeurs |
-| **Qualité**                 | Support pour les exigences qualité, traitement des réclamations      |
-| **Client**                  | Expression du besoin, validation des offres, retour de satisfaction  |
+| **Commercial**              | Management of inquiries, proposals, contracts, customer follow-up    |
+| **Executive Management**    | Validation of strategic proposals, approval of major contracts       |
+| **Quality**                 | Support for quality requirements, complaint handling                  |
+| **Customer**                | Expression of needs, proposal validation, satisfaction feedback      |
 
 ---
 
-## 4. Données d'entrée et de sortie
+## 4. Input and Output Data
 
-### Données d'entrée
-- Demande client (cahier des charges, spécifications, RFQ)
-- Exigences réglementaires et normatives applicables
-- Historique client et conditions commerciales
-- Catalogue de services Plus Sàrl
+### Input Data
+- Customer request (specifications, requirements, RFQ)
+- Applicable regulatory and normative requirements
+- Customer history and commercial terms
+- Plus Sàrl service catalogue
 
-### Données de sortie
-- Offre commerciale validée
-- Contrat / bon de commande signé
-- Ordre interne de réalisation
-- Rapport de satisfaction client
-- Indicateurs de performance commerciale
-
----
-
-## 5. Description des activités
-
-### A1 - Réception et enregistrement de la demande client
-
-Le Rôle Commercial réceptionne la demande client (e-mail, téléphone, plateforme en ligne), l'enregistre dans le système de suivi et attribue un numéro de référence unique.
-
-### A2 - Analyse et revue des exigences client
-
-Le Rôle Commercial analyse la demande pour vérifier la faisabilité technique, logistique et commerciale. Les exigences sont revues avec les processus P02 (Achats), P03 (Logistique) et P04 (Contrôle Qualité) si nécessaire.
-
-### A3 - Élaboration de l'offre commerciale
-
-Le Rôle Commercial prépare l'offre incluant : description des services, conditions tarifaires, délais, conditions de livraison (Incoterms), conditions de paiement et exigences qualité.
-
-### A4 - Validation et envoi de l'offre
-
-L'offre est validée selon les seuils d'approbation définis (Direction pour les offres stratégiques) puis transmise au client.
-
-### A5 - Négociation et ajustement
-
-Le Rôle Commercial conduit les négociations avec le client, ajuste l'offre si nécessaire et documente les modifications apportées.
-
-### A6 - Contractualisation
-
-Après accord, le Rôle Commercial formalise le contrat ou le bon de commande, s'assure de la signature des deux parties et déclenche l'ordre interne de réalisation.
-
-### A7 - Transmission aux processus opérationnels
-
-Le Rôle Commercial transmet les informations nécessaires aux processus P02 (Achats/Sourcing), P03 (Logistique) et P04 (Contrôle Qualité) pour exécution de la commande.
-
-### A8 - Suivi de la réalisation et communication client
-
-Le Rôle Commercial assure le suivi de l'avancement auprès des processus opérationnels et communique régulièrement avec le client sur l'état de sa commande.
-
-### A9 - Mesure de la satisfaction client
-
-Le Rôle Commercial pilote la mesure de la satisfaction client via des enquêtes (FM-P01-SAT), l'analyse des retours et le traitement des réclamations.
+### Output Data
+- Approved commercial proposal
+- Signed contract / purchase order
+- Internal execution order
+- Customer satisfaction report
+- Commercial performance indicators
 
 ---
 
-## 6. Diagramme swimlane
+## 5. Activity Description
+
+### A1 - Receipt and Registration of Customer Request
+
+The Commercial Role receives the customer request (email, telephone, online platform), registers it in the tracking system, and assigns a unique reference number.
+
+### A2 - Analysis and Review of Customer Requirements
+
+The Commercial Role analyzes the request to verify technical, logistical, and commercial feasibility. Requirements are reviewed with processes P02 (Purchasing), P03 (Logistics), and P04 (Quality Control) as necessary.
+
+### A3 - Preparation of the Commercial Proposal
+
+The Commercial Role prepares the proposal including: service description, pricing conditions, lead times, delivery conditions (Incoterms), payment terms, and quality requirements.
+
+### A4 - Validation and Submission of the Proposal
+
+The proposal is validated according to defined approval thresholds (Executive Management for strategic proposals) and then transmitted to the customer.
+
+### A5 - Negotiation and Adjustment
+
+The Commercial Role conducts negotiations with the customer, adjusts the proposal as necessary, and documents the modifications made.
+
+### A6 - Contract Finalization
+
+Upon agreement, the Commercial Role formalizes the contract or purchase order, ensures signature by both parties, and triggers the internal execution order.
+
+### A7 - Handover to Operational Processes
+
+The Commercial Role transmits the necessary information to processes P02 (Purchasing/Sourcing), P03 (Logistics), and P04 (Quality Control) for order execution.
+
+### A8 - Execution Monitoring and Customer Communication
+
+The Commercial Role monitors progress with the operational processes and regularly communicates with the customer on the status of their order.
+
+### A9 - Customer Satisfaction Measurement
+
+The Commercial Role manages the measurement of customer satisfaction through surveys (FM-P01-SAT), analysis of feedback, and complaint handling.
+
+---
+
+## 6. Swimlane Diagram
 
 ```
- PROCESSUS P01 - COMMERCIAL
+ PROCESS P01 - COMMERCIAL
  ============================================================================
 
- Rôle                 | Flux des activités
+ Role                 | Activity Flow
  ============================================================================
                       |
- CLIENT               |  Exprimer le     Valider       Négocier /     Confirmer
-                      |  besoin    ----> l'offre  ---> ajuster  ----> la commande
-                      |  (RFQ, CdC)      reçue        conditions     (signature)
+ CUSTOMER             |  Express the     Validate      Negotiate /    Confirm
+                      |  need      ----> the proposal  adjust   ----> the order
+                      |  (RFQ, specs)    received      conditions     (signature)
                       |      |               ^             ^               |
                       |      v               |             |               v
  ============================================================================
                       |
- COMMERCIAL           |  [A1 Réceptionner]  [A3 Élaborer]  [A5 Négocier]
-                      |  et enregistrer      l'offre         et ajuster
-                      |  la demande          commerciale     l'offre
+ COMMERCIAL           |  [A1 Receive]       [A3 Prepare]   [A5 Negotiate]
+                      |  and register        the commercial  and adjust
+                      |  the request         proposal        the proposal
                       |      |                   ^               |
                       |      v                   |               v
-                      |  [A2 Analyser]      [A4 Valider]   [A6 Contractua-
-                      |  les exigences       et envoyer     liser]
-                      |  client              l'offre        (contrat/BC)
+                      |  [A2 Analyze]       [A4 Validate]   [A6 Finalize
+                      |  customer            and submit      contract]
+                      |  requirements        the proposal    (contract/PO)
                       |      |                                   |
                       |      |    +------------------------------+
                       |      |    |
                       |      v    v
-                      |  [A7 Transmettre aux processus opérationnels]
+                      |  [A7 Hand over to operational processes]
                       |      |
                       |      v
-                      |  [A8 Suivre la réalisation]
-                      |  Communication client régulière
+                      |  [A8 Monitor execution]
+                      |  Regular customer communication
                       |      |
                       |      v
-                      |  [A9 Mesurer la satisfaction client]
+                      |  [A9 Measure customer satisfaction]
                       |  (FM-P01-SAT)
                       |
  ============================================================================
                       |
- DIRECTION            |  Valider les offres stratégiques
-                      |  Approuver les contrats majeurs
+ EXECUTIVE            |  Validate strategic proposals
+ MANAGEMENT           |  Approve major contracts
                       |
  ============================================================================
                       |
- QUALITÉ              |  Support exigences qualité
-                      |  Traitement des réclamations
+ QUALITY              |  Quality requirements support
+                      |  Complaint handling
                       |
  ============================================================================
                       |
- P02 ACHATS           |  <--- Réception ordre d'achat / sourcing
- P03 LOGISTIQUE       |  <--- Réception instructions logistiques
- P04 CONTRÔLE         |  <--- Réception exigences qualité / inspections
+ P02 PURCHASING       |  <--- Receipt of purchasing / sourcing order
+ P03 LOGISTICS        |  <--- Receipt of logistics instructions
+ P04 QUALITY CONTROL  |  <--- Receipt of quality / inspection requirements
                       |
  ============================================================================
 ```
 
 ---
 
-## 7. Interactions avec les autres processus
+## 7. Interactions with Other Processes
 
-| Processus              | Nature de l'interaction                                |
+| Process                | Nature of Interaction                                  |
 |------------------------|--------------------------------------------------------|
-| PM01 - Leadership        | Reporting commercial, validation stratégique           |
-| P02 - Achats           | Transmission des besoins de sourcing, retour faisabilité |
-| P04 - Logistique       | Coordination des livraisons, suivi expéditions         |
-| P03 - Contrôle Qualité | Définition des inspections requises, retour qualité    |
-| PS01 - Gestion Documentaire | Archivage des offres, contrats, enregistrements     |
+| PM01 - Leadership      | Commercial reporting, strategic validation             |
+| P02 - Purchasing       | Transmission of sourcing needs, feasibility feedback   |
+| P04 - Logistics        | Delivery coordination, shipment tracking               |
+| P03 - Quality Control  | Definition of required inspections, quality feedback   |
+| PS01 - Document Management | Archiving of proposals, contracts, records           |
 
 ---
 
-## 8. Indicateurs de performance (KPI)
+## 8. Key Performance Indicators (KPI)
 
-| Indicateur                                | Formule / Méthode                              | Objectif       | Fréquence    |
-|-------------------------------------------|------------------------------------------------|----------------|--------------|
-| Taux de conversion des offres             | Offres acceptées / Offres émises x 100         | >= 30 %        | Mensuelle    |
-| Délai moyen de réponse aux demandes       | Somme des délais / Nombre de demandes          | < 48 heures    | Mensuelle    |
-| Taux de satisfaction client               | Score moyen enquête FM-P01-SAT                 | >= 4/5         | Trimestrielle |
-| Nombre de réclamations clients            | Comptage des réclamations reçues               | Tendance baisse | Mensuelle   |
-| Chiffre d'affaires par période            | Total des commandes facturées                  | Selon budget   | Mensuelle    |
-| Taux de fidélisation client               | Clients récurrents / Clients totaux x 100      | >= 60 %        | Annuelle     |
-| Délai moyen de contractualisation         | Date contrat - Date demande initiale           | < 15 jours     | Mensuelle    |
+| Indicator                                 | Formula / Method                                   | Target         | Frequency    |
+|-------------------------------------------|---------------------------------------------------|----------------|--------------|
+| Proposal conversion rate                  | Proposals accepted / Proposals issued x 100        | >= 30%         | Monthly      |
+| Average response time to inquiries        | Sum of response times / Number of inquiries        | < 48 hours     | Monthly      |
+| Customer satisfaction rate                | Average score from FM-P01-SAT survey               | >= 4/5         | Quarterly    |
+| Number of customer complaints             | Count of complaints received                       | Downward trend | Monthly      |
+| Revenue per period                        | Total invoiced orders                              | Per budget     | Monthly      |
+| Customer retention rate                   | Recurring customers / Total customers x 100        | >= 60%         | Annual       |
+| Average contract finalization time        | Contract date - Initial request date               | < 15 days      | Monthly      |
 
 ---
 
-## 9. Documents et enregistrements associés
+## 9. Associated Documents and Records
 
-| Code         | Intitulé                          | Type          |
+| Code         | Title                             | Type          |
 |--------------|-----------------------------------|---------------|
-| PR-P01-COM   | Procédure Commerciale             | Procédure     |
-| FM-P01-SAT   | Enquête Satisfaction Client       | Formulaire    |
-| FM-P01-OFF   | Modèle d'offre commerciale       | Formulaire    |
-| FM-P01-BC    | Bon de commande                   | Formulaire    |
-| EN-P01-REC   | Registre des réclamations         | Enregistrement|
+| PR-P01-COM   | Commercial Procedure              | Procedure     |
+| FM-P01-SAT   | Customer Satisfaction Survey      | Form          |
+| FM-P01-OFF   | Commercial Proposal Template      | Form          |
+| FM-P01-BC    | Purchase Order                    | Form          |
+| EN-P01-REC   | Complaint Register                | Record        |
 
 ---
 
-## 10. Amélioration continue
+## 10. Continual Improvement
 
-L'amélioration du processus commercial s'appuie sur :
-- L'analyse des enquêtes de satisfaction client
-- Le suivi des taux de conversion et des délais
-- L'analyse des réclamations et de leurs causes racines
-- Les retours d'expérience des équipes opérationnelles
-- Le benchmarking des pratiques commerciales du secteur
+Improvement of the commercial process is based on:
+- Analysis of customer satisfaction surveys
+- Monitoring of conversion rates and lead times
+- Analysis of complaints and their root causes
+- Feedback from operational teams
+- Benchmarking of industry commercial practices
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

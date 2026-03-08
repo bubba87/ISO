@@ -1,124 +1,124 @@
-# P03 - Processus Contrôle Qualité
+# P03 - Quality Control Process
 
-| **Processus**       | P03 - Contrôle Qualité                               |
+| **Process**         | P03 - Quality Control                                |
 |----------------------|------------------------------------------------------|
-| **Type**            | Réalisation                                           |
-| **Pilote**          | Rôle Qualité                                          |
+| **Type**            | Core                                                  |
+| **Owner**           | Quality Role                                          |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Référence**       | PR-P03-CQ                                             |
-| **Norme ISO 9001**  | Chapitres 8.6, 9.1, 10.2                             |
+| **Reference**       | PR-P03-CQ                                             |
+| **ISO 9001 Standard** | Clauses 8.6, 9.1, 10.2                             |
 
 ---
 
-## 1. Objet et domaine d'application
+## 1. Purpose and Scope
 
-Ce processus décrit les activités de contrôle qualité de **Plus Sàrl** pour ses opérations internationales de monitoring industriel et de sourcing. Il couvre les quatre types d'inspection (IPC, DUPRO, PSI, Loading Check), la gestion des non-conformités, les audits fournisseurs et l'analyse des données qualité.
-
----
-
-## 2. Références normatives
-
-- ISO 9001:2015, Chapitres 8.6 (Libération des produits et services), 9.1 (Surveillance, mesure, analyse et évaluation), 10.2 (Non-conformité et actions correctives)
-- Manuel Qualité Plus Sàrl (MQ-001)
-- Normes produits et réglementations applicables
+This process describes the quality control activities of **Plus Sàrl** for its international industrial follow-up and sourcing operations. It covers the four types of inspection (IPC, DUPRO, PSI, Loading Check), non-conformity management, supplier audits, and quality data analysis.
 
 ---
 
-## 3. Rôles et responsabilités
+## 2. Normative References
 
-| Rôle                        | Responsabilités principales                                          |
+- ISO 9001:2015, Clauses 8.6 (Release of Products and Services), 9.1 (Monitoring, Measurement, Analysis and Evaluation), 10.2 (Nonconformity and Corrective Action)
+- Plus Sàrl Quality Manual (MQ-001)
+- Applicable product standards and regulations
+
+---
+
+## 3. Roles and Responsibilities
+
+| Role                        | Key Responsibilities                                                 |
 |-----------------------------|----------------------------------------------------------------------|
-| **Qualité**                 | Planification inspections, exécution contrôles, gestion NC, reporting |
-| **Achats**                  | Communication des exigences fournisseur, suivi des actions correctives |
-| **Commercial**              | Transmission des exigences client, validation des critères           |
-| **Direction**               | Arbitrage sur les NC critiques, validation des actions majeures      |
-| **Fournisseur**             | Mise à disposition pour inspection, traitement des NC                |
+| **Quality**                 | Inspection planning, control execution, NC management, reporting     |
+| **Purchasing**              | Communication of supplier requirements, corrective action follow-up  |
+| **Commercial**              | Transmission of customer requirements, validation of criteria        |
+| **Executive Management**    | Arbitration on critical NCs, validation of major actions             |
+| **Supplier**                | Availability for inspection, NC resolution                           |
 
 ---
 
-## 4. Types d'inspection
+## 4. Inspection Types
 
-| Type            | Nom complet                          | Moment                           | Objectif                                    |
+| Type            | Full Name                            | Timing                           | Objective                                   |
 |-----------------|--------------------------------------|----------------------------------|---------------------------------------------|
-| **IPC**         | Initial Production Check             | Début de production              | Vérifier les matières premières, composants et paramètres de production |
-| **DUPRO**       | During Production Check              | En cours de production (30-50 %) | Contrôler la qualité en cours, détecter les dérives |
-| **PSI**         | Pre-Shipment Inspection              | Production terminée (100 %)      | Vérification finale avant expédition        |
-| **Loading Check** | Contrôle au chargement             | Au moment du chargement          | Vérifier l'emballage, l'étiquetage et le chargement |
+| **IPC**         | Initial Production Check             | Start of production              | Verify raw materials, components, and production parameters |
+| **DUPRO**       | During Production Check              | During production (30-50%)       | Monitor in-process quality, detect deviations |
+| **PSI**         | Pre-Shipment Inspection              | Production completed (100%)      | Final verification before shipment          |
+| **Loading Check** | Loading Check                      | At time of loading               | Verify packaging, labeling, and loading     |
 
 ---
 
-## 5. Données d'entrée et de sortie
+## 5. Input and Output Data
 
-### Données d'entrée
-- Cahier des charges et spécifications client (P01)
-- Bon de commande et exigences qualité (P02)
-- Planning de production fournisseur
-- Normes et réglementations applicables
-- Critères d'acceptation définis (AQL, tolérances)
+### Input Data
+- Customer specifications and requirements (P01)
+- Purchase order and quality requirements (P02)
+- Supplier production schedule
+- Applicable standards and regulations
+- Defined acceptance criteria (AQL, tolerances)
 
-### Données de sortie
-- Rapports d'inspection (IPC, DUPRO, PSI, Loading Check)
-- Fiches de non-conformité (FM-P03-NC)
-- Décision de libération / refus / tri
-- Rapports d'audit fournisseur (FM-P03-AUD)
-- Statistiques et tendances qualité
-
----
-
-## 6. Description des activités
-
-### A1 - Planification des inspections
-
-Le Rôle Qualité définit le plan d'inspection en fonction de la commande, du fournisseur (historique, classification) et des exigences client. Il détermine le type, le moment et les critères d'inspection.
-
-### A2 - Préparation des inspections
-
-Le Rôle Qualité prépare les documents d'inspection : checklist basée sur les spécifications, plan d'échantillonnage (AQL), outils de mesure nécessaires, critères d'acceptation/refus.
-
-### A3 - Exécution des inspections (IPC)
-
-Le Rôle Qualité réalise l'Initial Production Check en début de production pour vérifier les matières premières, les composants, les paramètres de production et la compréhension des spécifications par le fournisseur.
-
-### A4 - Exécution des inspections (DUPRO)
-
-Le Rôle Qualité réalise le During Production Check à 30-50 % d'avancement pour contrôler la qualité des produits en cours, détecter les dérives et prendre des mesures correctives précoces.
-
-### A5 - Exécution des inspections (PSI)
-
-Le Rôle Qualité réalise la Pre-Shipment Inspection à 100 % de la production terminée. Inspection finale selon le plan d'échantillonnage AQL. Décision de libération, refus ou tri.
-
-### A6 - Exécution des inspections (Loading Check)
-
-Le Rôle Qualité réalise le Loading Check au moment du chargement pour vérifier l'emballage, le marquage, l'étiquetage, la quantité et les conditions de chargement.
-
-### A7 - Gestion des non-conformités
-
-Le Rôle Qualité identifie, enregistre et classifie les non-conformités selon 4 niveaux (cf. FM-P03-NC). Il conduit l'analyse des causes racines, définit les actions correctives et en assure le suivi.
-
-### A8 - Audits fournisseurs
-
-Le Rôle Qualité planifie et réalise les audits fournisseurs (sur site ou à distance) selon le programme annuel. Les résultats alimentent l'évaluation fournisseur (FM-P02-EVAL).
-
-### A9 - Analyse des données et reporting qualité
-
-Le Rôle Qualité compile et analyse les données qualité (taux de conformité, tendances NC, performance fournisseurs), produit les tableaux de bord et présente les résultats en revue de direction.
+### Output Data
+- Inspection reports (IPC, DUPRO, PSI, Loading Check)
+- Non-conformity reports (FM-P03-NC)
+- Release / rejection / sorting decision
+- Supplier audit reports (FM-P03-AUD)
+- Quality statistics and trends
 
 ---
 
-## 7. Diagramme swimlane
+## 6. Activity Description
+
+### A1 - Inspection Planning
+
+The Quality Role defines the inspection plan based on the order, the supplier (history, classification), and customer requirements. It determines the type, timing, and inspection criteria.
+
+### A2 - Inspection Preparation
+
+The Quality Role prepares the inspection documents: checklist based on specifications, sampling plan (AQL), required measurement tools, acceptance/rejection criteria.
+
+### A3 - Inspection Execution (IPC)
+
+The Quality Role performs the Initial Production Check at the start of production to verify raw materials, components, production parameters, and the supplier's understanding of specifications.
+
+### A4 - Inspection Execution (DUPRO)
+
+The Quality Role performs the During Production Check at 30-50% completion to monitor the quality of products in progress, detect deviations, and take early corrective measures.
+
+### A5 - Inspection Execution (PSI)
+
+The Quality Role performs the Pre-Shipment Inspection at 100% production completion. Final inspection according to the AQL sampling plan. Release, rejection, or sorting decision.
+
+### A6 - Inspection Execution (Loading Check)
+
+The Quality Role performs the Loading Check at the time of loading to verify packaging, marking, labeling, quantity, and loading conditions.
+
+### A7 - Non-Conformity Management
+
+The Quality Role identifies, records, and classifies non-conformities according to 4 levels (ref. FM-P03-NC). It conducts root cause analysis, defines corrective actions, and ensures their follow-up.
+
+### A8 - Supplier Audits
+
+The Quality Role plans and conducts supplier audits (on-site or remote) according to the annual program. Results feed into the supplier evaluation (FM-P02-EVAL).
+
+### A9 - Data Analysis and Quality Reporting
+
+The Quality Role compiles and analyzes quality data (conformity rates, NC trends, supplier performance), produces dashboards, and presents results at the management review.
+
+---
+
+## 7. Swimlane Diagram
 
 ```
- PROCESSUS P03 - CONTRÔLE QUALITÉ
+ PROCESS P03 - QUALITY CONTROL
  ============================================================================
 
- Rôle                 | Flux des activités
+ Role                 | Activity Flow
  ============================================================================
                       |
- QUALITÉ              |  [A1 Planifier]    [A2 Préparer]
-                      |  les inspections -> documents et
-                      |  (type, moment,    checklists
-                      |   critères)             |
+ QUALITY              |  [A1 Plan]         [A2 Prepare]
+                      |  inspections   --> documents and
+                      |  (type, timing,    checklists
+                      |   criteria)             |
                       |                         v
                       |      +------------------+------------------+
                       |      |                  |                  |
@@ -129,150 +129,150 @@ Le Rôle Qualité compile et analyse les données qualité (taux de conformité,
                       |  Check             Check              (AQL)
                       |      |                  |                  |
                       |      v                  v                  v
-                      |  Rapport IPC       Rapport DUPRO     Rapport PSI
+                      |  IPC Report        DUPRO Report     PSI Report
                       |  OK / NC           OK / NC           PASS/FAIL/PENDING
                       |      |                  |                  |
                       |      +------------------+------------------+
                       |                         |
                       |                         v
                       |                    [A6 Loading Check]
-                      |                    Emballage, marquage,
-                      |                    chargement
+                      |                    Packaging, marking,
+                      |                    loading
                       |                         |
                       |          +--------------+---------------+
                       |          |              |               |
                       |          v              v               v
-                      |     CONFORME      NON-CONFORME    [A8 Audits]
-                      |     Libération    [A7 Gestion NC]  fournisseurs
+                      |     COMPLIANT     NON-COMPLIANT    [A8 Audits]
+                      |     Release       [A7 NC Mgmt]     Supplier
                       |     (P03)         (FM-P03-NC)      (FM-P03-AUD)
                       |                        |               |
                       |                        v               v
-                      |                   Analyse cause   Résultats -->
-                      |                   racine -->      FM-P02-EVAL
-                      |                   Action corrective
+                      |                   Root cause        Results -->
+                      |                   analysis -->      FM-P02-EVAL
+                      |                   Corrective action
                       |                        |
                       |                        v
-                      |              [A9 Analyser et reporter]
-                      |              Tableaux de bord qualité
-                      |              Revue de direction (PM01)
+                      |              [A9 Analyze and report]
+                      |              Quality dashboards
+                      |              Management review (PM01)
                       |
  ============================================================================
                       |
- ACHATS               |  Transmettre    ---> Suivre les  ---> Mettre à jour
-                      |  les exigences       actions          le panel
-                      |  fournisseur         correctives      fournisseurs
-                      |                      fournisseurs
+ PURCHASING           |  Transmit       ---> Monitor       ---> Update
+                      |  supplier            supplier            supplier
+                      |  requirements        corrective          panel
+                      |                      actions
                       |
  ============================================================================
                       |
- COMMERCIAL           |  Transmettre les exigences client
-                      |  Valider les critères d'acceptation
-                      |  Communiquer les résultats au client
+ COMMERCIAL           |  Transmit customer requirements
+                      |  Validate acceptance criteria
+                      |  Communicate results to customer
                       |
  ============================================================================
                       |
- DIRECTION            |  Arbitrer les NC critiques (Niveau 4)
-                      |  Valider les actions majeures
+ EXECUTIVE            |  Arbitrate critical NCs (Level 4)
+ MANAGEMENT           |  Validate major actions
                       |
  ============================================================================
                       |
- FOURNISSEUR          |  Mettre à       ---> Traiter    ---> Prouver
-                      |  disposition         les NC          l'efficacité
-                      |  pour inspection                     des corrections
+ SUPPLIER             |  Make available  ---> Resolve    ---> Demonstrate
+                      |  for inspection       NCs             correction
+                      |                                       effectiveness
                       |
  ============================================================================
 ```
 
 ---
 
-## 8. Flux de gestion des non-conformités
+## 8. Non-Conformity Management Flow
 
 ```
-  Détection NC
+  NC Detection
        |
        v
-  Enregistrement (FM-P03-NC)
+  Registration (FM-P03-NC)
        |
        v
-  Classification (4 niveaux)
+  Classification (4 levels)
   +--------------------------------------------------+
-  | Niveau 1 : Mineure       - Défaut esthétique mineur  |
-  | Niveau 2 : Significative - Non-respect spécification |
-  | Niveau 3 : Majeure       - Impact conformité/SMQ     |
-  | Niveau 4 : Critique      - Arrêt livraison immédiat  |
+  | Level 1: Minor          - Minor aesthetic defect      |
+  | Level 2: Significant    - Specification non-compliance |
+  | Level 3: Major          - Impact on conformity/QMS     |
+  | Level 4: Critical       - Immediate shipment stop      |
   +--------------------------------------------------+
        |
        v
-  Décision immédiate
-  (Accepter / Trier / Refuser / Arrêt immédiat)
+  Immediate Decision
+  (Accept / Sort / Reject / Immediate Stop)
        |
        v
-  Analyse cause racine
-  (5 Pourquoi, Ishikawa)
+  Root Cause Analysis
+  (5 Whys, Ishikawa)
        |
        v
-  Action corrective
+  Corrective Action
        |
        v
-  Vérification d'efficacité
+  Effectiveness Verification
        |
        v
-  Clôture NC
+  NC Closure
 ```
 
 ---
 
-## 9. Interactions avec les autres processus
+## 9. Interactions with Other Processes
 
-| Processus              | Nature de l'interaction                                |
+| Process                | Nature of Interaction                                  |
 |------------------------|--------------------------------------------------------|
-| PM01 - Leadership        | Reporting qualité, revue de direction, arbitrage NC    |
-| P01 - Commercial       | Exigences client, critères d'acceptation, retour qualité |
-| P02 - Achats           | Exigences fournisseur, évaluation, actions correctives |
-| P04 - Logistique       | Loading Check, libération pour expédition              |
-| PS01 - Gestion Documentaire | Archivage rapports, NC, audits                       |
+| PM01 - Leadership      | Quality reporting, management review, NC arbitration   |
+| P01 - Commercial       | Customer requirements, acceptance criteria, quality feedback |
+| P02 - Purchasing       | Supplier requirements, evaluation, corrective actions  |
+| P04 - Logistics        | Loading Check, release for shipment                    |
+| PS01 - Document Management | Archiving of reports, NCs, audits                   |
 
 ---
 
-## 10. Indicateurs de performance (KPI)
+## 10. Key Performance Indicators (KPI)
 
-| Indicateur                                | Formule / Méthode                              | Objectif       | Fréquence    |
-|-------------------------------------------|------------------------------------------------|----------------|--------------|
-| Taux de conformité PSI (PASS)             | PSI PASS / Total PSI x 100                    | >= 90 %        | Mensuelle    |
-| Taux de non-conformités détectées         | NC détectées / Total inspections x 100         | Tendance baisse | Mensuelle   |
-| Délai moyen de clôture des NC             | Somme des délais clôture NC / Nombre NC        | < 15 jours     | Mensuelle    |
-| Taux d'efficacité des actions correctives | AC efficaces / AC vérifiées x 100             | >= 85 %        | Trimestrielle |
-| Taux de réalisation du plan d'inspection  | Inspections réalisées / Inspections planifiées | >= 95 %        | Mensuelle    |
-| Taux de réalisation des audits fournisseurs | Audits réalisés / Audits planifiés x 100     | 100 %          | Annuelle     |
-| Coût de non-qualité                       | Total coûts NC / Chiffre d'affaires x 100     | < 2 %          | Trimestrielle |
+| Indicator                                 | Formula / Method                                   | Target         | Frequency    |
+|-------------------------------------------|---------------------------------------------------|----------------|--------------|
+| PSI conformity rate (PASS)                | PSI PASS / Total PSI x 100                        | >= 90%         | Monthly      |
+| Non-conformity detection rate             | NCs detected / Total inspections x 100             | Downward trend | Monthly      |
+| Average NC closure time                   | Sum of NC closure times / Number of NCs            | < 15 days      | Monthly      |
+| Corrective action effectiveness rate      | Effective CAs / Verified CAs x 100                | >= 85%         | Quarterly    |
+| Inspection plan completion rate           | Inspections performed / Inspections planned        | >= 95%         | Monthly      |
+| Supplier audit completion rate            | Audits performed / Audits planned x 100            | 100%           | Annual       |
+| Cost of non-quality                       | Total NC costs / Revenue x 100                     | < 2%           | Quarterly    |
 
 ---
 
-## 11. Documents et enregistrements associés
+## 11. Associated Documents and Records
 
-| Code         | Intitulé                              | Type          |
+| Code         | Title                                 | Type          |
 |--------------|---------------------------------------|---------------|
-| PR-P03-CQ    | Procédure Contrôle Qualité           | Procédure     |
-| FM-P03-NC    | Fiche de Non-Conformité              | Formulaire    |
-| FM-P03-AUD   | Rapport d'Audit Interne             | Formulaire    |
-| FM-P03-IPC   | Rapport IPC                           | Formulaire    |
-| FM-P03-DUPRO | Rapport DUPRO                        | Formulaire    |
-| FM-P03-PSI   | Rapport PSI                           | Formulaire    |
-| FM-P03-LC    | Rapport Loading Check                 | Formulaire    |
-| IT-P03-ECH   | Instruction échantillonnage AQL      | Instruction   |
+| PR-P03-CQ    | Quality Control Procedure             | Procedure     |
+| FM-P03-NC    | Non-Conformity Report                 | Form          |
+| FM-P03-AUD   | Internal Audit Report                 | Form          |
+| FM-P03-IPC   | IPC Report                            | Form          |
+| FM-P03-DUPRO | DUPRO Report                          | Form          |
+| FM-P03-PSI   | PSI Report                            | Form          |
+| FM-P03-LC    | Loading Check Report                  | Form          |
+| IT-P03-ECH   | AQL Sampling Instruction              | Instruction   |
 
 ---
 
-## 12. Amélioration continue
+## 12. Continual Improvement
 
-L'amélioration du processus contrôle qualité s'appuie sur :
-- L'analyse statistique des non-conformités et des tendances
-- L'évaluation de l'efficacité des actions correctives
-- L'optimisation des plans d'inspection selon la performance fournisseur
-- La formation continue des inspecteurs
-- Le benchmarking des meilleures pratiques du secteur
+Improvement of the quality control process is based on:
+- Statistical analysis of non-conformities and trends
+- Evaluation of corrective action effectiveness
+- Optimization of inspection plans based on supplier performance
+- Ongoing training of inspectors
+- Benchmarking of industry best practices
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

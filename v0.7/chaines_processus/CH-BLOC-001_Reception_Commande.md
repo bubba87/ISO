@@ -1,98 +1,98 @@
-# Fiche Détail Bloc - CH-BLOC-001 : Réception d'une Commande Client
+# Block Detail Sheet - CH-BLOC-001: Customer Order Reception
 
 | **Document**       | CH-BLOC-001_Reception_Commande                |
 |--------------------|-----------------------------------------------|
 | **Version**        | v0.7                                          |
 | **Date**           | 2026-03-04                                    |
-| **Classification** | Interne                                       |
-| **Processus**      | Chaîne Processus - Réalisation                |
-| **Chaîne réf.**    | CHAIN-01 — Commande Produit Existant          |
-| **Rédaction**      | Rôle Qualité                                  |
-| **Approbation**    | Direction                                     |
+| **Classification** | Internal                                      |
+| **Process**        | Process Chain - Realization                   |
+| **Chain ref.**     | CHAIN-01 — Existing Product Order             |
+| **Drafted by**     | QUALITY                                       |
+| **Approved by**    | Management                                    |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Cette fiche décrit les actions détaillées du **BLOC 1 — Réception d'une commande client** dans le cadre de la chaîne processus de commande produit existant.
+This sheet describes the detailed actions of **BLOCK 1 — Customer Order Reception** within the existing product order process chain.
 
 ---
 
-## 2. Ligne processus
+## 2. Process Line
 
-| Code ligne | Ligne     | Rôle pilote     |
+| Line Code  | Line      | Lead Role       |
 |------------|-----------|-----------------|
-| 01         | SALES     | Rôle Commercial |
+| 01         | SALES     | SALES           |
 
 ---
 
-## 3. Entrées du bloc
+## 3. Block Inputs
 
-| Élément                        | Provenance                |
-|--------------------------------|---------------------------|
-| Commande client (e-mail, EDI, courrier) | Client                |
-| Bon de commande ou demande formelle     | Client                |
+| Element                                | Source                    |
+|----------------------------------------|---------------------------|
+| Customer order (email, EDI, mail)      | Customer                  |
+| Purchase order or formal request       | Customer                  |
 
 ---
 
-## 4. Actions détaillées
+## 4. Detailed Actions
 
-| N° | Action                                                                                                       | Responsable     | Outil / Support                  |
+| No.| Action                                                                                                       | Owner           | Tool / Support                   |
 |----|--------------------------------------------------------------------------------------------------------------|-----------------|----------------------------------|
-| 1  | Télécharger et enregistrer la commande sur le bureau et dans le dossier ORDER_20XX sous la même nomenclature que le client | Rôle Commercial | Système de fichiers / ORDER_20XX |
+| 1  | Download and save the order on the desktop and in the ORDER_20XX folder using the same naming convention as the customer | SALES           | File system / ORDER_20XX         |
 
 ---
 
-## 5. Règles de nomenclature
+## 5. Naming Convention Rules
 
-| Élément               | Règle                                                              |
+| Element               | Rule                                                               |
 |-----------------------|--------------------------------------------------------------------|
-| Dossier de rangement  | ORDER_20XX (XX = année en cours)                                   |
-| Nom du fichier        | Identique à la nomenclature utilisée par le client                 |
-| Sauvegarde locale     | Copie sur le bureau pour traitement immédiat                       |
+| Storage folder        | ORDER_20XX (XX = current year)                                     |
+| File name             | Identical to the naming convention used by the customer            |
+| Local backup          | Copy on the desktop for immediate processing                       |
 
 ---
 
-## 6. Sorties du bloc
+## 6. Block Outputs
 
-| Élément                          | Destination          |
-|----------------------------------|----------------------|
-| Commande enregistrée et classée  | BLOC 2 — Fiche de commande |
-| Fichier sauvegardé dans ORDER_20XX | Archivage           |
+| Element                          | Destination            |
+|----------------------------------|------------------------|
+| Order recorded and filed         | BLOCK 2 — Order Sheet  |
+| File saved in ORDER_20XX         | Archiving              |
 
 ---
 
-## 7. Points de contrôle
+## 7. Control Points
 
-| Contrôle                                   | Critère d'acceptation                         | Responsable     |
+| Control                                    | Acceptance Criterion                          | Owner           |
 |--------------------------------------------|-----------------------------------------------|-----------------|
-| Commande complète et lisible               | Toutes les informations requises sont présentes| Rôle Commercial |
-| Nomenclature du fichier conforme           | Identique à celle du client                    | Rôle Commercial |
-| Enregistrement dans le bon dossier         | Présence dans ORDER_20XX                       | Rôle Commercial |
+| Order complete and legible                 | All required information is present            | SALES           |
+| File naming convention compliant           | Identical to the customer's convention         | SALES           |
+| Saved in the correct folder               | Present in ORDER_20XX                          | SALES           |
 
 ---
 
-## 8. Documents associés
+## 8. Associated Documents
 
-| Référence | Document                                      |
-|-----------|-----------------------------------------------|
-| CHAIN-01  | Chaîne Processus — Commande Produit Existant  |
-| CH-BLOC-002 | Fiche détail — Fiche de commande            |
-| PR-P01-COM  | Processus Commercial                        |
-| FM-P01-OFF  | Modèle d'offre commerciale                  |
-| FM-P01-BC   | Bon de commande                             |
+| Reference   | Document                                      |
+|-------------|-----------------------------------------------|
+| CHAIN-01    | Process Chain — Existing Product Order         |
+| CH-BLOC-002 | Detail Sheet — Order Sheet                    |
+| PR-P01-COM  | Commercial Process                            |
+| FM-P01-OFF  | Commercial Offer Template                     |
+| FM-P01-BC   | Purchase Order                                |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                              |
+| ISO 9001:2015 Clause | Requirement                                           |
 |-----------------------|-------------------------------------------------------|
-| 8.2.1                 | Communication avec les clients                         |
-| 8.2.2                 | Détermination des exigences relatives aux produits     |
-| 7.5                   | Informations documentées                               |
+| 8.2.1                 | Customer communication                                 |
+| 8.2.2                 | Determination of requirements for products             |
+| 7.5                   | Documented information                                 |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

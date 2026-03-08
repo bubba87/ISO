@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
 """
-Génère le dossier numérique HTML standalone et le document consolidé SQS
-pour le SMQ ISO 9001:2015 de Plus Sàrl — v0.7
+Generates the standalone HTML digital dossier and the consolidated SQS document
+for the QMS ISO 9001:2015 of Plus Sàrl — v0.7
 
-Dépendances : pip install markdown weasyprint fpdf2
+Dependencies: pip install markdown weasyprint fpdf2
 """
 
 import base64
@@ -16,62 +16,62 @@ BASE = Path(__file__).parent
 OUT = BASE / "export"
 OUT.mkdir(exist_ok=True)
 
-# ── Structure ordonnée des documents ──────────────────────────────────────────
+# ── Ordered document structure ──────────────────────────────────────────
 
 SECTIONS = [
-    ("Manuel Qualité", [
+    ("Quality Manual", [
         ("MQ_01 — Introduction", "manuel_qualite/MQ_01_Introduction.md"),
-        ("MQ_02 — Activités et Organisation", "manuel_qualite/MQ_02_Activites.md"),
-        ("MQ_03 — Support du SMQ", "manuel_qualite/MQ_03_Support_SMQ.md"),
-        ("MQ_04 — Contexte de l'organisme", "manuel_qualite/MQ_04_Contexte.md"),
+        ("MQ_02 — Activities and Organization", "manuel_qualite/MQ_02_Activites.md"),
+        ("MQ_03 — QMS Support", "manuel_qualite/MQ_03_Support_SMQ.md"),
+        ("MQ_04 — Context of the Organization", "manuel_qualite/MQ_04_Contexte.md"),
         ("MQ_05 — Leadership", "manuel_qualite/MQ_05_Leadership.md"),
-        ("MQ_06 — Planification", "manuel_qualite/MQ_06_Planification.md"),
+        ("MQ_06 — Planning", "manuel_qualite/MQ_06_Planification.md"),
         ("MQ_07 — Support", "manuel_qualite/MQ_07_Support.md"),
-        ("MQ_08 — Réalisation", "manuel_qualite/MQ_08_Realisation.md"),
-        ("MQ_09 — Évaluation des performances", "manuel_qualite/MQ_09_Evaluation.md"),
-        ("MQ_10 — Amélioration", "manuel_qualite/MQ_10_Amelioration.md"),
+        ("MQ_08 — Operational Activities", "manuel_qualite/MQ_08_Realisation.md"),
+        ("MQ_09 — Performance Evaluation", "manuel_qualite/MQ_09_Evaluation.md"),
+        ("MQ_10 — Improvement", "manuel_qualite/MQ_10_Amelioration.md"),
     ]),
-    ("Fiches Processus", [
-        ("PM01 — Pilotage stratégique", "processus/PM01_Leadership.md"),
-        ("P01 — Gestion commerciale", "processus/P01_Commercial.md"),
-        ("P02 — Achats et sourcing", "processus/P02_Achats_Sous_traitance.md"),
-        ("P03 — Contrôle qualité", "processus/P03_Controle_Qualite.md"),
-        ("P04 — Logistique et livraison", "processus/P04_Logistique_Livraison.md"),
-        ("PS01 — Gestion documentaire", "processus/PS01_Gestion_Documentaire.md"),
-        ("PS02 — Gestion des compétences", "processus/PS02_Gestion_Competences.md"),
-        ("PS03 — Amélioration continue", "processus/PS03_Amelioration_Continue.md"),
+    ("Process Sheets", [
+        ("PM01 — Strategic Management", "processus/PM01_Leadership.md"),
+        ("P01 — Commercial Management", "processus/P01_Commercial.md"),
+        ("P02 — Procurement and Sourcing", "processus/P02_Achats_Sous_traitance.md"),
+        ("P03 — Quality Control", "processus/P03_Controle_Qualite.md"),
+        ("P04 — Logistics and Delivery", "processus/P04_Logistique_Livraison.md"),
+        ("PS01 — Document Management", "processus/PS01_Gestion_Documentaire.md"),
+        ("PS02 — Competence Management", "processus/PS02_Gestion_Competences.md"),
+        ("PS03 — Continuous Improvement", "processus/PS03_Amelioration_Continue.md"),
     ]),
-    ("Documents Support", [
-        ("Accord Qualité Fournisseur", "documents/DOC_Accord_Qualite_Fournisseur.md"),
-        ("Audit Interne", "documents/DOC_Audit_Interne.md"),
-        ("Évaluation Fournisseur", "documents/DOC_Evaluation_Fournisseur.md"),
-        ("Gestion Documentaire", "documents/DOC_Gestion_Documentaire.md"),
-        ("Non-Conformité", "documents/DOC_Non_Conformite.md"),
-        ("Objectifs Qualité", "documents/DOC_Objectifs_Qualite.md"),
-        ("Revue de Direction", "documents/DOC_Revue_Direction.md"),
-        ("Satisfaction Client", "documents/DOC_Satisfaction_Client.md"),
+    ("Support Documents", [
+        ("Supplier Quality Agreement", "documents/DOC_Accord_Qualite_Fournisseur.md"),
+        ("Internal Audit", "documents/DOC_Audit_Interne.md"),
+        ("Supplier Evaluation", "documents/DOC_Evaluation_Fournisseur.md"),
+        ("Document Management", "documents/DOC_Gestion_Documentaire.md"),
+        ("Non-Conformity", "documents/DOC_Non_Conformite.md"),
+        ("Quality Objectives", "documents/DOC_Objectifs_Qualite.md"),
+        ("Management Review", "documents/DOC_Revue_Direction.md"),
+        ("Customer Satisfaction", "documents/DOC_Satisfaction_Client.md"),
     ]),
-    ("Chaînes de Processus", [
-        ("CHAIN-01 — Commande Produit Existant", "chaines_processus/CHAIN-01_Commande_Produit_Existant.md"),
-        ("CHAIN-02 — Modification Outillage", "chaines_processus/CHAIN-02_Commande_Modification_Outillage.md"),
-        ("CHAIN-03 — Nouvel Outillage", "chaines_processus/CHAIN-03_Commande_Nouvel_Outillage.md"),
+    ("Process Chains", [
+        ("CHAIN-01 — Existing Product Order", "chaines_processus/CHAIN-01_Commande_Produit_Existant.md"),
+        ("CHAIN-02 — Tooling Modification", "chaines_processus/CHAIN-02_Commande_Modification_Outillage.md"),
+        ("CHAIN-03 — New Tooling", "chaines_processus/CHAIN-03_Commande_Nouvel_Outillage.md"),
         ("CHAIN-04 — Sourcing", "chaines_processus/CHAIN-04_Commande_Sourcing.md"),
     ]),
-    ("Fiches BLOC", [
-        ("BLOC 001 — Réception Commande", "chaines_processus/CH-BLOC-001_Reception_Commande.md"),
-        ("BLOC 002 — Fiche Commande", "chaines_processus/CH-BLOC-002_Fiche_Commande.md"),
-        ("BLOC 003 — Fiche Transport", "chaines_processus/CH-BLOC-003_Fiche_Transport.md"),
-        ("BLOC 004 — Étude Technique", "chaines_processus/CH-BLOC-004_Etude_Technique.md"),
-        ("BLOC 005 — Validation Commande", "chaines_processus/CH-BLOC-005_Validation_Commande.md"),
-        ("BLOC 006 — Production & Qualité", "chaines_processus/CH-BLOC-006_Production_Qualite.md"),
-        ("BLOC 007 — Livraison & Douane", "chaines_processus/CH-BLOC-007_Livraison_Douane.md"),
-        ("BLOC 008 — Acceptation Marchandise", "chaines_processus/CH-BLOC-008_Acceptation_Marchandise.md"),
+    ("BLOC Sheets", [
+        ("BLOC 001 — Order Reception", "chaines_processus/CH-BLOC-001_Reception_Commande.md"),
+        ("BLOC 002 — Order Sheet", "chaines_processus/CH-BLOC-002_Fiche_Commande.md"),
+        ("BLOC 003 — Transport Sheet", "chaines_processus/CH-BLOC-003_Fiche_Transport.md"),
+        ("BLOC 004 — Technical Study", "chaines_processus/CH-BLOC-004_Etude_Technique.md"),
+        ("BLOC 005 — Order Validation", "chaines_processus/CH-BLOC-005_Validation_Commande.md"),
+        ("BLOC 006 — Production & Quality", "chaines_processus/CH-BLOC-006_Production_Qualite.md"),
+        ("BLOC 007 — Delivery & Customs", "chaines_processus/CH-BLOC-007_Livraison_Douane.md"),
+        ("BLOC 008 — Goods Acceptance", "chaines_processus/CH-BLOC-008_Acceptation_Marchandise.md"),
     ]),
 ]
 
 DIAGRAMS = [
-    ("Cartographie des Processus ISO 9001", "diagrammes/processus_iso9001.drawio"),
-    ("Chaîne de Processus Générale", "diagrammes/chaine_processus_general.drawio"),
+    ("ISO 9001 Process Map", "diagrammes/processus_iso9001.drawio"),
+    ("General Process Chain", "diagrammes/chaine_processus_general.drawio"),
 ]
 
 
@@ -83,7 +83,7 @@ def read_md(path):
     full = BASE / path
     if full.exists():
         return full.read_text(encoding='utf-8')
-    return f"*Fichier non trouvé : {path}*"
+    return f"*File not found: {path}*"
 
 
 def read_file(path):
@@ -101,7 +101,7 @@ def md_to_html(md_text):
     )
 
 
-# ── 1. Génération HTML standalone avec diagrammes drawio ─────────────────────
+# ── 1. Standalone HTML generation with drawio diagrams ─────────────────────
 
 def build_html():
     nav_items = []
@@ -124,7 +124,7 @@ def build_html():
             )
 
     # -- Diagram sections --
-    nav_items.append('<div class="nav-group">Diagrammes</div>')
+    nav_items.append('<div class="nav-group">Diagrams</div>')
     diagram_data = []
     for diag_title, diag_path in DIAGRAMS:
         diag_id = slugify(diag_title)
@@ -142,7 +142,7 @@ def build_html():
             f'<button onclick="diagramZoom(\'{diag_id}\', 1.2)">Zoom +</button>'
             f'<button onclick="diagramZoom(\'{diag_id}\', 0.8)">Zoom -</button>'
             f'<button onclick="diagramReset(\'{diag_id}\')">Reset</button>'
-            f'<button onclick="diagramFit(\'{diag_id}\')">Ajuster</button>'
+            f'<button onclick="diagramFit(\'{diag_id}\')">Fit</button>'
             f'</div>'
             f'<div class="diagram-container" id="container-{diag_id}">'
             f'<div class="diagram-inner" id="inner-{diag_id}" '
@@ -155,11 +155,11 @@ def build_html():
     content_html = '\n'.join(content_sections)
 
     html = f'''<!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>SMQ ISO 9001:2015 — Plus Sàrl — v0.7</title>
+<title>QMS ISO 9001:2015 — Plus Sàrl — v0.7</title>
 <style>
 :root {{
   --sidebar-w: 320px;
@@ -240,7 +240,7 @@ body {{ font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: va
 .doc-section hr {{ border: none; border-top: 1px solid var(--border); margin: 24px 0; }}
 .doc-section strong {{ color: #111827; }}
 
-/* Cartouche metadata */
+/* Metadata header */
 .doc-section > table:first-child {{ max-width: 500px; background: #f9fafb; border-radius: 8px; overflow: hidden; }}
 .doc-section > table:first-child th {{ background: var(--accent); color: #fff; }}
 
@@ -289,14 +289,14 @@ body {{ font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; color: va
 
 <header class="header">
   <button class="menu-btn" onclick="document.querySelector('.sidebar').classList.toggle('open')">&#9776;</button>
-  <h1>SMQ ISO 9001:2015</h1>
+  <h1>QMS ISO 9001:2015</h1>
   <span class="version">v0.7</span>
-  <span class="company">Plus S&agrave;rl &mdash; Monitoring industriel &amp; Sourcing mondial</span>
+  <span class="company">Plus S&agrave;rl &mdash; Industrial Follow-up &amp; Worldwide Sourcing</span>
 </header>
 
 <nav class="sidebar">
   <div class="search-box">
-    <input type="text" id="search" placeholder="Rechercher un document..." autocomplete="off">
+    <input type="text" id="search" placeholder="Search a document..." autocomplete="off">
   </div>
   {nav_html}
 </nav>
@@ -643,14 +643,14 @@ function diagramFit(diagId) {{
 
     out_file = OUT / "SMQ_Plus_Sarl_v0.7.html"
     out_file.write_text(html, encoding='utf-8')
-    print(f"[OK] Dossier HTML standalone : {out_file}")
+    print(f"[OK] Standalone HTML dossier: {out_file}")
     return out_file
 
 
-# ── 2. Génération PDF professionnel via weasyprint ───────────────────────────
+# ── 2. Professional PDF generation via weasyprint ───────────────────────────
 
 def build_pdf():
-    """Génère un PDF professionnel via HTML + CSS + weasyprint."""
+    """Generates a professional PDF via HTML + CSS + weasyprint."""
     from weasyprint import HTML
 
     # Build all sections as HTML
@@ -662,22 +662,22 @@ def build_pdf():
       <div class="cover-top-bar"></div>
       <div class="cover-content">
         <div class="cover-badge">ISO 9001:2015</div>
-        <h1 class="cover-title">Système de Management<br>de la Qualité</h1>
+        <h1 class="cover-title">Quality Management<br>System</h1>
         <div class="cover-separator"></div>
-        <h2 class="cover-subtitle">Dossier de certification</h2>
+        <h2 class="cover-subtitle">Certification Dossier</h2>
         <div class="cover-company">Plus Sàrl</div>
-        <div class="cover-activity">Monitoring industriel &amp; Sourcing mondial</div>
+        <div class="cover-activity">Industrial Follow-up &amp; Worldwide Sourcing</div>
         <div class="cover-meta">
           <table>
             <tr><td class="label">Version</td><td>0.7</td></tr>
-            <tr><td class="label">Date</td><td>Mars 2026</td></tr>
-            <tr><td class="label">Classification</td><td>Confidentiel</td></tr>
-            <tr><td class="label">Destinataire</td><td>SQS — Organisme de certification</td></tr>
+            <tr><td class="label">Date</td><td>March 2026</td></tr>
+            <tr><td class="label">Classification</td><td>Confidential</td></tr>
+            <tr><td class="label">Recipient</td><td>SQS — Certification Body</td></tr>
           </table>
         </div>
       </div>
       <div class="cover-footer">
-        <p>Ce document est la propriété de Plus Sàrl. Toute reproduction ou diffusion non autorisée est interdite.</p>
+        <p>This document is the property of Plus Sàrl. Any unauthorized reproduction or distribution is prohibited.</p>
       </div>
     </div>
     ''')
@@ -693,7 +693,7 @@ def build_pdf():
 
     body_parts.append(f'''
     <div class="toc-page">
-      <h1 class="toc-title">Table des matières</h1>
+      <h1 class="toc-title">Table of Contents</h1>
       <div class="toc-list">
         {''.join(toc_items)}
       </div>
@@ -724,7 +724,7 @@ def build_pdf():
     content = '\n'.join(body_parts)
 
     pdf_html = f'''<!DOCTYPE html>
-<html lang="fr">
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <style>
@@ -732,13 +732,13 @@ def build_pdf():
   size: A4;
   margin: 25mm 20mm 30mm 20mm;
   @top-left {{
-    content: "SMQ ISO 9001:2015 — Plus Sàrl";
+    content: "QMS ISO 9001:2015 — Plus Sàrl";
     font-size: 8pt;
     color: #6b7280;
     font-family: 'Segoe UI', system-ui, sans-serif;
   }}
   @top-right {{
-    content: "v0.7 — Mars 2026";
+    content: "v0.7 — March 2026";
     font-size: 8pt;
     color: #6b7280;
     font-family: 'Segoe UI', system-ui, sans-serif;
@@ -750,7 +750,7 @@ def build_pdf():
     font-family: 'Segoe UI', system-ui, sans-serif;
   }}
   @bottom-right {{
-    content: "Confidentiel";
+    content: "Confidential";
     font-size: 7pt;
     color: #9ca3af;
     font-family: 'Segoe UI', system-ui, sans-serif;
@@ -1038,7 +1038,7 @@ body {{
   color: #111827;
 }}
 
-/* First table in section = metadata cartouche */
+/* First table in section = metadata header */
 .document-section > table:first-child {{
   max-width: 300px;
   margin-bottom: 16px;
@@ -1054,36 +1054,36 @@ body {{
 
     pdf_file = OUT / "SMQ_Plus_Sarl_v0.7_SQS.pdf"
     HTML(string=pdf_html).write_pdf(str(pdf_file))
-    print(f"[OK] PDF professionnel : {pdf_file}")
+    print(f"[OK] Professional PDF: {pdf_file}")
     return pdf_file
 
 
-# ── 3. Génération DOCX amélioré ──────────────────────────────────────────────
+# ── 3. Enhanced DOCX generation ──────────────────────────────────────────────
 
 def build_docx():
-    """Génère un DOCX consolidé via pandoc avec styles améliorés."""
+    """Generates a consolidated DOCX via pandoc with enhanced styles."""
     parts = []
 
     # Title page content
     parts.append("""---
-title: "Système de Management de la Qualité ISO 9001:2015"
-subtitle: "Dossier de certification — Plus Sàrl"
-author: "Plus Sàrl — Monitoring industriel & Sourcing mondial"
-date: "Mars 2026 — Version 0.7"
+title: "Quality Management System ISO 9001:2015"
+subtitle: "Certification Dossier — Plus Sàrl"
+author: "Plus Sàrl — Industrial Follow-up & Worldwide Sourcing"
+date: "March 2026 — Version 0.7"
 ---
 
 \\newpage
 
-# Dossier SMQ — Plus Sàrl
+# QMS Dossier — Plus Sàrl
 
 | | |
 |---|---|
-| **Objet** | Présentation du SMQ en vue de la certification ISO 9001:2015 |
-| **Organisme** | Plus Sàrl |
-| **Activité** | Monitoring industriel et sourcing à l'échelle mondiale |
+| **Purpose** | Presentation of the QMS for ISO 9001:2015 certification |
+| **Organization** | Plus Sàrl |
+| **Activity** | Industrial monitoring and worldwide sourcing |
 | **Version** | v0.7 |
-| **Date** | Mars 2026 |
-| **Classification** | Confidentiel — À l'attention de l'organisme de certification SQS |
+| **Date** | March 2026 |
+| **Classification** | Confidential — For the attention of the SQS certification body |
 
 \\newpage
 
@@ -1092,7 +1092,7 @@ date: "Mars 2026 — Version 0.7"
     part_num = 0
     for group_name, docs in SECTIONS:
         part_num += 1
-        parts.append(f"\n\n\\newpage\n\n# Partie {part_num} — {group_name}\n\n---\n\n")
+        parts.append(f"\n\n\\newpage\n\n# Part {part_num} — {group_name}\n\n---\n\n")
         for doc_title, doc_path in docs:
             md = read_md(doc_path)
             parts.append(f"\n\n\\newpage\n\n{md}\n\n")
@@ -1100,7 +1100,7 @@ date: "Mars 2026 — Version 0.7"
     consolidated = '\n'.join(parts)
     md_file = OUT / "SMQ_Plus_Sarl_v0.7_SQS.md"
     md_file.write_text(consolidated, encoding='utf-8')
-    print(f"[OK] Document consolidé MD : {md_file}")
+    print(f"[OK] Consolidated MD document: {md_file}")
 
     # DOCX via pandoc
     docx_file = OUT / "SMQ_Plus_Sarl_v0.7_SQS.docx"
@@ -1110,11 +1110,11 @@ date: "Mars 2026 — Version 0.7"
             '-o', str(docx_file),
             '--toc', '--toc-depth=3',
             '--highlight-style=tango',
-            '-V', 'toc-title=Table des matières',
+            '-V', 'toc-title=Table of Contents',
         ], check=True, capture_output=True, text=True)
-        print(f"[OK] DOCX : {docx_file}")
+        print(f"[OK] DOCX: {docx_file}")
     except subprocess.CalledProcessError as e:
-        print(f"[!!] DOCX échoué : {e.stderr}")
+        print(f"[!!] DOCX failed: {e.stderr}")
 
     return md_file, docx_file
 
@@ -1123,7 +1123,7 @@ date: "Mars 2026 — Version 0.7"
 
 if __name__ == '__main__':
     print("=" * 60)
-    print("  Génération du dossier SMQ Plus Sàrl v0.7")
+    print("  QMS Dossier Generation — Plus Sàrl v0.7")
     print("=" * 60)
     print()
     build_html()
@@ -1133,5 +1133,5 @@ if __name__ == '__main__':
     build_docx()
     print()
     print("=" * 60)
-    print(f"  Fichiers générés dans : {OUT}")
+    print(f"  Files generated in: {OUT}")
     print("=" * 60)

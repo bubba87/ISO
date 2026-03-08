@@ -1,222 +1,222 @@
-# Accord Qualité Fournisseur (AQF)
+# Supplier Quality Agreement (SQA)
 
-| **Document**         | Accord Qualité Fournisseur                           |
+| **Document**         | Supplier Quality Agreement                           |
 |----------------------|------------------------------------------------------|
 | **Code**            | FM-P02-AQF                                            |
-| **Processus**       | P02 - Achats et Sous-traitance                        |
+| **Process**         | P02 - Purchasing and Subcontracting                   |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Norme ISO 9001**  | Chapitre 8.4                                          |
+| **ISO 9001 Standard** | Clause 8.4                                          |
 
 ---
 
-## Préambule
+## Preamble
 
-Le présent Accord Qualité Fournisseur (AQF) établit les exigences qualité que **Plus Sàrl** impose à ses fournisseurs dans le cadre de ses activités internationales de monitoring industriel et de sourcing. Il constitue un engagement mutuel entre Plus Sàrl et le fournisseur pour garantir la conformité des produits et services fournis.
+This Supplier Quality Agreement (SQA) establishes the quality requirements that **Plus Sàrl** imposes on its suppliers within the scope of its international industrial follow-up and sourcing activities. It constitutes a mutual commitment between Plus Sàrl and the supplier to ensure the conformity of products and services delivered.
 
 ---
 
-## 1. Identification des parties
+## 1. Identification of Parties
 
-### Donneur d'ordre
+### Ordering Party
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Société**               | Plus Sàrl                                        |
-| **Adresse**               | ________________________________________         |
-| **Représentant**          | ________________________________________ (Rôle : Direction / Achats) |
-| **Téléphone**             | ________________________________________         |
-| **E-mail**                | ________________________________________         |
+| **Company**               | Plus Sàrl                                        |
+| **Address**               | ________________________________________         |
+| **Representative**        | ________________________________________ (Role: Management / Purchasing) |
+| **Phone**                 | ________________________________________         |
+| **Email**                 | ________________________________________         |
 
-### Fournisseur
+### Supplier
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Société**               | ________________________________________         |
-| **Adresse**               | ________________________________________         |
-| **Pays**                  | ________________________________________         |
-| **Représentant**          | ________________________________________         |
-| **Fonction**              | ________________________________________         |
-| **Téléphone**             | ________________________________________         |
-| **E-mail**                | ________________________________________         |
+| **Company**               | ________________________________________         |
+| **Address**               | ________________________________________         |
+| **Country**               | ________________________________________         |
+| **Representative**        | ________________________________________         |
+| **Position**              | ________________________________________         |
+| **Phone**                 | ________________________________________         |
+| **Email**                 | ________________________________________         |
 | **Certifications**        | ________________________________________         |
 
 ---
 
-## 2. Objet de l'accord
+## 2. Purpose of the Agreement
 
-Le présent AQF définit les exigences qualité applicables aux produits et services fournis par le Fournisseur à Plus Sàrl. Il s'applique à l'ensemble des commandes passées par Plus Sàrl au Fournisseur.
+This SQA defines the quality requirements applicable to the products and services supplied by the Supplier to Plus Sàrl. It applies to all orders placed by Plus Sàrl with the Supplier.
 
-### Catégories de produits/services concernés :
+### Product/Service Categories Covered:
 
-| N° | Catégorie de produit/service          | Référence                |
-|----|---------------------------------------|--------------------------|
-| 1  | ________________________________________| ________________________|
-| 2  | ________________________________________| ________________________|
-| 3  | ________________________________________| ________________________|
-
----
-
-## 3. Exigences qualité
-
-### 3.1 Conformité aux spécifications
-
-Le Fournisseur s'engage à :
-- [ ] Livrer des produits conformes aux spécifications techniques transmises par Plus Sàrl
-- [ ] Respecter les normes et réglementations applicables au produit et au pays de destination
-- [ ] Fournir les certificats de conformité et rapports de test requis
-- [ ] Informer Plus Sàrl de tout changement de matière, processus ou sous-traitant
-
-### 3.2 Système de management de la qualité
-
-Le Fournisseur s'engage à :
-- [ ] Maintenir un système de contrôle qualité documenté
-- [ ] Autoriser les inspections de Plus Sàrl (IPC, DUPRO, PSI, Loading Check)
-- [ ] Mettre à disposition les locaux et la documentation pour les audits
-- [ ] Conserver les enregistrements qualité pendant une durée minimale de 3 ans
-
-### 3.3 Emballage et marquage
-
-Le Fournisseur s'engage à :
-- [ ] Emballer les produits conformément aux exigences spécifiées
-- [ ] Assurer un marquage conforme aux réglementations du pays de destination
-- [ ] Protéger les produits contre les dommages pendant le transport
-- [ ] Fournir les documents d'accompagnement requis (packing list, certificats)
-
-### 3.4 Traçabilité
-
-Le Fournisseur s'engage à :
-- [ ] Assurer la traçabilité des produits depuis les matières premières
-- [ ] Identifier chaque lot de production de manière unique
-- [ ] Conserver les enregistrements de traçabilité pendant 5 ans minimum
+| No. | Product/Service Category                 | Reference                |
+|-----|------------------------------------------|--------------------------|
+| 1   | ________________________________________| ________________________|
+| 2   | ________________________________________| ________________________|
+| 3   | ________________________________________| ________________________|
 
 ---
 
-## 4. Gestion des non-conformités
+## 3. Quality Requirements
 
-### 4.1 Détection et notification
+### 3.1 Compliance with Specifications
 
-- Le Fournisseur doit notifier Plus Sàrl de toute non-conformité détectée dans un délai de **24 heures**
-- Plus Sàrl notifiera le Fournisseur de toute non-conformité constatée lors des inspections
+The Supplier commits to:
+- [ ] Deliver products that comply with the technical specifications provided by Plus Sàrl
+- [ ] Comply with the standards and regulations applicable to the product and the destination country
+- [ ] Provide the required certificates of conformity and test reports
+- [ ] Inform Plus Sàrl of any change in materials, processes, or subcontractors
 
-### 4.2 Traitement des non-conformités
+### 3.2 Quality Management System
 
-| Action                              | Responsable    | Délai          |
+The Supplier commits to:
+- [ ] Maintain a documented quality control system
+- [ ] Authorize inspections by Plus Sàrl (IPC, DUPRO, PSI, Loading Check)
+- [ ] Make premises and documentation available for audits
+- [ ] Retain quality records for a minimum period of 3 years
+
+### 3.3 Packaging and Labeling
+
+The Supplier commits to:
+- [ ] Package products in accordance with specified requirements
+- [ ] Ensure labeling complies with the regulations of the destination country
+- [ ] Protect products against damage during transportation
+- [ ] Provide the required accompanying documents (packing list, certificates)
+
+### 3.4 Traceability
+
+The Supplier commits to:
+- [ ] Ensure product traceability from raw materials
+- [ ] Uniquely identify each production batch
+- [ ] Retain traceability records for a minimum of 5 years
+
+---
+
+## 4. Nonconformity Management
+
+### 4.1 Detection and Notification
+
+- The Supplier must notify Plus Sàrl of any detected nonconformity within **24 hours**
+- Plus Sàrl will notify the Supplier of any nonconformity identified during inspections
+
+### 4.2 Nonconformity Handling
+
+| Action                              | Responsible    | Deadline       |
 |-------------------------------------|----------------|----------------|
-| Accusé de réception de la NC        | Fournisseur    | 24 heures      |
-| Analyse cause racine (8D / 5 Pourquoi) | Fournisseur | 5 jours ouvrés |
-| Plan d'actions correctives          | Fournisseur    | 10 jours ouvrés |
-| Mise en oeuvre des corrections       | Fournisseur    | Selon plan     |
-| Vérification d'efficacité           | Plus Sàrl      | Inspection suivante |
+| Acknowledgment of the NC            | Supplier       | 24 hours       |
+| Root cause analysis (8D / 5 Whys)   | Supplier       | 5 business days |
+| Corrective action plan              | Supplier       | 10 business days |
+| Implementation of corrections       | Supplier       | Per plan       |
+| Effectiveness verification          | Plus Sàrl      | Next inspection |
 
-### 4.3 Conséquences des non-conformités répétées
+### 4.3 Consequences of Recurring Nonconformities
 
-En cas de non-conformités récurrentes, Plus Sàrl se réserve le droit de :
-- Renforcer le niveau d'inspection
-- Déclasser le fournisseur (classification A/B/C)
-- Suspendre ou résilier la relation commerciale
+In the event of recurring nonconformities, Plus Sàrl reserves the right to:
+- Increase the level of inspection
+- Downgrade the supplier (A/B/C classification)
+- Suspend or terminate the business relationship
 
 ---
 
-## 5. Inspections et audits
+## 5. Inspections and Audits
 
-### 5.1 Droit d'inspection
+### 5.1 Right of Inspection
 
-Plus Sàrl se réserve le droit de réaliser les inspections suivantes :
+Plus Sàrl reserves the right to conduct the following inspections:
 
-| Type d'inspection | Description                             | Préavis requis |
-|-------------------|-----------------------------------------|----------------|
-| IPC               | Initial Production Check                | 48 heures      |
-| DUPRO             | During Production Check                 | 48 heures      |
-| PSI               | Pre-Shipment Inspection                 | 48 heures      |
-| Loading Check     | Contrôle au chargement                  | 24 heures      |
-| Audit fournisseur | Audit du système qualité                | 15 jours       |
+| Inspection Type   | Description                             | Required Notice |
+|-------------------|-----------------------------------------|-----------------|
+| IPC               | Initial Production Check                | 48 hours        |
+| DUPRO             | During Production Check                 | 48 hours        |
+| PSI               | Pre-Shipment Inspection                 | 48 hours        |
+| Loading Check     | Loading inspection                      | 24 hours        |
+| Supplier Audit    | Quality system audit                    | 15 days         |
 
-### 5.2 Obligations du fournisseur lors des inspections
+### 5.2 Supplier Obligations During Inspections
 
-Le Fournisseur s'engage à :
-- Accorder l'accès aux locaux de production et de stockage
-- Mettre à disposition un interlocuteur qualifié
-- Fournir les documents et enregistrements demandés
-- Ne pas expédier les marchandises avant la libération par Plus Sàrl (si applicable)
+The Supplier commits to:
+- Grant access to production and storage facilities
+- Provide a qualified point of contact
+- Supply requested documents and records
+- Not ship goods before release by Plus Sàrl (if applicable)
 
 ---
 
 ## 6. Communication
 
-### 6.1 Canaux de communication
+### 6.1 Communication Channels
 
-| Objet                           | Canal préféré        | Délai de réponse |
-|---------------------------------|----------------------|------------------|
-| Commandes et modifications      | E-mail               | 24 heures        |
-| Non-conformités                 | E-mail + téléphone   | 24 heures        |
-| Questions techniques            | E-mail               | 48 heures        |
-| Urgences                        | Téléphone            | Immédiat         |
+| Subject                         | Preferred Channel | Response Time  |
+|---------------------------------|-------------------|----------------|
+| Orders and modifications        | Email             | 24 hours       |
+| Nonconformities                 | Email + Phone     | 24 hours       |
+| Technical questions             | Email             | 48 hours       |
+| Emergencies                     | Phone             | Immediate      |
 
-### 6.2 Langue de communication
+### 6.2 Communication Language
 
-La communication entre Plus Sàrl et le Fournisseur se fait en :
-- [ ] Français
-- [ ] Anglais
-- [ ] Autre : ________________________________________
+Communication between Plus Sàrl and the Supplier shall be conducted in:
+- [ ] French
+- [ ] English
+- [ ] Other: ________________________________________
 
-### 6.3 Contacts désignés
+### 6.3 Designated Contacts
 
-| Rôle                    | Plus Sàrl                          | Fournisseur                       |
+| Role                    | Plus Sàrl                          | Supplier                          |
 |-------------------------|------------------------------------|-----------------------------------|
-| Contact commercial      | __________________________________ | _________________________________ |
-| Contact qualité         | __________________________________ | _________________________________ |
-| Contact logistique      | __________________________________ | _________________________________ |
+| Commercial contact      | __________________________________ | _________________________________ |
+| Quality contact         | __________________________________ | _________________________________ |
+| Logistics contact       | __________________________________ | _________________________________ |
 
 ---
 
-## 7. Conditions générales
+## 7. General Conditions
 
-### 7.1 Durée de l'accord
+### 7.1 Duration of the Agreement
 
-Le présent AQF est conclu pour une durée de : [ ] 1 an [ ] 2 ans [ ] Indéterminée
+This SQA is concluded for a period of: [ ] 1 year [ ] 2 years [ ] Indefinite
 
-Il est révisé au minimum une fois par an ou à chaque changement significatif.
+It is reviewed at least once per year or upon any significant change.
 
-### 7.2 Confidentialité
+### 7.2 Confidentiality
 
-Le Fournisseur s'engage à respecter la confidentialité des informations techniques et commerciales communiquées par Plus Sàrl.
+The Supplier commits to respecting the confidentiality of technical and commercial information communicated by Plus Sàrl.
 
-### 7.3 Propriété intellectuelle
+### 7.3 Intellectual Property
 
-Les spécifications, dessins et documents techniques transmis par Plus Sàrl restent sa propriété exclusive et ne peuvent être utilisés pour des tiers sans autorisation écrite.
+Specifications, drawings, and technical documents provided by Plus Sàrl remain its exclusive property and may not be used for third parties without written authorization.
 
 ---
 
 ## 8. Signatures
 
-### Pour Plus Sàrl
+### For Plus Sàrl
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Rôle**                  | ________________________________________         |
+| **Role**                  | ________________________________________         |
 | **Date**                  | ________________________________________         |
 | **Signature**             | ________________________________________         |
 
-### Pour le Fournisseur
+### For the Supplier
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Nom et fonction**       | ________________________________________         |
+| **Name and position**     | ________________________________________         |
 | **Date**                  | ________________________________________         |
 | **Signature**             | ________________________________________         |
-| **Cachet de l'entreprise**| ________________________________________         |
+| **Company stamp**         | ________________________________________         |
 
 ---
 
-## Annexes
+## Appendices
 
-- Annexe 1 : Spécifications techniques applicables
-- Annexe 2 : Liste des normes et réglementations applicables
-- Annexe 3 : Plan d'inspection type
-- Annexe 4 : Modèle de rapport de non-conformité (FM-P04-NC)
+- Appendix 1: Applicable technical specifications
+- Appendix 2: List of applicable standards and regulations
+- Appendix 3: Standard inspection plan
+- Appendix 4: Nonconformity report template (FM-P04-NC)
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

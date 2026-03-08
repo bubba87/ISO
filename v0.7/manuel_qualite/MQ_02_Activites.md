@@ -1,188 +1,187 @@
-# Manuel Qualité - Chapitre 2 : Activités, Organisation et Relations Clients
+# Quality Manual - Chapter 2: Activities, Organization and Customer Relations
 
 | **Document**       | MQ_02_Activites                          |
 |--------------------|------------------------------------------|
 | **Version**        | v0.7                                     |
 | **Date**           | 2026-03-04                               |
-| **Classification** | Interne                                  |
-| **Processus**      | Tous processus                           |
-| **Rédaction**      | Rôle Qualité                             |
-| **Approbation**    | Direction                                |
+| **Classification** | Internal                                 |
+| **Process**        | All processes                            |
+| **Drafted by**     | Quality Role                             |
+| **Approved by**    | Management                               |
 
 ---
 
-## 2.1 Présentation de Plus Sàrl
+## 2.1 Overview of Plus Sàrl
 
-Plus Sàrl est une société de **monitoring industriel et de sourcing à l'échelle mondiale**. L'entreprise intervient en tant qu'intermédiaire qualifié entre ses clients et un réseau international de fournisseurs industriels, en assurant la conformité, la qualité et la traçabilité des produits sourcés.
+Plus Sàrl is a **global industrial follow-up and sourcing** company. The company acts as a qualified intermediary between its customers and an international network of industrial suppliers, ensuring the compliance, quality and traceability of sourced products.
 
-### Domaines d'activité
+### Business Areas
 
-| Domaine                        | Description                                                                 |
+| Area                           | Description                                                                 |
 |--------------------------------|-----------------------------------------------------------------------------|
-| Sourcing industriel mondial    | Identification et qualification de fournisseurs internationaux              |
-| Monitoring de production       | Suivi et contrôle qualité des productions externalisées                     |
-| Inspection et contrôle qualité | Réalisation d'inspections à différentes étapes de la production             |
-| Conseil et accompagnement      | Assistance technique et logistique pour les opérations d'approvisionnement  |
+| Global industrial sourcing     | Identification and qualification of international suppliers                 |
+| Production monitoring          | Tracking and quality control of outsourced production                       |
+| Inspection and quality control | Conducting inspections at various stages of production                      |
+| Advisory and support services  | Technical and logistics assistance for procurement operations               |
 
 ---
 
-## 2.2 Modèle de production externalisée
+## 2.2 Outsourced Production Model
 
-Plus Sàrl opère selon un **modèle de production entièrement externalisé**. L'entreprise ne possède pas d'unités de fabrication propres. Son rôle consiste à :
+Plus Sàrl operates under a **fully outsourced production model**. The company does not own manufacturing facilities. Its role consists of:
 
-1. **Sélectionner** les fournisseurs les plus adaptés aux exigences des clients
-2. **Qualifier** les capacités de production des partenaires industriels
-3. **Superviser** les étapes critiques de fabrication
-4. **Contrôler** la qualité des produits avant expédition
-5. **Coordonner** la logistique internationale
+1. **Selecting** the suppliers best suited to customer requirements
+2. **Qualifying** the production capabilities of industrial partners
+3. **Supervising** critical manufacturing stages
+4. **Controlling** product quality before shipment
+5. **Coordinating** international logistics
 
-Ce modèle implique une maîtrise rigoureuse des processus externalisés conformément aux exigences de la norme ISO 9001:2015, clause 8.4.
+This model requires rigorous control of outsourced processes in accordance with the requirements of ISO 9001:2015, clause 8.4.
 
 ---
 
-## 2.3 Cartographie des processus principaux
+## 2.3 Main Process Map
 
-### Processus de management
+### Management Processes
 
-| Code | Processus               | Pilote     | Objectif principal                              |
-|------|-------------------------|------------|-------------------------------------------------|
-| PM01 | Pilotage stratégique    | Direction  | Définir les orientations et assurer le pilotage |
+| Code | Process                 | Owner      | Primary Objective                                |
+|------|-------------------------|------------|--------------------------------------------------|
+| PM01 | Strategic management    | Management | Define strategic directions and ensure oversight |
 
-### Processus de réalisation
+### Operational Processes
 
-| Code | Processus                      | Pilote            | Objectif principal                                          |
+| Code | Process                        | Owner              | Primary Objective                                           |
 |------|--------------------------------|--------------------|-------------------------------------------------------------|
-| P01  | Gestion commerciale            | Rôle Commercial    | Gérer la relation client et analyser les demandes           |
-| P02  | Achats et sourcing             | Rôle Achats        | Sélectionner et qualifier les fournisseurs internationaux   |
-| P03  | Monitoring et contrôle qualité | Rôle Qualité       | Assurer la conformité des produits par des inspections       |
-| P04  | Logistique et expédition       | Rôle Logistique    | Coordonner le transport et la livraison internationale      |
+| P01  | Sales management               | Commercial Role    | Manage customer relations and analyze requests              |
+| P02  | Purchasing and sourcing        | Purchasing Role    | Select and qualify international suppliers                   |
+| P03  | Monitoring and quality control | Quality Role       | Ensure product compliance through inspections               |
+| P04  | Logistics and shipping         | Logistics Role     | Coordinate international transport and delivery             |
 
-### Processus de support
+### Support Processes
 
-| Code | Processus                | Pilote                      | Objectif principal                           |
+| Code | Process                  | Owner                       | Primary Objective                            |
 |------|--------------------------|-----------------------------|----------------------------------------------|
-| PS01 | Gestion documentaire     | Rôle Gestion Documentaire   | Maîtriser la documentation du SMQ            |
-| PS02 | Gestion des compétences  | Direction                    | Assurer l'adéquation des compétences         |
-| PS03 | Amélioration continue    | Rôle Qualité                 | Piloter l'amélioration continue du SMQ       |
+| PS01 | Document management      | Document Management Role    | Control QMS documentation                    |
+| PS02 | Competency management    | Management                  | Ensure adequacy of competencies              |
+| PS03 | Continuous improvement   | Quality Role                | Drive continuous improvement of the QMS      |
 
 ---
 
-## 2.4 Interactions entre processus
+## 2.4 Process Interactions
 
 ```
-┌─────────────────────────────────────────────────────────┐
-│                  PM01 - Pilotage stratégique             │
-│                       (Direction)                        │
-└──────────┬──────────────────────────────────┬────────────┘
-           │                                  │
-           ▼                                  ▼
-┌──────────────────┐    ┌──────────────────┐    ┌──────────────────┐
-│  P01 - Gestion   │───▶│  P02 - Achats &  │───▶│  P03 - Monitoring│
-│  commerciale     │    │  Sourcing        │    │  & Contrôle QC   │
-└──────────────────┘    └──────────────────┘    └────────┬─────────┘
-                                                         │
-                                                         ▼
-                                                ┌──────────────────┐
-                                                │  P04 - Logistique│
-                                                │  & Expédition    │
-                                                └──────────────────┘
-           ▲                                  ▲
-           │                                  │
-┌──────────┴──────────────────────────────────┴────────────┐
-│        PS01 / PS02 / PS03 - Processus de support           │
-└──────────────────────────────────────────────────────────┘
++---------------------------------------------------------+
+|                  PM01 - Strategic Management              |
+|                       (Management)                        |
++----------+----------------------------------+------------+
+           |                                  |
+           v                                  v
++------------------+    +------------------+    +------------------+
+|  P01 - Sales     |--->|  P02 - Purchasing|--->|  P03 - Monitoring|
+|  Management      |    |  & Sourcing      |    |  & QC Control    |
++------------------+    +------------------+    +--------+---------+
+                                                         |
+                                                         v
+                                                +------------------+
+                                                |  P04 - Logistics |
+                                                |  & Shipping      |
+                                                +------------------+
+           ^                                  ^
+           |                                  |
++----------+----------------------------------+------------+
+|        PS01 / PS02 / PS03 - Support Processes            |
++----------------------------------------------------------+
 ```
 
 ---
 
-## 2.5 Relations clients à l'international
+## 2.5 International Customer Relations
 
-### Typologie des clients
+### Customer Typology
 
-| Catégorie               | Description                                                    |
+| Category                | Description                                                    |
 |-------------------------|----------------------------------------------------------------|
-| Industriels             | Entreprises manufacturières nécessitant du sourcing de composants |
-| Distributeurs           | Sociétés de distribution recherchant des produits finis         |
-| Donneurs d'ordres       | Entreprises externalisant tout ou partie de leur production     |
-| Bureaux d'études        | Structures nécessitant un accompagnement technique au sourcing  |
+| Manufacturers           | Manufacturing companies requiring component sourcing            |
+| Distributors            | Distribution companies seeking finished products                |
+| Principal contractors   | Companies outsourcing all or part of their production           |
+| Engineering firms       | Organizations requiring technical support for sourcing          |
 
-### Couverture géographique
+### Geographic Coverage
 
-Plus Sàrl intervient à l'échelle mondiale, avec des clients et fournisseurs répartis sur tous les continents. L'entreprise assure ses services indépendamment de la localisation géographique des parties prenantes.
+Plus Sàrl operates on a global scale, with customers and suppliers spread across all continents. The company provides its services regardless of the geographic location of the stakeholders.
 
-### Canaux de communication client
+### Customer Communication Channels
 
-| Canal                | Utilisation                                      | Fréquence          |
+| Channel              | Usage                                            | Frequency           |
 |----------------------|--------------------------------------------------|---------------------|
-| E-mail professionnel | Communication courante, envoi de rapports        | Quotidienne         |
-| Visioconférence      | Réunions de projet, revues qualité               | Hebdomadaire        |
-| Plateforme en ligne  | Suivi des commandes, partage documentaire         | Continue            |
-| Visites sur site     | Audits, inspections, réunions stratégiques        | Selon besoin        |
+| Professional e-mail  | Day-to-day communication, report distribution    | Daily               |
+| Online platform      | Order tracking, document sharing                 | Continuous          |
+| On-site visits       | Audits, inspections, strategic meetings          | As needed           |
 
 ---
 
-## 2.6 Workflow d'analyse de la demande
+## 2.6 Request Analysis Workflow
 
-Le processus d'analyse de la demande client se déroule selon les étapes suivantes :
+The customer request analysis process follows these steps:
 
-### Étape 1 : Réception de la demande
-- Le **Rôle Commercial** réceptionne la demande du client
-- Enregistrement dans le système de gestion
-- Attribution d'un numéro de référence unique
+### Step 1: Request Reception
+- The **Commercial Role** receives the customer request
+- Registration in the management system
+- Assignment of a unique reference number
 
-### Étape 2 : Analyse de faisabilité
-- Évaluation des spécifications techniques
-- Vérification de la disponibilité des fournisseurs qualifiés
-- Analyse des contraintes logistiques et de délai
-- Consultation du **Rôle Achats** et du **Rôle Qualité** si nécessaire
+### Step 2: Feasibility Analysis
+- Evaluation of technical specifications
+- Verification of qualified supplier availability
+- Analysis of logistics and timeline constraints
+- Consultation with the **Purchasing Role** and the **Quality Role** as necessary
 
-### Étape 3 : Revue des exigences
+### Step 3: Requirements Review
 
-| Élément de revue               | Responsable        | Critère de validation                     |
+| Review Element                 | Responsible        | Validation Criterion                      |
 |--------------------------------|--------------------|-------------------------------------------|
-| Spécifications techniques      | Rôle Qualité       | Conformité aux normes applicables          |
-| Capacité fournisseur           | Rôle Achats        | Fournisseur qualifié disponible            |
-| Délais de réalisation          | Rôle Logistique    | Cohérence avec les attentes client         |
-| Conditions commerciales        | Rôle Commercial    | Rentabilité et conditions acceptables      |
-| Exigences réglementaires       | Rôle Qualité       | Conformité aux réglementations applicables |
+| Technical specifications       | Quality Role       | Compliance with applicable standards       |
+| Supplier capacity              | Purchasing Role    | Qualified supplier available               |
+| Delivery timelines             | Logistics Role     | Consistency with customer expectations     |
+| Commercial terms               | Commercial Role    | Profitability and acceptable conditions    |
+| Regulatory requirements        | Quality Role       | Compliance with applicable regulations     |
 
-### Étape 4 : Offre et validation
-- Émission de l'offre commerciale par le **Rôle Commercial**
-- Négociation éventuelle avec le client
-- Validation finale et acceptation de la commande
+### Step 4: Quotation and Validation
+- Issuance of the commercial offer by the **Commercial Role**
+- Possible negotiation with the customer
+- Final validation and order acceptance
 
-### Étape 5 : Lancement opérationnel
-- Transmission du dossier au **Rôle Achats** pour lancement de la commande fournisseur
-- Planification des inspections par le **Rôle Qualité**
-- Organisation logistique par le **Rôle Logistique**
-
----
-
-## 2.7 Engagements envers les clients
-
-Plus Sàrl s'engage auprès de ses clients sur les points suivants :
-
-1. **Transparence** : communication claire et régulière sur l'avancement des commandes
-2. **Qualité** : contrôle rigoureux de la conformité des produits aux spécifications
-3. **Réactivité** : traitement rapide des demandes et des réclamations
-4. **Traçabilité** : documentation complète de chaque étape du processus
-5. **Amélioration continue** : prise en compte systématique des retours clients
+### Step 5: Operational Launch
+- Transfer of the file to the **Purchasing Role** for supplier order placement
+- Inspection planning by the **Quality Role**
+- Logistics organization by the **Logistics Role**
 
 ---
 
-## Références normatives
+## 2.7 Commitments to Customers
 
-| Clause ISO 9001:2015 | Exigence                                              |
-|-----------------------|-------------------------------------------------------|
-| 4.3                   | Détermination du domaine d'application du SMQ          |
-| 4.4                   | Système de management de la qualité et ses processus   |
-| 8.2                   | Exigences relatives aux produits et services           |
-| 8.2.1                 | Communication avec les clients                         |
-| 8.2.2                 | Détermination des exigences relatives aux produits      |
-| 8.2.3                 | Revue des exigences relatives aux produits              |
-| 8.4                   | Maîtrise des processus, produits et services externalisés |
+Plus Sàrl is committed to its customers on the following points:
+
+1. **Transparency**: clear and regular communication on order progress
+2. **Quality**: rigorous control of product compliance with specifications
+3. **Responsiveness**: prompt handling of requests and complaints
+4. **Traceability**: complete documentation of each process stage
+5. **Continuous improvement**: systematic consideration of customer feedback
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+## Normative References
+
+| ISO 9001:2015 Clause | Requirement                                                   |
+|-----------------------|---------------------------------------------------------------|
+| 4.3                   | Determining the scope of the QMS                              |
+| 4.4                   | Quality management system and its processes                   |
+| 8.2                   | Requirements for products and services                        |
+| 8.2.1                 | Customer communication                                        |
+| 8.2.2                 | Determining the requirements for products and services        |
+| 8.2.3                 | Review of the requirements for products and services          |
+| 8.4                   | Control of externally provided processes, products and services|
+
+---
+
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

@@ -1,176 +1,176 @@
-# Objectifs Qualité - Suivi et Pilotage
+# Quality Objectives - Monitoring and Management
 
-| **Document**         | Objectifs Qualité                                    |
+| **Document**         | Quality Objectives                                   |
 |----------------------|------------------------------------------------------|
 | **Code**            | FM-PM01-OBJ                                            |
-| **Processus**       | PM01 - Leadership et Pilotage                           |
+| **Process**         | PM01 - Leadership and Governance                        |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Norme ISO 9001**  | Chapitre 6.2                                          |
+| **ISO 9001 Standard** | Clause 6.2                                          |
 
 ---
 
-## 1. Cadre général
+## 1. General Framework
 
-Les objectifs qualité de **Plus Sàrl** sont définis par la Direction, en cohérence avec la politique qualité et la stratégie de l'entreprise. Ils sont mesurables, suivis trimestriellement et revus en revue de direction. Ils couvrent les dimensions clés des activités internationales de monitoring industriel et de sourcing.
+The quality objectives of **Plus Sàrl** are defined by Management, in alignment with the quality policy and company strategy. They are measurable, monitored quarterly, and reviewed during management reviews. They cover the key dimensions of the company's international industrial follow-up and sourcing activities.
 
 ---
 
-## 2. Objectifs Qualité - Année : 20____
+## 2. Quality Objectives - Year: 20____
 
-### Objectif 1 : Satisfaction client
+### Objective 1: Customer Satisfaction
 
-| Champ                     | Valeur                                               |
+| Field                     | Value                                                |
 |---------------------------|------------------------------------------------------|
-| **Intitulé**              | Maintenir un haut niveau de satisfaction client       |
-| **Processus concerné**    | P01 - Commercial                                     |
-| **Indicateur**            | Score moyen de satisfaction client (FM-P01-SAT)       |
-| **Cible annuelle**        | >= 4,0 / 5                                           |
-| **Responsable (Rôle)**    | Commercial                                           |
-| **Ressources nécessaires**| Outil d'enquête, temps de traitement des retours      |
+| **Title**                 | Maintain a high level of customer satisfaction        |
+| **Related process**       | P01 - Commercial                                     |
+| **Indicator**             | Average customer satisfaction score (FM-P01-SAT)      |
+| **Annual target**         | >= 4.0 / 5                                           |
+| **Responsible (Role)**    | Commercial                                           |
+| **Resources required**    | Survey tool, time for processing feedback             |
 
-| Trimestre | Résultat mesuré | Cible | Atteint | Commentaire / Action                  |
-|-----------|-----------------|-------|---------|---------------------------------------|
-| T1        | ___/5           | >= 4,0 | [ ] Oui [ ] Non | ________________________________ |
-| T2        | ___/5           | >= 4,0 | [ ] Oui [ ] Non | ________________________________ |
-| T3        | ___/5           | >= 4,0 | [ ] Oui [ ] Non | ________________________________ |
-| T4        | ___/5           | >= 4,0 | [ ] Oui [ ] Non | ________________________________ |
+| Quarter | Measured Result | Target | Achieved | Comment / Action                      |
+|---------|-----------------|--------|----------|---------------------------------------|
+| Q1      | ___/5           | >= 4.0 | [ ] Yes [ ] No | ________________________________ |
+| Q2      | ___/5           | >= 4.0 | [ ] Yes [ ] No | ________________________________ |
+| Q3      | ___/5           | >= 4.0 | [ ] Yes [ ] No | ________________________________ |
+| Q4      | ___/5           | >= 4.0 | [ ] Yes [ ] No | ________________________________ |
 
 ---
 
-### Objectif 2 : Conformité des produits/services
+### Objective 2: Product/Service Conformity
 
-| Champ                     | Valeur                                               |
+| Field                     | Value                                                |
 |---------------------------|------------------------------------------------------|
-| **Intitulé**              | Améliorer le taux de conformité des inspections PSI   |
-| **Processus concerné**    | P04 - Contrôle Qualité                               |
-| **Indicateur**            | Taux de PSI PASS au premier passage                   |
-| **Cible annuelle**        | >= 90 %                                              |
-| **Responsable (Rôle)**    | Qualité                                              |
-| **Ressources nécessaires**| Inspecteurs qualifiés, outils de mesure               |
+| **Title**                 | Improve the PSI inspection pass rate                  |
+| **Related process**       | P04 - Quality Control                                |
+| **Indicator**             | PSI PASS rate on first attempt                        |
+| **Annual target**         | >= 90%                                               |
+| **Responsible (Role)**    | Quality                                              |
+| **Resources required**    | Qualified inspectors, measurement tools               |
 
-| Trimestre | Résultat mesuré | Cible  | Atteint | Commentaire / Action                  |
-|-----------|-----------------|--------|---------|---------------------------------------|
-| T1        | _____%          | >= 90 % | [ ] Oui [ ] Non | ________________________________ |
-| T2        | _____%          | >= 90 % | [ ] Oui [ ] Non | ________________________________ |
-| T3        | _____%          | >= 90 % | [ ] Oui [ ] Non | ________________________________ |
-| T4        | _____%          | >= 90 % | [ ] Oui [ ] Non | ________________________________ |
+| Quarter | Measured Result | Target  | Achieved | Comment / Action                      |
+|---------|-----------------|---------|----------|---------------------------------------|
+| Q1      | _____%          | >= 90%  | [ ] Yes [ ] No | ________________________________ |
+| Q2      | _____%          | >= 90%  | [ ] Yes [ ] No | ________________________________ |
+| Q3      | _____%          | >= 90%  | [ ] Yes [ ] No | ________________________________ |
+| Q4      | _____%          | >= 90%  | [ ] Yes [ ] No | ________________________________ |
 
 ---
 
-### Objectif 3 : Performance fournisseurs
+### Objective 3: Supplier Performance
 
-| Champ                     | Valeur                                               |
+| Field                     | Value                                                |
 |---------------------------|------------------------------------------------------|
-| **Intitulé**              | Renforcer la qualité du panel fournisseurs            |
-| **Processus concerné**    | P02 - Achats et Sous-traitance                       |
-| **Indicateur**            | Pourcentage de fournisseurs classés A                 |
-| **Cible annuelle**        | >= 70 %                                              |
-| **Responsable (Rôle)**    | Achats                                               |
-| **Ressources nécessaires**| Outils d'évaluation, programme d'audits               |
+| **Title**                 | Strengthen the quality of the supplier panel          |
+| **Related process**       | P02 - Purchasing and Subcontracting                  |
+| **Indicator**             | Percentage of suppliers classified A                  |
+| **Annual target**         | >= 70%                                               |
+| **Responsible (Role)**    | Purchasing                                           |
+| **Resources required**    | Evaluation tools, audit program                       |
 
-| Trimestre | Résultat mesuré | Cible  | Atteint | Commentaire / Action                  |
-|-----------|-----------------|--------|---------|---------------------------------------|
-| T1        | _____%          | >= 70 % | [ ] Oui [ ] Non | ________________________________ |
-| T2        | _____%          | >= 70 % | [ ] Oui [ ] Non | ________________________________ |
-| T3        | _____%          | >= 70 % | [ ] Oui [ ] Non | ________________________________ |
-| T4        | _____%          | >= 70 % | [ ] Oui [ ] Non | ________________________________ |
+| Quarter | Measured Result | Target  | Achieved | Comment / Action                      |
+|---------|-----------------|---------|----------|---------------------------------------|
+| Q1      | _____%          | >= 70%  | [ ] Yes [ ] No | ________________________________ |
+| Q2      | _____%          | >= 70%  | [ ] Yes [ ] No | ________________________________ |
+| Q3      | _____%          | >= 70%  | [ ] Yes [ ] No | ________________________________ |
+| Q4      | _____%          | >= 70%  | [ ] Yes [ ] No | ________________________________ |
 
 ---
 
-### Objectif 4 : Livraison dans les délais
+### Objective 4: On-Time Delivery
 
-| Champ                     | Valeur                                               |
+| Field                     | Value                                                |
 |---------------------------|------------------------------------------------------|
-| **Intitulé**              | Assurer la ponctualité des livraisons internationales |
-| **Processus concerné**    | P03 - Logistique et Livraison                        |
-| **Indicateur**            | Taux de livraisons dans les délais convenus           |
-| **Cible annuelle**        | >= 95 %                                              |
-| **Responsable (Rôle)**    | Logistique                                           |
-| **Ressources nécessaires**| Outils de suivi, coordination transitaires            |
+| **Title**                 | Ensure punctuality of international deliveries        |
+| **Related process**       | P03 - Logistics and Delivery                         |
+| **Indicator**             | Rate of deliveries within agreed deadlines            |
+| **Annual target**         | >= 95%                                               |
+| **Responsible (Role)**    | Logistics                                            |
+| **Resources required**    | Tracking tools, freight forwarder coordination        |
 
-| Trimestre | Résultat mesuré | Cible  | Atteint | Commentaire / Action                  |
-|-----------|-----------------|--------|---------|---------------------------------------|
-| T1        | _____%          | >= 95 % | [ ] Oui [ ] Non | ________________________________ |
-| T2        | _____%          | >= 95 % | [ ] Oui [ ] Non | ________________________________ |
-| T3        | _____%          | >= 95 % | [ ] Oui [ ] Non | ________________________________ |
-| T4        | _____%          | >= 95 % | [ ] Oui [ ] Non | ________________________________ |
+| Quarter | Measured Result | Target  | Achieved | Comment / Action                      |
+|---------|-----------------|---------|----------|---------------------------------------|
+| Q1      | _____%          | >= 95%  | [ ] Yes [ ] No | ________________________________ |
+| Q2      | _____%          | >= 95%  | [ ] Yes [ ] No | ________________________________ |
+| Q3      | _____%          | >= 95%  | [ ] Yes [ ] No | ________________________________ |
+| Q4      | _____%          | >= 95%  | [ ] Yes [ ] No | ________________________________ |
 
 ---
 
-### Objectif 5 : Efficacité des actions correctives
+### Objective 5: Corrective Action Effectiveness
 
-| Champ                     | Valeur                                               |
+| Field                     | Value                                                |
 |---------------------------|------------------------------------------------------|
-| **Intitulé**              | Garantir l'efficacité des actions correctives         |
-| **Processus concerné**    | P03 - Contrôle Qualité / PM01 - Leadership             |
-| **Indicateur**            | Taux d'actions correctives jugées efficaces           |
-| **Cible annuelle**        | >= 85 %                                              |
-| **Responsable (Rôle)**    | Qualité                                              |
-| **Ressources nécessaires**| Système de suivi des NC, audits de vérification       |
+| **Title**                 | Ensure the effectiveness of corrective actions        |
+| **Related process**       | P03 - Quality Control / PM01 - Leadership              |
+| **Indicator**             | Rate of corrective actions deemed effective            |
+| **Annual target**         | >= 85%                                               |
+| **Responsible (Role)**    | Quality                                              |
+| **Resources required**    | NC tracking system, verification audits               |
 
-| Trimestre | Résultat mesuré | Cible  | Atteint | Commentaire / Action                  |
-|-----------|-----------------|--------|---------|---------------------------------------|
-| T1        | _____%          | >= 85 % | [ ] Oui [ ] Non | ________________________________ |
-| T2        | _____%          | >= 85 % | [ ] Oui [ ] Non | ________________________________ |
-| T3        | _____%          | >= 85 % | [ ] Oui [ ] Non | ________________________________ |
-| T4        | _____%          | >= 85 % | [ ] Oui [ ] Non | ________________________________ |
+| Quarter | Measured Result | Target  | Achieved | Comment / Action                      |
+|---------|-----------------|---------|----------|---------------------------------------|
+| Q1      | _____%          | >= 85%  | [ ] Yes [ ] No | ________________________________ |
+| Q2      | _____%          | >= 85%  | [ ] Yes [ ] No | ________________________________ |
+| Q3      | _____%          | >= 85%  | [ ] Yes [ ] No | ________________________________ |
+| Q4      | _____%          | >= 85%  | [ ] Yes [ ] No | ________________________________ |
 
 ---
 
-### Objectif 6 : Maîtrise documentaire
+### Objective 6: Document Control
 
-| Champ                     | Valeur                                               |
+| Field                     | Value                                                |
 |---------------------------|------------------------------------------------------|
-| **Intitulé**              | Assurer la maîtrise complète de la documentation SMQ  |
-| **Processus concerné**    | PS01 - Gestion Documentaire                            |
-| **Indicateur**            | Taux de documents à jour et conformes                 |
-| **Cible annuelle**        | 100 %                                                |
-| **Responsable (Rôle)**    | Gestion Documentaire                                 |
-| **Ressources nécessaires**| Système documentaire, temps de revue                  |
+| **Title**                 | Ensure complete control of QMS documentation          |
+| **Related process**       | PS01 - Document Management                             |
+| **Indicator**             | Rate of up-to-date and compliant documents            |
+| **Annual target**         | 100%                                                 |
+| **Responsible (Role)**    | Document Management                                  |
+| **Resources required**    | Document system, review time                          |
 
-| Trimestre | Résultat mesuré | Cible  | Atteint | Commentaire / Action                  |
-|-----------|-----------------|--------|---------|---------------------------------------|
-| T1        | _____%          | 100 %  | [ ] Oui [ ] Non | ________________________________ |
-| T2        | _____%          | 100 %  | [ ] Oui [ ] Non | ________________________________ |
-| T3        | _____%          | 100 %  | [ ] Oui [ ] Non | ________________________________ |
-| T4        | _____%          | 100 %  | [ ] Oui [ ] Non | ________________________________ |
-
----
-
-## 3. Synthèse annuelle
-
-| N° | Objectif                           | Cible       | Résultat annuel | Atteint         |
-|----|------------------------------------|-------------|-----------------|-----------------|
-| 1  | Satisfaction client                | >= 4,0/5    | ___/5           | [ ] Oui [ ] Non |
-| 2  | Conformité PSI                     | >= 90 %     | _____%          | [ ] Oui [ ] Non |
-| 3  | Performance fournisseurs (Class. A)| >= 70 %     | _____%          | [ ] Oui [ ] Non |
-| 4  | Livraison dans les délais          | >= 95 %     | _____%          | [ ] Oui [ ] Non |
-| 5  | Efficacité actions correctives     | >= 85 %     | _____%          | [ ] Oui [ ] Non |
-| 6  | Maîtrise documentaire             | 100 %       | _____%          | [ ] Oui [ ] Non |
-
-**Taux global d'atteinte des objectifs :** ____/6 objectifs atteints = _____%
+| Quarter | Measured Result | Target | Achieved | Comment / Action                      |
+|---------|-----------------|--------|----------|---------------------------------------|
+| Q1      | _____%          | 100%   | [ ] Yes [ ] No | ________________________________ |
+| Q2      | _____%          | 100%   | [ ] Yes [ ] No | ________________________________ |
+| Q3      | _____%          | 100%   | [ ] Yes [ ] No | ________________________________ |
+| Q4      | _____%          | 100%   | [ ] Yes [ ] No | ________________________________ |
 
 ---
 
-## 4. Décisions et actions pour l'année suivante
+## 3. Annual Summary
 
-| N° | Décision / Action                             | Responsable (Rôle) | Échéance       |
-|----|-----------------------------------------------|---------------------|----------------|
-| 1  | ____________________________________________  | ___________________ | ____/____/____ |
-| 2  | ____________________________________________  | ___________________ | ____/____/____ |
-| 3  | ____________________________________________  | ___________________ | ____/____/____ |
+| No. | Objective                          | Target      | Annual Result   | Achieved        |
+|-----|------------------------------------|-------------|-----------------|-----------------|
+| 1   | Customer satisfaction              | >= 4.0/5    | ___/5           | [ ] Yes [ ] No  |
+| 2   | PSI conformity                     | >= 90%      | _____%          | [ ] Yes [ ] No  |
+| 3   | Supplier performance (Class. A)    | >= 70%      | _____%          | [ ] Yes [ ] No  |
+| 4   | On-time delivery                   | >= 95%      | _____%          | [ ] Yes [ ] No  |
+| 5   | Corrective action effectiveness    | >= 85%      | _____%          | [ ] Yes [ ] No  |
+| 6   | Document control                   | 100%        | _____%          | [ ] Yes [ ] No  |
+
+**Overall objective achievement rate:** ____/6 objectives achieved = _____%
 
 ---
 
-## 5. Approbation
+## 4. Decisions and Actions for the Following Year
 
-| Rôle              | Date              | Signature          |
+| No. | Decision / Action                             | Responsible (Role)  | Deadline       |
+|-----|-----------------------------------------------|---------------------|----------------|
+| 1   | ____________________________________________  | ___________________ | ____/____/____ |
+| 2   | ____________________________________________  | ___________________ | ____/____/____ |
+| 3   | ____________________________________________  | ___________________ | ____/____/____ |
+
+---
+
+## 5. Approval
+
+| Role              | Date              | Signature          |
 |-------------------|-------------------|--------------------|
-| Direction         | ____/____/____    | __________________ |
-| Responsable Qualité | ____/____/____  | __________________ |
+| Management        | ____/____/____    | __________________ |
+| Quality Manager   | ____/____/____    | __________________ |
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

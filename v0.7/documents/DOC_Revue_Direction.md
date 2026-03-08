@@ -1,210 +1,210 @@
-# Revue de Direction - Compte Rendu
+# Management Review - Minutes
 
-| **Document**         | Revue de Direction                                   |
+| **Document**         | Management Review                                    |
 |----------------------|------------------------------------------------------|
 | **Code**            | FM-PM01-RD                                              |
-| **Processus**       | PM01 - Leadership et Pilotage                           |
+| **Process**         | PM01 - Leadership and Governance                        |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Norme ISO 9001**  | Chapitre 9.3                                          |
+| **ISO 9001 Standard** | Clause 9.3                                          |
 
 ---
 
-## 1. Informations générales
+## 1. General Information
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Date de la revue**      | ________________________________________         |
-| **Lieu**                  | ________________________________________         |
-| **N° de la revue**        | RD-20__-___                                      |
-| **Durée**                 | ________________________________________         |
+| **Review date**           | ________________________________________         |
+| **Location**              | ________________________________________         |
+| **Review No.**            | RD-20__-___                                      |
+| **Duration**              | ________________________________________         |
 
 ### Participants
 
-| Rôle                        | Présent | Excusé |
-|-----------------------------|---------|--------|
-| Direction                   | [ ]     | [ ]    |
-| Responsable Qualité         | [ ]     | [ ]    |
-| Commercial                  | [ ]     | [ ]    |
-| Achats                      | [ ]     | [ ]    |
-| Logistique                  | [ ]     | [ ]    |
-| Qualité                     | [ ]     | [ ]    |
-| Gestion Documentaire        | [ ]     | [ ]    |
+| Role                        | Present | Absent  |
+|-----------------------------|---------|---------|
+| Management                  | [ ]     | [ ]     |
+| Quality Manager             | [ ]     | [ ]     |
+| Commercial                  | [ ]     | [ ]     |
+| Purchasing                  | [ ]     | [ ]     |
+| Logistics                   | [ ]     | [ ]     |
+| Quality                     | [ ]     | [ ]     |
+| Document Management         | [ ]     | [ ]     |
 
-### Ordre du jour
+### Agenda
 
-Conformément à la norme ISO 9001:2015, chapitre 9.3, la revue de direction couvre les éléments d'entrée et produit les éléments de sortie décrits ci-dessous.
-
----
-
-## 2. Éléments d'entrée (7 entrées)
-
-### Entrée 1 : État des actions issues des revues de direction précédentes
-
-| N° Action | Description                         | Responsable (Rôle) | Échéance       | Statut                          |
-|-----------|-------------------------------------|---------------------|----------------|----------------------------------|
-| 1         | ________________________________    | ___________________ | ____/____/____ | [ ] Réalisé [ ] En cours [ ] Annulé |
-| 2         | ________________________________    | ___________________ | ____/____/____ | [ ] Réalisé [ ] En cours [ ] Annulé |
-| 3         | ________________________________    | ___________________ | ____/____/____ | [ ] Réalisé [ ] En cours [ ] Annulé |
-
-**Commentaires :** ________________________________________________________________________
+In accordance with ISO 9001:2015, Clause 9.3, the management review covers the inputs and produces the outputs described below.
 
 ---
 
-### Entrée 2 : Évolutions du contexte externe et interne
+## 2. Inputs (7 Inputs)
 
-| Domaine                              | Évolution constatée                          | Impact sur le SMQ       |
-|--------------------------------------|----------------------------------------------|------------------------|
-| Marché et concurrence                | ________________________________________     | ______________________ |
-| Réglementation                       | ________________________________________     | ______________________ |
-| Parties intéressées                  | ________________________________________     | ______________________ |
-| Ressources internes                  | ________________________________________     | ______________________ |
-| Contexte international               | ________________________________________     | ______________________ |
+### Input 1: Status of Actions from Previous Management Reviews
 
-**Commentaires :** ________________________________________________________________________
+| Action No. | Description                         | Responsible (Role)  | Deadline       | Status                           |
+|------------|-------------------------------------|---------------------|----------------|----------------------------------|
+| 1          | ________________________________    | ___________________ | ____/____/____ | [ ] Completed [ ] In Progress [ ] Cancelled |
+| 2          | ________________________________    | ___________________ | ____/____/____ | [ ] Completed [ ] In Progress [ ] Cancelled |
+| 3          | ________________________________    | ___________________ | ____/____/____ | [ ] Completed [ ] In Progress [ ] Cancelled |
+
+**Comments:** ________________________________________________________________________
 
 ---
 
-### Entrée 3 : Performance des processus et conformité des produits/services
+### Input 2: Changes in External and Internal Context
 
-| Processus          | KPI principal                  | Résultat | Objectif | Tendance              |
+| Area                                 | Change Observed                              | Impact on the QMS       |
+|--------------------------------------|----------------------------------------------|-------------------------|
+| Market and competition               | ________________________________________     | ______________________  |
+| Regulations                          | ________________________________________     | ______________________  |
+| Interested parties                   | ________________________________________     | ______________________  |
+| Internal resources                   | ________________________________________     | ______________________  |
+| International context                | ________________________________________     | ______________________  |
+
+**Comments:** ________________________________________________________________________
+
+---
+
+### Input 3: Process Performance and Product/Service Conformity
+
+| Process            | Main KPI                       | Result   | Target   | Trend                 |
 |--------------------|--------------------------------|----------|----------|-----------------------|
-| P01 - Commercial   | Taux de satisfaction client    | ___/5    | >= 4,0   | [ ] Hausse [ ] Stable [ ] Baisse |
-| P01 - Commercial   | Taux de conversion offres      | _____%   | >= 30 %  | [ ] Hausse [ ] Stable [ ] Baisse |
-| P02 - Achats       | Conformité livraisons          | _____%   | >= 95 %  | [ ] Hausse [ ] Stable [ ] Baisse |
-| P02 - Achats       | Fournisseurs classés A         | _____%   | >= 70 %  | [ ] Hausse [ ] Stable [ ] Baisse |
-| P03 - Logistique   | Livraisons dans les délais     | _____%   | >= 95 %  | [ ] Hausse [ ] Stable [ ] Baisse |
-| P04 - Qualité      | Taux PSI PASS                  | _____%   | >= 90 %  | [ ] Hausse [ ] Stable [ ] Baisse |
-| P04 - Qualité      | Délai clôture NC               | ___ j.   | < 15 j.  | [ ] Hausse [ ] Stable [ ] Baisse |
-| PS01 - Gest. Doc.    | Documents à jour               | _____%   | 100 %    | [ ] Hausse [ ] Stable [ ] Baisse |
+| P01 - Commercial   | Customer satisfaction rate     | ___/5    | >= 4.0   | [ ] Upward [ ] Stable [ ] Downward |
+| P01 - Commercial   | Offer conversion rate          | _____%   | >= 30%   | [ ] Upward [ ] Stable [ ] Downward |
+| P02 - Purchasing   | Delivery conformity            | _____%   | >= 95%   | [ ] Upward [ ] Stable [ ] Downward |
+| P02 - Purchasing   | Suppliers classified A         | _____%   | >= 70%   | [ ] Upward [ ] Stable [ ] Downward |
+| P03 - Logistics    | On-time deliveries             | _____%   | >= 95%   | [ ] Upward [ ] Stable [ ] Downward |
+| P04 - Quality      | PSI PASS rate                  | _____%   | >= 90%   | [ ] Upward [ ] Stable [ ] Downward |
+| P04 - Quality      | NC closure time                | ___ d.   | < 15 d.  | [ ] Upward [ ] Stable [ ] Downward |
+| PS01 - Doc. Mgmt.  | Documents up to date           | _____%   | 100%     | [ ] Upward [ ] Stable [ ] Downward |
 
-**Commentaires :** ________________________________________________________________________
+**Comments:** ________________________________________________________________________
 
 ---
 
-### Entrée 4 : Non-conformités et actions correctives
+### Input 4: Nonconformities and Corrective Actions
 
-| Champ                                           | Valeur                          |
+| Field                                           | Value                           |
 |-------------------------------------------------|---------------------------------|
-| Nombre total de NC sur la période               | ________                        |
-| Répartition par niveau (1/2/3/4)                | N1:___ N2:___ N3:___ N4:___    |
-| Taux de clôture des NC                          | _____%                          |
-| Taux d'efficacité des actions correctives       | _____%                          |
-| Principales causes racines identifiées          | ________________________________|
+| Total number of NCs over the period             | ________                        |
+| Breakdown by level (1/2/3/4)                    | L1:___ L2:___ L3:___ L4:___    |
+| NC closure rate                                 | _____%                          |
+| Corrective action effectiveness rate            | _____%                          |
+| Main root causes identified                     | ________________________________|
 
-**NC significatives à signaler :**
+**Significant NCs to report:**
 
-| N° NC       | Description résumée               | Niveau | Statut         |
+| NC No.      | Summary Description               | Level  | Status         |
 |-------------|-----------------------------------|--------|----------------|
 | NC-________  | ________________________________ | ___    | ______________ |
 | NC-________  | ________________________________ | ___    | ______________ |
 
-**Commentaires :** ________________________________________________________________________
+**Comments:** ________________________________________________________________________
 
 ---
 
-### Entrée 5 : Résultats des audits internes et externes
+### Input 5: Internal and External Audit Results
 
-| N° Audit   | Type            | Processus audité | Date       | NC Majeures | NC Mineures | OA  |
-|------------|-----------------|------------------|------------|-------------|-------------|-----|
-| AUD-____   | [ ] Int. [ ] Ext.| ________________ | ___/___/___ | ________   | ________    | ___ |
-| AUD-____   | [ ] Int. [ ] Ext.| ________________ | ___/___/___ | ________   | ________    | ___ |
+| Audit No.  | Type              | Audited Process  | Date       | Major NCs   | Minor NCs   | OFI |
+|------------|-------------------|------------------|------------|-------------|-------------|-----|
+| AUD-____   | [ ] Int. [ ] Ext. | ________________ | ___/___/___ | ________   | ________    | ___ |
+| AUD-____   | [ ] Int. [ ] Ext. | ________________ | ___/___/___ | ________   | ________    | ___ |
 
-**Commentaires :** ________________________________________________________________________
+**Comments:** ________________________________________________________________________
 
 ---
 
-### Entrée 6 : Retours clients et satisfaction
+### Input 6: Customer Feedback and Satisfaction
 
-| Champ                                           | Valeur                          |
+| Field                                           | Value                           |
 |-------------------------------------------------|---------------------------------|
-| Nombre d'enquêtes de satisfaction réalisées     | ________                        |
-| Score moyen de satisfaction                     | ___/5                           |
-| Nombre de réclamations reçues                   | ________                        |
-| Taux de traitement des réclamations             | _____%                          |
-| Principaux motifs de réclamation                | ________________________________|
+| Number of satisfaction surveys conducted        | ________                        |
+| Average satisfaction score                      | ___/5                           |
+| Number of complaints received                   | ________                        |
+| Complaint handling rate                         | _____%                          |
+| Main complaint reasons                          | ________________________________|
 
-**Commentaires :** ________________________________________________________________________
-
----
-
-### Entrée 7 : Risques, opportunités et ressources
-
-#### Risques
-
-| N° Risque  | Description                        | Niveau (F x G) | Traitement prévu       | Statut         |
-|------------|------------------------------------|-----------------|------------------------|----------------|
-| R-____     | ________________________________   | ___             | ______________________ | ______________ |
-| R-____     | ________________________________   | ___             | ______________________ | ______________ |
-
-#### Opportunités
-
-| N° Opp.   | Description                        | Potentiel       | Action prévue          | Statut         |
-|-----------|------------------------------------|-----------------|------------------------|----------------|
-| O-____    | ________________________________   | ___             | ______________________ | ______________ |
-| O-____    | ________________________________   | ___             | ______________________ | ______________ |
-
-#### Adéquation des ressources
-
-| Type de ressource    | Adéquat | Commentaire                               |
-|---------------------|---------|-------------------------------------------|
-| Ressources humaines | [ ] Oui [ ] Non | ________________________________ |
-| Ressources matérielles | [ ] Oui [ ] Non | ________________________________ |
-| Ressources financières | [ ] Oui [ ] Non | ________________________________ |
-| Compétences         | [ ] Oui [ ] Non | ________________________________ |
-
-**Commentaires :** ________________________________________________________________________
+**Comments:** ________________________________________________________________________
 
 ---
 
-## 3. Éléments de sortie
+### Input 7: Risks, Opportunities, and Resources
 
-### 3.1 Décisions et actions décidées
+#### Risks
 
-| N° | Décision / Action                             | Responsable (Rôle) | Échéance       | Priorité           |
-|----|-----------------------------------------------|---------------------|----------------|---------------------|
-| 1  | ____________________________________________  | ___________________ | ____/____/____ | [ ] Haute [ ] Moyenne [ ] Basse |
-| 2  | ____________________________________________  | ___________________ | ____/____/____ | [ ] Haute [ ] Moyenne [ ] Basse |
-| 3  | ____________________________________________  | ___________________ | ____/____/____ | [ ] Haute [ ] Moyenne [ ] Basse |
-| 4  | ____________________________________________  | ___________________ | ____/____/____ | [ ] Haute [ ] Moyenne [ ] Basse |
-| 5  | ____________________________________________  | ___________________ | ____/____/____ | [ ] Haute [ ] Moyenne [ ] Basse |
+| Risk No.   | Description                        | Level (L x S) | Planned Treatment          | Status         |
+|------------|------------------------------------|---------------|----------------------------|----------------|
+| R-____     | ________________________________   | ___           | ______________________     | ______________ |
+| R-____     | ________________________________   | ___           | ______________________     | ______________ |
 
-### 3.2 Opportunités d'amélioration identifiées
+#### Opportunities
 
-| N° | Description de l'opportunité                  | Processus concerné | Action associée         |
-|----|-----------------------------------------------|---------------------|-------------------------|
-| 1  | ____________________________________________  | ___________________ | _______________________ |
-| 2  | ____________________________________________  | ___________________ | _______________________ |
-| 3  | ____________________________________________  | ___________________ | _______________________ |
+| Opp. No.  | Description                        | Potential       | Planned Action             | Status         |
+|-----------|------------------------------------|-----------------|----------------------------|----------------|
+| O-____    | ________________________________   | ___             | ______________________     | ______________ |
+| O-____    | ________________________________   | ___             | ______________________     | ______________ |
 
-### 3.3 Besoins de modifications du SMQ
+#### Resource Adequacy
 
-| N° | Modification envisagée                        | Justification                    | Échéance       |
-|----|-----------------------------------------------|----------------------------------|----------------|
-| 1  | ____________________________________________  | ________________________________ | ____/____/____ |
-| 2  | ____________________________________________  | ________________________________ | ____/____/____ |
+| Resource Type        | Adequate | Comment                                   |
+|---------------------|----------|-------------------------------------------|
+| Human resources     | [ ] Yes [ ] No | ________________________________ |
+| Material resources  | [ ] Yes [ ] No | ________________________________ |
+| Financial resources | [ ] Yes [ ] No | ________________________________ |
+| Competencies        | [ ] Yes [ ] No | ________________________________ |
 
-### 3.4 Besoins en ressources
+**Comments:** ________________________________________________________________________
 
-| Type de ressource    | Besoin identifié                              | Décision           |
+---
+
+## 3. Outputs
+
+### 3.1 Decisions and Actions Decided
+
+| No. | Decision / Action                             | Responsible (Role)  | Deadline       | Priority            |
+|-----|-----------------------------------------------|---------------------|----------------|---------------------|
+| 1   | ____________________________________________  | ___________________ | ____/____/____ | [ ] High [ ] Medium [ ] Low |
+| 2   | ____________________________________________  | ___________________ | ____/____/____ | [ ] High [ ] Medium [ ] Low |
+| 3   | ____________________________________________  | ___________________ | ____/____/____ | [ ] High [ ] Medium [ ] Low |
+| 4   | ____________________________________________  | ___________________ | ____/____/____ | [ ] High [ ] Medium [ ] Low |
+| 5   | ____________________________________________  | ___________________ | ____/____/____ | [ ] High [ ] Medium [ ] Low |
+
+### 3.2 Improvement Opportunities Identified
+
+| No. | Description of Opportunity                    | Related Process     | Associated Action         |
+|-----|-----------------------------------------------|---------------------|---------------------------|
+| 1   | ____________________________________________  | ___________________ | _______________________ |
+| 2   | ____________________________________________  | ___________________ | _______________________ |
+| 3   | ____________________________________________  | ___________________ | _______________________ |
+
+### 3.3 QMS Modification Needs
+
+| No. | Proposed Modification                         | Justification                    | Deadline       |
+|-----|-----------------------------------------------|----------------------------------|----------------|
+| 1   | ____________________________________________  | ________________________________ | ____/____/____ |
+| 2   | ____________________________________________  | ________________________________ | ____/____/____ |
+
+### 3.4 Resource Needs
+
+| Resource Type        | Identified Need                               | Decision            |
 |---------------------|-----------------------------------------------|---------------------|
-| Humaines            | ____________________________________________  | [ ] Approuvé [ ] Reporté [ ] Refusé |
-| Matérielles         | ____________________________________________  | [ ] Approuvé [ ] Reporté [ ] Refusé |
-| Financières         | ____________________________________________  | [ ] Approuvé [ ] Reporté [ ] Refusé |
-| Formation           | ____________________________________________  | [ ] Approuvé [ ] Reporté [ ] Refusé |
+| Human               | ____________________________________________  | [ ] Approved [ ] Deferred [ ] Rejected |
+| Material            | ____________________________________________  | [ ] Approved [ ] Deferred [ ] Rejected |
+| Financial           | ____________________________________________  | [ ] Approved [ ] Deferred [ ] Rejected |
+| Training            | ____________________________________________  | [ ] Approved [ ] Deferred [ ] Rejected |
 
 ---
 
-## 4. Conclusion générale
+## 4. Overall Conclusion
 
-### Appréciation globale du SMQ
+### Overall QMS Assessment
 
-- [ ] Le SMQ est efficace et conforme aux exigences
-- [ ] Le SMQ est globalement efficace avec des axes d'amélioration
-- [ ] Le SMQ nécessite des actions correctives significatives
-- [ ] Le SMQ nécessite une révision majeure
+- [ ] The QMS is effective and compliant with requirements
+- [ ] The QMS is generally effective with improvement areas
+- [ ] The QMS requires significant corrective actions
+- [ ] The QMS requires a major revision
 
-### Commentaires de la Direction
+### Management Comments
 
 ________________________________________________________________________
 ________________________________________________________________________
@@ -212,34 +212,34 @@ ________________________________________________________________________
 
 ---
 
-## 5. Prochaine revue de direction
+## 5. Next Management Review
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Date prévue**           | ________________________________________         |
-| **Points spécifiques à traiter** | ________________________________________  |
+| **Planned date**          | ________________________________________         |
+| **Specific points to address** | ________________________________________    |
 
 ---
 
 ## 6. Signatures
 
-| Rôle                 | Date              | Signature          |
+| Role                 | Date              | Signature          |
 |----------------------|-------------------|--------------------|
-| Direction            | ____/____/____    | __________________ |
-| Responsable Qualité  | ____/____/____    | __________________ |
+| Management           | ____/____/____    | __________________ |
+| Quality Manager      | ____/____/____    | __________________ |
 
 ---
 
-## 7. Diffusion
+## 7. Distribution
 
-| Destinataire (Rôle)       | Mode de diffusion    | Date d'envoi    |
+| Recipient (Role)          | Distribution Method  | Date Sent       |
 |---------------------------|----------------------|-----------------|
-| Direction                 | ___________________  | ____/____/____  |
-| Responsable Qualité       | ___________________  | ____/____/____  |
-| Pilotes de processus      | ___________________  | ____/____/____  |
-| Tous les collaborateurs   | ___________________  | ____/____/____  |
+| Management                | ___________________  | ____/____/____  |
+| Quality Manager           | ___________________  | ____/____/____  |
+| Process Owners            | ___________________  | ____/____/____  |
+| All employees             | ___________________  | ____/____/____  |
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

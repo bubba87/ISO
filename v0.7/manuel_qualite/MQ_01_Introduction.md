@@ -1,138 +1,138 @@
-# Manuel Qualité - Chapitre 1 : Introduction
+# Quality Manual - Chapter 1: Introduction
 
 | **Document**       | MQ_01_Introduction                       |
 |--------------------|------------------------------------------|
 | **Version**        | v0.7                                     |
 | **Date**           | 2026-03-04                               |
-| **Classification** | Interne                                  |
-| **Processus**      | Tous processus                           |
-| **Rédaction**      | Rôle Qualité                             |
-| **Approbation**    | Direction                                |
+| **Classification** | Internal                                 |
+| **Process**        | All processes                            |
+| **Drafted by**     | Quality Role                             |
+| **Approved by**    | Management                               |
 
 ---
 
-## 1.1 Objet du Manuel Qualité
+## 1.1 Purpose of the Quality Manual
 
-Le présent Manuel Qualité décrit le Système de Management de la Qualité (SMQ) de **Plus Sàrl**, conformément aux exigences de la norme **ISO 9001:2015**.
+This Quality Manual describes the Quality Management System (QMS) of **Plus Sàrl**, in accordance with the requirements of **ISO 9001:2015**.
 
-Il constitue le document de référence du SMQ et a pour objectifs de :
+It constitutes the reference document of the QMS and aims to:
 
-- Définir le périmètre et le domaine d'application du SMQ
-- Présenter l'organisation, les processus et leurs interactions
-- Décrire les dispositions prises pour satisfaire les exigences de la norme ISO 9001:2015
-- Servir de référence pour les audits internes et externes
-- Communiquer les engagements de la Direction en matière de qualité
+- Define the scope and field of application of the QMS
+- Present the organization, processes and their interactions
+- Describe the provisions implemented to meet the requirements of ISO 9001:2015
+- Serve as a reference for internal and external audits
+- Communicate Management's commitments regarding quality
 
 ---
 
-## 1.2 Domaine d'application
+## 1.2 Scope of Application
 
-Le SMQ de Plus Sàrl couvre l'ensemble des activités liées au **monitoring industriel et au sourcing à l'échelle mondiale**, incluant :
+The QMS of Plus Sàrl covers all activities related to **industrial follow-up and global sourcing**, including:
 
-- La gestion commerciale et la relation client
-- La sélection, la qualification et l'évaluation des fournisseurs internationaux
-- Le suivi et le contrôle qualité des productions externalisées
-- La coordination logistique et l'expédition internationale
-- La gestion documentaire et les processus de support
+- Sales management and customer relations
+- Selection, qualification and evaluation of international suppliers
+- Monitoring and quality control of outsourced production
+- Logistics coordination and international shipping
+- Document management and support processes
 
 ### Exclusions
 
-Conformément à la clause 4.3 de l'ISO 9001:2015, la clause **8.3 (Conception et développement)** est exclue du domaine d'application. Plus Sàrl n'effectue pas de conception de produits ; l'entreprise assure le sourcing et le contrôle qualité de produits conçus par ses clients ou ses fournisseurs.
+In accordance with clause 4.3 of ISO 9001:2015, clause **8.3 (Design and Development)** is excluded from the scope of application. Plus Sàrl does not perform product design; the company provides sourcing and quality control for products designed by its customers or suppliers.
 
 ---
 
-## 1.3 Références normatives
+## 1.3 Normative References
 
-| Norme / Document                | Description                                              |
-|---------------------------------|----------------------------------------------------------|
-| ISO 9001:2015                   | Systèmes de management de la qualité — Exigences         |
-| ISO 9000:2015                   | Systèmes de management de la qualité — Principes essentiels et vocabulaire |
-| ISO 19011:2018                  | Lignes directrices pour l'audit des systèmes de management |
-| ISO 2859-1 (AQL)               | Procédures d'échantillonnage pour les contrôles par attributs |
+| Standard / Document               | Description                                                      |
+|------------------------------------|------------------------------------------------------------------|
+| ISO 9001:2015                      | Quality management systems — Requirements                        |
+| ISO 9000:2015                      | Quality management systems — Fundamentals and vocabulary         |
+| ISO 19011:2018                     | Guidelines for auditing management systems                       |
+| ISO 2859-1 (AQL)                   | Sampling procedures for inspection by attributes                 |
 
 ---
 
-## 1.4 Structure du Manuel Qualité
+## 1.4 Structure of the Quality Manual
 
-Le Manuel Qualité est structuré selon les chapitres de la norme ISO 9001:2015 :
+The Quality Manual is structured according to the chapters of ISO 9001:2015:
 
-| Chapitre | Titre                                          | Clause ISO 9001 |
+| Chapter  | Title                                          | ISO 9001 Clause |
 |----------|-------------------------------------------------|-----------------|
 | 1        | Introduction                                    | 1, 2, 3         |
-| 2        | Activités, Organisation et Relations Clients    | 4.3, 4.4, 8.2   |
-| 3        | Support du Système de Management de la Qualité  | 4.4              |
-| 4        | Contexte de l'organisme                         | 4.1, 4.2         |
+| 2        | Activities, Organization and Customer Relations | 4.3, 4.4, 8.2   |
+| 3        | Quality Management System Support               | 4.4              |
+| 4        | Context of the Organization                     | 4.1, 4.2         |
 | 5        | Leadership                                      | 5.1, 5.2, 5.3   |
-| 6        | Planification                                   | 6.1, 6.2, 6.3   |
-| 7        | Support                                         | 7.1 à 7.5       |
-| 8        | Réalisation des activités opérationnelles       | 8.1 à 8.7       |
-| 9        | Évaluation des performances                     | 9.1, 9.2, 9.3   |
-| 10       | Amélioration                                    | 10.1, 10.2, 10.3|
+| 6        | Planning                                        | 6.1, 6.2, 6.3   |
+| 7        | Support                                         | 7.1 to 7.5      |
+| 8        | Operational Activities                          | 8.1 to 8.7      |
+| 9        | Performance Evaluation                          | 9.1, 9.2, 9.3   |
+| 10       | Improvement                                     | 10.1, 10.2, 10.3|
 
 ---
 
-## 1.5 Gestion du Manuel Qualité
+## 1.5 Quality Manual Management
 
-### Responsabilités
+### Responsibilities
 
-| Action                          | Responsable              |
+| Action                          | Responsible              |
 |---------------------------------|--------------------------|
-| Rédaction et mise à jour        | Rôle Qualité             |
-| Vérification                    | Rôle Qualité             |
-| Approbation                     | Direction                |
-| Diffusion                       | Rôle Gestion Documentaire|
+| Drafting and updating           | Quality Role             |
+| Verification                    | Quality Role             |
+| Approval                        | Management               |
+| Distribution                    | Document Management Role |
 
-### Règles de gestion
+### Management Rules
 
-- Le Manuel Qualité est un **document contrôlé** soumis aux règles de gestion documentaire (PS01)
-- Toute modification fait l'objet d'une demande de modification (FM-PS01-DEM)
-- La version en vigueur est disponible sur le serveur documentaire
-- Toute copie imprimée est considérée comme non contrôlée
-- L'historique des modifications est tracé dans chaque chapitre
+- The Quality Manual is a **controlled document** subject to document management rules (PS01)
+- Any modification is subject to a change request (FM-PS01-DEM)
+- The current version is available on the document server
+- Any printed copy is considered uncontrolled
+- The revision history is recorded in each chapter
 
 ---
 
-## 1.6 Termes et définitions
+## 1.6 Terms and Definitions
 
-Les termes utilisés dans ce Manuel Qualité sont conformes aux définitions de l'ISO 9000:2015. Les termes spécifiques à Plus Sàrl sont définis ci-dessous :
+The terms used in this Quality Manual comply with the definitions of ISO 9000:2015. Terms specific to Plus Sàrl are defined below:
 
-| Terme                  | Définition                                                                  |
+| Term                   | Definition                                                                  |
 |------------------------|-----------------------------------------------------------------------------|
-| **SMQ**                | Système de Management de la Qualité                                         |
-| **Monitoring**         | Suivi et contrôle des activités de production chez les fournisseurs          |
-| **Sourcing**           | Identification et sélection de fournisseurs industriels internationaux       |
-| **AQL**                | Acceptable Quality Level — niveau de qualité acceptable pour l'échantillonnage |
-| **IPC**                | Initial Production Check — contrôle en début de production                   |
-| **DUPRO**              | During Production — contrôle en cours de production                          |
-| **PSI**                | Pre-Shipment Inspection — inspection avant expédition                        |
-| **Loading Check**      | Contrôle au chargement du conteneur                                          |
-| **NC**                 | Non-Conformité                                                               |
-| **AC**                 | Action Corrective                                                            |
-| **PDCA**               | Plan-Do-Check-Act — cycle d'amélioration continue                            |
-| **REX**                | Retour d'Expérience                                                          |
-| **POD**                | Proof of Delivery — preuve de livraison                                      |
+| **QMS**                | Quality Management System                                                   |
+| **Monitoring**         | Tracking and control of production activities at supplier facilities         |
+| **Sourcing**           | Identification and selection of international industrial suppliers           |
+| **AQL**                | Acceptable Quality Level — acceptable quality level for sampling             |
+| **IPC**                | Initial Production Check — inspection at the start of production             |
+| **DUPRO**              | During Production — in-process production inspection                         |
+| **PSI**                | Pre-Shipment Inspection — inspection before shipment                         |
+| **Loading Check**      | Container loading inspection                                                 |
+| **NC**                 | Nonconformity                                                                |
+| **CA**                 | Corrective Action                                                            |
+| **PDCA**               | Plan-Do-Check-Act — continuous improvement cycle                             |
+| **REX**                | Lessons Learned                                                              |
+| **POD**                | Proof of Delivery                                                            |
 
 ---
 
-## 1.7 Historique des révisions
+## 1.7 Revision History
 
-| Version | Date       | Description                                              | Auteur              |
+| Version | Date       | Description                                              | Author              |
 |---------|------------|----------------------------------------------------------|---------------------|
-| v0.7    | 2026-03-04 | Création du chapitre Introduction                        | Rôle Qualité        |
+| v0.7    | 2026-03-04 | Creation of the Introduction chapter                     | Quality Role        |
 |         |            |                                                          |                     |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                                     |
+| ISO 9001:2015 Clause | Requirement                                                  |
 |-----------------------|--------------------------------------------------------------|
-| 1                     | Domaine d'application                                        |
-| 2                     | Références normatives                                        |
-| 3                     | Termes et définitions                                        |
-| 4.3                   | Détermination du domaine d'application du SMQ                |
+| 1                     | Scope                                                        |
+| 2                     | Normative references                                         |
+| 3                     | Terms and definitions                                        |
+| 4.3                   | Determining the scope of the QMS                             |
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - Quality Management System ISO 9001:2015*
 *Version v0.7 - 2026-03-04*

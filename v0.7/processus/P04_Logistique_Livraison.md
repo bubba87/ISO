@@ -1,201 +1,202 @@
-# P04 - Processus Logistique et Livraison
+# P04 - Logistics and Delivery Process
 
-| **Processus**       | P04 - Logistique et Livraison                        |
+| **Process**         | P04 - Logistics and Delivery                         |
 |----------------------|------------------------------------------------------|
-| **Type**            | Réalisation                                           |
-| **Pilote**          | Rôle Logistique                                       |
+| **Type**            | Core                                                  |
+| **Owner**           | Logistics Role                                        |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Référence**       | PR-P04-LOG                                            |
-| **Norme ISO 9001**  | Chapitres 8.5.4, 8.6                                 |
+| **Reference**       | PR-P04-LOG                                            |
+| **ISO 9001 Standard** | Clauses 8.5.4, 8.6                                 |
 
 ---
 
-## 1. Objet et domaine d'application
+## 1. Purpose and Scope
 
-Ce processus décrit les activités logistiques de **Plus Sàrl** couvrant la planification des expéditions, la coordination du transport international, le suivi des livraisons et la confirmation de bonne réception. Il s'applique à l'ensemble des flux logistiques liés aux opérations mondiales de monitoring industriel et de sourcing.
-
----
-
-## 2. Références normatives
-
-- ISO 9001:2015, Chapitres 8.5.4 (Préservation), 8.6 (Libération des produits et services)
-- Manuel Qualité Plus Sàrl (MQ-001)
-- Réglementations douanières et de transport internationales applicables
+This process describes the logistics activities of **Plus Sàrl** covering shipment planning, international transport coordination, delivery tracking, and receipt confirmation. It applies to all logistics flows related to worldwide industrial follow-up and sourcing operations.
 
 ---
 
-## 3. Rôles et responsabilités
+## 2. Normative References
 
-| Rôle                        | Responsabilités principales                                          |
+- ISO 9001:2015, Clauses 8.5.4 (Preservation), 8.6 (Release of Products and Services)
+- Plus Sàrl Quality Manual (MQ-001)
+- Applicable international customs and transport regulations
+
+---
+
+## 3. Roles and Responsibilities
+
+| Role                        | Key Responsibilities                                                 |
 |-----------------------------|----------------------------------------------------------------------|
-| **Logistique**              | Planification, coordination transport, suivi, documentation          |
-| **Achats**                  | Transmission des informations fournisseur, conditions Incoterms      |
-| **Commercial**              | Communication client sur les délais et le suivi                      |
-| **Qualité**                 | Libération des marchandises après inspection                         |
-| **Transitaire / Transporteur** | Exécution du transport, dédouanement                              |
+| **Logistics**               | Planning, transport coordination, tracking, documentation            |
+| **Purchasing**              | Transmission of supplier information, Incoterms conditions           |
+| **Commercial**              | Customer communication on timelines and tracking                     |
+| **Quality**                 | Release of goods after inspection                                    |
+| **Freight Forwarder / Carrier** | Transport execution, customs clearance                           |
 
 ---
 
-## 4. Données d'entrée et de sortie
+## 4. Input and Output Data
 
-### Données d'entrée
-- Bon de commande validé et confirmé (P01/P02)
-- Confirmation de libération qualité (P04)
-- Informations fournisseur (adresse, contact, conditions)
-- Exigences client (délai, lieu, Incoterms)
-- Réglementations douanières applicables
+### Input Data
+- Validated and confirmed purchase order (P01/P02)
+- Quality release confirmation (P04)
+- Supplier information (address, contact, conditions)
+- Customer requirements (deadline, location, Incoterms)
+- Applicable customs regulations
 
-### Données de sortie
-- Plan d'expédition
-- Documents de transport (BL, AWB, CMR, packing list)
-- Déclarations douanières
-- Preuve de livraison (POD)
-- Confirmation de réception client
-
----
-
-## 5. Description des activités
-
-### A1 - Planification de l'expédition
-
-Le Rôle Logistique reçoit les informations de commande validée et planifie l'expédition : mode de transport (maritime, aérien, routier, ferroviaire), délais, volumes, exigences spéciales d'emballage et de manutention.
-
-### A2 - Sélection du transitaire / transporteur
-
-Le Rôle Logistique sélectionne le transitaire ou transporteur approprié parmi les prestataires qualifiés, en tenant compte du coût, des délais, de la fiabilité et de la destination.
-
-### A3 - Préparation de la documentation
-
-Le Rôle Logistique prépare ou coordonne la préparation des documents nécessaires : facture commerciale, packing list, certificat d'origine, documents douaniers, connaissement (BL) ou lettre de transport aérien (AWB).
-
-### A4 - Coordination de l'enlèvement et du chargement
-
-Le Rôle Logistique coordonne l'enlèvement des marchandises chez le fournisseur, s'assure de la bonne exécution du Loading Check (P04) le cas échéant, et confirme le chargement.
-
-### A5 - Suivi du transport en cours
-
-Le Rôle Logistique assure le suivi en temps réel du transport, gère les aléas (retards, avaries, blocages douaniers) et communique proactivement les mises à jour au Rôle Commercial pour information du client.
-
-### A6 - Dédouanement et livraison finale
-
-Le Rôle Logistique coordonne les opérations de dédouanement à destination, organise la livraison finale au client et s'assure du respect des conditions convenues.
-
-### A7 - Confirmation de livraison et clôture
-
-Le Rôle Logistique obtient la preuve de livraison (POD), confirme la bonne réception au Rôle Commercial et au client, archive les documents et clôture le dossier logistique.
+### Output Data
+- Shipment plan
+- Transport documents (BL, AWB, CMR, packing list)
+- Customs declarations
+- Proof of delivery (POD)
+- Customer receipt confirmation
 
 ---
 
-## 6. Diagramme swimlane
+## 5. Activity Description
+
+### A1 - Shipment Planning
+
+The Logistics Role receives validated order information and plans the shipment: mode of transport (sea, air, road, rail), timelines, volumes, special packaging, and handling requirements.
+
+### A2 - Freight Forwarder / Carrier Selection
+
+The Logistics Role selects the appropriate freight forwarder or carrier from qualified service providers, considering cost, timelines, reliability, and destination.
+
+### A3 - Documentation Preparation
+
+The Logistics Role prepares or coordinates the preparation of required documents: commercial invoice, packing list, certificate of origin, customs documents, bill of lading (BL), or air waybill (AWB).
+
+### A4 - Pickup and Loading Coordination
+
+The Logistics Role coordinates the pickup of goods from the supplier, ensures proper execution of the Loading Check (P04) where applicable, and confirms loading.
+
+### A5 - In-Transit Monitoring
+
+The Logistics Role provides real-time transport monitoring, manages contingencies (delays, damage, customs holds), and proactively communicates updates to the Commercial Role for customer information.
+
+### A6 - Customs Clearance and Final Delivery
+
+The Logistics Role coordinates customs clearance operations at destination, organizes final delivery to the customer, and ensures compliance with agreed conditions.
+
+### A7 - Delivery Confirmation and Closure
+
+The Logistics Role obtains the proof of delivery (POD), confirms successful receipt to the Commercial Role and the customer, archives documents, and closes the logistics file.
+
+---
+
+## 6. Swimlane Diagram
 
 ```
- PROCESSUS P03 - LOGISTIQUE ET LIVRAISON
+ PROCESS P04 - LOGISTICS AND DELIVERY
  ============================================================================
 
- Rôle                 | Flux des activités
+ Role                 | Activity Flow
  ============================================================================
                       |
- LOGISTIQUE           |  [A1 Planifier]    [A2 Sélectionner]   [A3 Préparer]
-                      |  l'expédition --->  transitaire/   ---> documentation
-                      |  (mode, délai,      transporteur        (BL, AWB,
-                      |   volumes)          qualifié             packing list)
+ LOGISTICS            |  [A1 Plan]         [A2 Select]          [A3 Prepare]
+                      |  the shipment ---> freight forwarder --> documentation
+                      |  (mode, timeline,  / carrier             (BL, AWB,
+                      |   volumes)         qualified              packing list)
                       |                                              |
                       |                                              v
-                      |                                    [A4 Coordonner]
-                      |                                    enlèvement et
-                      |                                    chargement
+                      |                                    [A4 Coordinate]
+                      |                                    pickup and
+                      |                                    loading
                       |                                         |
                       |                                         v
-                      |                                    [A5 Suivre]
-                      |                                    le transport
-                      |                                    en cours
+                      |                                    [A5 Monitor]
+                      |                                    in-transit
+                      |                                    transport
                       |                                         |
                       |                                         v
-                      |                                    [A6 Dédouaner]
-                      |                                    et livrer
+                      |                                    [A6 Clear customs]
+                      |                                    and deliver
                       |                                         |
                       |                                         v
-                      |                                    [A7 Confirmer]
-                      |                                    livraison et
-                      |                                    clôturer (POD)
+                      |                                    [A7 Confirm]
+                      |                                    delivery and
+                      |                                    close (POD)
                       |
  ============================================================================
                       |
- ACHATS               |  Transmettre les ---> Fournir les     Signaler
-                      |  informations        conditions       les aléas
-                      |  fournisseur         Incoterms        fournisseur
+ PURCHASING           |  Transmit       ---> Provide          Report
+                      |  supplier            Incoterms        supplier
+                      |  information         conditions       contingencies
                       |
  ============================================================================
                       |
- COMMERCIAL           |  Communiquer   ---> Informer le  ---> Confirmer
-                      |  les exigences      client sur le     au client la
-                      |  client (délai,     suivi transport   bonne réception
+ COMMERCIAL           |  Communicate   ---> Inform the   ---> Confirm
+                      |  customer           customer on       successful
+                      |  requirements       transport         receipt to
+                      |  (timeline,         tracking          the customer
                       |  destination)
                       |
  ============================================================================
                       |
- QUALITÉ              |  Libérer les marchandises après inspection (P04)
-                      |  Valider le Loading Check avant chargement
+ QUALITY              |  Release goods after inspection (P04)
+                      |  Validate Loading Check before loading
                       |
  ============================================================================
                       |
- TRANSITAIRE /        |  Exécuter le  ---> Gérer le    ---> Livrer au
- TRANSPORTEUR         |  transport         dédouanement     destinataire
-                      |                                     final
+ FREIGHT FORWARDER /  |  Execute the  ---> Handle        ---> Deliver to
+ CARRIER              |  transport         customs            final
+                      |                    clearance          recipient
                       |
  ============================================================================
 ```
 
 ---
 
-## 7. Interactions avec les autres processus
+## 7. Interactions with Other Processes
 
-| Processus              | Nature de l'interaction                                |
+| Process                | Nature of Interaction                                  |
 |------------------------|--------------------------------------------------------|
-| PM01 - Leadership        | Reporting performance logistique, budgets transport    |
-| P01 - Commercial       | Exigences client, communication suivi, confirmation    |
-| P02 - Achats           | Informations fournisseur, conditions d'enlèvement      |
-| P03 - Contrôle Qualité | Loading Check, libération des marchandises             |
-| PS01 - Gestion Documentaire | Archivage documents de transport                     |
+| PM01 - Leadership      | Logistics performance reporting, transport budgets     |
+| P01 - Commercial       | Customer requirements, tracking communication, confirmation |
+| P02 - Purchasing       | Supplier information, pickup conditions                |
+| P03 - Quality Control  | Loading Check, goods release                           |
+| PS01 - Document Management | Archiving of transport documents                    |
 
 ---
 
-## 8. Indicateurs de performance (KPI)
+## 8. Key Performance Indicators (KPI)
 
-| Indicateur                                | Formule / Méthode                              | Objectif       | Fréquence    |
-|-------------------------------------------|------------------------------------------------|----------------|--------------|
-| Taux de livraison dans les délais         | Livraisons à temps / Total livraisons x 100    | >= 95 %        | Mensuelle    |
-| Taux d'avaries transport                  | Livraisons avec avaries / Total livraisons x 100 | < 1 %        | Mensuelle    |
-| Délai moyen de transit                    | Somme des délais de transit / Nombre d'expéditions | Selon destination | Mensuelle |
-| Taux de complétude documentaire           | Dossiers complets / Total dossiers x 100       | 100 %          | Mensuelle    |
-| Coût logistique moyen par expédition      | Total coûts logistiques / Nombre d'expéditions | Tendance baisse | Trimestrielle |
-| Taux de réclamations liées au transport   | Réclamations transport / Total livraisons x 100 | < 2 %         | Mensuelle    |
+| Indicator                                 | Formula / Method                                   | Target         | Frequency    |
+|-------------------------------------------|---------------------------------------------------|----------------|--------------|
+| On-time delivery rate                     | On-time deliveries / Total deliveries x 100        | >= 95%         | Monthly      |
+| Transport damage rate                     | Deliveries with damage / Total deliveries x 100    | < 1%           | Monthly      |
+| Average transit time                      | Sum of transit times / Number of shipments          | Per destination | Monthly     |
+| Documentation completeness rate           | Complete files / Total files x 100                 | 100%           | Monthly      |
+| Average logistics cost per shipment       | Total logistics costs / Number of shipments        | Downward trend | Quarterly    |
+| Transport-related complaint rate          | Transport complaints / Total deliveries x 100      | < 2%           | Monthly      |
 
 ---
 
-## 9. Documents et enregistrements associés
+## 9. Associated Documents and Records
 
-| Code         | Intitulé                              | Type          |
+| Code         | Title                                 | Type          |
 |--------------|---------------------------------------|---------------|
-| PR-P04-LOG   | Procédure Logistique et Livraison    | Procédure     |
-| FM-P04-EXP   | Fiche d'expédition                    | Formulaire    |
-| FM-P04-SUI   | Tableau de suivi des expéditions      | Formulaire    |
-| EN-P04-POD   | Preuves de livraison                  | Enregistrement|
-| EN-P04-DOC   | Dossiers documentaires transport      | Enregistrement|
+| PR-P04-LOG   | Logistics and Delivery Procedure      | Procedure     |
+| FM-P04-EXP   | Shipment Form                         | Form          |
+| FM-P04-SUI   | Shipment Tracking Table               | Form          |
+| EN-P04-POD   | Proofs of Delivery                    | Record        |
+| EN-P04-DOC   | Transport Documentation Files         | Record        |
 
 ---
 
-## 10. Amélioration continue
+## 10. Continual Improvement
 
-L'amélioration du processus logistique s'appuie sur :
-- L'analyse des retards et de leurs causes racines
-- L'optimisation des routes et modes de transport
-- L'évaluation régulière des transitaires et transporteurs
-- La digitalisation du suivi des expéditions
-- Le retour d'expérience sur les incidents de transport
+Improvement of the logistics process is based on:
+- Analysis of delays and their root causes
+- Optimization of routes and transport modes
+- Regular evaluation of freight forwarders and carriers
+- Digitalization of shipment tracking
+- Lessons learned from transport incidents
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

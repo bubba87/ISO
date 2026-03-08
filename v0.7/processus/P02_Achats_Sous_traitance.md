@@ -1,203 +1,203 @@
-# P02 - Processus Achats et Sous-traitance
+# P02 - Purchasing and Subcontracting Process
 
-| **Processus**       | P02 - Achats et Sous-traitance                       |
+| **Process**         | P02 - Purchasing and Subcontracting                  |
 |----------------------|------------------------------------------------------|
-| **Type**            | Réalisation                                           |
-| **Pilote**          | Rôle Achats                                           |
+| **Type**            | Core                                                  |
+| **Owner**           | Purchasing Role                                       |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Référence**       | PR-P02-ACH                                            |
-| **Norme ISO 9001**  | Chapitres 8.4, 8.6                                   |
+| **Reference**       | PR-P02-ACH                                            |
+| **ISO 9001 Standard** | Clauses 8.4, 8.6                                   |
 
 ---
 
-## 1. Objet et domaine d'application
+## 1. Purpose and Scope
 
-Ce processus décrit les activités d'achat et de sous-traitance de **Plus Sàrl** pour ses opérations internationales de monitoring industriel et de sourcing. Il couvre la sélection, la qualification et l'évaluation des fournisseurs à travers le monde, ainsi que la gestion des commandes et la réception des produits/services.
-
----
-
-## 2. Références normatives
-
-- ISO 9001:2015, Chapitres 8.4 (Maîtrise des processus, produits et services fournis par des prestataires externes), 8.6 (Libération des produits et services)
-- Manuel Qualité Plus Sàrl (MQ-001)
+This process describes the purchasing and subcontracting activities of **Plus Sàrl** for its international industrial follow-up and sourcing operations. It covers the selection, qualification, and evaluation of suppliers worldwide, as well as order management and product/service receipt.
 
 ---
 
-## 3. Rôles et responsabilités
+## 2. Normative References
 
-| Rôle                        | Responsabilités principales                                          |
+- ISO 9001:2015, Clauses 8.4 (Control of Externally Provided Processes, Products and Services), 8.6 (Release of Products and Services)
+- Plus Sàrl Quality Manual (MQ-001)
+
+---
+
+## 3. Roles and Responsibilities
+
+| Role                        | Key Responsibilities                                                 |
 |-----------------------------|----------------------------------------------------------------------|
-| **Achats**                  | Sourcing, négociation, commandes, suivi fournisseurs                 |
-| **Qualité**                 | Qualification fournisseurs, audits, suivi des non-conformités        |
-| **Direction**               | Validation des fournisseurs stratégiques, budgets                    |
-| **Logistique**              | Coordination des réceptions et transports internationaux             |
-| **Fournisseur**             | Livraison conforme, respect de l'AQF, communication                 |
+| **Purchasing**              | Sourcing, negotiation, orders, supplier monitoring                   |
+| **Quality**                 | Supplier qualification, audits, non-conformity monitoring            |
+| **Executive Management**    | Validation of strategic suppliers, budgets                           |
+| **Logistics**               | Coordination of receipts and international transport                 |
+| **Supplier**                | Compliant delivery, adherence to SQA, communication                  |
 
 ---
 
-## 4. Données d'entrée et de sortie
+## 4. Input and Output Data
 
-### Données d'entrée
-- Besoins d'achat issus du processus P01 (Commercial)
-- Cahier des charges / spécifications techniques
-- Panel fournisseurs existant
-- Historique de performance fournisseurs
-- Exigences réglementaires applicables par pays
+### Input Data
+- Purchasing needs from process P01 (Commercial)
+- Specifications / technical requirements
+- Existing supplier panel
+- Supplier performance history
+- Applicable regulatory requirements by country
 
-### Données de sortie
-- Bons de commande validés
-- Accord Qualité Fournisseur (AQF) signé
-- Évaluation fournisseur (FM-P02-EVAL)
-- Panel fournisseurs mis à jour
-- Produits/services réceptionnés conformes
-
----
-
-## 5. Description des activités
-
-### A1 - Identification du besoin d'achat
-
-Le Rôle Achats réceptionne le besoin d'achat issu du processus P01 ou d'un besoin interne. Il vérifie la complétude des spécifications et identifie les sources d'approvisionnement potentielles à l'international.
-
-### A2 - Recherche et présélection de fournisseurs
-
-Le Rôle Achats identifie des fournisseurs potentiels sur les marchés internationaux, analyse leurs capacités et procède à une présélection sur la base de critères définis (capacité, certifications, localisation, références).
-
-### A3 - Qualification des fournisseurs
-
-Le Rôle Achats, en coordination avec le Rôle Qualité, procède à la qualification des fournisseurs présélectionnés : audit sur site ou à distance, vérification des certifications, évaluation des capacités de production, signature de l'Accord Qualité Fournisseur (FM-P02-AQF).
-
-### A4 - Consultation et négociation
-
-Le Rôle Achats lance les consultations auprès des fournisseurs qualifiés, compare les offres (prix, délais, conditions, Incoterms) et conduit les négociations.
-
-### A5 - Passation de commande
-
-Le Rôle Achats émet le bon de commande avec les spécifications complètes, les exigences qualité, les délais de livraison et les conditions logistiques (Incoterms, mode de transport).
-
-### A6 - Suivi de commande et relances
-
-Le Rôle Achats assure le suivi de l'exécution de la commande auprès du fournisseur, vérifie le respect des délais et déclenche les relances si nécessaire.
-
-### A7 - Réception et contrôle
-
-Le Rôle Achats coordonne avec le Rôle Logistique et le Rôle Qualité la réception des produits/services. Les contrôles définis par le processus P04 sont déclenchés (IPC, DUPRO, PSI, Loading Check selon le cas).
-
-### A8 - Évaluation périodique des fournisseurs
-
-Le Rôle Achats, en coordination avec le Rôle Qualité, procède à l'évaluation périodique des fournisseurs selon les critères pondérés définis dans FM-P02-EVAL. Les fournisseurs sont classés A/B/C et le panel est mis à jour.
+### Output Data
+- Approved purchase orders
+- Signed Supplier Quality Agreement (SQA)
+- Supplier evaluation (FM-P02-EVAL)
+- Updated supplier panel
+- Compliant products/services received
 
 ---
 
-## 6. Diagramme swimlane
+## 5. Activity Description
+
+### A1 - Identification of Purchasing Need
+
+The Purchasing Role receives the purchasing need from process P01 or from an internal requirement. It verifies the completeness of specifications and identifies potential international sourcing options.
+
+### A2 - Supplier Search and Shortlisting
+
+The Purchasing Role identifies potential suppliers in international markets, analyzes their capabilities, and proceeds with shortlisting based on defined criteria (capacity, certifications, location, references).
+
+### A3 - Supplier Qualification
+
+The Purchasing Role, in coordination with the Quality Role, proceeds with the qualification of shortlisted suppliers: on-site or remote audit, certification verification, production capacity assessment, and signature of the Supplier Quality Agreement (FM-P02-AQF).
+
+### A4 - Solicitation and Negotiation
+
+The Purchasing Role issues requests for quotation to qualified suppliers, compares offers (price, lead times, conditions, Incoterms), and conducts negotiations.
+
+### A5 - Order Placement
+
+The Purchasing Role issues the purchase order with complete specifications, quality requirements, delivery timelines, and logistics conditions (Incoterms, mode of transport).
+
+### A6 - Order Tracking and Follow-up
+
+The Purchasing Role monitors order execution with the supplier, verifies compliance with deadlines, and initiates follow-up actions as necessary.
+
+### A7 - Receipt and Inspection
+
+The Purchasing Role coordinates with the Logistics Role and the Quality Role for product/service receipt. Inspections defined by process P04 are initiated (IPC, DUPRO, PSI, Loading Check as applicable).
+
+### A8 - Periodic Supplier Evaluation
+
+The Purchasing Role, in coordination with the Quality Role, conducts periodic supplier evaluations based on weighted criteria defined in FM-P02-EVAL. Suppliers are classified A/B/C and the panel is updated.
+
+---
+
+## 6. Swimlane Diagram
 
 ```
- PROCESSUS P02 - ACHATS ET SOUS-TRAITANCE
+ PROCESS P02 - PURCHASING AND SUBCONTRACTING
  ============================================================================
 
- Rôle                 | Flux des activités
+ Role                 | Activity Flow
  ============================================================================
                       |
- ACHATS               |  [A1 Identifier]   [A2 Rechercher]   [A4 Consulter]
-                      |  le besoin    --->  et présélec-  --> et négocier
-                      |  d'achat            tionner            les offres
+ PURCHASING           |  [A1 Identify]     [A2 Search]        [A4 Solicit]
+                      |  the purchasing --> and shortlist  --> and negotiate
+                      |  need               suppliers          offers
                       |      |              fournisseurs           |
                       |      |                   |                 v
-                      |      |                   v           [A5 Passer]
-                      |      |              [A3 Qualifier]   la commande
-                      |      |              fournisseurs     (BC + specs)
-                      |      |              (avec Qualité)        |
+                      |      |                   v           [A5 Place]
+                      |      |              [A3 Qualify]     the order
+                      |      |              suppliers        (PO + specs)
+                      |      |              (with Quality)        |
                       |      |                   |                 v
-                      |      |                   v           [A6 Suivre]
-                      |      |              Signer AQF       la commande
-                      |      |              (FM-P02-AQF)     et relancer
+                      |      |                   v           [A6 Track]
+                      |      |              Sign SQA         the order
+                      |      |              (FM-P02-AQF)     and follow up
                       |      |                                    |
                       |      |                                    v
-                      |      |                              [A7 Réceptionner]
-                      |      |                              et contrôler
+                      |      |                              [A7 Receive]
+                      |      |                              and inspect
                       |      |                                    |
                       |      |                                    v
-                      |      +----------------------------->[A8 Évaluer]
-                      |                                     les fournisseurs
+                      |      +----------------------------->[A8 Evaluate]
+                      |                                     suppliers
                       |                                     (FM-P02-EVAL)
-                      |                                     Classement A/B/C
+                      |                                     Classification A/B/C
                       |
  ============================================================================
                       |
- QUALITÉ              |  Participer à  ---> Auditer les  ---> Contrôler à
-                      |  la qualification    fournisseurs      réception
-                      |  (critères)          (sur site ou      (P04)
-                      |                      à distance)
+ QUALITY              |  Participate in --> Audit          --> Inspect at
+                      |  qualification      suppliers          receipt
+                      |  (criteria)         (on-site or        (P04)
+                      |                     remote)
                       |
  ============================================================================
                       |
- DIRECTION            |  Valider les fournisseurs stratégiques
-                      |  Approuver les budgets d'achat
+ EXECUTIVE            |  Validate strategic suppliers
+ MANAGEMENT           |  Approve purchasing budgets
                       |
  ============================================================================
                       |
- LOGISTIQUE           |  Coordonner le ---> Organiser la ---> Confirmer
-                      |  transport          réception         la réception
-                      |  international      des produits
+ LOGISTICS            |  Coordinate    --> Organize       --> Confirm
+                      |  international     product            receipt
+                      |  transport         receipt
                       |
  ============================================================================
                       |
- FOURNISSEUR          |  Répondre aux ---> Signer    ---> Livrer     ---> Traiter
-                      |  consultations     l'AQF          conforme        les NC
+ SUPPLIER             |  Respond to    --> Sign         --> Deliver      --> Handle
+                      |  solicitations     SQA              in compliance    NCs
                       |
  ============================================================================
 ```
 
 ---
 
-## 7. Interactions avec les autres processus
+## 7. Interactions with Other Processes
 
-| Processus              | Nature de l'interaction                                |
+| Process                | Nature of Interaction                                  |
 |------------------------|--------------------------------------------------------|
-| PM01 - Leadership        | Validation stratégie achats, budgets                   |
-| P01 - Commercial       | Réception des besoins clients, retour faisabilité      |
-| P04 - Logistique       | Coordination transport et réception internationale     |
-| P03 - Contrôle Qualité | Inspections à la source, contrôle réception            |
-| PS01 - Gestion Documentaire | Archivage AQF, évaluations, commandes               |
+| PM01 - Leadership      | Purchasing strategy validation, budgets                |
+| P01 - Commercial       | Receipt of customer needs, feasibility feedback        |
+| P04 - Logistics        | International transport and receipt coordination       |
+| P03 - Quality Control  | Source inspections, receipt inspection                  |
+| PS01 - Document Management | Archiving of SQAs, evaluations, orders              |
 
 ---
 
-## 8. Indicateurs de performance (KPI)
+## 8. Key Performance Indicators (KPI)
 
-| Indicateur                                | Formule / Méthode                              | Objectif       | Fréquence    |
-|-------------------------------------------|------------------------------------------------|----------------|--------------|
-| Taux de conformité des livraisons         | Livraisons conformes / Total livraisons x 100  | >= 95 %        | Mensuelle    |
-| Taux de respect des délais fournisseurs   | Livraisons à temps / Total livraisons x 100    | >= 90 %        | Mensuelle    |
-| Nombre de fournisseurs qualifiés          | Comptage des fournisseurs classés A ou B       | Tendance hausse | Semestrielle |
-| Taux de non-conformités fournisseurs      | NC fournisseurs / Total réceptions x 100       | < 5 %          | Mensuelle    |
-| Délai moyen de traitement des commandes   | Somme des délais / Nombre de commandes         | < 5 jours      | Mensuelle    |
-| Taux de réalisation des évaluations       | Évaluations réalisées / Évaluations planifiées | 100 %          | Annuelle     |
+| Indicator                                 | Formula / Method                                   | Target         | Frequency    |
+|-------------------------------------------|---------------------------------------------------|----------------|--------------|
+| Delivery conformity rate                  | Compliant deliveries / Total deliveries x 100      | >= 95%         | Monthly      |
+| Supplier on-time delivery rate            | On-time deliveries / Total deliveries x 100        | >= 90%         | Monthly      |
+| Number of qualified suppliers             | Count of suppliers classified A or B               | Upward trend   | Semi-annual  |
+| Supplier non-conformity rate              | Supplier NCs / Total receipts x 100                | < 5%           | Monthly      |
+| Average order processing time             | Sum of lead times / Number of orders               | < 5 days       | Monthly      |
+| Evaluation completion rate                | Evaluations completed / Evaluations planned        | 100%           | Annual       |
 
 ---
 
-## 9. Documents et enregistrements associés
+## 9. Associated Documents and Records
 
-| Code         | Intitulé                              | Type          |
+| Code         | Title                                 | Type          |
 |--------------|---------------------------------------|---------------|
-| PR-P02-ACH   | Procédure Achats et Sous-traitance   | Procédure     |
-| FM-P02-AQF   | Accord Qualité Fournisseur           | Formulaire    |
-| FM-P02-EVAL  | Évaluation Fournisseur               | Formulaire    |
-| FM-P02-BC    | Bon de commande                       | Formulaire    |
-| EN-P02-PAN   | Panel Fournisseurs                    | Enregistrement|
+| PR-P02-ACH   | Purchasing and Subcontracting Procedure | Procedure   |
+| FM-P02-AQF   | Supplier Quality Agreement            | Form          |
+| FM-P02-EVAL  | Supplier Evaluation                   | Form          |
+| FM-P02-BC    | Purchase Order                        | Form          |
+| EN-P02-PAN   | Supplier Panel                        | Record        |
 
 ---
 
-## 10. Amélioration continue
+## 10. Continual Improvement
 
-L'amélioration du processus achats s'appuie sur :
-- L'analyse des évaluations fournisseurs et des tendances
-- Le suivi des non-conformités d'origine fournisseur
-- L'optimisation des délais et coûts d'approvisionnement
-- La diversification géographique du panel fournisseurs
-- Le retour d'expérience des inspections (P04)
+Improvement of the purchasing process is based on:
+- Analysis of supplier evaluations and trends
+- Monitoring of supplier-related non-conformities
+- Optimization of lead times and procurement costs
+- Geographic diversification of the supplier panel
+- Feedback from inspections (P04)
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

@@ -1,193 +1,193 @@
-# Chaîne Processus - CHAIN-04 : Commande Sourcing
+# Process Chain - CHAIN-04: Sourcing Order
 
 | **Document**       | CHAIN-04_Commande_Sourcing                   |
 |--------------------|----------------------------------------------|
 | **Version**        | v0.7                                         |
 | **Date**           | 2026-03-04                                   |
-| **Classification** | Interne                                      |
-| **Statut**         | **Active**                                   |
-| **Processus**      | Chaîne Processus - Réalisation               |
-| **Rédaction**      | Rôle Qualité                                 |
-| **Approbation**    | Direction                                    |
+| **Classification** | Internal                                     |
+| **Status**         | **Active**                                   |
+| **Process**        | Process Chain - Realization                  |
+| **Drafted by**     | QUALITY                                      |
+| **Approved by**    | Management                                   |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Ce document décrit la chaîne processus pour le traitement d'une **commande nécessitant une phase de sourcing**. Cette chaîne reprend la structure en 8 blocs de la CHAIN-01 (Produit Existant) avec des adaptations spécifiques liées à la recherche, l'évaluation et la qualification d'un nouveau fournisseur.
-
----
-
-## 2. Domaine d'application
-
-Cette chaîne s'applique à toute commande client pour laquelle aucun fournisseur qualifié n'est encore référencé pour le produit demandé. La recherche de fournisseurs s'effectue à l'échelle mondiale, indépendamment de la localisation géographique.
+This document describes the process chain for handling an **order requiring a sourcing phase**. This chain follows the 8-block structure of CHAIN-01 (Existing Product) with specific adaptations related to the search, evaluation, and qualification of a new supplier.
 
 ---
 
-## 3. Spécificités de la chaîne « Sourcing »
+## 2. Scope
 
-| Caractéristique                  | Description                                                                          |
+This chain applies to any customer order for which no qualified supplier is yet referenced for the requested product. Supplier search is conducted on a worldwide scale, regardless of geographic location.
+
+---
+
+## 3. Specifics of the "Sourcing" Chain
+
+| Characteristic                   | Description                                                                          |
 |----------------------------------|--------------------------------------------------------------------------------------|
-| Phase de développement           | Variable — selon que le produit existe ou nécessite un développement                  |
-| Évaluation fournisseur           | À réaliser — recherche, évaluation et qualification d'un nouveau fournisseur          |
-| Outillage                        | Variable — selon le fournisseur identifié (existant, à modifier ou à créer)           |
-| Délai de réalisation             | Le plus long — inclut la phase de sourcing, qualification et validation               |
-| Inspection                       | Contrôle qualité renforcé — première production avec un nouveau fournisseur           |
-| Qualification fournisseur        | Audit fournisseur, évaluation capacités, échantillons de validation                   |
+| Development phase                | Variable — depending on whether the product exists or requires development            |
+| Supplier evaluation              | To be performed — search, evaluation, and qualification of a new supplier             |
+| Tooling                          | Variable — depending on the identified supplier (existing, to modify, or to create)   |
+| Lead time                        | Longest — includes sourcing, qualification, and validation phases                     |
+| Inspection                       | Enhanced quality control — first production with a new supplier                       |
+| Supplier qualification           | Supplier audit, capability assessment, validation samples                             |
 
 ---
 
-## 4. Lignes processus
+## 4. Process Lines
 
-| Code | Ligne             | Rôle pilote          | Fonction principale                              |
+| Code | Line              | Lead Role            | Main Function                                    |
 |------|-------------------|----------------------|--------------------------------------------------|
-| 01   | SALES             | Rôle Commercial      | Gestion commerciale, relation client, facturation |
-| 02   | MANUFACTURE       | Rôle Achats          | Coordination fournisseurs, suivi de production    |
-| 03   | DELIVERY          | Rôle Logistique      | Transport, livraison, douane                      |
-| 04   | QUALITY           | Rôle Qualité         | Contrôle conformité, validation qualité           |
+| 01   | SALES             | SALES                | Commercial management, customer relations, invoicing |
+| 02   | MANUFACTURE       | MANUFACTURE          | Supplier coordination, production monitoring      |
+| 03   | DELIVERY          | DELIVERY             | Transport, delivery, customs                      |
+| 04   | QUALITY           | QUALITY              | Compliance control, quality validation            |
 
 ---
 
-## 5. Phase de sourcing et qualification fournisseur
+## 5. Sourcing and Supplier Qualification Phase
 
-| Étape                          | Description                                                            | Responsable       |
-|--------------------------------|------------------------------------------------------------------------|--------------------|
-| Analyse du besoin              | Définition des exigences techniques, volumes, délais                   | Rôle Commercial    |
-| Recherche fournisseurs         | Identification de fournisseurs potentiels à l'échelle mondiale         | Rôle Achats        |
-| Demande de devis               | Envoi du cahier des charges, collecte des offres                       | Rôle Achats        |
-| Évaluation comparative         | Analyse qualité, coût, délai, capacité de production                   | Rôle Achats        |
-| Audit fournisseur              | Visite sur site, évaluation du système qualité fournisseur             | Rôle Qualité       |
-| Échantillons de validation     | Demande et contrôle d'échantillons initiaux                            | Rôle Qualité       |
-| Qualification fournisseur      | Décision de référencement, mise à jour du panel fournisseurs           | Rôle Achats        |
-| Validation direction           | Approbation finale du nouveau fournisseur par la direction             | Direction          |
+| Step                             | Description                                                            | Owner              |
+|----------------------------------|------------------------------------------------------------------------|--------------------|
+| Requirements analysis            | Definition of technical requirements, volumes, lead times              | SALES              |
+| Supplier search                  | Identification of potential suppliers worldwide                        | MANUFACTURE        |
+| Request for quotation            | Sending of specifications, collection of offers                        | MANUFACTURE        |
+| Comparative evaluation           | Quality, cost, lead time, production capacity analysis                 | MANUFACTURE        |
+| Supplier audit                   | On-site visit, evaluation of supplier quality system                   | QUALITY            |
+| Validation samples               | Request and control of initial samples                                 | QUALITY            |
+| Supplier qualification           | Referencing decision, supplier panel update                            | MANUFACTURE        |
+| Management approval              | Final approval of the new supplier by management                       | Management         |
 
 ---
 
-## 6. Critères de sélection fournisseur et processus d'audit
+## 6. Supplier Selection Criteria and Audit Process
 
-### 6.1 Grille de critères de sélection
+### 6.1 Selection Criteria Grid
 
-| Critère                  | Pondération | Description                                                                 |
+| Criterion                | Weighting   | Description                                                                 |
 |--------------------------|-------------|-----------------------------------------------------------------------------|
-| Qualité                  | 25 %        | Système qualité, certifications (ISO 9001, IATF, etc.), historique qualité  |
-| Coût                     | 20 %        | Compétitivité des prix, transparence de la structure de coûts               |
-| Délai                    | 20 %        | Capacité à respecter les délais demandés, réactivité                        |
-| Capacité de production   | 15 %        | Moyens de production, capacité à absorber les volumes demandés              |
-| Certifications           | 10 %        | Certifications spécifiques au secteur, normes environnementales             |
-| RSE                      | 10 %        | Responsabilité sociétale, conditions de travail, impact environnemental     |
+| Quality                  | 25%         | Quality system, certifications (ISO 9001, IATF, etc.), quality track record |
+| Cost                     | 20%         | Price competitiveness, cost structure transparency                           |
+| Lead time                | 20%         | Ability to meet requested deadlines, responsiveness                          |
+| Production capacity      | 15%         | Production capabilities, ability to handle requested volumes                 |
+| Certifications           | 10%         | Sector-specific certifications, environmental standards                      |
+| CSR                      | 10%         | Corporate social responsibility, working conditions, environmental impact    |
 
 ### 6.2 Qualification
 
-- **Score minimum pour qualification** : 70/100
-- Le score est calculé sur la base de la grille de critères ci-dessus, chaque critère étant noté sur 100 puis pondéré.
-- Un fournisseur n'atteignant pas le score minimum ne peut pas être référencé sauf dérogation validée par la Direction.
+- **Minimum score for qualification**: 70/100
+- The score is calculated based on the criteria grid above, with each criterion rated out of 100 then weighted.
+- A supplier not reaching the minimum score cannot be referenced unless a waiver is approved by Management.
 
-### 6.3 Processus d'audit
+### 6.3 Audit Process
 
-- **Audit sur site obligatoire** pour toute commande dont le montant dépasse le seuil défini par la Direction.
-- L'audit couvre : système qualité, moyens de production, gestion des non-conformités, traçabilité, conditions de travail.
-- Un rapport d'audit est formalisé et archivé. Les écarts identifiés font l'objet d'un plan d'actions correctives avec suivi.
-- Pour les commandes en dessous du seuil, un audit documentaire à distance peut être accepté sous validation du Rôle Qualité.
+- **On-site audit mandatory** for any order exceeding the threshold defined by Management.
+- The audit covers: quality system, production capabilities, non-conformity management, traceability, working conditions.
+- An audit report is formalized and archived. Identified gaps are subject to a corrective action plan with follow-up.
+- For orders below the threshold, a remote documentary audit may be accepted subject to QUALITY approval.
 
 ---
 
-## 7. Adaptations par bloc par rapport à CHAIN-01
+## 7. Adaptations per Block Compared to CHAIN-01
 
-| Bloc   | Intitulé                        | Adaptations par rapport à CHAIN-01                                                                          |
+| Block  | Title                           | Adaptations Compared to CHAIN-01                                                                          |
 |--------|---------------------------------|-------------------------------------------------------------------------------------------------------------|
-| BLOC 1 | Réception commande              | Identification du type de commande : sourcing requis, analyse préliminaire du besoin                         |
-| BLOC 2 | Fiche de commande               | Mention « sourcing en cours », cahier des charges technique complet                                          |
-| BLOC 3 | Fiche de transport              | Délais prévisionnels à ajuster selon résultat du sourcing, mise en place des nouveaux circuits logistiques avec le fournisseur retenu, vérification des contraintes douanières spécifiques au pays d'origine |
-| BLOC 4 | Étude technique fournisseurs    | Phase de sourcing complète : recherche, évaluation, audit, qualification, puis étude technique standard      |
-| BLOC 5 | Validation de commande          | AR incluant le résultat du sourcing, présentation du fournisseur retenu, planning prévisionnel               |
-| BLOC 6 | Production et qualité           | Première production avec nouveau fournisseur, contrôle qualité renforcé, PPAP si applicable                  |
-| BLOC 7 | Livraison & Douane              | Mise en place des circuits logistiques avec le nouveau fournisseur, test du circuit logistique sur première expédition, documentation complète pour nouveau corridor d'approvisionnement, vérification des procédures douanières spécifiques |
-| BLOC 8 | Acceptation marchandise         | Contrôle renforcé première livraison, retour d'expérience, mise à jour évaluation fournisseur                |
+| BLOCK 1| Order reception                 | Identification of order type: sourcing required, preliminary requirements analysis                           |
+| BLOCK 2| Order sheet                     | Mention "sourcing in progress," complete technical specifications                                            |
+| BLOCK 3| Transport sheet                 | Provisional lead times to be adjusted based on sourcing results, setup of new logistics routes with the selected supplier, verification of customs constraints specific to the country of origin |
+| BLOCK 4| Technical study with suppliers  | Complete sourcing phase: search, evaluation, audit, qualification, then standard technical study              |
+| BLOCK 5| Order validation                | AR including sourcing results, presentation of the selected supplier, provisional schedule                    |
+| BLOCK 6| Production and quality          | First production with new supplier, enhanced quality control, PPAP if applicable                              |
+| BLOCK 7| Delivery & Customs              | Setup of logistics routes with the new supplier, logistics route testing on first shipment, complete documentation for new supply corridor, verification of specific customs procedures |
+| BLOCK 8| Goods acceptance                | Enhanced control on first delivery, lessons learned, supplier evaluation update                                |
 
 ---
 
-## 8. Vue d'ensemble des blocs
+## 8. Overview of the Blocks
 
 ```
-           ┌──────────────────────────────┐
-           │  PHASE PRÉALABLE : SOURCING  │
-           │  Recherche & Qualification   │
-           │  fournisseur                 │
-           └──────────────┬───────────────┘
-                          ▼
-BLOC 1          BLOC 2          BLOC 3          BLOC 4
-Réception       Fiche de        Fiche de        Étude technique
-commande        commande        transport       fournisseurs
+           +------------------------------+
+           |  PRELIMINARY PHASE: SOURCING |
+           |  Supplier Search &           |
+           |  Qualification               |
+           +--------------+---------------+
+                          v
+BLOCK 1         BLOCK 2         BLOCK 3         BLOCK 4
+Order           Order           Transport       Technical Study
+Reception       Sheet           Sheet           with Suppliers
 [01 SALES]      [01 SALES]      [03 DELIVERY]   [02 MANUFACTURE]
-    │               │               │               │
-    ▼               ▼               ▼               ▼
-BLOC 5          BLOC 6          BLOC 7          BLOC 8
-Validation      Production      Livraison       Acceptation
-commande        & Qualité       & Douane        marchandise
+    |               |               |               |
+    v               v               v               v
+BLOCK 5         BLOCK 6         BLOCK 7         BLOCK 8
+Order           Production      Delivery        Goods
+Validation      & Quality       & Customs       Acceptance
 [01 SALES]      [02 MANUF.      [03 DELIVERY    [04 QUALITY
                  04 QUALITY]     01 SALES]        01 SALES]
 ```
 
 ---
 
-## 9. Matrice de responsabilité (RACI)
+## 9. Responsibility Matrix (RACI)
 
-| Bloc   | Rôle Commercial | Rôle Achats | Rôle Logistique | Rôle Qualité |
+| Block  | SALES           | MANUFACTURE | DELIVERY        | QUALITY      |
 |--------|-----------------|-------------|-----------------|--------------|
-| BLOC 1 | R/A             | I           | I               | I            |
-| BLOC 2 | R/A             | C           | I               | C            |
-| BLOC 3 | I               | C           | R/A             | I            |
-| BLOC 4 | I               | R/A         | I               | C            |
-| BLOC 5 | R/A             | C           | C               | C            |
-| BLOC 6 | I               | R/A         | I               | R/A          |
-| BLOC 7 | R               | I           | R/A             | I            |
-| BLOC 8 | R               | I           | I               | R/A          |
+| BLOCK 1| R/A             | I           | I               | I            |
+| BLOCK 2| R/A             | C           | I               | C            |
+| BLOCK 3| I               | C           | R/A             | I            |
+| BLOCK 4| I               | R/A         | I               | C            |
+| BLOCK 5| R/A             | C           | C               | C            |
+| BLOCK 6| I               | R/A         | I               | R/A          |
+| BLOCK 7| R               | I           | R/A             | I            |
+| BLOCK 8| R               | I           | I               | R/A          |
 
-**Légende** : R = Réalise, A = Approuve, C = Consulté, I = Informé
-
----
-
-## 10. Indicateurs de performance (KPI)
-
-| KPI                                            | Objectif                  | Fréquence de mesure | Responsable       |
-|------------------------------------------------|---------------------------|---------------------|--------------------|
-| Délai moyen de sourcing et qualification        | ≤ délai contractuel       | Par commande        | Rôle Achats        |
-| Nombre de fournisseurs évalués par sourcing     | ≥ 3                       | Par commande        | Rôle Achats        |
-| Taux de conformité échantillons initiaux        | ≥ 90 %                   | Par commande        | Rôle Qualité       |
-| Taux de qualification au premier audit          | ≥ 70 %                   | Semestrielle        | Rôle Qualité       |
-| Taux de réclamations clients                    | ≤ 3 %                    | Mensuelle           | Rôle Commercial    |
-| Respect des délais fournisseurs                 | ≥ 90 %                   | Mensuelle           | Rôle Achats        |
+**Legend**: R = Responsible, A = Approver, C = Consulted, I = Informed
 
 ---
 
-## 11. Documents associés
+## 10. Key Performance Indicators (KPI)
 
-| Référence   | Document                                          |
+| KPI                                            | Target                    | Measurement Frequency | Owner              |
+|------------------------------------------------|---------------------------|----------------------|--------------------|
+| Average sourcing and qualification lead time    | ≤ contractual deadline    | Per order            | MANUFACTURE        |
+| Number of suppliers evaluated per sourcing      | ≥ 3                       | Per order            | MANUFACTURE        |
+| Initial sample conformity rate                  | ≥ 90%                    | Per order            | QUALITY            |
+| Qualification rate at first audit               | ≥ 70%                    | Semi-annual          | QUALITY            |
+| Customer complaint rate                         | ≤ 3%                     | Monthly              | SALES              |
+| Supplier deadline compliance                    | ≥ 90%                    | Monthly              | MANUFACTURE        |
+
+---
+
+## 11. Associated Documents
+
+| Reference   | Document                                          |
 |-------------|---------------------------------------------------|
-| CHAIN-01    | Chaîne Processus — Commande Produit Existant      |
-| CHAIN-02    | Chaîne Processus — Modification d'Outillage       |
-| CHAIN-03    | Chaîne Processus — Nouvel Outillage               |
-| CH-BLOC-001 à CH-BLOC-008 | Fiches détail des blocs (référence CHAIN-01) |
+| CHAIN-01    | Process Chain — Existing Product Order             |
+| CHAIN-02    | Process Chain — Tooling Modification               |
+| CHAIN-03    | Process Chain — New Tooling                        |
+| CH-BLOC-001 to CH-BLOC-008 | Block detail sheets (CHAIN-01 reference) |
 
 ---
 
-## 12. Complétude du document
+## 12. Document Completeness
 
-> Toutes les sections de ce document ont été complétées en v0.7.
+> All sections of this document have been completed in v0.7.
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                                        |
+| ISO 9001:2015 Clause | Requirement                                                     |
 |-----------------------|-----------------------------------------------------------------|
-| 8.1                   | Planification et maîtrise opérationnelles                        |
-| 8.4                   | Maîtrise des processus, produits et services externalisés        |
-| 8.4.1                 | Généralités — type et étendue de la maîtrise                    |
-| 8.4.2                 | Type et étendue de la maîtrise                                   |
-| 8.4.3                 | Informations à l'attention des prestataires externes             |
+| 8.1                   | Operational planning and control                                 |
+| 8.4                   | Control of externally provided processes, products and services  |
+| 8.4.1                 | General — type and extent of control                             |
+| 8.4.2                 | Type and extent of control                                       |
+| 8.4.3                 | Information for external providers                               |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

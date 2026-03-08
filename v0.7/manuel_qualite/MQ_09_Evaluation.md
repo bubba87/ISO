@@ -1,240 +1,240 @@
-# Manuel Qualité - Chapitre 9 : Évaluation des performances
+# Quality Manual - Chapter 9: Performance Evaluation
 
 | **Document**       | MQ_09_Evaluation                         |
 |--------------------|------------------------------------------|
 | **Version**        | v0.7                                     |
 | **Date**           | 2026-03-04                               |
-| **Classification** | Interne                                  |
-| **Processus**      | PM01 - Pilotage stratégique              |
-| **Rédaction**      | Rôle Qualité                             |
-| **Approbation**    | Direction                                |
+| **Classification** | Internal                                 |
+| **Process**        | PM01 - Strategic management              |
+| **Drafted by**     | Quality Role                             |
+| **Approved by**    | Management                               |
 
 ---
 
-## 9.1 Surveillance, mesure, analyse et évaluation
+## 9.1 Monitoring, measurement, analysis and evaluation
 
-### 9.1.1 Généralités
+### 9.1.1 General
 
-Plus Sàrl détermine :
+Plus Sàrl determines:
 
-- Ce qu'il est nécessaire de surveiller et mesurer
-- Les méthodes de surveillance, de mesure, d'analyse et d'évaluation
-- Le moment auquel la surveillance et la mesure doivent être effectuées
-- Le moment auquel les résultats de la surveillance et de la mesure doivent être analysés et évalués
+- What needs to be monitored and measured
+- The methods for monitoring, measurement, analysis, and evaluation
+- When monitoring and measurement shall be performed
+- When the results of monitoring and measurement shall be analyzed and evaluated
 
-### 9.1.2 Satisfaction du client
+### 9.1.2 Customer satisfaction
 
-#### Méthodes de mesure de la satisfaction
+#### Satisfaction measurement methods
 
-| Méthode                              | Description                                                      | Fréquence     | Responsable       |
+| Method                               | Description                                                      | Frequency     | Responsible       |
 |--------------------------------------|------------------------------------------------------------------|---------------|-------------------|
-| Enquête de satisfaction              | Questionnaire structuré (échelle 1-10) couvrant qualité, délais, communication, service global | Semestrielle | Rôle Commercial |
-| Analyse des réclamations             | Suivi et catégorisation des réclamations reçues                  | Continue      | Rôle Commercial / Rôle Qualité |
-| Taux de fidélisation                 | Suivi des clients récurrents et des volumes de commandes (sur 12 mois glissants) | Annuelle | Rôle Commercial   |
-| Retours informels                    | Collecte des commentaires lors des échanges quotidiens           | Continue      | Rôle Commercial   |
+| Satisfaction survey                  | Structured questionnaire (1-10 scale) covering quality, timelines, communication, overall service | Semi-annual | Commercial Role |
+| Complaint analysis                   | Tracking and categorization of complaints received               | Ongoing       | Commercial Role / Quality Role |
+| Retention rate                       | Tracking of recurring customers and order volumes (over rolling 12 months) | Annual    | Commercial Role   |
+| Informal feedback                    | Collection of comments during daily interactions                 | Ongoing       | Commercial Role   |
 
-#### Grille d'enquête de satisfaction
+#### Satisfaction survey grid
 
-| Critère évalué                       | Échelle      | Pondération |
+| Criterion assessed                   | Scale       | Weighting   |
 |--------------------------------------|-------------|-------------|
-| Qualité des produits livrés          | 1 à 10      | 30%         |
-| Respect des délais                   | 1 à 10      | 25%         |
-| Qualité de la communication          | 1 à 10      | 20%         |
-| Réactivité face aux problèmes        | 1 à 10      | 15%         |
-| Rapport qualité/prix                 | 1 à 10      | 10%         |
+| Quality of delivered products        | 1 to 10     | 30%         |
+| On-time delivery                     | 1 to 10     | 25%         |
+| Communication quality                | 1 to 10     | 20%         |
+| Responsiveness to issues             | 1 to 10     | 15%         |
+| Value for money                      | 1 to 10     | 10%         |
 
-#### Traitement des résultats
+#### Results handling
 
-| Résultat                             | Action                                                           |
+| Result                               | Action                                                           |
 |--------------------------------------|------------------------------------------------------------------|
-| Note moyenne >= 8/10                 | Maintien des pratiques, identification des bonnes pratiques       |
-| Note moyenne 6-7.9/10               | Analyse des axes d'amélioration, plan d'action correctif         |
-| Note moyenne < 6/10                  | Alerte Direction, plan d'action prioritaire, contact client immédiat |
+| Average score >= 8/10                | Maintain current practices, identify best practices              |
+| Average score 6-7.9/10              | Analyze areas for improvement, corrective action plan            |
+| Average score < 6/10                | Management alert, priority action plan, immediate customer contact |
 
 ---
 
-### 9.1.3 Indicateurs de performance par processus
+### 9.1.3 Performance indicators by process
 
-#### Processus P01 - Gestion commerciale
+#### Process P01 - Commercial management
 
-| Indicateur                          | Formule / Méthode                        | Cible         | Fréquence     | Responsable       |
+| Indicator                            | Formula / Method                         | Target        | Frequency     | Responsible       |
 |--------------------------------------|------------------------------------------|---------------|---------------|-------------------|
-| Taux de conversion des offres        | Commandes / Offres émises (%)            | >= 30%        | Mensuelle     | Rôle Commercial   |
-| Délai moyen de réponse aux demandes  | Moyenne des délais de réponse (jours)    | <= 2 jours    | Mensuelle     | Rôle Commercial   |
-| Nombre de réclamations clients       | Comptage des réclamations                | Tendance à la baisse | Trimestrielle | Rôle Commercial |
-| Taux de fidélisation clients         | Clients récurrents / Clients totaux (%) sur 12 mois glissants | >= 70% | Annuelle | Rôle Commercial |
+| Offer conversion rate                | Orders / Offers issued (%)               | >= 30%        | Monthly       | Commercial Role   |
+| Average response time to inquiries   | Average response time (days)             | <= 2 days     | Monthly       | Commercial Role   |
+| Number of customer complaints        | Complaint count                          | Downward trend| Quarterly     | Commercial Role   |
+| Customer retention rate              | Recurring customers / Total customers (%) over rolling 12 months | >= 70% | Annual | Commercial Role |
 
-#### Processus P02 - Achats et sourcing
+#### Process P02 - Purchasing and sourcing
 
-| Indicateur                          | Formule / Méthode                        | Cible         | Fréquence     | Responsable       |
+| Indicator                            | Formula / Method                         | Target        | Frequency     | Responsible       |
 |--------------------------------------|------------------------------------------|---------------|---------------|-------------------|
-| Taux de fournisseurs classe A        | Fournisseurs A / Fournisseurs actifs (%) | >= 60%        | Semestrielle  | Rôle Achats       |
-| Nombre de nouveaux fournisseurs qualifiés | Comptage                            | >= 4/an       | Annuelle      | Rôle Achats       |
-| Taux de NC fournisseurs              | NC fournisseurs / Commandes (%)          | <= 5%         | Trimestrielle | Rôle Qualité      |
-| Délai moyen de qualification         | Durée moyenne du processus AQF (jours)   | <= 30 jours   | Semestrielle  | Rôle Achats       |
+| Percentage of Class A suppliers      | Class A suppliers / Active suppliers (%) | >= 60%        | Semi-annual   | Purchasing Role   |
+| Number of newly qualified suppliers  | Count                                    | >= 4/year     | Annual        | Purchasing Role   |
+| Supplier NC rate                     | Supplier NCs / Orders (%)                | <= 5%         | Quarterly     | Quality Role      |
+| Average qualification lead time      | Average SQA process duration (days)      | <= 30 days    | Semi-annual   | Purchasing Role   |
 
-#### Processus P03 - Contrôle qualité et monitoring
+#### Process P03 - Quality control and monitoring
 
-| Indicateur                          | Formule / Méthode                        | Cible         | Fréquence     | Responsable       |
+| Indicator                            | Formula / Method                         | Target        | Frequency     | Responsible       |
 |--------------------------------------|------------------------------------------|---------------|---------------|-------------------|
-| Taux d'inspections réalisées         | Inspections effectuées / planifiées (%)  | >= 95%        | Mensuelle     | Rôle Qualité      |
-| Taux d'acceptation à la première inspection | Lots acceptés 1ère fois / Total lots (%) | >= 85% | Mensuelle     | Rôle Qualité      |
-| Délai de traitement des NC           | Durée moyenne de clôture des NC (jours)  | <= 15 jours   | Trimestrielle | Rôle Qualité      |
-| Nombre de NC critiques               | Comptage des NC de niveau critique       | 0             | Mensuelle     | Rôle Qualité      |
+| Inspection completion rate           | Inspections performed / planned (%)      | >= 95%        | Monthly       | Quality Role      |
+| First-pass acceptance rate           | Lots accepted first time / Total lots (%)| >= 85%        | Monthly       | Quality Role      |
+| NC processing time                   | Average NC closure duration (days)       | <= 15 days    | Quarterly     | Quality Role      |
+| Number of critical NCs               | Count of critical-level NCs              | 0             | Monthly       | Quality Role      |
 
-#### Processus P04 - Logistique et expédition
+#### Process P04 - Logistics and shipping
 
-| Indicateur                          | Formule / Méthode                        | Cible         | Fréquence     | Responsable       |
+| Indicator                            | Formula / Method                         | Target        | Frequency     | Responsible       |
 |--------------------------------------|------------------------------------------|---------------|---------------|-------------------|
-| Taux de livraison à temps            | Livraisons à temps / Total livraisons (%)| >= 90%        | Mensuelle     | Rôle Logistique   |
-| Taux de réclamations logistiques     | Réclamations logistiques / Expéditions (%) | <= 2%       | Trimestrielle | Rôle Logistique   |
-| Conformité documentaire d'expédition | Documents conformes / Total documents (%)| >= 98%        | Mensuelle     | Rôle Logistique   |
-| Délai moyen de transit               | Durée moyenne de transit par corridor (jours) | Selon corridor (défini par région) | Mensuelle | Rôle Logistique |
+| On-time delivery rate                | On-time deliveries / Total deliveries (%)| >= 90%        | Monthly       | Logistics Role    |
+| Logistics complaint rate             | Logistics complaints / Shipments (%)     | <= 2%         | Quarterly     | Logistics Role    |
+| Shipping document compliance         | Compliant documents / Total documents (%)| >= 98%        | Monthly       | Logistics Role    |
+| Average transit time                 | Average transit duration per corridor (days) | Per corridor (defined by region) | Monthly | Logistics Role |
 
-#### Processus de support PS01 - Gestion documentaire
+#### Support process PS01 - Document management
 
-| Indicateur                          | Formule / Méthode                        | Cible         | Fréquence     | Responsable            |
+| Indicator                            | Formula / Method                         | Target        | Frequency     | Responsible            |
 |--------------------------------------|------------------------------------------|---------------|---------------|------------------------|
-| Taux de documents à jour             | Documents à jour / Total documents (%)   | >= 98%        | Trimestrielle | Rôle Gestion Documentaire |
-| Délai de mise à jour documentaire    | Durée moyenne de mise à jour (jours)     | <= 5 jours    | Trimestrielle | Rôle Gestion Documentaire |
+| Up-to-date document rate             | Up-to-date documents / Total documents (%) | >= 98%     | Quarterly     | Document Management Role |
+| Document update lead time            | Average update duration (days)           | <= 5 days     | Quarterly     | Document Management Role |
 
-#### Processus de support PS02 - Gestion des compétences
+#### Support process PS02 - Competency management
 
-| Indicateur                          | Formule / Méthode                        | Cible         | Fréquence     | Responsable       |
+| Indicator                            | Formula / Method                         | Target        | Frequency     | Responsible       |
 |--------------------------------------|------------------------------------------|---------------|---------------|-------------------|
-| Taux de réalisation du plan de formation  | Formations réalisées / planifiées (%) | >= 80%       | Annuelle      | Direction         |
-| Taux de couverture des compétences critiques | Compétences ≥ S / Compétences critiques requises (%) | >= 90% | Annuelle | Rôle Qualité |
+| Training plan completion rate        | Trainings completed / planned (%)        | >= 80%        | Annual        | Management        |
+| Critical competency coverage rate    | Competencies >= S / Required critical competencies (%) | >= 90% | Annual  | Quality Role      |
 
-#### Processus de management PM01 - Pilotage stratégique
+#### Management process PM01 - Strategic management
 
-| Indicateur                          | Formule / Méthode                        | Cible         | Fréquence     | Responsable       |
+| Indicator                            | Formula / Method                         | Target        | Frequency     | Responsible       |
 |--------------------------------------|------------------------------------------|---------------|---------------|-------------------|
-| Taux de réalisation des objectifs qualité | Objectifs atteints / Objectifs définis (%) | >= 80% | Annuelle      | Direction         |
-| Taux de réalisation du programme d'amélioration | Actions réalisées / planifiées (%) | >= 80% | Annuelle      | Direction         |
+| Quality objective achievement rate   | Objectives achieved / Objectives defined (%) | >= 80%   | Annual        | Management        |
+| Improvement program completion rate  | Actions completed / planned (%)          | >= 80%        | Annual        | Management        |
 
 ---
 
-## 9.2 Audit interne
+## 9.2 Internal audit
 
-### 9.2.1 Programme d'audit interne
+### 9.2.1 Internal audit program
 
-Plus Sàrl planifie, établit, met en œuvre et tient à jour un programme d'audit interne couvrant l'ensemble des processus du SMQ.
+Plus Sàrl plans, establishes, implements, and maintains an internal audit program covering all QMS processes.
 
-#### Principes du programme d'audit
+#### Audit program principles
 
-| Élément                              | Disposition                                                      |
+| Element                              | Provision                                                        |
 |--------------------------------------|------------------------------------------------------------------|
-| Fréquence                            | Au minimum annuelle pour chaque processus                        |
-| Norme de référence                   | ISO 9001:2015 et ISO 19011:2018 (lignes directrices)            |
-| Indépendance                         | L'auditeur ne doit pas auditer son propre domaine de responsabilité |
-| Compétence                           | Auditeur formé aux techniques d'audit (interne ou externe)      |
-| Planification                        | Programme annuel approuvé par la Direction                       |
+| Frequency                            | At least annually for each process                               |
+| Reference standard                   | ISO 9001:2015 and ISO 19011:2018 (guidelines)                   |
+| Independence                         | The auditor shall not audit their own area of responsibility     |
+| Competence                           | Auditor trained in audit techniques (internal or external)       |
+| Planning                             | Annual program approved by Management                            |
 
-#### Planning annuel type
+#### Typical annual schedule
 
-| Période    | Processus audité                     | Clauses ISO couvertes       | Auditeur                |
+| Period     | Process audited                      | ISO clauses covered         | Auditor                 |
 |------------|--------------------------------------|-----------------------------|-------------------------|
-| T1         | P01 - Gestion commerciale            | 8.2, 9.1.2                  | Rôle Qualité            |
-| T1         | PS01 - Gestion documentaire          | 7.5                         | Rôle Qualité            |
-| T2         | P02 - Achats et sourcing             | 8.4                         | Rôle Qualité            |
-| T2         | P03 - Contrôle qualité et monitoring | 8.5, 8.6, 8.7              | Auditeur externe        |
-| T3         | P04 - Logistique et expédition       | 8.5                         | Rôle Qualité            |
-| T3         | PM01 - Pilotage stratégique          | 5.1, 5.2, 5.3, 6.1, 6.2   | Auditeur externe        |
-| T3         | PS02 - Gestion des compétences       | 7.2                         | Auditeur externe        |
-| T4         | PS03 - Amélioration continue         | 10.1, 10.2, 10.3           | Rôle Qualité            |
-| T4         | Tous processus (audit de suivi)      | Clauses avec NC précédentes | Rôle Qualité            |
+| Q1         | P01 - Commercial management         | 8.2, 9.1.2                  | Quality Role            |
+| Q1         | PS01 - Document management           | 7.5                         | Quality Role            |
+| Q2         | P02 - Purchasing and sourcing        | 8.4                         | Quality Role            |
+| Q2         | P03 - Quality control and monitoring | 8.5, 8.6, 8.7              | External auditor        |
+| Q3         | P04 - Logistics and shipping         | 8.5                         | Quality Role            |
+| Q3         | PM01 - Strategic management          | 5.1, 5.2, 5.3, 6.1, 6.2   | External auditor        |
+| Q3         | PS02 - Competency management         | 7.2                         | External auditor        |
+| Q4         | PS03 - Continuous improvement        | 10.1, 10.2, 10.3           | Quality Role            |
+| Q4         | All processes (follow-up audit)      | Clauses with previous NCs   | Quality Role            |
 
-### 9.2.2 Déroulement d'un audit interne
+### 9.2.2 Internal audit process
 
-| Étape | Action                              | Description                                                      | Responsable       |
+| Step  | Action                               | Description                                                      | Responsible       |
 |-------|--------------------------------------|------------------------------------------------------------------|-------------------|
-| 1     | Planification                        | Notification au pilote du processus audité, envoi du plan d'audit| Rôle Qualité      |
-| 2     | Préparation                          | Revue documentaire, élaboration de la checklist d'audit          | Auditeur          |
-| 3     | Réunion d'ouverture                  | Présentation du périmètre, des objectifs et de la méthode        | Auditeur          |
-| 4     | Réalisation                          | Entretiens, observations, examen des enregistrements             | Auditeur          |
-| 5     | Réunion de clôture                   | Présentation des constats préliminaires                          | Auditeur          |
-| 6     | Rapport d'audit                      | Rédaction du rapport avec constats, NC et observations           | Auditeur          |
-| 7     | Plan d'actions correctives           | Définition des actions par l'audité                              | Pilote du processus|
-| 8     | Suivi                                | Vérification de la mise en œuvre et de l'efficacité              | Rôle Qualité      |
+| 1     | Planning                             | Notification to the process owner, sending of the audit plan     | Quality Role      |
+| 2     | Preparation                          | Document review, development of the audit checklist              | Auditor           |
+| 3     | Opening meeting                      | Presentation of the scope, objectives, and methodology           | Auditor           |
+| 4     | Execution                            | Interviews, observations, review of records                      | Auditor           |
+| 5     | Closing meeting                      | Presentation of preliminary findings                             | Auditor           |
+| 6     | Audit report                         | Drafting of the report with findings, NCs, and observations      | Auditor           |
+| 7     | Corrective action plan               | Definition of actions by the auditee                             | Process owner     |
+| 8     | Follow-up                            | Verification of implementation and effectiveness                 | Quality Role      |
 
-### 9.2.3 Classification des constats d'audit
+### 9.2.3 Audit finding classification
 
-| Type de constat                      | Définition                                                       | Action requise                           |
+| Finding type                         | Definition                                                       | Required action                          |
 |--------------------------------------|------------------------------------------------------------------|------------------------------------------|
-| Non-conformité majeure               | Non-respect systémique d'une exigence ISO 9001 ou réglementaire | Action corrective obligatoire sous 30 jours |
-| Non-conformité mineure               | Écart ponctuel par rapport à une exigence                       | Action corrective sous 60 jours          |
-| Observation                          | Point d'amélioration identifié sans écart                        | Recommandation, action à considérer      |
-| Point fort                           | Bonne pratique méritant d'être soulignée                        | Capitalisation, partage                  |
+| Major non-conformity                 | Systemic non-compliance with an ISO 9001 or regulatory requirement | Mandatory corrective action within 30 days |
+| Minor non-conformity                 | Isolated deviation from a requirement                            | Corrective action within 60 days         |
+| Observation                          | Improvement point identified without deviation                   | Recommendation, action to be considered  |
+| Strength                             | Good practice worth highlighting                                 | Capitalization, sharing                  |
 
 ---
 
-## 9.3 Revue de direction
+## 9.3 Management review
 
-### 9.3.1 Organisation de la revue
+### 9.3.1 Review organization
 
-| Élément                              | Disposition                                                      |
+| Element                              | Provision                                                        |
 |--------------------------------------|------------------------------------------------------------------|
-| Fréquence                            | Semestrielle (minimum annuelle)                                  |
-| Participants                         | Direction, Rôle Commercial, Rôle Achats, Rôle Logistique, Rôle Qualité, Rôle Gestion Documentaire |
-| Animation                            | Direction                                                        |
-| Compte-rendu                         | Rôle Qualité                                                     |
-| Diffusion                            | Tous les rôles                                                   |
+| Frequency                            | Semi-annual (minimum annual)                                     |
+| Participants                         | Management, Commercial Role, Purchasing Role, Logistics Role, Quality Role, Document Management Role |
+| Facilitation                         | Management                                                       |
+| Minutes                              | Quality Role                                                     |
+| Distribution                         | All roles                                                        |
 
-### 9.3.2 Éléments d'entrée de la revue
+### 9.3.2 Management review inputs
 
-| Réf. | Élément d'entrée                                                  | Source de données                | Responsable de la préparation |
+| Ref. | Input                                                             | Data source                      | Preparation responsible       |
 |------|-------------------------------------------------------------------|----------------------------------|-------------------------------|
-| E-01 | État des actions des revues de direction précédentes              | Compte-rendu précédent           | Rôle Qualité                  |
-| E-02 | Modifications des enjeux externes et internes                     | Analyse du contexte (MQ_04)      | Direction                     |
-| E-03 | Informations sur la performance des processus et conformité des produits | Tableaux de bord, rapports  | Rôle Qualité                  |
-| E-04 | Non-conformités et actions correctives                            | Registre des NC                  | Rôle Qualité                  |
-| E-05 | Résultats de la surveillance et de la mesure                      | Indicateurs KPI                  | Rôle Qualité                  |
-| E-06 | Résultats des audits (internes et externes)                       | Rapports d'audit                 | Rôle Qualité                  |
-| E-07 | Performance des prestataires externes (fournisseurs)              | Évaluations fournisseurs         | Rôle Achats                   |
-| E-08 | Satisfaction des clients                                          | Enquêtes, réclamations           | Rôle Commercial               |
-| E-09 | Adéquation des ressources                                         | État des ressources              | Direction                     |
-| E-10 | Efficacité des actions face aux risques et opportunités           | Registre des risques (MQ_06)     | Rôle Qualité                  |
-| E-11 | Opportunités d'amélioration                                       | Suggestions, retours d'expérience| Tous les rôles                |
-| E-12 | État des compétences et plan de formation                         | Matrice de compétences (PS02)    | Direction                     |
+| E-01 | Status of actions from previous management reviews                | Previous minutes                 | Quality Role                  |
+| E-02 | Changes in external and internal issues                           | Context analysis (MQ_04)         | Management                    |
+| E-03 | Information on process performance and product conformity         | Dashboards, reports              | Quality Role                  |
+| E-04 | Non-conformities and corrective actions                           | NC register                      | Quality Role                  |
+| E-05 | Monitoring and measurement results                                | KPI indicators                   | Quality Role                  |
+| E-06 | Audit results (internal and external)                             | Audit reports                    | Quality Role                  |
+| E-07 | External provider (supplier) performance                          | Supplier evaluations             | Purchasing Role               |
+| E-08 | Customer satisfaction                                             | Surveys, complaints              | Commercial Role               |
+| E-09 | Adequacy of resources                                             | Resource status                  | Management                    |
+| E-10 | Effectiveness of actions to address risks and opportunities       | Risk register (MQ_06)            | Quality Role                  |
+| E-11 | Opportunities for improvement                                     | Suggestions, lessons learned     | All roles                     |
+| E-12 | Competency status and training plan                               | Competency matrix (PS02)         | Management                    |
 
-### 9.3.3 Éléments de sortie de la revue
+### 9.3.3 Management review outputs
 
-| Réf. | Élément de sortie                                                 | Responsable de la mise en œuvre |
+| Ref. | Output                                                            | Implementation responsible       |
 |------|-------------------------------------------------------------------|----------------------------------|
-| S-01 | Décisions relatives aux opportunités d'amélioration               | Direction                        |
-| S-02 | Décisions relatives aux éventuels changements du SMQ              | Direction / Rôle Qualité         |
-| S-03 | Besoins en ressources identifiés                                  | Direction                        |
-| S-04 | Objectifs qualité révisés ou confirmés                            | Direction                        |
-| S-05 | Actions à mener avec responsables et échéances                    | Rôles concernés                  |
+| S-01 | Decisions related to improvement opportunities                    | Management                       |
+| S-02 | Decisions related to potential QMS changes                        | Management / Quality Role        |
+| S-03 | Identified resource needs                                         | Management                       |
+| S-04 | Revised or confirmed quality objectives                           | Management                       |
+| S-05 | Actions to be taken with assigned owners and deadlines            | Relevant roles                   |
 
-### 9.3.4 Suivi des actions issues de la revue
+### 9.3.4 Follow-up of actions from the review
 
-| Élément                              | Disposition                                                      |
+| Element                              | Provision                                                        |
 |--------------------------------------|------------------------------------------------------------------|
-| Enregistrement                       | Compte-rendu de la revue de direction                            |
-| Suivi des actions                    | Tableau de suivi avec responsable, échéance et statut            |
-| Vérification                         | Revue de l'avancement à chaque revue de direction suivante       |
-| Conservation                         | 5 ans minimum                                                    |
+| Recording                            | Management review minutes                                        |
+| Action tracking                      | Tracking table with owner, deadline, and status                  |
+| Verification                         | Progress review at each subsequent management review             |
+| Retention                            | 5 years minimum                                                  |
 
 ---
 
-## Références normatives
+## Normative references
 
-| Clause ISO 9001:2015 | Exigence                                                     |
+| ISO 9001:2015 Clause | Requirement                                                  |
 |-----------------------|--------------------------------------------------------------|
-| 9.1                   | Surveillance, mesure, analyse et évaluation                   |
-| 9.1.1                 | Généralités                                                   |
-| 9.1.2                 | Satisfaction du client                                        |
-| 9.1.3                 | Analyse et évaluation                                         |
-| 9.2                   | Audit interne                                                 |
-| 9.2.1                 | Programme d'audit                                             |
-| 9.2.2                 | Planification et réalisation des audits                       |
-| 9.3                   | Revue de direction                                            |
-| 9.3.1                 | Généralités                                                   |
-| 9.3.2                 | Éléments d'entrée de la revue de direction                    |
-| 9.3.3                 | Éléments de sortie de la revue de direction                   |
+| 9.1                   | Monitoring, measurement, analysis and evaluation              |
+| 9.1.1                 | General                                                       |
+| 9.1.2                 | Customer satisfaction                                         |
+| 9.1.3                 | Analysis and evaluation                                       |
+| 9.2                   | Internal audit                                                |
+| 9.2.1                 | Audit program                                                 |
+| 9.2.2                 | Audit planning and conduct                                    |
+| 9.3                   | Management review                                             |
+| 9.3.1                 | General                                                       |
+| 9.3.2                 | Management review inputs                                      |
+| 9.3.3                 | Management review outputs                                     |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

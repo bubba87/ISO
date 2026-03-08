@@ -1,170 +1,170 @@
-# Chaîne Processus - CHAIN-03 : Commande Nouvel Outillage
+# Process Chain - CHAIN-03: New Tooling Order
 
 | **Document**       | CHAIN-03_Commande_Nouvel_Outillage           |
 |--------------------|----------------------------------------------|
 | **Version**        | v0.7                                         |
 | **Date**           | 2026-03-04                                   |
-| **Classification** | Interne                                      |
-| **Statut**         | **Active**                                   |
-| **Processus**      | Chaîne Processus - Réalisation               |
-| **Rédaction**      | Rôle Qualité                                 |
-| **Approbation**    | Direction                                    |
+| **Classification** | Internal                                     |
+| **Status**         | **Active**                                   |
+| **Process**        | Process Chain - Realization                  |
+| **Drafted by**     | QUALITY                                      |
+| **Approved by**    | Management                                   |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Ce document décrit la chaîne processus pour le traitement d'une **commande nécessitant la création d'un nouvel outillage**. Cette chaîne reprend la structure en 8 blocs de la CHAIN-01 (Produit Existant) avec des adaptations spécifiques liées à la phase de conception, fabrication d'outillage et validation par échantillons (T0/T1).
-
----
-
-## 2. Domaine d'application
-
-Cette chaîne s'applique à toute commande client impliquant la conception et la fabrication d'un nouvel outillage chez un fournisseur qualifié, indépendamment de la localisation géographique du client ou du fournisseur.
+This document describes the process chain for handling an **order requiring the creation of new tooling**. This chain follows the 8-block structure of CHAIN-01 (Existing Product) with specific adaptations related to the design, tooling manufacture, and sample validation (T0/T1) phases.
 
 ---
 
-## 3. Spécificités de la chaîne « Nouvel Outillage »
+## 2. Scope
 
-| Caractéristique                  | Description                                                                    |
+This chain applies to any customer order involving the design and manufacture of new tooling at a qualified supplier, regardless of the geographic location of the customer or supplier.
+
+---
+
+## 3. Specifics of the "New Tooling" Chain
+
+| Characteristic                   | Description                                                                    |
 |----------------------------------|--------------------------------------------------------------------------------|
-| Phase de développement           | Complète — conception et fabrication d'un nouvel outillage                      |
-| Évaluation fournisseur           | Déjà réalisée — fournisseur qualifié et référencé                              |
-| Outillage                        | Nouveau — conception, fabrication, mise au point et validation nécessaires      |
-| Délai de réalisation             | Long — inclut conception, fabrication outillage, échantillons T0/T1, validation|
-| Inspection                       | Contrôle qualité renforcé — validation des échantillons T0 et T1               |
-| Échantillons                     | Obligatoire — série T0 (premiers essais) puis T1 (pré-série de validation)     |
-| Phase de design                  | Revue de conception, plans d'outillage, validation technique avant fabrication  |
+| Development phase                | Complete — design and manufacture of new tooling                               |
+| Supplier evaluation              | Already completed — supplier qualified and referenced                          |
+| Tooling                          | New — design, manufacture, setup, and validation required                      |
+| Lead time                        | Long — includes design, tooling manufacture, T0/T1 samples, validation         |
+| Inspection                       | Enhanced quality control — validation of T0 and T1 samples                     |
+| Samples                          | Mandatory — T0 series (initial trials) then T1 (pre-production validation)     |
+| Design phase                     | Design review, tooling drawings, technical validation before manufacture       |
 
 ---
 
-## 4. Lignes processus
+## 4. Process Lines
 
-| Code | Ligne             | Rôle pilote          | Fonction principale                              |
+| Code | Line              | Lead Role            | Main Function                                    |
 |------|-------------------|----------------------|--------------------------------------------------|
-| 01   | SALES             | Rôle Commercial      | Gestion commerciale, relation client, facturation |
-| 02   | MANUFACTURE       | Rôle Achats          | Coordination fournisseurs, suivi de production    |
-| 03   | DELIVERY          | Rôle Logistique      | Transport, livraison, douane                      |
-| 04   | QUALITY           | Rôle Qualité         | Contrôle conformité, validation qualité           |
+| 01   | SALES             | SALES                | Commercial management, customer relations, invoicing |
+| 02   | MANUFACTURE       | MANUFACTURE          | Supplier coordination, production monitoring      |
+| 03   | DELIVERY          | DELIVERY             | Transport, delivery, customs                      |
+| 04   | QUALITY           | QUALITY              | Compliance control, quality validation            |
 
 ---
 
-## 5. Adaptations par bloc par rapport à CHAIN-01
+## 5. Adaptations per Block Compared to CHAIN-01
 
-| Bloc   | Intitulé                        | Adaptations par rapport à CHAIN-01                                                                          |
+| Block  | Title                           | Adaptations Compared to CHAIN-01                                                                          |
 |--------|---------------------------------|-------------------------------------------------------------------------------------------------------------|
-| BLOC 1 | Réception commande              | Identification du type de commande : nouvel outillage, collecte du cahier des charges technique              |
-| BLOC 2 | Fiche de commande               | Mention du nouvel outillage requis, spécifications techniques, plans et tolérances                           |
-| BLOC 3 | Fiche de transport              | Délais ajustés pour nouvel outillage (+6-12 semaines vs standard), transport éventuel des échantillons T0/T1 au client pour validation, planification transport série une fois T1 validé |
-| BLOC 4 | Étude technique fournisseurs    | Étude de faisabilité, conception outillage, devis outillage, plan de validation, planning T0/T1              |
-| BLOC 5 | Validation de commande          | AR incluant le détail de l'outillage, coûts outillage, planning prévisionnel T0/T1                          |
-| BLOC 6 | Production et qualité           | Fabrication outillage, essais T0, ajustements, validation T1, puis lancement production série                |
-| BLOC 7 | Livraison & Douane              | Livraison éventuelle d'échantillons T1 au client avant livraison série, procédure standard pour livraison série, documentation incluant les rapports de validation T0/T1, mention propriété intellectuelle outillage dans documents de transport |
-| BLOC 8 | Acceptation marchandise         | Contrôle renforcé, rapport dimensionnel complet, validation des pièces issues du nouvel outillage            |
+| BLOCK 1| Order reception                 | Identification of order type: new tooling, collection of technical specifications                            |
+| BLOCK 2| Order sheet                     | Mention of new tooling required, technical specifications, drawings, and tolerances                           |
+| BLOCK 3| Transport sheet                 | Adjusted lead times for new tooling (+6-12 weeks vs. standard), possible transport of T0/T1 samples to the customer for validation, series transport planning once T1 is validated |
+| BLOCK 4| Technical study with suppliers  | Feasibility study, tooling design, tooling quote, validation plan, T0/T1 schedule                            |
+| BLOCK 5| Order validation                | AR including tooling details, tooling costs, provisional T0/T1 schedule                                      |
+| BLOCK 6| Production and quality          | Tooling manufacture, T0 trials, adjustments, T1 validation, then series production launch                     |
+| BLOCK 7| Delivery & Customs              | Possible delivery of T1 samples to the customer before series delivery, standard procedure for series delivery, documentation including T0/T1 validation reports, mention of tooling intellectual property in transport documents |
+| BLOCK 8| Goods acceptance                | Enhanced control, full dimensional report, validation of parts produced from the new tooling                  |
 
 ---
 
-## 6. Vue d'ensemble des blocs
+## 6. Overview of the Blocks
 
 ```
-BLOC 1          BLOC 2          BLOC 3          BLOC 4
-Réception       Fiche de        Fiche de        Étude technique
-commande        commande        transport       + Design outillage
+BLOCK 1         BLOCK 2         BLOCK 3         BLOCK 4
+Order           Order           Transport       Technical Study
+Reception       Sheet           Sheet           + Tooling Design
 [01 SALES]      [01 SALES]      [03 DELIVERY]   [02 MANUFACTURE]
-    │               │               │               │
-    ▼               ▼               ▼               ▼
-BLOC 5          BLOC 6          BLOC 7          BLOC 8
-Validation      Production      Livraison       Acceptation
-commande        T0/T1 + Série   & Douane        marchandise
+    |               |               |               |
+    v               v               v               v
+BLOCK 5         BLOCK 6         BLOCK 7         BLOCK 8
+Order           Production      Delivery        Goods
+Validation      T0/T1 + Series  & Customs       Acceptance
 [01 SALES]      [02 MANUF.      [03 DELIVERY    [04 QUALITY
                  04 QUALITY]     01 SALES]        01 SALES]
 ```
 
 ---
 
-## 7. Phase de conception et validation outillage
+## 7. Tooling Design and Validation Phase
 
-| Étape              | Description                                                          | Responsable     |
-|--------------------|----------------------------------------------------------------------|-----------------|
-| Revue de conception| Analyse du cahier des charges, faisabilité technique                  | Rôle Achats     |
-| Conception outillage| Plans d'outillage, choix matériaux, validation technique             | Rôle Achats     |
-| Fabrication outillage| Réalisation de l'outillage par le fournisseur                       | Rôle Achats     |
-| Essais T0          | Premiers essais, analyse dimensionnelle, ajustements                 | Rôle Qualité    |
-| Validation T1      | Pré-série de validation, rapport de conformité complet               | Rôle Qualité    |
-| Approbation client | Envoi échantillons T1 au client pour validation finale               | Rôle Commercial |
+| Step                 | Description                                                          | Owner           |
+|----------------------|----------------------------------------------------------------------|-----------------|
+| Design review        | Requirements analysis, technical feasibility                          | MANUFACTURE     |
+| Tooling design       | Tooling drawings, material selection, technical validation            | MANUFACTURE     |
+| Tooling manufacture  | Tooling production by the supplier                                    | MANUFACTURE     |
+| T0 trials            | Initial trials, dimensional analysis, adjustments                     | QUALITY         |
+| T1 validation        | Pre-production validation, full conformity report                     | QUALITY         |
+| Customer approval    | T1 sample shipment to the customer for final validation               | SALES           |
 
 ---
 
-## 8. Propriété intellectuelle de l'outillage
+## 8. Tooling Intellectual Property
 
-| Aspect                                    | Disposition                                                                                     |
+| Aspect                                    | Provision                                                                                       |
 |-------------------------------------------|-------------------------------------------------------------------------------------------------|
-| Propriété de l'outillage                  | L'outillage reste la propriété du client sauf accord contraire                                  |
-| Confidentialité                           | Clause de confidentialité sur les plans et spécifications de l'outillage                        |
-| Stockage et maintenance                   | Conditions de stockage et maintenance de l'outillage chez le fournisseur définies contractuellement |
+| Tooling ownership                         | The tooling remains the property of the customer unless otherwise agreed                        |
+| Confidentiality                           | Confidentiality clause on tooling drawings and specifications                                   |
+| Storage and maintenance                   | Tooling storage and maintenance conditions at the supplier's premises defined contractually     |
 
-Les dispositions relatives à la propriété intellectuelle doivent être formalisées dans le contrat ou le bon de commande avant le lancement de la conception de l'outillage. Le fournisseur s'engage à ne pas utiliser l'outillage pour des tiers sans autorisation écrite du client propriétaire.
+Intellectual property provisions must be formalized in the contract or purchase order before tooling design is initiated. The supplier commits not to use the tooling for third parties without written authorization from the tooling owner.
 
 ---
 
-## 9. Matrice de responsabilité (RACI)
+## 9. Responsibility Matrix (RACI)
 
-| Bloc   | Rôle Commercial | Rôle Achats | Rôle Logistique | Rôle Qualité |
+| Block  | SALES           | MANUFACTURE | DELIVERY        | QUALITY      |
 |--------|-----------------|-------------|-----------------|--------------|
-| BLOC 1 | R/A             | I           | I               | I            |
-| BLOC 2 | R/A             | C           | I               | C            |
-| BLOC 3 | I               | C           | R/A             | I            |
-| BLOC 4 | I               | R/A         | I               | C            |
-| BLOC 5 | R/A             | C           | C               | C            |
-| BLOC 6 | I               | R/A         | I               | R/A          |
-| BLOC 7 | R               | I           | R/A             | I            |
-| BLOC 8 | R               | I           | I               | R/A          |
+| BLOCK 1| R/A             | I           | I               | I            |
+| BLOCK 2| R/A             | C           | I               | C            |
+| BLOCK 3| I               | C           | R/A             | I            |
+| BLOCK 4| I               | R/A         | I               | C            |
+| BLOCK 5| R/A             | C           | C               | C            |
+| BLOCK 6| I               | R/A         | I               | R/A          |
+| BLOCK 7| R               | I           | R/A             | I            |
+| BLOCK 8| R               | I           | I               | R/A          |
 
-**Légende** : R = Réalise, A = Approuve, C = Consulté, I = Informé
-
----
-
-## 10. Indicateurs de performance (KPI)
-
-| KPI                                           | Objectif                  | Fréquence de mesure | Responsable       |
-|-----------------------------------------------|---------------------------|---------------------|--------------------|
-| Délai de conception et fabrication outillage   | ≤ délai contractuel       | Par commande        | Rôle Achats        |
-| Taux de conformité échantillons T0             | ≥ 80 %                   | Par commande        | Rôle Qualité       |
-| Taux de conformité échantillons T1             | ≥ 95 %                   | Par commande        | Rôle Qualité       |
-| Taux de validation client au premier envoi     | ≥ 85 %                   | Par commande        | Rôle Commercial    |
-| Taux de réclamations clients                   | ≤ 3 %                    | Mensuelle           | Rôle Commercial    |
-| Respect des délais fournisseurs                | ≥ 90 %                   | Mensuelle           | Rôle Achats        |
+**Legend**: R = Responsible, A = Approver, C = Consulted, I = Informed
 
 ---
 
-## 11. Documents associés
+## 10. Key Performance Indicators (KPI)
 
-| Référence   | Document                                          |
+| KPI                                           | Target                    | Measurement Frequency | Owner              |
+|-----------------------------------------------|---------------------------|----------------------|--------------------|
+| Tooling design and manufacture lead time       | ≤ contractual deadline    | Per order            | MANUFACTURE        |
+| T0 sample conformity rate                      | ≥ 80%                    | Per order            | QUALITY            |
+| T1 sample conformity rate                      | ≥ 95%                    | Per order            | QUALITY            |
+| Customer validation rate at first submission    | ≥ 85%                    | Per order            | SALES              |
+| Customer complaint rate                        | ≤ 3%                     | Monthly              | SALES              |
+| Supplier deadline compliance                   | ≥ 90%                    | Monthly              | MANUFACTURE        |
+
+---
+
+## 11. Associated Documents
+
+| Reference   | Document                                          |
 |-------------|---------------------------------------------------|
-| CHAIN-01    | Chaîne Processus — Commande Produit Existant      |
-| CHAIN-02    | Chaîne Processus — Modification d'Outillage       |
-| CH-BLOC-001 à CH-BLOC-008 | Fiches détail des blocs (référence CHAIN-01) |
+| CHAIN-01    | Process Chain — Existing Product Order             |
+| CHAIN-02    | Process Chain — Tooling Modification               |
+| CH-BLOC-001 to CH-BLOC-008 | Block detail sheets (CHAIN-01 reference) |
 
 ---
 
-## 12. Complétude du document
+## 12. Document Completeness
 
-> Toutes les sections de ce document ont été complétées en v0.7.
+> All sections of this document have been completed in v0.7.
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                                        |
+| ISO 9001:2015 Clause | Requirement                                                     |
 |-----------------------|-----------------------------------------------------------------|
-| 8.1                   | Planification et maîtrise opérationnelles                        |
-| 8.3                   | Conception et développement de produits et services              |
-| 8.3.2                 | Planification de la conception et du développement               |
-| 8.3.4                 | Maîtrise de la conception et du développement                    |
-| 8.4                   | Maîtrise des processus, produits et services externalisés        |
-| 8.5.1                 | Maîtrise de la production et de la prestation de service         |
+| 8.1                   | Operational planning and control                                 |
+| 8.3                   | Design and development of products and services                  |
+| 8.3.2                 | Design and development planning                                  |
+| 8.3.4                 | Design and development controls                                  |
+| 8.4                   | Control of externally provided processes, products and services  |
+| 8.5.1                 | Control of production and service provision                      |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

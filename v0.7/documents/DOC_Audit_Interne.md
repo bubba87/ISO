@@ -1,194 +1,194 @@
-# Audit Interne - Formulaire et Guide
+# Internal Audit - Form and Guide
 
-| **Document**         | Audit Interne                                        |
+| **Document**         | Internal Audit                                       |
 |----------------------|------------------------------------------------------|
 | **Code**            | FM-P03-AUD                                            |
-| **Processus**       | P04 - Contrôle Qualité                                |
+| **Process**         | P04 - Quality Control                                 |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Norme ISO 9001**  | Chapitre 9.2                                          |
+| **ISO 9001 Standard** | Clause 9.2                                          |
 
 ---
 
-## 1. Programme d'audit annuel
+## 1. Annual Audit Program
 
-### 1.1 Informations générales
+### 1.1 General Information
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Année**                 | ________________________________________         |
-| **Approuvé par**          | ________________________________________ (Rôle : Direction) |
-| **Date d'approbation**    | ________________________________________         |
+| **Year**                  | ________________________________________         |
+| **Approved by**           | ________________________________________ (Role: Management) |
+| **Approval date**         | ________________________________________         |
 
-### 1.2 Planning annuel des audits
+### 1.2 Annual Audit Schedule
 
-| N° Audit | Processus audité | Périmètre               | Période prévue | Auditeur désigné | Statut          |
-|----------|------------------|--------------------------|----------------|-------------------|-----------------|
-| AUD-001  | PM01 - Leadership  | _______________________  | T__ 20__       | _________________ | [ ] Planifié [ ] Réalisé |
-| AUD-002  | P01 - Commercial | _______________________  | T__ 20__       | _________________ | [ ] Planifié [ ] Réalisé |
-| AUD-003  | P02 - Achats     | _______________________  | T__ 20__       | _________________ | [ ] Planifié [ ] Réalisé |
-| AUD-004  | P03 - Logistique | _______________________  | T__ 20__       | _________________ | [ ] Planifié [ ] Réalisé |
-| AUD-005  | P04 - Contrôle Q.| _______________________  | T__ 20__       | _________________ | [ ] Planifié [ ] Réalisé |
-| AUD-006  | PS01 - Gestion Doc.| _______________________  | T__ 20__       | _________________ | [ ] Planifié [ ] Réalisé |
+| Audit No. | Audited Process    | Scope                    | Planned Period | Designated Auditor    | Status          |
+|-----------|--------------------|--------------------------|----------------|-----------------------|-----------------|
+| AUD-001   | PM01 - Leadership  | _______________________  | Q__ 20__       | _________________ | [ ] Planned [ ] Completed |
+| AUD-002   | P01 - Commercial   | _______________________  | Q__ 20__       | _________________ | [ ] Planned [ ] Completed |
+| AUD-003   | P02 - Purchasing   | _______________________  | Q__ 20__       | _________________ | [ ] Planned [ ] Completed |
+| AUD-004   | P03 - Logistics    | _______________________  | Q__ 20__       | _________________ | [ ] Planned [ ] Completed |
+| AUD-005   | P04 - Quality Ctrl.| _______________________  | Q__ 20__       | _________________ | [ ] Planned [ ] Completed |
+| AUD-006   | PS01 - Doc. Mgmt.  | _______________________  | Q__ 20__       | _________________ | [ ] Planned [ ] Completed |
 
-**Critères de programmation :**
-- Chaque processus est audité au minimum une fois par an
-- La fréquence est augmentée pour les processus présentant des écarts récurrents
-- L'auditeur ne peut pas auditer son propre processus
+**Scheduling criteria:**
+- Each process is audited at least once per year
+- Frequency is increased for processes with recurring deviations
+- The auditor may not audit their own process
 
 ---
 
-## 2. Rapport d'audit individuel
+## 2. Individual Audit Report
 
-### 2.1 Informations de l'audit
+### 2.1 Audit Information
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **N° d'audit**            | AUD-________                                     |
-| **Date de l'audit**       | ________________________________________         |
-| **Processus audité**      | ________________________________________         |
-| **Périmètre**             | ________________________________________         |
-| **Référentiel**           | ISO 9001:2015, Chapitres : _____________________  |
-| **Auditeur(s)**           | ________________________________________         |
-| **Audité(s) - Rôle(s)**   | ________________________________________         |
-| **Lieu**                  | ________________________________________         |
+| **Audit No.**             | AUD-________                                     |
+| **Audit date**            | ________________________________________         |
+| **Audited process**       | ________________________________________         |
+| **Scope**                 | ________________________________________         |
+| **Reference standard**    | ISO 9001:2015, Clauses: _____________________    |
+| **Auditor(s)**            | ________________________________________         |
+| **Auditee(s) - Role(s)**  | ________________________________________         |
+| **Location**              | ________________________________________         |
 
-### 2.2 Objectifs de l'audit
+### 2.2 Audit Objectives
 
-- [ ] Vérifier la conformité du processus par rapport aux exigences ISO 9001:2015
-- [ ] Vérifier l'application des procédures et instructions documentées
-- [ ] Évaluer l'efficacité du processus (atteinte des objectifs et KPI)
-- [ ] Identifier des opportunités d'amélioration
-- [ ] Vérifier la clôture des actions issues d'audits précédents
-- [ ] Autre : ________________________________________
-
----
-
-## 3. Checklist d'audit
-
-### 3.1 Chapitre 4 - Contexte de l'organisme
-
-| N° | Point de vérification                                        | Conforme | NC  | Observation | Preuve        |
-|----|--------------------------------------------------------------|----------|-----|-------------|---------------|
-| 4.1 | Le contexte de l'organisme est-il déterminé ?              | [ ]      | [ ] |             |               |
-| 4.2 | Les parties intéressées sont-elles identifiées ?           | [ ]      | [ ] |             |               |
-| 4.3 | Le périmètre du SMQ est-il défini ?                        | [ ]      | [ ] |             |               |
-| 4.4 | Les processus et leurs interactions sont-ils déterminés ?  | [ ]      | [ ] |             |               |
-
-### 3.2 Chapitre 5 - Leadership
-
-| N° | Point de vérification                                        | Conforme | NC  | Observation | Preuve        |
-|----|--------------------------------------------------------------|----------|-----|-------------|---------------|
-| 5.1 | La Direction démontre-t-elle son leadership ?              | [ ]      | [ ] |             |               |
-| 5.2 | La politique qualité est-elle définie et communiquée ?     | [ ]      | [ ] |             |               |
-| 5.3 | Les rôles et responsabilités sont-ils attribués ?          | [ ]      | [ ] |             |               |
-
-### 3.3 Chapitre 6 - Planification
-
-| N° | Point de vérification                                        | Conforme | NC  | Observation | Preuve        |
-|----|--------------------------------------------------------------|----------|-----|-------------|---------------|
-| 6.1 | Les risques et opportunités sont-ils traités ?             | [ ]      | [ ] |             |               |
-| 6.2 | Les objectifs qualité sont-ils définis et suivis ?         | [ ]      | [ ] |             |               |
-| 6.3 | Les modifications du SMQ sont-elles planifiées ?           | [ ]      | [ ] |             |               |
-
-### 3.4 Chapitre 7 - Support
-
-| N° | Point de vérification                                        | Conforme | NC  | Observation | Preuve        |
-|----|--------------------------------------------------------------|----------|-----|-------------|---------------|
-| 7.1 | Les ressources nécessaires sont-elles déterminées ?        | [ ]      | [ ] |             |               |
-| 7.2 | Les compétences sont-elles identifiées et assurées ?       | [ ]      | [ ] |             |               |
-| 7.3 | La sensibilisation est-elle assurée ?                      | [ ]      | [ ] |             |               |
-| 7.4 | La communication interne/externe est-elle maîtrisée ?      | [ ]      | [ ] |             |               |
-| 7.5 | Les informations documentées sont-elles maîtrisées ?       | [ ]      | [ ] |             |               |
-
-### 3.5 Chapitre 8 - Réalisation des activités opérationnelles
-
-| N° | Point de vérification                                        | Conforme | NC  | Observation | Preuve        |
-|----|--------------------------------------------------------------|----------|-----|-------------|---------------|
-| 8.1 | La planification opérationnelle est-elle réalisée ?        | [ ]      | [ ] |             |               |
-| 8.2 | Les exigences client sont-elles déterminées et revues ?    | [ ]      | [ ] |             |               |
-| 8.4 | Les prestataires externes sont-ils maîtrisés ?             | [ ]      | [ ] |             |               |
-| 8.5 | La production/prestation est-elle maîtrisée ?              | [ ]      | [ ] |             |               |
-| 8.6 | La libération des produits/services est-elle réalisée ?    | [ ]      | [ ] |             |               |
-| 8.7 | Les éléments de sortie NC sont-ils maîtrisés ?             | [ ]      | [ ] |             |               |
-
-### 3.6 Chapitre 9 - Évaluation des performances
-
-| N° | Point de vérification                                        | Conforme | NC  | Observation | Preuve        |
-|----|--------------------------------------------------------------|----------|-----|-------------|---------------|
-| 9.1 | La surveillance et la mesure sont-elles réalisées ?        | [ ]      | [ ] |             |               |
-| 9.1.2 | La satisfaction client est-elle mesurée ?                 | [ ]      | [ ] |             |               |
-| 9.1.3 | L'analyse et l'évaluation sont-elles réalisées ?         | [ ]      | [ ] |             |               |
-| 9.2 | Les audits internes sont-ils réalisés ?                    | [ ]      | [ ] |             |               |
-| 9.3 | La revue de direction est-elle réalisée ?                  | [ ]      | [ ] |             |               |
-
-### 3.7 Chapitre 10 - Amélioration
-
-| N° | Point de vérification                                        | Conforme | NC  | Observation | Preuve        |
-|----|--------------------------------------------------------------|----------|-----|-------------|---------------|
-| 10.1 | Les opportunités d'amélioration sont-elles déterminées ?  | [ ]      | [ ] |             |               |
-| 10.2 | Les NC sont-elles traitées et les AC mises en oeuvre ?    | [ ]      | [ ] |             |               |
-| 10.3 | L'amélioration continue est-elle mise en oeuvre ?         | [ ]      | [ ] |             |               |
+- [ ] Verify process compliance with ISO 9001:2015 requirements
+- [ ] Verify the application of documented procedures and instructions
+- [ ] Assess process effectiveness (achievement of objectives and KPIs)
+- [ ] Identify improvement opportunities
+- [ ] Verify closure of actions from previous audits
+- [ ] Other: ________________________________________
 
 ---
 
-## 4. Constats d'audit
+## 3. Audit Checklist
 
-### 4.1 Points forts
+### 3.1 Clause 4 - Context of the Organization
 
-| N° | Description du point fort                                                    |
-|----|------------------------------------------------------------------------------|
-| 1  | ________________________________________________________________________     |
-| 2  | ________________________________________________________________________     |
-| 3  | ________________________________________________________________________     |
+| No. | Verification Point                                           | Compliant | NC  | Observation | Evidence      |
+|-----|--------------------------------------------------------------|-----------|-----|-------------|---------------|
+| 4.1 | Is the context of the organization determined?               | [ ]       | [ ] |             |               |
+| 4.2 | Are interested parties identified?                           | [ ]       | [ ] |             |               |
+| 4.3 | Is the scope of the QMS defined?                             | [ ]       | [ ] |             |               |
+| 4.4 | Are the processes and their interactions determined?         | [ ]       | [ ] |             |               |
 
-### 4.2 Opportunités d'amélioration (OA)
+### 3.2 Clause 5 - Leadership
 
-| N° | Description de l'opportunité d'amélioration                                  | Chapitre ISO |
-|----|------------------------------------------------------------------------------|--------------|
-| OA-1 | ____________________________________________________________________     | ________     |
-| OA-2 | ____________________________________________________________________     | ________     |
-| OA-3 | ____________________________________________________________________     | ________     |
+| No. | Verification Point                                           | Compliant | NC  | Observation | Evidence      |
+|-----|--------------------------------------------------------------|-----------|-----|-------------|---------------|
+| 5.1 | Does Management demonstrate leadership?                      | [ ]       | [ ] |             |               |
+| 5.2 | Is the quality policy defined and communicated?              | [ ]       | [ ] |             |               |
+| 5.3 | Are roles and responsibilities assigned?                     | [ ]       | [ ] |             |               |
 
-### 4.3 Non-conformités constatées
+### 3.3 Clause 6 - Planning
 
-| N° NC    | Description de la non-conformité | Chapitre ISO | Gravité (Mineure/Majeure) | Preuve objective |
-|----------|----------------------------------|--------------|---------------------------|------------------|
-| NC-AUD-1 | ________________________         | ________     | [ ] Mineure [ ] Majeure   | ________________ |
-| NC-AUD-2 | ________________________         | ________     | [ ] Mineure [ ] Majeure   | ________________ |
-| NC-AUD-3 | ________________________         | ________     | [ ] Mineure [ ] Majeure   | ________________ |
+| No. | Verification Point                                           | Compliant | NC  | Observation | Evidence      |
+|-----|--------------------------------------------------------------|-----------|-----|-------------|---------------|
+| 6.1 | Are risks and opportunities addressed?                       | [ ]       | [ ] |             |               |
+| 6.2 | Are quality objectives defined and monitored?                | [ ]       | [ ] |             |               |
+| 6.3 | Are changes to the QMS planned?                              | [ ]       | [ ] |             |               |
+
+### 3.4 Clause 7 - Support
+
+| No. | Verification Point                                           | Compliant | NC  | Observation | Evidence      |
+|-----|--------------------------------------------------------------|-----------|-----|-------------|---------------|
+| 7.1 | Are the necessary resources determined?                      | [ ]       | [ ] |             |               |
+| 7.2 | Are competencies identified and ensured?                     | [ ]       | [ ] |             |               |
+| 7.3 | Is awareness ensured?                                        | [ ]       | [ ] |             |               |
+| 7.4 | Is internal/external communication controlled?               | [ ]       | [ ] |             |               |
+| 7.5 | Is documented information controlled?                        | [ ]       | [ ] |             |               |
+
+### 3.5 Clause 8 - Operation
+
+| No. | Verification Point                                           | Compliant | NC  | Observation | Evidence      |
+|-----|--------------------------------------------------------------|-----------|-----|-------------|---------------|
+| 8.1 | Is operational planning carried out?                         | [ ]       | [ ] |             |               |
+| 8.2 | Are customer requirements determined and reviewed?           | [ ]       | [ ] |             |               |
+| 8.4 | Are external providers controlled?                           | [ ]       | [ ] |             |               |
+| 8.5 | Is production/service provision controlled?                  | [ ]       | [ ] |             |               |
+| 8.6 | Is the release of products/services carried out?             | [ ]       | [ ] |             |               |
+| 8.7 | Are nonconforming outputs controlled?                        | [ ]       | [ ] |             |               |
+
+### 3.6 Clause 9 - Performance Evaluation
+
+| No.   | Verification Point                                           | Compliant | NC  | Observation | Evidence      |
+|-------|--------------------------------------------------------------|-----------|-----|-------------|---------------|
+| 9.1   | Are monitoring and measurement carried out?                  | [ ]       | [ ] |             |               |
+| 9.1.2 | Is customer satisfaction measured?                           | [ ]       | [ ] |             |               |
+| 9.1.3 | Are analysis and evaluation carried out?                     | [ ]       | [ ] |             |               |
+| 9.2   | Are internal audits carried out?                             | [ ]       | [ ] |             |               |
+| 9.3   | Is the management review carried out?                        | [ ]       | [ ] |             |               |
+
+### 3.7 Clause 10 - Improvement
+
+| No.  | Verification Point                                           | Compliant | NC  | Observation | Evidence      |
+|------|--------------------------------------------------------------|-----------|-----|-------------|---------------|
+| 10.1 | Are improvement opportunities determined?                    | [ ]       | [ ] |             |               |
+| 10.2 | Are NCs handled and corrective actions implemented?          | [ ]       | [ ] |             |               |
+| 10.3 | Is continual improvement implemented?                        | [ ]       | [ ] |             |               |
 
 ---
 
-## 5. Actions correctives
+## 4. Audit Findings
 
-| N° NC    | Action corrective proposée       | Responsable (Rôle) | Délai          | Date de clôture | Efficacité vérifiée |
-|----------|----------------------------------|---------------------|----------------|-----------------|---------------------|
-| NC-AUD-1 | ________________________         | ___________________ | ____/____/____ | ____/____/____  | [ ] Oui [ ] Non    |
-| NC-AUD-2 | ________________________         | ___________________ | ____/____/____ | ____/____/____  | [ ] Oui [ ] Non    |
-| NC-AUD-3 | ________________________         | ___________________ | ____/____/____ | ____/____/____  | [ ] Oui [ ] Non    |
+### 4.1 Strengths
+
+| No. | Description of Strength                                                      |
+|-----|------------------------------------------------------------------------------|
+| 1   | ________________________________________________________________________     |
+| 2   | ________________________________________________________________________     |
+| 3   | ________________________________________________________________________     |
+
+### 4.2 Opportunities for Improvement (OFI)
+
+| No.  | Description of Improvement Opportunity                                       | ISO Clause   |
+|------|------------------------------------------------------------------------------|--------------|
+| OFI-1 | ____________________________________________________________________     | ________     |
+| OFI-2 | ____________________________________________________________________     | ________     |
+| OFI-3 | ____________________________________________________________________     | ________     |
+
+### 4.3 Nonconformities Identified
+
+| NC No.   | Description of Nonconformity     | ISO Clause   | Severity (Minor/Major)    | Objective Evidence   |
+|----------|----------------------------------|--------------|---------------------------|----------------------|
+| NC-AUD-1 | ________________________         | ________     | [ ] Minor [ ] Major       | ________________     |
+| NC-AUD-2 | ________________________         | ________     | [ ] Minor [ ] Major       | ________________     |
+| NC-AUD-3 | ________________________         | ________     | [ ] Minor [ ] Major       | ________________     |
 
 ---
 
-## 6. Synthèse et conclusion
+## 5. Corrective Actions
 
-### 6.1 Résumé de l'audit
+| NC No.   | Proposed Corrective Action       | Responsible (Role)  | Deadline       | Closure Date    | Effectiveness Verified |
+|----------|----------------------------------|---------------------|----------------|-----------------|------------------------|
+| NC-AUD-1 | ________________________         | ___________________ | ____/____/____ | ____/____/____  | [ ] Yes [ ] No         |
+| NC-AUD-2 | ________________________         | ___________________ | ____/____/____ | ____/____/____  | [ ] Yes [ ] No         |
+| NC-AUD-3 | ________________________         | ___________________ | ____/____/____ | ____/____/____  | [ ] Yes [ ] No         |
 
-| Élément                              | Valeur                                           |
+---
+
+## 6. Summary and Conclusion
+
+### 6.1 Audit Summary
+
+| Item                                 | Value                                            |
 |--------------------------------------|--------------------------------------------------|
-| **Nombre de points forts**           | ________                                         |
-| **Nombre d'opportunités d'amélioration** | ________                                     |
-| **Nombre de NC mineures**            | ________                                         |
-| **Nombre de NC majeures**            | ________                                         |
+| **Number of strengths**              | ________                                         |
+| **Number of improvement opportunities** | ________                                      |
+| **Number of minor NCs**              | ________                                         |
+| **Number of major NCs**              | ________                                         |
 
-### 6.2 Conclusion générale
+### 6.2 Overall Conclusion
 
-- [ ] Le processus est conforme et efficace
-- [ ] Le processus est conforme avec des opportunités d'amélioration
-- [ ] Le processus présente des non-conformités nécessitant des actions correctives
-- [ ] Le processus présente des non-conformités majeures nécessitant une action immédiate
+- [ ] The process is compliant and effective
+- [ ] The process is compliant with improvement opportunities
+- [ ] The process has nonconformities requiring corrective actions
+- [ ] The process has major nonconformities requiring immediate action
 
-### 6.3 Commentaires
+### 6.3 Comments
 
 ________________________________________________________________________
 ________________________________________________________________________
@@ -198,13 +198,13 @@ ________________________________________________________________________
 
 ## 7. Signatures
 
-| Rôle              | Date              | Signature          |
-|-------------------|-------------------|--------------------|
-| Auditeur          | ____/____/____    | __________________ |
-| Audité (Pilote)   | ____/____/____    | __________________ |
-| Responsable Qualité | ____/____/____  | __________________ |
+| Role                | Date              | Signature          |
+|---------------------|-------------------|--------------------|
+| Auditor             | ____/____/____    | __________________ |
+| Auditee (Owner)     | ____/____/____    | __________________ |
+| Quality Manager     | ____/____/____    | __________________ |
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

@@ -1,128 +1,128 @@
-# Fiche Détail Bloc - CH-BLOC-007 : Livraison & Douane
+# Block Detail Sheet - CH-BLOC-007: Delivery & Customs
 
 | **Document**       | CH-BLOC-007_Livraison_Douane                  |
 |--------------------|-----------------------------------------------|
 | **Version**        | v0.7                                          |
 | **Date**           | 2026-03-04                                    |
-| **Classification** | Interne                                       |
-| **Processus**      | Chaîne Processus - Réalisation                |
-| **Chaîne réf.**    | CHAIN-01 — Commande Produit Existant          |
-| **Rédaction**      | Rôle Qualité                                  |
-| **Approbation**    | Direction                                     |
+| **Classification** | Internal                                      |
+| **Process**        | Process Chain - Realization                   |
+| **Chain ref.**     | CHAIN-01 — Existing Product Order             |
+| **Drafted by**     | QUALITY                                       |
+| **Approved by**    | Management                                    |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Cette fiche décrit les actions détaillées du **BLOC 7 — Livraison & Douane** dans le cadre de la chaîne processus de commande produit existant. Ce bloc implique deux lignes processus : DELIVERY et SALES.
-
----
-
-## 2. Lignes processus
-
-| Code ligne | Ligne       | Rôle pilote       |
-|------------|-------------|-------------------|
-| 03         | DELIVERY    | Rôle Logistique   |
-| 01         | SALES       | Rôle Commercial   |
+This sheet describes the detailed actions of **BLOCK 7 — Delivery & Customs** within the existing product order process chain. This block involves two process lines: DELIVERY and SALES.
 
 ---
 
-## 3. Entrées du bloc
+## 2. Process Lines
 
-| Élément                            | Provenance                        |
+| Line Code  | Line        | Lead Role       |
+|------------|-------------|-----------------|
+| 03         | DELIVERY    | DELIVERY        |
+| 01         | SALES       | SALES           |
+
+---
+
+## 3. Block Inputs
+
+| Element                            | Source                            |
 |------------------------------------|-----------------------------------|
-| Conformité des pièces validée      | BLOC 6 — Production et qualité   |
-| Fiche de transport                 | BLOC 3 — Fiche de transport      |
-| Informations commerciales          | BLOC 2 — Fiche de commande       |
+| Parts conformity validated         | BLOCK 6 — Production and Quality  |
+| Transport sheet                    | BLOCK 3 — Transport Sheet         |
+| Commercial information             | BLOCK 2 — Order Sheet             |
 
 ---
 
-## 4. Actions détaillées
+## 4. Detailed Actions
 
-| N° | Action                                                                                             | Ligne       | Responsable       | Outil / Support                    |
+| No.| Action                                                                                             | Line        | Owner             | Tool / Support                     |
 |----|----------------------------------------------------------------------------------------------------|-------------|--------------------|------------------------------------|
-| 1  | Création d'un bulletin de livraison                                                                | 03 DELIVERY | Rôle Logistique   | Système de gestion des transports  |
-| 2  | Envoi de la facture commerciale au transporteur                                                    | 01 SALES    | Rôle Commercial   | E-mail                             |
-| 3  | Définition des spécificités s'il y en a au fournisseur (délai, jour de livraison, etc.)            | 03 DELIVERY | Rôle Logistique   | E-mail / messagerie                |
-| 4  | Suivi de l'envoi jusqu'à la livraison avec le transporteur                                         | 03 DELIVERY | Rôle Logistique   | Système de suivi / tracking        |
-| 5  | Suivi douanier jusqu'à la livraison avec le transporteur et l'agent en douane                      | 03 DELIVERY | Rôle Logistique   | Communication agent en douane      |
-| 6  | Informer le client de la date de livraison validée par le transporteur                             | 01 SALES    | Rôle Commercial   | E-mail                             |
+| 1  | Create a delivery note                                                                             | 03 DELIVERY | DELIVERY           | Transport management system        |
+| 2  | Send the commercial invoice to the carrier                                                         | 01 SALES    | SALES              | Email                              |
+| 3  | Define any specific requirements to the supplier (deadline, delivery day, etc.)                     | 03 DELIVERY | DELIVERY           | Email / messaging                  |
+| 4  | Track the shipment until delivery with the carrier                                                  | 03 DELIVERY | DELIVERY           | Tracking system                    |
+| 5  | Customs follow-up until delivery with the carrier and customs agent                                 | 03 DELIVERY | DELIVERY           | Customs agent communication        |
+| 6  | Inform the customer of the delivery date validated by the carrier                                   | 01 SALES    | SALES              | Email                              |
 
 ---
 
-## 5. Éléments du bulletin de livraison
+## 5. Delivery Note Elements
 
-| Élément                     | Description                                         |
+| Element                     | Description                                         |
 |-----------------------------|-----------------------------------------------------|
-| Référence commande          | Identique à la référence client                      |
-| Désignation produit         | Description des produits livrés                      |
-| Quantités                   | Nombre d'unités expédiées                            |
-| Poids et dimensions         | Caractéristiques physiques du colis                  |
-| Adresse de livraison        | Adresse complète du destinataire                     |
-| Mode de transport           | Type de livraison défini au BLOC 3                   |
-| Date d'expédition           | Date de départ effectif                              |
-| Date de livraison prévue    | Date estimée d'arrivée                               |
+| Order reference             | Identical to the customer's reference                |
+| Product description         | Description of delivered products                    |
+| Quantities                  | Number of units shipped                              |
+| Weight and dimensions       | Physical characteristics of the package              |
+| Delivery address            | Full address of the recipient                        |
+| Transport mode              | Delivery type defined in BLOCK 3                     |
+| Shipment date               | Actual departure date                                |
+| Expected delivery date      | Estimated arrival date                               |
 
 ---
 
-## 6. Suivi douanier
+## 6. Customs Follow-up
 
-| Étape                          | Description                                                    | Responsable       |
+| Step                           | Description                                                    | Owner             |
 |--------------------------------|----------------------------------------------------------------|--------------------|
-| Documents d'exportation        | Préparation des documents requis pour l'exportation             | Rôle Logistique   |
-| Déclaration douanière          | Déclaration en douane au départ                                 | Agent en douane    |
-| Suivi transit                  | Suivi du transit douanier international                         | Rôle Logistique   |
-| Dédouanement à destination     | Coordination du dédouanement à l'arrivée                        | Agent en douane    |
-| Confirmation livraison         | Validation de la réception par le destinataire                  | Rôle Logistique   |
+| Export documents               | Preparation of documents required for export                    | DELIVERY           |
+| Customs declaration            | Customs declaration at departure                                | Customs agent      |
+| Transit tracking               | International customs transit tracking                          | DELIVERY           |
+| Customs clearance at destination| Coordination of customs clearance upon arrival                  | Customs agent      |
+| Delivery confirmation          | Validation of receipt by the recipient                          | DELIVERY           |
 
 ---
 
-## 7. Sorties du bloc
+## 7. Block Outputs
 
-| Élément                                | Destination                          |
+| Element                                | Destination                          |
 |----------------------------------------|--------------------------------------|
-| Bulletin de livraison                  | BLOC 8 — Acceptation marchandise    |
-| Facture commerciale transmise          | Transporteur / Agent en douane       |
-| Date de livraison communiquée          | Client                               |
-| Preuve de livraison                    | BLOC 8 — Acceptation marchandise    |
+| Delivery note                          | BLOCK 8 — Goods Acceptance           |
+| Commercial invoice transmitted         | Carrier / Customs agent              |
+| Delivery date communicated             | Customer                             |
+| Proof of delivery                      | BLOCK 8 — Goods Acceptance           |
 
 ---
 
-## 8. Points de contrôle
+## 8. Control Points
 
-| Contrôle                                        | Critère d'acceptation                               | Responsable       |
+| Control                                         | Acceptance Criterion                                | Owner             |
 |-------------------------------------------------|------------------------------------------------------|--------------------|
-| Bulletin de livraison complet                   | Tous les éléments requis renseignés                   | Rôle Logistique   |
-| Facture commerciale envoyée au transporteur     | Document conforme transmis avant expédition           | Rôle Commercial   |
-| Suivi d'envoi actif                             | Numéro de tracking disponible et fonctionnel          | Rôle Logistique   |
-| Dédouanement effectué                           | Aucun blocage douanier                                | Rôle Logistique   |
-| Client informé de la date de livraison          | Communication envoyée avec date validée               | Rôle Commercial   |
+| Delivery note complete                          | All required elements completed                       | DELIVERY           |
+| Commercial invoice sent to the carrier          | Compliant document transmitted before shipment        | SALES              |
+| Active shipment tracking                        | Tracking number available and functional              | DELIVERY           |
+| Customs clearance completed                     | No customs hold                                       | DELIVERY           |
+| Customer informed of delivery date              | Communication sent with validated date                | SALES              |
 
 ---
 
-## 9. Documents associés
+## 9. Associated Documents
 
-| Référence   | Document                                      |
+| Reference   | Document                                      |
 |-------------|-----------------------------------------------|
-| CHAIN-01    | Chaîne Processus — Commande Produit Existant  |
-| CH-BLOC-003 | Fiche détail — Fiche de transport            |
-| CH-BLOC-006 | Fiche détail — Production et qualité         |
-| CH-BLOC-008 | Fiche détail — Acceptation marchandise       |
-| PR-P04-LOG  | Processus Logistique et Livraison            |
-| FM-P04-EXP  | Fiche d'expédition                           |
-| FM-P04-SUI  | Tableau de suivi des expéditions             |
+| CHAIN-01    | Process Chain — Existing Product Order         |
+| CH-BLOC-003 | Detail Sheet — Transport Sheet                |
+| CH-BLOC-006 | Detail Sheet — Production and Quality         |
+| CH-BLOC-008 | Detail Sheet — Goods Acceptance               |
+| PR-P04-LOG  | Logistics and Delivery Process                |
+| FM-P04-EXP  | Shipment Sheet                                |
+| FM-P04-SUI  | Shipment Tracking Table                       |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                              |
+| ISO 9001:2015 Clause | Requirement                                           |
 |-----------------------|-------------------------------------------------------|
-| 8.5.4                 | Préservation                                           |
-| 8.5.2                 | Identification et traçabilité                          |
-| 8.1                   | Planification et maîtrise opérationnelles              |
+| 8.5.4                 | Preservation                                           |
+| 8.5.2                 | Identification and traceability                        |
+| 8.1                   | Operational planning and control                       |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

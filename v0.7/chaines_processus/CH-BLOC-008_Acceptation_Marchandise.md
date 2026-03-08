@@ -1,124 +1,124 @@
-# Fiche Détail Bloc - CH-BLOC-008 : Acceptation de Marchandise
+# Block Detail Sheet - CH-BLOC-008: Goods Acceptance
 
 | **Document**       | CH-BLOC-008_Acceptation_Marchandise           |
 |--------------------|-----------------------------------------------|
 | **Version**        | v0.7                                          |
 | **Date**           | 2026-03-04                                    |
-| **Classification** | Interne                                       |
-| **Processus**      | Chaîne Processus - Réalisation                |
-| **Chaîne réf.**    | CHAIN-01 — Commande Produit Existant          |
-| **Rédaction**      | Rôle Qualité                                  |
-| **Approbation**    | Direction                                     |
+| **Classification** | Internal                                      |
+| **Process**        | Process Chain - Realization                   |
+| **Chain ref.**     | CHAIN-01 — Existing Product Order             |
+| **Drafted by**     | QUALITY                                       |
+| **Approved by**    | Management                                    |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Cette fiche décrit les actions détaillées du **BLOC 8 — Acceptation de marchandise** dans le cadre de la chaîne processus de commande produit existant. Ce bloc implique deux lignes processus : QUALITY et SALES.
+This sheet describes the detailed actions of **BLOCK 8 — Goods Acceptance** within the existing product order process chain. This block involves two process lines: QUALITY and SALES.
 
 ---
 
-## 2. Lignes processus
+## 2. Process Lines
 
-| Code ligne | Ligne     | Rôle pilote     |
+| Line Code  | Line      | Lead Role       |
 |------------|-----------|-----------------|
-| 04         | QUALITY   | Rôle Qualité    |
-| 01         | SALES     | Rôle Commercial |
+| 04         | QUALITY   | QUALITY         |
+| 01         | SALES     | SALES           |
 
 ---
 
-## 3. Entrées du bloc
+## 3. Block Inputs
 
-| Élément                            | Provenance                       |
+| Element                            | Source                           |
 |------------------------------------|----------------------------------|
-| Marchandise livrée                 | BLOC 7 — Livraison & Douane     |
-| Bulletin de livraison              | BLOC 7 — Livraison & Douane     |
-| Preuve de livraison                | BLOC 7 — Livraison & Douane     |
-| Rapport de contrôle qualité        | BLOC 6 — Production et qualité  |
+| Delivered goods                    | BLOCK 7 — Delivery & Customs     |
+| Delivery note                      | BLOCK 7 — Delivery & Customs     |
+| Proof of delivery                  | BLOCK 7 — Delivery & Customs     |
+| Quality control report             | BLOCK 6 — Production and Quality |
 
 ---
 
-## 4. Actions détaillées
+## 4. Detailed Actions
 
-| N° | Action                                                                          | Ligne      | Responsable     | Outil / Support                  |
+| No.| Action                                                                          | Line       | Owner           | Tool / Support                   |
 |----|---------------------------------------------------------------------------------|------------|-----------------|----------------------------------|
-| 1  | Mail de confirmation au client de la conformité de la marchandise               | 04 QUALITY | Rôle Qualité    | E-mail                           |
-| 2  | Envoi de la facture au client                                                   | 01 SALES   | Rôle Commercial | E-mail / système de facturation  |
-| 3  | Envoi de la déclaration douanière au client s'il y en a                         | 01 SALES   | Rôle Commercial | E-mail                           |
-| 4  | Paiement du client                                                              | 01 SALES   | Rôle Commercial | Système comptable                |
-| 5  | Clôture du dossier                                                              | 01 SALES   | Rôle Commercial | Système de gestion des commandes |
+| 1  | Confirmation email to the customer regarding goods conformity                    | 04 QUALITY | QUALITY         | Email                            |
+| 2  | Send the invoice to the customer                                                | 01 SALES   | SALES           | Email / invoicing system         |
+| 3  | Send the customs declaration to the customer if applicable                       | 01 SALES   | SALES           | Email                            |
+| 4  | Customer payment                                                                | 01 SALES   | SALES           | Accounting system                |
+| 5  | Close the file                                                                  | 01 SALES   | SALES           | Order management system          |
 
 ---
 
-## 5. Documents transmis au client
+## 5. Documents Transmitted to the Customer
 
-| Document                         | Condition d'envoi             | Responsable     |
+| Document                         | Sending Condition             | Owner           |
 |----------------------------------|-------------------------------|-----------------|
-| Mail de conformité               | Systématique                  | Rôle Qualité    |
-| Facture                          | Systématique                  | Rôle Commercial |
-| Déclaration douanière            | Si applicable (import/export) | Rôle Commercial |
+| Conformity email                 | Systematic                    | QUALITY         |
+| Invoice                          | Systematic                    | SALES           |
+| Customs declaration              | If applicable (import/export) | SALES           |
 
 ---
 
-## 6. Processus de clôture du dossier
+## 6. File Closure Process
 
-| Étape                        | Description                                                  | Responsable     |
+| Step                         | Description                                                  | Owner           |
 |------------------------------|--------------------------------------------------------------|-----------------|
-| Confirmation de conformité   | Validation que la marchandise est conforme                    | Rôle Qualité    |
-| Facturation                  | Émission et envoi de la facture au client                     | Rôle Commercial |
-| Documents douaniers          | Envoi de la déclaration douanière si applicable               | Rôle Commercial |
-| Encaissement                 | Suivi et confirmation du paiement client                      | Rôle Commercial |
-| Clôture                      | Fermeture administrative du dossier de commande               | Rôle Commercial |
+| Conformity confirmation      | Validation that the goods are compliant                       | QUALITY         |
+| Invoicing                    | Issuance and sending of the invoice to the customer           | SALES           |
+| Customs documents            | Sending of customs declaration if applicable                  | SALES           |
+| Payment collection           | Follow-up and confirmation of customer payment                | SALES           |
+| Closure                      | Administrative closure of the order file                      | SALES           |
 
 ---
 
-## 7. Sorties du bloc
+## 7. Block Outputs
 
-| Élément                               | Destination          |
-|---------------------------------------|----------------------|
-| Confirmation de conformité envoyée    | Client               |
-| Facture envoyée                       | Client               |
-| Déclaration douanière envoyée         | Client (si applicable)|
-| Paiement reçu                         | Comptabilité         |
-| Dossier clôturé                       | Archivage            |
+| Element                               | Destination            |
+|---------------------------------------|------------------------|
+| Conformity confirmation sent          | Customer               |
+| Invoice sent                          | Customer               |
+| Customs declaration sent              | Customer (if applicable)|
+| Payment received                      | Accounting             |
+| File closed                           | Archiving              |
 
 ---
 
-## 8. Points de contrôle
+## 8. Control Points
 
-| Contrôle                                     | Critère d'acceptation                              | Responsable     |
+| Control                                      | Acceptance Criterion                               | Owner           |
 |----------------------------------------------|-----------------------------------------------------|-----------------|
-| Conformité confirmée au client               | Mail de confirmation envoyé                          | Rôle Qualité    |
-| Facture envoyée                              | Facture conforme à la commande et aux prix convenus  | Rôle Commercial |
-| Déclaration douanière transmise              | Document complet et conforme (si applicable)         | Rôle Commercial |
-| Paiement reçu                                | Montant conforme à la facture, dans les délais       | Rôle Commercial |
-| Dossier complet et clôturé                   | Tous les documents archivés, statut « clôturé »      | Rôle Commercial |
+| Conformity confirmed to the customer         | Confirmation email sent                              | QUALITY         |
+| Invoice sent                                 | Invoice compliant with the order and agreed prices   | SALES           |
+| Customs declaration transmitted              | Complete and compliant document (if applicable)      | SALES           |
+| Payment received                             | Amount compliant with the invoice, within deadlines  | SALES           |
+| File complete and closed                     | All documents archived, status "closed"              | SALES           |
 
 ---
 
-## 9. Documents associés
+## 9. Associated Documents
 
-| Référence   | Document                                      |
+| Reference   | Document                                      |
 |-------------|-----------------------------------------------|
-| CHAIN-01    | Chaîne Processus — Commande Produit Existant  |
-| CH-BLOC-006 | Fiche détail — Production et qualité         |
-| CH-BLOC-007 | Fiche détail — Livraison et douane           |
-| PR-P03-CQ   | Processus Contrôle Qualité                   |
-| FM-P03-NC   | Fiche de Non-Conformité                      |
-| FM-P01-SAT  | Enquête Satisfaction Client                  |
+| CHAIN-01    | Process Chain — Existing Product Order         |
+| CH-BLOC-006 | Detail Sheet — Production and Quality         |
+| CH-BLOC-007 | Detail Sheet — Delivery and Customs           |
+| PR-P03-CQ   | Quality Control Process                       |
+| FM-P03-NC   | Non-Conformity Report                         |
+| FM-P01-SAT  | Customer Satisfaction Survey                  |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                              |
+| ISO 9001:2015 Clause | Requirement                                           |
 |-----------------------|-------------------------------------------------------|
-| 8.6                   | Libération des produits et services                    |
-| 8.2.1                 | Communication avec les clients                         |
-| 7.5                   | Informations documentées                               |
-| 9.1.2                 | Satisfaction du client                                 |
+| 8.6                   | Release of products and services                       |
+| 8.2.1                 | Customer communication                                 |
+| 7.5                   | Documented information                                 |
+| 9.1.2                 | Customer satisfaction                                  |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

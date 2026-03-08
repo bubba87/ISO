@@ -1,230 +1,230 @@
-# Manuel Qualité - Chapitre 7 : Support
+# Quality Manual - Chapter 7: Support
 
 | **Document**       | MQ_07_Support                            |
 |--------------------|------------------------------------------|
 | **Version**        | v0.7                                     |
 | **Date**           | 2026-03-04                               |
-| **Classification** | Interne                                  |
-| **Processus**      | PS01, PS02                               |
-| **Rédaction**      | Rôle Qualité                             |
-| **Approbation**    | Direction                                |
+| **Classification** | Internal                                 |
+| **Process**        | PS01, PS02                               |
+| **Prepared by**    | Quality Role                             |
+| **Approved by**    | Management                               |
 
 ---
 
-## 7.1 Ressources
+## 7.1 Resources
 
-### 7.1.1 Généralités
+### 7.1.1 General
 
-La Direction détermine et fournit les ressources nécessaires à l'établissement, la mise en œuvre, la tenue à jour et l'amélioration continue du SMQ, en tenant compte :
+Management determines and provides the resources needed for the establishment, implementation, maintenance and continual improvement of the QMS, taking into account:
 
-- Des capacités et contraintes des ressources internes existantes
-- De ce qu'il est nécessaire de se procurer auprès de prestataires externes
+- The capabilities and constraints of existing internal resources
+- What needs to be obtained from external providers
 
-### 7.1.2 Ressources humaines
+### 7.1.2 Human resources
 
-| Rôle                       | Effectif indicatif | Type de contrat      | Localisation         |
+| Role                       | Indicative headcount | Contract type        | Location             |
 |----------------------------|-------------------|----------------------|----------------------|
-| Direction                  | 1                 | Fixe                 | Siège                |
-| Rôle Commercial            | Selon besoin      | Fixe / Freelance     | Siège / International|
-| Rôle Achats                | Selon besoin      | Fixe / Freelance     | Siège / International|
-| Rôle Logistique            | Selon besoin      | Fixe / Freelance     | Siège / International|
-| Rôle Qualité               | Selon besoin      | Fixe / Freelance     | Siège / International|
-| Rôle Gestion Documentaire  | Selon besoin      | Fixe / Freelance     | Siège                |
+| Management                 | 1                 | Permanent            | Head office          |
+| Commercial Role            | As needed         | Permanent / Freelance| Head office / International |
+| Purchasing Role            | As needed         | Permanent / Freelance| Head office / International |
+| Logistics Role             | As needed         | Permanent / Freelance| Head office / International |
+| Quality Role               | As needed         | Permanent / Freelance| Head office / International |
+| Document Management Role   | As needed         | Permanent / Freelance| Head office          |
 
-**Note :** La matrice de compétences détaillée est documentée dans le processus PS02 - Gestion des Compétences (FM-PS02-MCO), définissant les aptitudes requises et détenues pour chaque rôle.
+**Note:** The detailed competency matrix is documented in process PS02 - Competency Management (FM-PS02-MCO), defining the required and held skills for each role.
 
 ### 7.1.3 Infrastructure
 
-| Catégorie                  | Éléments                                                         | Responsable       |
+| Category                   | Elements                                                         | Responsible       |
 |----------------------------|------------------------------------------------------------------|-------------------|
-| Locaux                     | Bureau principal (siège social)                                  | Direction         |
-| Équipements informatiques  | Ordinateurs, smartphones, tablettes pour inspections             | Direction         |
-| Logiciels                  | Suite bureautique, messagerie, outils de gestion de projet       | Direction         |
-| Communication              | Téléphonie, visioconférence, email professionnel                 | Direction         |
-| Système documentaire       | Plateforme de gestion documentaire (stockage cloud sécurisé)     | Rôle Gestion Doc. |
-| Transport                  | Véhicules / billets d'avion pour déplacements aux sites fournisseurs | Rôle Logistique|
+| Premises                   | Main office (registered office)                                  | Management        |
+| IT equipment               | Computers, smartphones, tablets for inspections                  | Management        |
+| Software                   | Office suite, email, project management tools                    | Management        |
+| Communication              | Telephony, videoconferencing, professional email                 | Management        |
+| Document management system | Document management platform (secure cloud storage)              | Document Management Role |
+| Transportation             | Vehicles / plane tickets for travel to supplier sites            | Logistics Role    |
 
-### 7.1.4 Environnement pour la mise en œuvre des processus
+### 7.1.4 Environment for the operation of processes
 
-Plus Sarl détermine et gère l'environnement nécessaire à la mise en œuvre de ses processus :
+Plus Sàrl determines and manages the environment necessary for the operation of its processes:
 
-| Facteur                    | Disposition                                                      |
+| Factor                     | Provision                                                        |
 |----------------------------|------------------------------------------------------------------|
-| Social                     | Environnement de travail collaboratif, communication ouverte     |
-| Psychologique              | Réduction du stress, équilibre vie professionnelle/personnelle   |
-| Physique                   | Conditions de travail adaptées, ergonomie des postes             |
+| Social                     | Collaborative work environment, open communication               |
+| Psychological              | Stress reduction, work-life balance                              |
+| Physical                   | Appropriate working conditions, workstation ergonomics            |
 
-### 7.1.5 Ressources pour la surveillance et la mesure
+### 7.1.5 Monitoring and measuring resources
 
-| Ressource                  | Utilisation                                        | Vérification       |
+| Resource                   | Use                                        | Verification        |
 |----------------------------|----------------------------------------------------|---------------------|
-| Instruments de mesure      | Contrôles dimensionnels lors des inspections        | Selon plan de contrôle |
-| Appareils de test          | Essais fonctionnels sur site fournisseur            | Étalonnage périodique |
-| Outils photographiques     | Documentation visuelle des inspections              | Vérification régulière |
-| Checklists d'inspection    | Standardisation des contrôles qualité               | Revue trimestrielle |
+| Measuring instruments      | Dimensional checks during inspections               | According to control plan |
+| Testing equipment          | Functional tests at supplier site                   | Periodic calibration |
+| Photographic equipment     | Visual documentation of inspections                 | Regular verification |
+| Inspection checklists      | Standardization of quality controls                 | Quarterly review    |
 
-### 7.1.6 Connaissances organisationnelles
+### 7.1.6 Organizational knowledge
 
-| Source de connaissance     | Type          | Mode de capitalisation                            |
+| Knowledge source           | Type          | Capitalization method                             |
 |----------------------------|---------------|---------------------------------------------------|
-| Retours d'expérience       | Interne       | Base de données des leçons apprises               |
-| Normes et réglementations  | Externe       | Veille normative, abonnements                     |
-| Expertise technique        | Interne       | Documentation des procédures, fiches de poste     |
-| Retours clients            | Externe       | Analyse des réclamations et enquêtes satisfaction  |
-| Bonnes pratiques du secteur| Externe       | Formations, conférences, réseaux professionnels   |
+| Lessons learned            | Internal      | Lessons learned database                          |
+| Standards and regulations  | External      | Regulatory monitoring, subscriptions              |
+| Technical expertise        | Internal      | Procedure documentation, job descriptions         |
+| Customer feedback          | External      | Analysis of complaints and satisfaction surveys   |
+| Industry best practices    | External      | Training, conferences, professional networks      |
 
 ---
 
-## 7.2 Compétences
+## 7.2 Competence
 
-### 7.2.1 Matrice de compétences par rôle
+### 7.2.1 Competency matrix by role
 
-| Compétence                              | Direction | Rôle Commercial | Rôle Achats | Rôle Logistique | Rôle Qualité | Rôle Gestion Doc. |
+| Competency                              | Management | Commercial Role | Purchasing Role | Logistics Role | Quality Role | Document Management Role |
 |-----------------------------------------|-----------|-----------------|-------------|-----------------|--------------|---------------------|
-| Management stratégique                  | E         | S               | -           | -               | S            | -                   |
-| Normes ISO 9001:2015                    | S         | B               | B           | B               | E            | S                   |
-| Négociation commerciale                 | S         | E               | S           | -               | -            | -                   |
-| Sourcing international                  | S         | S               | E           | S               | S            | -                   |
-| Évaluation fournisseurs                 | B         | S               | E           | -               | E            | -                   |
-| Logistique internationale               | B         | S               | S           | E               | B            | -                   |
-| Incoterms et réglementation douanière   | B         | S               | S           | E               | B            | -                   |
-| Techniques d'inspection                 | -         | B               | S           | -               | E            | -                   |
-| Gestion des non-conformités             | S         | B               | S           | B               | E            | -                   |
-| Audit interne                           | S         | -               | -           | -               | E            | -                   |
-| Gestion documentaire                    | B         | B               | B           | B               | S            | E                   |
-| Langues étrangères (anglais minimum)    | S         | E               | E           | S               | S            | B                   |
-| Outils informatiques                    | S         | S               | S           | S               | S            | E                   |
+| Strategic management                    | E         | S               | -           | -               | S            | -                   |
+| ISO 9001:2015 standards                 | S         | B               | B           | B               | E            | S                   |
+| Commercial negotiation                  | S         | E               | S           | -               | -            | -                   |
+| International sourcing                  | S         | S               | E           | S               | S            | -                   |
+| Supplier evaluation                     | B         | S               | E           | -               | E            | -                   |
+| International logistics                 | B         | S               | S           | E               | B            | -                   |
+| Incoterms and customs regulations       | B         | S               | S           | E               | B            | -                   |
+| Inspection techniques                   | -         | B               | S           | -               | E            | -                   |
+| Nonconformity management                | S         | B               | S           | B               | E            | -                   |
+| Internal audit                          | S         | -               | -           | -               | E            | -                   |
+| Document management                     | B         | B               | B           | B               | S            | E                   |
+| Foreign languages (English minimum)     | S         | E               | E           | S               | S            | B                   |
+| IT tools                                | S         | S               | S           | S               | S            | E                   |
 
-**Légende :** E = Expert (formé et peut former) / S = Suffisant (autonome) / B = Base (connaissance générale) / - = Non requis
+**Legend:** E = Expert (trained and can train others) / S = Sufficient (autonomous) / B = Basic (general knowledge) / - = Not required
 
-### 7.2.2 Gestion des compétences
+### 7.2.2 Competency management
 
-| Action                                 | Fréquence        | Responsable       | Enregistrement                |
+| Action                                 | Frequency         | Responsible       | Record                        |
 |----------------------------------------|-------------------|-------------------|-------------------------------|
-| Évaluation des compétences             | Annuelle          | Direction         | Fiche d'évaluation individuelle|
-| Identification des écarts              | Annuelle          | Direction         | Matrice de compétences         |
-| Plan de formation                      | Annuelle          | Direction         | Plan de formation annuel       |
-| Réalisation des formations             | Selon planning    | Rôle concerné     | Attestation de formation       |
-| Évaluation de l'efficacité             | Post-formation    | Direction         | Rapport d'efficacité           |
+| Competency assessment                  | Annual            | Management        | Individual assessment form     |
+| Gap identification                     | Annual            | Management        | Competency matrix              |
+| Training plan                          | Annual            | Management        | Annual training plan           |
+| Training delivery                      | According to schedule | Relevant role  | Training certificate           |
+| Effectiveness evaluation               | Post-training     | Management        | Effectiveness report           |
 
 ---
 
-## 7.3 Sensibilisation
+## 7.3 Awareness
 
-Toute personne intervenant dans le cadre du SMQ est sensibilisée aux éléments suivants :
+All persons working within the scope of the QMS are made aware of the following:
 
-| Élément de sensibilisation                           | Support                         | Fréquence          |
+| Awareness element                                    | Medium                          | Frequency          |
 |------------------------------------------------------|----------------------------------|--------------------|
-| Politique qualité                                    | Document affiché, présentation   | À l'intégration, annuel |
-| Objectifs qualité pertinents pour son rôle            | Tableau de bord, réunions        | Trimestrielle      |
-| Contribution à l'efficacité du SMQ                   | Entretiens individuels           | Annuelle           |
-| Conséquences de la non-conformité aux exigences du SMQ| Formation, communication interne | À l'intégration, selon besoin |
+| Quality policy                                       | Displayed document, presentation | At onboarding, annual |
+| Quality objectives relevant to their role            | Dashboard, meetings              | Quarterly          |
+| Contribution to the effectiveness of the QMS         | Individual interviews            | Annual             |
+| Consequences of not conforming to QMS requirements   | Training, internal communication | At onboarding, as needed |
 
 ---
 
 ## 7.4 Communication
 
-### 7.4.1 Communication interne
+### 7.4.1 Internal communication
 
-| Objet de la communication           | Émetteur           | Destinataire       | Moyen                    | Fréquence          |
+| Communication subject                | Sender             | Recipient          | Medium                   | Frequency          |
 |--------------------------------------|--------------------|--------------------|--------------------------|---------------------|
-| Politique et objectifs qualité       | Direction          | Tous les rôles     | Réunion, document écrit  | Annuelle           |
-| Résultats des indicateurs qualité    | Rôle Qualité       | Direction, tous    | Tableau de bord          | Mensuelle          |
-| Non-conformités et actions correctives| Rôle Qualité      | Rôles concernés    | Rapport NC, email        | À chaque occurrence|
-| Revue de direction                   | Direction          | Tous les rôles     | Compte-rendu             | Semestrielle       |
-| Modifications du SMQ                 | Rôle Qualité       | Tous les rôles     | Note interne             | Selon besoin       |
-| Alertes fournisseurs                 | Rôle Achats        | Rôle Qualité, Direction | Email, fiche alerte | Selon besoin       |
+| Quality policy and objectives        | Management         | All roles          | Meeting, written document| Annual             |
+| Quality indicator results            | Quality Role       | Management, all    | Dashboard                | Monthly            |
+| Nonconformities and corrective actions | Quality Role     | Relevant roles     | NC report, email         | At each occurrence |
+| Management review                    | Management         | All roles          | Minutes                  | Semi-annual        |
+| QMS changes                          | Quality Role       | All roles          | Internal memo            | As needed          |
+| Supplier alerts                      | Purchasing Role    | Quality Role, Management | Email, alert form   | As needed          |
 
-### 7.4.2 Communication externe
+### 7.4.2 External communication
 
-| Objet de la communication           | Émetteur           | Destinataire            | Moyen                    | Fréquence          |
+| Communication subject                | Sender             | Recipient               | Medium                   | Frequency          |
 |--------------------------------------|--------------------|--------------------------|--------------------------|--------------------|
-| Rapports d'inspection               | Rôle Qualité       | Client                  | Email, plateforme        | Par inspection     |
-| Offres commerciales                 | Rôle Commercial    | Client / prospect       | Email, courrier          | Selon demande      |
-| Commandes fournisseurs              | Rôle Achats        | Fournisseur             | Email, bon de commande   | Selon besoin       |
-| Réclamations fournisseurs           | Rôle Qualité       | Fournisseur             | Email, rapport NC        | À chaque occurrence|
-| Documents d'expédition              | Rôle Logistique    | Client, transitaire     | Email, plateforme        | Par expédition     |
-| Informations réglementaires         | Rôle Qualité       | Autorités, clients      | Courrier, portail        | Selon besoin       |
+| Inspection reports                   | Quality Role       | Customer                | Email, platform          | Per inspection     |
+| Commercial offers                    | Commercial Role    | Customer / prospect     | Email, letter            | Upon request       |
+| Supplier orders                      | Purchasing Role    | Supplier                | Email, purchase order    | As needed          |
+| Supplier complaints                  | Quality Role       | Supplier                | Email, NC report         | At each occurrence |
+| Shipping documents                   | Logistics Role     | Customer, freight forwarder | Email, platform       | Per shipment       |
+| Regulatory information               | Quality Role       | Authorities, customers  | Letter, portal           | As needed          |
 
 ---
 
-## 7.5 Informations documentées
+## 7.5 Documented information
 
-### 7.5.1 Hiérarchie documentaire
+### 7.5.1 Document hierarchy
 
-Le système documentaire de Plus Sarl est structuré en **quatre niveaux** :
+The document management system of Plus Sàrl is structured in **four levels**:
 
 ```
-┌──────────────────────────────────────────────┐
-│       Niveau 1 : Manuel Qualité (MQ)         │
-│    Politique, engagement, vision globale      │
-├──────────────────────────────────────────────┤
-│     Niveau 2 : Procédures (PR)               │
-│   Description des processus et méthodes       │
-├──────────────────────────────────────────────┤
-│   Niveau 3 : Instructions de travail (IT)    │
-│  Détails opérationnels, modes opératoires     │
-├──────────────────────────────────────────────┤
-│   Niveau 4 : Enregistrements (EN)            │
-│  Formulaires remplis, rapports, preuves       │
-└──────────────────────────────────────────────┘
++----------------------------------------------+
+|       Level 1: Quality Manual (MQ)           |
+|    Policy, commitment, overall vision        |
++----------------------------------------------+
+|     Level 2: Procedures (PR)                 |
+|   Description of processes and methods       |
++----------------------------------------------+
+|   Level 3: Work Instructions (IT)            |
+|  Operational details, operating procedures   |
++----------------------------------------------+
+|   Level 4: Records (EN)                      |
+|  Completed forms, reports, evidence          |
++----------------------------------------------+
 ```
 
-### 7.5.2 Codification des documents
+### 7.5.2 Document coding
 
-| Niveau | Préfixe | Exemple              | Description                              |
+| Level | Prefix | Example              | Description                              |
 |--------|---------|----------------------|------------------------------------------|
-| 1      | MQ      | MQ_05_Leadership     | Chapitres du Manuel Qualité              |
-| 2      | PR      | PR_P02_Achats        | Procédures de processus                  |
-| 3      | IT      | IT_P03_Inspection    | Instructions de travail                  |
-| 4      | EN      | EN_P03_RapportNC     | Enregistrements et formulaires           |
+| 1      | MQ      | MQ_05_Leadership     | Quality Manual chapters                  |
+| 2      | PR      | PR_P02_Achats        | Process procedures                       |
+| 3      | IT      | IT_P03_Inspection    | Work instructions                        |
+| 4      | EN      | EN_P03_RapportNC     | Records and forms                        |
 
-### 7.5.3 Maîtrise des informations documentées
+### 7.5.3 Control of documented information
 
-| Action                   | Responsable              | Méthode                                      |
+| Action                   | Responsible              | Method                                       |
 |--------------------------|--------------------------|----------------------------------------------|
-| Création                 | Rôle émetteur            | Selon modèle standard                        |
-| Vérification             | Rôle Qualité             | Revue de conformité et de cohérence          |
-| Approbation              | Direction                | Signature / validation électronique          |
-| Diffusion                | Rôle Gestion Documentaire| Plateforme documentaire, notification        |
-| Mise à jour              | Rôle émetteur            | Nouvelle version, historique des modifications|
-| Archivage                | Rôle Gestion Documentaire| Classement sécurisé, durée de conservation   |
-| Retrait des obsolètes    | Rôle Gestion Documentaire| Suppression de la diffusion, marquage obsolète|
+| Creation                 | Issuing role             | According to standard template               |
+| Verification             | Quality Role             | Compliance and consistency review            |
+| Approval                 | Management               | Signature / electronic validation            |
+| Distribution             | Document Management Role | Document platform, notification              |
+| Update                   | Issuing role             | New version, change history                  |
+| Archiving                | Document Management Role | Secure filing, retention period              |
+| Withdrawal of obsoletes  | Document Management Role | Removal from distribution, marked as obsolete |
 
-### 7.5.4 Conservation des enregistrements
+### 7.5.4 Record retention
 
-| Type d'enregistrement                | Durée de conservation | Lieu de stockage          |
+| Record type                          | Retention period    | Storage location            |
 |--------------------------------------|-----------------------|---------------------------|
-| Rapports d'inspection                | 5 ans                 | Plateforme documentaire   |
-| Rapports de non-conformité           | 5 ans                 | Plateforme documentaire   |
-| Évaluations fournisseurs             | 5 ans                 | Plateforme documentaire   |
-| Comptes-rendus de revue de direction | 5 ans                 | Plateforme documentaire   |
-| Rapports d'audit interne             | 5 ans                 | Plateforme documentaire   |
-| Fiches de formation                  | Durée de collaboration + 2 ans | Plateforme documentaire |
-| Documents contractuels               | 10 ans                | Archive sécurisée         |
+| Inspection reports                   | 5 years               | Document platform         |
+| Nonconformity reports                | 5 years               | Document platform         |
+| Supplier evaluations                 | 5 years               | Document platform         |
+| Management review minutes            | 5 years               | Document platform         |
+| Internal audit reports               | 5 years               | Document platform         |
+| Training records                     | Duration of collaboration + 2 years | Document platform |
+| Contractual documents                | 10 years              | Secure archive            |
 
 ---
 
-## Références normatives
+## Normative references
 
-| Clause ISO 9001:2015 | Exigence                                                     |
+| ISO 9001:2015 Clause | Requirement                                                  |
 |-----------------------|--------------------------------------------------------------|
-| 7.1                   | Ressources                                                    |
-| 7.1.1                 | Généralités                                                   |
-| 7.1.2                 | Ressources humaines                                           |
+| 7.1                   | Resources                                                     |
+| 7.1.1                 | General                                                       |
+| 7.1.2                 | People                                                        |
 | 7.1.3                 | Infrastructure                                                |
-| 7.1.4                 | Environnement pour la mise en œuvre des processus            |
-| 7.1.5                 | Ressources pour la surveillance et la mesure                  |
-| 7.1.6                 | Connaissances organisationnelles                              |
-| 7.2                   | Compétences                                                   |
-| 7.3                   | Sensibilisation                                               |
+| 7.1.4                 | Environment for the operation of processes                    |
+| 7.1.5                 | Monitoring and measuring resources                            |
+| 7.1.6                 | Organizational knowledge                                      |
+| 7.2                   | Competence                                                    |
+| 7.3                   | Awareness                                                     |
 | 7.4                   | Communication                                                 |
-| 7.5                   | Informations documentées                                      |
-| 7.5.1                 | Généralités                                                   |
-| 7.5.2                 | Création et mise à jour des informations documentées          |
-| 7.5.3                 | Maîtrise des informations documentées                         |
+| 7.5                   | Documented information                                        |
+| 7.5.1                 | General                                                       |
+| 7.5.2                 | Creating and updating documented information                  |
+| 7.5.3                 | Control of documented information                             |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sarl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

@@ -1,203 +1,203 @@
-# Chaîne Processus - CHAIN-01 : Commande Produit Existant
+# Process Chain - CHAIN-01: Existing Product Order
 
 | **Document**       | CHAIN-01_Commande_Produit_Existant         |
 |--------------------|---------------------------------------------|
 | **Version**        | v0.7                                        |
 | **Date**           | 2026-03-04                                  |
-| **Classification** | Interne                                     |
-| **Processus**      | Chaîne Processus - Réalisation              |
-| **Rédaction**      | Rôle Qualité                                |
-| **Approbation**    | Direction                                   |
+| **Classification** | Internal                                    |
+| **Process**        | Process Chain - Realization                 |
+| **Drafted by**     | QUALITY                                     |
+| **Approved by**    | Management                                  |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Ce document décrit la chaîne processus complète pour le traitement d'une **commande de produit existant** chez Plus Sàrl. Il s'agit du flux standard applicable lorsqu'un client commande un produit déjà référencé, avec un fournisseur déjà évalué et un outillage existant.
-
----
-
-## 2. Domaine d'application
-
-Cette chaîne s'applique à toute commande client portant sur un produit existant dans le catalogue de Plus Sàrl, indépendamment de la localisation géographique du client ou du fournisseur.
+This document describes the complete process chain for handling an **existing product order** at Plus Sàrl. It covers the standard flow applicable when a customer orders a product already referenced, with a supplier already evaluated and existing tooling.
 
 ---
 
-## 3. Spécificités de la chaîne « Produit Existant »
+## 2. Scope
 
-| Caractéristique                  | Description                                                        |
+This chain applies to any customer order for an existing product in the Plus Sàrl catalog, regardless of the geographic location of the customer or supplier.
+
+---
+
+## 3. Specifics of the "Existing Product" Chain
+
+| Characteristic                   | Description                                                        |
 |----------------------------------|--------------------------------------------------------------------|
-| Phase de développement           | Aucune — produit déjà développé et validé                          |
-| Évaluation fournisseur           | Déjà réalisée — fournisseur qualifié et référencé                  |
-| Outillage                        | Existant — aucune création ni modification d'outillage nécessaire  |
-| Délai de réalisation             | Le plus court parmi les 4 types de commandes                      |
-| Inspection                       | Contrôle qualité standard selon les spécifications existantes      |
+| Development phase                | None — product already developed and validated                     |
+| Supplier evaluation              | Already completed — supplier qualified and referenced              |
+| Tooling                          | Existing — no tooling creation or modification required             |
+| Lead time                        | Shortest among the 4 order types                                   |
+| Inspection                       | Standard quality control per existing specifications               |
 
 ---
 
-## 4. Lignes processus
+## 4. Process Lines
 
-La chaîne s'articule autour de **4 lignes processus** :
+The chain is built around **4 process lines**:
 
-| Code | Ligne             | Rôle pilote          | Fonction principale                              |
+| Code | Line              | Lead Role            | Main Function                                    |
 |------|-------------------|----------------------|--------------------------------------------------|
-| 01   | SALES             | Rôle Commercial      | Gestion commerciale, relation client, facturation |
-| 02   | MANUFACTURE       | Rôle Achats          | Coordination fournisseurs, suivi de production    |
-| 03   | DELIVERY          | Rôle Logistique      | Transport, livraison, douane                      |
-| 04   | QUALITY           | Rôle Qualité         | Contrôle conformité, validation qualité           |
+| 01   | SALES             | SALES                | Commercial management, customer relations, invoicing |
+| 02   | MANUFACTURE       | MANUFACTURE          | Supplier coordination, production monitoring      |
+| 03   | DELIVERY          | DELIVERY             | Transport, delivery, customs                      |
+| 04   | QUALITY           | QUALITY              | Compliance control, quality validation            |
 
 ---
 
-## 5. Vue d'ensemble des 8 blocs
+## 5. Overview of the 8 Blocks
 
 ```
-BLOC 1          BLOC 2          BLOC 3          BLOC 4
-Réception       Fiche de        Fiche de        Étude
-commande        commande        transport       technique
+BLOCK 1         BLOCK 2         BLOCK 3         BLOCK 4
+Order           Order           Transport       Technical
+Reception       Sheet           Sheet           Study
 [01 SALES]      [01 SALES]      [03 DELIVERY]   [02 MANUFACTURE]
-    │               │               │               │
-    ▼               ▼               ▼               ▼
-BLOC 5          BLOC 6          BLOC 7          BLOC 8
-Validation      Production      Livraison       Acceptation
-commande        & Qualité       & Douane        marchandise
+    |               |               |               |
+    v               v               v               v
+BLOCK 5         BLOCK 6         BLOCK 7         BLOCK 8
+Order           Production      Delivery        Goods
+Validation      & Quality       & Customs       Acceptance
 [01 SALES]      [02 MANUF.      [03 DELIVERY    [04 QUALITY
                  04 QUALITY]     01 SALES]        01 SALES]
 ```
 
 ---
 
-## 6. Détail des blocs par ligne processus
+## 6. Block Details by Process Line
 
-### BLOC 1 — Réception d'une commande client
+### BLOCK 1 — Customer Order Reception
 
-| Réf. détail | Ligne    | Actions                                                                                      |
+| Detail Ref. | Line     | Actions                                                                                      |
 |-------------|----------|----------------------------------------------------------------------------------------------|
-| CH-BLOC-001 | 01 SALES | Télécharger et enregistrer la commande sur le bureau et dans le dossier ORDER_20XX sous la même nomenclature que le client |
+| CH-BLOC-001 | 01 SALES | Download and save the order on the desktop and in the ORDER_20XX folder using the same naming convention as the customer |
 
-### BLOC 2 — Création d'une fiche de commande
+### BLOCK 2 — Order Sheet Creation
 
-| Réf. détail | Ligne    | Actions                                                                                              |
+| Detail Ref. | Line     | Actions                                                                                              |
 |-------------|----------|------------------------------------------------------------------------------------------------------|
-| CH-BLOC-002 | 01 SALES | 1. Création d'une nouvelle fiche de commande                                                         |
-|             |          | 2. Ajout de la commande en PDF sous l'onglet PDF                                                     |
-|             |          | 3. Téléchargement de la commande sous le fichier                                                     |
-|             |          | 4. Ajouter le nom du client, la date et l'échéance s'il y en a une                                  |
-|             |          | 5. Sélectionner le nom du produit dans la bibliothèque déroulante                                    |
-|             |          | 6. Ajout de la quantité commandée et la quantité finale (identique)                                  |
-|             |          | 7. Ajouter la référence de la commande, identique à celle du client                                 |
+| CH-BLOC-002 | 01 SALES | 1. Create a new order sheet                                                                          |
+|             |          | 2. Add the order as PDF under the PDF tab                                                            |
+|             |          | 3. Download the order into the file                                                                  |
+|             |          | 4. Add the customer name, date, and deadline if applicable                                           |
+|             |          | 5. Select the product name from the dropdown library                                                 |
+|             |          | 6. Add the ordered quantity and final quantity (identical)                                            |
+|             |          | 7. Add the order reference, identical to the customer's reference                                    |
 
-### BLOC 3 — Création d'une fiche de transport
+### BLOCK 3 — Transport Sheet Creation
 
-| Réf. détail | Ligne       | Actions                                                                              |
+| Detail Ref. | Line        | Actions                                                                              |
 |-------------|-------------|--------------------------------------------------------------------------------------|
-| CH-BLOC-003 | 03 DELIVERY | 1. Création d'une fiche de transport ou ajout sur un transport existant               |
-|             |             | 2. Validation des délais de livraison par le transporteur                             |
-|             |             | 3. Définition du type de livraison                                                   |
+| CH-BLOC-003 | 03 DELIVERY | 1. Create a transport sheet or add to an existing transport                           |
+|             |             | 2. Validation of delivery deadlines by the carrier                                   |
+|             |             | 3. Definition of the delivery type                                                   |
 
-### BLOC 4 — Étude technique avec les fournisseurs
+### BLOCK 4 — Technical Study with Suppliers
 
-| Réf. détail | Ligne          | Actions                                                                         |
+| Detail Ref. | Line           | Actions                                                                         |
 |-------------|----------------|---------------------------------------------------------------------------------|
-| CH-BLOC-004 | 02 MANUFACTURE | 1. Définir le statut de la commande (liste déroulante)                           |
-|             |                | 2. Envoi des informations aux fournisseurs requis                                |
-|             |                | 3. Validation des délais de production par les fournisseurs                      |
+| CH-BLOC-004 | 02 MANUFACTURE | 1. Define the order status (dropdown list)                                       |
+|             |                | 2. Send information to the required suppliers                                    |
+|             |                | 3. Validation of production lead times by the suppliers                          |
 
-### BLOC 5 — Validation de commande
+### BLOCK 5 — Order Validation
 
-| Réf. détail | Ligne    | Actions                                                                                      |
+| Detail Ref. | Line     | Actions                                                                                      |
 |-------------|----------|----------------------------------------------------------------------------------------------|
-| CH-BLOC-005 | 01 SALES | 1. Imprimer l'AR pour préparer à l'envoi pour valider avec le client                         |
-|             |          | 2. Envoyer l'AR au client avec les détails de livraison et prix par produit                  |
-|             |          | 3. Retour du client si nécessaire ou acceptation ou refus                                    |
+| CH-BLOC-005 | 01 SALES | 1. Print the acknowledgment of receipt (AR) to prepare for sending and validate with the customer |
+|             |          | 2. Send the AR to the customer with delivery details and price per product                   |
+|             |          | 3. Customer feedback if necessary, or acceptance or rejection                                |
 
-### BLOC 6 — Production et qualité
+### BLOCK 6 — Production and Quality
 
-| Réf. détail | Ligne          | Actions                                                                                         |
+| Detail Ref. | Line           | Actions                                                                                         |
 |-------------|----------------|-------------------------------------------------------------------------------------------------|
-| CH-BLOC-006 | 02 MANUFACTURE | Envoyer la confirmation de production au fournisseur (e-mail ou messagerie)                      |
-|             | 04 QUALITY     | Validation de la conformité des pièces par le fournisseur suite au contrôle qualité              |
+| CH-BLOC-006 | 02 MANUFACTURE | Send production confirmation to the supplier (email or messaging)                                |
+|             | 04 QUALITY     | Validation of parts conformity by the supplier following quality control                         |
 
-### BLOC 7 — Livraison & Douane
+### BLOCK 7 — Delivery & Customs
 
-| Réf. détail | Ligne       | Actions                                                                                          |
+| Detail Ref. | Line        | Actions                                                                                          |
 |-------------|-------------|--------------------------------------------------------------------------------------------------|
-| CH-BLOC-007 | 03 DELIVERY | 1. Création d'un bulletin de livraison                                                           |
-|             | 01 SALES    | 2. Envoi de la facture commerciale au transporteur                                               |
-|             | 03 DELIVERY | 3. Définition des spécificités s'il y en a au fournisseur (délai, jour de livraison, etc.)       |
-|             | 03 DELIVERY | 4. Suivi de l'envoi jusqu'à la livraison avec le transporteur                                    |
-|             | 03 DELIVERY | 5. Suivi douanier jusqu'à la livraison avec le transporteur et l'agent en douane                 |
-|             | 01 SALES    | 6. Informer le client de la date de livraison validée par le transporteur                        |
+| CH-BLOC-007 | 03 DELIVERY | 1. Create a delivery note                                                                        |
+|             | 01 SALES    | 2. Send the commercial invoice to the carrier                                                    |
+|             | 03 DELIVERY | 3. Define any specific requirements to the supplier (deadline, delivery day, etc.)                |
+|             | 03 DELIVERY | 4. Track the shipment until delivery with the carrier                                            |
+|             | 03 DELIVERY | 5. Customs follow-up until delivery with the carrier and customs agent                           |
+|             | 01 SALES    | 6. Inform the customer of the delivery date validated by the carrier                             |
 
-### BLOC 8 — Acceptation de marchandise
+### BLOCK 8 — Goods Acceptance
 
-| Réf. détail | Ligne      | Actions                                                                                    |
+| Detail Ref. | Line       | Actions                                                                                    |
 |-------------|------------|--------------------------------------------------------------------------------------------|
-| CH-BLOC-008 | 04 QUALITY | 1. Mail de confirmation au client de la conformité de la marchandise                        |
-|             | 01 SALES   | 2. Envoi de la facture au client                                                           |
-|             | 01 SALES   | 3. Envoi de la déclaration douanière au client s'il y en a                                 |
-|             | 01 SALES   | 4. Paiement du client                                                                     |
-|             | 01 SALES   | 5. Clôture du dossier                                                                     |
+| CH-BLOC-008 | 04 QUALITY | 1. Confirmation email to the customer regarding goods conformity                            |
+|             | 01 SALES   | 2. Send the invoice to the customer                                                        |
+|             | 01 SALES   | 3. Send the customs declaration to the customer if applicable                              |
+|             | 01 SALES   | 4. Customer payment                                                                       |
+|             | 01 SALES   | 5. Close the file                                                                         |
 
 ---
 
-## 7. Matrice de responsabilité (RACI)
+## 7. Responsibility Matrix (RACI)
 
-| Bloc   | Rôle Commercial | Rôle Achats | Rôle Logistique | Rôle Qualité |
+| Block  | SALES           | MANUFACTURE | DELIVERY        | QUALITY      |
 |--------|-----------------|-------------|-----------------|--------------|
-| BLOC 1 | R/A             | I           | I               | I            |
-| BLOC 2 | R/A             | I           | I               | I            |
-| BLOC 3 | I               | I           | R/A             | I            |
-| BLOC 4 | I               | R/A         | I               | C            |
-| BLOC 5 | R/A             | C           | C               | I            |
-| BLOC 6 | I               | R/A         | I               | R/A          |
-| BLOC 7 | R               | I           | R/A             | I            |
-| BLOC 8 | R               | I           | I               | R/A          |
+| BLOCK 1| R/A             | I           | I               | I            |
+| BLOCK 2| R/A             | I           | I               | I            |
+| BLOCK 3| I               | I           | R/A             | I            |
+| BLOCK 4| I               | R/A         | I               | C            |
+| BLOCK 5| R/A             | C           | C               | I            |
+| BLOCK 6| I               | R/A         | I               | R/A          |
+| BLOCK 7| R               | I           | R/A             | I            |
+| BLOCK 8| R               | I           | I               | R/A          |
 
-**Légende** : R = Réalise, A = Approuve, C = Consulté, I = Informé
-
----
-
-## 8. Indicateurs de performance (KPI)
-
-| KPI                                    | Objectif                  | Fréquence de mesure | Responsable       |
-|----------------------------------------|---------------------------|---------------------|--------------------|
-| Délai moyen de traitement commande     | ≤ délai contractuel       | Mensuelle           | Rôle Commercial    |
-| Taux de conformité des livraisons      | ≥ 95 %                   | Mensuelle           | Rôle Qualité       |
-| Taux de réclamations clients           | ≤ 3 %                    | Mensuelle           | Rôle Commercial    |
-| Respect des délais fournisseurs        | ≥ 90 %                   | Mensuelle           | Rôle Achats        |
-| Taux de dossiers clôturés dans le délai| ≥ 90 %                   | Mensuelle           | Rôle Commercial    |
-| Taux de conformité au contrôle qualité | ≥ 97 %                   | Par commande        | Rôle Qualité       |
-| Délai moyen de livraison               | ≤ délai annoncé au client | Mensuelle           | Rôle Logistique    |
+**Legend**: R = Responsible, A = Approver, C = Consulted, I = Informed
 
 ---
 
-## 9. Documents associés
+## 8. Key Performance Indicators (KPI)
 
-| Référence    | Document                                  |
+| KPI                                    | Target                    | Measurement Frequency | Owner              |
+|----------------------------------------|---------------------------|----------------------|--------------------|
+| Average order processing time          | ≤ contractual deadline    | Monthly              | SALES              |
+| Delivery conformity rate               | ≥ 95%                    | Monthly              | QUALITY            |
+| Customer complaint rate                | ≤ 3%                     | Monthly              | SALES              |
+| Supplier deadline compliance           | ≥ 90%                    | Monthly              | MANUFACTURE        |
+| Rate of files closed on time           | ≥ 90%                    | Monthly              | SALES              |
+| Quality control conformity rate        | ≥ 97%                    | Per order            | QUALITY            |
+| Average delivery time                  | ≤ time announced to customer | Monthly           | DELIVERY           |
+
+---
+
+## 9. Associated Documents
+
+| Reference    | Document                                  |
 |--------------|-------------------------------------------|
-| CH-BLOC-001  | Fiche détail — Réception commande         |
-| CH-BLOC-002  | Fiche détail — Fiche de commande          |
-| CH-BLOC-003  | Fiche détail — Fiche de transport         |
-| CH-BLOC-004  | Fiche détail — Étude technique            |
-| CH-BLOC-005  | Fiche détail — Validation commande        |
-| CH-BLOC-006  | Fiche détail — Production et qualité      |
-| CH-BLOC-007  | Fiche détail — Livraison et douane        |
-| CH-BLOC-008  | Fiche détail — Acceptation marchandise    |
+| CH-BLOC-001  | Detail Sheet — Order Reception            |
+| CH-BLOC-002  | Detail Sheet — Order Sheet                |
+| CH-BLOC-003  | Detail Sheet — Transport Sheet            |
+| CH-BLOC-004  | Detail Sheet — Technical Study            |
+| CH-BLOC-005  | Detail Sheet — Order Validation           |
+| CH-BLOC-006  | Detail Sheet — Production and Quality     |
+| CH-BLOC-007  | Detail Sheet — Delivery and Customs       |
+| CH-BLOC-008  | Detail Sheet — Goods Acceptance           |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                                        |
+| ISO 9001:2015 Clause | Requirement                                                     |
 |-----------------------|-----------------------------------------------------------------|
-| 8.1                   | Planification et maîtrise opérationnelles                        |
-| 8.2                   | Exigences relatives aux produits et services                     |
-| 8.4                   | Maîtrise des processus, produits et services externalisés        |
-| 8.5                   | Production et prestation de service                              |
-| 8.5.2                 | Identification et traçabilité                                    |
-| 8.6                   | Libération des produits et services                              |
+| 8.1                   | Operational planning and control                                 |
+| 8.2                   | Requirements for products and services                           |
+| 8.4                   | Control of externally provided processes, products and services  |
+| 8.5                   | Production and service provision                                 |
+| 8.5.2                 | Identification and traceability                                  |
+| 8.6                   | Release of products and services                                 |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

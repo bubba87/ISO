@@ -1,236 +1,236 @@
-# PS03 - Processus d'Amélioration Continue
+# PS03 - Continual Improvement Process
 
-| **Processus**       | PS03 - Amélioration Continue                         |
+| **Process**         | PS03 - Continual Improvement                         |
 |----------------------|------------------------------------------------------|
 | **Type**            | Support                                               |
-| **Pilote**          | Rôle Qualité                                          |
+| **Owner**           | Quality Role                                          |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Référence**       | PR-PS03-AMC                                           |
-| **Norme ISO 9001**  | Chapitre 10 (Amélioration)                           |
+| **Reference**       | PR-PS03-AMC                                           |
+| **ISO 9001 Standard** | Clause 10 (Improvement)                             |
 
 ---
 
-## 1. Objet et domaine d'application
+## 1. Purpose and Scope
 
-Ce processus définit les activités liées au pilotage de l'amélioration continue au sein du SMQ de **Plus Sàrl**. Il couvre la collecte et l'analyse des données d'amélioration, la gestion des non-conformités et actions correctives, le pilotage du cycle PDCA, et le programme d'amélioration annuel.
+This process defines the activities related to the management of continual improvement within the QMS of **Plus Sàrl**. It covers the collection and analysis of improvement data, management of non-conformities and corrective actions, PDCA cycle management, and the annual improvement program.
 
-Ce processus interagit avec l'ensemble des processus du SMQ et alimente directement la revue de direction (PM01).
-
----
-
-## 2. Références normatives
-
-- ISO 9001:2015, Chapitre 10.1 (Généralités), 10.2 (Non-conformité et action corrective), 10.3 (Amélioration continue)
-- Manuel Qualité Plus Sàrl (MQ_10_Amélioration)
-- Fiche de Non-Conformité (FM-P03-NC)
+This process interacts with all QMS processes and directly feeds the management review (PM01).
 
 ---
 
-## 3. Rôles et responsabilités
+## 2. Normative References
 
-| Rôle                        | Responsabilités                                                    |
+- ISO 9001:2015, Clause 10.1 (General), 10.2 (Nonconformity and Corrective Action), 10.3 (Continual Improvement)
+- Plus Sàrl Quality Manual (MQ_10_Amelioration)
+- Non-Conformity Report (FM-P03-NC)
+
+---
+
+## 3. Roles and Responsibilities
+
+| Role                        | Responsibilities                                                    |
 |-----------------------------|---------------------------------------------------------------------|
-| **Direction**               | Validation du programme d'amélioration, arbitrage des priorités, allocation des ressources |
-| **Rôle Qualité**            | Pilotage du processus, animation des revues d'amélioration, suivi des actions correctives |
-| **Pilotes de processus**    | Identification des opportunités dans leur périmètre, mise en œuvre des actions |
-| **Tous les rôles**          | Remontée des suggestions, signalement des non-conformités, participation aux REX |
+| **Executive Management**    | Validation of the improvement program, priority arbitration, resource allocation |
+| **Quality Role**            | Process management, facilitation of improvement reviews, corrective action monitoring |
+| **Process Owners**          | Identification of opportunities within their scope, implementation of actions |
+| **All Roles**               | Submission of suggestions, reporting of non-conformities, participation in lessons learned |
 
 ---
 
-## 4. Données d'entrée et de sortie
+## 4. Input and Output Data
 
-### Données d'entrée
-- Résultats des audits internes et externes (MQ_09)
-- Réclamations clients et enquêtes de satisfaction (P01)
-- Non-conformités produits et fournisseurs (P03, P02)
-- Indicateurs de performance (KPI) de tous les processus
-- Résultats des évaluations fournisseurs (P02)
-- Comptes-rendus de revues de direction (PM01)
-- Suggestions des collaborateurs
-- Veille normative et concurrentielle
+### Input Data
+- Internal and external audit results (MQ_09)
+- Customer complaints and satisfaction surveys (P01)
+- Product and supplier non-conformities (P03, P02)
+- Key performance indicators (KPI) from all processes
+- Supplier evaluation results (P02)
+- Management review minutes (PM01)
+- Employee suggestions
+- Normative and competitive intelligence
 
-### Données de sortie
-- Registre des non-conformités à jour
-- Actions correctives clôturées et évaluées
-- Programme d'amélioration annuel
-- Rapports de tendances et analyses
-- Données d'entrée pour la revue de direction
-- Propositions de mise à jour du SMQ
+### Output Data
+- Up-to-date non-conformity register
+- Closed and evaluated corrective actions
+- Annual improvement program
+- Trend reports and analyses
+- Input data for management review
+- QMS update proposals
 
 ---
 
-## 5. Description des activités
+## 5. Activity Description
 
-### A1 - Collecte des données d'amélioration
+### A1 - Collection of Improvement Data
 
-| Source                              | Données collectées                               | Fréquence         | Responsable       |
+| Source                              | Data Collected                                   | Frequency          | Responsible        |
 |-------------------------------------|--------------------------------------------------|--------------------|-------------------|
-| Audits internes                     | Constats, NC, observations, points forts         | Selon programme    | Rôle Qualité      |
-| Réclamations clients                | Fiches de réclamation, analyses                  | Continue           | Rôle Commercial   |
-| Non-conformités produits            | Fiches NC, rapports d'inspection                 | Continue           | Rôle Qualité      |
-| Évaluations fournisseurs            | Scores, tendances, alertes                       | Semestrielle       | Rôle Achats       |
-| Indicateurs de performance          | Tableaux de bord KPI par processus               | Mensuelle          | Rôle Qualité      |
-| Revues de direction                 | Décisions, actions à mener                       | Semestrielle       | Direction         |
-| Suggestions collaborateurs          | Idées d'amélioration, retours terrain            | Continue           | Tous les rôles    |
-| Veille normative et concurrentielle | Évolutions normes, pratiques marché              | Trimestrielle      | Rôle Qualité      |
+| Internal audits                     | Findings, NCs, observations, strengths           | Per program        | Quality Role       |
+| Customer complaints                 | Complaint forms, analyses                        | Ongoing            | Commercial Role    |
+| Product non-conformities            | NC reports, inspection reports                   | Ongoing            | Quality Role       |
+| Supplier evaluations                | Scores, trends, alerts                           | Semi-annual        | Purchasing Role    |
+| Performance indicators              | KPI dashboards per process                       | Monthly            | Quality Role       |
+| Management reviews                  | Decisions, actions to be taken                   | Semi-annual        | Executive Management |
+| Employee suggestions                | Improvement ideas, field feedback                | Ongoing            | All Roles          |
+| Normative and competitive intelligence | Standards developments, market practices       | Quarterly          | Quality Role       |
 
-### A2 - Traitement des non-conformités
+### A2 - Non-Conformity Treatment
 
-Le traitement des non-conformités suit le processus en 6 étapes défini dans MQ_10 :
+Non-conformity treatment follows the 6-step process defined in MQ_10:
 
-1. **Détection et enregistrement** — Ouverture fiche NC (NC-AAAA-NNN)
-2. **Action immédiate** — Isolement, notification, sécurisation
-3. **Analyse des causes racines** — 5 Pourquoi, Ishikawa, arbre des causes
-4. **Actions correctives** — Définition, validation, mise en œuvre
-5. **Vérification d'efficacité** — Contrôle, évaluation, non-récurrence
-6. **Capitalisation** — Mise à jour documents, REX, revue de direction
+1. **Detection and registration** -- NC report opening (NC-YYYY-NNN)
+2. **Immediate action** -- Isolation, notification, containment
+3. **Root cause analysis** -- 5 Whys, Ishikawa, cause tree
+4. **Corrective actions** -- Definition, validation, implementation
+5. **Effectiveness verification** -- Control, evaluation, non-recurrence
+6. **Capitalization** -- Document updates, lessons learned, management review
 
-### Classification des non-conformités
+### Non-Conformity Classification
 
-| Niveau | Catégorie        | Délai de traitement | Approbation requise |
-|--------|------------------|---------------------|---------------------|
-| 1      | **Mineure**      | 30 jours            | Rôle Qualité        |
-| 2      | **Significative** | 15 jours           | Rôle Qualité        |
-| 3      | **Majeure**      | 5 jours             | Direction           |
-| 4      | **Critique**     | Immédiat            | Direction           |
+| Level | Category          | Treatment Deadline | Approval Required    |
+|-------|-------------------|--------------------|----------------------|
+| 1     | **Minor**         | 30 days            | Quality Role         |
+| 2     | **Significant**   | 15 days            | Quality Role         |
+| 3     | **Major**         | 5 days             | Executive Management |
+| 4     | **Critical**      | Immediate          | Executive Management |
 
-### A3 - Pilotage du cycle PDCA
+### A3 - PDCA Cycle Management
 
-Le Rôle Qualité anime le cycle PDCA (Plan-Do-Check-Act) pour chaque processus :
+The Quality Role facilitates the PDCA (Plan-Do-Check-Act) cycle for each process:
 
-| Phase   | Actions                                          | Responsable              | Fréquence      |
-|---------|--------------------------------------------------|--------------------------|----------------|
-| PLAN    | Analyser les données, définir les objectifs d'amélioration, planifier les actions | Rôle Qualité + Pilotes | Trimestrielle |
-| DO      | Mettre en œuvre les actions planifiées, collecter les données | Pilotes de processus   | Continue       |
-| CHECK   | Mesurer les résultats, comparer aux objectifs, analyser les écarts | Rôle Qualité          | Trimestrielle |
-| ACT     | Standardiser si succès, corriger si écart, relancer un nouveau cycle | Direction + Rôle Qualité | Trimestrielle |
+| Phase   | Actions                                          | Responsible                    | Frequency      |
+|---------|--------------------------------------------------|--------------------------------|----------------|
+| PLAN    | Analyze data, define improvement objectives, plan actions | Quality Role + Process Owners | Quarterly      |
+| DO      | Implement planned actions, collect data          | Process Owners                 | Ongoing        |
+| CHECK   | Measure results, compare to objectives, analyze gaps | Quality Role                | Quarterly      |
+| ACT     | Standardize if successful, correct if gap exists, launch new cycle | Executive Management + Quality Role | Quarterly |
 
-### A4 - Programme d'amélioration annuel
+### A4 - Annual Improvement Program
 
-| Étape                               | Description                                              | Responsable       | Période    |
+| Step                                | Description                                              | Responsible        | Period     |
 |--------------------------------------|----------------------------------------------------------|--------------------|------------|
-| Bilan de l'année écoulée            | Analyse des résultats, tendances, efficacité des actions | Rôle Qualité       | T4         |
-| Identification des axes prioritaires | Sélection des priorités basée sur les données           | Direction          | T4         |
-| Définition du programme             | Actions, responsables, ressources, échéances             | Rôle Qualité       | T4/T1      |
-| Validation                          | Approbation par la Direction en revue de direction        | Direction          | T1         |
-| Suivi trimestriel                   | Revue d'avancement, ajustements                          | Rôle Qualité       | T1-T4      |
-| Bilan annuel                        | Évaluation de l'efficacité du programme                  | Direction          | T4         |
+| Previous year review                 | Analysis of results, trends, action effectiveness        | Quality Role       | Q4         |
+| Identification of priority areas     | Selection of priorities based on data                    | Executive Management | Q4       |
+| Program definition                   | Actions, responsible parties, resources, deadlines       | Quality Role       | Q4/Q1      |
+| Validation                           | Approval by Executive Management at management review    | Executive Management | Q1       |
+| Quarterly monitoring                 | Progress review, adjustments                             | Quality Role       | Q1-Q4      |
+| Annual review                        | Evaluation of program effectiveness                      | Executive Management | Q4       |
 
-### A5 - Outils d'amélioration continue
+### A5 - Continual Improvement Tools
 
-| Outil                    | Application                                              | Fréquence              |
+| Tool                     | Application                                              | Frequency              |
 |--------------------------|----------------------------------------------------------|------------------------|
-| Analyse de tendances     | Suivi de l'évolution des KPI dans le temps               | Mensuelle              |
-| Analyse Pareto           | Identification des causes principales (règle 80/20)      | Trimestrielle          |
-| Brainstorming            | Génération d'idées d'amélioration en équipe              | Selon besoin           |
-| Benchmarking             | Comparaison avec les meilleures pratiques du secteur     | Annuelle               |
-| REX (retour d'expérience)| Capitalisation après chaque projet significatif          | À chaque clôture       |
-| 5 Pourquoi               | Recherche de causes racines                              | À chaque NC            |
-| Diagramme d'Ishikawa     | Analyse multicausale                                     | NC complexes           |
+| Trend analysis           | Monitoring of KPI evolution over time                    | Monthly                |
+| Pareto analysis          | Identification of main causes (80/20 rule)               | Quarterly              |
+| Brainstorming            | Team idea generation for improvement                     | As needed              |
+| Benchmarking             | Comparison with industry best practices                  | Annual                 |
+| Lessons learned          | Capitalization after each significant project            | At each closure        |
+| 5 Whys                   | Root cause investigation                                 | At each NC             |
+| Ishikawa diagram         | Multi-causal analysis                                    | Complex NCs            |
 
 ---
 
-## 6. Diagramme swimlane
+## 6. Swimlane Diagram
 
 ```
- PROCESSUS PS03 - AMÉLIORATION CONTINUE
+ PROCESS PS03 - CONTINUAL IMPROVEMENT
  ============================================================================
 
- Rôle                 | Flux des activités
+ Role                 | Activity Flow
  ============================================================================
                       |
- DIRECTION            |  Valider le         Arbitrer les         Approuver le
-                      |  programme    --->  priorités      --->  bilan annuel
-                      |  d'amélioration     d'action              et les
-                      |                                          ajustements
+ EXECUTIVE            |  Validate the       Arbitrate            Approve the
+ MANAGEMENT           |  improvement  --->  action          ---> annual review
+                      |  program            priorities            and
+                      |                                          adjustments
                       |                         |
                       |                         v
  ============================================================================
                       |
- RÔLE QUALITÉ         |  [A1 Collecter]     [A2 Traiter]        [A3 Piloter]
-                      |  les données   ---> les NC et AC   ---> le cycle
-                      |  d'amélioration                          PDCA
+ QUALITY ROLE         |  [A1 Collect]       [A2 Handle]         [A3 Manage]
+                      |  improvement   ---> NCs and CAs    ---> the PDCA
+                      |  data                                    cycle
                       |      |                   |                   |
                       |      v                   v                   v
-                      |  Analyser les       Suivre les          Mesurer les
-                      |  tendances et       actions et          résultats
-                      |  identifier les     vérifier            et proposer
-                      |  opportunités       l'efficacité        des ajustements
+                      |  Analyze             Monitor              Measure
+                      |  trends and          actions and          results
+                      |  identify            verify               and propose
+                      |  opportunities       effectiveness        adjustments
                       |      |                   |                   |
                       |      v                   v                   v
-                      |  [A4 Définir le programme d'amélioration annuel]
+                      |  [A4 Define the annual improvement program]
                       |      |
                       |      v
-                      |  [A5 Animer les outils d'amélioration continue]
+                      |  [A5 Facilitate continual improvement tools]
                       |      |
                       |      v
-                      |  Préparer les données d'entrée revue de direction
+                      |  Prepare input data for management review
                       |
  ============================================================================
                       |
- PILOTES DE           |  Identifier les  -->  Mettre en    --->  Reporter les
- PROCESSUS            |  opportunités dans    œuvre les          résultats
-                      |  leur périmètre       actions dans       et leçons
-                      |                       leur processus     apprises
+ PROCESS              |  Identify       -->  Implement     --->  Report
+ OWNERS               |  opportunities in    actions in          results
+                      |  their scope         their process       and lessons
+                      |                                          learned
  ============================================================================
                       |
- TOUS LES             |  Signaler les   --->  Proposer des  ---> Participer
- RÔLES                |  NC et écarts         suggestions        aux REX
-                      |                       d'amélioration
+ ALL                  |  Report         --->  Propose       ---> Participate
+ ROLES                |  NCs and gaps         improvement        in lessons
+                      |                       suggestions        learned
  ============================================================================
 ```
 
 ---
 
-## 7. Interactions avec les autres processus
+## 7. Interactions with Other Processes
 
-| Processus              | Nature de l'interaction                                        |
+| Process                | Nature of Interaction                                          |
 |------------------------|----------------------------------------------------------------|
-| PM01 - Pilotage        | Revue de direction, validation programme d'amélioration        |
-| P01 - Commercial       | Réclamations clients, satisfaction client                      |
-| P02 - Achats           | Évaluations fournisseurs, NC fournisseurs                      |
-| P03 - Contrôle Qualité | NC produits, résultats d'inspections                          |
-| P04 - Logistique       | NC logistiques, performance livraison                          |
-| PS01 - Gestion Doc.    | Mise à jour des documents suite aux actions d'amélioration     |
-| PS02 - Compétences     | Besoins en formation identifiés par l'analyse des NC           |
+| PM01 - Leadership      | Management review, improvement program validation              |
+| P01 - Commercial       | Customer complaints, customer satisfaction                     |
+| P02 - Purchasing       | Supplier evaluations, supplier NCs                             |
+| P03 - Quality Control  | Product NCs, inspection results                                |
+| P04 - Logistics        | Logistics NCs, delivery performance                            |
+| PS01 - Document Mgmt   | Document updates following improvement actions                 |
+| PS02 - Competency Mgmt | Training needs identified through NC analysis                  |
 
 ---
 
-## 8. Indicateurs de performance (KPI)
+## 8. Key Performance Indicators (KPI)
 
-| Indicateur                                   | Formule / Méthode                              | Objectif       | Fréquence    |
-|----------------------------------------------|------------------------------------------------|----------------|--------------|
-| Nombre d'actions d'amélioration lancées      | Comptage                                       | ≥ 6/an         | Annuelle     |
-| Taux de réalisation des actions              | Actions réalisées / Actions planifiées × 100   | ≥ 80 %         | Semestrielle |
-| Taux d'efficacité des actions correctives    | AC efficaces / AC clôturées × 100              | ≥ 90 %         | Annuelle     |
-| Évolution du taux de NC global               | Tendance sur 12 mois glissants                 | Baisse continue | Trimestrielle|
-| Nombre de récurrences de NC                  | NC identiques sur 12 mois                      | 0 récurrence   | Annuelle     |
-| Délai moyen de clôture des NC                | Durée moyenne de traitement                    | ≤ 20 jours     | Trimestrielle|
+| Indicator                                    | Formula / Method                                   | Target         | Frequency    |
+|----------------------------------------------|---------------------------------------------------|----------------|--------------|
+| Number of improvement actions launched       | Count                                              | >= 6/year      | Annual       |
+| Action completion rate                       | Actions completed / Actions planned x 100          | >= 80%         | Semi-annual  |
+| Corrective action effectiveness rate         | Effective CAs / Closed CAs x 100                  | >= 90%         | Annual       |
+| Overall NC rate trend                        | Trend over rolling 12 months                       | Continuous decrease | Quarterly |
+| Number of NC recurrences                     | Identical NCs over 12 months                       | 0 recurrence   | Annual       |
+| Average NC closure time                      | Average treatment duration                         | <= 20 days     | Quarterly    |
 
 ---
 
-## 9. Documents et enregistrements associés
+## 9. Associated Documents and Records
 
-| Code          | Intitulé                          | Type           |
+| Code          | Title                             | Type           |
 |---------------|-----------------------------------|----------------|
-| MQ_10         | Manuel Qualité — Amélioration     | Manuel         |
-| FM-P03-NC     | Fiche de Non-Conformité           | Formulaire     |
-| FM-PS03-PAA   | Programme d'amélioration annuel   | Formulaire     |
-| EN-PS03-REG   | Registre des non-conformités      | Enregistrement |
-| EN-PS03-REX   | Fiches de retour d'expérience     | Enregistrement |
+| MQ_10         | Quality Manual -- Improvement     | Manual         |
+| FM-P03-NC     | Non-Conformity Report             | Form           |
+| FM-PS03-PAA   | Annual Improvement Program        | Form           |
+| EN-PS03-REG   | Non-Conformity Register           | Record         |
+| EN-PS03-REX   | Lessons Learned Reports           | Record         |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                                     |
+| ISO 9001:2015 Clause | Requirement                                                  |
 |-----------------------|--------------------------------------------------------------|
-| 10.1                  | Généralités — Amélioration                                   |
-| 10.2                  | Non-conformité et action corrective                          |
-| 10.3                  | Amélioration continue                                        |
+| 10.1                  | General -- Improvement                                       |
+| 10.2                  | Nonconformity and Corrective Action                          |
+| 10.3                  | Continual Improvement                                        |
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

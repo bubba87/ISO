@@ -1,254 +1,254 @@
-# PS01 - Processus de Gestion Documentaire
+# PS01 - Document Management Process
 
-| **Processus**       | PS01 - Gestion Documentaire                            |
+| **Process**         | PS01 - Document Management                             |
 |----------------------|------------------------------------------------------|
 | **Type**            | Support                                               |
-| **Pilote**          | Rôle Gestion Documentaire                             |
+| **Owner**           | Document Management Role                              |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Référence**       | PR-PS01-GD                                              |
-| **Norme ISO 9001**  | Chapitres 7.5                                         |
+| **Reference**       | PR-PS01-GD                                              |
+| **ISO 9001 Standard** | Clause 7.5                                          |
 
 ---
 
-## 1. Objet et domaine d'application
+## 1. Purpose and Scope
 
-Ce processus décrit la gestion documentaire du Système de Management de la Qualité (SMQ) de **Plus Sàrl**. Il couvre la création, la révision, l'approbation, la diffusion, l'archivage et la destruction des documents et enregistrements du SMQ.
-
----
-
-## 2. Références normatives
-
-- ISO 9001:2015, Chapitre 7.5 (Informations documentées)
-- Manuel Qualité Plus Sàrl (MQ-001)
+This process describes the document management of the Quality Management System (QMS) of **Plus Sàrl**. It covers the creation, revision, approval, distribution, archiving, and disposal of QMS documents and records.
 
 ---
 
-## 3. Rôles et responsabilités
+## 2. Normative References
 
-| Rôle                        | Responsabilités principales                                          |
+- ISO 9001:2015, Clause 7.5 (Documented Information)
+- Plus Sàrl Quality Manual (MQ-001)
+
+---
+
+## 3. Roles and Responsibilities
+
+| Role                        | Key Responsibilities                                                 |
 |-----------------------------|----------------------------------------------------------------------|
-| **Gestion Documentaire**    | Administration du système documentaire, contrôle des versions, diffusion |
-| **Pilotes de processus**    | Rédaction et mise à jour des documents de leur processus             |
-| **Direction**               | Approbation des documents stratégiques (Manuel, Politique)           |
-| **Responsable Qualité**     | Vérification de la conformité documentaire, approbation des procédures |
+| **Document Management**     | Administration of the document system, version control, distribution |
+| **Process Owners**          | Drafting and updating documents for their process                    |
+| **Executive Management**    | Approval of strategic documents (Manual, Policy)                     |
+| **Quality Manager**         | Verification of document compliance, approval of procedures          |
 
 ---
 
-## 4. Système de codification
+## 4. Coding System
 
-### 4.1 Types de documents
+### 4.1 Document Types
 
-| Code Préfixe | Type de document          | Description                                          |
+| Code Prefix | Document Type               | Description                                          |
 |-------------|---------------------------|------------------------------------------------------|
-| **MQ**      | Manuel Qualité             | Document stratégique décrivant le SMQ                |
-| **PR**      | Procédure                  | Description détaillée d'un processus                 |
-| **IT**      | Instruction de travail     | Mode opératoire détaillé pour une tâche spécifique   |
-| **FM**      | Formulaire                 | Modèle à remplir pour enregistrer des données        |
-| **EN**      | Enregistrement             | Preuve de la réalisation d'une activité              |
+| **MQ**      | Quality Manual             | Strategic document describing the QMS                |
+| **PR**      | Procedure                  | Detailed description of a process                    |
+| **IT**      | Work Instruction           | Detailed operating method for a specific task        |
+| **FM**      | Form                       | Template to be completed to record data              |
+| **EN**      | Record                     | Evidence of an activity being performed              |
 
-### 4.2 Convention de codification
+### 4.2 Coding Convention
 
-Le code d'un document suit la structure suivante :
+The document code follows the structure below:
 
 ```
-[TYPE]-[PROCESSUS]-[IDENTIFIANT]
+[TYPE]-[PROCESS]-[IDENTIFIER]
 ```
 
-**Exemples :**
-- `MQ-001` : Manuel Qualité, document principal
-- `PR-P01-COM` : Procédure du processus P01 Commercial
-- `IT-P04-ECH` : Instruction de travail échantillonnage AQL (P04)
-- `FM-P02-AQF` : Formulaire Accord Qualité Fournisseur (P02)
-- `EN-P03-POD` : Enregistrement preuves de livraison (P03)
+**Examples:**
+- `MQ-001`: Quality Manual, main document
+- `PR-P01-COM`: P01 Commercial process procedure
+- `IT-P04-ECH`: AQL sampling work instruction (P04)
+- `FM-P02-AQF`: Supplier Quality Agreement form (P02)
+- `EN-P03-POD`: Proof of delivery records (P03)
 
-### 4.3 Convention de version
+### 4.3 Version Convention
 
-Les versions suivent le format **vX.Y** :
-- **X** (majeur) : Modification structurelle ou de fond significative
-- **Y** (mineur) : Correction, ajustement, mise à jour mineure
+Versions follow the **vX.Y** format:
+- **X** (major): Significant structural or substantive modification
+- **Y** (minor): Correction, adjustment, minor update
 
-Exemples : v0.1, v0.7, v1.0, v1.1, v2.0
+Examples: v0.1, v0.7, v1.0, v1.1, v2.0
 
 ---
 
-## 5. Données d'entrée et de sortie
+## 5. Input and Output Data
 
-### Données d'entrée
-- Besoin de création ou de modification documentaire
-- Exigences normatives et réglementaires
-- Retours d'audit (interne ou externe)
-- Demandes des pilotes de processus
-- Documents obsolètes à réviser
+### Input Data
+- Need for document creation or modification
+- Normative and regulatory requirements
+- Audit feedback (internal or external)
+- Process owner requests
+- Obsolete documents requiring revision
 
-### Données de sortie
-- Documents approuvés et diffusés
-- Registre documentaire à jour (FM-PS01-GD)
-- Documents obsolètes archivés ou détruits
-- Historique des versions
-
----
-
-## 6. Description des activités
-
-### A1 - Identification du besoin documentaire
-
-Le Rôle Gestion Documentaire ou le Pilote de processus identifie le besoin de créer, modifier ou supprimer un document. Le besoin est formalisé et justifié.
-
-### A2 - Rédaction ou révision du document
-
-Le rédacteur désigné (généralement le Pilote du processus concerné) rédige ou révise le document en respectant les modèles et la codification définis. Le document est identifié avec son code, sa version, sa date et son statut.
-
-### A3 - Vérification
-
-Le Rôle Gestion Documentaire vérifie la conformité du document : respect de la codification, cohérence avec le SMQ, absence de contradictions, complétude.
-
-### A4 - Approbation
-
-Le document est approuvé par le responsable habilité selon la matrice d'approbation :
-- Manuel Qualité, Politique : Direction
-- Procédures : Responsable Qualité
-- Instructions de travail, Formulaires : Pilote de processus
-
-### A5 - Diffusion et mise à disposition
-
-Le Rôle Gestion Documentaire diffuse le document approuvé aux destinataires concernés, met à jour le registre documentaire (FM-PS01-GD) et s'assure du retrait des versions obsolètes.
-
-### A6 - Gestion des enregistrements et archivage
-
-Le Rôle Gestion Documentaire assure la conservation des enregistrements selon les durées de rétention définies, dans des conditions garantissant leur lisibilité, intégrité et accessibilité.
-
-### A7 - Revue périodique et destruction
-
-Le Rôle Gestion Documentaire conduit une revue périodique (annuelle) de la documentation pour identifier les documents à mettre à jour ou à détruire. Les documents au-delà de leur durée de rétention sont détruits de manière contrôlée.
+### Output Data
+- Approved and distributed documents
+- Up-to-date document register (FM-PS01-GD)
+- Archived or disposed obsolete documents
+- Version history
 
 ---
 
-## 7. Diagramme swimlane
+## 6. Activity Description
+
+### A1 - Identification of Document Need
+
+The Document Management Role or the Process Owner identifies the need to create, modify, or delete a document. The need is formalized and justified.
+
+### A2 - Document Drafting or Revision
+
+The designated author (generally the relevant Process Owner) drafts or revises the document in accordance with defined templates and coding conventions. The document is identified with its code, version, date, and status.
+
+### A3 - Verification
+
+The Document Management Role verifies document compliance: adherence to coding conventions, consistency with the QMS, absence of contradictions, completeness.
+
+### A4 - Approval
+
+The document is approved by the authorized person according to the approval matrix:
+- Quality Manual, Policy: Executive Management
+- Procedures: Quality Manager
+- Work Instructions, Forms: Process Owner
+
+### A5 - Distribution and Availability
+
+The Document Management Role distributes the approved document to the relevant recipients, updates the document register (FM-PS01-GD), and ensures the withdrawal of obsolete versions.
+
+### A6 - Records Management and Archiving
+
+The Document Management Role ensures the preservation of records according to defined retention periods, under conditions that guarantee their readability, integrity, and accessibility.
+
+### A7 - Periodic Review and Disposal
+
+The Document Management Role conducts a periodic review (annual) of documentation to identify documents requiring update or disposal. Documents beyond their retention period are disposed of in a controlled manner.
+
+---
+
+## 7. Swimlane Diagram
 
 ```
- PROCESSUS PS01 - GESTION DOCUMENTAIRE
+ PROCESS PS01 - DOCUMENT MANAGEMENT
  ============================================================================
 
- Rôle                 | Flux des activités
+ Role                 | Activity Flow
  ============================================================================
                       |
- GESTION              |  [A1 Identifier]         [A3 Vérifier]
- DOCUMENTAIRE         |  le besoin          ---> conformité du
-                      |  documentaire            document
+ DOCUMENT             |  [A1 Identify]         [A3 Verify]
+ MANAGEMENT           |  the document     ---> document
+                      |  need                  compliance
                       |       |                       |
                       |       |                       v
-                      |       |                  Conforme ?
-                      |       |                  OUI --> [A5]
-                      |       |                  NON --> Retour au
-                      |       |                          rédacteur
+                      |       |                  Compliant?
+                      |       |                  YES --> [A5]
+                      |       |                  NO  --> Return to
+                      |       |                          author
                       |       |                       |
                       |       |                       v
-                      |       |              [A5 Diffuser]
-                      |       |              et mettre à
-                      |       |              disposition
+                      |       |              [A5 Distribute]
+                      |       |              and make
+                      |       |              available
                       |       |              (FM-PS01-GD)
                       |       |                   |
                       |       |                   v
-                      |       |              [A6 Archiver]
-                      |       |              enregistrements
-                      |       |              (durées de rétention)
+                      |       |              [A6 Archive]
+                      |       |              records
+                      |       |              (retention periods)
                       |       |                   |
                       |       |                   v
-                      |       +------------>[A7 Revue périodique]
-                      |                     et destruction
-                      |                     contrôlée
+                      |       +------------>[A7 Periodic review]
+                      |                     and controlled
+                      |                     disposal
                       |
  ============================================================================
                       |
- PILOTES DE           |  [A2 Rédiger / Réviser]
- PROCESSUS            |  le document selon
-                      |  modèles et codification
+ PROCESS              |  [A2 Draft / Revise]
+ OWNERS               |  the document per
+                      |  templates and coding
                       |  (MQ/PR/IT/FM/EN)
                       |       |
                       |       v
-                      |  Soumettre pour
-                      |  vérification (A3)
+                      |  Submit for
+                      |  verification (A3)
                       |
  ============================================================================
                       |
- RESPONSABLE          |  [A4 Approuver]
- QUALITÉ              |  Procédures (PR)
-                      |  Vérifier conformité SMQ
+ QUALITY              |  [A4 Approve]
+ MANAGER              |  Procedures (PR)
+                      |  Verify QMS compliance
                       |
  ============================================================================
                       |
- DIRECTION            |  [A4 Approuver]
-                      |  Manuel Qualité (MQ)
-                      |  Politique Qualité
+ EXECUTIVE            |  [A4 Approve]
+ MANAGEMENT           |  Quality Manual (MQ)
+                      |  Quality Policy
                       |
  ============================================================================
 ```
 
 ---
 
-## 8. Durées de rétention des enregistrements
+## 8. Record Retention Periods
 
-| Type d'enregistrement               | Durée de rétention | Lieu de stockage       |
-|--------------------------------------|--------------------|------------------------|
-| Manuel Qualité (versions antérieures) | 5 ans             | Serveur documentaire   |
-| Procédures (versions antérieures)    | 3 ans              | Serveur documentaire   |
-| Rapports d'audit                     | 5 ans              | Serveur documentaire   |
-| Fiches de non-conformité             | 5 ans              | Serveur documentaire   |
-| Rapports d'inspection                | 5 ans              | Serveur documentaire   |
-| Évaluations fournisseurs             | 3 ans              | Serveur documentaire   |
-| Comptes rendus revue de direction    | 5 ans              | Serveur documentaire   |
-| Enquêtes satisfaction client         | 3 ans              | Serveur documentaire   |
-| Bons de commande                     | 5 ans              | Serveur documentaire   |
-| Documents de transport               | 5 ans              | Serveur documentaire   |
+| Record Type                         | Retention Period | Storage Location         |
+|--------------------------------------|------------------|--------------------------|
+| Quality Manual (previous versions)   | 5 years          | Document server          |
+| Procedures (previous versions)       | 3 years          | Document server          |
+| Audit reports                        | 5 years          | Document server          |
+| Non-conformity reports               | 5 years          | Document server          |
+| Inspection reports                   | 5 years          | Document server          |
+| Supplier evaluations                 | 3 years          | Document server          |
+| Management review minutes           | 5 years          | Document server          |
+| Customer satisfaction surveys        | 3 years          | Document server          |
+| Purchase orders                      | 5 years          | Document server          |
+| Transport documents                  | 5 years          | Document server          |
 
 ---
 
-## 9. Interactions avec les autres processus
+## 9. Interactions with Other Processes
 
-| Processus              | Nature de l'interaction                                |
+| Process                | Nature of Interaction                                  |
 |------------------------|--------------------------------------------------------|
-| PM01 - Leadership        | Documents stratégiques, revue de direction             |
-| P01 - Commercial       | Offres, contrats, enquêtes satisfaction                |
-| P02 - Achats           | AQF, évaluations fournisseurs, commandes               |
-| P04 - Logistique       | Documents de transport, preuves de livraison           |
-| P03 - Contrôle Qualité | Rapports d'inspection, NC, audits                      |
+| PM01 - Leadership      | Strategic documents, management review                 |
+| P01 - Commercial       | Proposals, contracts, satisfaction surveys              |
+| P02 - Purchasing       | SQAs, supplier evaluations, orders                     |
+| P04 - Logistics        | Transport documents, proofs of delivery                |
+| P03 - Quality Control  | Inspection reports, NCs, audits                        |
 
 ---
 
-## 10. Indicateurs de performance (KPI)
+## 10. Key Performance Indicators (KPI)
 
-| Indicateur                                | Formule / Méthode                              | Objectif       | Fréquence    |
-|-------------------------------------------|------------------------------------------------|----------------|--------------|
-| Taux de documents à jour                  | Documents à jour / Total documents x 100       | 100 %          | Trimestrielle |
-| Délai moyen de traitement documentaire    | Somme délais (création à approbation) / Nombre | < 10 jours     | Trimestrielle |
-| Taux de conformité documentaire           | Documents conformes / Documents vérifiés x 100 | 100 %          | Semestrielle |
-| Nombre de documents obsolètes en circulation | Comptage                                     | 0              | Trimestrielle |
-| Taux de réalisation de la revue annuelle  | Documents revus / Documents à revoir x 100     | 100 %          | Annuelle     |
+| Indicator                                 | Formula / Method                                   | Target         | Frequency    |
+|-------------------------------------------|---------------------------------------------------|----------------|--------------|
+| Up-to-date document rate                  | Up-to-date documents / Total documents x 100       | 100%           | Quarterly    |
+| Average document processing time          | Sum of times (creation to approval) / Number       | < 10 days      | Quarterly    |
+| Document compliance rate                  | Compliant documents / Verified documents x 100     | 100%           | Semi-annual  |
+| Number of obsolete documents in circulation | Count                                            | 0              | Quarterly    |
+| Annual review completion rate             | Documents reviewed / Documents to review x 100     | 100%           | Annual       |
 
 ---
 
-## 11. Documents et enregistrements associés
+## 11. Associated Documents and Records
 
-| Code         | Intitulé                              | Type          |
+| Code         | Title                                 | Type          |
 |--------------|---------------------------------------|---------------|
-| PR-PS01-GD     | Procédure Gestion Documentaire       | Procédure     |
-| FM-PS01-GD     | Registre documentaire                 | Formulaire    |
-| IT-PS01-COD    | Instruction de codification           | Instruction   |
-| FM-PS01-DEM    | Demande de modification documentaire  | Formulaire    |
+| PR-PS01-GD   | Document Management Procedure         | Procedure     |
+| FM-PS01-GD   | Document Register                     | Form          |
+| IT-PS01-COD  | Coding Instruction                    | Instruction   |
+| FM-PS01-DEM  | Document Modification Request         | Form          |
 
 ---
 
-## 12. Amélioration continue
+## 12. Continual Improvement
 
-L'amélioration du processus de gestion documentaire s'appuie sur :
-- La revue annuelle de la documentation
-- Les constats d'audit relatifs à la documentation
-- La simplification des modèles et procédures
-- La digitalisation et l'automatisation des flux documentaires
-- Les retours des utilisateurs du système documentaire
+Improvement of the document management process is based on:
+- Annual documentation review
+- Audit findings related to documentation
+- Simplification of templates and procedures
+- Digitalization and automation of document workflows
+- Feedback from document system users
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

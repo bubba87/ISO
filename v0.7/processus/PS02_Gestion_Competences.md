@@ -1,287 +1,287 @@
-# PS02 - Processus de Gestion des Compétences
+# PS02 - Competency Management Process
 
-| **Processus**       | PS02 - Gestion des Compétences                       |
+| **Process**         | PS02 - Competency Management                         |
 |----------------------|------------------------------------------------------|
 | **Type**            | Support                                               |
-| **Pilote**          | Direction                                             |
+| **Owner**           | Executive Management                                  |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Référence**       | PR-PS02-CMP                                           |
-| **Norme ISO 9001**  | Chapitre 7.2 (Compétences)                           |
+| **Reference**       | PR-PS02-CMP                                           |
+| **ISO 9001 Standard** | Clause 7.2 (Competence)                             |
 
 ---
 
-## 1. Objet et domaine d'application
+## 1. Purpose and Scope
 
-Ce processus définit les activités liées à la gestion des compétences au sein de **Plus Sàrl**. Il couvre l'identification des besoins en compétences, l'évaluation des compétences existantes, la planification et la réalisation des formations, ainsi que l'évaluation de leur efficacité.
+This process defines the activities related to competency management within **Plus Sàrl**. It covers the identification of competency needs, assessment of existing competencies, planning and delivery of training, and evaluation of training effectiveness.
 
-Ce processus s'applique à l'ensemble des rôles définis dans le SMQ de Plus Sàrl.
-
----
-
-## 2. Références normatives
-
-- ISO 9001:2015, Chapitre 7.1.2 (Ressources humaines), 7.2 (Compétences), 7.3 (Sensibilisation)
-- Manuel Qualité Plus Sàrl (MQ_03, MQ_07)
-- Matrice de compétences (FM-PS02-MCO)
+This process applies to all roles defined in the Plus Sàrl QMS.
 
 ---
 
-## 3. Rôles et responsabilités
+## 2. Normative References
 
-| Rôle                        | Responsabilités                                                    |
+- ISO 9001:2015, Clause 7.1.2 (Human Resources), 7.2 (Competence), 7.3 (Awareness)
+- Plus Sàrl Quality Manual (MQ_03, MQ_07)
+- Competency Matrix (FM-PS02-MCO)
+
+---
+
+## 3. Roles and Responsibilities
+
+| Role                        | Responsibilities                                                    |
 |-----------------------------|---------------------------------------------------------------------|
-| **Direction**               | Validation du plan de formation, allocation des ressources, revue annuelle des compétences |
-| **Rôle Qualité**            | Suivi du processus, mise à jour de la matrice de compétences, évaluation d'efficacité |
-| **Pilotes de processus**    | Identification des besoins en compétences pour leur processus, évaluation des collaborateurs |
-| **Tous les rôles**          | Participation aux formations, auto-évaluation, retour d'expérience |
+| **Executive Management**    | Validation of the training plan, resource allocation, annual competency review |
+| **Quality Role**            | Process monitoring, competency matrix updates, effectiveness evaluation |
+| **Process Owners**          | Identification of competency needs for their process, employee evaluation |
+| **All Roles**               | Participation in training, self-assessment, experience feedback     |
 
 ---
 
-## 4. Données d'entrée et de sortie
+## 4. Input and Output Data
 
-### Données d'entrée
-- Exigences des processus (fiches processus PM01, P01-P04, PS01)
-- Résultats des évaluations individuelles
-- Évolutions normatives et réglementaires
-- Retours d'audits internes et externes
-- Besoins identifiés en revue de direction
-- Retours clients nécessitant de nouvelles compétences
+### Input Data
+- Process requirements (process sheets PM01, P01-P04, PS01)
+- Individual evaluation results
+- Normative and regulatory developments
+- Internal and external audit feedback
+- Needs identified in management review
+- Customer feedback requiring new competencies
 
-### Données de sortie
-- Matrice de compétences à jour (FM-PS02-MCO)
-- Plan de formation annuel validé
-- Attestations de formation
-- Évaluations d'efficacité des formations
-- Rapport annuel des compétences
+### Output Data
+- Up-to-date competency matrix (FM-PS02-MCO)
+- Approved annual training plan
+- Training certificates
+- Training effectiveness evaluations
+- Annual competency report
 
 ---
 
-## 5. Description des activités
+## 5. Activity Description
 
-### A1 - Identification des besoins en compétences
+### A1 - Identification of Competency Needs
 
-La Direction, en collaboration avec les pilotes de processus, identifie les compétences nécessaires pour chaque rôle du SMQ. Les besoins sont déterminés en fonction de :
+Executive Management, in collaboration with Process Owners, identifies the competencies required for each QMS role. Needs are determined based on:
 
-| Source                          | Type de besoin                                              |
+| Source                          | Type of Need                                                |
 |---------------------------------|--------------------------------------------------------------|
-| Fiches processus                | Compétences techniques requises par processus                |
-| Évolutions normatives           | Nouvelles exigences de compétences (ISO, réglementaire)     |
-| Résultats d'audits              | Écarts de compétences identifiés                            |
-| Retours clients                 | Compétences additionnelles requises                         |
-| Projets et développements       | Compétences nouvelles liées à l'évolution de l'activité     |
+| Process sheets                  | Technical competencies required per process                  |
+| Normative developments          | New competency requirements (ISO, regulatory)               |
+| Audit results                   | Competency gaps identified                                  |
+| Customer feedback               | Additional competencies required                            |
+| Projects and developments       | New competencies related to business evolution              |
 
-### A2 - Évaluation des compétences existantes
+### A2 - Assessment of Existing Competencies
 
-L'évaluation des compétences est réalisée selon la matrice de compétences (FM-PS02-MCO). Chaque compétence est évaluée selon 3 niveaux :
+Competency assessment is performed using the competency matrix (FM-PS02-MCO). Each competency is assessed at 3 levels:
 
-| Niveau | Code | Description                                                          |
-|--------|------|----------------------------------------------------------------------|
-| Expert | E    | Maîtrise complète, capacité à former les autres, autonomie totale    |
-| Suffisant | S | Maîtrise opérationnelle, autonomie dans les situations courantes     |
-| Base   | B    | Connaissances fondamentales, nécessite un accompagnement             |
+| Level      | Code | Description                                                          |
+|------------|------|----------------------------------------------------------------------|
+| Expert     | E    | Full mastery, ability to train others, complete autonomy             |
+| Sufficient | S    | Operational mastery, autonomy in routine situations                  |
+| Basic      | B    | Foundational knowledge, requires guidance                            |
 
-### A3 - Analyse des écarts et planification
+### A3 - Gap Analysis and Planning
 
-| Action                          | Description                                              | Responsable       |
+| Action                          | Description                                              | Responsible        |
 |---------------------------------|----------------------------------------------------------|--------------------|
-| Analyse des écarts              | Comparaison compétences requises vs compétences actuelles | Rôle Qualité      |
-| Priorisation                    | Classement des écarts par criticité pour le SMQ          | Direction          |
-| Plan de formation               | Définition des actions de formation avec échéances       | Direction          |
-| Allocation des ressources       | Budget et temps alloués aux formations                   | Direction          |
+| Gap analysis                    | Comparison of required vs. current competencies          | Quality Role       |
+| Prioritization                  | Ranking of gaps by criticality for the QMS               | Executive Management |
+| Training plan                   | Definition of training actions with deadlines            | Executive Management |
+| Resource allocation             | Budget and time allocated to training                    | Executive Management |
 
-### A4 - Réalisation des actions de développement des compétences
+### A4 - Delivery of Competency Development Actions
 
-| Type d'action                   | Description                                              | Exemples                           |
+| Action Type                     | Description                                              | Examples                           |
 |---------------------------------|----------------------------------------------------------|------------------------------------|
-| Formation externe               | Formation dispensée par un organisme externe              | ISO 9001, audit interne, AQL      |
-| Formation interne               | Transfert de compétences entre collaborateurs             | Compagnonnage, mentorat           |
-| Autoformation                   | Apprentissage autonome encadré                           | E-learning, documentation technique|
-| Formation sur le terrain        | Accompagnement pratique sur site fournisseur              | Inspection accompagnée            |
-| Participation à des événements  | Salons, séminaires, conférences professionnelles         | Foires industrielles, webinaires  |
+| External training               | Training delivered by an external organization           | ISO 9001, internal audit, AQL     |
+| Internal training               | Knowledge transfer between employees                     | Mentoring, coaching               |
+| Self-study                      | Guided autonomous learning                               | E-learning, technical documentation |
+| On-the-job training             | Practical support at supplier site                       | Supervised inspection             |
+| Event participation             | Trade fairs, seminars, professional conferences          | Industrial fairs, webinars        |
 
-### A5 - Évaluation de l'efficacité des formations
+### A5 - Training Effectiveness Evaluation
 
-| Niveau d'évaluation            | Méthode                                                  | Délai               |
+| Evaluation Level               | Method                                                   | Timeline            |
 |---------------------------------|----------------------------------------------------------|----------------------|
-| Réaction (satisfaction)         | Questionnaire de satisfaction post-formation              | Immédiat            |
-| Apprentissage (connaissances)   | Test de connaissances ou quiz                            | Fin de formation    |
-| Transfert (application)         | Observation en situation de travail                       | 1 à 3 mois         |
-| Résultats (impact)              | Mesure de l'amélioration des indicateurs concernés       | 3 à 6 mois         |
+| Reaction (satisfaction)         | Post-training satisfaction questionnaire                 | Immediate           |
+| Learning (knowledge)            | Knowledge test or quiz                                   | End of training     |
+| Transfer (application)          | Observation in work situation                            | 1 to 3 months       |
+| Results (impact)                | Measurement of improvement in relevant indicators        | 3 to 6 months       |
 
-### A6 - Mise à jour de la matrice de compétences
+### A6 - Competency Matrix Update
 
-La matrice de compétences est mise à jour :
-- Après chaque formation réalisée
-- Lors de l'évaluation annuelle
-- En cas de changement de rôle ou d'évolution du périmètre
+The competency matrix is updated:
+- After each training completed
+- During the annual evaluation
+- In case of role change or scope evolution
 
 ---
 
-## 6. Matrice de compétences (FM-PS02-MCO)
+## 6. Competency Matrix (FM-PS02-MCO)
 
-### 6.1 Compétences par rôle
+### 6.1 Competencies by Role
 
-| Compétence                          | Direction | Rôle Commercial | Rôle Achats | Rôle Logistique | Rôle Qualité | Rôle Gest. Doc. |
+| Competency                          | Executive Mgmt | Commercial Role | Purchasing Role | Logistics Role | Quality Role | Doc. Mgmt Role |
 |-------------------------------------|-----------|-----------------|-------------|-----------------|--------------|------------------|
-| **Connaissances métier**            |           |                 |             |                 |              |                  |
-| Sourcing industriel international   | S         | S               | E           | B               | S            | B                |
-| Normes qualité (ISO 9001, AQL)     | S         | B               | S           | B               | E            | S                |
-| Techniques d'inspection            | B         | B               | S           | B               | E            | B                |
-| Commerce international             | S         | E               | S           | S               | B            | B                |
-| Logistique internationale          | S         | S               | S           | E               | B            | B                |
-| **Compétences transversales**       |           |                 |             |                 |              |                  |
-| Communication interculturelle       | E         | E               | E           | S               | S            | B                |
-| Langues étrangères (anglais min.)  | E         | E               | E           | S               | E            | S                |
-| Outils informatiques (ERP, CRM)    | S         | S               | S           | S               | S            | E                |
-| Gestion documentaire SMQ           | S         | B               | B           | B               | S            | E                |
-| Analyse de risques                  | E         | B               | S           | B               | E            | B                |
-| **Compétences managériales**        |           |                 |             |                 |              |                  |
-| Pilotage stratégique               | E         | B               | B           | B               | S            | B                |
-| Gestion de projet                  | E         | S               | S           | S               | S            | B                |
-| Prise de décision                  | E         | S               | S           | S               | S            | B                |
-| **Compétences réglementaires**     |           |                 |             |                 |              |                  |
-| Réglementations douanières         | B         | S               | S           | E               | B            | B                |
-| Normes produits sectorielles       | B         | S               | S           | B               | E            | B                |
-| Droit commercial international     | S         | E               | S           | S               | B            | B                |
+| **Business Knowledge**              |           |                 |             |                 |              |                  |
+| International industrial sourcing   | S         | S               | E           | B               | S            | B                |
+| Quality standards (ISO 9001, AQL)   | S         | B               | S           | B               | E            | S                |
+| Inspection techniques               | B         | B               | S           | B               | E            | B                |
+| International trade                 | S         | E               | S           | S               | B            | B                |
+| International logistics             | S         | S               | S           | E               | B            | B                |
+| **Cross-Functional Competencies**   |           |                 |             |                 |              |                  |
+| Intercultural communication         | E         | E               | E           | S               | S            | B                |
+| Foreign languages (English min.)    | E         | E               | E           | S               | E            | S                |
+| IT tools (ERP, CRM)                | S         | S               | S           | S               | S            | E                |
+| QMS document management             | S         | B               | B           | B               | S            | E                |
+| Risk analysis                       | E         | B               | S           | B               | E            | B                |
+| **Managerial Competencies**         |           |                 |             |                 |              |                  |
+| Strategic management                | E         | B               | B           | B               | S            | B                |
+| Project management                  | E         | S               | S           | S               | S            | B                |
+| Decision making                     | E         | S               | S           | S               | S            | B                |
+| **Regulatory Competencies**         |           |                 |             |                 |              |                  |
+| Customs regulations                 | B         | S               | S           | E               | B            | B                |
+| Industry product standards          | B         | S               | S           | B               | E            | B                |
+| International commercial law        | S         | E               | S           | S               | B            | B                |
 
-*Légende : E = Expert, S = Suffisant, B = Base*
+*Legend: E = Expert, S = Sufficient, B = Basic*
 
-### 6.2 Suivi des compétences individuelles
+### 6.2 Individual Competency Tracking
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Nom du collaborateur**  | ________________________________________         |
-| **Rôle principal**        | ________________________________________         |
-| **Date d'évaluation**     | ________________________________________         |
-| **Évaluateur**            | ________________________________________         |
-| **Prochaine évaluation**  | ________________________________________         |
+| **Employee Name**         | ________________________________________         |
+| **Primary Role**          | ________________________________________         |
+| **Evaluation Date**       | ________________________________________         |
+| **Evaluator**             | ________________________________________         |
+| **Next Evaluation**       | ________________________________________         |
 
 ---
 
-## 7. Plan de formation annuel
+## 7. Annual Training Plan
 
-| Priorité | Formation                          | Rôle(s) concerné(s)  | Organisme / Formateur | Échéance   | Budget   | Statut    |
+| Priority | Training                           | Role(s) Concerned       | Organization / Trainer  | Deadline   | Budget   | Status    |
 |----------|------------------------------------|-----------------------|-----------------------|------------|----------|-----------|
-| 1        | ISO 9001:2015 — Exigences         | Tous les rôles        | À définir             | T1         | À définir | [ ] Planifié |
-| 2        | Audit interne ISO 19011           | Rôle Qualité          | À définir             | T1         | À définir | [ ] Planifié |
-| 3        | Techniques d'inspection AQL       | Rôle Qualité          | À définir             | T2         | À définir | [ ] Planifié |
-| 4        | Commerce international            | Rôle Commercial       | À définir             | T2         | À définir | [ ] Planifié |
-| 5        | Logistique & Incoterms            | Rôle Logistique       | À définir             | T3         | À définir | [ ] Planifié |
-| 6        | Gestion documentaire SMQ          | Rôle Gest. Doc.       | Interne               | T1         | Interne  | [ ] Planifié |
+| 1        | ISO 9001:2015 -- Requirements      | All roles             | To be defined         | Q1         | To be defined | [ ] Planned |
+| 2        | Internal audit ISO 19011           | Quality Role          | To be defined         | Q1         | To be defined | [ ] Planned |
+| 3        | AQL inspection techniques          | Quality Role          | To be defined         | Q2         | To be defined | [ ] Planned |
+| 4        | International trade                | Commercial Role       | To be defined         | Q2         | To be defined | [ ] Planned |
+| 5        | Logistics & Incoterms              | Logistics Role        | To be defined         | Q3         | To be defined | [ ] Planned |
+| 6        | QMS document management            | Doc. Mgmt Role        | Internal              | Q1         | Internal | [ ] Planned |
 
 ---
 
-## 8. Diagramme swimlane
+## 8. Swimlane Diagram
 
 ```
- PROCESSUS PS02 - GESTION DES COMPÉTENCES
+ PROCESS PS02 - COMPETENCY MANAGEMENT
  ============================================================================
 
- Rôle                 | Flux des activités
+ Role                 | Activity Flow
  ============================================================================
                       |
- DIRECTION            |  [A1 Identifier]       [A3 Planifier]      [A4 Valider]
-                      |  les besoins en  --->  les actions    --->  le plan de
-                      |  compétences           de formation         formation
+ EXECUTIVE            |  [A1 Identify]       [A3 Plan]          [A4 Validate]
+ MANAGEMENT           |  competency    --->  development   --->  the training
+                      |  needs               actions             plan
                       |      |                     |                    |
                       |      v                     v                    v
-                      |  Analyser les          Allouer le           Approuver
-                      |  évolutions du         budget et            le planning
-                      |  contexte              les moyens
+                      |  Analyze              Allocate             Approve
+                      |  context              budget and           the schedule
+                      |  developments         resources
                       |      |                     |                    |
                       |      +----------+----------+--------------------+
                       |                 |
                       |                 v
  ============================================================================
                       |
- RÔLE QUALITÉ         |  [A2 Évaluer]          [A5 Évaluer]         [A6 MAJ]
-                      |  les compétences  ---> l'efficacité    ---> matrice de
-                      |  existantes            des formations       compétences
+ QUALITY ROLE         |  [A2 Assess]          [A5 Evaluate]        [A6 Update]
+                      |  existing        ---> training        ---> competency
+                      |  competencies         effectiveness        matrix
                       |      |                     |                    |
                       |      v                     v                    v
-                      |  Comparer au           Mesurer les          Reporter à
-                      |  référentiel           résultats            la Direction
-                      |  (FM-PS02-MCO)         (4 niveaux)
+                      |  Compare to           Measure              Report to
+                      |  the reference        results              Executive
+                      |  (FM-PS02-MCO)        (4 levels)           Management
                       |      |                     |                    |
                       |      v                     v                    v
-                      |  Identifier les        Proposer des         Alimenter la
-                      |  écarts critiques      ajustements          revue de
-                      |                                             direction
+                      |  Identify              Propose              Feed into
+                      |  critical gaps         adjustments          management
+                      |                                             review
  ============================================================================
                       |
- PILOTES DE           |  Exprimer les    --->  Évaluer les    --->  Reporter les
- PROCESSUS            |  besoins en            collaborateurs       résultats
-                      |  compétences           de leur périmètre    observés
+ PROCESS              |  Express         --->  Evaluate       --->  Report
+ OWNERS               |  competency            employees in         observed
+                      |  needs                 their scope           results
                       |
  ============================================================================
                       |
- TOUS LES             |  Participer aux  --->  Appliquer les  --->  Auto-évaluer
- RÔLES                |  formations            acquis au            et remonter
-                      |                        quotidien            les besoins
+ ALL                  |  Participate in  --->  Apply acquired --->  Self-assess
+ ROLES                |  training              knowledge in         and escalate
+                      |                        daily work           needs
  ============================================================================
 ```
 
 ---
 
-## 9. Interactions avec les autres processus
+## 9. Interactions with Other Processes
 
-| Processus              | Nature de l'interaction                                        |
+| Process                | Nature of Interaction                                          |
 |------------------------|----------------------------------------------------------------|
-| PM01 - Pilotage        | Validation du plan de formation, revue annuelle des compétences |
-| P01 - Commercial       | Compétences en négociation, commerce international, langues     |
-| P02 - Achats           | Compétences en sourcing, évaluation fournisseurs               |
-| P03 - Contrôle Qualité | Compétences en inspection, normes qualité, métrologie          |
-| P04 - Logistique       | Compétences en logistique internationale, réglementation douanière |
-| PS01 - Gestion Doc.    | Compétences en gestion documentaire, outils SMQ               |
+| PM01 - Leadership      | Validation of training plan, annual competency review          |
+| P01 - Commercial       | Competencies in negotiation, international trade, languages    |
+| P02 - Purchasing       | Competencies in sourcing, supplier evaluation                  |
+| P03 - Quality Control  | Competencies in inspection, quality standards, metrology       |
+| P04 - Logistics        | Competencies in international logistics, customs regulations   |
+| PS01 - Document Mgmt   | Competencies in document management, QMS tools                |
 
 ---
 
-## 10. Indicateurs de performance (KPI)
+## 10. Key Performance Indicators (KPI)
 
-| Indicateur                                | Formule / Méthode                              | Objectif       | Fréquence    |
-|-------------------------------------------|------------------------------------------------|----------------|--------------|
-| Taux de réalisation du plan de formation  | Formations réalisées / Formations planifiées × 100 | ≥ 80 %     | Annuelle     |
-| Taux de couverture des compétences critiques | Compétences ≥ S / Compétences critiques requises × 100 | ≥ 90 % | Annuelle     |
-| Taux d'efficacité des formations          | Formations efficaces / Formations évaluées × 100 | ≥ 85 %      | Annuelle     |
-| Nombre d'heures de formation par personne | Total heures formation / Nombre de collaborateurs | ≥ 16h/an   | Annuelle     |
-| Taux de complétion de la matrice          | Cellules évaluées / Total cellules × 100       | 100 %          | Semestrielle |
-| Délai de comblement des écarts critiques  | Durée moyenne de traitement des écarts          | ≤ 6 mois       | Annuelle     |
+| Indicator                                 | Formula / Method                                   | Target         | Frequency    |
+|-------------------------------------------|---------------------------------------------------|----------------|--------------|
+| Training plan completion rate             | Training completed / Training planned x 100        | >= 80%         | Annual       |
+| Critical competency coverage rate         | Competencies >= S / Required critical competencies x 100 | >= 90%  | Annual       |
+| Training effectiveness rate               | Effective training / Evaluated training x 100      | >= 85%         | Annual       |
+| Training hours per person                 | Total training hours / Number of employees         | >= 16h/year    | Annual       |
+| Matrix completion rate                    | Cells assessed / Total cells x 100                 | 100%           | Semi-annual  |
+| Critical gap closure time                 | Average gap resolution duration                    | <= 6 months    | Annual       |
 
 ---
 
-## 11. Documents et enregistrements associés
+## 11. Associated Documents and Records
 
-| Code          | Intitulé                          | Type           |
+| Code          | Title                             | Type           |
 |---------------|-----------------------------------|----------------|
-| FM-PS02-MCO   | Matrice de compétences            | Formulaire     |
-| FM-PS02-PLF   | Plan de formation annuel          | Formulaire     |
-| FM-PS02-EVA   | Évaluation individuelle           | Formulaire     |
-| FM-PS02-EFF   | Évaluation d'efficacité formation | Formulaire     |
-| EN-PS02-ATT   | Attestations de formation         | Enregistrement |
+| FM-PS02-MCO   | Competency Matrix                 | Form           |
+| FM-PS02-PLF   | Annual Training Plan              | Form           |
+| FM-PS02-EVA   | Individual Evaluation             | Form           |
+| FM-PS02-EFF   | Training Effectiveness Evaluation | Form           |
+| EN-PS02-ATT   | Training Certificates             | Record         |
 
 ---
 
-## 12. Amélioration continue
+## 12. Continual Improvement
 
-Les opportunités d'amélioration du processus de gestion des compétences sont identifiées à travers :
-- L'analyse des écarts persistants dans la matrice de compétences
-- Les retours des collaborateurs sur les formations
-- Les résultats des audits internes
-- Les besoins émergents identifiés en revue de direction
-- L'évolution des normes et réglementations applicables
+Opportunities for improvement of the competency management process are identified through:
+- Analysis of persistent gaps in the competency matrix
+- Employee feedback on training
+- Internal audit results
+- Emerging needs identified in management review
+- Evolution of applicable standards and regulations
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                                     |
+| ISO 9001:2015 Clause | Requirement                                                  |
 |-----------------------|--------------------------------------------------------------|
-| 7.1.2                 | Ressources humaines                                          |
-| 7.2                   | Compétences                                                  |
-| 7.3                   | Sensibilisation                                              |
+| 7.1.2                 | Human Resources                                              |
+| 7.2                   | Competence                                                   |
+| 7.3                   | Awareness                                                    |
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

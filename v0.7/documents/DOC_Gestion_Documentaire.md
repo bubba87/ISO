@@ -1,144 +1,144 @@
-# Registre de Gestion Documentaire
+# Document Management Register
 
-| **Document**         | Registre de Gestion Documentaire                     |
+| **Document**         | Document Management Register                         |
 |----------------------|------------------------------------------------------|
 | **Code**            | FM-PS01-GD                                              |
-| **Processus**       | PS01 - Gestion Documentaire                             |
+| **Process**         | PS01 - Document Management                              |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Norme ISO 9001**  | Chapitre 7.5                                          |
+| **ISO 9001 Standard** | Clause 7.5                                          |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Ce registre recense l'ensemble des documents et enregistrements du Système de Management de la Qualité (SMQ) de **Plus Sàrl**. Il permet d'assurer la traçabilité, le contrôle des versions et le respect des durées de rétention.
+This register lists all documents and records of the **Plus Sàrl** Quality Management System (QMS). It ensures traceability, version control, and compliance with retention periods.
 
 ---
 
-## 2. Liste des documents du SMQ
+## 2. QMS Document List
 
-### 2.1 Manuel Qualité
+### 2.1 Quality Manual
 
-| Code     | Intitulé               | Version | Date       | Rédacteur (Rôle)    | Approbateur (Rôle) | Statut     |
+| Code     | Title                  | Version | Date       | Author (Role)        | Approver (Role)     | Status     |
 |----------|------------------------|---------|------------|----------------------|---------------------|------------|
-| MQ-001   | Manuel Qualité         | v0.7    | 2026-03-04 | Responsable Qualité  | Direction           | En vigueur |
+| MQ-001   | Quality Manual         | v0.7    | 2026-03-04 | Quality Manager      | Management          | In effect  |
 
-### 2.2 Procédures (PR)
+### 2.2 Procedures (PR)
 
-| Code         | Intitulé                            | Version | Date       | Rédacteur (Rôle)    | Approbateur (Rôle)   | Statut     |
+| Code         | Title                               | Version | Date       | Author (Role)        | Approver (Role)      | Status     |
 |--------------|-------------------------------------|---------|------------|----------------------|----------------------|------------|
-| PR-PM01-LEAD   | Leadership et Pilotage             | v0.7    | 2026-03-04 | Direction            | Direction            | En vigueur |
-| PR-P01-COM   | Processus Commercial               | v0.7    | 2026-03-04 | Commercial           | Responsable Qualité  | En vigueur |
-| PR-P02-ACH   | Achats et Sous-traitance           | v0.7    | 2026-03-04 | Achats               | Responsable Qualité  | En vigueur |
-| PR-P04-LOG   | Logistique et Livraison            | v0.7    | 2026-03-04 | Logistique           | Responsable Qualité  | En vigueur |
-| PR-P03-CQ    | Contrôle Qualité                   | v0.7    | 2026-03-04 | Qualité              | Responsable Qualité  | En vigueur |
-| PR-PS01-GD     | Gestion Documentaire               | v0.7    | 2026-03-04 | Gestion Documentaire | Responsable Qualité  | En vigueur |
-| PR-PS02-CMP   | Gestion des Compétences            | v0.7    | 2026-03-04 | Direction            | Direction            | En vigueur |
-| PR-PS03-AMC   | Amélioration Continue              | v0.7    | 2026-03-04 | Qualité              | Responsable Qualité  | En vigueur |
+| PR-PM01-LEAD | Leadership and Governance           | v0.7    | 2026-03-04 | Management           | Management           | In effect  |
+| PR-P01-COM   | Commercial Process                  | v0.7    | 2026-03-04 | Commercial           | Quality Manager      | In effect  |
+| PR-P02-ACH   | Purchasing and Subcontracting       | v0.7    | 2026-03-04 | Purchasing           | Quality Manager      | In effect  |
+| PR-P04-LOG   | Logistics and Delivery              | v0.7    | 2026-03-04 | Logistics            | Quality Manager      | In effect  |
+| PR-P03-CQ    | Quality Control                     | v0.7    | 2026-03-04 | Quality              | Quality Manager      | In effect  |
+| PR-PS01-GD   | Document Management                 | v0.7    | 2026-03-04 | Document Management  | Quality Manager      | In effect  |
+| PR-PS02-CMP  | Competency Management               | v0.7    | 2026-03-04 | Management           | Management           | In effect  |
+| PR-PS03-AMC  | Continual Improvement               | v0.7    | 2026-03-04 | Quality              | Quality Manager      | In effect  |
 
-### 2.3 Instructions de travail (IT)
+### 2.3 Work Instructions (WI)
 
-| Code         | Intitulé                            | Version | Date       | Rédacteur (Rôle)    | Approbateur (Rôle)   | Statut     |
+| Code         | Title                               | Version | Date       | Author (Role)        | Approver (Role)      | Status     |
 |--------------|-------------------------------------|---------|------------|----------------------|----------------------|------------|
-| IT-P03-ECH   | Échantillonnage AQL                | v0.7    | 2026-03-04 | Qualité              | Qualité              | En vigueur |
-| IT-PS01-COD    | Codification des documents         | v0.7    | 2026-03-04 | Gestion Documentaire | Responsable Qualité  | En vigueur |
+| IT-P03-ECH   | AQL Sampling                        | v0.7    | 2026-03-04 | Quality              | Quality              | In effect  |
+| IT-PS01-COD  | Document Coding                     | v0.7    | 2026-03-04 | Document Management  | Quality Manager      | In effect  |
 
-### 2.4 Formulaires (FM)
+### 2.4 Forms (FM)
 
-| Code         | Intitulé                            | Version | Date       | Rédacteur (Rôle)    | Approbateur (Rôle)   | Statut     |
+| Code         | Title                               | Version | Date       | Author (Role)        | Approver (Role)      | Status     |
 |--------------|-------------------------------------|---------|------------|----------------------|----------------------|------------|
-| FM-PM01-OBJ    | Objectifs Qualité                  | v0.7    | 2026-03-04 | Responsable Qualité  | Direction            | En vigueur |
-| FM-PM01-RD     | Revue de Direction                 | v0.7    | 2026-03-04 | Responsable Qualité  | Direction            | En vigueur |
-| FM-P01-SAT   | Enquête Satisfaction Client        | v0.7    | 2026-03-04 | Commercial           | Responsable Qualité  | En vigueur |
-| FM-P01-OFF   | Modèle d'offre commerciale        | v0.7    | 2026-03-04 | Commercial           | Commercial           | En vigueur |
-| FM-P01-BC    | Bon de commande                    | v0.7    | 2026-03-04 | Commercial           | Commercial           | En vigueur |
-| FM-P02-AQF   | Accord Qualité Fournisseur        | v0.7    | 2026-03-04 | Achats               | Responsable Qualité  | En vigueur |
-| FM-P02-EVAL  | Évaluation Fournisseur            | v0.7    | 2026-03-04 | Achats               | Responsable Qualité  | En vigueur |
-| FM-P02-BC    | Bon de commande achats             | v0.7    | 2026-03-04 | Achats               | Achats               | En vigueur |
-| FM-P04-EXP   | Fiche d'expédition                 | v0.7    | 2026-03-04 | Logistique           | Logistique           | En vigueur |
-| FM-P04-SUI   | Tableau de suivi des expéditions   | v0.7    | 2026-03-04 | Logistique           | Logistique           | En vigueur |
-| FM-P03-NC    | Fiche de Non-Conformité            | v0.7    | 2026-03-04 | Qualité              | Responsable Qualité  | En vigueur |
-| FM-P03-AUD   | Rapport d'Audit Interne           | v0.7    | 2026-03-04 | Qualité              | Responsable Qualité  | En vigueur |
-| FM-P03-IPC   | Rapport IPC                        | v0.7    | 2026-03-04 | Qualité              | Qualité              | En vigueur |
-| FM-P03-DUPRO | Rapport DUPRO                     | v0.7    | 2026-03-04 | Qualité              | Qualité              | En vigueur |
-| FM-P03-PSI   | Rapport PSI                        | v0.7    | 2026-03-04 | Qualité              | Qualité              | En vigueur |
-| FM-P03-LC    | Rapport Loading Check              | v0.7    | 2026-03-04 | Qualité              | Qualité              | En vigueur |
-| FM-PS01-GD     | Registre documentaire              | v0.7    | 2026-03-04 | Gestion Documentaire | Responsable Qualité  | En vigueur |
-| FM-PS01-DEM    | Demande de modification doc.       | v0.7    | 2026-03-04 | Gestion Documentaire | Responsable Qualité  | En vigueur |
-| FM-PS02-MCO  | Matrice de compétences             | v0.7    | 2026-03-04 | Direction            | Direction            | En vigueur |
-| FM-PS02-PLF  | Plan de formation annuel           | v0.7    | 2026-03-04 | Direction            | Direction            | En vigueur |
-| FM-PS02-EVA  | Évaluation individuelle            | v0.7    | 2026-03-04 | Direction            | Direction            | En vigueur |
-| FM-PS02-EFF  | Évaluation efficacité formation    | v0.7    | 2026-03-04 | Qualité              | Direction            | En vigueur |
-| FM-PS03-PAA  | Programme d'amélioration annuel    | v0.7    | 2026-03-04 | Qualité              | Responsable Qualité  | En vigueur |
+| FM-PM01-OBJ  | Quality Objectives                  | v0.7    | 2026-03-04 | Quality Manager      | Management           | In effect  |
+| FM-PM01-RD   | Management Review                   | v0.7    | 2026-03-04 | Quality Manager      | Management           | In effect  |
+| FM-P01-SAT   | Customer Satisfaction Survey        | v0.7    | 2026-03-04 | Commercial           | Quality Manager      | In effect  |
+| FM-P01-OFF   | Commercial Offer Template           | v0.7    | 2026-03-04 | Commercial           | Commercial           | In effect  |
+| FM-P01-BC    | Purchase Order                      | v0.7    | 2026-03-04 | Commercial           | Commercial           | In effect  |
+| FM-P02-AQF   | Supplier Quality Agreement          | v0.7    | 2026-03-04 | Purchasing           | Quality Manager      | In effect  |
+| FM-P02-EVAL  | Supplier Evaluation                 | v0.7    | 2026-03-04 | Purchasing           | Quality Manager      | In effect  |
+| FM-P02-BC    | Purchasing Order                    | v0.7    | 2026-03-04 | Purchasing           | Purchasing           | In effect  |
+| FM-P04-EXP   | Shipment Form                       | v0.7    | 2026-03-04 | Logistics            | Logistics            | In effect  |
+| FM-P04-SUI   | Shipment Tracking Table             | v0.7    | 2026-03-04 | Logistics            | Logistics            | In effect  |
+| FM-P03-NC    | Nonconformity Report                | v0.7    | 2026-03-04 | Quality              | Quality Manager      | In effect  |
+| FM-P03-AUD   | Internal Audit Report               | v0.7    | 2026-03-04 | Quality              | Quality Manager      | In effect  |
+| FM-P03-IPC   | IPC Report                          | v0.7    | 2026-03-04 | Quality              | Quality              | In effect  |
+| FM-P03-DUPRO | DUPRO Report                        | v0.7    | 2026-03-04 | Quality              | Quality              | In effect  |
+| FM-P03-PSI   | PSI Report                          | v0.7    | 2026-03-04 | Quality              | Quality              | In effect  |
+| FM-P03-LC    | Loading Check Report                | v0.7    | 2026-03-04 | Quality              | Quality              | In effect  |
+| FM-PS01-GD   | Document Register                   | v0.7    | 2026-03-04 | Document Management  | Quality Manager      | In effect  |
+| FM-PS01-DEM  | Document Modification Request       | v0.7    | 2026-03-04 | Document Management  | Quality Manager      | In effect  |
+| FM-PS02-MCO  | Competency Matrix                   | v0.7    | 2026-03-04 | Management           | Management           | In effect  |
+| FM-PS02-PLF  | Annual Training Plan                | v0.7    | 2026-03-04 | Management           | Management           | In effect  |
+| FM-PS02-EVA  | Individual Evaluation               | v0.7    | 2026-03-04 | Management           | Management           | In effect  |
+| FM-PS02-EFF  | Training Effectiveness Evaluation   | v0.7    | 2026-03-04 | Quality              | Management           | In effect  |
+| FM-PS03-PAA  | Annual Improvement Program          | v0.7    | 2026-03-04 | Quality              | Quality Manager      | In effect  |
 
 ---
 
-## 3. Enregistrements (EN)
+## 3. Records (EN)
 
-| Code         | Intitulé                            | Processus | Lieu de stockage     | Durée de rétention |
+| Code         | Title                               | Process   | Storage Location     | Retention Period   |
 |--------------|-------------------------------------|-----------|----------------------|--------------------|
-| EN-PM01-RISK | Cartographie des risques           | PM01      | Serveur documentaire | 5 ans              |
-| EN-P01-REC   | Registre des réclamations          | P01       | Serveur documentaire | 5 ans              |
-| EN-P02-PAN   | Panel Fournisseurs                 | P02       | Serveur documentaire | 3 ans              |
-| EN-P04-POD   | Preuves de livraison               | P04       | Serveur documentaire | 5 ans              |
-| EN-P04-DOC   | Dossiers documentaires transport   | P04       | Serveur documentaire | 5 ans              |
-| EN-PS02-ATT  | Attestations de formation          | PS02      | Serveur documentaire | 5 ans              |
-| EN-PS03-REG  | Registre des non-conformités       | PS03      | Serveur documentaire | 5 ans              |
-| EN-PS03-REX  | Fiches de retour d'expérience      | PS03      | Serveur documentaire | 3 ans              |
+| EN-PM01-RISK | Risk Map                            | PM01      | Document server      | 5 years            |
+| EN-P01-REC   | Complaints Register                 | P01       | Document server      | 5 years            |
+| EN-P02-PAN   | Supplier Panel                      | P02       | Document server      | 3 years            |
+| EN-P04-POD   | Proof of Delivery                   | P04       | Document server      | 5 years            |
+| EN-P04-DOC   | Transport Document Files            | P04       | Document server      | 5 years            |
+| EN-PS02-ATT  | Training Certificates               | PS02      | Document server      | 5 years            |
+| EN-PS03-REG  | Nonconformity Register              | PS03      | Document server      | 5 years            |
+| EN-PS03-REX  | Lessons Learned Records             | PS03      | Document server      | 3 years            |
 
 ---
 
-## 4. Règles de rétention
+## 4. Retention Rules
 
-### 4.1 Durées de rétention par type de document
+### 4.1 Retention Periods by Document Type
 
-| Type de document / enregistrement         | Durée de rétention | Responsable de l'archivage |
-|-------------------------------------------|--------------------|----------------------------|
-| Manuel Qualité (versions antérieures)     | 5 ans              | Gestion Documentaire       |
-| Procédures (versions antérieures)         | 3 ans              | Gestion Documentaire       |
-| Instructions de travail (versions ant.)   | 3 ans              | Gestion Documentaire       |
-| Rapports d'audit interne                  | 5 ans              | Qualité                    |
-| Fiches de non-conformité                  | 5 ans              | Qualité                    |
-| Rapports d'inspection (IPC/DUPRO/PSI/LC)  | 5 ans              | Qualité                    |
-| Évaluations fournisseurs                  | 3 ans              | Achats                     |
-| Accords Qualité Fournisseur               | Durée du contrat + 3 ans | Achats                |
-| Comptes rendus revue de direction         | 5 ans              | Direction                  |
-| Enquêtes satisfaction client              | 3 ans              | Commercial                 |
-| Offres commerciales                       | 3 ans              | Commercial                 |
-| Contrats / bons de commande              | Durée du contrat + 5 ans | Commercial             |
-| Documents de transport (BL, AWB, CMR)     | 5 ans              | Logistique                 |
-| Preuves de livraison (POD)               | 5 ans              | Logistique                 |
+| Document / Record Type                    | Retention Period    | Archiving Responsible        |
+|-------------------------------------------|---------------------|------------------------------|
+| Quality Manual (previous versions)        | 5 years             | Document Management          |
+| Procedures (previous versions)            | 3 years             | Document Management          |
+| Work Instructions (previous versions)     | 3 years             | Document Management          |
+| Internal audit reports                    | 5 years             | Quality                      |
+| Nonconformity reports                     | 5 years             | Quality                      |
+| Inspection reports (IPC/DUPRO/PSI/LC)     | 5 years             | Quality                      |
+| Supplier evaluations                      | 3 years             | Purchasing                   |
+| Supplier Quality Agreements               | Contract duration + 3 years | Purchasing            |
+| Management review minutes                 | 5 years             | Management                   |
+| Customer satisfaction surveys             | 3 years             | Commercial                   |
+| Commercial offers                         | 3 years             | Commercial                   |
+| Contracts / purchase orders               | Contract duration + 5 years | Commercial             |
+| Transport documents (BL, AWB, CMR)        | 5 years             | Logistics                    |
+| Proof of delivery (POD)                   | 5 years             | Logistics                    |
 
-### 4.2 Modalités de destruction
+### 4.2 Disposal Procedures
 
-- La destruction des documents au-delà de leur durée de rétention est réalisée de manière contrôlée
-- Un procès-verbal de destruction est établi et conservé
-- Les documents numériques sont supprimés de manière sécurisée
-- Les documents papier sont détruits par broyage
+- Disposal of documents beyond their retention period is carried out in a controlled manner
+- A disposal record is prepared and retained
+- Digital documents are securely deleted
+- Paper documents are destroyed by shredding
 
 ---
 
-## 5. Historique des modifications du registre
+## 5. Register Modification History
 
-| Date       | Version | Description de la modification             | Auteur (Rôle)        |
+| Date       | Version | Description of Modification                | Author (Role)         |
 |------------|---------|--------------------------------------------|-----------------------|
-| 2026-03-04 | v0.7    | Création initiale du registre documentaire | Gestion Documentaire  |
+| 2026-03-04 | v0.7    | Initial creation of the document register  | Document Management   |
 |            |         |                                            |                       |
 |            |         |                                            |                       |
 
 ---
 
-## 6. Matrice d'approbation des documents
+## 6. Document Approval Matrix
 
-| Type de document     | Rédacteur                | Vérificateur             | Approbateur          |
-|----------------------|--------------------------|--------------------------|----------------------|
-| Manuel Qualité (MQ)  | Responsable Qualité     | Responsable Qualité      | Direction            |
-| Procédure (PR)       | Pilote de processus     | Gestion Documentaire     | Responsable Qualité  |
-| Instruction (IT)     | Pilote de processus     | Gestion Documentaire     | Pilote de processus  |
-| Formulaire (FM)      | Pilote de processus     | Gestion Documentaire     | Pilote de processus  |
+| Document Type        | Author                   | Reviewer                   | Approver             |
+|----------------------|--------------------------|----------------------------|----------------------|
+| Quality Manual (MQ)  | Quality Manager          | Quality Manager            | Management           |
+| Procedure (PR)       | Process Owner            | Document Management        | Quality Manager      |
+| Work Instruction (WI)| Process Owner            | Document Management        | Process Owner        |
+| Form (FM)            | Process Owner            | Document Management        | Process Owner        |
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*

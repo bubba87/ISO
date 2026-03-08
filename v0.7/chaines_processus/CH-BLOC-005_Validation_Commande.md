@@ -1,114 +1,114 @@
-# Fiche Détail Bloc - CH-BLOC-005 : Validation de Commande
+# Block Detail Sheet - CH-BLOC-005: Order Validation
 
 | **Document**       | CH-BLOC-005_Validation_Commande               |
 |--------------------|-----------------------------------------------|
 | **Version**        | v0.7                                          |
 | **Date**           | 2026-03-04                                    |
-| **Classification** | Interne                                       |
-| **Processus**      | Chaîne Processus - Réalisation                |
-| **Chaîne réf.**    | CHAIN-01 — Commande Produit Existant          |
-| **Rédaction**      | Rôle Qualité                                  |
-| **Approbation**    | Direction                                     |
+| **Classification** | Internal                                      |
+| **Process**        | Process Chain - Realization                   |
+| **Chain ref.**     | CHAIN-01 — Existing Product Order             |
+| **Drafted by**     | QUALITY                                       |
+| **Approved by**    | Management                                    |
 
 ---
 
-## 1. Objet
+## 1. Purpose
 
-Cette fiche décrit les actions détaillées du **BLOC 5 — Validation de commande** dans le cadre de la chaîne processus de commande produit existant.
+This sheet describes the detailed actions of **BLOCK 5 — Order Validation** within the existing product order process chain.
 
 ---
 
-## 2. Ligne processus
+## 2. Process Line
 
-| Code ligne | Ligne     | Rôle pilote     |
+| Line Code  | Line      | Lead Role       |
 |------------|-----------|-----------------|
-| 01         | SALES     | Rôle Commercial |
+| 01         | SALES     | SALES           |
 
 ---
 
-## 3. Entrées du bloc
+## 3. Block Inputs
 
-| Élément                            | Provenance                        |
+| Element                            | Source                            |
 |------------------------------------|-----------------------------------|
-| Fiche de commande complète         | BLOC 2 — Fiche de commande       |
-| Délais de livraison validés        | BLOC 3 — Fiche de transport      |
-| Délais de production validés       | BLOC 4 — Étude technique         |
-| Prix par produit                   | Système de gestion commerciale    |
+| Completed order sheet              | BLOCK 2 — Order Sheet             |
+| Validated delivery deadlines       | BLOCK 3 — Transport Sheet         |
+| Validated production lead times    | BLOCK 4 — Technical Study         |
+| Price per product                  | Commercial management system      |
 
 ---
 
-## 4. Actions détaillées
+## 4. Detailed Actions
 
-| N° | Action                                                                                          | Responsable     | Outil / Support                  |
+| No.| Action                                                                                          | Owner           | Tool / Support                   |
 |----|-------------------------------------------------------------------------------------------------|-----------------|----------------------------------|
-| 1  | Imprimer l'accusé de réception (AR) pour préparer à l'envoi et valider avec le client           | Rôle Commercial | Système de gestion des commandes |
-| 2  | Envoyer l'AR au client avec les détails de livraison et prix par produit                        | Rôle Commercial | E-mail                           |
-| 3  | Retour du client si nécessaire : acceptation ou refus                                           | Rôle Commercial | E-mail / téléphone               |
+| 1  | Print the acknowledgment of receipt (AR) to prepare for sending and validate with the customer  | SALES           | Order management system          |
+| 2  | Send the AR to the customer with delivery details and price per product                         | SALES           | Email                            |
+| 3  | Customer feedback if necessary: acceptance or rejection                                         | SALES           | Email / phone                    |
 
 ---
 
-## 5. Contenu de l'accusé de réception (AR)
+## 5. Acknowledgment of Receipt (AR) Content
 
-| Élément                        | Description                                         |
+| Element                        | Description                                         |
 |--------------------------------|-----------------------------------------------------|
-| Référence commande             | Identique à la référence du client                   |
-| Détail des produits            | Désignation, quantités commandées                    |
-| Prix par produit               | Prix unitaire et montant total                       |
-| Délais de livraison            | Date de livraison prévisionnelle validée             |
-| Conditions de livraison        | Type de transport, incoterms                         |
-| Conditions de paiement         | Modalités de paiement convenues                      |
+| Order reference                | Identical to the customer's reference                |
+| Product details                | Description, ordered quantities                      |
+| Price per product              | Unit price and total amount                          |
+| Delivery deadlines             | Validated estimated delivery date                    |
+| Delivery conditions            | Transport type, incoterms                            |
+| Payment terms                  | Agreed payment conditions                            |
 
 ---
 
-## 6. Scénarios de retour client
+## 6. Customer Response Scenarios
 
-| Retour client   | Action suivante                                                    |
-|-----------------|--------------------------------------------------------------------|
-| Acceptation     | Passage au BLOC 6 — Confirmation de production                    |
-| Refus           | Analyse des motifs, ajustement de l'offre ou clôture du dossier   |
-| Modification    | Mise à jour de la fiche de commande, nouvel AR si nécessaire      |
+| Customer Response | Next Action                                                        |
+|-------------------|--------------------------------------------------------------------|
+| Acceptance        | Proceed to BLOCK 6 — Production Confirmation                      |
+| Rejection         | Analysis of reasons, offer adjustment or file closure              |
+| Modification      | Update of the order sheet, new AR if necessary                     |
 
 ---
 
-## 7. Sorties du bloc
+## 7. Block Outputs
 
-| Élément                               | Destination                      |
+| Element                               | Destination                      |
 |---------------------------------------|----------------------------------|
-| AR envoyé et validé par le client     | BLOC 6 — Production et qualité  |
-| Commande confirmée                    | BLOC 6 — Production et qualité  |
-| Dossier clôturé (en cas de refus)     | Archivage                        |
+| AR sent and validated by the customer | BLOCK 6 — Production and Quality |
+| Order confirmed                       | BLOCK 6 — Production and Quality |
+| File closed (in case of rejection)    | Archiving                        |
 
 ---
 
-## 8. Points de contrôle
+## 8. Control Points
 
-| Contrôle                                   | Critère d'acceptation                                 | Responsable     |
+| Control                                    | Acceptance Criterion                                  | Owner           |
 |--------------------------------------------|-------------------------------------------------------|-----------------|
-| AR complet et conforme                     | Tous les éléments requis présents                      | Rôle Commercial |
-| Prix et délais cohérents                   | Conformes aux validations des BLOCS 3 et 4             | Rôle Commercial |
-| Retour client enregistré                   | Réponse formelle du client (acceptation/refus/modif.)  | Rôle Commercial |
+| AR complete and compliant                  | All required elements present                          | SALES           |
+| Prices and deadlines consistent            | Consistent with BLOCK 3 and BLOCK 4 validations        | SALES           |
+| Customer response recorded                 | Formal customer response (acceptance/rejection/modification) | SALES      |
 
 ---
 
-## 9. Documents associés
+## 9. Associated Documents
 
-| Référence   | Document                                      |
+| Reference   | Document                                      |
 |-------------|-----------------------------------------------|
-| CHAIN-01    | Chaîne Processus — Commande Produit Existant  |
-| CH-BLOC-003 | Fiche détail — Fiche de transport            |
-| CH-BLOC-004 | Fiche détail — Étude technique               |
-| CH-BLOC-006 | Fiche détail — Production et qualité         |
+| CHAIN-01    | Process Chain — Existing Product Order         |
+| CH-BLOC-003 | Detail Sheet — Transport Sheet                |
+| CH-BLOC-004 | Detail Sheet — Technical Study                |
+| CH-BLOC-006 | Detail Sheet — Production and Quality         |
 
 ---
 
-## Références normatives
+## Normative References
 
-| Clause ISO 9001:2015 | Exigence                                              |
+| ISO 9001:2015 Clause | Requirement                                           |
 |-----------------------|-------------------------------------------------------|
-| 8.2.3                 | Revue des exigences relatives aux produits             |
-| 8.2.1                 | Communication avec les clients                         |
+| 8.2.3                 | Review of requirements for products                    |
+| 8.2.1                 | Customer communication                                 |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

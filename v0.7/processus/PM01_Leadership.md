@@ -1,211 +1,212 @@
-# PM01 - Processus de Leadership et Pilotage
+# PM01 - Leadership and Management Process
 
-| **Processus**       | PM01 - Leadership et Pilotage                          |
+| **Process**         | PM01 - Leadership and Management                       |
 |----------------------|------------------------------------------------------|
 | **Type**            | Management                                            |
-| **Pilote**          | Direction                                             |
+| **Owner**           | Executive Management                                  |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Référence**       | PR-PM01-LEAD                                            |
-| **Norme ISO 9001**  | Chapitres 5, 6, 9.3, 10                              |
+| **Reference**       | PR-PM01-LEAD                                            |
+| **ISO 9001 Standard** | Clauses 5, 6, 9.3, 10                              |
 
 ---
 
-## 1. Objet et domaine d'application
+## 1. Purpose and Scope
 
-Ce processus définit les activités de pilotage stratégique du Système de Management de la Qualité (SMQ) de **Plus Sàrl**, société internationale de monitoring industriel et de sourcing. Il couvre la définition de la politique qualité, la planification des objectifs, l'allocation des ressources, la conduite des revues de direction, la gestion des risques, le suivi des indicateurs et le pilotage de l'amélioration continue.
-
----
-
-## 2. Références normatives
-
-- ISO 9001:2015, Chapitres 5 (Leadership), 6 (Planification), 9.3 (Revue de direction), 10 (Amélioration)
-- Manuel Qualité Plus Sàrl (MQ-001)
-- Politique Qualité Plus Sàrl
+This process defines the strategic management activities of the Quality Management System (QMS) of **Plus Sàrl**, an international industrial follow-up and sourcing company. It covers the definition of the quality policy, planning of objectives, allocation of resources, conduct of management reviews, risk management, monitoring of indicators, and management of continual improvement.
 
 ---
 
-## 3. Rôles et responsabilités
+## 2. Normative References
 
-| Rôle                        | Responsabilités principales                                          |
+- ISO 9001:2015, Clauses 5 (Leadership), 6 (Planning), 9.3 (Management Review), 10 (Improvement)
+- Plus Sàrl Quality Manual (MQ-001)
+- Plus Sàrl Quality Policy
+
+---
+
+## 3. Roles and Responsibilities
+
+| Role                        | Key Responsibilities                                                 |
 |-----------------------------|----------------------------------------------------------------------|
-| **Direction**               | Pilotage stratégique, politique qualité, allocation des ressources   |
-| **Responsable Qualité**     | Animation du SMQ, suivi des indicateurs, coordination des audits     |
-| **Pilotes de processus**    | Mise en oeuvre opérationnelle, reporting, propositions d'amélioration |
+| **Executive Management**    | Strategic management, quality policy, resource allocation            |
+| **Quality Manager**         | QMS facilitation, indicator monitoring, audit coordination           |
+| **Process Owners**          | Operational implementation, reporting, improvement proposals         |
 
 ---
 
-## 4. Données d'entrée et de sortie
+## 4. Input and Output Data
 
-### Données d'entrée
-- Résultats des audits internes et externes
-- Retours clients et parties intéressées
-- Performance des processus et indicateurs
-- État des actions correctives et préventives
-- Analyse des risques et opportunités
-- Évolutions réglementaires et normatives
-- Résultats des évaluations fournisseurs
+### Input Data
+- Internal and external audit results
+- Customer and interested party feedback
+- Process performance and indicators
+- Status of corrective and preventive actions
+- Risk and opportunity analysis
+- Regulatory and normative developments
+- Supplier evaluation results
 
-### Données de sortie
-- Politique qualité validée
-- Objectifs qualité mesurables
-- Plan de ressources
-- Décisions de revue de direction
-- Plan d'amélioration continue
-- Cartographie des risques mise à jour
-
----
-
-## 5. Description des activités
-
-### A1 - Définition et communication de la politique qualité
-
-La Direction définit la politique qualité alignée avec la stratégie de Plus Sàrl. Elle s'assure de sa communication à l'ensemble des collaborateurs et de son adéquation avec le contexte international de l'entreprise.
-
-### A2 - Planification des objectifs qualité
-
-La Direction établit des objectifs qualité mesurables, cohérents avec la politique qualité. Ces objectifs sont déclinés par processus et suivis trimestriellement (cf. FM-PM01-OBJ).
-
-### A3 - Allocation et gestion des ressources
-
-La Direction identifie et alloue les ressources nécessaires (humaines, matérielles, financières, informationnelles) pour le fonctionnement efficace du SMQ et des opérations internationales.
-
-### A4 - Conduite des revues de direction
-
-La Direction conduit des revues de direction planifiées (minimum 2 par an) selon le format FM-PM01-RD, intégrant toutes les données d'entrée requises par la norme ISO 9001:2015.
-
-### A5 - Gestion des risques et opportunités
-
-La Direction pilote l'identification, l'évaluation et le traitement des risques et opportunités liés au contexte de l'organisme, y compris les risques liés aux opérations internationales de sourcing et de monitoring.
-
-### A6 - Suivi des indicateurs de performance
-
-La Direction examine les tableaux de bord des indicateurs clés de performance (KPI) de chaque processus, analyse les tendances et déclenche les actions nécessaires.
-
-### A7 - Pilotage de l'amélioration continue
-
-La Direction identifie les opportunités d'amélioration, valide les plans d'action, assure le suivi de leur mise en oeuvre et évalue leur efficacité.
+### Output Data
+- Approved quality policy
+- Measurable quality objectives
+- Resource plan
+- Management review decisions
+- Continual improvement plan
+- Updated risk map
 
 ---
 
-## 6. Diagramme swimlane
+## 5. Activity Description
+
+### A1 - Definition and Communication of the Quality Policy
+
+Executive Management defines the quality policy aligned with the strategy of Plus Sàrl. It ensures its communication to all employees and its adequacy with the company's international context.
+
+### A2 - Quality Objectives Planning
+
+Executive Management establishes measurable quality objectives consistent with the quality policy. These objectives are cascaded by process and monitored quarterly (ref. FM-PM01-OBJ).
+
+### A3 - Resource Allocation and Management
+
+Executive Management identifies and allocates the necessary resources (human, material, financial, informational) for the effective operation of the QMS and international operations.
+
+### A4 - Conduct of Management Reviews
+
+Executive Management conducts planned management reviews (minimum 2 per year) using the FM-PM01-RD format, incorporating all input data required by ISO 9001:2015.
+
+### A5 - Risk and Opportunity Management
+
+Executive Management drives the identification, assessment, and treatment of risks and opportunities related to the organization's context, including risks associated with international sourcing and monitoring operations.
+
+### A6 - Performance Indicator Monitoring
+
+Executive Management reviews the key performance indicator (KPI) dashboards for each process, analyzes trends, and initiates necessary actions.
+
+### A7 - Continual Improvement Management
+
+Executive Management identifies improvement opportunities, approves action plans, monitors their implementation, and evaluates their effectiveness.
+
+---
+
+## 6. Swimlane Diagram
 
 ```
- PROCESSUS PM01 - LEADERSHIP ET PILOTAGE
+ PROCESS PM01 - LEADERSHIP AND MANAGEMENT
  ============================================================================
 
- Rôle                 | Flux des activités
+ Role                 | Activity Flow
  ============================================================================
                       |
- DIRECTION            |  [A1 Définir]    [A2 Planifier]    [A3 Allouer]
-                      |  politique  --->  objectifs    --->  ressources
-                      |  qualité         qualité            nécessaires
+ EXECUTIVE            |  [A1 Define]       [A2 Plan]          [A3 Allocate]
+ MANAGEMENT           |  quality     --->  quality       --->  necessary
+                      |  policy            objectives          resources
                       |      |               |                   |
                       |      v               v                   v
-                      |  Communiquer     Décliner par        Valider le
-                      |  à tous les      processus           budget et
-                      |  collaborateurs  (FM-PM01-OBJ)         les moyens
+                      |  Communicate     Cascade by          Approve
+                      |  to all          process             budget and
+                      |  employees       (FM-PM01-OBJ)         resources
                       |      |               |                   |
                       |      +-------+-------+-------------------+
                       |              |
                       |              v
-                      |  [A4 Conduire revue de direction]
-                      |  (FM-PM01-RD, min. 2x/an)
+                      |  [A4 Conduct management review]
+                      |  (FM-PM01-RD, min. 2x/year)
                       |      |
                       |      v
-                      |  Analyser données d'entrée :
-                      |  - Audits, retours clients
-                      |  - Performance processus
-                      |  - Actions correctives
+                      |  Analyze input data:
+                      |  - Audits, customer feedback
+                      |  - Process performance
+                      |  - Corrective actions
                       |      |
                       |      v
-                      |  Prendre décisions et
-                      |  formaliser les sorties
+                      |  Make decisions and
+                      |  formalize outputs
                       |      |
                       |      +------------------+------------------+
                       |      |                  |                  |
                       |      v                  v                  v
  ============================================================================
                       |
- RESPONSABLE          |  [A5 Gérer]        [A6 Suivre]     [A7 Piloter]
- QUALITÉ              |  risques &         indicateurs     amélioration
-                      |  opportunités      de performance  continue
+ QUALITY              |  [A5 Manage]        [A6 Monitor]     [A7 Drive]
+ MANAGER              |  risks &            performance      continual
+                      |  opportunities      indicators       improvement
                       |      |                  |                  |
                       |      v                  v                  v
-                      |  Mettre à jour     Produire les     Identifier les
-                      |  la cartographie   tableaux de      opportunités,
-                      |  des risques       bord KPI         valider plans
+                      |  Update the         Produce KPI      Identify
+                      |  risk map           dashboards       opportunities,
+                      |                                      approve plans
                       |      |                  |                  |
                       |      v                  v                  v
-                      |  Proposer des      Analyser les     Suivre mise
-                      |  actions de        tendances et     en oeuvre et
-                      |  traitement        alerter          évaluer
-                      |      |                  |            efficacité
+                      |  Propose             Analyze          Monitor
+                      |  treatment           trends and       implementation
+                      |  actions             raise alerts     and evaluate
+                      |      |                  |            effectiveness
                       |      +------------------+------------------+
                       |                         |
                       |                         v
-                      |              Reporting à la Direction
+                      |              Reporting to Executive Management
                       |
  ============================================================================
                       |
- PILOTES DE           |  Mettre en oeuvre  --->  Reporter les  --->  Proposer
- PROCESSUS            |  les décisions          résultats           des
-                      |  de la Direction         et indicateurs     améliorations
+ PROCESS              |  Implement      --->  Report          --->  Propose
+ OWNERS               |  Executive            results and           improvements
+                      |  Management's         indicators
+                      |  decisions
                       |
  ============================================================================
 ```
 
 ---
 
-## 7. Interactions avec les autres processus
+## 7. Interactions with Other Processes
 
-| Processus              | Nature de l'interaction                                |
+| Process                | Nature of Interaction                                  |
 |------------------------|--------------------------------------------------------|
-| P01 - Commercial       | Réception des retours clients, validation des objectifs commerciaux |
-| P02 - Achats           | Validation de la stratégie achats, allocation des budgets |
-| P04 - Logistique       | Suivi de la performance logistique internationale      |
-| P03 - Contrôle Qualité | Résultats des inspections, taux de non-conformités     |
-| PS01 - Gestion Documentaire | Maîtrise des documents du SMQ                       |
+| P01 - Commercial       | Reception of customer feedback, validation of commercial objectives |
+| P02 - Purchasing       | Validation of purchasing strategy, budget allocation   |
+| P04 - Logistics        | Monitoring of international logistics performance      |
+| P03 - Quality Control  | Inspection results, non-conformity rates               |
+| PS01 - Document Management | Control of QMS documents                            |
 
 ---
 
-## 8. Indicateurs de performance (KPI)
+## 8. Key Performance Indicators (KPI)
 
-| Indicateur                                | Formule / Méthode                              | Objectif       | Fréquence    |
-|-------------------------------------------|------------------------------------------------|----------------|--------------|
-| Taux d'atteinte des objectifs qualité     | Objectifs atteints / Objectifs fixés x 100     | >= 80 %        | Trimestrielle |
-| Tenue des revues de direction             | Nombre de revues réalisées / Nombre planifiées | 100 %          | Annuelle     |
-| Taux de traitement des risques critiques  | Risques traités / Risques identifiés x 100     | >= 90 %        | Semestrielle |
-| Délai de clôture des actions correctives  | Moyenne des délais de clôture                  | < 30 jours     | Trimestrielle |
-| Satisfaction globale des parties intéressées | Score moyen de satisfaction                   | >= 4/5         | Annuelle     |
-| Taux d'amélioration continue              | Actions d'amélioration clôturées / lancées x 100 | >= 75 %     | Semestrielle |
+| Indicator                                 | Formula / Method                                   | Target         | Frequency    |
+|-------------------------------------------|---------------------------------------------------|----------------|--------------|
+| Quality objectives achievement rate       | Objectives achieved / Objectives set x 100         | >= 80%         | Quarterly    |
+| Management review completion              | Reviews conducted / Reviews planned                | 100%           | Annual       |
+| Critical risk treatment rate              | Risks treated / Risks identified x 100             | >= 90%         | Semi-annual  |
+| Average corrective action closure time    | Average closure time                               | < 30 days      | Quarterly    |
+| Overall interested party satisfaction     | Average satisfaction score                         | >= 4/5         | Annual       |
+| Continual improvement rate                | Improvement actions closed / launched x 100        | >= 75%         | Semi-annual  |
 
 ---
 
-## 9. Documents et enregistrements associés
+## 9. Associated Documents and Records
 
-| Code         | Intitulé                          | Type          |
+| Code         | Title                             | Type          |
 |--------------|-----------------------------------|---------------|
-| MQ-001       | Manuel Qualité                    | Manuel        |
-| FM-PM01-OBJ   | Objectifs Qualité                 | Formulaire    |
-| FM-PM01-RD    | Revue de Direction                 | Formulaire    |
-| PR-PM01-LEAD  | Procédure Leadership et Pilotage   | Procédure     |
-| EN-PM01-RISK  | Cartographie des risques           | Enregistrement|
+| MQ-001       | Quality Manual                    | Manual        |
+| FM-PM01-OBJ  | Quality Objectives                | Form          |
+| FM-PM01-RD   | Management Review                 | Form          |
+| PR-PM01-LEAD | Leadership and Management Procedure | Procedure   |
+| EN-PM01-RISK | Risk Map                          | Record        |
 
 ---
 
-## 10. Amélioration continue
+## 10. Continual Improvement
 
-Les opportunités d'amélioration sont identifiées à travers :
-- Les revues de direction
-- Les audits internes et externes
-- L'analyse des indicateurs de performance
-- Les retours des clients et des parties intéressées
-- Les suggestions des collaborateurs
+Improvement opportunities are identified through:
+- Management reviews
+- Internal and external audits
+- Performance indicator analysis
+- Customer and interested party feedback
+- Employee suggestions
 
-Chaque action d'amélioration est enregistrée, planifiée, suivie et évaluée en termes d'efficacité.
+Each improvement action is recorded, planned, monitored, and evaluated for effectiveness.
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*
