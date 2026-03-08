@@ -1,285 +1,285 @@
-# Revue de la version v0.6 — SMQ ISO 9001:2015 Plus Sarl
+# Review of Version v0.6 — QMS ISO 9001:2015 Plus Sarl
 
-**Date de revue** : 2026-03-04
-**Version analysee** : v0.6
-**Fichiers analyses** : 37 fichiers (9 MQ + 6 processus + 12 chaines + 8 documents + 2 drawio)
-
----
-
-## Synthese
-
-La v0.6 represente la **premiere version formellement structuree** du dossier ISO 9001. Par rapport a la v0.5, les changements principaux sont :
-
-- Ajout de **cartouches de metadonnees** standardises (version, date, approbation, references normatives)
-- Restructuration avec **sections numerotees** et references ISO explicites
-- Enrichissement du contenu et meilleure formalisation
-- Suppression des 3 fichiers de revue de la v0.5
-
-La structure (37 fichiers) reste identique. Aucun fichier n'a ete ajoute ni supprime (hors fichiers de revue).
-
-**Verdict global : 75-80% pret pour audit ISO 9001:2015** — avec des lacunes critiques a combler.
+**Review date**: 2026-03-04
+**Version analyzed**: v0.6
+**Files analyzed**: 37 files (9 QM + 6 processes + 12 chains + 8 documents + 2 drawio)
 
 ---
 
-## 1. Non-conformites critiques (a corriger AVANT audit)
+## Summary
 
-### 1.1 Processus PS02 — Gestion des competences : ABSENT
+Version v0.6 represents the **first formally structured version** of the ISO 9001 dossier. Compared to v0.5, the main changes are:
 
-- **Clause ISO** : 7.2 (Competences)
-- **Constat** : PS02 est reference dans MQ_02, MQ_03, MQ_04, MQ_06, MQ_07 mais **aucun fichier de processus n'existe**
-- **Impact** : Non-conformite majeure quasi certaine en audit
-- **Action** : Creer `processus/PS02_Gestion_Competences.md`
-- **Contenu requis** : Identification des besoins, plan de formation, evaluation, matrice de competences
+- Addition of **standardized metadata headers** (version, date, approval, normative references)
+- Restructuring with **numbered sections** and explicit ISO references
+- Content enrichment and better formalization
+- Removal of 3 review files from v0.5
 
-### 1.2 Matrice de competences : ABSENTE
+The structure (37 files) remains identical. No files were added or removed (excluding review files).
 
-- **Clause ISO** : 7.2 (Competences)
-- **Constat** : Trois references identiques dans MQ_03 et MQ_07 indiquent "sera presentee ulterieurement"
-- **Impact** : L'auditeur exigera la preuve de la demonstration des competences
-- **Action** : Creer la matrice detaillee (roles x competences, niveaux E/S/B)
-
-### 1.3 Processus PS03 — Amelioration continue : ABSENT
-
-- **Clause ISO** : 10.3 (Amelioration continue)
-- **Constat** : MQ_10 reference PS03 dans son en-tete mais ce processus n'existe nulle part dans la cartographie (MQ_02)
-- **Impact** : Incoherence documentaire + processus manquant
-- **Action** : Creer `processus/PS03_Amelioration_Continue.md` ou integrer dans M1
-
-### 1.4 Classification des non-conformites : INCOHERENTE
-
-- **Clause ISO** : 8.7, 10.2
-- **Constat** :
-  - MQ_10 definit 4 niveaux : Mineure / Significative / Majeure / Critique
-  - DOC_Non_Conformite definit : Mineure / Majeure / Critique / Bloquante
-- **Impact** : Deux systemes de classification dans le meme SMQ = non-conformite
-- **Action** : Harmoniser sur une seule echelle dans tous les documents
+**Overall verdict: 75-80% ready for ISO 9001:2015 audit** — with critical gaps to address.
 
 ---
 
-## 2. Incoherences de codification (non-conformites mineures)
+## 1. Critical Non-Conformities (to be corrected BEFORE audit)
+
+### 1.1 Process PS02 — Competence Management: MISSING
+
+- **ISO Clause**: 7.2 (Competence)
+- **Finding**: PS02 is referenced in MQ_02, MQ_03, MQ_04, MQ_06, MQ_07 but **no process file exists**
+- **Impact**: Major non-conformity almost certain during audit
+- **Action**: Create `processus/PS02_Gestion_Competences.md`
+- **Required content**: Needs identification, training plan, evaluation, competence matrix
+
+### 1.2 Competence Matrix: MISSING
+
+- **ISO Clause**: 7.2 (Competence)
+- **Finding**: Three identical references in MQ_03 and MQ_07 indicate "to be presented later"
+- **Impact**: The auditor will require proof of competence demonstration
+- **Action**: Create the detailed matrix (roles x competencies, levels E/S/B)
+
+### 1.3 Process PS03 — Continuous Improvement: MISSING
+
+- **ISO Clause**: 10.3 (Continual improvement)
+- **Finding**: MQ_10 references PS03 in its header but this process does not exist anywhere in the process map (MQ_02)
+- **Impact**: Documentary inconsistency + missing process
+- **Action**: Create `processus/PS03_Amelioration_Continue.md` or integrate into M1
+
+### 1.4 Non-Conformity Classification: INCONSISTENT
+
+- **ISO Clause**: 8.7, 10.2
+- **Finding**:
+  - MQ_10 defines 4 levels: Minor / Significant / Major / Critical
+  - DOC_Non_Conformite defines: Minor / Major / Critical / Blocking
+- **Impact**: Two classification systems within the same QMS = non-conformity
+- **Action**: Harmonize on a single scale across all documents
+
+---
+
+## 2. Coding Inconsistencies (minor non-conformities)
 
 ### 2.1 PM01 vs M1
 
-- MQ_02, MQ_04, MQ_06 utilisent **PM01** (Pilotage strategique)
-- Le fichier processus s'appelle **M1_Leadership.md**
-- **Action** : Choisir une seule codification et l'appliquer partout
+- MQ_02, MQ_04, MQ_06 use **PM01** (Strategic management)
+- The process file is named **M1_Leadership.md**
+- **Action**: Choose a single coding and apply it everywhere
 
-### 2.2 P03/P04 potentiellement inverses
+### 2.2 P03/P04 potentially swapped
 
-- MQ_02 section 2.3 definit : P03 = Monitoring/QC, P04 = Logistique
-- Fichiers : P03_Logistique_Livraison.md, P04_Controle_Qualite.md
-- **Action** : Verifier et aligner la numerotation entre manuel et fichiers
+- MQ_02 section 2.3 defines: P03 = Monitoring/QC, P04 = Logistics
+- Files: P03_Logistique_Livraison.md, P04_Controle_Qualite.md
+- **Action**: Verify and align numbering between manual and files
 
 ### 2.3 PS01 vs S1
 
-- Le manuel reference **PS01** (Gestion documentaire)
-- Le fichier s'appelle **S1_Gestion_Documentaire.md**
-- **Action** : Harmoniser la nomenclature
+- The manual references **PS01** (Document management)
+- The file is named **S1_Gestion_Documentaire.md**
+- **Action**: Harmonize naming convention
 
-### 2.4 PS03 non cartographie
+### 2.4 PS03 not mapped
 
-- PS03 apparait dans l'en-tete de MQ_10 mais n'est cite ni dans MQ_02 ni dans MQ_04
-- **Action** : Ajouter PS03 a la cartographie officielle ou retirer la reference
-
----
-
-## 3. Documents et formulaires manquants
-
-### 3.1 Formulaires references mais non fournis
-
-| Code | Intitule | Reference dans |
-|------|----------|---------------|
-| FM-P01-SAT | Enquete Satisfaction Client (template) | P01_Commercial |
-| FM-P02-AQF | Accord Qualite Fournisseur (template) | P02_Achats |
-| FM-P02-EVAL | Evaluation Fournisseur (template) | P02_Achats |
-| IT-P04-ECH | Instruction echantillonnage AQL | P04_Controle_Qualite |
-
-> **Note** : Les DOC_Satisfaction_Client, DOC_Accord_Qualite_Fournisseur et DOC_Evaluation_Fournisseur existent et pourraient couvrir ces besoins. Il faudrait aligner les references (FM-xxx vs DOC_xxx).
-
-### 3.2 Instructions de travail absentes
-
-Les instructions de travail (IT) ne sont pas documentees :
-- IT inspection IPC
-- IT inspection DUPRO
-- IT inspection PSI
-- IT Loading Check
-- IT audit fournisseur
-
-### 3.3 Chapitre MQ_01 absent
-
-- Le manuel commence directement a MQ_02
-- Un chapitre d'introduction (objet, domaine d'application, guide de lecture, historique) serait recommande
-- **Severite** : Faible (pas d'exigence normative directe)
+- PS03 appears in the MQ_10 header but is cited neither in MQ_02 nor in MQ_04
+- **Action**: Add PS03 to the official process map or remove the reference
 
 ---
 
-## 4. Chaines de processus incompletes
+## 3. Missing Documents and Forms
 
-### 4.1 CHAIN-01 : Commande Produit Existant
-- **Statut** : 100% complet
-- KPI, RACI, references ISO : tous presents
+### 3.1 Referenced forms not provided
 
-### 4.2 CHAIN-02 : Commande Modification Outillage
-- **Statut** : ~70% complet (marque "A completer")
-- **Manque** : BLOC 3 et BLOC 7 non detailles, matrice RACI absente
-- Criteres validation post-modification non documentes
+| Code | Title | Referenced in |
+|------|-------|---------------|
+| FM-P01-SAT | Customer Satisfaction Survey (template) | P01_Commercial |
+| FM-P02-AQF | Supplier Quality Agreement (template) | P02_Achats |
+| FM-P02-EVAL | Supplier Evaluation (template) | P02_Achats |
+| IT-P04-ECH | AQL Sampling Instruction | P04_Controle_Qualite |
 
-### 4.3 CHAIN-03 : Commande Nouvel Outillage
-- **Statut** : ~75% complet (marque "A completer")
-- **Manque** : BLOC 3 et BLOC 7, matrice RACI, livrables T0/T1, propriete intellectuelle outillage
+> **Note**: DOC_Satisfaction_Client, DOC_Accord_Qualite_Fournisseur and DOC_Evaluation_Fournisseur exist and could cover these needs. References should be aligned (FM-xxx vs DOC_xxx).
 
-### 4.4 CHAIN-04 : Commande Sourcing
-- **Statut** : ~70% complet (marque "A completer")
-- **Manque** : BLOC 3 et BLOC 7, matrice RACI, criteres de selection fournisseur, processus audit fournisseur
+### 3.2 Missing Work Instructions
 
-### 4.5 Fiches BLOC (001-008)
-- **Statut** : 100% complets (entrees/sorties/points de controle/responsabilites)
+Work instructions (WI) are not documented:
+- WI IPC Inspection
+- WI DUPRO Inspection
+- WI PSI Inspection
+- WI Loading Check
+- WI Supplier Audit
 
----
+### 3.3 Chapter MQ_01 missing
 
-## 5. Problemes de formatage
-
-### 5.1 Encodage UTF-8 inconsistant
-
-| Fichier | Accents | Etat |
-|---------|---------|------|
-| MQ_02, MQ_03 | Preserves (Qualite, Activites) | OK |
-| MQ_04 | Mixte (titres sans accents, contenu avec) | A corriger |
-| MQ_05, MQ_06, MQ_08, MQ_09, MQ_10 | Absents (Qualite, Realisation, Evaluation) | A corriger |
-
-- **Impact** : Documents moins professionnels pour un auditeur francophone
-- **Action** : Uniformiser tous les fichiers en UTF-8 avec accents francais
-
-### 5.2 Erreur de numerotation normative
-
-- MQ_09 titre "9.1.3 Satisfaction du client"
-- ISO 9001:2015 place la satisfaction client en **9.1.2**
-- **Action** : Corriger la numerotation
-
-### 5.3 Placeholder non resolu
-
-- MQ_10, ligne 49 : "Reference sequentielle NC-AAAA-XXX"
-- "XXX" est un placeholder
-- **Action** : Remplacer par le format reel (ex: NC-2026-001)
+- The manual starts directly at MQ_02
+- An introductory chapter (purpose, scope, reading guide, history) would be recommended
+- **Severity**: Low (no direct normative requirement)
 
 ---
 
-## 6. KPIs : points d'attention
+## 4. Incomplete Process Chains
 
-### 6.1 Couverture excellente
-- **37 KPIs** definis au total (6-7 par processus)
-- Cibles generalement realistes et mesurables
+### 4.1 CHAIN-01: Existing Product Order
+- **Status**: 100% complete
+- KPIs, RACI, ISO references: all present
 
-### 6.2 KPIs a ajuster
+### 4.2 CHAIN-02: Tooling Modification Order
+- **Status**: ~70% complete (marked "To be completed")
+- **Missing**: BLOC 3 and BLOC 7 not detailed, RACI matrix absent
+- Post-modification validation criteria not documented
 
-| KPI | Processus | Probleme | Action |
-|-----|-----------|----------|--------|
-| Taux de fidelisation client | P01 | Periode de reference non definie | Preciser (12 mois glissants ?) |
-| Delai moyen de transit | P03 | Cible "Selon destination" = non mesurable | Definir cible par region/corridor |
-| Taux documents a jour | S1 | Cible 100% = irrealiste | Ramener a 98% |
+### 4.3 CHAIN-03: New Tooling Order
+- **Status**: ~75% complete (marked "To be completed")
+- **Missing**: BLOC 3 and BLOC 7, RACI matrix, T0/T1 deliverables, tooling intellectual property
 
----
+### 4.4 CHAIN-04: Sourcing Order
+- **Status**: ~70% complete (marked "To be completed")
+- **Missing**: BLOC 3 and BLOC 7, RACI matrix, supplier selection criteria, supplier audit process
 
-## 7. Documents operationnels : analyse
-
-Les 8 documents du repertoire `/documents/` sont **tous complets et exploitables** :
-
-| Document | Code | Completude |
-|----------|------|-----------|
-| Accord Qualite Fournisseur | FM-P02-AQF | 95% (formulaire a remplir) |
-| Audit Interne | FM-P04-AUD | 100% |
-| Evaluation Fournisseur | FM-P02-EVAL | 100% |
-| Gestion Documentaire | FM-S1-GD | 100% |
-| Non-Conformite | FM-P04-NC | 100% |
-| Objectifs Qualite | FM-M1-OBJ | 100% |
-| Revue de Direction | FM-M1-RD | 100% |
-| Satisfaction Client | FM-P01-SAT | 100% |
+### 4.5 BLOC Sheets (001-008)
+- **Status**: 100% complete (inputs/outputs/control points/responsibilities)
 
 ---
 
-## 8. Cross-references : analyse
+## 5. Formatting Issues
 
-### 8.1 Coherences verifiees
-- Les 4 CHAIN referencing correctement les 8 BLOC
-- Manuel Qualite ↔ Documents support : globalement coherent
-- DOC_Objectifs_Qualite reprend les 6 objectifs de MQ_06
-- DOC_Audit_Interne reprend la checklist ISO de MQ_09
-- DOC_Revue_Direction reprend les entrees/sorties de MQ_09
+### 5.1 Inconsistent UTF-8 Encoding
 
-### 8.2 Liens manquants
-- Aucune reference croisee entre CHAIN/BLOC et documents operationnels
-- Exemple : BLOC 6 devrait referencer FM-P04-NC ; BLOC 8 devrait referencer FM-P01-SAT
+| File | Accents | Status |
+|------|---------|--------|
+| MQ_02, MQ_03 | Preserved (Qualite, Activites) | OK |
+| MQ_04 | Mixed (titles without accents, content with) | To be corrected |
+| MQ_05, MQ_06, MQ_08, MQ_09, MQ_10 | Missing (Qualite, Realisation, Evaluation) | To be corrected |
 
----
+- **Impact**: Less professional documents for a French-speaking auditor
+- **Action**: Standardize all files in UTF-8 with French accents
 
-## 9. Points forts de la v0.6
+### 5.2 Normative Numbering Error
 
-- Couverture ISO 9001:2015 globalement bonne (clauses 4 a 10)
-- Exclusion 8.3 (Conception) correctement justifiee et documentee
-- 4 processus operationnels bien definis avec swimlanes
-- 37 KPIs ambitieux et mesurables
-- Gestion des risques formalisee (registre risques/opportunites dans MQ_06)
-- Matrice RACI complete dans MQ_03
-- 8 documents support coherents et exploitables
-- 8 fiches BLOC completes avec entrees/sorties/points de controle
-- Cartographie drawio avec processus et chaine generale
+- MQ_09 titles "9.1.3 Customer satisfaction"
+- ISO 9001:2015 places customer satisfaction at **9.1.2**
+- **Action**: Correct the numbering
+
+### 5.3 Unresolved Placeholder
+
+- MQ_10, line 49: "Sequential reference NC-YYYY-XXX"
+- "XXX" is a placeholder
+- **Action**: Replace with actual format (e.g.: NC-2026-001)
 
 ---
 
-## 10. Plan d'action prioritaire
+## 6. KPIs: Points of Attention
 
-### Priorite 1 — CRITIQUE (avant tout audit)
+### 6.1 Excellent Coverage
+- **37 KPIs** defined in total (6-7 per process)
+- Targets generally realistic and measurable
 
-| # | Action | Effort | Clause ISO |
+### 6.2 KPIs to Adjust
+
+| KPI | Process | Issue | Action |
+|-----|---------|-------|--------|
+| Customer retention rate | P01 | Reference period not defined | Specify (rolling 12 months?) |
+| Average transit time | P03 | Target "Depending on destination" = not measurable | Define target by region/corridor |
+| Up-to-date document rate | S1 | Target 100% = unrealistic | Lower to 98% |
+
+---
+
+## 7. Operational Documents: Analysis
+
+All 8 documents in the `/documents/` directory are **complete and usable**:
+
+| Document | Code | Completeness |
+|----------|------|-------------|
+| Supplier Quality Agreement | FM-P02-AQF | 95% (form to be filled) |
+| Internal Audit | FM-P04-AUD | 100% |
+| Supplier Evaluation | FM-P02-EVAL | 100% |
+| Document Management | FM-PS01-GD | 100% |
+| Non-Conformity | FM-P04-NC | 100% |
+| Quality Objectives | FM-PM01-OBJ | 100% |
+| Management Review | FM-PM01-RD | 100% |
+| Customer Satisfaction | FM-P01-SAT | 100% |
+
+---
+
+## 8. Cross-references: Analysis
+
+### 8.1 Verified Consistencies
+- All 4 CHAINs correctly reference the 8 BLOCs
+- Quality Manual <-> Support Documents: generally consistent
+- DOC_Objectifs_Qualite includes the 6 objectives from MQ_06
+- DOC_Audit_Interne includes the ISO checklist from MQ_09
+- DOC_Revue_Direction includes the inputs/outputs from MQ_09
+
+### 8.2 Missing Links
+- No cross-references between CHAIN/BLOC and operational documents
+- Example: BLOC 6 should reference FM-P04-NC; BLOC 8 should reference FM-P01-SAT
+
+---
+
+## 9. Strengths of v0.6
+
+- Generally good ISO 9001:2015 coverage (clauses 4 to 10)
+- Clause 8.3 exclusion (Design) correctly justified and documented
+- 4 well-defined operational processes with swimlanes
+- 37 ambitious and measurable KPIs
+- Formalized risk management (risk/opportunity register in MQ_06)
+- Complete RACI matrix in MQ_03
+- 8 consistent and usable support documents
+- 8 complete BLOC sheets with inputs/outputs/control points
+- Drawio process map and general chain diagram
+
+---
+
+## 10. Priority Action Plan
+
+### Priority 1 — CRITICAL (before any audit)
+
+| # | Action | Effort | ISO Clause |
 |---|--------|--------|-----------|
-| 1 | Creer processus PS02 (Gestion des competences) | 1 jour | 7.2 |
-| 2 | Creer matrice de competences detaillee | 1 jour | 7.2 |
-| 3 | Creer processus PS03 (Amelioration continue) ou l'integrer dans M1 | 0.5 jour | 10.3 |
-| 4 | Harmoniser classification NC (MQ_10 vs DOC_Non_Conformite) | 0.5 jour | 8.7, 10.2 |
-| 5 | Unifier nomenclature processus (PM01/M1, PS01/S1, P03/P04) | 0.5 jour | 4.4 |
+| 1 | Create process PS02 (Competence Management) | 1 day | 7.2 |
+| 2 | Create detailed competence matrix | 1 day | 7.2 |
+| 3 | Create process PS03 (Continuous Improvement) or integrate into M1 | 0.5 day | 10.3 |
+| 4 | Harmonize NC classification (MQ_10 vs DOC_Non_Conformite) | 0.5 day | 8.7, 10.2 |
+| 5 | Unify process naming convention (PM01/M1, PS01/S1, P03/P04) | 0.5 day | 4.4 |
 
-### Priorite 2 — IMPORTANT (avant audit)
-
-| # | Action | Effort |
-|---|--------|--------|
-| 6 | Finaliser CHAIN-02, CHAIN-03, CHAIN-04 (BLOC 3, 7, RACI) | 2 jours |
-| 7 | Aligner references formulaires (FM-xxx vs DOC_xxx) | 0.5 jour |
-| 8 | Corriger numerotation 9.1.3 → 9.1.2 dans MQ_09 | 5 min |
-| 9 | Corriger encodage UTF-8 (MQ_05, MQ_06, MQ_08, MQ_09, MQ_10) | 1 jour |
-| 10 | Ajouter cross-references CHAIN/BLOC → documents operationnels | 0.5 jour |
-
-### Priorite 3 — SOUHAITABLE
+### Priority 2 — IMPORTANT (before audit)
 
 | # | Action | Effort |
 |---|--------|--------|
-| 11 | Creer MQ_01 (Introduction au Manuel) | 0.5 jour |
-| 12 | Creer instructions de travail (IT inspection IPC, DUPRO, PSI) | 2 jours |
-| 13 | Affiner KPIs (fidelisation, transit, documents a jour) | 0.5 jour |
-| 14 | Ajouter historique des revisions dans chaque document | 0.5 jour |
-| 15 | Documenter propriete intellectuelle outillage (CHAIN-03) | 0.5 jour |
+| 6 | Finalize CHAIN-02, CHAIN-03, CHAIN-04 (BLOC 3, 7, RACI) | 2 days |
+| 7 | Align form references (FM-xxx vs DOC_xxx) | 0.5 day |
+| 8 | Correct numbering 9.1.3 -> 9.1.2 in MQ_09 | 5 min |
+| 9 | Fix UTF-8 encoding (MQ_05, MQ_06, MQ_08, MQ_09, MQ_10) | 1 day |
+| 10 | Add cross-references CHAIN/BLOC -> operational documents | 0.5 day |
+
+### Priority 3 — DESIRABLE
+
+| # | Action | Effort |
+|---|--------|--------|
+| 11 | Create MQ_01 (Manual Introduction) | 0.5 day |
+| 12 | Create work instructions (WI for IPC, DUPRO, PSI inspections) | 2 days |
+| 13 | Refine KPIs (retention, transit, up-to-date documents) | 0.5 day |
+| 14 | Add revision history to each document | 0.5 day |
+| 15 | Document tooling intellectual property (CHAIN-03) | 0.5 day |
 
 ---
 
-## 11. Risques pour la certification
+## 11. Certification Risks
 
-| Risque | Probabilite | Severite | Clause |
-|--------|------------|----------|--------|
-| NC majeure : absence matrice competences | Tres elevee | Majeure | 7.2 |
-| NC majeure : absence processus PS02 | Elevee | Majeure | 7.1.2 |
-| NC majeure : classification NC incoherente | Moyenne | Significative | 10.2 |
-| NC mineure : codification processus incoherente | Moyenne | Mineure | 4.4 |
-| NC mineure : chaines processus incompletes | Moyenne | Mineure | 8.1 |
-| NC mineure : KPIs mal definis | Faible | Mineure | 9.1 |
+| Risk | Probability | Severity | Clause |
+|------|------------|----------|--------|
+| Major NC: missing competence matrix | Very high | Major | 7.2 |
+| Major NC: missing PS02 process | High | Major | 7.1.2 |
+| Major NC: inconsistent NC classification | Medium | Significant | 10.2 |
+| Minor NC: inconsistent process coding | Medium | Minor | 4.4 |
+| Minor NC: incomplete process chains | Medium | Minor | 8.1 |
+| Minor NC: poorly defined KPIs | Low | Minor | 9.1 |
 
-**Recommandation** : Ne pas presenter a l'audit avant resolution des actions Priorite 1.
-
----
-
-## 12. Note de conformite README
-
-Le README.md indique toujours "Version actuelle : v0.4" et une structure basee sur v0.4.
-- **Action** : Mettre a jour le README pour refleter la structure v0.6
+**Recommendation**: Do not present for audit before resolving Priority 1 actions.
 
 ---
 
-*Revue effectuee le 2026-03-04 — Version 0.6 du SMQ Plus Sarl*
+## 12. README Compliance Note
+
+The README.md still indicates "Current version: v0.4" and a structure based on v0.4.
+- **Action**: Update the README to reflect the v0.6 structure
+
+---
+
+*Review performed on 2026-03-04 — Version 0.6 of the QMS Plus Sarl*

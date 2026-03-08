@@ -1,220 +1,220 @@
-# Manuel Qualité - Chapitre 10 : Amélioration
+# Quality Manual - Chapter 10: Improvement
 
 | **Document**       | MQ_10_Amelioration                       |
 |--------------------|------------------------------------------|
 | **Version**        | v0.7                                     |
 | **Date**           | 2026-03-04                               |
-| **Classification** | Interne                                  |
-| **Processus**      | PS03 - Amélioration continue             |
-| **Rédaction**      | Rôle Qualité                             |
-| **Approbation**    | Direction                                |
+| **Classification** | Internal                                 |
+| **Process**        | PS03 - Continuous improvement            |
+| **Drafted by**     | Quality Role                             |
+| **Approved by**    | Management                               |
 
 ---
 
-## 10.1 Généralités
+## 10.1 General
 
-Plus Sàrl détermine et sélectionne les opportunités d'amélioration et entreprend les actions nécessaires pour satisfaire aux exigences des clients et accroître leur satisfaction. L'amélioration porte sur :
+Plus Sàrl determines and selects opportunities for improvement and undertakes the necessary actions to meet customer requirements and enhance their satisfaction. Improvement encompasses:
 
-- L'amélioration des produits et services pour satisfaire aux exigences et prendre en compte les besoins et attentes futurs
-- La correction, la prévention ou la réduction des effets indésirables
-- L'amélioration de la performance et de l'efficacité du Système de Management de la Qualité
+- Improving products and services to meet requirements and address future needs and expectations
+- Correcting, preventing, or reducing undesirable effects
+- Improving the performance and effectiveness of the Quality Management System
 
-### Sources d'amélioration
+### Sources of improvement
 
-| Source                               | Type de donnée                           | Responsable de l'analyse |
+| Source                               | Data type                                | Analysis responsible     |
 |--------------------------------------|------------------------------------------|--------------------------|
-| Résultats d'audits internes          | Constats, NC, observations               | Rôle Qualité             |
-| Réclamations clients                 | Fiches de réclamation                    | Rôle Commercial          |
-| Non-conformités produits             | Rapports de NC                           | Rôle Qualité             |
-| Évaluations fournisseurs             | Scores et tendances                      | Rôle Achats              |
-| Indicateurs de performance           | Tableaux de bord KPIs                    | Rôle Qualité             |
-| Revues de direction                  | Comptes-rendus, décisions                | Direction                |
-| Retours des collaborateurs           | Suggestions, retours d'expérience        | Tous les rôles           |
-| Veille concurrentielle et normative  | Rapports de veille                       | Rôle Qualité             |
+| Internal audit results               | Findings, NCs, observations              | Quality Role             |
+| Customer complaints                  | Complaint sheets                         | Commercial Role          |
+| Product non-conformities             | NC reports                               | Quality Role             |
+| Supplier evaluations                 | Scores and trends                        | Purchasing Role          |
+| Performance indicators               | KPI dashboards                           | Quality Role             |
+| Management reviews                   | Minutes, decisions                       | Management               |
+| Staff feedback                       | Suggestions, lessons learned             | All roles                |
+| Competitive and regulatory watch     | Watch reports                            | Quality Role             |
 
 ---
 
-## 10.2 Non-conformité et action corrective
+## 10.2 Nonconformity and corrective action
 
-### 10.2.1 Processus de traitement des non-conformités en 6 étapes
+### 10.2.1 Six-step nonconformity treatment process
 
-Le traitement des non-conformités suit un processus structuré en **six étapes** :
+Nonconformity treatment follows a structured **six-step** process:
 
-#### Étape 1 : Détection et enregistrement
+#### Step 1: Detection and recording
 
-| Action                               | Description                                                      | Responsable       | Délai       |
+| Action                               | Description                                                      | Responsible        | Timeline    |
 |--------------------------------------|------------------------------------------------------------------|--------------------|-------------|
-| Détection de la NC                   | Identification lors d'une inspection, audit, réclamation ou contrôle interne | Tout rôle  | Immédiat    |
-| Enregistrement                       | Ouverture d'une fiche de non-conformité avec description factuelle | Rôle Qualité     | 24 heures   |
-| Attribution d'un numéro unique       | Référence séquentielle NC-AAAA-NNN (ex: NC-2026-001)            | Rôle Qualité       | 24 heures   |
-| Classification initiale              | Catégorisation selon la grille de sévérité                       | Rôle Qualité       | 24 heures   |
+| NC detection                         | Identification during an inspection, audit, complaint, or internal control | Any role   | Immediate   |
+| Recording                            | Opening of a nonconformity sheet with factual description        | Quality Role       | 24 hours    |
+| Unique number assignment             | Sequential reference NC-2026-001            | Quality Role       | 24 hours    |
+| Initial classification               | Categorization according to the severity grid                    | Quality Role       | 24 hours    |
 
-#### Étape 2 : Action immédiate (containment)
+#### Step 2: Immediate action (containment)
 
-| Action                               | Description                                                      | Responsable       | Délai       |
+| Action                               | Description                                                      | Responsible        | Timeline    |
 |--------------------------------------|------------------------------------------------------------------|--------------------|-------------|
-| Isolement du produit NC              | Séparation physique ou marquage des produits non conformes       | Rôle Qualité       | Immédiat    |
-| Notification des parties concernées  | Information du client, du fournisseur et des rôles internes      | Rôle Commercial / Rôle Achats | 24 heures |
-| Sécurisation                         | Prévention de l'utilisation ou de l'expédition du produit NC     | Rôle Qualité / Rôle Logistique | Immédiat |
+| Isolation of NC product              | Physical separation or marking of nonconforming products         | Quality Role       | Immediate   |
+| Notification of concerned parties    | Information to the customer, supplier, and internal roles        | Commercial Role / Purchasing Role | 24 hours |
+| Safeguarding                         | Prevention of use or shipment of the NC product                  | Quality Role / Logistics Role | Immediate |
 
-#### Étape 3 : Analyse des causes racines
+#### Step 3: Root cause analysis
 
-| Méthode d'analyse                    | Description                                                      | Application                     |
+| Analysis method                      | Description                                                      | Application                     |
 |--------------------------------------|------------------------------------------------------------------|---------------------------------|
-| 5 Pourquoi                           | Questionnement itératif pour remonter à la cause racine          | NC simples, causes linéaires    |
-| Diagramme d'Ishikawa                 | Analyse des causes par catégorie (5M : Matière, Méthode, Main-d'œuvre, Milieu, Matériel) | NC complexes, causes multiples |
-| Arbre des causes                     | Représentation graphique des enchaînements causaux               | NC graves ou récurrentes        |
+| 5 Whys                              | Iterative questioning to trace back to the root cause            | Simple NCs, linear causes       |
+| Ishikawa diagram                     | Cause analysis by category (5M: Material, Method, Manpower, Environment, Machine) | Complex NCs, multiple causes |
+| Fault tree                           | Graphical representation of causal chains                        | Severe or recurring NCs         |
 
-| Élément à analyser                   | Questions clés                                                   |
+| Element to analyze                   | Key questions                                                    |
 |--------------------------------------|------------------------------------------------------------------|
-| Matière                              | Le produit/matériau était-il conforme aux spécifications ?       |
-| Méthode                              | La procédure était-elle respectée ? Était-elle adéquate ?        |
-| Main-d'œuvre                        | Le personnel était-il compétent et formé ?                       |
-| Milieu                               | L'environnement de production était-il adéquat ?                 |
-| Matériel                             | Les équipements étaient-ils adaptés et en bon état ?             |
+| Material                             | Was the product/material compliant with specifications?          |
+| Method                               | Was the procedure followed? Was it adequate?                     |
+| Manpower                             | Was the personnel competent and trained?                         |
+| Environment                          | Was the production environment adequate?                         |
+| Machine                              | Were the equipment suitable and in good condition?               |
 
-#### Étape 4 : Définition et mise en œuvre des actions correctives
+#### Step 4: Definition and implementation of corrective actions
 
-| Action                               | Description                                                      | Responsable       | Délai       |
+| Action                               | Description                                                      | Responsible        | Timeline    |
 |--------------------------------------|------------------------------------------------------------------|--------------------|-------------|
-| Définition de l'action corrective    | Description précise de l'action visant à éliminer la cause racine| Rôle Qualité       | 5 jours     |
-| Validation de l'action               | Approbation par le responsable compétent                         | Direction / Rôle Qualité | 2 jours |
-| Mise en œuvre                        | Implémentation de l'action corrective                            | Rôle concerné      | 15 jours    |
-| Documentation                        | Mise à jour de la fiche NC avec les actions entreprises          | Rôle Qualité       | Continue    |
+| Corrective action definition         | Precise description of the action aimed at eliminating the root cause | Quality Role  | 5 days      |
+| Action validation                    | Approval by the competent responsible party                      | Management / Quality Role | 2 days |
+| Implementation                       | Execution of the corrective action                               | Relevant role      | 15 days     |
+| Documentation                        | Update of the NC sheet with the actions taken                    | Quality Role       | Ongoing     |
 
-#### Étape 5 : Vérification de l'efficacité
+#### Step 5: Effectiveness verification
 
-| Action                               | Description                                                      | Responsable       | Délai       |
+| Action                               | Description                                                      | Responsible        | Timeline    |
 |--------------------------------------|------------------------------------------------------------------|--------------------|-------------|
-| Contrôle de mise en œuvre           | Vérification que l'action a été implémentée comme prévu          | Rôle Qualité       | Post-implémentation |
-| Évaluation de l'efficacité           | Vérification que la cause racine a été éliminée                  | Rôle Qualité       | 30-90 jours |
-| Contrôle de non-récurrence           | Surveillance pour confirmer l'absence de récurrence              | Rôle Qualité       | 3 mois      |
-| Décision de clôture                  | Clôture de la fiche NC si l'efficacité est confirmée             | Rôle Qualité       | Après vérification |
+| Implementation check                 | Verification that the action was implemented as planned          | Quality Role       | Post-implementation |
+| Effectiveness assessment             | Verification that the root cause has been eliminated             | Quality Role       | 30-90 days  |
+| Non-recurrence check                 | Monitoring to confirm the absence of recurrence                  | Quality Role       | 3 months    |
+| Closure decision                     | Closure of the NC sheet if effectiveness is confirmed            | Quality Role       | After verification |
 
-#### Étape 6 : Capitalisation et retour d'expérience
+#### Step 6: Capitalization and lessons learned
 
-| Action                               | Description                                                      | Responsable       |
+| Action                               | Description                                                      | Responsible        |
 |--------------------------------------|------------------------------------------------------------------|--------------------|
-| Mise à jour des documents            | Révision des procédures ou instructions si nécessaire            | Rôle Gestion Documentaire |
-| Communication interne                | Partage des leçons apprises avec les rôles concernés             | Rôle Qualité       |
-| Mise à jour du registre des risques  | Ajustement de l'analyse de risques si nécessaire (cf. MQ_06)    | Rôle Qualité       |
-| Intégration en revue de direction    | Présentation des NC significatives et tendances                  | Rôle Qualité       |
+| Document update                      | Revision of procedures or instructions if necessary              | Document Management Role |
+| Internal communication               | Sharing of lessons learned with relevant roles                   | Quality Role       |
+| Risk register update                 | Adjustment of the risk analysis if necessary (see MQ_06)        | Quality Role       |
+| Integration into management review   | Presentation of significant NCs and trends                       | Quality Role       |
 
 ---
 
-### 10.2.2 Classification des non-conformités (4 niveaux)
+### 10.2.2 Nonconformity classification (4 levels)
 
-| Niveau | Catégorie      | Description                                                                   | Délai de traitement | Approbation requise |
+| Level  | Category       | Description                                                                   | Treatment timeline  | Approval required   |
 |--------|----------------|-------------------------------------------------------------------------------|---------------------|---------------------|
-| 1      | **Mineure**    | Écart ponctuel sans impact significatif sur la conformité du produit ou la satisfaction client | 30 jours           | Rôle Qualité        |
-| 2      | **Significative** | Écart affectant partiellement la conformité ou nécessitant une action corrective structurée | 15 jours           | Rôle Qualité        |
-| 3      | **Majeure**    | Écart systématique ou impactant significativement la conformité du produit, la satisfaction client ou l'efficacité du SMQ | 5 jours            | Direction           |
-| 4      | **Critique**   | Écart mettant en cause la sécurité du produit, la conformité réglementaire ou pouvant entraîner des conséquences graves pour le client | Immédiat           | Direction           |
+| 1      | **Minor**      | Isolated deviation with no significant impact on product conformity or customer satisfaction | 30 days            | Quality Role        |
+| 2      | **Significant** | Deviation partially affecting conformity or requiring a structured corrective action | 15 days            | Quality Role        |
+| 3      | **Major**      | Systematic deviation or one significantly impacting product conformity, customer satisfaction, or QMS effectiveness | 5 days             | Management          |
+| 4      | **Critical**   | Deviation compromising product safety, regulatory compliance, or potentially causing severe consequences for the customer | Immediate          | Management          |
 
-### 10.2.3 Matrice d'escalade
+### 10.2.3 Escalation matrix
 
-| Niveau de NC    | Notification                          | Décision de traitement | Suivi                |
-|-----------------|---------------------------------------|------------------------|----------------------|
-| Mineure         | Rôle Qualité                          | Rôle Qualité           | Rôle Qualité         |
-| Significative   | Rôle Qualité, Rôle concerné           | Rôle Qualité           | Rôle Qualité         |
-| Majeure         | Direction, Rôle Qualité, Client       | Direction              | Rôle Qualité         |
-| Critique        | Direction, Client, Fournisseur        | Direction              | Direction / Rôle Qualité |
+| NC level        | Notification                          | Treatment decision   | Follow-up            |
+|-----------------|---------------------------------------|----------------------|----------------------|
+| Minor           | Quality Role                          | Quality Role         | Quality Role         |
+| Significant     | Quality Role, Relevant role           | Quality Role         | Quality Role         |
+| Major           | Management, Quality Role, Customer    | Management           | Quality Role         |
+| Critical        | Management, Customer, Supplier        | Management           | Management / Quality Role |
 
 ---
 
-## 10.3 Amélioration continue
+## 10.3 Continuous improvement
 
-### 10.3.1 Cycle PDCA (Plan-Do-Check-Act)
+### 10.3.1 PDCA cycle (Plan-Do-Check-Act)
 
-Plus Sàrl applique le cycle PDCA (roue de Deming) comme méthode fondamentale d'amélioration continue à tous les niveaux du SMQ.
+Plus Sàrl applies the PDCA cycle (Deming wheel) as the fundamental continuous improvement method at all levels of the QMS.
 
 ```
-        ┌─────────────────────────────────────────┐
-        │            PLAN (Planifier)              │
-        │  - Identifier les opportunités           │
-        │  - Définir les objectifs                 │
-        │  - Planifier les actions                 │
-        └──────────────────┬──────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────┐
-│                DO (Réaliser)                      │
-│  - Mettre en œuvre les actions planifiées        │
-│  - Collecter les données                         │
-│  - Documenter les résultats                      │
-└──────────────────┬───────────────────────────────┘
-                   │
-                   ▼
-        ┌─────────────────────────────────────────┐
-        │           CHECK (Vérifier)               │
-        │  - Mesurer les résultats                 │
-        │  - Comparer aux objectifs                │
-        │  - Analyser les écarts                   │
-        └──────────────────┬──────────────────────┘
-                           │
-                           ▼
-┌──────────────────────────────────────────────────┐
-│                ACT (Agir)                         │
-│  - Standardiser si objectif atteint              │
-│  - Corriger si écart                             │
-│  - Relancer un nouveau cycle                     │
-└──────────────────────────────────────────────────┘
+        +---------------------------------------------+
+        |            PLAN (Plan)                       |
+        |  - Identify opportunities                    |
+        |  - Define objectives                         |
+        |  - Plan actions                              |
+        +----------------------+-----------------------+
+                               |
+                               v
++--------------------------------------------------+
+|                DO (Do)                            |
+|  - Implement planned actions                     |
+|  - Collect data                                  |
+|  - Document results                              |
++----------------------+---------------------------+
+                       |
+                       v
+        +---------------------------------------------+
+        |           CHECK (Check)                      |
+        |  - Measure results                           |
+        |  - Compare to objectives                     |
+        |  - Analyze deviations                        |
+        +----------------------+-----------------------+
+                               |
+                               v
++--------------------------------------------------+
+|                ACT (Act)                          |
+|  - Standardize if objective achieved             |
+|  - Correct if deviation                          |
+|  - Launch a new cycle                            |
++--------------------------------------------------+
 ```
 
-### 10.3.2 Application du PDCA par processus
+### 10.3.2 PDCA application by process
 
-| Processus | PLAN                                    | DO                                     | CHECK                                  | ACT                                    |
+| Process | PLAN                                    | DO                                     | CHECK                                  | ACT                                    |
 |-----------|-----------------------------------------|----------------------------------------|----------------------------------------|----------------------------------------|
-| P01       | Objectifs commerciaux, plan d'action    | Prospection, offres, suivi client      | KPIs commerciaux, satisfaction client  | Ajustement stratégie commerciale       |
-| P02       | Critères de sélection, panel cible      | Qualification, commandes, évaluations  | Scores fournisseurs, taux NC           | Révision panel, actions correctives    |
-| P03       | Plan d'inspection, checklists           | Inspections, rapports, décisions       | Taux acceptation, efficacité inspections | Ajustement méthodes, formation        |
-| P04       | Planning logistique, objectifs délais   | Expéditions, suivi, documentation      | Taux livraison à temps, réclamations   | Optimisation flux, nouveaux partenaires|
-| PS01      | Plan documentaire, objectifs            | Création, mise à jour, diffusion       | Taux documents à jour, audits doc      | Révision procédures, formation         |
-| PM01      | Politique, objectifs qualité            | Pilotage, allocation ressources        | Revue de direction, KPIs globaux       | Révision stratégie, nouveaux objectifs |
+| P01       | Commercial objectives, action plan      | Prospecting, offers, customer follow-up | Commercial KPIs, customer satisfaction | Commercial strategy adjustment         |
+| P02       | Selection criteria, target panel        | Qualification, orders, evaluations     | Supplier scores, NC rate               | Panel revision, corrective actions     |
+| P03       | Inspection plan, checklists             | Inspections, reports, decisions        | Acceptance rate, inspection effectiveness | Method adjustment, training          |
+| P04       | Logistics planning, delivery targets   | Shipments, tracking, documentation     | On-time delivery rate, complaints      | Flow optimization, new partners        |
+| PS01      | Document plan, objectives               | Creation, update, distribution         | Up-to-date document rate, doc audits   | Procedure revision, training           |
+| PM01      | Policy, quality objectives              | Management, resource allocation        | Management review, overall KPIs        | Strategy revision, new objectives      |
 
-### 10.3.3 Outils d'amélioration continue
+### 10.3.3 Continuous improvement tools
 
-| Outil                                | Application                                                      | Fréquence d'utilisation |
+| Tool                                 | Application                                                      | Usage frequency         |
 |--------------------------------------|------------------------------------------------------------------|-------------------------|
-| Analyse de tendances                 | Suivi de l'évolution des KPIs dans le temps                      | Mensuelle               |
-| Benchmarking                         | Comparaison avec les meilleures pratiques du secteur             | Annuelle                |
-| Brainstorming                        | Génération d'idées d'amélioration en équipe                      | Selon besoin            |
-| Analyse Pareto                       | Identification des causes principales de NC (règle 80/20)       | Trimestrielle           |
-| Retour d'expérience (REX)           | Capitalisation des leçons apprises après chaque projet significatif | À chaque clôture de projet |
+| Trend analysis                       | Tracking of KPI evolution over time                              | Monthly                 |
+| Benchmarking                         | Comparison with industry best practices                          | Annual                  |
+| Brainstorming                        | Team-based generation of improvement ideas                       | As needed               |
+| Pareto analysis                      | Identification of main NC causes (80/20 rule)                    | Quarterly               |
+| Lessons learned (REX)               | Capitalization of lessons learned after each significant project  | At each project closure |
 
-### 10.3.4 Programme d'amélioration annuel
+### 10.3.4 Annual improvement program
 
-| Élément                              | Description                                                      | Responsable       |
+| Element                              | Description                                                      | Responsible        |
 |--------------------------------------|------------------------------------------------------------------|--------------------|
-| Revue des performances               | Analyse des résultats de l'année écoulée                        | Direction / Rôle Qualité |
-| Identification des axes d'amélioration | Sélection des priorités basée sur les données                  | Direction          |
-| Plan d'actions d'amélioration        | Actions définies avec responsables, ressources et échéances     | Rôle Qualité       |
-| Suivi trimestriel                    | Revue de l'avancement des actions d'amélioration                | Rôle Qualité       |
-| Bilan annuel                         | Évaluation de l'efficacité du programme d'amélioration          | Direction          |
+| Performance review                   | Analysis of the previous year's results                          | Management / Quality Role |
+| Identification of improvement areas  | Priority selection based on data                                 | Management         |
+| Improvement action plan              | Actions defined with owners, resources, and deadlines            | Quality Role       |
+| Quarterly follow-up                  | Review of improvement action progress                            | Quality Role       |
+| Annual review                        | Assessment of improvement program effectiveness                  | Management         |
 
-### 10.3.5 Indicateurs d'amélioration continue
+### 10.3.5 Continuous improvement indicators
 
-| Indicateur                          | Formule / Méthode                        | Cible         | Fréquence     |
+| Indicator                            | Formula / Method                         | Target        | Frequency     |
 |--------------------------------------|------------------------------------------|---------------|---------------|
-| Nombre d'actions d'amélioration lancées | Comptage                              | >= 6/an       | Annuelle      |
-| Taux de réalisation des actions d'amélioration | Actions réalisées / planifiées (%) | >= 80%     | Semestrielle  |
-| Taux d'efficacité des actions correctives | AC efficaces / AC clôturées (%)     | >= 90%        | Annuelle      |
-| Évolution du taux de NC global       | Tendance sur 12 mois glissants           | Baisse continue | Trimestrielle |
-| Nombre de récurrences de NC          | NC identiques sur 12 mois               | 0 récurrence  | Annuelle      |
+| Number of improvement actions launched | Count                                  | >= 6/year     | Annual        |
+| Improvement action completion rate   | Actions completed / planned (%)          | >= 80%        | Semi-annual   |
+| Corrective action effectiveness rate | Effective CAs / Closed CAs (%)          | >= 90%        | Annual        |
+| Overall NC rate evolution            | Trend over rolling 12 months             | Continuous decrease | Quarterly |
+| Number of NC recurrences             | Identical NCs over 12 months             | 0 recurrence  | Annual        |
 
 ---
 
-## Références normatives
+## Normative references
 
-| Clause ISO 9001:2015 | Exigence                                                     |
+| ISO 9001:2015 Clause | Requirement                                                  |
 |-----------------------|--------------------------------------------------------------|
-| 10.1                  | Généralités                                                   |
-| 10.2                  | Non-conformité et action corrective                           |
-| 10.2.1                | Réaction à la non-conformité                                  |
-| 10.2.2                | Conservation des informations documentées                     |
-| 10.3                  | Amélioration continue                                         |
+| 10.1                  | General                                                       |
+| 10.2                  | Nonconformity and corrective action                           |
+| 10.2.1                | Reaction to nonconformity                                     |
+| 10.2.2                | Retention of documented information                           |
+| 10.3                  | Continuous improvement                                        |
 
 ---
 
-*Document contrôlé - Toute copie imprimée est considérée comme non contrôlée.*
-*Plus Sàrl - Système de Management de la Qualité ISO 9001:2015 - v0.7*
+*Controlled document - Any printed copy is considered uncontrolled.*
+*Plus Sàrl - Quality Management System ISO 9001:2015 - v0.7*

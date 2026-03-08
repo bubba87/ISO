@@ -1872,7 +1872,7 @@ Le traitement des non-conformités suit un processus structuré en **six étapes
 |--------------------------------------|------------------------------------------------------------------|--------------------|-------------|
 | Détection de la NC                   | Identification lors d'une inspection, audit, réclamation ou contrôle interne | Tout rôle  | Immédiat    |
 | Enregistrement                       | Ouverture d'une fiche de non-conformité avec description factuelle | Rôle Qualité     | 24 heures   |
-| Attribution d'un numéro unique       | Référence séquentielle NC-AAAA-NNN (ex: NC-2026-001)            | Rôle Qualité       | 24 heures   |
+| Attribution d'un numéro unique       | Référence séquentielle NC-2026-001 (ex: NC-2026-001)            | Rôle Qualité       | 24 heures   |
 | Classification initiale              | Catégorisation selon la grille de sévérité                       | Rôle Qualité       | 24 heures   |
 
 #### Étape 2 : Action immédiate (containment)
@@ -3828,7 +3828,7 @@ Ce processus interagit avec l'ensemble des processus du SMQ et alimente directem
 
 Le traitement des non-conformités suit le processus en 6 étapes défini dans MQ_10 :
 
-1. **Détection et enregistrement** — Ouverture fiche NC (NC-AAAA-NNN)
+1. **Détection et enregistrement** — Ouverture fiche NC (NC-2026-001)
 2. **Action immédiate** — Isolement, notification, sécurisation
 3. **Analyse des causes racines** — 5 Pourquoi, Ishikawa, arbre des causes
 4. **Actions correctives** — Définition, validation, mise en œuvre

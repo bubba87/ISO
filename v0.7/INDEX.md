@@ -85,6 +85,18 @@
 
 ---
 
+### Work Instructions
+
+| Code | Document | Link |
+|------|----------|------|
+| IT-P03-IPC | Initial Production Check (IPC) | [IT-P03-IPC](documents/IT-P03-IPC_Inspection_Initial_Production.md) |
+| IT-P03-DUPRO | During Production Check (DUPRO) | [IT-P03-DUPRO](documents/IT-P03-DUPRO_Inspection_During_Production.md) |
+| IT-P03-PSI | Pre-Shipment Inspection (PSI) | [IT-P03-PSI](documents/IT-P03-PSI_Pre_Shipment_Inspection.md) |
+| IT-P03-LC | Loading Check | [IT-P03-LC](documents/IT-P03-LC_Loading_Check.md) |
+| IT-P03-AUD | Supplier Audit | [IT-P03-AUD](documents/IT-P03-AUD_Audit_Fournisseur.md) |
+
+---
+
 ### Source Documents
 
 | Document | Link |

@@ -1,200 +1,200 @@
-# Fiche de Non-Conformité
+# Nonconformity Report
 
-| **Document**         | Fiche de Non-Conformité                              |
+| **Document**         | Nonconformity Report                                 |
 |----------------------|------------------------------------------------------|
 | **Code**            | FM-P03-NC                                             |
-| **Processus**       | P03 - Contrôle Qualité                                |
+| **Process**         | P03 - Quality Control                                 |
 | **Version**         | v0.7                                                  |
 | **Date**            | 2026-03-04                                            |
-| **Norme ISO 9001**  | Chapitres 8.7, 10.2                                  |
+| **ISO 9001 Standard** | Clauses 8.7, 10.2                                  |
 
 ---
 
-## 1. Identification de la non-conformité
+## 1. Nonconformity Identification
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **N° de NC**              | NC-________-________                             |
-| **Date de détection**     | ________________________________________         |
-| **Détecté par (Rôle)**    | ________________________________________         |
-| **Lieu de détection**     | ________________________________________         |
-| **Phase de détection**    | [ ] IPC  [ ] DUPRO  [ ] PSI  [ ] Loading Check  [ ] Réception  [ ] Autre |
-| **N° de commande**        | ________________________________________         |
-| **Fournisseur**           | ________________________________________         |
-| **Produit / Service**     | ________________________________________         |
-| **Quantité concernée**    | ________________________________________         |
-| **Référence spécification** | ______________________________________         |
+| **NC No.**                | NC-2026-___                                      |
+| **Date of detection**     | ________________________________________         |
+| **Detected by (Role)**    | ________________________________________         |
+| **Location of detection** | ________________________________________         |
+| **Detection phase**       | [ ] IPC  [ ] DUPRO  [ ] PSI  [ ] Loading Check  [ ] Reception  [ ] Other |
+| **Order No.**             | ________________________________________         |
+| **Supplier**              | ________________________________________         |
+| **Product / Service**     | ________________________________________         |
+| **Quantity affected**     | ________________________________________         |
+| **Specification reference** | ______________________________________         |
 
 ---
 
-## 2. Classification de la non-conformité
+## 2. Nonconformity Classification
 
-### 2.1 Système de classification à 4 niveaux
+### 2.1 Four-Level Classification System
 
-| Niveau | Désignation      | Description                                                     | Délai de traitement | Action immédiate requise          |
-|--------|-----------------|------------------------------------------------------------------|---------------------|-----------------------------------|
-| **1**  | **Mineure**      | Écart ponctuel sans impact significatif sur la conformité du produit ou la satisfaction client. Le produit reste utilisable. | 30 jours | Enregistrer. Accepter ou trier selon quantité. |
-| **2**  | **Significative** | Écart affectant partiellement la conformité ou nécessitant une action corrective structurée. Impact sur la qualité perçue ou la fonctionnalité partielle. | 15 jours | Enregistrer. Isoler les produits NC. Informer le fournisseur. |
-| **3**  | **Majeure**      | Écart systématique ou impactant significativement la conformité du produit, la satisfaction client ou l'efficacité du SMQ. | 5 jours | Enregistrer. Bloquer le lot. Informer la Direction et le fournisseur immédiatement. |
-| **4**  | **Critique**     | Écart mettant en cause la sécurité du produit, la conformité réglementaire ou pouvant entraîner des conséquences graves pour le client. Arrêt de livraison immédiat. | Immédiat | Enregistrer. Bloquer et isoler tout le lot. Arrêt immédiat de toute expédition. Alerte Direction. |
+| Level | Designation      | Description                                                     | Handling Deadline | Immediate Action Required         |
+|-------|------------------|-----------------------------------------------------------------|-------------------|-----------------------------------|
+| **1** | **Minor**        | Isolated deviation with no significant impact on product conformity or customer satisfaction. The product remains usable. | 30 days | Record. Accept or sort based on quantity. |
+| **2** | **Significant**  | Deviation partially affecting conformity or requiring a structured corrective action. Impact on perceived quality or partial functionality. | 15 days | Record. Isolate NC products. Inform the supplier. |
+| **3** | **Major**        | Systematic deviation or one significantly impacting product conformity, customer satisfaction, or QMS effectiveness. | 5 days | Record. Block the lot. Immediately inform Management and the supplier. |
+| **4** | **Critical**     | Deviation affecting product safety, regulatory compliance, or potentially causing serious consequences for the customer. Immediate shipment halt. | Immediate | Record. Block and isolate the entire lot. Immediately halt all shipments. Alert Management. |
 
-### 2.2 Classification attribuée
+### 2.2 Assigned Classification
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Niveau attribué**       | [ ] 1 - Mineure  [ ] 2 - Significative  [ ] 3 - Majeure  [ ] 4 - Critique |
+| **Assigned level**        | [ ] 1 - Minor  [ ] 2 - Significant  [ ] 3 - Major  [ ] 4 - Critical |
 | **Justification**         | ________________________________________         |
 
 ---
 
-## 3. Description détaillée de la non-conformité
+## 3. Detailed Description of the Nonconformity
 
-### 3.1 Description du défaut constaté
+### 3.1 Description of the Observed Defect
 
 ________________________________________________________________________
 ________________________________________________________________________
 ________________________________________________________________________
 
-### 3.2 Spécification / exigence non respectée
+### 3.2 Specification / Requirement Not Met
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Valeur spécifiée**      | ________________________________________         |
-| **Valeur constatée**      | ________________________________________         |
-| **Écart**                 | ________________________________________         |
+| **Specified value**       | ________________________________________         |
+| **Observed value**        | ________________________________________         |
+| **Deviation**             | ________________________________________         |
 
-### 3.3 Preuves objectives
+### 3.3 Objective Evidence
 
-- [ ] Photos jointes (Référence : ___________________________)
-- [ ] Rapport de mesure joint (Référence : ___________________________)
-- [ ] Échantillons conservés (Lieu : ___________________________)
-- [ ] Rapport d'inspection joint (Référence : ___________________________)
-- [ ] Autre : ________________________________________
+- [ ] Photos attached (Reference: ___________________________)
+- [ ] Measurement report attached (Reference: ___________________________)
+- [ ] Samples retained (Location: ___________________________)
+- [ ] Inspection report attached (Reference: ___________________________)
+- [ ] Other: ________________________________________
 
 ---
 
-## 4. Décision immédiate (traitement curatif)
+## 4. Immediate Decision (Containment Action)
 
-| Décision                                          | Cocher | Détails                          |
-|--------------------------------------------------|--------|----------------------------------|
-| Accepter en l'état (dérogation)                   | [ ]    | Justification : ________________ |
-| Accepter après tri (quantité conforme isolée)     | [ ]    | Qté conforme : ____ / Qté NC : ____ |
-| Retoucher / Réparer                               | [ ]    | Description : __________________ |
-| Refuser / Retourner au fournisseur                | [ ]    | Conditions : ___________________ |
-| Rebuter / Détruire                                | [ ]    | Quantité : _____________________ |
-| Bloquer l'expédition                              | [ ]    | Durée prévue : _________________ |
+| Decision                                          | Check  | Details                          |
+|---------------------------------------------------|--------|----------------------------------|
+| Accept as-is (concession)                          | [ ]    | Justification: ________________  |
+| Accept after sorting (conforming quantity isolated) | [ ]   | Conforming qty: ____ / NC qty: ____ |
+| Rework / Repair                                    | [ ]    | Description: __________________  |
+| Reject / Return to supplier                        | [ ]    | Conditions: ___________________  |
+| Scrap / Destroy                                    | [ ]    | Quantity: _____________________  |
+| Block shipment                                     | [ ]    | Expected duration: _____________  |
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Décision prise par (Rôle)** | ________________________________________     |
-| **Date de la décision**    | ________________________________________        |
+| **Decision made by (Role)** | ________________________________________       |
+| **Decision date**          | ________________________________________        |
 
 ---
 
-## 5. Analyse des causes racines
+## 5. Root Cause Analysis
 
-### 5.1 Méthode utilisée
+### 5.1 Method Used
 
-- [ ] 5 Pourquoi
-- [ ] Diagramme d'Ishikawa (causes et effets)
-- [ ] Autre : ________________________________________
+- [ ] 5 Whys
+- [ ] Ishikawa Diagram (cause and effect)
+- [ ] Other: ________________________________________
 
-### 5.2 Analyse 5 Pourquoi
+### 5.2 5 Whys Analysis
 
-| Étape          | Question / Réponse                                                  |
+| Step           | Question / Answer                                                   |
 |----------------|---------------------------------------------------------------------|
-| **Pourquoi 1** | ________________________________________________________________   |
-| **Pourquoi 2** | ________________________________________________________________   |
-| **Pourquoi 3** | ________________________________________________________________   |
-| **Pourquoi 4** | ________________________________________________________________   |
-| **Pourquoi 5** | ________________________________________________________________   |
+| **Why 1**      | ________________________________________________________________   |
+| **Why 2**      | ________________________________________________________________   |
+| **Why 3**      | ________________________________________________________________   |
+| **Why 4**      | ________________________________________________________________   |
+| **Why 5**      | ________________________________________________________________   |
 
-### 5.3 Diagramme d'Ishikawa (si applicable)
+### 5.3 Ishikawa Diagram (if applicable)
 
 ```
-                                       EFFET
-                                    (Non-conformité)
+                                       EFFECT
+                                    (Nonconformity)
                                          |
         +----------------+---------------+---------------+----------------+
         |                |               |               |                |
-    MAIN-D'OEUVRE     MATIÈRE       MÉTHODE          MACHINE         MILIEU
+    MANPOWER          MATERIAL        METHOD          MACHINE        ENVIRONMENT
         |                |               |               |                |
    ___________      ___________    ___________     ___________     ___________
    ___________      ___________    ___________     ___________     ___________
 ```
 
-### 5.4 Cause racine identifiée
+### 5.4 Identified Root Cause
 
 ________________________________________________________________________
 ________________________________________________________________________
 
 ---
 
-## 6. Actions correctives
+## 6. Corrective Actions
 
-### 6.1 Plan d'actions correctives
+### 6.1 Corrective Action Plan
 
-| N° | Description de l'action corrective  | Responsable (Rôle) | Délai          | Date réalisation | Statut               |
-|----|-------------------------------------|---------------------|----------------|------------------|----------------------|
-| 1  | ________________________________    | ___________________ | ____/____/____ | ____/____/____   | [ ] Planifié [ ] En cours [ ] Clôturé |
-| 2  | ________________________________    | ___________________ | ____/____/____ | ____/____/____   | [ ] Planifié [ ] En cours [ ] Clôturé |
-| 3  | ________________________________    | ___________________ | ____/____/____ | ____/____/____   | [ ] Planifié [ ] En cours [ ] Clôturé |
+| No. | Description of Corrective Action    | Responsible (Role)  | Deadline       | Completion Date  | Status               |
+|-----|-------------------------------------|---------------------|----------------|------------------|----------------------|
+| 1   | ________________________________    | ___________________ | ____/____/____ | ____/____/____   | [ ] Planned [ ] In Progress [ ] Closed |
+| 2   | ________________________________    | ___________________ | ____/____/____ | ____/____/____   | [ ] Planned [ ] In Progress [ ] Closed |
+| 3   | ________________________________    | ___________________ | ____/____/____ | ____/____/____   | [ ] Planned [ ] In Progress [ ] Closed |
 
-### 6.2 Vérification d'efficacité
+### 6.2 Effectiveness Verification
 
-| Champ                           | Valeur                                           |
+| Field                           | Value                                            |
 |---------------------------------|--------------------------------------------------|
-| **Date de vérification**        | ________________________________________         |
-| **Méthode de vérification**     | [ ] Inspection suivante  [ ] Audit  [ ] Suivi indicateurs  [ ] Autre |
-| **Résultat**                    | [ ] Efficace  [ ] Partiellement efficace  [ ] Non efficace |
-| **Commentaires**                | ________________________________________         |
-| **Vérifié par (Rôle)**         | ________________________________________         |
+| **Verification date**           | ________________________________________         |
+| **Verification method**         | [ ] Next inspection  [ ] Audit  [ ] Indicator monitoring  [ ] Other |
+| **Result**                      | [ ] Effective  [ ] Partially effective  [ ] Not effective |
+| **Comments**                    | ________________________________________         |
+| **Verified by (Role)**          | ________________________________________         |
 
 ---
 
-## 7. Impact et suivi
+## 7. Impact and Follow-Up
 
-### 7.1 Impact sur le fournisseur
+### 7.1 Impact on Supplier
 
-| Action                                          | Cocher |
-|------------------------------------------------|--------|
-| Mise à jour de l'évaluation fournisseur (FM-P02-EVAL) | [ ] |
-| Renforcement du niveau d'inspection            | [ ]    |
-| Mise sous surveillance renforcée               | [ ]    |
-| Suspension temporaire                           | [ ]    |
-| Aucune action complémentaire                   | [ ]    |
+| Action                                          | Check  |
+|-------------------------------------------------|--------|
+| Update supplier evaluation (FM-P02-EVAL)        | [ ]    |
+| Increase inspection level                       | [ ]    |
+| Place under enhanced surveillance               | [ ]    |
+| Temporary suspension                            | [ ]    |
+| No additional action                            | [ ]    |
 
-### 7.2 Impact sur le client
+### 7.2 Impact on Customer
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Client informé**        | [ ] Oui  [ ] Non  [ ] Non applicable             |
-| **Impact sur la livraison** | [ ] Oui (délai : ___________)  [ ] Non         |
-| **Réclamation client liée** | [ ] Oui (N° : ___________)  [ ] Non            |
+| **Customer informed**     | [ ] Yes  [ ] No  [ ] Not applicable              |
+| **Impact on delivery**    | [ ] Yes (delay: ___________)  [ ] No             |
+| **Related customer complaint** | [ ] Yes (No.: ___________)  [ ] No           |
 
 ---
 
-## 8. Clôture de la non-conformité
+## 8. Nonconformity Closure
 
-| Champ                     | Valeur                                           |
+| Field                     | Value                                            |
 |---------------------------|--------------------------------------------------|
-| **Date de clôture**       | ________________________________________         |
-| **Clôturé par (Rôle)**   | ________________________________________         |
-| **Statut final**          | [ ] Clôturé - AC efficace  [ ] Clôturé - AC partiellement efficace  [ ] Rouvert |
-| **Commentaires finaux**   | ________________________________________         |
+| **Closure date**          | ________________________________________         |
+| **Closed by (Role)**      | ________________________________________         |
+| **Final status**          | [ ] Closed - CA effective  [ ] Closed - CA partially effective  [ ] Reopened |
+| **Final comments**        | ________________________________________         |
 
 ---
 
 ## 9. Signatures
 
-| Rôle              | Date              | Signature          |
+| Role              | Date              | Signature          |
 |-------------------|-------------------|--------------------|
-| Détecteur         | ____/____/____    | __________________ |
-| Qualité           | ____/____/____    | __________________ |
-| Fournisseur       | ____/____/____    | __________________ |
-| Direction (si Niveau 3 ou 4) | ____/____/____ | __________________ |
+| Detector          | ____/____/____    | __________________ |
+| Quality           | ____/____/____    | __________________ |
+| Supplier          | ____/____/____    | __________________ |
+| Management (if Level 3 or 4) | ____/____/____ | __________________ |
 
 ---
 
-*Document contrôlé - Plus Sàrl - Système de Management de la Qualité ISO 9001:2015*
+*Controlled document - Plus Sàrl - ISO 9001:2015 Quality Management System*
 *Version v0.7 - 2026-03-04*
