@@ -127,7 +127,20 @@
 |---------|-------------|------|
 | Process Map | All processes in swimlane format with roles | [processus_iso9001.drawio](diagrammes/processus_iso9001.drawio) |
 | General Process Chain | 8 blocks, 4 lines (SALES/MANUF/DELIVERY/QUALITY) | [chaine_processus_general.drawio](diagrammes/chaine_processus_general.drawio) |
+| Interactive Overview v2 | Role-based swimlane cartography (EN, 16 pages) | [vue_ensemble_interactive_v2.drawio](diagrammes/vue_ensemble_interactive_v2.drawio) |
+| **Interactive Overview v3** | **Full interactive cartography FR (30 pages, swimlane, 3-level drill-down)** | [**vue_ensemble_interactive_v3.drawio**](diagrammes/vue_ensemble_interactive_v3.drawio) |
+
+#### Interactive Overview v3 — Page Structure
+
+| Level | Pages | Content |
+|-------|-------|---------|
+| 1 — Global | VUE D'ENSEMBLE v3 | Swimlane overview: DIRECTION, VENTES, FABRICATION, LIVRAISON, QUALITE, SUPPORT |
+| 2 — Processes | PM01, P01, P02, P03, P04, PS01, PS02, PS03 | Each process in swimlane PDCA format |
+| 2 — Chains | CHAIN-01 to CHAIN-04 | Each order type as swimlane with 4 roles |
+| 2 — Chain General | Chaine Processus Generale | Consolidated 8-bloc view across 4 swimlanes |
+| 3 — BLOCs | BLOC 1 to BLOC 8 | Detailed swimlane per bloc with sub-actions |
+| 3 — SUB-BLOCs | SOUS-BLOC 1 to SOUS-BLOC 8 | Deepest level detail per bloc action group |
 
 ---
 
-*Document generated on 2026-03-04 — Version 0.7*
+*Document generated on 2026-03-09 — Version 0.7*

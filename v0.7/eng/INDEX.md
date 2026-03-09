@@ -115,7 +115,9 @@
 |---------|-------------|------|
 | Process Map | All processes in swimlane format with roles | [processus_iso9001.drawio](diagrammes/processus_iso9001.drawio) |
 | General Process Chain | 8 blocks, 4 lines (SALES/MANUF/DELIVERY/QUALITY) | [chaine_processus_general.drawio](diagrammes/chaine_processus_general.drawio) |
+| Interactive Overview v2 | Role-based swimlane cartography (EN, 16 pages) | [vue_ensemble_interactive_v2.drawio](diagrammes/vue_ensemble_interactive_v2.drawio) |
+| **Interactive Overview v3** | **Full interactive cartography FR (30 pages, swimlane, 3-level drill-down)** | [**vue_ensemble_interactive_v3.drawio**](diagrammes/vue_ensemble_interactive_v3.drawio) |
 
 ---
 
-*Document generated on 2026-03-04 — Version 0.7*
+*Document generated on 2026-03-09 — Version 0.7*

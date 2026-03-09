@@ -693,7 +693,8 @@ def page17_bloc3():
             ("Delivery type", "Maritime, air,\nroad, express"),
         ]},
         prev_bloc="page-bloc2", next_bloc="page-bloc4", iso_clause="8.5.4",
-        doc_refs=["Transport sheet", "Carrier quotation"])
+        doc_refs=["Transport sheet", "Carrier quotation"],
+        sub_page="page-sub-b3")
 
 def page18_bloc4():
     return bloc_detail_page("page-bloc4", 4, "TECHNICAL STUDY SUPPLIERS", "CH-BLOC-004",
@@ -704,7 +705,8 @@ def page18_bloc4():
             ("Production deadline\nvalidation", "Confirmed by\nthe supplier"),
         ]},
         prev_bloc="page-bloc3", next_bloc="page-bloc5", iso_clause="8.4.2, 8.4.3",
-        doc_refs=["Technical specifications", "Supplier deadline confirmation"])
+        doc_refs=["Technical specifications", "Supplier deadline confirmation"],
+        sub_page="page-sub-b4")
 
 def page19_bloc5():
     return bloc_detail_page("page-bloc5", 5, "ORDER VALIDATION", "CH-BLOC-005",
@@ -715,7 +717,8 @@ def page19_bloc5():
             ("Customer feedback", "Acceptance\nor Rejection"),
         ]},
         prev_bloc="page-bloc4", next_bloc="page-bloc6", iso_clause="8.2.3.1",
-        doc_refs=["Acknowledgment of receipt (AR)", "Signed customer confirmation"])
+        doc_refs=["Acknowledgment of receipt (AR)", "Signed customer confirmation"],
+        sub_page="page-sub-b5")
 
 def page20_bloc6():
     return bloc_detail_page("page-bloc6", 6, "PRODUCTION & QUALITY", "CH-BLOC-006",
@@ -747,7 +750,8 @@ def page21_bloc7():
             ("Inform customer", "Delivery date\nconfirmed"),
         ]},
         prev_bloc="page-bloc6", next_bloc="page-bloc8", iso_clause="8.5.4, 8.5.5",
-        doc_refs=["Delivery note (BL)", "Packing list", "Commercial invoice", "Customs documents"])
+        doc_refs=["Delivery note (BL)", "Packing list", "Commercial invoice", "Customs documents"],
+        sub_page="page-sub-b7")
 
 def page22_bloc8():
     return bloc_detail_page("page-bloc8", 8, "GOODS ACCEPTANCE & CLOSURE", "CH-BLOC-008",
@@ -762,7 +766,8 @@ def page22_bloc8():
             ("Close file", "Complete\narchiving"),
         ]},
         prev_bloc="page-bloc7", iso_clause="8.5.5, 9.1.2",
-        doc_refs=["Customer invoice", "Customs declaration", "Satisfaction survey (FM-P01-SAT)", "Archived file"])
+        doc_refs=["Customer invoice", "Customs declaration", "Satisfaction survey (FM-P01-SAT)", "Archived file"],
+        sub_page="page-sub-b8")
 
 
 # ═══════════════════════════════════════════════════════════════════
