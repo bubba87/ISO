@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mxfile host="app.diagrams.net" modified="2026-03-11T18:00:00.000Z" agent="Claude" version="21.0.0" type="device">
+  <diagram id="general-chain" name="General Processus Chain — Plus Sàrl">
+    <mxGraphModel dx="2200" dy="3400" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="2200" pageHeight="3200" math="0" shadow="0">
+      <root>
+        <mxCell id="0"/>
+        <mxCell id="1" parent="0"/>
+
+        <!-- ============================================================ -->
+        <!-- TITRE -->
+        <!-- ============================================================ -->
+        <mxCell id="title" value="&lt;b style='font-size:18px'&gt;GENERAL PROCESSUS CHAIN&lt;/b&gt;&lt;br&gt;Plus Sàrl — Système de Management de la Qualité ISO 9001:2015&lt;br&gt;v0.7 — 2026-03-11" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=13;" vertex="1" parent="1">
+          <mxGeometry x="550" y="20" width="700" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- LÉGENDE ACTEURS -->
+        <!-- ============================================================ -->
+        <mxCell id="legend_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F3F4F6;strokeColor=#D1D5DB;" vertex="1" parent="1">
+          <mxGeometry x="200" y="110" width="1400" height="50" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg1" value="&lt;b&gt;01 Commercial&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a56db;fontColor=#FFFFFF;strokeColor=#1a56db;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="220" y="120" width="120" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg2" value="&lt;b&gt;02 Sales&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7c3aed;fontColor=#FFFFFF;strokeColor=#7c3aed;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="360" y="120" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg3" value="&lt;b&gt;03 Delivery&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#059669;fontColor=#FFFFFF;strokeColor=#059669;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="480" y="120" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg4" value="&lt;b&gt;04 Quality&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d97706;fontColor=#FFFFFF;strokeColor=#d97706;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="120" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg5" value="&lt;b&gt;Supplier&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc2626;fontColor=#FFFFFF;strokeColor=#dc2626;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="720" y="120" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg6" value="&lt;b&gt;Customer&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0d9488;fontColor=#FFFFFF;strokeColor=#0d9488;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="840" y="120" width="100" height="30" as="geometry"/>
+        </mxCell>
+        <mxCell id="leg7" value="&lt;b&gt;Shipper&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4f46e5;fontColor=#FFFFFF;strokeColor=#4f46e5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="960" y="120" width="100" height="30" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- CUSTOMER (entrée) -->
+        <!-- ============================================================ -->
+        <mxCell id="customer_in" value="&lt;b&gt;CUSTOMER&lt;/b&gt;&lt;br&gt;&lt;br&gt;Demande&lt;br&gt;Commande" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCFBF1;strokeColor=#0d9488;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="280" width="160" height="100" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- BLOC 1 : Réception de la demande -->
+        <!-- ============================================================ -->
+        <mxCell id="bloc1_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#1a56db;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="240" width="500" height="180" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc1_header" value="&lt;b&gt;BLOC 1 — Réception de la demande&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0d9488;fontColor=#FFFFFF;strokeColor=#0d9488;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="250" width="480" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc1_actor1" value="Customer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0d9488;fontColor=#FFFFFF;strokeColor=#0d9488;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="300" width="80" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc1_actor2" value="01 Commercial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a56db;fontColor=#FFFFFF;strokeColor=#1a56db;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="300" width="100" height="26" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc1_desc" value="Le Customer envoie sa commande.&lt;br&gt;Le Commercial réceptionne et enregistre la commande." style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="335" width="460" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc1_wi" value="&lt;b&gt;📋 WI-BLOC-1 : Réception de la commande&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#1a56db;fontSize=10;fontColor=#1a56db;" vertex="1" parent="1">
+          <mxGeometry x="400" y="382" width="300" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow Customer → Bloc 1 -->
+        <mxCell id="e_cust_b1" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#0d9488;strokeWidth=2;" edge="1" source="customer_in" target="bloc1_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- BLOC 2 : Identification / Triage -->
+        <!-- ============================================================ -->
+        <mxCell id="bloc2_bg" value="" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFBEB;strokeColor=#F59E0B;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="430" y="500" width="400" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc2_title" value="&lt;b&gt;BLOC 2&lt;/b&gt;&lt;br&gt;&lt;b&gt;Identification / Triage&lt;/b&gt;" style="text;html=1;align=center;verticalAlign=middle;fillColor=none;strokeColor=none;fontSize=12;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="520" y="540" width="220" height="40" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc2_actor" value="01 Commercial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a56db;fontColor=#FFFFFF;strokeColor=#1a56db;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="545" y="585" width="100" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc2_items" value="1. Produit existant&lt;br&gt;2. Nouvel outillage&lt;br&gt;3. Modification outillage&lt;br&gt;4. Produit sourcing" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=10;fontColor=#92400E;" vertex="1" parent="1">
+          <mxGeometry x="530" y="615" width="160" height="70" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow Bloc 1 → Bloc 2 -->
+        <mxCell id="e_b1_b2" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#666666;strokeWidth=2;" edge="1" source="bloc1_bg" target="bloc2_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- BLOC 3 : Création de la fiche produit -->
+        <!-- ============================================================ -->
+        <mxCell id="bloc3_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#1a56db;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="820" width="500" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc3_header" value="&lt;b&gt;BLOC 3 — Création de la fiche produit&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a56db;fontColor=#FFFFFF;strokeColor=#1a56db;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="830" width="480" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc3_a1" value="01 Commercial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a56db;fontColor=#FFFFFF;strokeColor=#1a56db;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="878" width="100" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc3_a2" value="02 Sales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7c3aed;fontColor=#FFFFFF;strokeColor=#7c3aed;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="878" width="80" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc3_a3" value="Supplier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc2626;fontColor=#FFFFFF;strokeColor=#dc2626;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="600" y="878" width="70" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc3_a4" value="Shipper" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4f46e5;fontColor=#FFFFFF;strokeColor=#4f46e5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="680" y="878" width="70" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc3_desc" value="Commercial crée la fiche « ORDER » dans FileMaker.&lt;br&gt;• Sales échange avec Supplier pour les détails produit&lt;br&gt;• Sales échange avec Shipper pour les délais de transport" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="912" width="460" height="55" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc3_wi" value="&lt;b&gt;📋 WI-BLOC-3 : Création de la fiche ORDER&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#DBEAFE;strokeColor=#1a56db;fontSize=10;fontColor=#1a56db;" vertex="1" parent="1">
+          <mxGeometry x="400" y="975" width="300" height="28" as="geometry"/>
+        </mxCell>
+
+        <!-- SUPPLIER (external) -->
+        <mxCell id="supplier_ext" value="&lt;b&gt;SUPPLIER&lt;/b&gt;&lt;br&gt;&lt;br&gt;Détails produit&lt;br&gt;Prix &amp; délais" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#dc2626;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="860" width="150" height="80" as="geometry"/>
+        </mxCell>
+        <!-- SHIPPER (external) -->
+        <mxCell id="shipper_ext" value="&lt;b&gt;SHIPPER&lt;/b&gt;&lt;br&gt;&lt;br&gt;Délais transport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#4f46e5;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="960" width="150" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow Bloc 2 → Bloc 3 -->
+        <mxCell id="e_b2_b3" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#666666;strokeWidth=2;" edge="1" source="bloc2_bg" target="bloc3_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <!-- Arrow Bloc 3 ↔ Supplier -->
+        <mxCell id="e_b3_sup" value="échange" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#dc2626;strokeWidth=1;dashed=1;" edge="1" source="bloc3_bg" target="supplier_ext" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <!-- Arrow Bloc 3 ↔ Shipper -->
+        <mxCell id="e_b3_ship" value="échange" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#4f46e5;strokeWidth=1;dashed=1;" edge="1" source="bloc3_bg" target="shipper_ext" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- BLOC 4 : Validation avec le client -->
+        <!-- ============================================================ -->
+        <mxCell id="bloc4_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EFF6FF;strokeColor=#1a56db;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1120" width="500" height="150" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc4_header" value="&lt;b&gt;BLOC 4 — Validation avec le client&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a56db;fontColor=#FFFFFF;strokeColor=#1a56db;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1130" width="480" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc4_a1" value="01 Commercial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a56db;fontColor=#FFFFFF;strokeColor=#1a56db;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1178" width="100" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc4_a2" value="Customer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0d9488;fontColor=#FFFFFF;strokeColor=#0d9488;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="510" y="1178" width="80" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc4_desc" value="Le Commercial valide la commande avec le Customer." style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1210" width="400" height="25" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc4_reject" value="&lt;font color='#dc2626'&gt;↩ Si non validé → retour Bloc 3&lt;/font&gt;" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1238" width="250" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow Bloc 3 → Bloc 4 -->
+        <mxCell id="e_b3_b4" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#666666;strokeWidth=2;" edge="1" source="bloc3_bg" target="bloc4_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <!-- Arrow retour Bloc 4 → Bloc 3 (dashed) -->
+        <mxCell id="e_b4_b3_ret" value="non validé" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#dc2626;strokeWidth=1;dashed=1;fontColor=#dc2626;fontSize=9;" edge="1" source="bloc4_bg" target="bloc3_bg" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="340" y="1195"/>
+              <mxPoint x="340" y="930"/>
+            </Array>
+          </mxGeometry>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- BLOC 5 : Production & Contrôle -->
+        <!-- ============================================================ -->
+        <mxCell id="bloc5_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#F5F3FF;strokeColor=#7c3aed;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1350" width="500" height="240" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_header" value="&lt;b&gt;BLOC 5 — Production &amp; Contrôle&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7c3aed;fontColor=#FFFFFF;strokeColor=#7c3aed;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1360" width="480" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_a1" value="02 Sales" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#7c3aed;fontColor=#FFFFFF;strokeColor=#7c3aed;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1408" width="80" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_a2" value="Supplier" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#dc2626;fontColor=#FFFFFF;strokeColor=#dc2626;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1408" width="70" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_a3" value="04 Quality" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d97706;fontColor=#FFFFFF;strokeColor=#d97706;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="570" y="1408" width="80" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_a4" value="Shipper" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#4f46e5;fontColor=#FFFFFF;strokeColor=#4f46e5;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="660" y="1408" width="70" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_a5" value="03 Delivery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#059669;fontColor=#FFFFFF;strokeColor=#059669;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="740" y="1408" width="80" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_step1" value="1. Sales lance la production auprès du Supplier" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1445" width="460" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_step2" value="2. Supplier confirme la fin de production à Sales" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1470" width="460" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_step3" value="3. Supplier confirme le contrôle qualité à Quality" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1495" width="460" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc5_step4" value="4. Shipper confirme le transport à Delivery" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1520" width="460" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- SUPPLIER (production) -->
+        <mxCell id="supplier_prod" value="&lt;b&gt;SUPPLIER&lt;/b&gt;&lt;br&gt;&lt;br&gt;Production&lt;br&gt;Contrôle QC" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FEE2E2;strokeColor=#dc2626;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1370" width="150" height="80" as="geometry"/>
+        </mxCell>
+        <!-- SHIPPER (transport) -->
+        <mxCell id="shipper_trans" value="&lt;b&gt;SHIPPER&lt;/b&gt;&lt;br&gt;&lt;br&gt;Confirmation transport" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#EEF2FF;strokeColor=#4f46e5;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1000" y="1470" width="150" height="60" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow Bloc 4 → Bloc 5 -->
+        <mxCell id="e_b4_b5" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#666666;strokeWidth=2;" edge="1" source="bloc4_bg" target="bloc5_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <!-- Arrow Bloc 5 ↔ Supplier prod -->
+        <mxCell id="e_b5_sup" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#dc2626;strokeWidth=1;dashed=1;" edge="1" source="bloc5_bg" target="supplier_prod" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+        <!-- Arrow Bloc 5 ↔ Shipper trans -->
+        <mxCell id="e_b5_ship" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#4f46e5;strokeWidth=1;dashed=1;" edge="1" source="bloc5_bg" target="shipper_trans" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- BLOC 6 : Livraison & Clôture -->
+        <!-- ============================================================ -->
+        <mxCell id="bloc6_bg" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ECFDF5;strokeColor=#059669;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="380" y="1670" width="500" height="220" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc6_header" value="&lt;b&gt;BLOC 6 — Livraison &amp; Clôture&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#059669;fontColor=#FFFFFF;strokeColor=#059669;fontSize=13;fontStyle=1;" vertex="1" parent="1">
+          <mxGeometry x="390" y="1680" width="480" height="36" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc6_a1" value="03 Delivery" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#059669;fontColor=#FFFFFF;strokeColor=#059669;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1728" width="80" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc6_a2" value="Customer" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#0d9488;fontColor=#FFFFFF;strokeColor=#0d9488;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="490" y="1728" width="80" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc6_a3" value="01 Commercial" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#1a56db;fontColor=#FFFFFF;strokeColor=#1a56db;fontSize=10;" vertex="1" parent="1">
+          <mxGeometry x="580" y="1728" width="100" height="24" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc6_step1" value="1. Delivery confirme les délais au Customer" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1765" width="460" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc6_step2" value="2. Customer confirme la réception de marchandise au Commercial" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1790" width="460" height="22" as="geometry"/>
+        </mxCell>
+        <mxCell id="bloc6_step3" value="3. Commercial envoie la facture au Customer" style="text;html=1;align=left;verticalAlign=top;fillColor=none;strokeColor=none;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="400" y="1815" width="460" height="22" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow Bloc 5 → Bloc 6 -->
+        <mxCell id="e_b5_b6" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#666666;strokeWidth=2;" edge="1" source="bloc5_bg" target="bloc6_bg" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- CUSTOMER (sortie) -->
+        <!-- ============================================================ -->
+        <mxCell id="customer_out" value="&lt;b&gt;CUSTOMER&lt;/b&gt;&lt;br&gt;&lt;br&gt;Réception&lt;br&gt;marchandise&lt;br&gt;+ Facture" style="shape=trapezoid;perimeter=trapezoidPerimeter;whiteSpace=wrap;html=1;fixedSize=1;fillColor=#CCFBF1;strokeColor=#0d9488;fontSize=11;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="100" y="1700" width="160" height="110" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow Bloc 6 → Customer out -->
+        <mxCell id="e_b6_cust" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#0d9488;strokeWidth=2;" edge="1" source="bloc6_bg" target="customer_out" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+        <!-- ============================================================ -->
+        <!-- FIN -->
+        <!-- ============================================================ -->
+        <mxCell id="end_node" value="&lt;b&gt;FIN&lt;/b&gt;&lt;br&gt;Dossier clôturé" style="ellipse;whiteSpace=wrap;html=1;fillColor=#D1FAE5;strokeColor=#059669;fontSize=12;" vertex="1" parent="1">
+          <mxGeometry x="540" y="1960" width="180" height="80" as="geometry"/>
+        </mxCell>
+
+        <!-- Arrow Bloc 6 → End -->
+        <mxCell id="e_b6_end" style="edgeStyle=orthogonalEdgeStyle;strokeColor=#059669;strokeWidth=2;" edge="1" source="bloc6_bg" target="end_node" parent="1">
+          <mxGeometry relative="1" as="geometry"/>
+        </mxCell>
+
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
