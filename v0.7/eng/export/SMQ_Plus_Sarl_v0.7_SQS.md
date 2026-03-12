@@ -1872,7 +1872,7 @@ Nonconformity treatment follows a structured **six-step** process:
 |--------------------------------------|------------------------------------------------------------------|--------------------|-------------|
 | NC detection                         | Identification during an inspection, audit, complaint or internal control | Any role   | Immediate   |
 | Registration                         | Opening a nonconformity sheet with factual description           | Quality Role       | 24 hours    |
-| Unique number assignment             | Sequential reference NC-YYYY-NNN (e.g.: NC-2026-001)            | Quality Role       | 24 hours    |
+| Unique number assignment             | Sequential reference NC-2026-001 (e.g.: NC-2026-001)            | Quality Role       | 24 hours    |
 | Initial classification               | Categorization according to the severity grid                    | Quality Role       | 24 hours    |
 
 #### Step 2: Immediate action (containment)
@@ -3830,7 +3830,7 @@ This process interacts with all QMS processes and directly feeds the management 
 
 The nonconformity processing follows the 6-step process defined in MQ_10:
 
-1. **Detection and recording** -- Opening NC sheet (NC-YYYY-NNN)
+1. **Detection and recording** -- Opening NC sheet (NC-2026-001)
 2. **Immediate action** -- Isolation, notification, securing
 3. **Root cause analysis** -- Five Whys, Ishikawa, cause tree
 4. **Corrective actions** -- Definition, validation, implementation
